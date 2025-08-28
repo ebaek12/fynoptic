@@ -550,3 +550,80 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+// app.js
+let googleInFlight = false;
+
+function wire(btn) {
+  if (!btn || btn.dataset.armed) return; // avoid double-listening
+  btn.dataset.armed = "1";
+  btn.addEventListener('click', () => {
+    if (googleInFlight) return;          // prevent concurrent popups
+    googleInFlight = true;
+    btn.disabled = true;
+
+    const run = async () => {
+      await window.authUI.loginWithGoogle();
+      // close whichever modal is open
+      document.getElementById('login-modal')?.setAttribute('hidden','');
+      document.getElementById('signup-modal')?.setAttribute('hidden','');
+    };
+
+    run().catch(err => {
+      // Friendly messages for common popup issues
+      if (err?.code === 'auth/popup-blocked') {
+        alert('Popup was blocked. Allow popups for this site.');
+      } else if (err?.code === 'auth/popup-closed-by-user') {
+        // user closed it — optional toast
+      } else if (err?.code !== 'auth/cancelled-popup-request') {
+        alert(err.message || 'Google sign-in failed');
+      }
+    }).finally(() => {
+      googleInFlight = false;
+      btn.disabled = false;
+    });
+  });
+}
+
+window.addEventListener('auth-ready', () => {
+  wire(document.getElementById('google-login'));
+  wire(document.getElementById('google-signup'));
+}, { once: true });
+// Mobile "waffle" nav
+(() => {
+  const btn  = document.getElementById('nav-toggle');
+  const menu = document.getElementById('mobile-menu');
+
+  if (!btn || !menu) return;
+
+  const openMenu = () => {
+    btn.setAttribute('aria-expanded', 'true');
+    menu.hidden = false;
+    document.body.classList.add('no-scroll');
+    // move focus to the first link for a11y
+    const firstLink = menu.querySelector('a, button');
+    firstLink && firstLink.focus();
+  };
+
+  const closeMenu = () => {
+    btn.setAttribute('aria-expanded', 'false');
+    menu.hidden = true;
+    document.body.classList.remove('no-scroll');
+    btn.focus();
+  };
+
+  btn.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    expanded ? closeMenu() : openMenu();
+  });
+
+  // close on ESC
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !menu.hidden) closeMenu();
+  });
+
+  // close when a menu link is clicked
+  menu.addEventListener('click', (e) => {
+    const el = e.target;
+    if (el.matches('a[href], button')) closeMenu();
+  });
+})();

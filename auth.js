@@ -44,7 +44,7 @@ window.authUI = {
   },
   logout: () => signOut(auth)
 };
-
+window.dispatchEvent(new Event('auth-ready'));
 // 🔁 Update UI on login state
 onAuthStateChanged(auth, user => {
   const userBtn = document.getElementById('user-btn');
@@ -67,3 +67,4 @@ onAuthStateChanged(auth, user => {
     userBtn.onclick = null;
   }
 });
+window.dispatchEvent(new Event('auth-ready'));

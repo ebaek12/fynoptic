@@ -2579,3 +2579,52 @@ button[disabled], button[aria-disabled="true"] { opacity: .6; cursor: not-allowe
   .video-overlay .play{ width: 72px; height: 72px; }
   .video-overlay svg{ width: 32px; height: 32px; }
 }
+/* --- Waffle toggle --- */
+.nav-toggle{
+  display:none;              /* default hidden on desktop */
+  width:40px; height:40px;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:10px;
+  background: rgba(255,255,255,.06);
+  place-items:center;
+  gap:4px;
+  padding:6px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.nav-toggle .dot{
+  width:6px; height:6px; border-radius:50%;
+  background: currentColor; opacity:.9;
+}
+.nav-toggle[aria-expanded="true"]{ outline:2px solid var(--primary-600); }
+
+/* --- Mobile drawer --- */
+.mobile-menu[hidden] { display: none !important; }   /* <- important fix */
+.mobile-menu{
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  padding: 88px clamp(16px,4vw,24px) 24px;
+  background:
+    radial-gradient(1200px 600px at 20% -10%, rgba(63,106,255,.35), transparent 60%),
+    radial-gradient(1000px 600px at 80% 0%, rgba(34,209,178,.25), transparent 60%),
+    var(--brand-950);
+  overflow-y: auto;
+}
+
+.mobile-menu ul{
+  display: grid;
+  gap: 1rem;
+}
+.mobile-menu a{
+  font-size: 1.125rem;
+}
+
+/* prevent background scroll when menu is open */
+.no-scroll { overflow: hidden; }
+
+/* --- Responsive header behavior --- */
+@media (max-width: 768px){
+  .nav-links{ display:none; }         /* hide desktop links */
+  .nav-toggle{ display:grid; }        /* show waffle */
+  .cta-desktop{ display:none; }       /* hide header CTA; keep CTA in drawer */
+}

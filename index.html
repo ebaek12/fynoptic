@@ -25,9 +25,18 @@
         <img src="/assets/logo-financefirst.svg" alt="FinanceFirst logo" />
       </a>
 
-      <button class="nav-toggle" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
-        ☰
-      </button>
+<!-- inside <nav class="nav container"> -->
+  <button id="nav-toggle"
+  class="nav-toggle"
+  aria-label="Open menu"
+  aria-controls="mobile-menu"
+  aria-expanded="false">
+<!-- 9-dot “waffle” -->
+<span aria-hidden="true" class="dot"></span><span class="dot"></span><span class="dot"></span>
+<span class="dot"></span><span class="dot"></span><span class="dot"></span>
+<span class="dot"></span><span class="dot"></span><span class="dot"></span>
+</button>
+
 
       <ul class="nav-links" id="desktop-nav">
         <li><a href="courses.html">Course</a></li>
@@ -51,13 +60,13 @@
 
     <div id="mobile-menu" class="mobile-menu" hidden>
       <ul>
-        <li><a href="#course">Course</a></li>
+        <li><a href="courses.html">Course</a></li>
         <li><a href="bot.html">Fix-it Bot</a></li>
         <li><a href="articles.html">Articles</a></li>
         <li><a href="#newsroom">Student Newsroom</a></li>
         <li><a href="#newsletter">Newsletter</a></li>
         <li><a href="#report">Report</a></li>
-        <li><a href="#course" class="btn btn-primary" data-track="cta_click">Start the free course</a></li>
+        <li><a href="courses.html" class="btn btn-primary" data-track="cta_click">Start the free course</a></li>
       </ul>
     </div>
   </header>
@@ -286,9 +295,9 @@
   <script type="application/ld+json">
     { "@context": "https://schema.org", "@type": "Course", "name": "FinanceFirst Core Modules", "provider": { "@type": "Organization", "name": "FinanceFirst" } }
   </script>
-  <script defer src="app.js"></script>
 
-window.dispatchEvent(new Event('auth-ready'));
+
+
 
 </body>
 </html>
