@@ -1,0 +1,304 @@
+{
+    "items": [
+      {
+        "id": "dp_post_01",
+        "stem": "Chat support disconnects repeatedly and email replies go unanswered; you used chat twice. Which documented next step preserves leverage?",
+        "options": [
+          "Keep trying chat until a different agent completes the request.",
+          "Call the merchant’s sales line and take notes of the call outcome.",
+          "Send a dated email with the concise cancellation request, attach chat screenshots, and set a short deadline.",
+          "File a card dispute immediately without first sending a written request."
+        ],
+        "answer_index": 2,
+        "rationale": "Use the required channel once, then issue a dated written request with proof and a deadline; disputes follow if ignored."
+      },
+      {
+        "id": "dp_post_02",
+        "stem": "You unchecked a warranty but the post-purchase receipt includes it. Which combination best supports a refund?",
+        "options": [
+          "Screenshot of the cart showing the warranty unchecked plus the final receipt showing the charge.",
+          "A photo of the delivered box with product stickers visible.",
+          "A merchant policy page about warranties without your cart evidence.",
+          "Your bank log showing the charge but no cart evidence."
+        ],
+        "answer_index": 0,
+        "rationale": "Before/after cart screenshots plus receipt connect your intent to the final charge."
+      },
+      {
+        "id": "dp_post_03",
+        "stem": "The cancel confirmation page uses guilt wording: “Only quitters cancel.” What is the correct immediate consumer action?",
+        "options": [
+          "Write a public complaint about the copy to pressure the company.",
+          "Click the most obvious button to avoid confrontation.",
+          "Complete the cancellation path, capture the confirmation, and archive it.",
+          "Call support to register your emotional objection to the copy."
+        ],
+        "answer_index": 2,
+        "rationale": "Ignore persuasive copy; document the cancellation confirmation to prove the action."
+      },
+      {
+        "id": "dp_post_04",
+        "stem": "The merchant requires account creation to retrieve a single invoice. What’s the least risky first sequence?",
+        "options": [
+          "Create the account and proceed with no further action.",
+          "Request the invoice by email first; if refused, create an account and document the refusal.",
+          "Abandon the invoice and look for alternate merchants.",
+          "Call your bank to request the invoice on your behalf."
+        ],
+        "answer_index": 1,
+        "rationale": "Seek the non-account route first; creating an account only after refusal preserves a record of obstruction."
+      },
+      {
+        "id": "dp_post_05",
+        "stem": "The gym accepts cancellations only in person during business hours and you have one available visit this week. What combination gives best protection?",
+        "options": [
+          "Verbally tell staff you’re canceling and rely on their confirmation.",
+          "Hand over a dated written cancellation request, photograph the submission, and email the same content that day.",
+          "Take a witness friend but no photo or email follow-up.",
+          "Leave a voicemail for management describing your intent to cancel."
+        ],
+        "answer_index": 1,
+        "rationale": "Dated handover + photo + same-day email creates a robust time-stamped trail."
+      },
+      {
+        "id": "dp_post_06",
+        "stem": "A page places “Keep plan” in a bright color and “Cancel” in faint text. Before interacting, you should:",
+        "options": [
+          "Click the prominent button to avoid confusion and then investigate.",
+          "Use keyboard navigation or developer tools to select cancel, screenshot before and after, then proceed.",
+          "Stop and call support to ask them to cancel for you.",
+          "Refresh the page until the layout changes to something clearer."
+        ],
+        "answer_index": 1,
+        "rationale": "Keyboard selection and screenshots prevent being misled by visual emphasis and document the interface."
+      },
+      {
+        "id": "dp_post_07",
+        "stem": "A seller advertises “123 people viewed this in the last hour.” You’re unsure whether it’s real. Practical next move?",
+        "options": [
+          "Trust the claim and purchase immediately to avoid loss.",
+          "Check price/stock on other sellers and decide based on those comparisons.",
+          "Ask support to provide proof of the statistic before buying.",
+          "Add to cart and wait several hours to see if the number drops."
+        ],
+        "answer_index": 1,
+        "rationale": "Independent price/stock comparison avoids being nudged by manufactured social proof."
+      },
+      {
+        "id": "dp_post_08",
+        "stem": "You can’t find a cancel link because “Manage plan” hides multiple options. How do you proceed to secure cancellation?",
+        "options": [
+          "Give up and accept the default manage options.",
+          "Search for explicit terms like “cancel” or “terminate,” then send a dated cancellation email with account ID.",
+          "Post a negative review to force the company to respond.",
+          "Create a new account and stop using the old one."
+        ],
+        "answer_index": 1,
+        "rationale": "Exact-term search followed by a dated written request ensures your cancellation is documented even when UI is opaque."
+      },
+      {
+        "id": "dp_post_09",
+        "stem": "You returned a package with tracking showing delivered, but the merchant lists “refund pending.” What should your escalation message include?",
+        "options": [
+          "“Please hurry; the return was delivered.”",
+          "Tracking number, delivery date, quoted refund policy, your request, and a clear refund-by date.",
+          "A demand for store credit only to speed closure.",
+          "A vague request asking when the refund might appear."
+        ],
+        "answer_index": 1,
+        "rationale": "Evidence + policy + deadline is precise and actionable for merchant or platform review."
+      },
+      {
+        "id": "dp_post_10",
+        "stem": "You turned off marketing in account settings but still receive emails. Which evidence best proves you changed settings?",
+        "options": [
+          "The merchant’s general privacy policy screenshot.",
+          "Before-and-after screenshots of your account settings showing the change with your account ID visible.",
+          "A screenshot of the email in your inbox without settings context.",
+          "A copy of your original signup confirmation email."
+        ],
+        "answer_index": 1,
+        "rationale": "Before/after account settings tied to your ID directly show the change was made."
+      },
+      {
+        "id": "dp_post_11",
+        "stem": "After declining notifications multiple times, the app still nags you. Which combined action best stops it?",
+        "options": [
+          "Keep declining popups until they stop.",
+          "Turn off OS-level notifications for the app and change marketing consents in profile settings.",
+          "Uninstall and reinstall the app daily to reset settings.",
+          "Email support to ask them to stop sending prompts."
+        ],
+        "answer_index": 1,
+        "rationale": "OS-level block plus profile changes are effective and immediate."
+      },
+      {
+        "id": "dp_post_12",
+        "stem": "A marketplace seller refuses refund and the marketplace has a dispute process. What escalation order preserves leverage and speed?",
+        "options": [
+          "File a card dispute first and notify the marketplace later.",
+          "Open a marketplace dispute with evidence, then file a card dispute if SLA is missed.",
+          "Publicly post the evidence then open a dispute to pressure them.",
+          "Keep emailing the seller until they respond."
+        ],
+        "answer_index": 1,
+        "rationale": "Platform dispute uses marketplace enforcement; card disputes remain a backup if platform remedies fail."
+      },
+      {
+        "id": "dp_post_13",
+        "stem": "Which short cancellation email is clearest and most enforceable?",
+        "options": [
+          "“Cancel my account when you have time; thanks.”",
+          "“I request immediate cancellation of account [ID] as of [YYYY-MM-DD]; please confirm in writing.”",
+          "“Please pause my service while I decide what to do.”",
+          "“I think I want to cancel later this week.”"
+        ],
+        "answer_index": 1,
+        "rationale": "Dated, explicit cancellation plus written confirmation request is direct and actionable."
+      },
+      {
+        "id": "dp_post_14",
+        "stem": "You canceled by phone but the agent refuses to email confirmation. Your best documentation step after the call is:",
+        "options": [
+          "Rely on the verbal confirmation and stop there.",
+          "Send an immediate follow-up email summarizing the call, date/time, agent name, and the cancellation request.",
+          "Record the call secretly and post it.",
+          "Call back repeatedly until someone provides a written number."
+        ],
+        "answer_index": 1,
+        "rationale": "Post-call email documents the conversation and places the burden on the merchant to confirm."
+      },
+      {
+        "id": "dp_post_15",
+        "stem": "Which filename best follows a consistent proof convention for an August 17 cancellation via chat?",
+        "options": [
+          "proof.png",
+          "20250817_Merchant_chat_cancel_account123.png",
+          "image1_screenshot.png",
+          "cancelstuff.docx"
+        ],
+        "answer_index": 1,
+        "rationale": "A dated, platform-specific, action-labeled filename keeps evidence organized and searchable."
+      },
+      {
+        "id": "dp_post_16",
+        "stem": "You cancel midway through a billing cycle; merchant offers store credit but policy shows prorated refunds. Best initial response?",
+        "options": [
+          "Accept store credit because it is faster.",
+          "Quote the merchant’s proration policy, attach proof of cancellation date, and request a prorated refund.",
+          "Threaten chargeback immediately to get money back.",
+          "Wait until the next cycle and then complain again."
+        ],
+        "answer_index": 1,
+        "rationale": "Policy echo and proof-first resolution is the correct first step before escalation."
+      },
+      {
+        "id": "dp_post_17",
+        "stem": "Your cart showed no add-on but the receipt includes one. Which evidence package most likely secures a refund?",
+        "options": [
+          "A copy of the merchant’s homepage.",
+          "Screenshot of cart before payment showing no add-on, plus the receipt showing the charged add-on.",
+          "A photo of the delivered item in your home.",
+          "A screenshot of a later email advertising add-ons."
+        ],
+        "answer_index": 1,
+        "rationale": "Cart + receipt shows the mismatch between intended purchase and charged amount."
+      },
+      {
+        "id": "dp_post_18",
+        "stem": "App store denies your refund and the merchant won’t cooperate. With strong evidence, what next?",
+        "options": [
+          "File a card dispute immediately and skip platform escalation.",
+          "File a formal complaint through the platform’s dispute process, then use card dispute if platform SLA passes.",
+          "Threaten to sue the merchant publicly for bad faith.",
+          "Ask for store credit again but accept partial remedy."
+        ],
+        "answer_index": 1,
+        "rationale": "Platform enforcement should be used first where available; card disputes follow if platform fails."
+      },
+      {
+        "id": "dp_post_19",
+        "stem": "You canceled at 23:59 but the service auto-renewed at 00:00; charge posted. Best immediate defense?",
+        "options": [
+          "Accept the charge and give up.",
+          "Produce timestamped cancellation evidence and request a refund citing the renewal cutoff.",
+          "Demand punitive damages for one hour difference.",
+          "Wait two billing cycles and then reopen the issue."
+        ],
+        "answer_index": 1,
+        "rationale": "Timestamped cancellation proof before renewal is your strongest immediate claim."
+      },
+      {
+        "id": "dp_post_20",
+        "stem": "The cancel flow offers “Pause” repeatedly. Which short reply best rejects the trap and forces closure?",
+        "options": [
+          "“Please pause my subscription for 30 days and report back.”",
+          "“I request immediate cancellation of account [ID] as of [YYYY-MM-DD]; confirm no further charges.”",
+          "“What is the difference exactly between pause and cancel?”",
+          "“I might cancel next month; hold my spot.”"
+        ],
+        "answer_index": 1,
+        "rationale": "Clear, dated cancellation language avoids ambiguity and demands written confirmation."
+      },
+      {
+        "id": "dp_post_21",
+        "stem": "When reporting to a regulator or platform, which four elements create the most compact, actionable escalation pack?",
+        "options": [
+          "Emotional complaint, screenshots, rough dates, and mention of lost time.",
+          "Page screenshots showing UI, receipt showing charged price, account/plan ID, and dated attempt proof.",
+          "A single bank screenshot with the charge highlighted.",
+          "A long narrative of your experience without supporting documents."
+        ],
+        "answer_index": 1,
+        "rationale": "Page + price + plan + proof is compact, specific, and actionable for reviewers."
+      },
+      {
+        "id": "dp_post_22",
+        "stem": "Agent refuses to give a reference number during cancellation call. Best follow-up action to preserve leverage?",
+        "options": [
+          "Hang up and do nothing further.",
+          "Send a follow-up email summarizing call details (date/time, agent name, requested action) and ask for written confirmation.",
+          "Immediately start a social media campaign to shame them.",
+          "Call back repeatedly until a different agent gives a number."
+        ],
+        "answer_index": 1,
+        "rationale": "A post-call email documents the interaction and requests confirmation regardless of an agent number."
+      },
+      {
+        "id": "dp_post_23",
+        "stem": "You find the marketing opt-out buried under “Advanced settings.” Fastest reliable remedy?",
+        "options": [
+          "Abandon the account and accept future emails.",
+          "Use the site search for “marketing” or “communications,” toggle opt-out, screenshot the change, and archive it.",
+          "Email support asking them to opt you out and hope they comply.",
+          "Change your email address to a new one and ignore old messages."
+        ],
+        "answer_index": 1,
+        "rationale": "Direct setting change plus screenshot is immediate and provable."
+      },
+      {
+        "id": "dp_post_24",
+        "stem": "Merchant and platform routes failed and marketplace SLA elapsed. You have a complete evidence pack. Which immediate formal step is appropriate?",
+        "options": [
+          "Post the full evidence online to pressure the company and hope for action.",
+          "File a chargeback with your card issuer including the evidence and timeline.",
+          "Keep emailing the merchant and platform hoping for a late reply.",
+          "Accept store credit to close the case faster."
+        ],
+        "answer_index": 1,
+        "rationale": "After merchant/platform fail, card disputes are the formal remedy to recover funds."
+      },
+      {
+        "id": "dp_post_25",
+        "stem": "Your card shows an extra recurring charge with a slightly different merchant name despite chat logs proving opt-out. Best escalation sequence?",
+        "options": [
+          "Immediately cancel your card and do nothing else.",
+          "Compile the receipt, card charges, and chat logs; send a concise demand for refund with a deadline and escalate to platform then card dispute if ignored.",
+          "Post the chat logs on public forums to force a quick refund.",
+          "Wait a billing cycle and then try to negotiate for store credit."
+        ],
+        "answer_index": 1,
+        "rationale": "Compile evidence, demand remediation, then escalate through platform and payment rails if unresolved."
+      }
+    ]
+  }

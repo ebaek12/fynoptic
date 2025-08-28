@@ -1,0 +1,12 @@
+{
+    "items": [
+      {
+        "id": "id1",
+        "vignette": "Cancel is grey on grey; Pause is large; confirmation relabels buttons.",
+        "options": ["Obstruction","Interface interference","Sneaking","Confirmshaming"],
+        "answer_index": 1,
+        "countermove": "Use keyboard to pick the correct control; capture before/after; verify in settings.",
+        "rationale": "Visual weight and label shifts steer choice."
+      }
+    ]
+  }

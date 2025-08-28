@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FinanceFirst helps consumers spot and stop predatory fees, dark patterns, and subscription traps—before they hit your wallet." />
+  <meta name="theme-color" content="#0B1220" />
+  <meta property="og:title" content="FinanceFirst" />
+  <meta property="og:description" content="Know the playbook. Beat the traps." />
+  <meta property="og:image" content="/assets/logo-financefirst.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="/" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>FinanceFirst – Know the playbook. Beat the traps.</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" role="banner">
+    <nav class="nav container" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="logo" aria-label="FinanceFirst Home">
+        <img src="/assets/logo-financefirst.svg" alt="FinanceFirst logo" />
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="desktop-nav">
+        <li><a href="courses.html">Course</a></li>
+        <li><a href="bot.html">Fix-it Bot</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="#newsroom">Student Newsroom</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#report">Report</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="courses.html" class="btn btn-primary cta-desktop" data-track="cta_click">Start the free course</a>
+        <button id="user-btn" class="user-icon" aria-label="User menu" data-modal-open="login-modal">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+            <circle cx="12" cy="8" r="4"></circle>
+            <path d="M4 20c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <ul>
+        <li><a href="#course">Course</a></li>
+        <li><a href="bot.html">Fix-it Bot</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="#newsroom">Student Newsroom</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#report">Report</a></li>
+        <li><a href="#course" class="btn btn-primary" data-track="cta_click">Start the free course</a></li>
+      </ul>
+    </div>
+  </header>
+  <main id="main">
+    <!-- Hero -->
+    <section class="courses-hero" aria-labelledby="courses-hero-title">
+      <div class="courses-hero-bg" aria-hidden="true">
+        <img src="/assets/texture-noise.svg" alt="" role="img" aria-hidden="true" />
+        <div class="c-orb c-orb--blue"></div>
+        <div class="c-orb c-orb--teal"></div>
+        <div class="c-ring c-ring--1"></div>
+        <div class="c-ring c-ring--2"></div>
+      </div>
+
+      <div class="container">
+        <h1 id="courses-hero-title">Courses & Certifications</h1>
+        <p class="courses-hero-sub">Clear, practical, student-friendly modules—built to certify real skills. Finish the steps, pass the assessment, earn your badge.</p>
+        <div class="courses-hero-cta">
+          <a class="btn btn-primary" href="#catalog" data-track="cta_click">Browse catalog</a>
+          <a class="btn btn-ghost" href="/#articles">Study with guides</a>
+        </div>
+
+        <div class="courses-hero-metrics">
+          <div class="c-metric">
+            <div class="c-metric__num">4</div>
+            <div class="c-metric__label">Courses planned</div>
+          </div>
+          <div class="c-metric">
+            <div class="c-metric__num">80<span class="c-unit">min</span></div>
+            <div class="c-metric__label">Flagship duration</div>
+          </div>
+          <div class="c-metric">
+            <div class="c-metric__num">✔︎</div>
+            <div class="c-metric__label">Certificate on completion</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catalog -->
+    <section id="catalog" class="courses-catalog container" aria-labelledby="catalog-title">
+      <h2 id="catalog-title" class="fade-up">Available courses</h2>
+      <p class="catalog-note fade-up">Progress saves to your device. Certification requires completing all sections and meeting assessment thresholds.</p>
+
+      <div class="courses-grid">
+        <!-- Course 1 (live) -->
+        <article class="course-card fade-up" data-course-id="dark-patterns">
+          <header class="course-card__head">
+            <span class="badge badge--grad" aria-label="Certified course">Certified</span>
+            <h3 class="course-card__title">Dark Patterns—Spot Them, Stop Them</h3>
+            <p class="course-card__meta">Audience: teens → adults · Duration: ~80 minutes · No prereqs</p>
+          </header>
+
+          <ul class="course-criteria">
+            <li>Post-assessment ≥ 80% (12 scored items)</li>
+            <li>Submit a one-page “Risk Audit”</li>
+            <li>Badge: “Dark Pattern Spotter”</li>
+          </ul>
+
+          <!-- Stepper (pre-quiz → modules → post-quiz) -->
+          <ol class="course-stepper" aria-label="Course sections">
+            <li class="step is-unlocked">
+              <span class="dot" aria-hidden="true"></span><span>Pre-quiz</span>
+            </li>
+            <li class="step is-locked">
+              <span class="dot" aria-hidden="true"></span><span>Module 1</span>
+            </li>
+            <li class="step is-locked">
+              <span class="dot" aria-hidden="true"></span><span>Module 2</span>
+            </li>
+            <li class="step is-locked">
+              <span class="dot" aria-hidden="true"></span><span>Module 3</span>
+            </li>
+            <li class="step is-locked">
+              <span class="dot" aria-hidden="true"></span><span>Module 4</span>
+            </li>
+            <li class="step is-locked">
+              <span class="dot" aria-hidden="true"></span><span>Post-quiz</span>
+            </li>
+          </ol>
+
+          <!-- Progress -->
+          <div class="course-progress" role="img" aria-label="Progress 0 percent">
+            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <span class="progress-fill" style="--p: 0%"></span>
+            </div>
+            <div class="progress-meta">
+              <span class="progress-count"><strong>0</strong>/6 sections</span>
+              <span class="progress-status">Not started</span>
+            </div>
+          </div>
+
+          <footer class="course-card__actions">
+            <a class="btn btn-primary" href="courseone.html" data-track="cta_click" aria-label="Open course Dark Patterns—Spot Them, Stop Them">Open course</a>
+            <a class="btn btn-ghost" href="/#newsletter">Get reminders</a>
+          </footer>
+        </article>
+
+        <!-- Course 2 (placeholder) -->
+        <article class="course-card course-card--soon fade-up" aria-describedby="soon-2">
+          <header class="course-card__head">
+            <span class="badge">Coming soon</span>
+            <h3 class="course-card__title">Course 2</h3>
+            <p id="soon-2" class="course-card__meta">Placeholder course · Details announced</p>
+          </header>
+          <div class="soon-mask" aria-hidden="true">
+            <span>Coming soon</span>
+          </div>
+          <footer class="course-card__actions">
+            <a class="btn btn-ghost" aria-disabled="true">Preview unavailable</a>
+          </footer>
+        </article>
+
+        <!-- Course 3 (placeholder) -->
+        <article class="course-card course-card--soon fade-up" aria-describedby="soon-3">
+          <header class="course-card__head">
+            <span class="badge">Coming soon</span>
+            <h3 class="course-card__title">Course 3</h3>
+            <p id="soon-3" class="course-card__meta">Placeholder course · Details announced</p>
+          </header>
+          <div class="soon-mask" aria-hidden="true">
+            <span>Coming soon</span>
+          </div>
+          <footer class="course-card__actions">
+            <a class="btn btn-ghost" aria-disabled="true">Preview unavailable</a>
+          </footer>
+        </article>
+
+        <!-- Course 4 (placeholder) -->
+        <article class="course-card course-card--soon fade-up" aria-describedby="soon-4">
+          <header class="course-card__head">
+            <span class="badge">Coming soon</span>
+            <h3 class="course-card__title">Course 4</h3>
+            <p id="soon-4" class="course-card__meta">Placeholder course · Details announced</p>
+          </header>
+          <div class="soon-mask" aria-hidden="true">
+            <span>Coming soon</span>
+          </div>
+          <footer class="course-card__actions">
+            <a class="btn btn-ghost" aria-disabled="true">Preview unavailable</a>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <!-- How certification works -->
+    <section class="how-cert container" aria-labelledby="how-cert-title">
+      <h2 id="how-cert-title" class="fade-up">How certification works</h2>
+      <div class="how-grid">
+        <div class="how card fade-up">
+          <div class="how__icon" aria-hidden="true">1</div>
+          <h3>Learn</h3>
+          <p>Short videos + focused reading. Keyboard-friendly, transcripts included.</p>
+        </div>
+        <div class="how card fade-up">
+          <div class="how__icon" aria-hidden="true">2</div>
+          <h3>Check</h3>
+          <p>Pass the assessment (≥ 80%). Immediate feedback and review links.</p>
+        </div>
+        <div class="how card fade-up">
+          <div class="how__icon" aria-hidden="true">3</div>
+          <h3>Prove</h3>
+          <p>Generate a one-page Risk Audit. Download your badge and certificate.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <img src="/assets/logo-financefirst.svg" alt="FinanceFirst logo" class="footer-logo" />
+        <p class="footer-tagline">Helping you spot &amp; stop predatory fees, dark patterns, and subscription traps.</p>
+      </div>
+      <div class="footer-links">
+        <a href="/#course">Course</a>
+        <a href="/#articles">Articles</a>
+        <a href="/#newsroom">Student Newsroom</a>
+        <a href="/#newsletter">Newsletter</a>
+        <a href="/#report">Report</a>
+      </div>
+      <div class="footer-contact">
+        <p>📬 <a href="mailto:hello@financefirst.org">hello@financefirst.org</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="yy">2025</span> FinanceFirst. Educational content. Not legal advice.</p>
+    </div>
+  </footer>
+
+  <!-- Minimal inline to set year without extra JS files -->
+  <script>
+    (function(){try{document.getElementById('yy').textContent = new Date().getFullYear();}catch(e){}})();
+  </script>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"ItemList",
+      "name":"FinanceFirst Courses",
+      "itemListElement":[
+        {
+          "@type":"Course",
+          "position":1,
+          "name":"Dark Patterns—Spot Them, Stop Them",
+          "description":"Identify common dark patterns and respond with fast, effective counter-moves and documentation.",
+          "provider":{"@type":"Organization","name":"FinanceFirst","url":"https://financefirst.org"}
+        }
+      ]
+    }
+  </script>
+</body>
+</html>

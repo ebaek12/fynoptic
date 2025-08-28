@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FinanceFirst helps consumers spot and stop predatory fees, dark patterns, and subscription traps—before they hit your wallet." />
+    <meta name="theme-color" content="#0B1220" />
+    <meta property="og:title" content="FinanceFirst" />
+    <meta property="og:description" content="Know the playbook. Beat the traps." />
+    <meta property="og:image" content="/assets/logo-financefirst.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="index.html" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>FinanceFirst – Know the playbook. Beat the traps.</title>
+  </head>
+<body class="bot-page">
+  <header class="header" role="banner">
+    <nav class="nav container" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="logo" aria-label="FinanceFirst Home">
+        <img src="/assets/logo-financefirst.svg" alt="FinanceFirst logo" />
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="desktop-nav">
+        <li><a href="courses.html">Course</a></li>
+        <li><a href="bot.html">Fix-it Bot</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="#newsroom">Student Newsroom</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#report">Report</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#course" class="btn btn-primary cta-desktop" data-track="cta_click">Start the free course</a>
+        <button id="user-btn" class="user-icon" aria-label="User menu" data-modal-open="login-modal">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+            <circle cx="12" cy="8" r="4"></circle>
+            <path d="M4 20c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <ul>
+        <li><a href="#course">Course</a></li>
+        <li><a href="#bot">Fix-it Bot</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#newsroom">Student Newsroom</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#report">Report</a></li>
+        <li><a href="#course" class="btn btn-primary" data-track="cta_click">Start the free course</a></li>
+      </ul>
+    </div>
+  </header>
+  
+  
+
+  <main class="chat-shell">
+    <!-- Animated ambient background -->
+    <div class="chat-bg">
+      <img src="/assets/texture-noise.svg" alt="" aria-hidden="true" />
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+    </div>
+  
+    <!-- Chat UI -->
+    <section class="chat-area container">
+      <div class="chat-title">
+        <h1>Fix-it Bot</h1>
+        <p class="chat-subtext">Tell me what’s happening — subscriptions, chargebacks, late fees — and I’ll guide you.</p>
+      </div>
+  
+      <div id="chat-window" class="chat-window">
+        <div class="bot-bubble intro">👋 Hi! How can I help you today?</div>
+      </div>
+  
+      <form id="chat-form" class="chat-form">
+        <input type="text" id="user-input" placeholder="Type your issue…" autocomplete="off" required />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  
+
+  <script src="bot.js" defer></script>
+</body>
+</html>

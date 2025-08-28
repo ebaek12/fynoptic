@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Read FinanceFirst articles & guides to spot and stop predatory fees, dark patterns, and subscription traps." />
+  <meta name="theme-color" content="#0B1220" />
+
+  <meta property="og:title" content="Articles & Guides — FinanceFirst" />
+  <meta property="og:description" content="Know the playbook. Beat the traps." />
+  <meta property="og:image" content="/assets/logo-financefirst.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="/articles.html" />
+
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <title>Articles & Guides — FinanceFirst</title>
+</head>
+<body class="articles-shell">
+
+
+  <!-- Header -->
+  <header class="header" role="banner">
+    <nav class="nav container" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="logo" aria-label="FinanceFirst Home">
+        <img src="/assets/logo-financefirst.svg" alt="FinanceFirst logo" />
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">☰</button>
+
+      <ul class="nav-links" id="desktop-nav">
+        <li><a href="courses.html">Course</a></li>
+        <li><a href="bot.html">Fix-it Bot</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="#newsroom">Student Newsroom</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#report">Report</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="/course.html" class="btn btn-primary" data-track="cta_click">Start the free course</a>
+      </div>
+    </nav>
+
+    <!-- optional mobile sheet; hide if you don't use -->
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <ul>
+        <li><a href="/#course">Course</a></li>
+        <li><a href="/bot.html">Fix-it Bot</a></li>
+        <li><a href="/#articles">Articles</a></li>
+        <li><a href="/#newsroom">Student Newsroom</a></li>
+        <li><a href="/#newsletter">Newsletter</a></li>
+        <li><a href="/#report">Report</a></li>
+        <li><a href="/course.html" class="btn btn-primary" data-track="cta_click">Start the free course</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="articles-hero container">
+      <h1>Articles & Guides</h1>
+      <p>Clear, student-friendly explainers to help you spot junk fees, avoid dark patterns, and act with confidence.</p>
+
+      <!-- Controls -->
+      <div class="controls">
+        <div class="controls-row">
+          <div class="search-wrap" role="search" aria-label="Search articles">
+            <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" opacity=".8" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79L19 21.5 21.5 19l-6-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            <input id="search-input" type="search" placeholder="Search titles, blurbs, tags…" aria-describedby="search-hint" autocomplete="off" />
+            <span id="search-hint" class="kbd">/</span>
+          </div>
+
+          <div class="filters" role="group" aria-label="Filter by tag">
+            <button class="chip is-active" data-tag="all">All</button>
+            <button class="chip" data-tag="Subscriptions">Subscriptions</button>
+            <button class="chip" data-tag="Fees">Fees</button>
+            <button class="chip" data-tag="BNPL">BNPL</button>
+            <button class="chip" data-tag="Disputes">Disputes</button>
+            <button class="chip" data-tag="Privacy">Privacy</button>
+          </div>
+
+          <div class="sort">
+            <label for="sort-select" class="sr-only">Sort</label>
+            <select id="sort-select" aria-label="Sort articles">
+              <option value="new">Newest</option>
+              <option value="old">Oldest</option>
+              <option value="read">Shortest read</option>
+            </select>
+            <span class="result-count" id="result-count" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Grid -->
+    <section class="container" aria-label="Article results">
+      <div id="articles-grid" class="articles-grid" data-page="0"></div>
+      <div id="empty-state" class="card" style="display:none; text-align:center;">
+        <h3>No results</h3>
+        <p class="art-meta">Try a different search or clear filters.</p>
+        <div style="margin-top:.5rem;">
+          <button id="clear-filters" class="btn btn-ghost">Clear filters</button>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:1rem;">
+        <button id="load-more" class="btn btn-ghost" aria-label="Load more articles">Load more</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Reader Modal -->
+  <div id="reader-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="reader-title">
+    <div class="dialog" role="document">
+      <div class="reader-progress"><div class="bar" id="reader-progress-bar"></div></div>
+      <div class="reader-head">
+        <div>
+          <h2 class="reader-title" id="reader-title">Loading…</h2>
+          <div class="reader-meta" id="reader-meta">—</div>
+        </div>
+        <div class="reader-actions">
+          <button id="save-reading" class="icon-btn" aria-label="Save to reading list">
+            <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6 2h12a2 2 0 0 1 2 2v18l-8-3-8 3V4a2 2 0 0 1 2-2z"/></svg>
+          </button>
+          <button data-modal-close class="icon-btn" aria-label="Close reader (Esc)">
+            <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.225 4.811 4.811 6.225 9.586 11l-4.775 4.775 1.414 1.414L11 12.414l4.775 4.775 1.414-1.414L12.414 11l4.775-4.775-1.414-1.414L11 9.586 6.225 4.811z"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="reader-body" id="reader-body">
+        <p><em>Coming soon:</em> Full guide content. Paste your article body later.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toasts -->
+  <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Back to top -->
+  <button class="btn btn-primary float-top" id="float-top" aria-label="Back to top">↑</button>
+
+  <!-- JSON-LD (keep inline for SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"CollectionPage",
+    "name":"FinanceFirst Articles & Guides",
+    "isPartOf":{"@type":"WebSite","name":"FinanceFirst"},
+    "about":["Consumer protection","Fees","Subscriptions","BNPL","Disputes","Privacy"]
+  }
+  </script>
+
+  <!-- Page JS (now external) -->
+  <script defer src="articles-data.js"></script>
+  <script defer src="articles.js"></script>
+</body>
+</html>
