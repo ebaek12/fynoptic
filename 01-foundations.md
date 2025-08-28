@@ -1,4 +1,4 @@
-# Module 1 intro (90–120 words)
+
 
 Most websites are optimized to move you along a path: sign up faster, add more to cart, keep you from leaving. Dark patterns appear where those goals collide with your intent. In this course you’ll learn a fast scan—defaults, wording shifts, timing—and a handful of counter-moves that work under pressure. You’ll see real patterns, practice quick identification, and leave with a lightweight routine for proof. No jargon, no giant checklists. The point is speed: name the pattern, act once in the right channel, save proof, set a deadline. That’s how regular people win these everyday fights.
 
