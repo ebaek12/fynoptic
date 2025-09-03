@@ -1,8 +1,12 @@
-// auth.js – Firebase Auth (ES module)
+// auth.js – Firebase Auth (persistent login)
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import {
-  getAuth,
+  // ✅ Use initializeAuth to set persistent storage with fallbacks
+  initializeAuth,
+  indexedDBLocalPersistence,
+  browserLocalPersistence,
+  browserSessionPersistence,
   signInWithPopup,
   signInWithRedirect,
   getRedirectResult,
@@ -18,16 +22,24 @@ const firebaseConfig = {
   apiKey: "AIzaSyAGkg7sRXZBL7sqXsN_45qvY55ixE2jCKQ",
   authDomain: "financefirst-ee059.firebaseapp.com",
   projectId: "financefirst-ee059",
-  // ✅ Fixed storageBucket for future Storage use
+  // keep this corrected bucket so Storage works later
   storageBucket: "financefirst-ee059.appspot.com",
   messagingSenderId: "784511465100",
   appId: "1:784511465100:web:939286cdcb6fa89e84ada9",
   measurementId: "G-0ER63Z21GK"
 };
 
-// Init Firebase
 const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
+
+// ✅ Persist “for a while”: prefer IndexedDB, then LocalStorage, then Session as a last resort.
+// This keeps users signed in across reloads and browser restarts (until they sign out).
+const auth = initializeAuth(app, {
+  persistence: [
+    indexedDBLocalPersistence,
+    browserLocalPersistence,
+    browserSessionPersistence
+  ]
+});
 
 // Google provider
 const provider = new GoogleAuthProvider();
@@ -46,13 +58,13 @@ async function googleSignIn() {
       err?.code === "auth/operation-not-supported-in-this-environment"
     ) {
       await signInWithRedirect(auth, provider);
-      return; // continue after redirect
+      return; // will continue after redirect
     }
     throw err;
   }
 }
 
-// 🔐 Auth UI surface exposed to app.js
+// Expose helpers
 window.authUI = {
   loginWithGoogle: () => googleSignIn(), // returns a Promise
   loginWithEmail: (email, password) => signInWithEmailAndPassword(auth, email, password),
@@ -64,7 +76,7 @@ window.authUI = {
 // Fire once after authUI exists
 window.dispatchEvent(new Event('auth-ready'));
 
-// 🔁 Update UI on login state
+// Keep the UI in sync
 onAuthStateChanged(auth, user => {
   const userBtn = document.getElementById('user-btn');
   if (!userBtn) return;
