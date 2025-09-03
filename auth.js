@@ -1,9 +1,11 @@
-// auth.js – Handles Firebase Auth
+// auth.js – Firebase Auth (ES module)
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import {
   getAuth,
   signInWithPopup,
+  signInWithRedirect,
+  getRedirectResult,
   GoogleAuthProvider,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
@@ -16,7 +18,8 @@ const firebaseConfig = {
   apiKey: "AIzaSyAGkg7sRXZBL7sqXsN_45qvY55ixE2jCKQ",
   authDomain: "financefirst-ee059.firebaseapp.com",
   projectId: "financefirst-ee059",
-  storageBucket: "financefirst-ee059.firebasestorage.app",
+  // ✅ Fixed storageBucket for future Storage use
+  storageBucket: "financefirst-ee059.appspot.com",
   messagingSenderId: "784511465100",
   appId: "1:784511465100:web:939286cdcb6fa89e84ada9",
   measurementId: "G-0ER63Z21GK"
@@ -25,37 +28,56 @@ const firebaseConfig = {
 // Init Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
-const provider = new GoogleAuthProvider();
 
-// 🔐 Auth UI logic
+// Google provider
+const provider = new GoogleAuthProvider();
+provider.setCustomParameters({ prompt: "select_account" });
+
+// Complete any pending redirect (ignore if none)
+getRedirectResult(auth).catch(() => {});
+
+/** Popup first; fallback to redirect if blocked/unsupported */
+async function googleSignIn() {
+  try {
+    return await signInWithPopup(auth, provider);
+  } catch (err) {
+    if (
+      err?.code === "auth/popup-blocked" ||
+      err?.code === "auth/operation-not-supported-in-this-environment"
+    ) {
+      await signInWithRedirect(auth, provider);
+      return; // continue after redirect
+    }
+    throw err;
+  }
+}
+
+// 🔐 Auth UI surface exposed to app.js
 window.authUI = {
-  loginWithGoogle: () => {
-    signInWithPopup(auth, provider)
-      .then(() => {
-        document.getElementById('login-modal')?.setAttribute('hidden', '');
-      })
-      .catch(err => alert(err.message));
-  },
-  loginWithEmail: (email, password) => {
-    return signInWithEmailAndPassword(auth, email, password);
-  },
-  signUpWithEmail: (email, password) => {
-    return createUserWithEmailAndPassword(auth, email, password);
-  },
-  logout: () => signOut(auth)
+  loginWithGoogle: () => googleSignIn(), // returns a Promise
+  loginWithEmail: (email, password) => signInWithEmailAndPassword(auth, email, password),
+  signUpWithEmail: (email, password) => createUserWithEmailAndPassword(auth, email, password),
+  logout: () => signOut(auth),
+  auth
 };
+
+// Fire once after authUI exists
 window.dispatchEvent(new Event('auth-ready'));
+
 // 🔁 Update UI on login state
 onAuthStateChanged(auth, user => {
   const userBtn = document.getElementById('user-btn');
   if (!userBtn) return;
 
   if (user) {
-    const initials = user.displayName
+    // stop opening the login modal when signed in
+    userBtn.removeAttribute('data-modal-open');
+    const initials = (user.displayName
       ? user.displayName.split(' ').map(n => n[0]).join('')
-      : user.email.slice(0, 2).toUpperCase();
+      : (user.email || 'U').slice(0, 2)
+    ).toUpperCase();
 
-    userBtn.innerHTML = `<div class="user-initials" title="${user.email}">${initials}</div>`;
+    userBtn.innerHTML = `<div class="user-initials" title="${user.email || user.displayName || ''}">${initials}</div>`;
     userBtn.onclick = () => window.authUI.logout();
   } else {
     userBtn.innerHTML = `
@@ -67,4 +89,3 @@ onAuthStateChanged(auth, user => {
     userBtn.onclick = null;
   }
 });
-window.dispatchEvent(new Event('auth-ready'));
