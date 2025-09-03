@@ -1,8 +1,9 @@
-// auth.js – Firebase Auth (persistent login + robust Google sign-in)
+// auth.js — robust, persistent Firebase Auth
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import {
-  initializeAuth,
+  getAuth,
+  setPersistence,
   indexedDBLocalPersistence,
   browserLocalPersistence,
   browserSessionPersistence,
@@ -16,59 +17,58 @@ import {
   onAuthStateChanged
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
-// 🔐 Firebase config
+// 🔐 Config
 const firebaseConfig = {
   apiKey: "AIzaSyAGkg7sRXZBL7sqXsN_45qvY55ixE2jCKQ",
   authDomain: "financefirst-ee059.firebaseapp.com",
   projectId: "financefirst-ee059",
-  storageBucket: "financefirst-ee059.appspot.com", // <- fixed bucket
+  storageBucket: "financefirst-ee059.appspot.com",
   messagingSenderId: "784511465100",
   appId: "1:784511465100:web:939286cdcb6fa89e84ada9",
   measurementId: "G-0ER63Z21GK"
 };
 
+// App + a single Auth instance
 const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
 
-// ✅ Long-lived persistence with graceful fallbacks
-const auth = initializeAuth(app, {
-  persistence: [
-    indexedDBLocalPersistence,
-    browserLocalPersistence,
-    browserSessionPersistence
-  ]
-});
+// Durable persistence with graceful fallbacks
+(async () => {
+  try {
+    await setPersistence(auth, indexedDBLocalPersistence);
+  } catch {
+    try {
+      await setPersistence(auth, browserLocalPersistence);
+    } catch {
+      await setPersistence(auth, browserSessionPersistence);
+    }
+  }
+})();
 
-// Try to complete a pending redirect silently
+// Complete any pending redirect (ignore if none)
 getRedirectResult(auth).catch(() => {});
 
-/** Google sign-in that can’t mismatch the SDK instance. */
+// Google Sign-In (popup → redirect fallback; also fallback on argument-error)
 async function googleSignIn() {
-  // Create provider *inside* the function so it's guaranteed to be from this module instance
-  const provider = new GoogleAuthProvider();
+  const provider = new GoogleAuthProvider(); // created inside to avoid instance mismatch
   provider.setCustomParameters({ prompt: "select_account" });
 
   try {
     return await signInWithPopup(auth, provider);
   } catch (err) {
-    // Popup blocked / unsupported -> reliable redirect fallback
     if (
       err?.code === "auth/popup-blocked" ||
-      err?.code === "auth/operation-not-supported-in-this-environment"
+      err?.code === "auth/operation-not-supported-in-this-environment" ||
+      err?.code === "auth/argument-error" // <- fallback here too
     ) {
       await signInWithRedirect(auth, provider);
-      return; // continue after redirect
-    }
-    // Surface helpful hint for the classic "argument-error"
-    if (err?.code === "auth/argument-error") {
-      console.warn(
-        "[auth] argument-error likely from duplicate SDKs or double handlers. " +
-        "Ensure only one copy of firebase-auth is imported and only one click handler is bound."
-      );
+      return; // continue after redirect roundtrip
     }
     throw err;
   }
 }
 
+// Surface a minimal API to app.js
 window.authUI = {
   loginWithGoogle: () => googleSignIn(),
   loginWithEmail: (email, password) => signInWithEmailAndPassword(auth, email, password),
@@ -80,6 +80,7 @@ window.authUI = {
 // Fire once after authUI exists
 window.dispatchEvent(new Event("auth-ready"));
 
+// Reflect auth state in the header button
 onAuthStateChanged(auth, (user) => {
   const userBtn = document.getElementById("user-btn");
   if (!userBtn) return;
