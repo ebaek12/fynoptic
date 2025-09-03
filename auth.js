@@ -1,8 +1,7 @@
-// auth.js – Firebase Auth (persistent login)
+// auth.js – Firebase Auth (persistent login + robust Google sign-in)
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import {
-  // ✅ Use initializeAuth to set persistent storage with fallbacks
   initializeAuth,
   indexedDBLocalPersistence,
   browserLocalPersistence,
@@ -17,13 +16,12 @@ import {
   onAuthStateChanged
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
-// 🔐 Your Firebase config
+// 🔐 Firebase config
 const firebaseConfig = {
   apiKey: "AIzaSyAGkg7sRXZBL7sqXsN_45qvY55ixE2jCKQ",
   authDomain: "financefirst-ee059.firebaseapp.com",
   projectId: "financefirst-ee059",
-  // keep this corrected bucket so Storage works later
-  storageBucket: "financefirst-ee059.appspot.com",
+  storageBucket: "financefirst-ee059.appspot.com", // <- fixed bucket
   messagingSenderId: "784511465100",
   appId: "1:784511465100:web:939286cdcb6fa89e84ada9",
   measurementId: "G-0ER63Z21GK"
@@ -31,8 +29,7 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 
-// ✅ Persist “for a while”: prefer IndexedDB, then LocalStorage, then Session as a last resort.
-// This keeps users signed in across reloads and browser restarts (until they sign out).
+// ✅ Long-lived persistence with graceful fallbacks
 const auth = initializeAuth(app, {
   persistence: [
     indexedDBLocalPersistence,
@@ -41,32 +38,39 @@ const auth = initializeAuth(app, {
   ]
 });
 
-// Google provider
-const provider = new GoogleAuthProvider();
-provider.setCustomParameters({ prompt: "select_account" });
-
-// Complete any pending redirect (ignore if none)
+// Try to complete a pending redirect silently
 getRedirectResult(auth).catch(() => {});
 
-/** Popup first; fallback to redirect if blocked/unsupported */
+/** Google sign-in that can’t mismatch the SDK instance. */
 async function googleSignIn() {
+  // Create provider *inside* the function so it's guaranteed to be from this module instance
+  const provider = new GoogleAuthProvider();
+  provider.setCustomParameters({ prompt: "select_account" });
+
   try {
     return await signInWithPopup(auth, provider);
   } catch (err) {
+    // Popup blocked / unsupported -> reliable redirect fallback
     if (
       err?.code === "auth/popup-blocked" ||
       err?.code === "auth/operation-not-supported-in-this-environment"
     ) {
       await signInWithRedirect(auth, provider);
-      return; // will continue after redirect
+      return; // continue after redirect
+    }
+    // Surface helpful hint for the classic "argument-error"
+    if (err?.code === "auth/argument-error") {
+      console.warn(
+        "[auth] argument-error likely from duplicate SDKs or double handlers. " +
+        "Ensure only one copy of firebase-auth is imported and only one click handler is bound."
+      );
     }
     throw err;
   }
 }
 
-// Expose helpers
 window.authUI = {
-  loginWithGoogle: () => googleSignIn(), // returns a Promise
+  loginWithGoogle: () => googleSignIn(),
   loginWithEmail: (email, password) => signInWithEmailAndPassword(auth, email, password),
   signUpWithEmail: (email, password) => createUserWithEmailAndPassword(auth, email, password),
   logout: () => signOut(auth),
@@ -74,21 +78,17 @@ window.authUI = {
 };
 
 // Fire once after authUI exists
-window.dispatchEvent(new Event('auth-ready'));
+window.dispatchEvent(new Event("auth-ready"));
 
-// Keep the UI in sync
-onAuthStateChanged(auth, user => {
-  const userBtn = document.getElementById('user-btn');
+onAuthStateChanged(auth, (user) => {
+  const userBtn = document.getElementById("user-btn");
   if (!userBtn) return;
 
   if (user) {
-    // stop opening the login modal when signed in
-    userBtn.removeAttribute('data-modal-open');
+    userBtn.removeAttribute("data-modal-open");
     const initials = (user.displayName
-      ? user.displayName.split(' ').map(n => n[0]).join('')
-      : (user.email || 'U').slice(0, 2)
-    ).toUpperCase();
-
+      ? user.displayName.split(" ").map(n => n[0]).join("")
+      : (user.email || "U").slice(0, 2)).toUpperCase();
     userBtn.innerHTML = `<div class="user-initials" title="${user.email || user.displayName || ''}">${initials}</div>`;
     userBtn.onclick = () => window.authUI.logout();
   } else {
@@ -97,7 +97,7 @@ onAuthStateChanged(auth, user => {
         <circle cx="12" cy="8" r="4"></circle>
         <path d="M4 20c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="currentColor" stroke-width="2"/>
       </svg>`;
-    userBtn.setAttribute('data-modal-open', 'login-modal');
+    userBtn.setAttribute("data-modal-open", "login-modal");
     userBtn.onclick = null;
   }
 });

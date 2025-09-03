@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initModals();
   initMobileNav();
   initProgress();
-  initToasts();
+  initToasts(); // <-- ensure function exists
   initFixitBot();
   initSearchFilter();
 });
@@ -52,7 +52,15 @@ function setFooterYear() {
 }
 
 function showToast(message, variant = 'info') {
-  const container = document.querySelector('.toast-container');
+  const container = document.querySelector('.toast-container') || (() => {
+    // Fallback container if none present
+    const c = document.createElement('div');
+    c.className = 'toast-container';
+    c.setAttribute('aria-live','polite');
+    c.setAttribute('aria-atomic','true');
+    document.body.appendChild(c);
+    return c;
+  })();
   const toast = document.createElement('div');
   toast.className = 'toast';
   toast.setAttribute('role', 'status');
@@ -61,6 +69,17 @@ function showToast(message, variant = 'info') {
   setTimeout(() => {
     toast.remove();
   }, 4000);
+}
+
+// *** FIX: define initToasts so the earlier call doesn't throw ReferenceError ***
+function initToasts() {
+  if (!document.querySelector('.toast-container')) {
+    const c = document.createElement('div');
+    c.className = 'toast-container';
+    c.setAttribute('aria-live','polite');
+    c.setAttribute('aria-atomic','true');
+    document.body.appendChild(c);
+  }
 }
 
 // --------- Course Progress ---------
@@ -344,6 +363,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const googleLoginBtn  = $('#google-login');
   const googleSignupBtn = $('#google-signup');
 
+  // *** FIX: guard against duplicate bindings that can cause double popups/argument-error ***
+  function armOnce(btn, handler) {
+    if (!btn || btn.dataset.armed) return;
+    btn.dataset.armed = '1';
+    btn.addEventListener('click', handler);
+  }
+
   // Google Sign-In (both modals)
   const handleGoogle = () => onAuthReady(async () => {
     try {
@@ -356,8 +382,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  googleLoginBtn?.addEventListener('click', handleGoogle);
-  googleSignupBtn?.addEventListener('click', handleGoogle);
+  armOnce(googleLoginBtn, handleGoogle);   // <-- use guarded binder
+  armOnce(googleSignupBtn, handleGoogle);  // <-- use guarded binder
 
   // Email/Password Login
   loginForm?.addEventListener('submit', (e) => {
