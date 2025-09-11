@@ -146,15 +146,24 @@
               <span>Display name</span>
               <input type="text" id="input-name" placeholder="Jane Doe" />
             </label>
+          
+            <!-- NEW: Upload avatar -->
+            <label>
+              <span>Upload avatar (JPG/PNG, &lt; 3 MB)</span>
+              <input type="file" id="input-photo-file" accept="image/*" />
+            </label>
+          
             <label>
               <span>Avatar URL (optional)</span>
               <input type="url" id="input-photo" placeholder="https://…" />
             </label>
+          
             <div class="settings-actions">
               <button type="button" id="edit-cancel" class="btn btn-ghost">Cancel</button>
               <button type="submit" class="btn btn-primary">Save changes</button>
             </div>
           </form>
+          
         </section>
 
       </div>
