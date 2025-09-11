@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Profile • Fynoptic</title>
+
+  <!-- Fonts + global theme -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="favicon-96x96.png" type="image/svg+xml" />
+
+  <!-- Your existing global styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body class="profile-shell">
+
+  <!-- Header (same structure so your CSS applies) -->
+  <header class="header" role="banner">
+    <nav class="nav container" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="logo" aria-label="Fynoptic Home">
+        <img src="fynopticlogo.png" alt="Fynoptic logo" />
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <span aria-hidden="true" class="dot"></span><span class="dot"></span><span class="dot"></span>
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      </button>
+
+      <ul class="nav-links" id="desktop-nav">
+        <li><a href="courses.html">Course</a></li>
+        <li><a href="bot.html">Fix-it Bot</a></li>
+        <li><a href="articles.html">Articles</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="courses.html" class="btn btn-primary cta-desktop" data-track="cta_click">Start the free course</a>
+        <button id="user-btn" class="user-icon" aria-label="Profile">
+          <!-- auth.js will replace this with initials -->
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+            <circle cx="12" cy="8" r="4"></circle>
+            <path d="M4 20c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <ul>
+        <li><a href="courses.html">Course</a></li>
+        <li><a href="bot.html">Fix-it Bot</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="courses.html" class="btn btn-primary" data-track="cta_click">Start the free course</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO / IDENTITY CARD -->
+    <section class="profile-hero" role="region" aria-labelledby="profile-heading">
+      <div class="hero-bg">
+        <img src="/assets/texture-noise.svg" alt="" aria-hidden="true" />
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+        <div class="ring ring1"></div>
+        <div class="ring ring2"></div>
+      </div>
+
+      <div class="container">
+        <div class="profile-card">
+          <div class="avatar-wrap">
+            <img id="prof-avatar" alt="" class="avatar" />
+            <div class="avatar-fallback" id="prof-initials" aria-hidden="true"></div>
+          </div>
+
+          <div class="id-block">
+            <h1 id="profile-heading">Hey, <span id="prof-name">Friend</span> 👋</h1>
+            <p class="muted" id="prof-email"></p>
+
+            <div class="chip-row" id="chip-row">
+              <!-- chips injected (Verified / Provider / etc.) -->
+            </div>
+
+            <div class="action-row">
+              <button id="edit-open" class="btn btn-ghost">Edit profile</button>
+              <button id="verify-btn" class="btn btn-ghost" hidden>Verify email</button>
+              <button id="logout-btn" class="btn btn-primary">Sign out</button>
+            </div>
+          </div>
+
+          <div class="ring-progress" aria-label="Course progress">
+            <div class="ring" id="ring" role="img" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <div class="ring-center">
+                <div class="ring-num"><span id="ring-num">0</span>%</div>
+                <div class="ring-label">Course</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- STATS GRID -->
+        <div class="stats-grid">
+          <div class="stat card">
+            <div class="stat-label">Joined</div>
+            <div class="stat-value" id="joined-at">—</div>
+          </div>
+          <div class="stat card">
+            <div class="stat-label">Last sign-in</div>
+            <div class="stat-value" id="last-login">—</div>
+          </div>
+          <div class="stat card">
+            <div class="stat-label">Modules completed</div>
+            <div class="stat-value"><span id="mods-done">0</span>/<span id="mods-total">0</span></div>
+          </div>
+          <div class="stat card">
+            <div class="stat-label">Provider</div>
+            <div class="stat-value" id="prov">—</div>
+          </div>
+        </div>
+
+        <!-- PROGRESS BLOCK -->
+        <section class="progress-block card">
+          <header class="section-head">
+            <h2>Your course progress</h2>
+            <p class="section-note">Keep going — you’re building real consumer power.</p>
+          </header>
+          <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill" style="--p:0%"></div>
+          </div>
+          <div class="progress-meta">
+            <span><strong id="pct-text">0%</strong> complete</span>
+            <a href="courses.html" class="btn btn-ghost">Continue learning</a>
+          </div>
+        </section>
+
+        <!-- SETTINGS -->
+        <section class="settings card" id="settings" hidden>
+          <header class="section-head">
+            <h2>Account settings</h2>
+            <p class="section-note">Update your display name and avatar.</p>
+          </header>
+
+          <form id="settings-form" class="settings-form">
+            <label>
+              <span>Display name</span>
+              <input type="text" id="input-name" placeholder="Jane Doe" />
+            </label>
+            <label>
+              <span>Avatar URL (optional)</span>
+              <input type="url" id="input-photo" placeholder="https://…" />
+            </label>
+            <div class="settings-actions">
+              <button type="button" id="edit-cancel" class="btn btn-ghost">Cancel</button>
+              <button type="submit" class="btn btn-primary">Save changes</button>
+            </div>
+          </form>
+        </section>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (same look) -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <img src="fynopticlogo.png" alt="Fynoptic logo" class="footer-logo" />
+        <p class="footer-tagline">Helping you spot & stop predatory fees, dark patterns, and subscription traps.</p>
+      </div>
+      <div class="footer-links">
+        <a href="bot.html">Fix-it Bot</a>
+        <a href="courses.html">Course</a>
+        <a href="articles.html">Articles</a>
+      </div>
+      <div class="footer-contact">
+        <p>📬 fynoptic@gmail.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="footer-year"></span> Fynoptic. Educational content. Not legal advice.</p>
+    </div>
+  </footer>
+
+  <!-- Toasts -->
+  <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Scripts -->
+  <script defer src="app.js"></script>
+  <script type="module" src="auth.js"></script>
+  <script type="module" src="profile.js"></script>
+
+  <script>
+    // footer year
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

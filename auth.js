@@ -90,8 +90,10 @@ onAuthStateChanged(auth, (user) => {
     const initials = (user.displayName
       ? user.displayName.split(" ").map(n => n[0]).join("")
       : (user.email || "U").slice(0, 2)).toUpperCase();
+
     userBtn.innerHTML = `<div class="user-initials" title="${user.email || user.displayName || ''}">${initials}</div>`;
-    userBtn.onclick = () => window.authUI.logout();
+    // 👉 Go to profile when clicked
+    userBtn.onclick = () => { window.location.href = "profile.html"; };
   } else {
     userBtn.innerHTML = `
       <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
@@ -102,3 +104,4 @@ onAuthStateChanged(auth, (user) => {
     userBtn.onclick = null;
   }
 });
+
