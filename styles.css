@@ -2870,33 +2870,3 @@ button[disabled], button[aria-disabled="true"] { opacity: .6; cursor: not-allowe
   padding: .8rem 1rem; border-left: 4px solid var(--primary-600);
   border-radius: 10px; box-shadow: var(--shadow-lg);
 }
-/* Top-right compact avatar */
-.user-avatar{
-  width:36px;height:36px;border-radius:9999px;overflow:hidden;
-  display:grid;place-items:center;cursor:pointer;
-  background: rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.12);
-}
-.user-avatar img{ width:100%; height:100%; object-fit:cover; display:block; }
-.user-avatar span{ font-weight:600; font-size:.9rem; color:#e7ecff; }
-
-/* Fancy avatar uploader */
-.avatar-uploader{ display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
-.avatar-uploader .preview{
-  width:80px;height:80px;border-radius:9999px;overflow:hidden;
-  background: radial-gradient(120% 120% at 0% 0%, #263252 0%, #0b1220 60%);
-  border:1px solid rgba(255,255,255,.14);
-  box-shadow: 0 8px 30px rgba(0,0,0,.25);
-  display:grid;place-items:center;
-}
-.avatar-uploader .preview img{ width:100%;height:100%;object-fit:cover;display:block; }
-.avatar-uploader .preview .fallback{ font-size:28px; opacity:.75; }
-
-.file-pill{
-  position:relative; display:inline-flex; align-items:center; gap:.5rem;
-  padding:.6rem 1rem; border-radius:9999px; font-weight:600;
-  background: linear-gradient(90deg,#3F6AFF,#22D1B2);
-  color:#0b1220; box-shadow:0 10px 28px rgba(0,0,0,.25); cursor:pointer;
-}
-.file-pill input[type="file"]{ position:absolute; inset:0; opacity:0; cursor:pointer; }
-.file-meta{ color:var(--text-300); font-size:.9rem; }
-.btn-ghost.sm{ padding:.45rem .75rem; border-radius:9999px; }

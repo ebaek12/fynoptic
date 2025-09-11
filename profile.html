@@ -11,7 +11,8 @@
 
   <!-- Your existing global styles -->
   <link rel="stylesheet" href="styles.css" />
-
+  <!-- Page-specific polish -->
+  <link rel="stylesheet" href="profile.css" />
 </head>
 <body class="profile-shell">
 
@@ -40,7 +41,6 @@
             <img id="nav-avatar" alt="" hidden />
             <span id="nav-initials" aria-hidden="true">?</span>
           </button>
-          
       </div>
     </nav>
 
@@ -81,8 +81,6 @@
             </div>
 
             <div class="action-row">
-              <button id="edit-open" class="btn btn-ghost">Edit profile</button>
-              <button id="verify-btn" class="btn btn-ghost" hidden>Verify email</button>
               <button id="logout-btn" class="btn btn-primary">Sign out</button>
             </div>
           </div>
@@ -133,61 +131,7 @@
         </section>
 
         <!-- SETTINGS -->
-        <section class="settings card" id="settings" hidden>
-          <header class="section-head">
-            <h2>Account settings</h2>
-            <p class="section-note">Update your display name and avatar.</p>
-          </header>
-
-          <form id="settings-form" class="settings-form">
-            <label>
-              <span>Display name</span>
-              <input type="text" id="input-name" placeholder="Jane Doe" />
-            </label>
-          
-            <!-- NEW: Upload avatar -->
-<!-- Avatar upload (pretty) -->
-<div class="avatar-uploader">
-    <div class="preview" aria-hidden="true">
-      <img id="avatar-preview-img" alt="" hidden />
-      <div id="avatar-preview-fallback" class="fallback">👤</div>
-    </div>
-  
-    <div class="controls">
-      <!-- Hidden real input -->
-      <input type="file" id="input-photo-file" accept="image/*" hidden />
-      <!-- Styled trigger -->
-      <label for="input-photo-file" class="file-pill">
-        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M12 5v14M5 12h14" stroke="#0b1220" stroke-width="2" stroke-linecap="round"/>
-        </svg>
-        <span>Upload photo</span>
-      </label>
-      <button type="button" id="remove-photo" class="btn btn-ghost sm">Remove</button>
-      <div id="file-meta" class="file-meta">JPG/PNG, under 3 MB</div>
-    </div>
-  </div>
-  
-  <!-- Optional manual URL field (kept if you still want it) -->
-  <label>
-    <span>Avatar URL (optional)</span>
-    <input type="url" id="input-photo" placeholder="https://…" />
-  </label>
-  
-          
-            <label>
-              <span>Avatar URL (optional)</span>
-              <input type="url" id="input-photo" placeholder="https://…" />
-            </label>
-          
-            <div class="settings-actions">
-              <button type="button" id="edit-cancel" class="btn btn-ghost">Cancel</button>
-              <button type="submit" class="btn btn-primary">Save changes</button>
-            </div>
-          </form>
-          
-        </section>
-
+       
       </div>
     </section>
   </main>
@@ -220,7 +164,6 @@
   <script defer src="app.js"></script>
   <script type="module" src="auth.js"></script>
   <script type="module" src="profile.js"></script>
-  <script defer src="nav-avatar.js"></script>
 
   <script>
     // footer year

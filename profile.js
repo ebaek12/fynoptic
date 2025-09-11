@@ -1,434 +1,294 @@
-/* profile.js — minimal, drop-in fixes only
-   - Upload + preview avatar (nice-looking pill + round preview added via JS)
-   - Save name + avatar (persisted in localStorage; attempts Firebase update if available)
-   - Avatar shows in top-right nav everywhere (updates #nav-avatar or #user-btn)
-   - “Verify email” button & “Provider: …” chip removed/hidden
-   - Clicking “Edit profile” auto-scrolls to the avatar/name area
-*/
+// profile.js (drop-in replacement)
 
-(function () {
-    /* ─────────── Helpers / constants ─────────── */
-    const AVATAR_KEY = 'ff_user_avatar_dataurl'; // 256px dataURL stored locally for global reuse
-    const NAME_KEY   = 'ff_user_name';
+/* Firebase */
+import {
+    onAuthStateChanged,
+    updateProfile,
+    sendEmailVerification
+  } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
   
-    const $  = (s, c = document) => c.querySelector(s);
-    const $$ = (s, c = document) => Array.from(c.querySelectorAll(s));
+  import {
+    getStorage,
+    ref as sRef,
+    uploadBytesResumable,
+    getDownloadURL
+  } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js";
   
-    function onReady(fn) {
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', fn, { once: true });
-      } else {
-        fn();
-      }
+  /* DOM + toasts */
+  const $ = (sel) => document.querySelector(sel);
+  const showToast = (msg) => {
+    const c = document.querySelector('.toast-container') || (() => {
+      const d = document.createElement('div');
+      d.className = 'toast-container'; document.body.appendChild(d); return d;
+    })();
+    const t = document.createElement('div');
+    t.className = 'toast'; t.setAttribute('role','status'); t.textContent = msg;
+    c.appendChild(t); setTimeout(() => t.remove(), 4000);
+  };
+  
+  /* Keys (mirror your course) */
+  const NAME_KEY = 'ff_user_name';
+  const COURSE_PROGRESS_KEY = 'ff_course_progress'; // legacy fallback
+  const DP_STATE_LS = 'ff_dp_state';
+  const DP_STATE_COOKIE = 'ff_dp_state_v2';
+  
+  /* Helpers */
+  function initialsFrom(user){
+    const name = user.displayName || '';
+    if (name.trim()) return name.split(' ').map(n=>n[0]).join('').slice(0,2).toUpperCase();
+    const email = user.email || 'U';
+    return email.slice(0,2).toUpperCase();
+  }
+  const fmtDate = (iso) => iso ? new Date(iso).toLocaleString([], { year:'numeric', month:'short', day:'numeric' }) : '—';
+  
+  function getCookie(name){
+    try {
+      const m = document.cookie.match(new RegExp('(?:^|; )' + name.replace(/[-[\]/{}()*+?.\\^$|]/g,'\\$&') + '=([^;]*)'));
+      return m ? decodeURIComponent(m[1]) : null;
+    } catch { return null; }
+  }
+  
+  function readDPState(){
+    // cookie first (v2), then LS (legacy)
+    try {
+      const c = getCookie(DP_STATE_COOKIE);
+      if (c) return JSON.parse(c);
+    } catch {}
+    try {
+      const ls = localStorage.getItem(DP_STATE_LS);
+      if (ls) return JSON.parse(ls);
+    } catch {}
+    return null;
+  }
+  
+  /* === Accurate course progress ===
+     Prefer Dark Patterns course state if present; else fallback to old PROGRESS_KEY.
+  */
+  function computeProgressAccurate(){
+    const dp = readDPState();
+    if (dp && typeof dp === 'object'){
+      const m1 = !!(dp.m1?.video && dp.m1?.article);
+      const m2 = !!(dp.m2?.video && dp.m2?.article && dp.m2?.idExercise);
+      const m3 = !!(dp.m3?.video && dp.m3?.article);
+      const m4 = !!(dp.m4?.article && dp.m4?.auditSubmitted);
+      const done = [m1,m2,m3,m4].filter(Boolean).length;
+      const total = 4;
+      const pct = Math.round((done/total)*100);
+      return { done, total, pct, source: 'dp' };
     }
   
-    function showToast(msg) {
-      // use site toast if available; else fallback to alert
-      const box = $('.toast-container');
-      if (box) {
-        const el = document.createElement('div');
-        el.className = 'toast';
-        el.textContent = msg;
-        box.appendChild(el);
-        setTimeout(() => el.remove(), 3500);
-      } else {
-        try { console.log('[toast]', msg); } catch {}
-      }
+    // Fallback: legacy array of module IDs. Support both new and old ids.
+    const ARR6 = ['junk-fees','subs-cancel','bnpl','chargebacks','arbitration','debt-rights'];
+    const DP4  = ['dp-m1','dp-m2','dp-m3','dp-m4'];
+  
+    let ids = [];
+    try { ids = JSON.parse(localStorage.getItem(COURSE_PROGRESS_KEY) || '[]'); } catch {}
+  
+    // Prefer whichever set has more matches so the UI doesn't undercount.
+    const count6 = ids.filter(id => ARR6.includes(id)).length;
+    const count4 = ids.filter(id => DP4.includes(id)).length;
+  
+    if (count4 >= count6) {
+      const done = count4, total = 4, pct = Math.round((done/total)*100);
+      return { done, total, pct, source: 'dp-fallback' };
+    } else {
+      const done = count6, total = 6, pct = Math.round((done/total)*100);
+      return { done, total, pct, source: 'legacy6' };
     }
+  }
   
-    function initialsFrom(str) {
-      const s = (str || '').trim();
-      if (!s) return '?';
-      return s.split(/\s+/).map(x => x[0]).join('').slice(0, 2).toUpperCase();
+  function setRing(pct){
+    const deg = Math.max(0, Math.min(100, pct)) * 3.6;
+    const ring = $('#ring');
+    ring.style.setProperty('--deg', `${deg}deg`);
+    $('#ring-num').textContent = pct;
+    ring.setAttribute('aria-valuenow', String(pct));
+  }
+  function setBar(pct){
+    $('#progress-fill').style.setProperty('--p', `${pct}%`);
+    $('#pct-text').textContent = `${pct}%`;
+  }
+  
+  function setAvatar(user){
+    const img = $('#prof-avatar');
+    const fallback = $('#prof-initials');
+    const url = user.photoURL;
+    if (url) {
+      img.src = url;
+      img.alt = user.displayName || user.email || 'User avatar';
+      img.hidden = false;
+      fallback.hidden = true;
+    } else {
+      img.hidden = true;
+      fallback.hidden = false;
+      fallback.textContent = initialsFrom(user);
     }
+  }
   
-    /* ─────────── UI: make a nice uploader without changing HTML files ─────────── */
-    function enhanceFileInput(fileInput) {
-      if (!fileInput || fileInput.dataset.enhanced) return;
-      fileInput.dataset.enhanced = '1';
+  function renderChips(user){
+    const row = $('#chip-row'); row.innerHTML = '';
+    const make = (txt) => { const s = document.createElement('span'); s.className='chip'; s.textContent = txt; return s; };
+    row.appendChild(make(user.emailVerified ? 'Email verified' : 'Email not verified'));
+    const prov = user.providerData.map(p=>p.providerId.replace('.com','')).join(', ') || 'password';
+    row.appendChild(make(`Provider: ${prov}`));
+  }
   
-      // Container
-      const wrap = document.createElement('div');
-      wrap.style.display = 'flex';
-      wrap.style.alignItems = 'center';
-      wrap.style.gap = '12px';
-      wrap.style.flexWrap = 'wrap';
+  function populate(user){
+    $('#prof-name').textContent = user.displayName || (user.email?.split('@')[0] ?? 'Friend');
+    $('#prof-email').textContent = user.email || '';
+    $('#joined-at').textContent = fmtDate(user.metadata?.creationTime);
+    $('#last-login').textContent = fmtDate(user.metadata?.lastSignInTime);
   
-      // Round preview
-      const prev = document.createElement('div');
-      prev.id = 'avatar-preview';
-      prev.style.width = '80px';
-      prev.style.height = '80px';
-      prev.style.borderRadius = '9999px';
-      prev.style.overflow = 'hidden';
-      prev.style.border = '1px solid rgba(255,255,255,.14)';
-      prev.style.background = 'radial-gradient(120% 120% at 0% 0%, #263252 0%, #0b1220 60%)';
-      prev.style.boxShadow = '0 8px 28px rgba(0,0,0,.25)';
-      prev.style.display = 'grid';
-      prev.style.placeItems = 'center';
+    setAvatar(user);
+    renderChips(user);
   
-      const prevImg = document.createElement('img');
-      prevImg.id = 'avatar-preview-img';
-      prevImg.alt = '';
-      prevImg.style.display = 'none';
-      prevImg.style.width = '100%';
-      prevImg.style.height = '100%';
-      prevImg.style.objectFit = 'cover';
-      prev.appendChild(prevImg);
+    const p = computeProgressAccurate();
+    $('#mods-done').textContent = p.done;
+    $('#mods-total').textContent = p.total;
+    setRing(p.pct); setBar(p.pct);
   
-      const fallback = document.createElement('div');
-      fallback.id = 'avatar-preview-fallback';
-      fallback.textContent = '👤';
-      fallback.style.fontSize = '28px';
-      fallback.style.opacity = '.75';
-      prev.appendChild(fallback);
+    // settings defaults
+    $('#input-name').value = user.displayName || localStorage.getItem(NAME_KEY) || '';
+    $('#input-photo').value = user.photoURL || '';
+    $('#verify-btn').hidden = !!user.emailVerified;
+  }
   
-      // Fancy pill trigger
-      const pill = document.createElement('button');
-      pill.type = 'button';
-      pill.id = 'pick-file';
-      pill.textContent = 'Upload photo';
-      pill.style.padding = '.6rem 1rem';
-      pill.style.borderRadius = '9999px';
-      pill.style.fontWeight = '600';
-      pill.style.border = '0';
-      pill.style.background = 'linear-gradient(90deg,#3F6AFF,#22D1B2)';
-      pill.style.color = '#0b1220';
-      pill.style.cursor = 'pointer';
-      pill.style.boxShadow = '0 10px 28px rgba(0,0,0,.25)';
+  /* === Avatar upload === */
+  async function uploadAvatar(file, uid){
+    if (!file) return null;
+    if (!/^image\//i.test(file.type)) throw new Error('Please choose an image file.');
+    if (file.size > 3 * 1024 * 1024) throw new Error('Image must be under 3 MB.');
   
-      // Remove btn
-      const removeBtn = document.createElement('button');
-      removeBtn.type = 'button';
-      removeBtn.id = 'remove-photo';
-      removeBtn.textContent = 'Remove';
-      removeBtn.style.padding = '.45rem .75rem';
-      removeBtn.style.borderRadius = '9999px';
-      removeBtn.style.border = '1px solid rgba(255,255,255,.18)';
-      removeBtn.style.background = 'transparent';
-      removeBtn.style.color = 'inherit';
-      removeBtn.style.cursor = 'pointer';
+    const storage = getStorage(); // default app
+    const path = `avatars/${uid}/${Date.now()}-${file.name.replace(/\s+/g,'_')}`;
+    const ref = sRef(storage, path);
   
-      // Meta/help
-      const meta = document.createElement('div');
-      meta.id = 'file-meta';
-      meta.textContent = 'JPG/PNG, under 3 MB';
-      meta.style.color = 'var(--text-300, #9fb0d6)';
-      meta.style.fontSize = '.9rem';
-  
-      // Hide real input and move it into our wrapper
-      fileInput.style.display = 'none';
-      fileInput.parentElement.insertBefore(wrap, fileInput);
-      wrap.appendChild(prev);
-      wrap.appendChild(pill);
-      wrap.appendChild(removeBtn);
-      wrap.appendChild(meta);
-      wrap.appendChild(fileInput); // keep in DOM for forms
-  
-      // Wiring
-      pill.addEventListener('click', () => fileInput.click());
-      removeBtn.addEventListener('click', () => {
-        fileInput.value = '';
-        prevImg.src = '';
-        prevImg.style.display = 'none';
-        fallback.style.display = 'block';
-        meta.textContent = 'JPG/PNG, under 3 MB';
-        // Also clear preview on page + pending avatar buffer
-        pendingAvatarDataURL = null;
-      });
-  
-      // if an avatar already exists (localStorage), render it
-      const existing = localStorage.getItem(AVATAR_KEY);
-      if (existing) {
-        prevImg.src = existing; prevImg.style.display = 'block'; fallback.style.display = 'none';
-        meta.textContent = 'Using saved photo';
-      }
-    }
-  
-    /* ─────────── Image processing (resize to 256x256 and return DataURL) ─────────── */
-    function fileToDataURL(file) {
-      return new Promise((res, rej) => {
-        const fr = new FileReader();
-        fr.onload = () => res(fr.result);
-        fr.onerror = rej;
-        fr.readAsDataURL(file);
-      });
-    }
-  
-    async function resizeTo256DataURL(file) {
-      const url = await fileToDataURL(file);
-      const img = new Image();
-      return new Promise((res) => {
-        img.onload = () => {
-          const size = 256;
-          const c = document.createElement('canvas');
-          c.width = size; c.height = size;
-          const ctx = c.getContext('2d');
-          // cover fit
-          const ir = img.width / img.height;
-          const tr = 1; // square
-          let sx, sy, sw, sh;
-          if (ir > tr) { // image wider than tall
-            sh = img.height;
-            sw = sh * tr;
-            sx = (img.width - sw) / 2;
-            sy = 0;
-          } else {
-            sw = img.width;
-            sh = sw / tr;
-            sx = 0;
-            sy = (img.height - sh) / 2;
-          }
-          ctx.fillStyle = '#fff';
-          ctx.fillRect(0, 0, size, size);
-          ctx.drawImage(img, sx, sy, sw, sh, 0, 0, size, size);
-          res(c.toDataURL('image/jpeg', 0.9));
-        };
-        img.onerror = () => res(url); // fallback to original dataURL
-        img.src = url;
-      });
-    }
-  
-    /* ─────────── Apply avatar globally (nav + profile preview) ─────────── */
-    function applyGlobalAvatar(url, nameForInitials) {
-      // Profile page preview (if present)
-      const prevImg = $('#avatar-preview-img');
-      const fb = $('#avatar-preview-fallback');
-      if (prevImg) {
-        if (url) {
-          prevImg.src = url; prevImg.style.display = 'block';
-          if (fb) fb.style.display = 'none';
-        } else {
-          prevImg.removeAttribute('src');
-          if (fb) fb.style.display = 'block';
-        }
-      }
-  
-      // Top-right nav (preferred: #nav-avatar <img> + #nav-initials)
-      const navImg = $('#nav-avatar');
-      const navInits = $('#nav-initials');
-      if (navImg) {
-        if (url) {
-          navImg.src = url; navImg.hidden = false;
-          if (navInits) navInits.hidden = true;
-        } else {
-          navImg.hidden = true;
-          if (navInits) { navInits.hidden = false; navInits.textContent = initialsFrom(nameForInitials || ''); }
-        }
-      } else {
-        // Fallback: mutate #user-btn to show an <img> avatar
-        const btn = $('#user-btn');
-        if (btn) {
-          // Ensure it looks like a circle thumbnail
-          btn.style.width = '36px';
-          btn.style.height = '36px';
-          btn.style.borderRadius = '9999px';
-          btn.style.overflow = 'hidden';
-          btn.style.display = 'grid';
-          btn.style.placeItems = 'center';
-          // Ensure a single <img> child
-          let img = btn.querySelector('img[data-nav-avatar-fb]');
-          if (!img) {
-            img = document.createElement('img');
-            img.setAttribute('data-nav-avatar-fb', '1');
-            img.alt = 'Profile';
-            img.style.width = '100%';
-            img.style.height = '100%';
-            img.style.objectFit = 'cover';
-            // clear other children (like initials/SVG) so the photo is visible
-            btn.innerHTML = '';
-            btn.appendChild(img);
-          }
-          if (url) {
-            img.src = url;
-          } else {
-            // render initials fallback if no url
-            btn.innerHTML = '';
-            const span = document.createElement('span');
-            span.textContent = initialsFrom(nameForInitials || '?');
-            span.style.fontWeight = '600';
-            span.style.fontSize = '.9rem';
-            btn.appendChild(span);
-          }
-        }
-      }
-  
-      // Let other pages listening know
-      try {
-        window.dispatchEvent(new CustomEvent('avatar-updated', { detail: { photoURL: url || null } }));
-      } catch {}
-    }
-  
-    /* ─────────── Remove provider/verify UI bits ─────────── */
-    function removeProviderAndVerifyBits() {
-      // Obvious IDs/classes first
-      $('#verify-btn')?.remove();
-      $('#verify-email')?.remove();
-      $('#provider-chip')?.remove();
-  
-      // Fallback by label text
-      $$('button, a').forEach(el => {
-        const t = (el.textContent || '').trim().toLowerCase();
-        if (t === 'verify email' || t === 'verify' || t.includes('verify email')) el.remove();
-      });
-      $$('.chip, .tag, span, div').forEach(el => {
-        const t = (el.textContent || '').trim().toLowerCase();
-        if (t.startsWith('provider') || t === 'provider') el.remove();
-      });
-    }
-  
-    /* ─────────── Firebase profile update (best-effort, optional) ─────────── */
-    async function tryUpdateFirebaseProfile({ displayName, photoURL }) {
-      try {
-        // authUI wrapper path
-        const user1 = window.authUI?.auth?.currentUser;
-        if (user1 && typeof user1.updateProfile === 'function') {
-          await user1.updateProfile({ displayName, photoURL });
-          return true;
-        }
-      } catch (e) { /* ignore */ }
-  
-      try {
-        // Namespaced v8 path (if firebase auth is loaded this way)
-        const user2 = window.firebase?.auth?.()?.currentUser;
-        if (user2 && typeof user2.updateProfile === 'function') {
-          await user2.updateProfile({ displayName, photoURL });
-          return true;
-        }
-      } catch (e) { /* ignore */ }
-  
-      // Modular v9+ without imports isn’t reliably callable here — skip.
-      return false;
-    }
-  
-    /* ─────────── Edit button: open + auto-scroll to form/uploader ─────────── */
-    function wireEditScroll() {
-      const btn =
-        $('#edit-profile') ||
-        $('#edit-open') ||
-        $$('button').find(b => /edit profile/i.test(b.textContent || ''));
-  
-      if (!btn) return;
-  
-      btn.addEventListener('click', (e) => {
-        // reveal settings panel if it exists & is hidden
-        const panel = $('#settings') || $('#profile-settings') || $('#edit-panel');
-        if (panel && (panel.hidden || panel.hasAttribute('hidden'))) {
-          panel.hidden = false;
-          panel.removeAttribute('hidden');
-        }
-        // choose best scroll target
-        const target =
-          $('.avatar-uploader') ||
-          $('#avatar-preview') ||
-          $('#profile-form') ||
-          $('#settings-form') ||
-          panel ||
-          document.body;
-  
-        try { target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
-        catch { window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - 20, behavior: 'smooth' }); }
-      });
-    }
-  
-    /* ─────────── Form wiring (save name + avatar) ─────────── */
-    let pendingAvatarDataURL = null;
-  
-    function wireForm() {
-      // Inputs (support multiple possible IDs)
-      const nameInput =
-        $('#display-name') || $('#profile-name') || $('#learner-name') || $('input[name="displayName"]');
-  
-      const fileInput =
-        $('#photo-file') || $('#input-photo-file') || $('input[type="file"][name="avatar"]') || $('input[type="file"][id*="photo"]');
-  
-      const form =
-        $('#profile-form') || $('#settings-form') || $('#edit-form') || nameInput?.closest('form');
-  
-      // Prefill name & avatar from storage/user
-      const storedName = localStorage.getItem(NAME_KEY);
-      const storedAvatar = localStorage.getItem(AVATAR_KEY);
-  
-      if (nameInput) {
-        if (storedName) nameInput.value = storedName;
-        else {
-          // best-effort pull from auth if present
+    const task = uploadBytesResumable(ref, file, { cacheControl: 'public,max-age=31536000' });
+    return new Promise((resolve, reject) => {
+      task.on('state_changed',
+        () => {}, // could show progress if you like
+        (err) => reject(err),
+        async () => {
           try {
-            const u = window.authUI?.auth?.currentUser || window.firebase?.auth?.()?.currentUser;
-            if (u?.displayName) nameInput.value = u.displayName;
-          } catch { /* ignore */ }
+            const url = await getDownloadURL(task.snapshot.ref);
+            resolve(url);
+          } catch (e) { reject(e); }
         }
-      }
-  
-      if (fileInput) {
-        enhanceFileInput(fileInput);
-        if (storedAvatar) applyGlobalAvatar(storedAvatar, (nameInput && nameInput.value) || storedName);
-        fileInput.addEventListener('change', async () => {
-          const f = fileInput.files?.[0];
-          if (!f) return;
-          if (f.size > 3 * 1024 * 1024) {
-            showToast('Image is larger than 3 MB. It will be compressed.');
-          }
-          pendingAvatarDataURL = await resizeTo256DataURL(f);
-          applyGlobalAvatar(pendingAvatarDataURL, (nameInput && nameInput.value) || storedName);
-          const meta = $('#file-meta');
-          if (meta) meta.textContent = `${f.name} — ${(f.size / 1024 / 1024).toFixed(2)} MB (compressed)`;
-        });
-      }
-  
-      // Save handler
-      const saveBtn =
-        $('#save-profile') ||
-        $('#settings-save') ||
-        $$('button, input[type="submit"]').find(b => /save/i.test(b.value || b.textContent || ''));
-  
-      // If we don’t have a dedicated save button, listen for form submit
-      if (form) {
-        form.addEventListener('submit', async (e) => {
-          e.preventDefault();
-          await doSave(nameInput, pendingAvatarDataURL);
-        });
-      }
-      if (saveBtn && !form) {
-        saveBtn.addEventListener('click', async (e) => {
-          e.preventDefault();
-          await doSave(nameInput, pendingAvatarDataURL);
-        });
-      }
-    }
-  
-    async function doSave(nameInput, dataUrl) {
-      const displayName = (nameInput?.value || '').trim();
-  
-      // Persist locally (always available)
-      if (displayName) localStorage.setItem(NAME_KEY, displayName);
-      if (dataUrl)     localStorage.setItem(AVATAR_KEY, dataUrl);
-  
-      // Reflect immediately in the UI everywhere
-      applyGlobalAvatar(
-        dataUrl || localStorage.getItem(AVATAR_KEY) || null,
-        displayName || localStorage.getItem(NAME_KEY) || ''
       );
-  
-      // Best-effort push to Firebase Auth profile (works if your app exposes a compatible API)
-      try {
-        const photoURL = dataUrl || null; // may be a data: URL; fine for local use
-        await tryUpdateFirebaseProfile({ displayName, photoURL });
-      } catch { /* ignore */ }
-  
-      showToast('Profile saved.');
-    }
-  
-    /* ─────────── Boot ─────────── */
-    onReady(() => {
-      removeProviderAndVerifyBits();
-      wireEditScroll();
-      wireForm();
-  
-      // Ensure header avatar renders from stored values on page load
-      const storedAvatar = localStorage.getItem(AVATAR_KEY);
-      const storedName   = localStorage.getItem(NAME_KEY) || '';
-      applyGlobalAvatar(storedAvatar, storedName);
     });
+  }
+  
+  /* === Wire UI === */
+  function wireEvents(auth){
+    $('#logout-btn').addEventListener('click', async () => {
+      try {
+        await window.authUI.logout();
+        window.location.replace('index.html');
+      } catch(e){
+        showToast('Could not sign out. Try again.');
+      }
+    });
+  
+    $('#edit-open').addEventListener('click', () => { $('#settings').hidden = false; });
+    $('#edit-cancel').addEventListener('click', () => { $('#settings').hidden = true; });
+  
+    // Preview selected avatar instantly
+    $('#input-photo-file')?.addEventListener('change', (e) => {
+      const f = e.target.files?.[0];
+      if (f) {
+        const url = URL.createObjectURL(f);
+        const img = $('#prof-avatar');
+        img.src = url; img.hidden = false;
+        $('#prof-initials').hidden = true;
+        setTimeout(()=>URL.revokeObjectURL(url), 5000);
+      }
+    });
+  
+    $('#settings-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const user = auth.currentUser;
+      if (!user) return;
+  
+      const nameInput  = $('#input-name').value.trim();
+      const urlInput   = $('#input-photo').value.trim();
+      const fileInput  = $('#input-photo-file');
+      const file       = fileInput?.files?.[0];
+  
+      try {
+        // 1) If a file was chosen, upload it and override urlInput
+        let finalPhotoURL = urlInput || null;
+        if (file) {
+          showToast('Uploading avatar…');
+          finalPhotoURL = await uploadAvatar(file, user.uid);
+        }
+  
+        // 2) Update Firebase auth profile
+        await updateProfile(user, {
+          displayName: nameInput || null,
+          photoURL: finalPhotoURL || null
+        });
+  
+        // 3) Mirror display name to your certificate name key
+        if (nameInput) {
+          try { localStorage.setItem(NAME_KEY, nameInput); } catch {}
+        }
+  
+        // 4) Refresh UI
+        populate(user);
+        $('#settings').hidden = true;
+        showToast('Profile updated');
+  
+      } catch(err){
+        showToast(err?.message || 'Update failed');
+      }
+    });
+  
+    $('#verify-btn').addEventListener('click', async () => {
+      const user = auth.currentUser;
+      if (!user) return;
+      try {
+        await sendEmailVerification(user);
+        showToast('Verification email sent.');
+        $('#verify-btn').hidden = true;
+      } catch(err){
+        showToast(err?.message || 'Could not send verification email');
+      }
+    });
+  }
+  
+  /* === Boot === */
+  const authReady = () => new Promise((res) => {
+    if (window.authUI?.auth) return res(window.authUI.auth);
+    window.addEventListener('auth-ready', () => res(window.authUI.auth), { once: true });
+  });
+  
+  (async () => {
+    const auth = await authReady();
+  
+    onAuthStateChanged(auth, (user) => {
+      if (!user) { window.location.replace('index.html'); return; }
+      populate(user);
+      wireEvents(auth);
+    });
+  
+    // tiny nav helpers from your existing app.js
+    const toggle = document.getElementById('nav-toggle');
+    const menu = document.getElementById('mobile-menu');
+    if (toggle && menu) {
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        menu.hidden = expanded;
+        document.body.classList.toggle('no-scroll', !expanded);
+      });
+      menu.addEventListener('click', (e) => {
+        const el = e.target;
+        if (el.matches('a[href], button')) {
+          menu.hidden = true;
+          toggle.setAttribute('aria-expanded', 'false');
+          document.body.classList.remove('no-scroll');
+        }
+      });
+    }
   })();
   
