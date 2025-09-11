@@ -2700,3 +2700,30 @@ button[disabled], button[aria-disabled="true"] { opacity: .6; cursor: not-allowe
 @media (max-width: 400px){
   .course-stepper{ grid-template-columns: repeat(auto-fit, minmax(88px, 1fr)); }
 }
+/* --- Scope the reader-only modal so it doesn't affect auth --- */
+#reader-modal.modal .dialog {
+  width: min(860px, calc(100% - 32px));
+  max-height: min(76vh, 940px);
+  overflow: hidden;
+}
+
+/* --- Auth modals: never clip; scroll if needed --- */
+#login-modal .dialog,
+#signup-modal .dialog {
+  /* keep your preferred width but allow vertical scroll */
+  width: clamp(560px, 60vw, 720px);
+  max-height: calc(100dvh - 2rem);
+  overflow: auto !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Give the overlay a little padding so the bottom button isn't flush with the edge */
+.modal {
+  display: grid;                /* keep your centering */
+  place-items: center;
+  padding: clamp(12px, 2vh, 24px);
+}
+
+/* Optional: slightly tighter divider to save vertical space */
+#login-form .divider,
+#signup-form .divider { margin: .5rem 0; }
