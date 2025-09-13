@@ -513,3 +513,89 @@ if (toggle && drawer) {
   });
 }
 // ========================================================================
+// ======= Modal helpers (Sign In / Sign Up) ==============================
+(function () {
+  const BODY = document.body;
+  let scrollY = 0;
+
+  function lockBody() {
+    scrollY = window.scrollY || 0;
+    BODY.classList.add('no-scroll');
+    BODY.style.position = 'fixed';
+    BODY.style.top = `-${scrollY}px`;
+    BODY.style.width = '100%';
+  }
+  function unlockBody() {
+    BODY.classList.remove('no-scroll');
+    BODY.style.position = '';
+    BODY.style.top = '';
+    BODY.style.width = '';
+    window.scrollTo(0, scrollY);
+  }
+
+  function openModal(modal) {
+    if (!modal) return;
+    modal.hidden = false;
+    lockBody();
+
+    // focus first focusable control
+    const focusable = modal.querySelector('input, button, [href], select, textarea, [tabindex]:not([tabindex="-1"])');
+    (focusable || modal).focus?.();
+  }
+
+  function closeModal(modal) {
+    if (!modal) return;
+    modal.hidden = true;
+    unlockBody();
+  }
+
+  // open buttons: [data-modal-open="login-modal"]
+  document.querySelectorAll('[data-modal-open]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const id = btn.getAttribute('data-modal-open');
+      const modal = document.getElementById(id);
+      openModal(modal);
+    });
+  });
+
+  // close buttons: [data-modal-close]
+  document.querySelectorAll('[data-modal-close]').forEach(btn => {
+    btn.addEventListener('click', () => closeModal(btn.closest('.modal')));
+  });
+
+  // switch between modals: [data-modal-switch="signup-modal"]
+  document.querySelectorAll('[data-modal-switch]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = document.getElementById(btn.getAttribute('data-modal-switch'));
+      const current = btn.closest('.modal');
+      current && (current.hidden = true);
+      openModal(target);
+    });
+  });
+
+  // click outside dialog closes
+  document.querySelectorAll('.modal').forEach(modal => {
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeModal(modal);
+    });
+  });
+
+  // ESC closes whichever modal is open
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      const open = document.querySelector('.modal:not([hidden])');
+      if (open) closeModal(open);
+    }
+  });
+
+  // Hook up the mobile menu "X" to re-use the same close
+  const menu = document.getElementById('mobile-menu');
+  const menuClose = menu?.querySelector('.menu-close');
+  if (menuClose) {
+    menuClose.addEventListener('click', () => {
+      // use the existing nav code’s close function if present
+      if (typeof closeMenu === 'function') closeMenu();
+      else menu.hidden = true, unlockBody();
+    });
+  }
+})();

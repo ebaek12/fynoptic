@@ -2926,3 +2926,73 @@ body.no-scroll { overflow: hidden; } /* class is toggled by JS */
 .footer .footer-logo { height: 28px; width: auto; display: block; }
 
 /* ====================================================================== */
+/* ================== Fynoptic follow-ups ================== */
+
+/* A) Footer never overflows + safe area padding */
+.footer { 
+  padding-bottom: calc(1.2rem + env(safe-area-inset-bottom));
+  overflow-x: clip;            /* hide any glow overflow */
+}
+.footer .footer-container{
+  max-width: var(--container-max);
+  margin-inline: auto;
+  width: 100%;
+  padding-inline: var(--gutter);
+  box-sizing: border-box;
+}
+@media (max-width: 768px){
+  .footer .footer-container{
+    display: grid;
+    grid-template-columns: 1fr;   /* stack on small screens */
+    gap: 1rem 0;
+    text-align: center;
+  }
+  .footer .footer-left,
+  .footer .footer-links,
+  .footer .footer-contact{ justify-self: center; }
+}
+
+/* B) Auth modals: fully responsive, never cut off */
+#login-modal .dialog,
+#signup-modal .dialog{
+  width: min(92vw, 560px) !important;  /* fit on iPhone */
+  max-width: 92vw !important;
+  box-sizing: border-box;
+  padding: 16px 16px 20px;
+  position: relative;                  /* for the close button */
+  overflow: auto;                      /* allow internal scroll if keyboard covers */
+}
+
+/* Modal "X" button */
+.modal-close{
+  position: absolute;
+  top: 10px; right: 10px;
+  width: 36px; height: 36px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.18);
+  background: rgba(255,255,255,.06);
+  color: #fff;
+  font-size: 22px; line-height: 1;
+  display: grid; place-items: center;
+}
+.modal-close:focus{ outline: 2px solid var(--primary-600); outline-offset: 2px; }
+
+/* C) Mobile menu close button */
+.menu-close{
+  position: absolute;
+  top: 12px; right: 12px;
+  width: 40px; height: 40px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.18);
+  background: rgba(255,255,255,.08);
+  color: #fff;
+  font-size: 26px; line-height: 1;
+  display: grid; place-items: center;
+  z-index: 1;
+}
+.menu-close:focus{ outline: 2px solid var(--primary-600); outline-offset: 2px; }
+
+/* D) Keep the mobile drawer from ever creating horizontal scroll */
+.mobile-menu { overflow-x: hidden; }
+
+/* ======================================================== */
