@@ -2996,3 +2996,58 @@ body.no-scroll { overflow: hidden; } /* class is toggled by JS */
 .mobile-menu { overflow-x: hidden; }
 
 /* ======================================================== */
+/* ==== Waffle icon: force a single look across all pages ==== */
+:root{
+  --waffle-size: 40px;
+  --waffle-dot: 6px;
+}
+
+/* Base waffle */
+.header .nav-toggle{
+  width: var(--waffle-size) !important;
+  height: var(--waffle-size) !important;
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 4px !important;
+  padding: 6px !important;
+  place-items: center !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255,255,255,.18) !important;
+  background: rgba(255,255,255,.06) !important;
+  color: #EAF2FF !important;
+  /* kill any accidental text/icon spacing */
+  font-size: 0; line-height: 0;
+}
+
+/* The nine dots */
+.header .nav-toggle .dot{
+  width: var(--waffle-dot) !important;
+  height: var(--waffle-dot) !important;
+  border-radius: 50% !important;
+  background: currentColor !important;
+  opacity: .9;
+}
+
+/* Accessibility ring (same on all pages) */
+.header .nav-toggle:focus-visible,
+.header .nav-toggle[aria-expanded="true"]{
+  outline: 2px solid var(--primary-600) !important;
+  outline-offset: 2px !important;
+}
+
+/* HARD RESET: block any page-specific hamburger/emoji/pseudo content */
+.header .nav-toggle::before,
+.header .nav-toggle::after{
+  content: none !important;
+}
+.header .nav-toggle > svg,
+.header .nav-toggle > i{
+  display: none !important;
+}
+/* === subtle edge-padding bump on phones/tablets === */
+@media (max-width: 768px){
+  :root{
+    /* was clamp(16px, 3vw, 32px) — tiny increase only */
+    --gutter: clamp(22px, 5vw, 32px);
+  }
+}
