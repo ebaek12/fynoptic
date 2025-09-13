@@ -467,3 +467,49 @@ document.addEventListener('DOMContentLoaded', () => {
     if (el.matches('a[href], button')) closeMenu();
   });
 })();
+// === Mobile nav toggle (accessibility + iOS scroll lock) =================
+const toggle = document.getElementById('nav-toggle');
+const drawer = document.getElementById('mobile-menu');
+
+let _scrollY = 0;
+
+function openMenu() {
+  drawer.hidden = false;
+  toggle.setAttribute('aria-expanded', 'true');
+
+  // lock body scroll in an iOS-safe way
+  _scrollY = window.scrollY || document.documentElement.scrollTop || 0;
+  document.body.classList.add('no-scroll');
+  document.body.style.position = 'fixed';
+  document.body.style.top = `-${_scrollY}px`;
+  document.body.style.width = '100%';
+}
+
+function closeMenu() {
+  drawer.hidden = true;
+  toggle.setAttribute('aria-expanded', 'false');
+
+  document.body.classList.remove('no-scroll');
+  document.body.style.position = '';
+  document.body.style.top = '';
+  document.body.style.width = '';
+  window.scrollTo(0, _scrollY);
+}
+
+if (toggle && drawer) {
+  toggle.addEventListener('click', () => {
+    const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+    isOpen ? closeMenu() : openMenu();
+  });
+
+  // close on any link tap inside drawer
+  drawer.addEventListener('click', (e) => {
+    if (e.target.closest('a')) closeMenu();
+  });
+
+  // close on ESC
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeMenu();
+  });
+}
+// ========================================================================

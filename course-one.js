@@ -181,7 +181,7 @@
 
       const frame = document.createElement('iframe');
       frame.src = filename;
-      frame.sandbox = 'allow-same-origin';               // try to keep it same-origin for scroll access
+      frame.sandbox = 'allow-same-origin';
       frame.style.width = '100%';
       frame.style.height = '60vh';
       frame.style.border = '0';
@@ -284,7 +284,7 @@
         video.removeEventListener('seeking', seekingGuard);
         video.removeEventListener('ratechange', freezeRate);
         onDone?.();
-        toast('Video completed ✔', 'success');       // one time only
+        toast('Video completed ✔', 'success');
       }
     });
 
@@ -505,7 +505,7 @@
       toast('Module 2 article marked as read.', 'success'); ffTrack('article_read',{module:'m2'});
     });
 
-    // ID exercise (now allows retries until all correct)
+    // ID exercise — feedback only on submit; allow retries until all correct
     (async () => {
       const root = $('#id-ex-root'), submit = $('#id-ex-submit'), out = $('#id-ex-result');
       try {
@@ -520,31 +520,21 @@
           const t = document.createElement('div'); t.className='q-title'; t.textContent = it.vignette;
           const opts = document.createElement('div'); opts.className='q-options';
 
-          // helper: refresh a single card's feedback immediately
-          function refreshCard() {
-            const res = card.querySelector('.result');
-            card.classList.remove('correct','incorrect');
-            if (it._choice == null) { res.textContent = ''; return; }
-            const ok = Number(it._choice) === Number(it.answer_index);
-            card.classList.add(ok ? 'correct' : 'incorrect');
-            if (ok) {
-              res.innerHTML = `Correct. Recommended counter-move: ${it.countermove}<div class="drawer">Rationale: ${it.rationale}</div>`;
-            } else {
-              res.textContent = 'Incorrect — try again.';
-            }
-          }
-
           it.options.forEach((opt,i)=>{
             const lab = document.createElement('label');
             const r = document.createElement('input'); r.type='radio'; r.name=`id${idx}`; r.value=i;
             r.addEventListener('change', () => {
-              it._choice=i;
-              refreshCard();
+              it._choice = i;
+              // Clear any prior feedback on change; do NOT grade yet
+              card.classList.remove('correct','incorrect');
+              const res = card.querySelector('.result');
+              if (res) res.textContent = '';
               setBtnState(submit, data.items.every(x=>x._choice!==null));
             });
             lab.appendChild(r); lab.appendChild(document.createTextNode(opt));
             opts.appendChild(lab);
           });
+
           const res = document.createElement('div'); res.className='result';
           card.appendChild(t); card.appendChild(opts); card.appendChild(res);
           root.appendChild(card);
@@ -553,7 +543,7 @@
         // initial state
         setBtnState(submit, false);
 
-        // grade on each submit; allow unlimited retries until all correct
+        // Grade only when the button is clicked; allow unlimited retries
         submit.addEventListener('click', () => {
           if (submit.disabled) return;
           let correct = 0;
@@ -735,7 +725,7 @@
     { key:'cert',       label:'Certificate',            section:'#certificate', loader:()=>{},         done: ()=> state.certificate.issued }
   ];
 
-  // NEW: determine if an entire section is complete so we never re-lock it
+  // determine if an entire section is complete so we never re-lock it
   function sectionIsComplete(selector) {
     switch (selector) {
       case '#pre-quiz':   return !!state.preQuiz.completed;
@@ -780,6 +770,12 @@
     // Load assets for the *current* step
     current.loader?.();
 
+    // NEW: also load assets for any sections already completed,
+    // so their articles/videos are present after a refresh.
+    LINEAR_STEPS.forEach(s => {
+      if (sectionIsComplete(s.section)) s.loader?.();
+    });
+
     const msg = `Finish “${current.label}” first`;
 
     // Unlock the *current* section element once
@@ -798,11 +794,10 @@
       if (!el) return;
       if (el === currentEl) return;
 
-      // Completed sections: always unlocked
+      // Completed sections: always unlocked (and now preloaded above)
       if (sectionIsComplete(s.section)) {
         lockSection(el, false);
         el.classList.remove('peekable');
-        // keep inputs enabled for review/replay
         return;
       }
 
@@ -851,7 +846,7 @@
   $('#download-badge')?.addEventListener('click', async () => {
     const svg = document.querySelector('#certificate .badge-svg').outerHTML;
     const svgBlob = new Blob([svg], { type:'image/svg+xml;charset=utf-8' });
-    const url = URL.createObjectURL(svg);
+    const url = URL.createObjectURL(svgBlob);
     const img = new Image();
     img.onload = () => {
       const c = document.createElement('canvas'); c.width=512; c.height=512;

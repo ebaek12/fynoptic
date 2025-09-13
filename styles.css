@@ -2870,3 +2870,59 @@ button[disabled], button[aria-disabled="true"] { opacity: .6; cursor: not-allowe
   padding: .8rem 1rem; border-left: 4px solid var(--primary-600);
   border-radius: 10px; box-shadow: var(--shadow-lg);
 }
+/* === Fynoptic mobile fix pack (place at file end) ======================= */
+
+/* 1) Never allow a horizontal overflow (iOS "zoom-to-fit" killer) */
+html, body { min-height: 100%; height: auto; overflow-x: hidden; }
+:root { -webkit-text-size-adjust: 100%; } /* avoid iOS auto zooming text */
+
+/* Clip decorative off-canvas blobs so they can’t widen the layout */
+.hero, .courses-hero, .articles-shell, .chat-shell { overflow-x: clip; }
+
+/* 2) Make the first screen behave on mobile browsers */
+.hero { min-height: 92svh; padding-block: clamp(72px, 8vh, 120px) clamp(56px, 8vh, 96px); }
+
+/* 3) Mobile menu: single source of truth — hidden unless toggled */
+.mobile-menu[hidden] { display: none !important; }
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  padding: 88px clamp(16px,4vw,24px) 24px;
+  background:
+    radial-gradient(1200px 600px at 20% -10%, rgba(63,106,255,.35), transparent 60%),
+    radial-gradient(1000px 600px at 80% 0%, rgba(34,209,178,.25), transparent 60%),
+    var(--brand-950);
+  overflow-y: auto;
+}
+.mobile-menu ul { display: grid; gap: 1rem; }
+.mobile-menu a { font-size: 1.125rem; }
+
+/* Show waffle on mobile, hide desktop links/CTA */
+@media (max-width: 768px){
+  .nav-links { display: none !important; }
+  .nav-toggle { display: grid !important; }
+  .cta-desktop { display: none !important; }
+}
+
+/* Waffle button polish */
+.nav-toggle{
+  width:40px; height:40px; display:none;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:10px; background: rgba(255,255,255,.06);
+  grid-template-columns: repeat(3,1fr); gap:4px; padding:6px; place-items:center;
+}
+.nav-toggle .dot{ width:6px; height:6px; border-radius:50%; background: currentColor; opacity:.9; }
+.nav-toggle[aria-expanded="true"]{ outline:2px solid var(--primary-600); }
+
+/* 4) Reliable modal hiding (some earlier modal rules re-set display) */
+.modal[hidden] { display: none !important; }
+
+/* 5) While menu is open, lock page scroll (iOS-safe pattern uses fixed body) */
+body.no-scroll { overflow: hidden; } /* class is toggled by JS */
+
+/* 6) Defensive: smaller header/footer logos on phones */
+.header .logo img { height: 40px; width: auto; display: block; }
+.footer .footer-logo { height: 28px; width: auto; display: block; }
+
+/* ====================================================================== */
