@@ -3051,3 +3051,69 @@ body.no-scroll { overflow: hidden; } /* class is toggled by JS */
     --gutter: clamp(22px, 5vw, 32px);
   }
 }
+/* ==== Waffle icon: force a single look across all pages ==== */
+:root{
+  --waffle-size: 40px;
+  --waffle-dot: 6px;
+}
+
+/* Base waffle */
+.header .nav-toggle{
+  width: var(--waffle-size) !important;
+  height: var(--waffle-size) !important;
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 4px !important;
+  padding: 6px !important;
+  place-items: center !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255,255,255,.18) !important;
+  background: rgba(255,255,255,.06) !important;
+  color: #EAF2FF !important;
+  /* kill any accidental text/icon spacing */
+  font-size: 0; line-height: 0;
+}
+
+/* The nine dots */
+.header .nav-toggle .dot{
+  width: var(--waffle-dot) !important;
+  height: var(--waffle-dot) !important;
+  border-radius: 50% !important;
+  background: currentColor !important;
+  opacity: .9;
+}
+
+/* Accessibility ring (same on all pages) */
+.header .nav-toggle:focus-visible,
+.header .nav-toggle[aria-expanded="true"]{
+  outline: 2px solid var(--primary-600) !important;
+  outline-offset: 2px !important;
+}
+
+/* HARD RESET: block any page-specific hamburger/emoji/pseudo content */
+.header .nav-toggle::before,
+.header .nav-toggle::after{
+  content: none !important;
+}
+.header .nav-toggle > svg,
+.header .nav-toggle > i{
+  display: none !important;
+}
+/* === Show waffle ONLY on mobile ========================== */
+.header .nav-toggle { 
+  display: none !important;        /* hidden by default (desktop/tablet) */
+}
+
+@media (max-width: 768px){
+  .header .nav-toggle { 
+    display: grid !important;      /* visible on phones only */
+  }
+  .nav-links { display: none !important; }   /* keep desktop links hidden on phones */
+  .cta-desktop { display: none !important; } /* hide header CTA on phones (drawer has one) */
+}
+
+/* (safety) ensure desktop layout is visible on wide screens */
+@media (min-width: 769px){
+  .nav-links { display: flex !important; }
+  .cta-desktop { display: inline-flex !important; }
+}
