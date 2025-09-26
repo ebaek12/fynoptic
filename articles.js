@@ -31,7 +31,7 @@ function computeReadMins(text) {
         id: a.id,
         title: a.title,
         tags: a.tags && a.tags.length ? a.tags : ['Guides'],
-        blurb: a.blurb || a.title,
+        blurb: "",
         date: a.dateISO || new Date().toISOString().slice(0,10),
         readMins: a.readMins || computeReadMins(a.body || a.content || ''),
         body: bodyHTML
