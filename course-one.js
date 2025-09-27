@@ -775,7 +775,7 @@
         state.postQuiz = {
           completed: true, score: pct, pass,
           answers: items.map(q => q._choice),
-          correctness: items.map(q => Number(q._choice) === Number(q.answer_index))
+          correctness: items.map(q => Number(q.__choice) === Number(q.answer_index))
         };
         saveState(state);
         ffTrack('post_quiz_submit', { score:pct, pass });
