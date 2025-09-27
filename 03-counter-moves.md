@@ -1,7 +1,4 @@
 # Counter-moves that actually work
-
-## Module 3 opener (80–100 words)
-
 You don’t have to argue for hours. Most situations fold when you use the right action at the right moment and keep a paper trail. Start with permission hygiene—turn off marketing, uncheck defaults, ask for confirmations. If you’re canceling, send a concise, dated request through the required channel once, then follow with email. When a refund stalls, quote their policy, attach your proof, give a clear deadline. If it still drags, escalate to the platform or payment rails with the same evidence. That rhythm closes loops without drama.
 
 ## Opt-out & permission hygiene

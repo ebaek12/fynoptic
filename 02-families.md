@@ -1,6 +1,6 @@
 # The field guide: what it is, how to spot it, what to do
 
-**Structure (repeat per family; ~130–160 words each):**  
+**Structure:**  
 Definition in one sentence.  
 Typical placement (sign-up/checkout/cancel).  
 Spotting cues (2–3 concrete tells).  

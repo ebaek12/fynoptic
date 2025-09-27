@@ -141,10 +141,10 @@
      Markdown + video gating
   ───────────────────────────*/
 
-  // NEW: nicer slugs for heading anchors
+  // nicer slugs for heading anchors
   function slugify(str){ return String(str).toLowerCase().replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-'); }
 
-  // NEW: Upgraded markdown renderer with anchors, blockquotes, hr, fenced code, and callouts
+  // Upgraded markdown renderer with anchors, blockquotes, hr, fenced code, and callouts
   function mdToHtml(md){
     if (!md) return '';
 
@@ -194,7 +194,7 @@
     return html;
   }
 
-  // NEW: Post-process a rendered article: lead paragraph + mini TOC
+  // Post-process a rendered article: lead paragraph + mini TOC
   function enhanceArticle(mountEl){
     if (!mountEl) return;
 
@@ -233,7 +233,7 @@
     try {
       const text = await fetchFirst(filename, 'text');
       mountEl.innerHTML = mdToHtml(text);
-      enhanceArticle(mountEl); // NEW: prettify the rendered article
+      enhanceArticle(mountEl);
       const target = mountEl.lastElementChild || mountEl;
       const io = new IntersectionObserver(entries=>{
         if (entries.some(e=>e.isIntersecting)){
@@ -579,7 +579,7 @@
 
     // ID exercise — feedback only on submit; allow retries until all correct
     (async () => {
-      const root = $('#id-ex-root'), submit = $('#id-ex-submit'), out = $('#id-ex-result');
+      const root = $('#id-ex-root'), submit = $('#id-ex-submit'), out = $('#id-ex-result'];
       try {
         const data = await fetchFirst('id-exercise.json', 'json');
         if (!data.items?.length) throw new Error('No items in id-exercise.json');
@@ -636,7 +636,7 @@
           const total = data.items.length;
           const allCorrect = correct === total;
           out.textContent = allCorrect
-            ? `All ${total}/{total} correct.`
+            ? `All ${total}/${total} correct.`
             : `${total - correct} incorrect. Fix and check again.`;
 
           if (allCorrect) {
@@ -743,49 +743,52 @@
     const btn    = $('#post-submit');
     const result = $('#post-result');
     const retake = $('#post-retake');
-  
+
     // helper to fully reset the quiz state and UI
     function resetPostQuiz(items){
       // clear persisted state for postQuiz
       state.postQuiz = { completed:false, score:0, pass:false, answers:[], correctness:[] };
       saveState(state);
-  
+
       // clear UI
       result.textContent = '';
       retake.hidden = true;
-  
+
       // re-render fresh (no choices, no marks)
       renderQuiz(root, items, onAny, { savedChoices:[], correctness:[] });
       setBtnState(btn, false);
+
+      // focus first question for convenience
+      root.querySelector('input[type="radio"]')?.focus();
       toast('You can retake the assessment now.', 'info');
     }
-  
+
     try {
       const dataRaw = await fetchFirst('quiz.json', 'json');
       const items   = normalizeQuiz(dataRaw);
-  
+
       const saved = Array.isArray(state.postQuiz.answers) ? state.postQuiz.answers : [];
       const corr  = Array.isArray(state.postQuiz.correctness) ? state.postQuiz.correctness : [];
       const onAny = () => setBtnState(btn, items.every(q => q._choice !== null));
       const onChoice = (idx, val) => { state.postQuiz.answers[idx] = val; saveState(state); };
-  
+
       // initial render (respect any prior attempt)
       renderQuiz(root, items, onAny, { savedChoices:saved, correctness:corr, onChoice });
       onAny();
-  
+
       // if there was a previous failed attempt, offer retake immediately
       if (state.postQuiz.completed && !state.postQuiz.pass) {
         retake.hidden = false;
-        retake.onclick = () => resetPostQuiz(items);
+        retake.onclick = () => resetPostQuiz(items); // ← resets choices and hides correctness
       }
-  
+
       // allow multiple submissions; we manage state ourselves
       btn.addEventListener('click', () => {
         if (btn.disabled) return;
-  
+
         const { correct, total, pct } = gradeQuiz(root, items, 'answer_index', 'rationale');
         const pass = pct >= 80;
-  
+
         state.postQuiz = {
           completed: true, score: pct, pass,
           answers: items.map(q => q._choice),
@@ -793,9 +796,9 @@
         };
         saveState(state);
         ffTrack('post_quiz_submit', { score:pct, pass });
-  
+
         result.textContent = `Score: ${correct}/${total} (${pct}%). ${pass ? 'Pass ✅' : 'Below 80% — review and try again.'}`;
-  
+
         if (pass) {
           toast('Assessment passed. Certificate unlocked.', 'success');
           updateLocks();
@@ -805,7 +808,7 @@
           toast('Score below 80%. You can retake the assessment.', 'error');
           // show retake button which clears everything back to a clean slate
           retake.hidden = false;
-          retake.onclick = () => resetPostQuiz(items);
+          retake.onclick = () => resetPostQuiz(items); // ← ensures clean state on reassessment
         }
       });
     } catch (e) {
@@ -813,7 +816,6 @@
       setBtnState(btn, false);
     }
   }
-  
 
   /* ─────────────────────────
      Linear path (one unlocked)
@@ -884,7 +886,7 @@
     // Load assets for the *current* step
     current.loader?.();
 
-    // NEW: also load assets for any sections already completed,
+    // also load assets for any sections already completed,
     // so their articles/videos are present after a refresh.
     LINEAR_STEPS.forEach(s => {
       if (sectionIsComplete(s.section)) s.loader?.();
