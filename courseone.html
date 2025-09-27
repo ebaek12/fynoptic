@@ -377,23 +377,24 @@
         <div id="audit-output" class="audit-output" hidden></div>
         <div id="audit-actions" class="gate" hidden>
           <button class="btn btn-ghost" id="copy-audit">Copy summary</button>
-          <button class="btn btn-primary" id="print-audit">Download PDF</button>
         </div>
       </div>
     </section>
 
     <!-- POST-QUIZ -->
-    <section class="section container" id="post-quiz" aria-labelledby="post-title">
-      <h2 id="post-title">POST-QUIZ — scenario-rich assessment</h2>
-      <p class="subtle">Notes: each item tests judgment, sequencing, or evidence quality; explanations shown after submit.</p>
+   <!-- POST-QUIZ -->
+<section class="section container" id="post-quiz" aria-labelledby="post-title">
+  <h2 id="post-title">POST-QUIZ — scenario-rich assessment</h2>
+  <p class="subtle">Notes: each item tests judgment, sequencing, or evidence quality; explanations shown after submit.</p>
 
-      <div id="post-quiz-root" class="quiz-card" aria-live="polite"></div>
-      <div class="gate">
-        <button class="btn btn-primary" id="post-submit" aria-disabled="true">Submit assessment</button>
-        <span class="locknote">Score ≥ 80% to unlock certificate.</span>
-      </div>
-      <div id="post-result" class="result"></div>
-    </section>
+  <div id="post-quiz-root" class="quiz-card" aria-live="polite"></div>
+  <div class="gate">
+    <button class="btn btn-primary" id="post-submit" aria-disabled="true">Submit assessment</button>
+    <button class="btn btn-ghost" id="post-retake" hidden>Retake assessment</button>
+    <span class="locknote">Score ≥ 80% to unlock certificate.</span>
+  </div>
+  <div id="post-result" class="result"></div>
+</section>
 
     <!-- CERTIFICATE -->
     <section class="section container certificate" id="certificate" aria-labelledby="cert-title">

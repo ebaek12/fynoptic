@@ -3117,3 +3117,122 @@ body.no-scroll { overflow: hidden; } /* class is toggled by JS */
   .nav-links { display: flex !important; }
   .cta-desktop { display: inline-flex !important; }
 }
+/* ─────────────────────────────
+   Article polish (scoped to .md)
+   ───────────────────────────── */
+   .md {
+    --md-max: 68ch;
+    --md-accent: linear-gradient(90deg, #3F6AFF, #22D1B2 55%, #FFD166);
+    max-width: var(--md-max);
+    margin-inline: auto;
+    padding: .25rem 0 1rem;
+    letter-spacing: .01em;
+    color: var(--text-100, #e9edff);
+  }
+  
+  .md p { margin: .9rem 0 1rem; font-size: 1.05rem; }
+  .md .lead { font-size: 1.2rem; line-height: 1.9; color: var(--text-100); }
+  
+  /* Headings */
+  .md h1, .md h2, .md h3 { line-height: 1.2; letter-spacing: .01em; }
+  .md h1 {
+    font-size: clamp(2rem, 3vw + 1rem, 3rem);
+    margin: .25rem 0 .75rem;
+    background: var(--md-accent);
+    -webkit-background-clip: text; background-clip: text;
+    color: transparent;
+  }
+  .md h2 { font-size: clamp(1.4rem, 1.6vw + 1rem, 2rem); margin: 1.25rem 0 .5rem; }
+  .md h3 { font-size: clamp(1.15rem, 1vw + .9rem, 1.35rem); margin: 1rem 0 .25rem; }
+  
+  /* Lists with nicer rhythm */
+  .md ul, .md ol { padding-left: 1.25rem; margin: .5rem 0 1rem; }
+  .md li { margin: .35rem 0; }
+  .md ul li { list-style: disc; }
+  .md ol li { list-style: decimal; }
+  
+  /* Blockquotes */
+  .md blockquote {
+    margin: 1rem 0; padding: .9rem 1rem;
+    background: rgba(255,255,255,.035);
+    border: 1px solid rgba(255,255,255,.08);
+    border-left: 4px solid #22D1B2;
+    border-radius: 12px;
+    font-size: 1.05rem;
+  }
+  
+  /* Horizontal rule as divider */
+  .md hr {
+    border: 0; height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,.25), transparent);
+    margin: 1.2rem 0;
+  }
+  
+  /* Code + pre */
+  .md code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    font-size: .95em;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.12);
+    padding: .15rem .35rem; border-radius: .4rem;
+  }
+  .md pre {
+    overflow: auto; padding: .9rem 1rem; border-radius: 12px;
+    background: rgba(12,16,28,.85);
+    border: 1px solid rgba(255,255,255,.08);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
+  }
+  .md pre code { background: transparent; border: 0; padding: 0; }
+  
+  /* Tables */
+  .md table {
+    width: 100%; border-collapse: collapse; margin: .75rem 0 1rem;
+    overflow: hidden; border-radius: 12px;
+    border: 1px solid rgba(255,255,255,.08);
+  }
+  .md th, .md td { padding: .6rem .75rem; text-align: left; }
+  .md thead th { background: rgba(255,255,255,.06); }
+  .md tbody tr:nth-child(odd) { background: rgba(255,255,255,.035); }
+  
+  /* Figures */
+  .md figure { margin: 1rem 0; }
+  .md figcaption { font-size: .9rem; color: var(--text-300); margin-top: .35rem; }
+  
+  /* Callouts (created by JS) */
+  .md .callout {
+    display: grid; grid-template-columns: 24px 1fr; gap: .65rem;
+    padding: .8rem .95rem;
+    border: 1px solid rgba(255,255,255,.12);
+    background: rgba(255,255,255,.04);
+    border-radius: 12px;
+    margin: .9rem 0 1rem;
+  }
+  .md .callout .co-ico { font-size: 1.1rem; line-height: 1; }
+  .md .callout.co-tip   { border-left: 4px solid #22D1B2; }
+  .md .callout.co-note  { border-left: 4px solid #3F6AFF; }
+  .md .callout.co-warn  { border-left: 4px solid #F04438; }
+  .md .callout strong { display:block; margin-bottom:.2rem; }
+  
+  /* In-article TOC */
+  .md .toc {
+    margin: .25rem 0 1rem;
+    padding: .75rem .9rem;
+    border: 1px dashed rgba(255,255,255,.15);
+    border-radius: 12px;
+    background: rgba(255,255,255,.03);
+    font-size: .98rem;
+  }
+  .md .toc summary { cursor: pointer; font-weight: 600; }
+  .md .toc ul { margin: .35rem 0 0; padding-left: 1rem; }
+  .md .toc a { text-decoration: none; }
+  .md .toc a:hover { text-decoration: underline; }
+  
+  /* Subtle anchor link on headings */
+  .md .anchor {
+    opacity: 0; margin-left: .35rem; font-size: .9em; text-decoration: none;
+  }
+  .md h2:hover .anchor, .md h3:hover .anchor { opacity: .8; }
+  
+  /* Wider cards for reading comfort */
+  .content-card:has(.md) { padding: 1.5rem clamp(1rem, 2vw, 2rem); }
+  

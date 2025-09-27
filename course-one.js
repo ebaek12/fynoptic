@@ -140,20 +140,91 @@
   /* ─────────────────────────
      Markdown + video gating
   ───────────────────────────*/
+
+  // NEW: nicer slugs for heading anchors
+  function slugify(str){ return String(str).toLowerCase().replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-'); }
+
+  // NEW: Upgraded markdown renderer with anchors, blockquotes, hr, fenced code, and callouts
   function mdToHtml(md){
     if (!md) return '';
-    let html = md
-      .replace(/^### (.*)$/gim, '<h3>$1</h3>')
-      .replace(/^## (.*)$/gim,  '<h2>$1</h2>')
-      .replace(/^# (.*)$/gim,   '<h1>$1</h1>')
-      .replace(/^\s*[-*] (.*)$/gim, '<li>$1</li>')
-      .replace(/(<li>.*<\/li>)/gims, '<ul>$1</ul>')
-      .replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>')
-      .replace(/\*(.*?)\*/gim, '<em>$1</em>')
-      .replace(/`([^`]+)`/gim, '<code>$1</code>')
-      .replace(/\n{2,}/g, '</p><p>')
-      .replace(/\n/g, '<br/>');
-    return `<p>${html}</p>`;
+
+    // Fenced code blocks
+    md = md.replace(/```(\w+)?\n([\s\S]*?)```/g, (_,lang,code) =>
+      `<pre><code class="lang-${lang||'text'}">${code.replace(/</g,'&lt;').replace(/>/g,'&gt;')}</code></pre>`);
+
+    // Callouts: [!TIP], [!NOTE], [!WARNING]
+    md = md.replace(/^\s*\[\!(TIP|NOTE|WARNING)\]\s*(?:\**([^\n*]+)\**)?\s*\n([\s\S]*?)(?=\n{2,}|\n\[\!|$)/gmi,
+      (_,kind,title,body) => {
+        const map = { TIP:'co-tip', NOTE:'co-note', WARNING:'co-warn' };
+        const ico = { TIP:'💡', NOTE:'📝', WARNING:'⚠️' }[kind] || 'ℹ️';
+        const head = title ? `<strong>${title.trim()}</strong>` : '';
+        return `<div class="callout ${map[kind]}"><div class="co-ico" aria-hidden="true">${ico}</div><div>${head}${body.trim()}</div></div>`;
+      });
+
+    // Blockquotes
+    md = md.replace(/^(>\s?.+)(\n(>\s?.+))*$/gm, (m) =>
+      `<blockquote>${m.replace(/^>\s?/gm,'').trim()}</blockquote>`);
+
+    // HR
+    md = md.replace(/^\s*---\s*$/gm, '<hr/>');
+
+    // Headings (h1–h3) with anchors for h2/h3
+    md = md
+      .replace(/^###\s+(.*)$/gmi, (_,t) => {
+        const id = slugify(t); return `<h3 id="${id}">${t}<a class="anchor" href="#${id}" aria-label="Link to section">#</a></h3>`;
+      })
+      .replace(/^##\s+(.*)$/gmi,  (_,t) => {
+        const id = slugify(t); return `<h2 id="${id}">${t}<a class="anchor" href="#${id}" aria-label="Link to section">#</a></h2>`;
+      })
+      .replace(/^#\s+(.*)$/gmi,   (_,t) => `<h1>${t}</h1>`);
+
+    // Lists
+    md = md.replace(/^\s*[-*]\s+(.*)$/gmi, '<li>$1</li>')
+           .replace(/(<li>.*<\/li>)/gims, '<ul>$1</ul>');
+
+    // Inline marks
+    md = md.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+           .replace(/\*(.+?)\*/g, '<em>$1</em>')
+           .replace(/`([^`]+)`/g, '<code>$1</code>');
+
+    // Paragraphs
+    md = md.replace(/\n{2,}/g, '</p><p>').replace(/^\s*<p><\/p>/, '');
+    let html = `<p>${md}</p>`;
+
+    return html;
+  }
+
+  // NEW: Post-process a rendered article: lead paragraph + mini TOC
+  function enhanceArticle(mountEl){
+    if (!mountEl) return;
+
+    // Promote first normal paragraph to "lead"
+    const firstP = Array.from(mountEl.querySelectorAll('p'))
+      .find(p => p.textContent.trim().length > 0 && !p.closest('.callout'));
+    if (firstP) firstP.classList.add('lead');
+
+    // Build TOC (h2/h3) if there are at least 2 h2 sections
+    const heads = Array.from(mountEl.querySelectorAll('h2, h3'));
+    const items = heads.map(h => {
+      const id = h.id || slugify(h.textContent);
+      h.id = id;
+      return { id, text: h.textContent.trim(), level: h.tagName.toLowerCase() };
+    });
+    const showToc = items.filter(i => i.level === 'h2').length >= 2;
+    if (showToc){
+      const toc = document.createElement('details');
+      toc.className = 'toc';
+      toc.open = true;
+      toc.innerHTML = `<summary>On this page</summary><ul></ul>`;
+      const ul = toc.querySelector('ul');
+      items.forEach(i => {
+        const li = document.createElement('li');
+        li.style.marginLeft = i.level === 'h3' ? '.85rem' : '0';
+        li.innerHTML = `<a href="#${i.id}">${i.text}</a>`;
+        ul.appendChild(li);
+      });
+      mountEl.prepend(toc);
+    }
   }
 
   // Smart loader: fetch JSON/text; if blocked (file://), fall back to iframe viewer
@@ -162,6 +233,7 @@
     try {
       const text = await fetchFirst(filename, 'text');
       mountEl.innerHTML = mdToHtml(text);
+      enhanceArticle(mountEl); // NEW: prettify the rendered article
       const target = mountEl.lastElementChild || mountEl;
       const io = new IntersectionObserver(entries=>{
         if (entries.some(e=>e.isIntersecting)){
@@ -564,7 +636,7 @@
           const total = data.items.length;
           const allCorrect = correct === total;
           out.textContent = allCorrect
-            ? `All ${total}/${total} correct.`
+            ? `All ${total}/{total} correct.`
             : `${total - correct} incorrect. Fix and check again.`;
 
           if (allCorrect) {
@@ -667,39 +739,81 @@
 
   async function loadPOST(){
     if (postLoaded) return; postLoaded = true;
-    const root = $('#post-quiz-root'), btn = $('#post-submit'), result = $('#post-result');
-
+    const root   = $('#post-quiz-root');
+    const btn    = $('#post-submit');
+    const result = $('#post-result');
+    const retake = $('#post-retake');
+  
+    // helper to fully reset the quiz state and UI
+    function resetPostQuiz(items){
+      // clear persisted state for postQuiz
+      state.postQuiz = { completed:false, score:0, pass:false, answers:[], correctness:[] };
+      saveState(state);
+  
+      // clear UI
+      result.textContent = '';
+      retake.hidden = true;
+  
+      // re-render fresh (no choices, no marks)
+      renderQuiz(root, items, onAny, { savedChoices:[], correctness:[] });
+      setBtnState(btn, false);
+      toast('You can retake the assessment now.', 'info');
+    }
+  
     try {
       const dataRaw = await fetchFirst('quiz.json', 'json');
       const items   = normalizeQuiz(dataRaw);
-
+  
       const saved = Array.isArray(state.postQuiz.answers) ? state.postQuiz.answers : [];
       const corr  = Array.isArray(state.postQuiz.correctness) ? state.postQuiz.correctness : [];
       const onAny = () => setBtnState(btn, items.every(q => q._choice !== null));
       const onChoice = (idx, val) => { state.postQuiz.answers[idx] = val; saveState(state); };
-
+  
+      // initial render (respect any prior attempt)
       renderQuiz(root, items, onAny, { savedChoices:saved, correctness:corr, onChoice });
       onAny();
-
+  
+      // if there was a previous failed attempt, offer retake immediately
+      if (state.postQuiz.completed && !state.postQuiz.pass) {
+        retake.hidden = false;
+        retake.onclick = () => resetPostQuiz(items);
+      }
+  
+      // allow multiple submissions; we manage state ourselves
       btn.addEventListener('click', () => {
         if (btn.disabled) return;
+  
         const { correct, total, pct } = gradeQuiz(root, items, 'answer_index', 'rationale');
         const pass = pct >= 80;
+  
         state.postQuiz = {
           completed: true, score: pct, pass,
           answers: items.map(q => q._choice),
           correctness: items.map(q => Number(q._choice) === Number(q.answer_index))
         };
-        saveState(state); ffTrack('post_quiz_submit', { score:pct, pass });
+        saveState(state);
+        ffTrack('post_quiz_submit', { score:pct, pass });
+  
         result.textContent = `Score: ${correct}/${total} (${pct}%). ${pass ? 'Pass ✅' : 'Below 80% — review and try again.'}`;
-        if (pass){ toast('Assessment passed. Certificate unlocked.', 'success'); updateLocks(); $('#certificate')?.scrollIntoView({ behavior:'smooth' }); }
-        else toast('Score below 80%. Review modules and retry.', 'error');
-      }, { once:true });
+  
+        if (pass) {
+          toast('Assessment passed. Certificate unlocked.', 'success');
+          updateLocks();
+          $('#certificate')?.scrollIntoView({ behavior:'smooth' });
+          retake.hidden = true; // no need to retake once passed
+        } else {
+          toast('Score below 80%. You can retake the assessment.', 'error');
+          // show retake button which clears everything back to a clean slate
+          retake.hidden = false;
+          retake.onclick = () => resetPostQuiz(items);
+        }
+      });
     } catch (e) {
       root.innerHTML = `<div class="subtle">Couldn’t load <code>quiz.json</code>. If this page is opened via <code>file://</code>, some browsers block local fetch. Run a small local server (e.g., <code>python -m http.server</code>), or host the files.</div>`;
       setBtnState(btn, false);
     }
   }
+  
 
   /* ─────────────────────────
      Linear path (one unlocked)
