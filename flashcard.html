@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <title>Fynoptic – Flashcards</title>
+
+  <!-- Brand CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Flashcards-only CSS -->
+  <link rel="stylesheet" href="flashcards.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body class="course-shell">
+  <header class="header" role="banner">
+    <nav class="nav container" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="logo" aria-label="Fynoptic Home">
+        <img src="fynopticlogo.png" alt="Fynoptic logo" />
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <span aria-hidden="true" class="dot"></span><span class="dot"></span><span class="dot"></span>
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      </button>
+
+      <ul class="nav-links" id="desktop-nav">
+        <li><a href="courses.html">Course</a></li>
+        <li><a href="bot.html">Fix-it Bot</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="flashcard.html">Flashcards</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="courses.html" class="btn btn-primary cta-desktop">Start the free course</a>
+        <button id="user-btn" class="user-icon" aria-label="User menu">
+          <span id="nav-initials" aria-hidden="true">?</span>
+        </button>
+      </div>
+    </nav>
+
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <button class="menu-close" aria-label="Close menu">&times;</button>
+      <ul>
+        <li><a href="courses.html">Course</a></li>
+        <li><a href="bot.html">Fix-it Bot</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="flashcard.html">Flashcards</a></li>
+        <li><a href="courses.html" class="btn btn-primary">Start the free course</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main" class="flashcards-shell">
+    <section class="container">
+      <h1>Practice Flashcards</h1>
+      <p class="lead">Pick your units, choose a mode, and start practicing. Your progress is saved automatically.</p>
+
+      <!-- Controls -->
+      <div class="fc-controls card" role="region" aria-label="Flashcard controls">
+        <div class="fc-grid">
+          <!-- Unit picker -->
+          <div class="fc-block">
+            <h3 class="fc-label">Units</h3>
+            <div id="unit-list" class="unit-list" aria-live="polite"></div>
+            <div class="fc-actions">
+              <button id="select-all" class="btn btn-ghost">Select all</button>
+              <button id="clear-all" class="btn btn-ghost">Clear</button>
+            </div>
+          </div>
+
+          <!-- Mode & Options -->
+          <div class="fc-block">
+            <h3 class="fc-label">Mode</h3>
+            <div class="mode-row" role="group" aria-label="Practice mode">
+              <label class="mode-chip">
+                <input type="radio" name="mode" value="mc" checked />
+                <span>Multiple Choice</span>
+              </label>
+              <label class="mode-chip">
+                <input type="radio" name="mode" value="fitb" />
+                <span>Fill in the Blank</span>
+              </label>
+            </div>
+
+            <div class="opt-row">
+              <label class="toggle">
+                <input type="checkbox" id="shuffle" checked />
+                <span>Shuffle deck</span>
+              </label>
+              <label class="toggle">
+                <input type="checkbox" id="case-insensitive" checked />
+                <span>Ignore case (Fill-in)</span>
+              </label>
+            </div>
+
+            <div class="fc-actions">
+              <button id="start-btn" class="btn btn-primary">Start Session</button>
+              <button id="end-btn" class="btn btn-ghost" hidden>End Session</button>
+              <button id="reset-progress" class="btn btn-ghost">Reset Progress</button>
+            </div>
+          </div>
+
+          <!-- Progress -->
+          <aside class="fc-block fc-progress">
+            <h3 class="fc-label">Progress</h3>
+            <div class="bar"><div id="progress-fill" class="fill" style="--p:0%"></div></div>
+            <ul class="stats">
+              <li><strong id="stat-total">0</strong><span>Total</span></li>
+              <li><strong id="stat-done">0</strong><span>Completed</span></li>
+              <li><strong id="stat-correct">0</strong><span>Correct</span></li>
+              <li><strong id="stat-acc">0%</strong><span>Accuracy</span></li>
+              <li><strong id="stat-streak">0</strong><span>Streak</span></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+
+      <!-- Flashcard -->
+      <div id="fc-stage" class="fc-stage card" hidden aria-live="polite">
+        <div class="fc-top">
+          <div class="crumbs"><span id="crumbs-text">0 / 0</span></div>
+        </div>
+
+        <div class="fc-card" role="group" aria-label="Flashcard">
+          <div id="term-side" class="side is-front">
+            <p class="prompt-label">Term</p>
+            <div id="term-text" class="prompt-text">—</div>
+          </div>
+          <div id="def-side" class="side">
+            <p class="prompt-label">Definition</p>
+            <div id="def-text" class="prompt-text">—</div>
+          </div>
+        </div>
+
+        <!-- Answering area -->
+        <div id="answer-area">
+        <button id="mc-toggle-answer" class="pill-toggle" type="button"></button>
+
+          <!-- MC -->
+          <div id="mc-area" class="mc-area" role="group" aria-label="Multiple choice options"></div>
+
+          <!-- Fill-in -->
+          <form id="fitb-form" class="fitb-area" hidden>
+            <label for="fitb-input" class="sr-only">Type your answer</label>
+            <input id="fitb-input" type="text" placeholder="Type the term…" autocomplete="off" />
+            <button class="btn btn-primary" type="submit">Check</button>
+            <button class="btn btn-ghost" type="button" id="fitb-hint">Hint</button>
+          </form>
+
+          <div id="feedback" class="feedback" aria-live="polite" hidden></div>
+        </div>
+
+        <!-- NAV with big FLIP in the middle -->
+        <div class="fc-nav">
+          <button id="prev-btn" class="btn btn-ghost">← Prev</button>
+          <div class="gap"></div>
+          <button id="flip-btn" class="btn btn-primary btn-flip-big" type="button">Flip</button>
+          <div class="gap"></div>
+          <button id="next-btn" class="btn btn-ghost">Next →</button>
+        </div>
+
+        <div class="fc-bottom">
+          <button id="restart-btn" class="btn btn-ghost">Restart deck</button>
+        </div>
+      </div>
+
+      <!-- Empty state -->
+      <div id="empty-state" class="card empty-state" hidden>
+        <h3>No cards yet</h3>
+        <p class="muted">Choose at least one unit and click <strong>Start Session</strong>.</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <img src="fynopticlogo.png" alt="Fynoptic logo" class="footer-logo" />
+        <p class="footer-tagline">Helping you spot & stop predatory fees, dark patterns, and subscription traps.</p>
+      </div>
+      <div class="footer-links">
+        <a href="bot.html">Fix-it Bot</a>
+        <a href="courses.html">Course</a>
+        <a href="articles.html">Articles</a>
+      </div>
+      <div class="footer-contact"><p>📬 fynoptic@gmail.com</p></div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 Fynoptic. Educational content. Not legal advice.</p></div>
+  </footer>
+
+<!-- at the end of body -->
+<script type="module" src="flashcard.js"></script>
+
+
+</body>
+</html>
