@@ -3460,3 +3460,827 @@ display: none !important;        /* hidden by default (desktop/tablet) */
 }
 .pill-toggle:hover{ opacity:1; transform:translateY(-1px); }
 .pill-toggle:active{ transform:translateY(0); }
+/* Practice page — scoped to .practice-shell and friends; uses your tokens */
+.practice-shell {
+  background:
+    radial-gradient(1200px 600px at 20% -10%, rgba(63,106,255,.25), transparent 60%),
+    radial-gradient(1000px 600px at 80% 0%, rgba(34,209,178,.18), transparent 60%),
+    linear-gradient(180deg, var(--brand-950), #0A0F1B);
+  color: var(--text-100);
+}
+
+/* Hero */
+.practice-hero {
+  position: relative;
+  padding: 5rem 0 3rem;
+  background: var(--grad-hero);
+  overflow: hidden;
+}
+.practice-hero h1 {
+  margin: 0 0 .5rem;
+}
+.practice-hero .hero-sub {
+  color: var(--text-300);
+  max-width: 65ch;
+}
+
+/* Controls */
+.practice-controls {
+  margin-top: 1.25rem;
+}
+.pc-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: end;
+}
+.pc-grid > div:nth-child(1) { grid-column: span 3; }
+.pc-grid > div:nth-child(2) { grid-column: span 4; }
+.pc-grid > div:nth-child(3) { grid-column: span 2; }
+.pc-grid > div:nth-child(4) { grid-column: span 2; }
+.pc-grid > .pc-actions { grid-column: span 12; display:flex; gap:.5rem; flex-wrap:wrap; }
+
+@media (max-width: 960px) {
+  .pc-grid { grid-template-columns: 1fr; }
+}
+
+.pc-label { display:block; font-weight:600; margin-bottom:.35rem; }
+.input {
+  width: 100%;
+  padding: .7rem .85rem;
+  border-radius: var(--radius-sm);
+  background: var(--brand-900);
+  color: var(--text-100);
+  border: 1px solid rgba(255,255,255,.12);
+}
+
+/* Progress */
+.progress-card { margin-top: 1rem; }
+.progress-top { display:flex; justify-content:space-between; gap:1rem; align-items:center; flex-wrap:wrap; }
+.pc-progress {
+  width: 100%;
+  height: 10px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.pc-progress-fill {
+  display:block; height:100%; width: var(--p,0%);
+  background: var(--grad-primary);
+  transition: width .6s cubic-bezier(.22,1,.36,1);
+}
+.pc-stats { color: var(--text-300); display:flex; gap:.6rem; flex-wrap:wrap; }
+.pc-stats strong { color: var(--text-100); }
+.pc-stats .sep { opacity:.6; }
+
+/* Stage */
+.stage { margin-top: 1rem; }
+.stage-top { display:flex; gap:.5rem; align-items:center; margin-bottom:.25rem; }
+.chip { background: rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.12); }
+
+.q-area .prompt-label { color: var(--text-300); margin: .2rem 0 .25rem; font-size: .95rem; }
+.prompt-text { font-size: clamp(1.05rem, .6vw + 1rem, 1.35rem); }
+
+.mc-area {
+  display: grid;
+  gap: .6rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: .7rem;
+}
+@media (max-width:640px) {
+  .mc-area { grid-template-columns: 1fr; }
+}
+.mc-option {
+  padding: .7rem .8rem;
+  text-align: left;
+  border-radius: 12px;
+  background: rgba(17,26,46,.5);
+  border: 1px solid rgba(255,255,255,.10);
+  transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease, background .12s ease;
+}
+.mc-option:hover { transform: translateY(-1px); }
+.mc-option.is-selected { border-color: rgba(91,140,255,.6); box-shadow: 0 0 0 2px rgba(91,140,255,.25) inset; }
+.mc-option.is-correct { border-color: var(--success-500); box-shadow: 0 0 0 2px rgba(24,199,124,.25) inset; }
+.mc-option.is-wrong { border-color: var(--danger-500); box-shadow: 0 0 0 2px rgba(240,68,56,.25) inset; }
+
+.feedback {
+  margin-top: .6rem;
+  border-left: 3px solid var(--primary-600);
+  background: rgba(255,255,255,.03);
+  border-radius: 8px;
+  padding: .55rem .75rem;
+}
+.feedback.ok { border-left-color: var(--success-500); }
+.feedback.bad { border-left-color: var(--danger-500); }
+
+.q-actions { display:flex; gap:.5rem; margin-top:.75rem; flex-wrap:wrap; }
+
+.empty { text-align: center; color: var(--text-300); }
+.hide { display: none !important; }
+
+/* Hero background decor */
+.practice-hero .orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: .12;
+  animation: float 20s ease-in-out infinite alternate;
+}
+.practice-hero .orb1 { width: 260px; height: 260px; top: 12%; left: 8%; background: var(--primary-600); }
+.practice-hero .orb2 { width: 200px; height: 200px; bottom: -6%; right: 10%; background: var(--teal-500); }
+@keyframes float { from { transform: translateY(0) } to { transform: translateY(18px) } }
+
+/* Importer accordion */
+.ff-acc { margin-top: 1rem; }
+.tiny { font-size: .9rem; color: var(--text-300); }
+/* ===== Practice page spacing & polish overrides ===== */
+
+/* Kill the giant hero gap ONLY on the Practice page */
+.practice-shell .practice-hero {
+  min-height: auto !important;          /* override any 100vh rules */
+  padding: 2.25rem 0 1.5rem !important; /* tighter, consistent with cards below */
+}
+
+/* Slightly closer card stack under the hero */
+.practice-shell .practice-controls { margin-top: 0.75rem !important; }
+
+/* Multi-select visual consistency */
+.practice-shell #topic {
+  min-height: 11.5rem;                  /* shows ~6 rows nicely */
+}
+
+/* Keep the header look intact */
+.practice-shell .header { box-shadow: 0 2px 6px rgba(0,0,0,.35); }
+/* =========================================================
+   PRACTICE PAGE — Visual polish & layout fixes (CSS-only)
+   Append to the bottom of styles.css
+   ========================================================= */
+
+/* 1) Hero: compact and balanced so there’s no huge gap */
+.practice-shell .practice-hero {
+  min-height: auto !important;
+  padding: clamp(28px, 4vw, 48px) 0 clamp(14px, 2.5vw, 24px) !important;
+}
+
+/* 2) Container rhythm tighter under hero */
+.practice-shell .practice-controls {
+  margin-top: .75rem !important;
+}
+
+/* 3) Controls grid — aligned & responsive
+   We use a 12-col grid and place each block precisely.
+   HTML unchanged; we just position by order. */
+.practice-shell .pc-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem 1.25rem;
+  align-items: end;
+}
+
+/* Topic (2nd block) gets a generous area */
+.practice-shell .pc-grid > div:nth-child(2) {  /* Topic */
+  grid-column: span 6;
+}
+
+/* Category */
+.practice-shell .pc-grid > div:nth-child(1) {  /* Category */
+  grid-column: span 3;
+}
+
+/* Questions */
+.practice-shell .pc-grid > div:nth-child(3) {  /* Questions */
+  grid-column: span 2;
+}
+
+/* Adaptive (toggle) */
+.practice-shell .pc-grid > div:nth-child(4) {  /* Adaptive toggle */
+  grid-column: span 1;
+  display: flex; gap: .5rem; align-items: center;
+}
+
+/* Adapt every */
+.practice-shell .pc-grid > div:nth-child(5) {  /* Cadence select */
+  grid-column: span 2;
+}
+
+/* Action buttons row */
+.practice-shell .pc-actions {
+  grid-column: 1 / -1;
+  display: flex; gap: .6rem; flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* Labels + inputs visual consistency */
+.practice-shell .pc-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: .45rem;
+  color: var(--text-100);
+  font-family: var(--font-head);
+  letter-spacing: .2px;
+}
+.practice-shell .input,
+.practice-shell select,
+.practice-shell input[type="text"],
+.practice-shell input[type="number"] {
+  width: 100%;
+  padding: .7rem .85rem;
+  border-radius: 12px;
+  background: var(--brand-900);
+  border: 1px solid rgba(255,255,255,.12);
+  color: var(--text-100);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.02);
+}
+
+/* Topic multi-select: proper size + nice scroll */
+.practice-shell #topic {
+  min-height: 12.5rem;          /* shows ~6 rows comfortably */
+  resize: vertical;             /* let power users grow it */
+  scrollbar-width: thin;
+}
+.practice-shell #topic::-webkit-scrollbar { width: 10px; }
+.practice-shell #topic::-webkit-scrollbar-thumb {
+  background: #2b364f; border-radius: 8px;
+}
+
+/* Toggle alignment */
+.practice-shell #adaptive-toggle {
+  transform: translateY(2px);
+}
+
+/* 4) Card chrome: add subtle inner glow so it’s not plain */
+.practice-shell .practice-controls.card,
+.practice-shell .progress-card.card,
+.practice-shell .stage.card {
+  border: 1px solid rgba(255,255,255,.08);
+  background:
+    radial-gradient(900px 500px at 20% -10%, rgba(110,168,255,.06), transparent 60%),
+    radial-gradient(700px 420px at 120% 0%, rgba(48,227,202,.06), transparent 60%),
+    rgba(17,26,46,.66);
+  backdrop-filter: var(--blur-bg);
+}
+
+/* 5) Progress bar and stats */
+.practice-shell .pc-progress {
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.06);
+  overflow: hidden;
+}
+.practice-shell .pc-progress-fill {
+  height: 100%;
+  width: var(--p, 0%);
+  background: var(--grad-primary);
+  transition: width .6s cubic-bezier(.22,1,.36,1);
+}
+.practice-shell .pc-stats {
+  display: flex; flex-wrap: wrap; gap: .5rem .75rem;
+  align-items: center;
+  color: var(--text-300);
+}
+.practice-shell .pc-stats strong { color: var(--text-100); }
+.practice-shell .pc-stats .sep { opacity: .5; }
+
+/* 6) Stage layout & micro-typography */
+.practice-shell .stage .stage-top {
+  display: flex; gap: .5rem; flex-wrap: wrap; align-items: center;
+  margin-bottom: .35rem;
+}
+.practice-shell .stage .chip {
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.10);
+  color: var(--text-300);
+}
+
+.practice-shell .prompt-label {
+  color: var(--text-300);
+  margin: .35rem 0 .25rem;
+  font-size: .95rem;
+}
+.practice-shell .prompt-text {
+  font-size: clamp(1.05rem, .6vw + 1rem, 1.35rem);
+  line-height: 1.6;
+}
+
+/* 7) Choice buttons feel clickable and balanced */
+.practice-shell .mc-area {
+  display: grid;
+  gap: .6rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: .75rem;
+}
+@media (max-width: 640px){
+  .practice-shell .mc-area { grid-template-columns: 1fr; }
+}
+.practice-shell .mc-option {
+  padding: .7rem .85rem;
+  text-align: left;
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 12px;
+  background: rgba(17,26,46,.55);
+  transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease, background .12s ease;
+  will-change: transform;
+}
+.practice-shell .mc-option:hover { transform: translateY(-1px); }
+.practice-shell .mc-option.is-selected {
+  border-color: rgba(91,140,255,.45);
+  box-shadow: 0 0 0 2px rgba(91,140,255,.25) inset;
+  background: rgba(255,255,255,.06);
+}
+.practice-shell .mc-option.is-correct {
+  border-color: var(--success-500);
+  box-shadow: 0 0 0 2px rgba(24,199,124,.25) inset;
+}
+.practice-shell .mc-option.is-wrong {
+  border-color: var(--danger-500);
+  box-shadow: 0 0 0 2px rgba(240,68,56,.25) inset;
+}
+
+/* 8) Feedback tone card */
+.practice-shell .feedback {
+  margin-top: .65rem;
+  border-left: 3px solid var(--primary-600);
+  background: rgba(255,255,255,.04);
+  border-radius: 10px;
+  padding: .6rem .75rem;
+}
+.practice-shell .feedback.ok { border-left-color: var(--success-500); }
+.practice-shell .feedback.bad { border-left-color: var(--danger-500); }
+
+/* 9) Bottom action buttons evenly spaced and centered */
+.practice-shell .q-actions {
+  display: flex; gap: .6rem; flex-wrap: wrap;
+  margin-top: .75rem;
+}
+.practice-shell .q-actions .btn { min-width: 120px; }
+
+/* 10) Empty + Finish states centered and tidy */
+.practice-shell .empty {
+  text-align: center; color: var(--text-300);
+  padding: 1.5rem .75rem;
+}
+.practice-shell #stage-finish.hide,
+.practice-shell #stage-qwrap.hide,
+.practice-shell #stage-empty.hide { display: none !important; }
+
+.practice-shell #stage-finish h3 {
+  margin: .25rem 0 .25rem;
+  font-family: var(--font-head);
+}
+.practice-shell #stage-finish .finish-actions {
+  margin-top: .75rem; display: flex; gap: .6rem; flex-wrap: wrap;
+}
+
+/* 11) Tight, friendly note text */
+.practice-shell .note.tiny {
+  color: var(--text-300);
+  font-size: .9rem;
+  margin-top: .5rem;
+}
+
+/* 12) Responsive reflow for controls on tablets/phones */
+@media (max-width: 1100px){
+  .practice-shell .pc-grid > div:nth-child(2){ grid-column: span 7; } /* topic */
+  .practice-shell .pc-grid > div:nth-child(1){ grid-column: span 5; } /* category */
+  .practice-shell .pc-grid > div:nth-child(3){ grid-column: span 3; } /* questions */
+  .practice-shell .pc-grid > div:nth-child(4){ grid-column: span 2; } /* toggle */
+  .practice-shell .pc-grid > div:nth-child(5){ grid-column: span 3; } /* cadence */
+}
+
+@media (max-width: 820px){
+  .practice-shell .pc-grid > div:nth-child(2){ grid-column: 1 / -1; } /* topic full width */
+  .practice-shell .pc-grid > div:nth-child(1){ grid-column: span 6; }  /* category */
+  .practice-shell .pc-grid > div:nth-child(3){ grid-column: span 6; }  /* questions */
+  .practice-shell .pc-grid > div:nth-child(4){ grid-column: span 6; }  /* toggle */
+  .practice-shell .pc-grid > div:nth-child(5){ grid-column: span 6; }  /* cadence */
+}
+
+/* Phone: everything stacks cleanly */
+@media (max-width: 560px){
+  .practice-shell .pc-grid > div { grid-column: 1 / -1 !important; }
+  .practice-shell #topic { min-height: 10.5rem; }
+  .practice-shell .q-actions .btn { flex: 1 1 45%; min-width: 0; }
+}
+
+/* 13) Small glow on primary actions to feel “clickable” */
+.practice-shell .btn.btn-primary {
+  box-shadow: 0 0 12px rgba(63,106,255,.18);
+}
+.practice-shell .btn.btn-primary:hover {
+  box-shadow: 0 0 18px rgba(63,106,255,.28);
+  transform: translateY(-1px);
+}
+/* =========================================================
+   PRACTICE — Split layout & Topics chips (append to end)
+   ========================================================= */
+   .practice-shell .practice-hero {
+    padding: clamp(28px, 4vw, 48px) 0 clamp(14px, 2.5vw, 24px);
+  }
+  
+  /* Split: left settings + right topics */
+  .practice-shell .pc-split {
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    gap: 1rem;
+  }
+  @media (max-width: 960px){
+    .practice-shell .pc-split { grid-template-columns: 1fr; }
+  }
+  
+  .practice-shell .pc-left,
+  .practice-shell .pc-right {
+    background: rgba(17,26,46,.6);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: var(--radius-lg);
+    padding: 1rem;
+  }
+  
+  /* Left grid */
+  .practice-shell .pc-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem 1.25rem;
+    align-items: end;
+  }
+  .practice-shell .pc-grid > div:nth-child(1){ grid-column: span 6; } /* category */
+  .practice-shell .pc-grid > div:nth-child(2){ grid-column: span 3; } /* questions */
+  .practice-shell .pc-grid > div.pc-toggle{ grid-column: span 3; display:flex; align-items:center; gap:.6rem; }
+  .practice-shell .pc-grid > div:nth-child(4){ grid-column: span 4; } /* cadence */
+  .practice-shell .pc-actions{ grid-column: 1 / -1; display:flex; gap:.6rem; flex-wrap:wrap; }
+  
+  /* Inputs */
+  .practice-shell .pc-label{
+    display:block; margin-bottom:.45rem; font-weight:700; font-family:var(--font-head);
+  }
+  .practice-shell .input, .practice-shell select {
+    width:100%; padding:.7rem .85rem; border-radius:12px;
+    background: var(--brand-900); color: var(--text-100);
+    border:1px solid rgba(255,255,255,.12);
+  }
+  
+  /* Toggle (nice switch) */
+  .practice-shell .switch { position: relative; width: 48px; height: 28px; display:inline-block; }
+  .practice-shell .switch input { display:none; }
+  .practice-shell .slider {
+    position:absolute; inset:0; background:#1d2741; border-radius:999px;
+    border:1px solid rgba(255,255,255,.12);
+    transition: .2s;
+  }
+  .practice-shell .slider::before {
+    content:""; position:absolute; width:22px; height:22px; left:3px; top:50%;
+    transform: translateY(-50%); background:#fff; border-radius:50%; transition:.2s;
+  }
+  .practice-shell .switch input:checked + .slider {
+    background: linear-gradient(90deg, #3F6AFF, #22D1B2);
+  }
+  .practice-shell .switch input:checked + .slider::before { left: calc(100% - 25px); }
+  
+  /* RIGHT: Topics list */
+  .practice-shell .topics-card { display:flex; flex-direction:column; gap:.8rem; }
+  .practice-shell .topics-title {
+    margin: .25rem 0 .25rem; font-family: var(--font-head); font-weight: 700;
+  }
+  .practice-shell .topics-scroller {
+    max-height: 420px;
+    overflow: auto;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,.08);
+    background: rgba(255,255,255,.03);
+  }
+  .practice-shell .topics-list {
+    display: grid;
+    grid-template-columns: 1fr;        /* single column like your screenshot */
+    gap: .6rem;
+    padding: .8rem;
+  }
+  .practice-shell .topic-btn {
+    width: 100%;
+    padding: .75rem .9rem;
+    border-radius: 14px;
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(255,255,255,.10);
+    color: var(--text-100);
+    font-weight: 600;
+    text-align: center;                /* centered text per request */
+    transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease, background .12s ease;
+  }
+  .practice-shell .topic-btn:hover { transform: translateY(-1px); }
+  .practice-shell .topic-btn.is-selected{
+    border-color: rgba(91,140,255,.45);
+    box-shadow: 0 0 0 2px rgba(91,140,255,.25) inset, 0 8px 28px rgba(63,106,255,.12);
+    background: rgba(255,255,255,.065);
+  }
+  .practice-shell .topics-actions { display:flex; gap:.6rem; justify-content:space-between; }
+  
+  /* Progress + stage small polish (already present on your site but keeping tidy here) */
+  .practice-shell .pc-progress{
+    height:10px; border-radius:999px; background: rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.06); overflow:hidden;
+  }
+  .practice-shell .pc-progress-fill{ display:block; height:100%; width:var(--p,0%); background: var(--grad-primary); }
+  .practice-shell .pc-stats strong{ color: var(--text-100); }
+  .practice-shell .sep{ opacity:.5; }
+  .practice-shell .empty{ text-align:center; color:var(--text-300); padding:1.25rem .75rem; }
+  .practice-shell .hide{ display:none !important; }
+/* === Practice polish: taller boxes, wider toggle, no truncated select === */
+
+/* Make the two cards (left settings + right topics) taller by default */
+.practice-shell .pc-left,
+.practice-shell .topics-card{
+  min-height: 380px;                  /* was auto */
+  padding-bottom: 1.25rem;            /* a little breathing room at bottom */
+}
+
+/* Give the topics list more room before scrolling */
+.practice-shell .topics-scroller{
+  max-height: 520px;                  /* was ~420px; tweak to taste */
+}
+
+/* Slightly widen the Adaptive toggle switch */
+.practice-shell .switch{
+  width: 64px;                        /* was 48px */
+  height: 30px;                       /* small bump for balance */
+}
+.practice-shell .slider::before{
+  width: 24px;                        /* was 22px */
+  height: 24px;                       /* was 22px */
+  left: 4px;                          /* keep spacing tidy */
+}
+.practice-shell .switch input:checked + .slider::before{
+  left: calc(100% - 28px);            /* knob end position after widening */
+}
+
+/* Prevent "10 questions" from getting cut off in the cadence select */
+#adapt-every{
+  min-width: 180px;                   /* guarantees full label visibility */
+}
+
+/* Also give the Questions select a comfortable minimum so larger labels fit */
+#question-count{
+  min-width: 140px;
+}
+
+/* On tighter screens, let the left-side grid breathe so controls don't clip */
+@media (max-width: 1100px){
+  .practice-shell .pc-grid{
+    row-gap: 1.15rem;                 /* a touch more vertical rhythm */
+  }
+  /* Make "Adapt every" span more columns on medium widths so its select isn't cramped */
+  .practice-shell .pc-grid > div:nth-child(4){  /* the Adapt every block */
+    grid-column: span 6;
+  }
+}
+@media (max-width: 640px){
+  /* On phones, each control can occupy a full row for clarity */
+  .practice-shell .pc-grid > div{ grid-column: 1 / -1 !important; }
+}
+/* === Practice quick fixes: label + bigger toggle (append) === */
+
+/* === Practice controls: put Adaptive next to Adapt-every + bigger pill === */
+
+/* Make sure the left card grid can host two items side-by-side on that row */
+.practice-shell .pc-left .pc-grid{
+  grid-template-columns: repeat(12, 1fr); /* non-destructive override */
+  column-gap: 0.9rem;
+  row-gap: 1rem;
+}
+
+/* Place "Adapt every" and "Adaptive" side-by-side */
+#adapt-every-field{
+  grid-column: span 6;      /* left half */
+  white-space: nowrap;      /* keep label on one line */
+}
+#adaptive-field{
+  grid-column: span 6;      /* right half */
+  display: flex;
+  align-items: end;         /* aligns the switch with the select’s baseline */
+  gap: 0.6rem;
+}
+
+/* Prevent truncation for "10 questions" etc. */
+#adapt-every{
+  min-width: 180px;
+}
+
+/* BIGGER toggle pill */
+#adaptive-field .switch{
+  width: 92px;              /* wider = easier to tap */
+  height: 42px;
+  position: relative;
+  display: inline-block;
+  border-radius: 999px;
+}
+#adaptive-field .slider{
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 999px;
+  transition: background .2s ease, border-color .2s ease;
+}
+#adaptive-field .slider::before{
+  content: "";
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgba(0,0,0,.35);
+  transition: left .22s cubic-bezier(.22,1,.36,1);
+}
+
+/* Checked state (teal/indigo brand gradient matches site) */
+#adaptive-field .switch input:checked + .slider{
+  background: linear-gradient(90deg, #22D1B2, #5B8CFF);
+  border-color: transparent;
+}
+#adaptive-field .switch input:checked + .slider::before{
+  left: calc(100% - 40px);  /* knob end position */
+}
+
+/* Labels never wrap to two lines */
+.practice-shell .pc-label{
+  white-space: nowrap;
+  word-break: keep-all;
+}
+
+/* Keep it clean on narrower screens */
+@media (max-width: 900px){
+  #adapt-every-field, #adaptive-field{ grid-column: 1 / -1; } /* stack nicely */
+  #adapt-every{ min-width: 0; width: 100%; }
+  #adaptive-field{ align-items: center; }
+}
+
+  /* --- Enlarge the question prompt box --- */
+.stage .prompt-text {
+  /* size/spacing */
+  padding: 1.4rem 1.6rem;
+  min-height: 150px;                /* bigger box height */
+  line-height: 1.35;
+  font-size: clamp(1.375rem, 1.2vw + 1rem, 2.25rem); /* scales up on wide screens */
+
+  /* visual container */
+  border-radius: 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow:
+    0 10px 24px rgba(0,0,0,0.25),
+    inset 0 0 0 1px rgba(255,255,255,0.02);
+}
+
+/* Give the entire stage a bit more room so the bigger prompt breathes */
+.stage.card {
+  padding-top: 1.75rem;
+  padding-bottom: 1.5rem;
+}
+
+/* Optional: slightly taller answer tiles so they balance with a bigger prompt */
+.mc-area {
+  gap: 1.1rem;
+}
+.mc-option {
+  min-height: 110px;
+  padding: 1.1rem 1.3rem;
+  align-items: center;                 /* keep text vertically centered */
+  font-size: clamp(1rem, 0.6vw + .95rem, 1.4rem);
+}
+
+/* Make it even roomier on desktops */
+@media (min-width: 1024px) {
+  .stage .prompt-text { min-height: 190px; }
+  .mc-option { min-height: 120px; }
+}
+/* Smaller, tighter prompt box */
+/* --- Keep buttons visible after feedback shows --- */
+#stage-qwrap { padding-bottom: 28px; }
+
+/* ─── Header: soft blend into the hero/background ───────────────────── */
+.header{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: transparent !important;         /* kill the solid block */
+  box-shadow: none !important;
+  isolation: isolate;                          /* lets ::before sit under content */
+}
+.header::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;                                 /* behind nav contents */
+  /* subtle dark-to-transparent fade so it *blends* into the hero */
+  background:
+    radial-gradient(900px 420px at 20% -10%, rgba(63,106,255,.10), transparent 60%),
+    radial-gradient(700px 420px at 80% 0%, rgba(34,209,178,.08), transparent 60%),
+    linear-gradient(180deg, rgba(11,18,32,.85) 0%, rgba(11,18,32,.55) 60%, rgba(11,18,32,0) 100%);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+/* ─── Practice controls: one control per row ────────────────────────── */
+.practice-shell .pc-left .pc-grid > div{
+  grid-column: 1 / -1 !important;  /* stack each block */
+}
+
+/* Shared scale for all text inputs & selects (not the toggle) */
+:root { --control-scale: 1.15; }    /* tweak this number to taste */
+
+.practice-shell .pc-left .input,
+.practice-shell .pc-left select,
+.practice-shell .pc-left input[type="text"],
+.practice-shell .pc-left input[type="number"],
+.practice-shell .pc-left textarea{
+  --pad-y: .70rem;
+  --pad-x: .85rem;
+  --font: 1rem;
+
+  padding: calc(var(--pad-y) * var(--control-scale))
+           calc(var(--pad-x) * var(--control-scale));
+  font-size: calc(var(--font) * var(--control-scale));
+  line-height: 1.25;
+  border-radius: 12px; /* keeps the look consistent at larger size */
+}
+
+/* Make sure the “Adapt every” select never truncates the text */
+#adapt-every{ min-width: 180px; }
+
+/* Optional: give Questions a safe minimum too */
+#question-count{ min-width: 140px; }
+
+/* Keep labels single-line and aligned */
+.practice-shell .pc-label{
+  white-space: nowrap;
+  margin-bottom: .45rem;
+  font-weight: 700;
+  letter-spacing: .2px;
+}
+/* ─────────────────────────────────────────────────────────
+   PRACTICE: force header to blend (beats earlier !important)
+   ───────────────────────────────────────────────────────── */
+   .practice-shell .header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: transparent !important;   /* kill the solid block */
+    box-shadow: none !important;
+    isolation: isolate;                   /* layer context for ::before */
+  }
+  
+  /* Soft fade under the nav so it merges into the hero/bg */
+  .practice-shell .header::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;                          /* behind nav contents */
+    background:
+      radial-gradient(900px 420px at 20% -10%, rgba(63,106,255,.12), transparent 60%),
+      radial-gradient(700px 420px at 80%   0%, rgba(34,209,178,.10), transparent 60%),
+      linear-gradient(180deg,
+        rgba(11,18,32,.85) 0%,
+        rgba(11,18,32,.55) 55%,
+        rgba(11,18,32,0)   100%);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(255,255,255,.06);
+  }
+  
+  /* Defensive: if any page-level rule keeps painting a header color, blank it */
+  .practice-shell body > .header,
+  .practice-shell .header,
+  .practice-shell .header *:where(.nav){ background: transparent !important; }
+  
+  /* Optional: give the hero a tiny top fade so there’s never a seam */
+  .practice-shell .practice-hero::before{
+    content:"";
+    position:absolute; inset:0 0 auto 0; height:40px;
+    background: linear-gradient(180deg, rgba(11,18,32,0) 0%, rgba(11,18,32,.02) 60%, rgba(11,18,32,.06) 100%);
+    pointer-events:none;
+  }
+  /* Compact Topics pills when Economics is selected */
+body[data-cat="Economics"] .topics-card .topics-title {
+  font-size: 1.35rem;          /* slightly smaller header to gain space */
+  line-height: 1.2;
+  margin-bottom: .75rem;
+}
+
+body[data-cat="Economics"] .topics-card .topics-list {
+  gap: 8px;                    /* tighter gaps */
+}
+
+body[data-cat="Economics"] .topics-card .topic-btn {
+  padding: 8px 12px;           /* shorter, narrower pills */
+  min-height: 36px;
+  font-size: 14px;             /* smaller type */
+  line-height: 1.15;
+  white-space: normal;         /* allow wrapping if needed */
+  text-align: center;          /* keep text centered */
+}
+
+/* optional: tighten the card’s inner padding a touch */
+body[data-cat="Economics"] .topics-card {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
