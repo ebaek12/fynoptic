@@ -172,6 +172,51 @@
     </section>
   </main>
 
+  <!-- Modals -->
+  <div id="fixit-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="fixit-title"></div>
+  <div id="report-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="report-title"></div>
+  <div id="writer-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="writer-title"></div>
+
+  <!-- ... everything above unchanged ... -->
+
+<!-- Login Modal -->
+<div id="login-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="login-title">
+  <div class="dialog" role="document">
+    <button class="modal-close" data-modal-close aria-label="Close">&times;</button>
+    <h2 id="login-title">Sign In</h2>
+      <form id="login-form">
+        <label for="login-email">Email</label>
+        <input type="email" id="login-email" name="email" required />
+        <label for="login-password">Password</label>
+        <input type="password" id="login-password" name="password" required />
+        <button type="submit" class="btn btn-primary">Sign in</button>
+        <div class="divider">or</div>
+        <button type="button" class="btn btn-ghost" id="google-login">Continue with Google</button>
+      </form>
+      <p class="auth-link">New user? <button data-modal-switch="signup-modal">Create an account</button></p>
+    </div>
+  </div>
+  
+  <!-- Sign Up Modal -->
+  <div id="signup-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="signup-title">
+    <div class="dialog" role="document">
+      <button class="modal-close" data-modal-close aria-label="Close">&times;</button>
+      <h2 id="signup-title">Sign Up</h2>
+      <!-- rest unchanged -->  
+      <form id="signup-form">
+        <label for="signup-email">Email</label>
+        <input type="email" id="signup-email" name="email" required />
+        <label for="signup-password">Password</label>
+        <input type="password" id="signup-password" name="password" required />
+        <label for="signup-confirm">Confirm Password</label>
+        <input type="password" id="signup-confirm" name="confirm" required />
+        <button type="submit" class="btn btn-primary">Create Account</button>
+        <div class="divider">or</div>
+        <button type="button" class="btn btn-ghost" id="google-signup">Continue with Google</button>
+      </form>
+      <p class="auth-link">Already have an account? <button data-modal-switch="login-modal">Sign in</button></p>
+    </div>
+  </div>
   <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
 
   <footer class="footer">
@@ -193,6 +238,7 @@
   </footer>
 
 <!-- at the end of body -->
+<script type="module" src="auth.js"></script>
 <script type="module" src="flashcard.js"></script>
 
 
