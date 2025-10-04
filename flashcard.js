@@ -168,7 +168,6 @@ function hookControls() {
     });
   }
 }
-
 function startSession() {
   const units = Array.from(state.unitsSelected);
   if (!units.length) {
@@ -190,16 +189,84 @@ function startSession() {
   renderCard();
   renderAnswerArea();
   updateCrumbs();
+
+  // 👇 NEW: auto-scroll the stage into view if it's not already visible
+  requestAnimationFrame(() => {
+    if (!isMostlyVisible(els.stage)) {
+      scrollToReveal(els.stage);
+    }
+  });
 }
 
+// --- A11y live region (create once) ---
+const live = document.getElementById('a11y-live') || (() => {
+  const d = document.createElement('div');
+  d.id = 'a11y-live';
+  d.className = 'vh';
+  d.setAttribute('aria-live', 'polite');
+  document.body.appendChild(d);
+  return d;
+})();
+
+function announce(msg) { live.textContent = msg; }
+
+// (keep your existing smoothScrollTo from earlier)
+
+// --- Add this tiny helper to show the green chip near controls ---
+function showEndChip() {
+  const controls = document.querySelector('.fc-controls');
+  if (!controls) return;
+  // remove any previous chip
+  controls.querySelectorAll('.end-chip').forEach(n => n.remove());
+
+  const chip = document.createElement('div');
+  chip.className = 'end-chip';
+  chip.innerHTML = `<span class="dot" aria-hidden="true"></span> Session ended`;
+  controls.appendChild(chip);
+
+  // auto-remove after ~6s (optional)
+  setTimeout(() => chip.remove(), 6000);
+}
+
+// --- Upgrade endSession() for clear, immediate feedback ---
 function endSession() {
-  state.active = false;
-  els.stage.hidden = true;
-  els.empty.hidden = false;
-  els.endBtn.hidden = true;
+  // 1) Immediate visual feedback on the button
+  els.endBtn.textContent = 'Session Ended ✓';
+  els.endBtn.classList.add('btn-ended');
+  els.endBtn.setAttribute('aria-disabled', 'true');
 
-  document.querySelectorAll('input[name="mode"]').forEach(r => r.disabled = false);
+  // 2) Brief highlight on the stage so the click feels acknowledged
+  els.stage.classList.add('ending');
+
+  // 3) Screen reader announcement
+  announce('Session ended. Returning to controls.');
+
+  // 4) After a short beat, perform the existing teardown + scroll + chip
+  setTimeout(() => {
+    state.active = false;
+    els.stage.hidden = true;
+    els.empty.hidden = false;
+
+    els.endBtn.hidden = true;                 // your original behavior
+    els.endBtn.classList.remove('btn-ended');
+    els.endBtn.removeAttribute('aria-disabled');
+    els.endBtn.textContent = 'End Session';   // reset for next time
+    els.stage.classList.remove('ending');
+
+    document.querySelectorAll('input[name="mode"]').forEach(r => r.disabled = false);
+
+    // visible, persistent confirmation near the controls
+    showEndChip();
+
+    const controls = document.querySelector('.fc-controls');
+    requestAnimationFrame(() => smoothScrollTo(controls, 12));
+
+    // put focus on a safe, obvious target for keyboard users
+    const start = document.getElementById('start-btn');
+    start?.focus();
+  }, 450);
 }
+
 
 function restartDeck() {
   if (els.shuffle.checked) shuffle(state.deck);
@@ -467,4 +534,21 @@ function loadSavedProgress() { /* no-op here */ }
 function showEmptyState() {
   els.stage.hidden = true;
   els.empty.hidden = false;
+}
+function isMostlyVisible(el) {
+  const rect = el.getBoundingClientRect();
+  const vh = window.innerHeight || document.documentElement.clientHeight;
+  const visibleHeight = Math.min(rect.bottom, vh) - Math.max(rect.top, 0);
+  return visibleHeight >= Math.min(rect.height, vh) * 0.6; // 60% visible is "good enough"
+}
+
+function scrollToReveal(el, { offset = 16, behavior = "smooth" } = {}) {
+  if (!el) return;
+  const header = document.querySelector(".header");
+  const headerH = header ? header.offsetHeight : 0;
+
+  const rect = el.getBoundingClientRect();
+  const top = rect.top + window.pageYOffset - headerH - offset;
+
+  window.scrollTo({ top, behavior });
 }

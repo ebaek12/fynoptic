@@ -4284,3 +4284,53 @@ body[data-cat="Economics"] .topics-card {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+/* End-session confirmation pulse */
+.btn-ended {
+  background: linear-gradient(90deg, var(--success-500), #8ef0c3);
+  color: #0b1220;
+  border: none;
+  box-shadow: 0 0 0 3px rgba(24,199,124,.2);
+  animation: ended-pop .45s ease;
+}
+@keyframes ended-pop {
+  from { transform: scale(.98); box-shadow: 0 0 0 0 rgba(24,199,124,0); }
+  to   { transform: scale(1);   box-shadow: 0 0 0 6px rgba(24,199,124,.0); }
+}
+
+/* Brief highlight on the stage as it ends (fade) */
+.fc-stage.ending {
+  outline: 2px solid var(--danger-500);
+  outline-offset: 2px;
+  animation: stage-fade .4s ease forwards;
+}
+@keyframes stage-fade {
+  to { opacity: .3; transform: scale(.995); }
+}
+
+/* The little chip that appears near controls after ending */
+.end-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .45rem .7rem;
+  border-radius: 999px;
+  background: rgba(24,199,124,.15);
+  border: 1px solid rgba(24,199,124,.35);
+  color: var(--text-100);
+  font-weight: 600;
+  margin-top: .5rem;
+}
+.end-chip .dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--success-500);
+  box-shadow: 0 0 10px rgba(24,199,124,.6);
+}
+
+/* A11y live region helper (don’t hide this like .sr-only) */
+.vh {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  clip: rect(0 0 0 0); clip-path: inset(50%);
+  overflow: hidden; white-space: nowrap;
+}
