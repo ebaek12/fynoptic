@@ -67,6 +67,7 @@ let state = {
   stats: { total: 0, done: 0, correct: 0, streak: 0 },
   answers: {},
   active: false,
+  revealed: new Set(),  // <-- NEW: cards that have been flipped (locked)
 };
 
 // ---------- INIT ----------
@@ -179,6 +180,7 @@ function startSession() {
   state.index = 0;
   state.flipped = false;
   state.active = true;
+  state.revealed.clear(); // <-- NEW: fresh session clears reveal locks
 
   document.querySelectorAll('input[name="mode"]').forEach(r => r.disabled = true);
   els.endBtn.hidden = false;
@@ -272,6 +274,7 @@ function restartDeck() {
   if (els.shuffle.checked) shuffle(state.deck);
   state.index = 0;
   state.flipped = false;
+  state.revealed.clear(); // <-- NEW: restart clears reveal locks
   renderCard();
   renderAnswerArea();
   updateCrumbs();
@@ -311,13 +314,23 @@ function renderCard() {
   els.defText.textContent = card.definition;
 
   // Decide which side is front based on mode + answer target
+  // Decide which side is front based on mode + answer target
   const showDefFirst =
     (state.mode === "fitb"  && state.fitbAnswer === "term") ||
     (state.mode === "mc"    && state.mcAnswer   === "term");
 
-  state.flipped = false;
-  els.termSide.classList.toggle("is-front", !showDefFirst);
-  els.defSide.classList.toggle("is-front",  showDefFirst);
+  // frontIsTerm = whether the TERM should be on the front before any flip
+  const frontIsTerm = !showDefFirst;
+
+  // Keep revealed cards flipped/locked; otherwise respect initial front
+  state.flipped = state.revealed.has(card.id);
+
+  // When flipped, show the *opposite* of the initial front.
+  // - If front was TERM, flipping shows DEFINITION
+  // - If front was DEFINITION, flipping shows TERM
+  els.termSide.classList.toggle("is-front", state.flipped ? !frontIsTerm : frontIsTerm);
+  els.defSide.classList.toggle("is-front",  state.flipped ?  frontIsTerm : !frontIsTerm);
+
 
   els.feedback.hidden = true;
   els.feedback.textContent = "";
@@ -326,8 +339,9 @@ function renderCard() {
   if (state.mode === "fitb") {
     els.fitbInput.value = "";
     els.fitbInput.placeholder = state.fitbAnswer === "term" ? "Type the term…" : "Type the definition…";
-    els.fitbInput.focus();
+    if (!state.revealed.has(card.id)) els.fitbInput.focus(); // don't focus if locked
   }
+  setAnswerInteractivity();
 }
 
 function renderAnswerArea() {
@@ -356,13 +370,34 @@ function gotoRelative(delta) {
   renderCard();
   renderAnswerArea();
   updateCrumbs();
+  setAnswerInteractivity();
 }
 
 function flipCard() {
-  state.flipped = !state.flipped;
-  els.termSide.classList.toggle("is-front", !state.flipped);
-  els.defSide.classList.toggle("is-front", state.flipped);
+  const card = currentCard();
+  if (!card) return;
+
+  if (state.revealed.has(card.id)) {
+    toast("This card is already revealed.");
+    return;
+  }
+
+  // Mark revealed (one-way) and choose the correct back side
+  state.revealed.add(card.id);
+  state.flipped = true;
+
+  const showDefFirst =
+    (state.mode === "fitb"  && state.fitbAnswer === "term") ||
+    (state.mode === "mc"    && state.mcAnswer   === "term");
+  const frontIsTerm = !showDefFirst;
+
+  // After flip: show the opposite of the initial front
+  els.termSide.classList.toggle("is-front", !frontIsTerm);
+  els.defSide.classList.toggle("is-front",  frontIsTerm);
+
+  setAnswerInteractivity();
 }
+
 
 // ---------- MULTIPLE CHOICE ----------
 function buildMCOptions(card) {
@@ -393,10 +428,19 @@ function buildMCOptions(card) {
     b.addEventListener("click", () => handleMCClick(opt));
     els.mcArea.appendChild(b);
   });
+  setAnswerInteractivity();
 }
 
 function handleMCClick(value) {
   const card = currentCard();
+  if (!card) return;
+
+  // --- CHANGED: block answering once revealed ---
+  if (state.revealed.has(card.id)) {
+    toast("You revealed this card; answering is disabled.");
+    return;
+  }
+
   const useTermAnswers = state.mcAnswer === "term";
   const correctValue = useTermAnswers ? card.term : card.definition;
 
@@ -413,10 +457,19 @@ function handleMCClick(value) {
   showFeedback(correct ? "Nice! ✅" : `Not quite. The answer is <strong>${answerLabel}</strong>.`, correct);
 }
 
+
 // ---------- FILL IN THE BLANK ----------
 function onFitbSubmit(e) {
   e.preventDefault();
   const card = currentCard();
+  if (!card) return;
+
+  // --- CHANGED: block answering once revealed ---
+  if (state.revealed.has(card.id)) {
+    toast("You revealed this card; answering is disabled.");
+    return;
+  }
+
   const val = (els.fitbInput.value || "").trim();
   if (!val) return;
 
@@ -551,4 +604,28 @@ function scrollToReveal(el, { offset = 16, behavior = "smooth" } = {}) {
   const top = rect.top + window.pageYOffset - headerH - offset;
 
   window.scrollTo({ top, behavior });
+}
+
+// Lock/unlock answering based on flip/reveal state
+function setAnswerInteractivity() {
+  const card = currentCard();
+  const locked = card ? state.revealed.has(card.id) : false; // <-- CHANGED: lock on revealed, not just flipped
+
+  // MC: disable all options and mark locked for styling/a11y
+  els.mcArea.classList.toggle('is-locked', locked);
+  els.mcArea.querySelectorAll('.mc-option').forEach(btn => {
+    btn.disabled = locked;
+    btn.setAttribute('aria-disabled', String(locked));
+    btn.tabIndex = locked ? -1 : 0;
+  });
+
+  // Also lock FITB while revealed
+  if (els.fitbInput) els.fitbInput.disabled = locked;
+  if (els.fitbForm) {
+    els.fitbForm.querySelectorAll('button').forEach(b => b.disabled = locked);
+  }
+
+  // Disable the Flip button once revealed so user can't flip back
+  els.flip.disabled = locked;
+  els.flip.setAttribute('aria-disabled', String(locked));
 }
