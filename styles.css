@@ -4338,3 +4338,37 @@ body[data-cat="Economics"] .topics-card {
   opacity: 0.5;
   cursor: not-allowed;
 }
+/* keep image and text nicely aligned */
+.logo img { 
+  vertical-align: middle; 
+}
+
+/* plain text next to the logo */
+.logo-text {
+  margin-left: 8px;          /* a little breathing room from the logo */
+  font-weight: 700;          /* bold-ish to match brand */
+  font-family: "Space Grotesk", Inter, system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: .02em;
+  color: inherit;            /* use your header color */
+}
+/* make the logo image + text sit together */
+.logo {
+  display: inline-flex;      /* or flex */
+  align-items: center;
+  gap: 8px;                  /* space between image and text */
+  text-decoration: none;     /* remove link underline */
+}
+
+/* optional: keep the image aligned nicely */
+.logo img { vertical-align: middle; }
+
+/* plain text style */
+.logo-text {
+  font-weight: 700;
+  font-family: "Space Grotesk", Inter, system-ui, sans-serif;
+  font-size: 30px;
+  letter-spacing: .02em;
+  color: inherit;            /* match header color */
+}
