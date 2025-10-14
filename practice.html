@@ -30,7 +30,7 @@
 
       <ul class="nav-links" id="desktop-nav">
         <li><a href="courses.html">Course</a></li>
-        <li><a href="bot.html">Fix-it Bot</a></li>
+
         <li><a href="articles.html">Articles</a></li>
         <li><a href="flashcard.html">Flashcards</a></li>
         <li><a href="practice.html">Practice</a></li>
@@ -48,7 +48,7 @@
       <button class="menu-close" aria-label="Close menu">&times;</button>
       <ul>
         <li><a href="courses.html">Course</a></li>
-        <li><a href="bot.html">Fix-it Bot</a></li>
+
         <li><a href="articles.html">Articles</a></li>
         <li><a href="flashcard.html">Flashcards</a></li>
         <li><a aria-current="page" href="practice.html">Practice</a></li>
@@ -70,142 +70,156 @@
       </div>
     </section>
 
-    <!-- CONTROLS -->
+    <!-- CONTROLS (WIZARD) -->
     <div class="container">
-        <div class="card practice-controls">
-          <div class="pc-split">
-            <!-- LEFT: Settings & actions -->
-            <div class="pc-left card">
-                <h2 class="topics-title">Customization</h2>
+      <div class="card practice-controls">
+        <div id="practice-wizard" class="wizard" aria-live="polite" data-step="1">
+          <!-- STEP 1: Category + Questions + Adaptive -->
+          <section id="step-1" class="wizard-panel" aria-label="Step 1: Build your session">
+            <h2 class="topics-title center">Build your session</h2>
+            <div class="wizard-fields">
+              <!-- Category -->
+              <div>
+                <label for="category" class="pc-label">Category</label>
+                <select id="category" class="input">
+                  <option value="Personal Finance">Personal Finance</option>
+                  <option value="Economics">Economics</option>
+                </select>
+              </div>
 
-              <div class="pc-grid">
-                <!-- Category -->
-                <div>
-                  <label for="category" class="pc-label">Category</label>
-                  <select id="category" class="input">
-                    <option value="Personal Finance">Personal Finance</option>
-                    <option value="Economics">Economics</option>
-                  </select>
-                </div>
-    
-                <!-- Questions -->
-                <div>
-                  <label for="question-count" class="pc-label">Questions</label>
-                  <select id="question-count" class="input">
-                    <option>10</option>
-                    <option selected>20</option>
-                    <option>30</option>
-                    <option>40</option>
-                    <option>50</option>
-                  </select>
-                </div>
-    
-                <!-- Adaptive toggle -->
-<!-- Adapt every (left) + Adaptive toggle (right) -->
-<div id="adapt-every-field" class="pc-field">
-    <label class="pc-label" for="adapt-every">Adapt every</label>
-    <select id="adapt-every" aria-label="Adapt every">
-      <option value="5">5 questions</option>
-      <option value="10" selected>10 questions</option>
-      <option value="15">15 questions</option>
-      <option value="20">20 questions</option>
-    </select>
-  </div>
-  
-  <div id="adaptive-field" class="pc-field pc-toggle">
-    <label class="pc-label" for="adaptive-toggle">Adaptive</label>
-    <label class="switch" aria-label="Adaptive mode">
-      <input type="checkbox" id="adaptive-toggle" checked />
-      <span class="slider"></span>
-    </label>
-  </div>
-  
-    
-                <!-- Hidden multi-select to keep your current JS logic unchanged -->
-                <select id="topic" multiple hidden aria-hidden="true"></select>
-    
-                <!-- Actions -->
-                <div class="pc-actions">
-                  <button id="start-btn" class="btn btn-primary">Start Practice</button>
-                  <button id="reset-btn" class="btn btn-ghost">Reset</button>
-                </div>
+              <!-- Questions -->
+              <div>
+                <label for="question-count" class="pc-label">Questions</label>
+                <select id="question-count" class="input">
+                  <option>10</option>
+                  <option selected>20</option>
+                  <option>30</option>
+                  <option>40</option>
+                  <option>50</option>
+                </select>
               </div>
-    
-              <p class="note tiny">
-                If your accuracy across the last window is very high we’ll step up, if it’s low
-                we’ll step down. Otherwise we hold steady.
-              </p>
+
+              <!-- Adapt every -->
+              <div id="adapt-every-field" class="pc-field">
+                <label class="pc-label" for="adapt-every">Adapt every</label>
+                <select id="adapt-every" aria-label="Adapt every">
+                  <option value="5">5 questions</option>
+                  <option value="10" selected>10 questions</option>
+                  <option value="15">15 questions</option>
+                  <option value="20">20 questions</option>
+                </select>
+              </div>
+
+              <!-- Adaptive toggle -->
+              <div id="adaptive-field" class="pc-field pc-toggle">
+                <label class="pc-label" for="adaptive-toggle">Adaptive</label>
+                <label class="switch" aria-label="Adaptive mode">
+                  <input type="checkbox" id="adaptive-toggle" checked />
+                  <span class="slider"></span>
+                </label>
+              </div>
             </div>
-    
-            <!-- RIGHT: Topics list (chips) -->
-            <aside class="pc-right card topics-card">
-              <h2 class="topics-title">Topics</h2>
-    
-              <div id="topics-scroller" class="topics-scroller">
-                <div id="topics-list" class="topics-list" aria-label="Topics" role="group"></div>
-              </div>
-    
-              <div class="topics-actions">
-                <button id="topics-select-all" class="btn btn-ghost">Select all</button>
-                <button id="topics-clear" class="btn btn-ghost">Clear</button>
-              </div>
-            </aside>
+
+            <!-- Hidden multi-select to keep your current JS logic unchanged -->
+            <select id="topic" multiple hidden aria-hidden="true"></select>
+
+            <div class="wizard-actions">
+              <button id="wiz-next-1" class="btn btn-primary">Confirm & Continue</button>
+            </div>
+            <p class="note tiny center">
+              We’ll step up or down difficulty based on your recent accuracy.
+            </p>
+          </section>
+
+          <!-- STEP 2: Units -->
+          <section id="step-2" class="wizard-panel" aria-label="Step 2: Choose units" hidden>
+            <h2 class="topics-title center">Choose Units</h2>
+
+            <div id="topics-scroller" class="topics-scroller">
+              <div id="topics-list" class="topics-list" aria-label="Topics" role="group"></div>
+            </div>
+
+            <div class="topics-actions center">
+              <button id="topics-select-all" class="btn btn-ghost">Select all</button>
+              <button id="topics-clear" class="btn btn-ghost">Clear</button>
+            </div>
+
+            <div class="wizard-actions">
+              <button id="wiz-back-2" class="btn btn-ghost">Back</button>
+              <button id="wiz-next-2" class="btn btn-primary">Confirm Units</button>
+            </div>
+          </section>
+
+          <!-- STEP 3: Start -->
+          <section id="step-3" class="wizard-panel" aria-label="Step 3: Start practice" hidden>
+            <h2 class="topics-title center">Ready to start?</h2>
+            <h3 class="topics-title center">Right-click to cross out answers</h3>
+            <p id="wiz-summary" class="muted center"></p>
+
+            <div class="wizard-actions">
+              <button id="wiz-back-3" class="btn btn-ghost">Back</button>
+              <button id="start-btn" class="btn btn-primary">Start Practice</button>
+              <button id="reset-btn" class="btn btn-ghost">Reset</button>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- Progress + Stats (unchanged) -->
+      <div class="card progress-card">
+        <div class="pc-progress" aria-hidden="true">
+          <span class="pc-progress-fill" id="pc-progress-fill" style="--p:0%"></span>
+        </div>
+        <div class="pc-stats" id="pc-stats" aria-live="polite" style="margin-top:.5rem">
+          <span><strong id="stat-answered">0</strong>/<span id="stat-total">0</span> answered</span>
+          <span class="sep">•</span>
+          <span>Correct: <strong id="stat-correct">0</strong></span>
+          <span class="sep">•</span>
+          <span>Streak: <strong id="stat-streak">0</strong></span>
+          <span class="sep">•</span>
+          <span>Difficulty: <strong id="stat-diff">—</strong></span>
+        </div>
+      </div>
+
+      <!-- Stage (unchanged except End Session button) -->
+      <div class="card stage" id="stage">
+        <div id="stage-empty" class="empty">
+          Choose a category and topic(s), then press <strong>Start Practice</strong>.
+        </div>
+
+        <div id="stage-qwrap" class="hide">
+          <div class="stage-top">
+            <span class="chip" id="chip-category">—</span>
+            <span class="chip" id="chip-topic">—</span>
+            <span class="chip" id="chip-diff">—</span>
+          </div>
+
+          <p class="prompt-label">Question</p>
+          <div id="prompt" class="prompt-text">—</div>
+
+          <div id="mc-area" class="mc-area"></div>
+
+          <div id="feedback" class="feedback" hidden></div>
+
+          <div class="q-actions">
+            <button id="prev-btn" class="btn btn-ghost">Prev</button>
+            <button id="next-btn" class="btn btn-ghost">Next</button>
+            <button id="submit-btn" class="btn btn-primary">Submit</button>
+            <!-- NEW: End Session -->
+            <button id="end-session-btn" class="btn btn-ghost">End Session</button>
           </div>
         </div>
-    
-        <!-- Progress + Stats -->
-        <div class="card progress-card">
-          <div class="pc-progress" aria-hidden="true">
-            <span class="pc-progress-fill" id="pc-progress-fill" style="--p:0%"></span>
-          </div>
-          <div class="pc-stats" id="pc-stats" aria-live="polite" style="margin-top:.5rem">
-            <span><strong id="stat-answered">0</strong>/<span id="stat-total">0</span> answered</span>
-            <span class="sep">•</span>
-            <span>Correct: <strong id="stat-correct">0</strong></span>
-            <span class="sep">•</span>
-            <span>Streak: <strong id="stat-streak">0</strong></span>
-            <span class="sep">•</span>
-            <span>Difficulty: <strong id="stat-diff">—</strong></span>
-          </div>
-        </div>
-    
-        <!-- Stage -->
-        <div class="card stage" id="stage">
-          <div id="stage-empty" class="empty">
-            Choose a category and topic(s), then press <strong>Start Practice</strong>.
-          </div>
-    
-          <div id="stage-qwrap" class="hide">
-            <div class="stage-top">
-              <span class="chip" id="chip-category">—</span>
-              <span class="chip" id="chip-topic">—</span>
-              <span class="chip" id="chip-diff">—</span>
-            </div>
-    
-            <p class="prompt-label">Question</p>
-            <div id="prompt" class="prompt-text">—</div>
-    
-            <div id="mc-area" class="mc-area"></div>
-    
-            <div id="feedback" class="feedback" hidden></div>
-    
-            <div class="q-actions">
-              <button id="prev-btn" class="btn btn-ghost">Prev</button>
-              <button id="next-btn" class="btn btn-ghost">Next</button>
-              <button id="submit-btn" class="btn btn-primary">Submit</button>
-            </div>
-          </div>
-    
-          <div id="stage-finish" class="hide">
-            <h3>Nice work! 🎉</h3>
-            <p id="finish-summary" class="muted"></p>
-            <div class="finish-actions">
-              <button id="restart-btn" class="btn btn-primary">Restart</button>
-              <button id="finish-reset-btn" class="btn btn-ghost">Reset</button>
-            </div>
+
+        <div id="stage-finish" class="hide">
+          <h3>Nice work! 🎉</h3>
+          <p id="finish-summary" class="muted"></p>
+          <div class="finish-actions">
+            <button id="restart-btn" class="btn btn-primary">Restart</button>
+            <button id="finish-reset-btn" class="btn btn-ghost">Reset</button>
           </div>
         </div>
       </div>
+    </div>
     </section>
   </main>
 
@@ -214,13 +228,20 @@
   <div id="report-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="report-title"></div>
   <div id="writer-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="writer-title"></div>
 
-  <!-- ... everything above unchanged ... -->
+  <!-- NEW: End Session Summary Modal -->
+  <div id="end-session-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="end-session-title">
+    <div class="dialog" role="document">
+      <button class="modal-close" id="end-session-close" aria-label="Close">&times;</button>
+      <h2 id="end-session-title">Session Summary</h2>
+      <div id="end-session-stats" class="session-stats"></div>
+    </div>
+  </div>
 
-<!-- Login Modal -->
-<div id="login-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="login-title">
-  <div class="dialog" role="document">
-    <button class="modal-close" data-modal-close aria-label="Close">&times;</button>
-    <h2 id="login-title">Sign In</h2>
+  <!-- Login Modal (unchanged) -->
+  <div id="login-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="login-title">
+    <div class="dialog" role="document">
+      <button class="modal-close" data-modal-close aria-label="Close">&times;</button>
+      <h2 id="login-title">Sign In</h2>
       <form id="login-form">
         <label for="login-email">Email</label>
         <input type="email" id="login-email" name="email" required />
@@ -233,13 +254,13 @@
       <p class="auth-link">New user? <button data-modal-switch="signup-modal">Create an account</button></p>
     </div>
   </div>
-  
-  <!-- Sign Up Modal -->
+
+  <!-- Sign Up Modal (unchanged) -->
   <div id="signup-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="signup-title">
     <div class="dialog" role="document">
       <button class="modal-close" data-modal-close aria-label="Close">&times;</button>
       <h2 id="signup-title">Sign Up</h2>
-      <!-- rest unchanged -->  
+      <!-- rest unchanged -->
       <form id="signup-form">
         <label for="signup-email">Email</label>
         <input type="email" id="signup-email" name="email" required />
@@ -254,6 +275,7 @@
       <p class="auth-link">Already have an account? <button data-modal-switch="login-modal">Sign in</button></p>
     </div>
   </div>
+
   <!-- Toasts -->
   <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
 
@@ -264,7 +286,7 @@
         <p class="footer-tagline">Helping you spot & stop predatory fees, dark patterns, and subscription traps.</p>
       </div>
       <div class="footer-links">
-        <a href="bot.html">Fix-it Bot</a>
+
         <a href="courses.html">Course</a>
         <a href="articles.html">Articles</a>
         <a href="flashcard.html">Flashcards</a>

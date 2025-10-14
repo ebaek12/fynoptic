@@ -17,9 +17,47 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <title>Know the playbook. Beat the traps.</title>
-</head>
-<body>
 
+  <!-- Added: minimal styles for scroll behavior, course descriptions, and Back-to-Top -->
+  <style>
+    html { scroll-behavior: smooth; }
+
+    /* Scrollable description for detailed content without changing layout */
+    .course-desc {
+      max-height: 180px;
+      overflow: auto;
+      padding: 0.5rem 0;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .course-desc p { margin: 0 0 .5rem; }
+    .course-desc ul { margin: 0; padding-left: 1.2rem; }
+    .course-desc li { margin: .25rem 0; }
+
+    /* Optional bullet styling inside headers for the “soon” cards */
+    .course-card__head .course-points { margin: .5rem 0 0 1rem; }
+
+    /* Back-to-Top button */
+    .back-to-top {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      display: none;
+      z-index: 1000;
+      border: none;
+      border-radius: 999px;
+      padding: .6rem .9rem;
+      background: linear-gradient(135deg, #0B1220, #18304a);
+      color: #fff;
+      box-shadow: 0 10px 24px rgba(0,0,0,.28);
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .back-to-top.show { display: inline-flex; }
+    .back-to-top:focus { outline: 2px solid #8bd; outline-offset: 2px; }
+  </style>
+</head>
+<body id="top">
   <!-- Header -->
   <header class="header" role="banner">
     <nav class="nav container" role="navigation" aria-label="Main navigation">
@@ -40,12 +78,10 @@
     </button>
       <ul class="nav-links" id="desktop-nav">
         <li><a href="courses.html">Course</a></li>
-        <li><a href="bot.html">Fix-it Bot</a></li>
         <li><a href="articles.html">Articles</a></li>
         <li><a href="flashcard.html">Flashcards</a></li>
         <li><a href="practice.html">Practice</a></li>
       </ul>
-
 
       <div class="nav-actions">
         <a href="courses.html" class="btn btn-primary cta-desktop" data-track="cta_click">Start the free course</a>
@@ -53,7 +89,6 @@
           <img id="nav-avatar" alt="" hidden />
           <span id="nav-initials" aria-hidden="true">?</span>
         </button>
-        
       </div>
     </nav>
 
@@ -61,7 +96,6 @@
       <button class="menu-close" aria-label="Close menu">&times;</button>
       <ul>
         <li><a href="courses.html">Course</a></li>
-        <li><a href="bot.html">Fix-it Bot</a></li>
         <li><a href="articles.html">Articles</a></li>
         <li><a href="flashcard.html">Flashcards</a></li>
         <li><a href="practice.html">Practice</a></li>
@@ -69,7 +103,11 @@
       </ul>
     </div>
   </header>
+
   <main id="main">
+    <!-- Moved: How certification works (now at top, as requested) -->
+
+
     <!-- Hero -->
     <section class="courses-hero" aria-labelledby="courses-hero-title">
       <div class="courses-hero-bg" aria-hidden="true">
@@ -85,7 +123,7 @@
         <p class="courses-hero-sub">Clear, practical, student friendly modules—built to certify real skills. Finish the steps, pass the assessment, earn your badge.</p>
         <div class="courses-hero-cta">
           <a class="btn btn-primary" href="#catalog" data-track="cta_click">Browse catalog</a>
-          <a class="btn btn-ghost" href="/#articles">Study with guides</a>
+          <a class="btn btn-ghost" href="articles.html">Study with articles</a>
         </div>
 
         <div class="courses-hero-metrics">
@@ -101,6 +139,27 @@
             <div class="c-metric__num">✔︎</div>
             <div class="c-metric__label">Certificate on completion</div>
           </div>
+        </div>
+      </div>
+      
+    </section>
+    <section class="how-cert container" aria-labelledby="how-cert-title">
+      <h2 id="how-cert-title" class="fade-up">How certification works</h2>
+      <div class="how-grid">
+        <div class="how card fade-up">
+          <div class="how__icon" aria-hidden="true">1</div>
+          <h3>Learn</h3>
+          <p>Short videos + focused reading. Keyboard-friendly, transcripts included.</p>
+        </div>
+        <div class="how card fade-up">
+          <div class="how__icon" aria-hidden="true">2</div>
+          <h3>Check</h3>
+          <p>Pass the assessment (≥ 80%). Immediate feedback and review links.</p>
+        </div>
+        <div class="how card fade-up">
+          <div class="how__icon" aria-hidden="true">3</div>
+          <h3>Prove</h3>
+          <p>Generate a one-page Risk Audit. Download your badge and certificate.</p>
         </div>
       </div>
     </section>
@@ -124,6 +183,16 @@
             <li>Submit a one-page “Risk Audit”</li>
             <li>Badge: “Dark Pattern Spotter”</li>
           </ul>
+
+          <!-- Added: Detailed, scrollable description -->
+          <div class="course-desc" aria-label="Course description" tabindex="0">
+ 
+            <ul>
+              <li>Identify 10+ common dark patterns.</li>
+              <li>Hands-on spotting drills</li>
+              <li>Build a reusable “Risk Audit”</li>
+            </ul>
+          </div>
 
           <!-- Stepper (pre-quiz → modules → post-quiz) -->
           <ol class="course-stepper" aria-label="Course sections">
@@ -160,7 +229,6 @@
 
           <footer class="course-card__actions">
             <a class="btn btn-primary" href="courseone.html" data-track="cta_click" aria-label="Open course Dark Patterns: Spot Them, Stop Them">Open course</a>
-            <a class="btn btn-ghost" href="/#newsletter">Get reminders</a>
           </footer>
         </article>
 
@@ -169,7 +237,16 @@
           <header class="course-card__head">
             <span class="badge">Certified</span>
             <h3 class="course-card__title">Subscriptions & Memberships — Defense in 4 Steps</h3>
-            <p id="soon-2" class="course-card__meta"></p>
+            <p id="soon-2" class="course-card__meta">
+              Master a repeatable process to avoid subscription traps and unfair renewals, from sign-up to cancellation.
+            </p>
+            <!-- Added: concise bullets kept inside header so the “Under Construction” mask doesn’t hide them -->
+            <ul class="course-points">
+              <li>Map sign-up flows and spot “gotchas”.</li>
+              <li>Cancellation scripts + escalation paths.</li>
+              <li>Renewal reminders & calendar automation.</li>
+              <li>What to collect when charges persist.</li>
+            </ul>
           </header>
           <div class="soon-mask" aria-hidden="true">
             <span>Under Construction</span>
@@ -184,7 +261,15 @@
           <header class="course-card__head">
             <span class="badge">Certified</span>
             <h3 class="course-card__title"> Disputes & Refunds — From “Stuck” to Credited</h3>
-            <p id="soon-3" class="course-card__meta"></p>
+            <p id="soon-3" class="course-card__meta">
+              Learn the end-to-end path to resolve bad charges: document, contact, escalate, and track outcomes.
+            </p>
+            <ul class="course-points">
+              <li>Evidence checklist & timeline building.</li>
+              <li>Merchant contact templates.</li>
+              <li>Bank/issuer options & key terms.</li>
+              <li>Email/letter samples that get responses.</li>
+            </ul>
           </header>
           <div class="soon-mask" aria-hidden="true">
             <span>Under Construction</span>
@@ -199,7 +284,15 @@
           <header class="course-card__head">
             <span class="badge">Certified</span>
             <h3 class="course-card__title">Money Skills for Students — Campus & App Pitfalls</h3>
-            <p id="soon-4" class="course-card__meta"></p>
+            <p id="soon-4" class="course-card__meta">
+              Practical money moves for students navigating tuition portals, meal plans, and payment apps.
+            </p>
+            <ul class="course-points">
+              <li>Avoid fees hiding in campus systems.</li>
+              <li>Safer habits for payment apps.</li>
+              <li>Subscription hygiene for student deals.</li>
+              <li>When and how to push back.</li>
+            </ul>
           </header>
           <div class="soon-mask" aria-hidden="true">
             <span>Under Construction</span>
@@ -211,27 +304,7 @@
       </div>
     </section>
 
-    <!-- How certification works -->
-    <section class="how-cert container" aria-labelledby="how-cert-title">
-      <h2 id="how-cert-title" class="fade-up">How certification works</h2>
-      <div class="how-grid">
-        <div class="how card fade-up">
-          <div class="how__icon" aria-hidden="true">1</div>
-          <h3>Learn</h3>
-          <p>Short videos + focused reading. Keyboard-friendly, transcripts included.</p>
-        </div>
-        <div class="how card fade-up">
-          <div class="how__icon" aria-hidden="true">2</div>
-          <h3>Check</h3>
-          <p>Pass the assessment (≥ 80%). Immediate feedback and review links.</p>
-        </div>
-        <div class="how card fade-up">
-          <div class="how__icon" aria-hidden="true">3</div>
-          <h3>Prove</h3>
-          <p>Generate a one-page Risk Audit. Download your badge and certificate.</p>
-        </div>
-      </div>
-    </section>
+    <!-- (Removed from here) How certification works was moved above -->
   </main>
 
   <!-- Footer -->
@@ -242,7 +315,6 @@
         <p class="footer-tagline">Helping you spot & stop predatory fees, dark patterns, and subscription traps.</p>
       </div>
       <div class="footer-links">
-        <a href="bot.html">Fix-it Bot</a>
         <a href="courses.html">Course</a>
         <a href="articles.html">Articles</a>
         <a href="flashcard.html">Flashcards</a>
@@ -253,11 +325,13 @@
     <div class="footer-bottom"><p>© 2025 Fynoptic. Educational content. Not legal advice.</p></div>
   </footer>
 
+  <!-- Back to Top button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑ Top</button>
+
   <!-- Minimal inline to set year without extra JS files -->
   <script>
     (function(){try{document.getElementById('yy').textContent = new Date().getFullYear();}catch(e){}})();
   </script>
-
 
   <!-- JSON-LD -->
   <script type="application/ld+json">
@@ -322,5 +396,18 @@
   <!-- Scripts needed for user icon -->
   <script type="module" src="auth.js"></script>
   <script defer src="app.js"></script>
+
+  <!-- Added: tiny script for Back-to-Top visibility & action -->
+  <script>
+    (function () {
+      const btn = document.getElementById('back-to-top');
+      const onScroll = () => {
+        const y = window.scrollY || document.documentElement.scrollTop;
+        if (y > 600) { btn.classList.add('show'); } else { btn.classList.remove('show'); }
+      };
+      window.addEventListener('scroll', onScroll, { passive: true });
+      btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    })();
+  </script>
 </body>
 </html>

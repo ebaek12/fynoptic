@@ -1,5 +1,5 @@
 /* ============================================================
-   FYNOPTIC FLASHCARDS — simplified per your requests
+   FYNOPTIC FLASHCARDS — One-screen wizard (confirm-only, no scroll between steps)
    ============================================================ */
 
 // ---------- DATABASE SHAPE ----------
@@ -12,15 +12,32 @@ Object.assign(FLASHCARDS.units, FLASHCARD_UNITS);
 const STORAGE_KEY = "fynoptic.flashcards.v1";
 
 const els = {
+  // Wizard container + blocks
+  controls: document.querySelector(".fc-controls"),
+  blockUnits: document.getElementById("block-units"),
+  blockMode: document.getElementById("block-mode"),
+  blockStart: document.getElementById("block-start"),
+
+  // Units
   unitList: document.getElementById("unit-list"),
   selectAll: document.getElementById("select-all"),
   clearAll: document.getElementById("clear-all"),
+  confirmUnits: document.getElementById("confirm-units"),
+
+  // Mode
+  confirmMode: document.getElementById("confirm-mode"),
+
+  // Start (big)
+  startBig: document.getElementById("start-btn-big"),
+  startSummary: document.getElementById("start-summary"),
+
+  // Existing actions
   startBtn: document.getElementById("start-btn"),
   endBtn: document.getElementById("end-btn"),
   resetProgress: document.getElementById("reset-progress"),
 
   shuffle: document.getElementById("shuffle"),
-  caseInsensitive: document.getElementById("case-insensitive"),
+  caseInsensitive: document.getElementById("case-insensitive"), // may be null; handled safely
 
   stage: document.getElementById("fc-stage"),
   empty: document.getElementById("empty-state"),
@@ -43,8 +60,6 @@ const els = {
   restart: document.getElementById("restart-btn"),
 
   crumbs: document.getElementById("crumbs-text"),
-
-  // This is the pill button you placed above the answer area
   mcAnswerToggle: document.getElementById("mc-toggle-answer"),
 
   // Progress
@@ -54,20 +69,29 @@ const els = {
   statAcc: document.getElementById("stat-acc"),
   statStreak: document.getElementById("stat-streak"),
   progressFill: document.getElementById("progress-fill"),
+
+  // ADDED
+  blockProgress: document.getElementById("block-progress"),
+
+  // ADDED: Session Summary modal elements
+  summaryModal: document.getElementById("summary-modal"),
+  summaryGrid: document.getElementById("summary-grid"),
+  summaryUnits: document.getElementById("summary-units"),
 };
 
 let state = {
   unitsSelected: new Set(),
   mode: "mc",           // "mc" | "fitb"
-  mcAnswer: "term",     // "term" | "definition" (for Multiple Choice)
-  fitbAnswer: "term",   // NEW: "term" | "definition" (for Fill-in)
+  mcAnswer: "term",     // "term" | "definition"
+  fitbAnswer: "term",   // "term" | "definition"
   deck: [],
   index: 0,
   flipped: false,
   stats: { total: 0, done: 0, correct: 0, streak: 0 },
   answers: {},
   active: false,
-  revealed: new Set(),  // <-- NEW: cards that have been flipped (locked)
+  revealed: new Set(),  // revealed cards lock answers
+  step: 1               // 1=Units, 2=Mode, 3=Start
 };
 
 // ---------- INIT ----------
@@ -78,10 +102,61 @@ function init() {
   hookControls();
   loadSavedProgress();
   updateProgressUI();
-  showEmptyState();
+
+  // Start at step 1; hide others hard via [hidden]
+  setStepHiddenState(1, true);
+  els.stage.hidden = true;
+  els.empty.hidden = true;
+
+  // Ensure progress stays hidden until session actually starts (ADDED)
+  if (els.blockProgress) {
+    els.blockProgress.hidden = true;
+    els.blockProgress.setAttribute('aria-hidden', 'true');
+  }
+
+  // Center the Units box ON LOAD only (per your request)
+  requestAnimationFrame(() => centerOn(els.blockUnits, { behavior: "smooth" }));
+
 }
 
-// Build unit chips
+// ---------- WIZARD FLOW ----------
+function setStepHiddenState(step, initial = false) {
+  const blocks = [els.blockUnits, els.blockMode, els.blockStart];
+  blocks.forEach((b, i) => {
+    if (!b) return;
+    const shouldHide = (i !== step - 1);
+    b.hidden = shouldHide;
+    b.setAttribute('aria-hidden', String(shouldHide));
+  });
+  // data-step used only for styling/animation
+  els.controls.dataset.step = String(step);
+
+  // Update summary for step 3
+  if (step === 3 && els.startSummary) {
+    const count = state.unitsSelected.size;
+    const modeLabel = state.mode === "mc" ? "Multiple Choice" : "Fill in the Blank";
+    els.startSummary.textContent = count
+      ? `You selected ${count} unit${count > 1 ? "s" : ""} in ${modeLabel} mode.`
+      : `No units selected yet.`;
+  }
+
+  // Flip animation (skip on very first paint)
+  if (!initial) {
+    els.controls.classList.add("flip-out");
+    setTimeout(() => {
+      els.controls.classList.remove("flip-out");
+      els.controls.classList.add("flip-in");
+      setTimeout(() => els.controls.classList.remove("flip-in"), 420);
+    }, 220);
+  }
+}
+
+function showWizardStep(step) {
+  state.step = step;
+  setStepHiddenState(step);
+}
+
+// ---------- UNITS ----------
 function hydrateUnits() {
   const frag = document.createDocumentFragment();
   Object.keys(FLASHCARDS.units).forEach((unitName) => {
@@ -107,6 +182,7 @@ function toggleUnit(unit, chipEl) {
   }
 }
 
+// ---------- HOOKS ----------
 function hookControls() {
   // Mode radios — block switching while active
   document.querySelectorAll('input[name="mode"]').forEach(r => {
@@ -133,7 +209,23 @@ function hookControls() {
     document.querySelectorAll(".unit-chip").forEach(el => el.classList.remove("is-active"));
   });
 
+  // CONFIRM buttons (no auto-advance)
+  els.confirmUnits?.addEventListener("click", () => {
+    if (!state.unitsSelected.size) {
+      toast("Select at least one unit to continue.");
+      return;
+    }
+    showWizardStep(2);
+  });
+
+  els.confirmMode?.addEventListener("click", () => {
+    showWizardStep(3);
+  });
+
+  // Start buttons
   els.startBtn.addEventListener("click", startSession);
+  els.startBig?.addEventListener("click", startSession);
+
   els.endBtn.addEventListener("click", endSession);
 
   els.resetProgress.addEventListener("click", () => {
@@ -156,7 +248,7 @@ function hookControls() {
   els.fitbForm.addEventListener("submit", onFitbSubmit);
   els.fitbHint.addEventListener("click", () => showHint());
 
-  // Answer-with toggle (works for BOTH MC and FITB now)
+  // Toggle "answer with ..." for both modes
   if (els.mcAnswerToggle) {
     els.mcAnswerToggle.addEventListener("click", () => {
       if (state.mode === "mc") {
@@ -165,10 +257,12 @@ function hookControls() {
         state.fitbAnswer = state.fitbAnswer === "term" ? "definition" : "term";
       }
       updateAnswerToggleLabel();
-      renderCard(); // rebuild face & options / placeholder
+      renderCard();
     });
   }
 }
+
+// ---------- SESSION ----------
 function startSession() {
   const units = Array.from(state.unitsSelected);
   if (!units.length) {
@@ -176,28 +270,33 @@ function startSession() {
     return;
   }
   buildDeck(units);
-  if (els.shuffle.checked) shuffle(state.deck);
+  if (els.shuffle?.checked) shuffle(state.deck);
   state.index = 0;
   state.flipped = false;
   state.active = true;
-  state.revealed.clear(); // <-- NEW: fresh session clears reveal locks
+  state.revealed.clear();
 
   document.querySelectorAll('input[name="mode"]').forEach(r => r.disabled = true);
   els.endBtn.hidden = false;
 
+  // Hide wizard, show stage in same spot
+  els.controls.setAttribute("aria-hidden", "true");
+  els.controls.classList.add("is-hidden");
   els.stage.hidden = false;
   els.empty.hidden = true;
+
+  // Show progress only when the stage is actually visible (ADDED)
+  if (els.blockProgress) {
+    els.blockProgress.hidden = false;
+    els.blockProgress.setAttribute('aria-hidden', 'false');
+  }
+
+  // Auto-center the quizzing/flashcard modal (ADDED)
+  requestAnimationFrame(() => centerOn(els.stage, { behavior: "smooth" }));
 
   renderCard();
   renderAnswerArea();
   updateCrumbs();
-
-  // 👇 NEW: auto-scroll the stage into view if it's not already visible
-  requestAnimationFrame(() => {
-    if (!isMostlyVisible(els.stage)) {
-      scrollToReveal(els.stage);
-    }
-  });
 }
 
 // --- A11y live region (create once) ---
@@ -212,69 +311,117 @@ const live = document.getElementById('a11y-live') || (() => {
 
 function announce(msg) { live.textContent = msg; }
 
-// (keep your existing smoothScrollTo from earlier)
-
-// --- Add this tiny helper to show the green chip near controls ---
 function showEndChip() {
   const controls = document.querySelector('.fc-controls');
   if (!controls) return;
-  // remove any previous chip
-  controls.querySelectorAll('.end-chip').forEach(n => n.remove());
 
+  controls.querySelectorAll('.end-chip').forEach(n => n.remove());
   const chip = document.createElement('div');
   chip.className = 'end-chip';
   chip.innerHTML = `<span class="dot" aria-hidden="true"></span> Session ended`;
   controls.appendChild(chip);
-
-  // auto-remove after ~6s (optional)
   setTimeout(() => chip.remove(), 6000);
 }
 
-// --- Upgrade endSession() for clear, immediate feedback ---
+/* =========================
+   ADDED: New endSession flow
+   - Show summary modal on click
+   - Return to Unit selection AFTER user closes (X)
+   ========================= */
 function endSession() {
-  // 1) Immediate visual feedback on the button
-  els.endBtn.textContent = 'Session Ended ✓';
-  els.endBtn.classList.add('btn-ended');
-  els.endBtn.setAttribute('aria-disabled', 'true');
+  if (!state.active) {
+    // If already inactive, still try to show summary if available
+    if (els.summaryModal) openSummaryModal();
+    return;
+  }
 
-  // 2) Brief highlight on the stage so the click feels acknowledged
-  els.stage.classList.add('ending');
+  // Build + open the summary modal
+  if (els.summaryModal) {
+    openSummaryModal();
+  } else {
+    // Fallback if summary modal not in DOM
+    returnToUnitSelection();
+  }
 
-  // 3) Screen reader announcement
-  announce('Session ended. Returning to controls.');
-
-  // 4) After a short beat, perform the existing teardown + scroll + chip
-  setTimeout(() => {
-    state.active = false;
-    els.stage.hidden = true;
-    els.empty.hidden = false;
-
-    els.endBtn.hidden = true;                 // your original behavior
-    els.endBtn.classList.remove('btn-ended');
-    els.endBtn.removeAttribute('aria-disabled');
-    els.endBtn.textContent = 'End Session';   // reset for next time
-    els.stage.classList.remove('ending');
-
-    document.querySelectorAll('input[name="mode"]').forEach(r => r.disabled = false);
-
-    // visible, persistent confirmation near the controls
-    showEndChip();
-
-    const controls = document.querySelector('.fc-controls');
-    requestAnimationFrame(() => smoothScrollTo(controls, 12));
-
-    // put focus on a safe, obvious target for keyboard users
-    const start = document.getElementById('start-btn');
-    start?.focus();
-  }, 450);
+  // Disable answering while summary is open
+  state.active = false;
 }
 
+// ADDED: Build and open the summary modal
+function openSummaryModal() {
+  // Stats
+  const { total, done, correct } = state.stats;
+  const acc = total ? Math.round((correct / (done || 1)) * 100) : 0;
+
+  if (els.summaryGrid) {
+    els.summaryGrid.innerHTML = `
+      <div class="summary-item"><span>Completed</span><strong>${done} / ${total}</strong></div>
+      <div class="summary-item"><span>Correct</span><strong>${correct}</strong></div>
+      <div class="summary-item"><span>Accuracy</span><strong>${acc}%</strong></div>
+      <div class="summary-item"><span>Revealed Cards</span><strong>${state.revealed.size}</strong></div>
+    `;
+  }
+
+  if (els.summaryUnits) {
+    els.summaryUnits.innerHTML = Array.from(state.unitsSelected)
+      .map(u => `<span class="chip">${escapeHTML(u)}</span>`)
+      .join('') || `<span class="muted">None</span>`;
+  }
+
+  els.summaryModal.hidden = false;
+  els.summaryModal.setAttribute('aria-hidden', 'false');
+
+  // Close via X button only
+  els.summaryModal.addEventListener('click', onSummaryModalClick);
+}
+
+// ADDED: Handle clicking the X in the summary modal
+function onSummaryModalClick(e) {
+  const closeBtn = e.target.closest('[data-modal-close]');
+  if (!closeBtn) return;
+
+  els.summaryModal.hidden = true;
+  els.summaryModal.setAttribute('aria-hidden', 'true');
+  els.summaryModal.removeEventListener('click', onSummaryModalClick);
+
+  // After closing, return to Units selection
+  returnToUnitSelection();
+}
+
+// ADDED: Cleanup and navigate back to Unit selection
+function returnToUnitSelection() {
+  // Hide stage, show wizard step 1
+  els.stage.hidden = true;
+  els.empty.hidden = true;
+  els.controls.classList.remove("is-hidden");
+  els.controls.removeAttribute("aria-hidden");
+  state.step = 1;
+  setStepHiddenState(1);
+
+  // Hide progress again when leaving the stage
+  if (els.blockProgress) {
+    els.blockProgress.hidden = true;
+    els.blockProgress.setAttribute('aria-hidden', 'true');
+  }
+
+  // Reset End button UI
+  els.endBtn.hidden = true;
+  els.endBtn.classList.remove('btn-ended');
+  els.endBtn.removeAttribute('aria-disabled');
+  els.endBtn.textContent = 'End Session';
+  els.stage.classList.remove('ending');
+
+  // Allow switching modes again
+  document.querySelectorAll('input[name="mode"]').forEach(r => r.disabled = false);
+
+  showEndChip();
+}
 
 function restartDeck() {
-  if (els.shuffle.checked) shuffle(state.deck);
+  if (els.shuffle?.checked) shuffle(state.deck);
   state.index = 0;
   state.flipped = false;
-  state.revealed.clear(); // <-- NEW: restart clears reveal locks
+  state.revealed.clear();
   renderCard();
   renderAnswerArea();
   updateCrumbs();
@@ -313,24 +460,15 @@ function renderCard() {
   els.termText.textContent = card.term;
   els.defText.textContent = card.definition;
 
-  // Decide which side is front based on mode + answer target
-  // Decide which side is front based on mode + answer target
   const showDefFirst =
     (state.mode === "fitb"  && state.fitbAnswer === "term") ||
     (state.mode === "mc"    && state.mcAnswer   === "term");
 
-  // frontIsTerm = whether the TERM should be on the front before any flip
   const frontIsTerm = !showDefFirst;
-
-  // Keep revealed cards flipped/locked; otherwise respect initial front
   state.flipped = state.revealed.has(card.id);
 
-  // When flipped, show the *opposite* of the initial front.
-  // - If front was TERM, flipping shows DEFINITION
-  // - If front was DEFINITION, flipping shows TERM
   els.termSide.classList.toggle("is-front", state.flipped ? !frontIsTerm : frontIsTerm);
   els.defSide.classList.toggle("is-front",  state.flipped ?  frontIsTerm : !frontIsTerm);
-
 
   els.feedback.hidden = true;
   els.feedback.textContent = "";
@@ -339,7 +477,7 @@ function renderCard() {
   if (state.mode === "fitb") {
     els.fitbInput.value = "";
     els.fitbInput.placeholder = state.fitbAnswer === "term" ? "Type the term…" : "Type the definition…";
-    if (!state.revealed.has(card.id)) els.fitbInput.focus(); // don't focus if locked
+    if (!state.revealed.has(card.id)) els.fitbInput.focus();
   }
   setAnswerInteractivity();
 }
@@ -349,7 +487,6 @@ function renderAnswerArea() {
   els.mcArea.hidden = !isMC;
   els.fitbForm.hidden = isMC;
 
-  // Show the same toggle button in both modes with the correct label
   if (els.mcAnswerToggle) {
     els.mcAnswerToggle.hidden = false;
     updateAnswerToggleLabel();
@@ -382,7 +519,6 @@ function flipCard() {
     return;
   }
 
-  // Mark revealed (one-way) and choose the correct back side
   state.revealed.add(card.id);
   state.flipped = true;
 
@@ -391,19 +527,16 @@ function flipCard() {
     (state.mode === "mc"    && state.mcAnswer   === "term");
   const frontIsTerm = !showDefFirst;
 
-  // After flip: show the opposite of the initial front
   els.termSide.classList.toggle("is-front", !frontIsTerm);
   els.defSide.classList.toggle("is-front",  frontIsTerm);
 
   setAnswerInteractivity();
 }
 
-
 // ---------- MULTIPLE CHOICE ----------
 function buildMCOptions(card) {
   const pool = state.deck.length ? state.deck : Object.values(FLASHCARDS.units).flat();
   const useTermAnswers = state.mcAnswer === "term";
-
   const correctValue = useTermAnswers ? card.term : card.definition;
 
   const candidates = pool
@@ -435,7 +568,6 @@ function handleMCClick(value) {
   const card = currentCard();
   if (!card) return;
 
-  // --- CHANGED: block answering once revealed ---
   if (state.revealed.has(card.id)) {
     toast("You revealed this card; answering is disabled.");
     return;
@@ -457,14 +589,12 @@ function handleMCClick(value) {
   showFeedback(correct ? "Nice! ✅" : `Not quite. The answer is <strong>${answerLabel}</strong>.`, correct);
 }
 
-
 // ---------- FILL IN THE BLANK ----------
 function onFitbSubmit(e) {
   e.preventDefault();
   const card = currentCard();
   if (!card) return;
 
-  // --- CHANGED: block answering once revealed ---
   if (state.revealed.has(card.id)) {
     toast("You revealed this card; answering is disabled.");
     return;
@@ -475,7 +605,9 @@ function onFitbSubmit(e) {
 
   const target = state.fitbAnswer === "term" ? card.term : card.definition;
 
-  const normalize = (s) => els.caseInsensitive.checked ? s.toLowerCase() : s;
+  // Default to case-insensitive if toggle isn't present
+  const ciChecked = els.caseInsensitive ? !!els.caseInsensitive.checked : true;
+  const normalize = (s) => ciChecked ? s.toLowerCase() : s;
   const correct = normalize(val) === normalize(target);
 
   gradeCurrent(correct);
@@ -570,48 +702,28 @@ function escapeHTML(s) {
   return s.replace(/[&<>'"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;" }[c]));
 }
 
-// ---------- small helpers ----------
 function updateAnswerToggleLabel() {
   if (!els.mcAnswerToggle) return;
-
-  // Label reflects the *current* answer target in the current mode
-  // - If the user is answering with "term", the card shows the definition
-  // - If answering with "definition", the card shows the term
   const answerTarget = (state.mode === "mc") ? state.mcAnswer : state.fitbAnswer;
   els.mcAnswerToggle.textContent =
     answerTarget === "term" ? "Answer with Term" : "Answer with Definition";
 }
 
-// ---------- hydration fallbacks ----------
-function loadSavedProgress() { /* no-op here */ }
-function showEmptyState() {
-  els.stage.hidden = true;
-  els.empty.hidden = false;
-}
-function isMostlyVisible(el) {
-  const rect = el.getBoundingClientRect();
-  const vh = window.innerHeight || document.documentElement.clientHeight;
-  const visibleHeight = Math.min(rect.bottom, vh) - Math.max(rect.top, 0);
-  return visibleHeight >= Math.min(rect.height, vh) * 0.6; // 60% visible is "good enough"
-}
-
-function scrollToReveal(el, { offset = 16, behavior = "smooth" } = {}) {
+/* Center the given element roughly in viewport (used only on load) */
+function centerOn(el, { behavior = "smooth", offset = 12 } = {}) {
   if (!el) return;
   const header = document.querySelector(".header");
   const headerH = header ? header.offsetHeight : 0;
-
   const rect = el.getBoundingClientRect();
-  const top = rect.top + window.pageYOffset - headerH - offset;
-
-  window.scrollTo({ top, behavior });
+  const elMid = rect.top + window.pageYOffset + rect.height / 2;
+  const targetTop = Math.max(0, elMid - (window.innerHeight / 2) - headerH / 2 - offset);
+  window.scrollTo({ top: targetTop, behavior });
 }
 
-// Lock/unlock answering based on flip/reveal state
 function setAnswerInteractivity() {
   const card = currentCard();
-  const locked = card ? state.revealed.has(card.id) : false; // <-- CHANGED: lock on revealed, not just flipped
+  const locked = card ? state.revealed.has(card.id) : false;
 
-  // MC: disable all options and mark locked for styling/a11y
   els.mcArea.classList.toggle('is-locked', locked);
   els.mcArea.querySelectorAll('.mc-option').forEach(btn => {
     btn.disabled = locked;
@@ -619,13 +731,11 @@ function setAnswerInteractivity() {
     btn.tabIndex = locked ? -1 : 0;
   });
 
-  // Also lock FITB while revealed
   if (els.fitbInput) els.fitbInput.disabled = locked;
   if (els.fitbForm) {
     els.fitbForm.querySelectorAll('button').forEach(b => b.disabled = locked);
   }
 
-  // Disable the Flip button once revealed so user can't flip back
   els.flip.disabled = locked;
   els.flip.setAttribute('aria-disabled', String(locked));
 }

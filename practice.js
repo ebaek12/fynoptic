@@ -1,6 +1,6 @@
 /* ===========================================================
-   Fynoptic – Adaptive Practice (multi-topic + adaptive toggle)
-   (Matches the HTML you pasted)
+   Fynoptic – Adaptive Practice (wizard + end session + scroll + cross-out)
+   Only minimal changes for requested features
    =========================================================== */
 
    const $ = (sel, root = document) => root.querySelector(sel);
@@ -40,6 +40,7 @@
    const elStatStreak = $('#stat-streak');
    const elStatDiff = $('#stat-diff');
    
+   const elStage = $('#stage');                             // <— for auto-scroll (NEW)
    const elStageEmpty = $('#stage-empty');
    const elStageWrap = $('#stage-qwrap');
    const elStageFinish = $('#stage-finish');
@@ -54,15 +55,108 @@
    
    const elSubmit = $('#submit-btn');
    const elNext = $('#next-btn');
-   const elPrev = $('#prev-btn'); // present in HTML, not used by engine yet
+   const elPrev = $('#prev-btn');
    const elRestart = $('#restart-btn');
    const elFinishReset = $('#finish-reset-btn');
    const elFinishSummary = $('#finish-summary');
    
+   /* ---------- Wizard ---------- */
+   const elWizard = $('#practice-wizard');
+   const step1 = '#step-1';
+   const step2 = '#step-2';
+   const step3 = '#step-3';
+   const elStep2 = $(step2);
+   const elStep3 = $(step3);
+   const btnNext1 = $('#wiz-next-1');
+   const btnBack2 = $('#wiz-back-2');
+   const btnNext2 = $('#wiz-next-2');
+   const btnBack3 = $('#wiz-back-3');
+   const elSummary = $('#wiz-summary');
+   
+   function goToStep(n) {
+     if (!elWizard) return;
+     elWizard.setAttribute('data-step', String(n));
+   
+     // Hide all panels first to avoid overlap/flicker
+     [step1, step2, step3].forEach(sel => {
+       const panel = $(sel);
+       if (!panel) return;
+       panel.classList.remove('flip-in', 'slide-out');
+       panel.hidden = true;
+     });
+   
+     // Show and animate only the active panel
+     const active = document.querySelector(`#step-${n}`);
+     if (active) {
+       active.hidden = false;
+       void active.offsetWidth;
+       active.classList.add('flip-in');
+       setTimeout(() => active.classList.remove('flip-in'), 400);
+     }
+   }
+   
+   btnNext1?.addEventListener('click', () => {
+     refreshTopicsUIForCategory(elCategory.value);
+     goToStep(2);
+   });
+   
+   btnBack2?.addEventListener('click', () => goToStep(1));
+   
+   btnNext2?.addEventListener('click', () => {
+     const topics = getSelectedTopics();
+     if (!topics.length) { toast('Please select at least one unit.'); return; }
+     const adaptive = elAdaptiveToggle.checked ? `Adaptive every ${elAdaptEvery.value}` : 'Non-adaptive';
+     elSummary.textContent =
+       `${elCategory.value} • ${topics.length} unit${topics.length>1?'s':''} • ${elQuestionCount.value} questions • ${adaptive}`;
+     goToStep(3);
+   });
+   
+   btnBack3?.addEventListener('click', () => goToStep(2));
+   
+   /* ---------- NEW: End Session controls (existing feature) ---------- */
+   const elEndSessionBtn = $('#end-session-btn');
+   const elEndSessionModal = $('#end-session-modal');
+   const elEndSessionClose = $('#end-session-close');
+   const elEndSessionStats = $('#end-session-stats');
+   
    /* ---------- State ---------- */
    const STATE = { session: null };
    
-   /* ---------- Load question bank ---------- */
+   /* ---------- End Session helpers ---------- */
+   function openEndSessionModal() {
+     const s = STATE.session;
+     if (!s) { toast('No active session.'); return; }
+   
+     const answered = s.asked;
+     const total = s.totalQuestions;
+     const correct = s.correct;
+     const acc = answered ? Math.round((correct / answered) * 100) : 0;
+     const streak = s.streak;
+     const diff = s.currentDiff ? s.currentDiff[0].toUpperCase() + s.currentDiff.slice(1) : '—';
+     const topics = (s.topics || []).map(t => t.replace(/[_-]/g,' ')).join(', ') || '—';
+   
+     elEndSessionStats.innerHTML = `
+       <div class="stat-grid">
+         <div class="session-stat"><div class="k">${answered}/${total}</div><div class="l">Answered</div></div>
+         <div class="session-stat"><div class="k">${correct}</div><div class="l">Correct</div></div>
+         <div class="session-stat"><div class="k">${acc}%</div><div class="l">Accuracy</div></div>
+         <div class="session-stat"><div class="k">${streak}</div><div class="l">Current Streak</div></div>
+         <div class="session-stat"><div class="k">${diff}</div><div class="l">Difficulty</div></div>
+         <div class="session-stat wide"><div class="k">${topics}</div><div class="l">Units</div></div>
+       </div>
+     `;
+     elEndSessionModal.hidden = false;
+   }
+   
+   function closeEndSessionModalAndReturn() {
+     elEndSessionModal.hidden = true;
+     resetPractice(); // return to mode selection
+   }
+   
+   elEndSessionBtn?.addEventListener('click', openEndSessionModal);
+   elEndSessionClose?.addEventListener('click', closeEndSessionModalAndReturn);
+   
+   /* ---------- Load question banks (unchanged) ---------- */
    async function loadPF() {
      const tryPaths = [
        './pf_bank_modules_1of6.json',
@@ -77,52 +171,37 @@
          window.QUESTIONS = QUESTIONS = db; // sync
          refreshTopicsUIForCategory(elCategory.value);
          return;
-       } catch (e) {
-         // try next
-       }
+       } catch (e) {}
      }
      console.error('Could not load pf_bank_modules_1of6.json from expected paths.');
      toast('Could not load the question bank (check file path/name).');
    }
-   // --- ADD THIS (near your other loaders) ---
-async function loadEconomics() {
-    try {
-      // If you put it in /data/, use '/data/econ_grouped_by_module_unit_with_choices.json'
-      const res = await fetch('./econ_grouped_by_module_unit_with_choices.json');
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const econ = await res.json();
-  
-      // Merge into your global QUESTIONS (single source of truth)
-      window.QUESTIONS = window.QUESTIONS || {};
-      // Shallow-merge is fine because top-level key is "Economics"
-      window.QUESTIONS = { ...window.QUESTIONS, ...econ };
-  
-      // If your Category select already contains "Economics", we’re done.
-      // Refresh the topic list so Units appear on the right
-      if (document.getElementById('category')?.value === 'Economics') {
-        // This is your existing function that rebuilds the #topic options
-        if (typeof refreshTopicList === 'function') refreshTopicList();
-        // And your right-side chips mirror #topic, so they’ll update too
-        if (typeof initTopics === 'function') initTopics();
-      }
-  
-      // Optional toast if your UI has one
-      try {
-        (window.toast || console.log)('Economics bank loaded.');
-      } catch {}
-    } catch (err) {
-      console.error('loadEconomics error:', err);
-      try { (window.toast || console.error)('Could not load Economics bank (check path).'); } catch {}
-    }
-  }
-  
-  // Call it once on page load (alongside your existing loads)
- 
-  
+   
+   async function loadEconomics() {
+     try {
+       const res = await fetch('./econ_grouped_by_module_unit_with_choices.json');
+       if (!res.ok) throw new Error(`HTTP ${res.status}`);
+       const econ = await res.json();
+   
+       window.QUESTIONS = window.QUESTIONS || {};
+       window.QUESTIONS = { ...window.QUESTIONS, ...econ };
+   
+       if (document.getElementById('category')?.value === 'Economics') {
+         if (typeof refreshTopicList === 'function') refreshTopicList();
+         if (typeof initTopics === 'function') initTopics();
+       }
+   
+       try { (window.toast || console.log)('Economics bank loaded.'); } catch {}
+     } catch (err) {
+       console.error('loadEconomics error:', err);
+       try { (window.toast || console.error)('Could not load Economics bank (check path).'); } catch {}
+     }
+   }
+   
    loadPF();
    loadEconomics();
    
-   /* Allow external JS to merge-in more questions safely */
+   /* External merge hook (unchanged) */
    window.injectQuestions = function(newData) {
      QUESTIONS = deepMerge(QUESTIONS, newData || {});
      window.QUESTIONS = QUESTIONS;
@@ -142,13 +221,11 @@ async function loadEconomics() {
      return out;
    }
    
-   /* ---------- Topics chips UI (right panel) ---------- */
+   /* ---------- Topics chips UI ---------- */
    function refreshTopicsUIForCategory(category) {
-     // Read topics from QUESTIONS for the chosen category
      const topicsObj = (window.QUESTIONS || QUESTIONS)?.[category] || {};
      const topics = Object.keys(topicsObj).sort();
    
-     // Rebuild the hidden <select multiple>
      elHiddenTopicSelect.innerHTML = '';
      topics.forEach(t => {
        const opt = document.createElement('option');
@@ -157,7 +234,6 @@ async function loadEconomics() {
        elHiddenTopicSelect.appendChild(opt);
      });
    
-     // Rebuild the chips
      elTopicsList.innerHTML = '';
      if (!topics.length) {
        const empty = document.createElement('div');
@@ -178,9 +254,6 @@ async function loadEconomics() {
        btn.addEventListener('click', () => toggleTopicValue(t));
        elTopicsList.appendChild(btn);
      });
-   
-     // EDIT: do NOT auto-select the first topic/module
-     // (Removed the previous auto-preselect to satisfy your request.)
    
      syncChipsFromHidden();
    }
@@ -211,7 +284,6 @@ async function loadEconomics() {
      });
    }
    
-   /* Read the selected topics from the hidden select (single source of truth) */
    function getSelectedTopics() {
      return [...elHiddenTopicSelect.selectedOptions].map(o => o.value);
    }
@@ -245,9 +317,8 @@ async function loadEconomics() {
        byDiff,
        current: null,
        currentDiff: startDiff,
-       // EDIT: navigation timeline for Prev/Next
-       timeline: [],          // array of { q, answered, chosenIdx, correct }
-       currentIndex: -1       // pointer into timeline
+       timeline: [],          // array of { q, answered, chosenIdx, correct, eliminated[] } (NEW: eliminated)
+       currentIndex: -1
      };
    }
    
@@ -318,38 +389,88 @@ async function loadEconomics() {
    function renderQuestion(q) {
      elPrompt.textContent = q.prompt;
      elMcArea.innerHTML = '';
+   
      q.choices.forEach((choice, idx) => {
        const btn = document.createElement('button');
        btn.className = 'mc-option';
        btn.type = 'button';
        btn.setAttribute('data-index', String(idx));
        btn.textContent = choice;
-       btn.addEventListener('click', () => selectChoice(idx));
+   
+       // SELECT on normal click; CROSS-OUT on Alt/Ctrl/Meta click or right-click
+       btn.addEventListener('click', (e) => {
+         if (e.altKey || e.ctrlKey || e.metaKey) {
+           e.preventDefault();
+           toggleEliminate(btn);
+           return;
+         }
+         selectChoice(idx);
+       });
+       btn.addEventListener('contextmenu', (e) => {
+         e.preventDefault();
+         toggleEliminate(btn);
+       });
+   
        elMcArea.appendChild(btn);
      });
+   
      elSubmit.disabled = true;
      elNext.disabled = true;
      elFeedback.hidden = true;
      elFeedback.classList.remove('ok','bad');
    
-     // EDIT: if we are re-rendering a previously answered question, show its state
+     // Re-apply persisted selection/eliminations when navigating back
      const s = STATE.session;
      if (s && s.timeline && s.currentIndex >= 0) {
        const entry = s.timeline[s.currentIndex];
-       if (entry && entry.q && entry.q.id === q.id && entry.answered) {
-         if (Number.isInteger(entry.chosenIdx)) {
-           selectChoice(entry.chosenIdx);
+       if (entry && entry.q && entry.q.id === q.id) {
+         if (Array.isArray(entry.eliminated)) {
+           entry.eliminated.forEach(i => {
+             const b = $(`.mc-option[data-index="${i}"]`);
+             if (b) b.classList.add('is-eliminated');
+           });
          }
-         // markResponse expects a selected button to be present
-         markResponse(!!entry.correct, q);
+         if (entry.answered && Number.isInteger(entry.chosenIdx)) {
+           selectChoice(entry.chosenIdx);
+           markResponse(!!entry.correct, q);
+         }
        }
      }
    }
    
+   // Toggle cross-out (eliminate) state and persist it to timeline
+   function toggleEliminate(btn) {
+     const idx = Number(btn.getAttribute('data-index'));
+     btn.classList.toggle('is-eliminated');
+   
+     const s = STATE.session;
+     if (!s || s.currentIndex < 0 || !s.timeline[s.currentIndex]) return;
+   
+     const elim = s.timeline[s.currentIndex].eliminated || [];
+     const pos = elim.indexOf(idx);
+     if (btn.classList.contains('is-eliminated')) {
+       if (pos === -1) elim.push(idx);
+     } else if (pos !== -1) {
+       elim.splice(pos, 1);
+     }
+     s.timeline[s.currentIndex].eliminated = elim;
+   }
+   
    function selectChoice(idx) {
+     // Clear selection & elimination for the chosen option
      $$('.mc-option').forEach(b => b.classList.remove('is-selected'));
      const btn = $(`.mc-option[data-index="${idx}"]`);
-     if (btn) btn.classList.add('is-selected');
+     if (btn) {
+       btn.classList.remove('is-eliminated'); // selecting overrides cross-out
+       btn.classList.add('is-selected');
+     }
+   
+     // Persist chosenIdx (even before submit) to help re-render on nav
+     const s = STATE.session;
+     if (s && s.timeline && s.currentIndex >= 0 && s.timeline[s.currentIndex]) {
+       s.timeline[s.currentIndex].chosenIdx = idx;
+     }
+   
      elSubmit.disabled = false;
    }
    
@@ -419,6 +540,20 @@ async function loadEconomics() {
      elFinishSummary.textContent = summary;
    }
    
+   /* ---------- Auto-scroll (NEW) ---------- */
+   function centerScroll() {
+     if (!elStage) return;
+     // Prefer native center if supported
+     try {
+       elStage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+     } catch {
+       const rect = elStage.getBoundingClientRect();
+       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+       const target = rect.top + scrollTop + rect.height / 2 - window.innerHeight / 2;
+       window.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
+     }
+   }
+   
    /* ---------- Flow ---------- */
    function startPractice() {
      const category = elCategory.value;
@@ -441,11 +576,17 @@ async function loadEconomics() {
      if (!q) { toast('Question pool is empty.'); return; }
      showQuestionView();
    
-     // EDIT: initialize timeline and index with the very first question
-     session.timeline.push({ q, answered: false, chosenIdx: null, correct: null });
+     // Initialize timeline with eliminated array
+     session.timeline.push({ q, answered: false, chosenIdx: null, correct: null, eliminated: [] });
      session.currentIndex = 0;
    
+     // hide selection wizard during session
+     elWizard?.classList.add('is-hidden');
+   
      renderQuestion(q);
+   
+     // NEW: Auto-scroll stage to center after render tick
+     setTimeout(centerScroll, 0);
    }
    
    function submitAnswer() {
@@ -462,7 +603,6 @@ async function loadEconomics() {
      s.streak = isCorrect ? (s.streak + 1) : 0;
      s.history.push({ id: s.current.id, correct: isCorrect, difficulty: s.currentDiff });
    
-     // EDIT: persist the answer in the timeline entry
      if (s.currentIndex >= 0 && s.timeline[s.currentIndex]) {
        s.timeline[s.currentIndex].answered = true;
        s.timeline[s.currentIndex].chosenIdx = chosenIdx;
@@ -481,11 +621,10 @@ async function loadEconomics() {
      const s = STATE.session;
      if (!s) return;
    
-     // EDIT: If we have a future question in the timeline (after going back), move forward within timeline
      if (s.currentIndex < s.timeline.length - 1) {
        s.currentIndex += 1;
        s.current = s.timeline[s.currentIndex].q;
-       updateDiffChip(s.currentDiff); // keep current diff label
+       updateDiffChip(s.currentDiff);
        renderQuestion(s.current);
        return;
      }
@@ -505,14 +644,12 @@ async function loadEconomics() {
        return;
      }
    
-     // EDIT: append the newly drawn question to the timeline and advance index
-     s.timeline.push({ q, answered: false, chosenIdx: null, correct: null });
+     s.timeline.push({ q, answered: false, chosenIdx: null, correct: null, eliminated: [] });
      s.currentIndex = s.timeline.length - 1;
    
      renderQuestion(q);
    }
    
-   // EDIT: implement going to the previous question without changing stats
    function prevQuestion() {
      const s = STATE.session;
      if (!s) return;
@@ -534,6 +671,10 @@ async function loadEconomics() {
      elStatTotal.textContent = '0';
      elProgressFill.style.setProperty('--p', `0%`);
      showEmpty();
+   
+     // show wizard again at step 1
+     elWizard?.classList.remove('is-hidden');
+     goToStep(1);
    }
    
    /* ---------- Helpers ---------- */
@@ -560,7 +701,6 @@ async function loadEconomics() {
    
    elSubmit.addEventListener('click', submitAnswer);
    elNext.addEventListener('click', nextQuestion);
-   // EDIT: wire up Prev to navigate the timeline
    elPrev.addEventListener('click', prevQuestion);
    
    elRestart.addEventListener('click', () => {
@@ -572,8 +712,7 @@ async function loadEconomics() {
      const q = drawQuestion(STATE.session);
      showQuestionView();
    
-     // EDIT: reinitialize timeline after restart
-     STATE.session.timeline.push({ q, answered: false, chosenIdx: null, correct: null });
+     STATE.session.timeline.push({ q, answered: false, chosenIdx: null, correct: null, eliminated: [] });
      STATE.session.currentIndex = 0;
    
      renderQuestion(q);
@@ -590,23 +729,25 @@ async function loadEconomics() {
    
    /* ---------- Initial UI ---------- */
    showEmpty();
-   // Disable cadence control if adaptive is off (your UI defaults to checked)
    function syncAdaptiveDisable() {
      const on = elAdaptiveToggle.checked;
      elAdaptEvery.disabled = !on;
    }
    elAdaptiveToggle.addEventListener('change', syncAdaptiveDisable);
    syncAdaptiveDisable();
-  
-economics (non-breaking) ---
-(function () {
-  const catSel = document.getElementById('category');
-  if (!catSel) return;
-
-  function updateCatAttr() {
-    document.body.setAttribute('data-cat', catSel.value);
-  }
-
-  catSel.addEventListener('change', updateCatAttr);
-  updateCatAttr(); // run once on load
-})();
+   
+   // Start at step 1, centered wizard
+   goToStep(1);
+   
+   /* ---------- Minor bugfix: stray text converted to a real comment ----------
+      economics (non-breaking) */
+   (function () {
+     const catSel = document.getElementById('category');
+     if (!catSel) return;
+     function updateCatAttr() {
+       document.body.setAttribute('data-cat', catSel.value);
+     }
+     catSel.addEventListener('change', updateCatAttr);
+     updateCatAttr();
+   })();
+   

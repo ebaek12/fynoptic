@@ -4372,3 +4372,1221 @@ body[data-cat="Economics"] .topics-card {
   letter-spacing: .02em;
   color: inherit;            /* match header color */
 }
+/* === Section divider for clearer separation === */
+.section-divider {
+  border: 0;
+  height: 1px;
+  width: min(1120px, 92%);
+  margin: 0 auto;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.18), transparent);
+  opacity: .8;
+}
+
+/* === Light/Dark theme switch (minimal overrides) === */
+.theme-toggle {
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 10px;
+  padding: .4rem .7rem;
+  background: rgba(255,255,255,.06);
+  font-weight: 600;
+}
+:root { color-scheme: dark; }          /* default */
+[data-theme="light"] { color-scheme: light; }
+[data-theme="light"] body {
+  background: #f7fafc;
+  color: #0b1220;
+}
+[data-theme="light"] .header,
+[data-theme="light"] .mobile-menu,
+[data-theme="light"] .modal .dialog,
+[data-theme="light"] .card,
+[data-theme="light"] .why-section,
+[data-theme="light"] .movement-section {
+  background: #ffffff !important;
+  color: #0b1220 !important;
+  border-color: rgba(0,0,0,.08);
+  box-shadow: 0 6px 24px rgba(0,0,0,.08);
+}
+[data-theme="light"] .chip { background: #f1f5f9; color: #263041; }
+[data-theme="light"] .btn-ghost { border-color: #3F6AFF; color: #3F6AFF; }
+[data-theme="light"] .footer { background: #f1f5f9; color: #334155; }
+[data-theme="light"] .footer-links a { color: #1f3a8a; }
+[data-theme="light"] .quote-bubble { background: #f8fafc; color: #0b1220; box-shadow: none; }
+
+/* === Facts ticker (auto-scroll) === */
+.fact-ticker {
+  overflow: hidden;
+  position: relative;
+  margin-top: 1.25rem;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 12px;
+  background: rgba(255,255,255,.04);
+}
+[data-theme="light"] .fact-ticker {
+  border-color: rgba(0,0,0,.08); background: #ffffff;
+}
+.fact-track {
+  display: flex;
+  gap: 2rem;
+  padding: .75rem 1rem;
+  width: max-content;
+  animation: ticker-scroll 28s linear infinite;
+}
+.fact { white-space: nowrap; opacity: .95; }
+.fact strong { font-weight: 700; }
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); } /* relies on duplicated items */
+}
+@media (prefers-reduced-motion: reduce) {
+  .fact-track { animation: none; }
+}
+
+/* === Flip / reveal mini-cards === */
+.flip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: .75rem;
+}
+.flip {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  perspective: 1000px;
+}
+.flip-inner {
+  position: relative;
+  min-height: 110px;
+  transform-style: preserve-3d;
+  transition: transform .6s cubic-bezier(.22,1,.36,1);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.08);
+  background: rgba(255,255,255,.04);
+  padding: .9rem 1rem;
+}
+.flip-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: .9rem 1rem;
+}
+.flip-back { transform: rotateY(180deg); }
+.flip.is-flipped .flip-inner { transform: rotateY(180deg); }
+[data-theme="light"] .flip-inner {
+  border-color: rgba(0,0,0,.08);
+  background: #ffffff;
+}
+
+/* Tiny layout help for 5-card How We Help */
+.how-we-help .help-columns {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+/* ===========================
+   LIGHT THEME (variable flip)
+   =========================== */
+
+/* Accept the attribute on either <html> or <body> */
+:is(html[data-theme="light"], body[data-theme="light"]) {
+  /* flip core tokens so existing CSS re-themes */
+  --brand-950: #ffffff;   /* main page background */
+  --brand-900: #f7fafc;   /* elevated surfaces */
+  --brand-100: #0b1220;   /* used by some borders/hover */
+  --text-100: #0b1220;    /* primary text */
+  --text-300: #334155;    /* secondary text */
+
+  /* keep your brand accents */
+  /* --primary-600, --primary-500, --teal-500, etc. stay the same */
+
+  color-scheme: light;
+}
+
+/* Set base surface + text using the flipped tokens */
+:is(html[data-theme="light"], body[data-theme="light"]) body {
+  background: var(--brand-950) !important;
+  color: var(--text-100) !important;
+}
+
+/* Cards / chips / ghost button on light */
+:is(html[data-theme="light"], body[data-theme="light"]) .card,
+:is(html[data-theme="light"], body[data-theme="light"]) .modal .dialog,
+:is(html[data-theme="light"], body[data-theme="light"]) .mobile-menu,
+:is(html[data-theme="light"], body[data-theme="light"]) .footer,
+:is(html[data-theme="light"], body[data-theme="light"]) .header {
+  background: var(--brand-900) !important;
+  color: var(--text-100) !important;
+  border-color: rgba(0,0,0,.08) !important;
+  box-shadow: 0 6px 24px rgba(0,0,0,.08);
+}
+
+:is(html[data-theme="light"], body[data-theme="light"]) .chip {
+  background: #eef2f7 !important;
+  color: var(--text-300) !important;
+  border-color: rgba(0,0,0,.06) !important;
+}
+
+:is(html[data-theme="light"], body[data-theme="light"]) .btn-ghost {
+  border-color: var(--primary-500) !important;
+  color: var(--primary-500) !important;
+}
+
+/* Sections that had dark/gradient backgrounds */
+:is(html[data-theme="light"], body[data-theme="light"]) .hero,
+:is(html[data-theme="light"], body[data-theme="light"]) .why-section,
+:is(html[data-theme="light"], body[data-theme="light"]) .movement-section {
+  background: linear-gradient(180deg, #ffffff 0%, #f7fafc 100%) !important;
+  color: var(--text-100) !important;
+}
+
+/* Hero background ornaments: make them subtle on light */
+:is(html[data-theme="light"], body[data-theme="light"]) .hero-bg img { opacity: .04 !important; }
+:is(html[data-theme="light"], body[data-theme="light"]) .orb { opacity: .08 !important; filter: blur(70px); }
+
+/* Facts ticker and flip cards on light */
+:is(html[data-theme="light"], body[data-theme="light"]) .fact-ticker,
+:is(html[data-theme="light"], body[data-theme="light"]) .flip-inner {
+  background: #ffffff !important;
+  border-color: rgba(0,0,0,.08) !important;
+  color: var(--text-100) !important;
+}
+
+/* Footer text links contrast */
+:is(html[data-theme="light"], body[data-theme="light"]) .footer { background: #f7fafc !important; color: #1f2937 !important; }
+:is(html[data-theme="light"], body[data-theme="light"]) .footer-links a { color: #1f3a8a !important; }
+
+/* Keep dividers visible on white */
+:is(html[data-theme="light"], body[data-theme="light"]) .section-divider {
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,.15), transparent) !important;
+}
+
+/* Ensure form fields are readable in light */
+:is(html[data-theme="light"], body[data-theme="light"]) input,
+:is(html[data-theme="light"], body[data-theme="light"]) select,
+:is(html[data-theme="light"], body[data-theme="light"]) textarea {
+  background: #ffffff !important;
+  color: var(--text-100) !important;
+  border-color: rgba(0,0,0,.18) !important;
+}
+/* =========================================
+   LIGHT THEME — site-wide polish (drop-in)
+   ========================================= */
+
+/* Accept the attribute on <html> or <body> */
+:is(html[data-theme="light"], body[data-theme="light"]) {
+  /* Flip core tokens → your existing CSS re-themes automatically */
+  --brand-950: #ffffff;   /* base page background */
+  --brand-900: #f7fafc;   /* cards / surfaces */
+  --brand-100: #0b1220;   /* inverse text (kept for hover outlines etc.) */
+  --text-100: #0b1220;    /* primary text */
+  --text-300: #334155;    /* secondary text */
+  color-scheme: light;
+}
+
+/* Page base */
+:is(html[data-theme="light"], body[data-theme="light"]) body {
+  background:
+    radial-gradient(1200px 600px at 20% -10%, rgba(63,106,255,.10), transparent 60%),
+    radial-gradient(1000px 600px at 80% 0%,  rgba(34,209,178,.08), transparent 60%),
+    #fff !important;
+  color: var(--text-100) !important;
+}
+
+/* Cards / header / footer / drawers all use bright surface */
+:is(html[data-theme="light"], body[data-theme="light"]) .card,
+:is(html[data-theme="light"], body[data-theme="light"]) .modal .dialog,
+:is(html[data-theme="light"], body[data-theme="light"]) .mobile-menu,
+:is(html[data-theme="light"], body[data-theme="light"]) .header,
+:is(html[data-theme="light"], body[data-theme="light"]) .footer {
+  background: var(--brand-900) !important;
+  color: var(--text-100) !important;
+  border-color: rgba(0,0,0,.08) !important;
+  box-shadow: 0 6px 24px rgba(0,0,0,.08);
+}
+
+/* Keep section backgrounds airy (no flat white) */
+:is(html[data-theme="light"], body[data-theme="light"]) .hero,
+:is(html[data-theme="light"], body[data-theme="light"]) .why-section,
+:is(html[data-theme="light"], body[data-theme="light"]) .movement-section,
+:is(html[data-theme="light"], body[data-theme="light"]) .articles-shell,
+:is(html[data-theme="light"], body[data-theme="light"]) .chat-shell,
+:is(html[data-theme="light"], body[data-theme="light"]) .practice-shell,
+:is(html[data-theme="light"], body[data-theme="light"]) .profile-shell,
+:is(html[data-theme="light"], body[data-theme="light"]) .course-shell {
+  background:
+    radial-gradient(1200px 600px at 18% -12%, rgba(63,106,255,.10), transparent 60%),
+    radial-gradient(1000px 520px at 84% 0%,  rgba(34,209,178,.08), transparent 60%),
+    linear-gradient(180deg, #ffffff 0%, #f7fafc 100%) !important;
+}
+
+/* ====== Orbs & rings stay visible on light ====== */
+:is(html[data-theme="light"], body[data-theme="light"]) .hero-bg img { opacity: .05 !important; }
+:is(html[data-theme="light"], body[data-theme="light"]) .orb {
+  opacity: .20 !important;
+  filter: blur(70px) saturate(115%);
+  mix-blend-mode: multiply;     /* key: makes color sit into white nicely */
+}
+:is(html[data-theme="light"], body[data-theme="light"]) .ring { opacity: .10 !important; }
+
+/* ====== Buttons: guaranteed contrast ====== */
+:is(html[data-theme="light"], body[data-theme="light"]) .btn-primary {
+  /* keep the brand gradient but ensure dark text for contrast */
+  color: #0b1220 !important;
+  text-shadow: none !important;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.06), 0 8px 20px rgba(16, 24, 40, .12);
+}
+:is(html[data-theme="light"], body[data-theme="light"]) .btn-ghost,
+:is(html[data-theme="light"], body[data-theme="light"]) .glow-btn {
+  border-color: #2563eb !important;          /* strong blue outline */
+  color: #0f172a !important;                  /* dark ink */
+  background: #ffffff !important;             /* no low-contrast translucency */
+  box-shadow: 0 0 0 1px rgba(0,0,0,.06);
+}
+:is(html[data-theme="light"], body[data-theme="light"]) .glow-cta-btn {
+  color: #0b1220 !important;                  /* readable over teal/blue gradient */
+  box-shadow: 0 6px 22px rgba(16,24,40,.12);
+}
+
+/* Chips / ticker / flip cards on light */
+:is(html[data-theme="light"], body[data-theme="light"]) .chip { background: #eef2f7 !important; color: #1f2937 !important; }
+:is(html[data-theme="light"], body[data-theme="light"]) .fact-ticker,
+:is(html[data-theme="light"], body[data-theme="light"]) .flip-inner {
+  background: #ffffff !important;
+  border-color: rgba(0,0,0,.08) !important;
+}
+
+/* Dividers remain visible on white */
+:is(html[data-theme="light"], body[data-theme="light"]) .section-divider {
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,.15), transparent) !important;
+}
+
+/* Forms readable in light */
+:is(html[data-theme="light"], body[data-theme="light"]) input,
+:is(html[data-theme="light"], body[data-theme="light"]) select,
+:is(html[data-theme="light"], body[data-theme="light"]) textarea {
+  background: #ffffff !important;
+  color: #0b1220 !important;
+  border-color: rgba(0,0,0,.18) !important;
+}
+
+/* Header waffle and links keep contrast */
+:is(html[data-theme="light"], body[data-theme="light"]) .header .nav-toggle { color: #0b1220 !important; border-color: rgba(0,0,0,.12) !important; background: rgba(0,0,0,.04) !important; }
+:is(html[data-theme="light"], body[data-theme="light"]) .header a { color: #0b1220 !important; }
+
+/* Footer links legible */
+:is(html[data-theme="light"], body[data-theme="light"]) .footer { background: #f7fafc !important; color: #1f2937 !important; }
+:is(html[data-theme="light"], body[data-theme="light"]) .footer-links a { color: #1f3a8a !important; }
+/* ================================
+   FLASHCARDS — centered modes + own progress section
+   ================================= */
+
+/* Make the controls stack and center nicely */
+.flashcards-shell .fc-controls.card{
+  max-width: 760px;
+  margin: 0 auto;                       /* centered */
+  background:
+    radial-gradient(900px 500px at 20% -10%, rgba(110,168,255,.08), transparent 60%),
+    radial-gradient(700px 420px at 120% 0%, rgba(48,227,202,.08), transparent 60%),
+    rgba(17,26,46,.66);
+  border: 1px solid rgba(255,255,255,.10);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 12px 36px rgba(0,0,0,.35);
+}
+
+/* One neat column for the internal controls */
+.flashcards-shell .fc-grid{
+  grid-template-columns: 1fr !important;
+  gap: .9rem;
+}
+
+/* Mode row as a centered pill group */
+.flashcards-shell .mode-row{
+  justify-content: center;
+  gap: .6rem;
+}
+.flashcards-shell .mode-chip{
+  border-radius: 999px;
+  padding: .55rem .85rem;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.05);
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.flashcards-shell .mode-chip:hover{ transform: translateY(-1px); }
+.flashcards-shell .mode-chip input{ accent-color: var(--primary-600); }
+
+/* Keep the action buttons centered under modes */
+.flashcards-shell .fc-actions{
+  justify-content: center;
+}
+
+/* ------- PROGRESS: its own section right under controls ------- */
+.progress-section{
+  max-width: 920px;
+  margin: 12px auto 0;
+  padding: 1.1rem 1.25rem 1.2rem;
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(900px 500px at 20% -10%, rgba(110,168,255,.06), transparent 60%),
+    radial-gradient(700px 420px at 120% 0%, rgba(48,227,202,.06), transparent 60%),
+    rgba(17,26,46,.62);
+  border: 1px solid rgba(255,255,255,.10);
+  box-shadow: 0 12px 36px rgba(0,0,0,.32);
+  backdrop-filter: blur(8px);
+}
+.progress-section .ps-head{
+  display:flex; align-items:center; justify-content:space-between; gap:.75rem; flex-wrap:wrap;
+  margin-bottom: .65rem;
+}
+.progress-section .ps-title{
+  margin:0; font-family: var(--font-head); font-weight:700;
+  font-size: clamp(1.05rem, .8vw + 1rem, 1.35rem);
+}
+.progress-section .ps-sub{
+  color: var(--text-300); font-size:.95rem;
+}
+
+/* Beefier bar */
+.progress-section .bar{
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.08);
+  overflow: hidden;
+}
+.progress-section .fill{
+  display:block; height:100%; width: var(--p, 0%);
+  background: var(--grad-primary);
+  background-size: 200%;
+  animation: shimmer 4s linear infinite;
+}
+
+/* Stat chips under the bar */
+.progress-section .stats{
+  margin-top: .65rem;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(100px, 1fr));
+  gap: .5rem;
+}
+@media (max-width:720px){
+  .progress-section .stats{ grid-template-columns: repeat(3,1fr); }
+}
+@media (max-width:460px){
+  .progress-section .stats{ grid-template-columns: repeat(2,1fr); }
+}
+.progress-section .stats li{
+  text-align:center;
+  padding:.5rem .4rem;
+  border-radius:12px;
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.08);
+}
+.progress-section .stats strong{ display:block; font-family: var(--font-head); color: var(--text-100); }
+.progress-section .stats span{ color: var(--text-300); font-size:.85rem; }
+
+/* ------- Flashcard stage keeps breathing room below ------- */
+.flashcards-shell .fc-stage.card{
+  max-width: 920px;
+  margin: 12px auto 0;
+}
+
+/* Tiny niceties */
+.flashcards-shell .btn-primary{ box-shadow: 0 0 12px rgba(63,106,255,.18); }
+.flashcards-shell .btn-primary:hover{ transform: translateY(-1px); box-shadow: 0 0 18px rgba(63,106,255,.28); }
+/* ============================
+   FLASHCARDS — APPENDED RULES
+   ============================ */
+
+/* Always-visible progress: right side, sticky on desktop; full-width on mobile */
+.fc-progress-sticky {
+  position: sticky;
+  top: calc(var(--header-h, 64px) + 16px);
+  margin-bottom: 24px;
+  z-index: 1;
+}
+@media (min-width: 980px) {
+  .fc-progress-sticky {
+    float: right;
+    width: min(320px, 32vw);
+    margin-left: 24px;
+  }
+}
+.fc-progress-sticky .session-actions {
+  display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap;
+}
+
+/* One-at-a-time wizard screens */
+.fc-wizard {
+  overflow: hidden;
+  min-height: 420px;
+  display: block;
+  padding: clamp(20px, 3vw, 32px);
+  margin-right: 0; /* makes room for sticky progress on desktop via float */
+}
+.fc-wizard .wizard-screen[hidden] { display: none !important; }
+.wizard-inner {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+.wizard-title {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: clamp(24px, 3vw, 36px);
+  margin-bottom: 16px;
+}
+.wizard-body { margin: 8px auto 20px; }
+.wizard-nav { display: flex; gap: 12px; justify-content: center; margin-top: 8px; }
+.fc-actions.center { justify-content: center; }
+
+/* Screen enter “flip/slide” */
+.wizard-screen.screen-enter {
+  animation: screenIn 360ms cubic-bezier(.2,.8,.2,1);
+}
+@keyframes screenIn {
+  0% { opacity: 0; transform: translateY(12px) rotateX(-5deg); transform-origin: 50% 0; }
+  100% { opacity: 1; transform: translateY(0) rotateX(0deg); }
+}
+/* Wizard out (when starting session) */
+.wizard-out { animation: wizardOut 280ms ease forwards; }
+@keyframes wizardOut {
+  to { opacity: 0; transform: translateY(-12px) scale(.98); }
+}
+
+/* Stage entrance */
+.stage-in { animation: stageIn 320ms ease; }
+@keyframes stageIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Unit chips bigger for the single-screen look */
+.unit-list {
+  display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;
+}
+.unit-chip {
+  font-size: 15px;
+  padding: 10px 14px;
+}
+.unit-chip.is-active { outline: 2px solid var(--brand, #4f46e5); }
+
+/* Card 3D flip animation */
+.fc-card {
+  perspective: 1200px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.fc-card .side {
+  backface-visibility: hidden;
+  transition: transform 420ms cubic-bezier(.2,.8,.2,1);
+}
+.fc-card .side:not(.is-front) { transform: rotateY(180deg); }
+.fc-card.flip-anim .side.is-front { transform: rotateY(180deg); }
+.fc-card.flip-anim .side:not(.is-front) { transform: rotateY(0deg); }
+
+/* Spacing after a flip before moving on */
+#fc-stage.was-flipped #answer-area { margin-top: 18px; }
+#fc-stage.was-flipped .fc-nav { margin-top: 10px; }
+
+/* Big centered FLIP button look already exists; add subtle hover */
+.btn-flip-big { transform: translateZ(0); transition: transform 180ms ease; }
+.btn-flip-big:hover { transform: translateY(-1px); }
+
+/* Summary screen */
+.session-summary {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  padding: clamp(24px, 3vw, 36px);
+}
+.session-summary.screen-enter { animation: screenIn 360ms cubic-bezier(.2,.8,.2,1); }
+.summary-grid {
+  display: grid; grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 16px; margin: 12px 0 4px;
+}
+.summary-grid .k { display:block; color: var(--muted, #6b7280); font-size: 12px; }
+.summary-grid strong { font-size: 28px; }
+.summary-section { text-align: left; margin-top: 16px; }
+.summary-section h3 { margin-bottom: 8px; text-align: center; }
+.review-list { display: grid; gap: 6px; list-style: none; padding: 0; }
+.review-list li { padding: 10px 12px; border: 1px solid rgba(0,0,0,.06); border-radius: 10px; }
+
+/* End-chip position inside sticky progress */
+.fc-progress-sticky .end-chip {
+  margin-top: 8px;
+  background: #10b98112;
+  border: 1px solid #10b98155;
+  color: #047857;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 12px;
+  display: inline-flex; align-items: center; gap: 6px;
+}
+.fc-progress-sticky .end-chip .dot {
+  width: 6px; height: 6px; border-radius: 50%; background: #10b981;
+}
+
+/* Button state after end */
+.btn-ended { opacity: .8; cursor: default; }
+
+/* Subtle “ending” pulse on stage for feedback */
+#fc-stage.ending { animation: endPulse 420ms ease; }
+@keyframes endPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(.995); filter: saturate(1.06); }
+  100% { transform: scale(1); }
+}
+
+/* Keep layouts tidy when sticky progress floats right */
+@media (min-width: 980px) {
+  .fc-wizard, .fc-stage, .session-summary { margin-right: calc(min(320px, 32vw) + 24px); }
+}
+/* ===========================
+   FLASHCARDS WIZARD ENHANCEMENTS
+   =========================== */
+
+/* One big centered console per step */
+.fc-controls.is-wizard {
+  position: relative;
+  border: none;
+  background: radial-gradient(1200px 600px at 50% -10%, rgba(99,102,241,0.12), rgba(14,165,233,0.10) 40%, transparent 70%)
+              , linear-gradient(180deg, rgba(255,255,255,0.65), rgba(255,255,255,0.35));
+  backdrop-filter: blur(8px);
+  box-shadow: 0 20px 50px rgba(2,8,23,0.15);
+  border-radius: 24px;
+  padding: clamp(24px, 5vw, 48px);
+  max-width: min(980px, 92vw);
+  margin: 28px auto 48px;
+  transform-style: preserve-3d;
+  transition: transform 420ms ease, opacity 420ms ease;
+}
+
+.fc-controls.is-hidden { display: none; }
+
+.fc-controls.is-wizard .fc-grid {
+  display: grid;
+}
+
+.fc-controls.is-wizard .fc-block,
+.fc-controls.is-wizard .fc-progress {
+  display: none;
+}
+
+/* Step visibility */
+.fc-controls.is-wizard[data-step="1"] #block-units { display: block; }
+.fc-controls.is-wizard[data-step="2"] #block-mode { display: block; }
+.fc-controls.is-wizard[data-step="3"] #block-start { display: grid; place-items: center; }
+
+/* Hide progress while in the setup wizard; it will show during session */
+.fc-controls.is-wizard #block-progress { display: none !important; }
+
+/* Full-height feel per step */
+#block-units, #block-mode, #block-start {
+  min-height: min(64vh, 720px);
+  display: grid;
+  align-content: center;
+  gap: 24px;
+}
+
+/* Bigger, tappable chips */
+.unit-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+.unit-chip {
+  font-size: clamp(14px, 1.55vw, 18px);
+  padding: 12px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(2,8,23,0.10);
+  background: white;
+  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+.unit-chip:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(2,8,23,0.08); }
+.unit-chip.is-active {
+  background: linear-gradient(135deg, #6366f1, #06b6d4);
+  color: white;
+  border-color: transparent;
+}
+
+/* Mode chips larger */
+.mode-row {
+  display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
+}
+.mode-chip {
+  cursor: pointer;
+  user-select: none;
+  border-radius: 999px;
+  border: 1px solid rgba(2,8,23,0.1);
+  padding: 10px 14px;
+  background: white;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+.mode-chip input { display: none; }
+.mode-chip span { display: inline-block; }
+.mode-chip:has(input:checked) {
+  background: linear-gradient(135deg, #22c55e, #06b6d4);
+  color: white;
+  border-color: transparent;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(2,8,23,0.12);
+}
+
+/* Wizard buttons */
+.btn-next { margin-left: auto; }
+.start-hero { text-align: center; display: grid; gap: 20px; }
+.btn-giant {
+  font-size: clamp(18px, 2.2vw, 24px);
+  padding: clamp(14px, 2.5vw, 20px) clamp(24px, 4vw, 36px);
+  border-radius: 16px;
+  box-shadow: 0 16px 36px rgba(2,8,23,0.16);
+  transform: translateZ(0);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+.btn-giant:hover { transform: translateY(-2px); box-shadow: 0 24px 48px rgba(2,8,23,0.18); }
+
+/* Flip animation between steps */
+.fc-controls.is-wizard.flip-out { transform: rotateY(16deg) scale(0.98); opacity: 0.7; }
+.fc-controls.is-wizard.flip-in  { transform: rotateY(0deg)  scale(1);    opacity: 1; }
+
+/* Feedback + toasts polish */
+.feedback.ok { color: #16a34a; }
+.feedback.bad { color: #ef4444; }
+.toast {
+  position: relative;
+  margin: 8px auto 0;
+  width: fit-content;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(17,24,39,0.9);
+  color: white;
+  animation: toastIn 180ms ease;
+}
+@keyframes toastIn { from { transform: translateY(6px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
+/* Stage polish */
+.fc-stage .btn-flip-big {
+  font-size: clamp(16px, 1.6vw, 20px);
+  padding: 10px 20px;
+  border-radius: 999px;
+}
+
+/* End session micro-interactions */
+.btn-ended { background: #10b981 !important; color: white !important; }
+.fc-stage.ending { animation: stageBlink 420ms ease; }
+@keyframes stageBlink {
+  0% { filter: brightness(1); } 50% { filter: brightness(1.1); } 100% { filter: brightness(1); }
+}
+
+/* A11y live region helper (hidden) */
+.vh { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+
+/* Lock state styling */
+.mc-area.is-locked { opacity: 0.6; pointer-events: none; }
+
+/* Remove the “little rectangular boxes” feeling on setup */
+.fc-controls.is-wizard .fc-label {
+  text-align: center;
+  font-family: "Space Grotesk", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-weight: 700;
+  font-size: clamp(22px, 2.4vw, 32px);
+}
+.fc-controls.is-wizard .opt-row, 
+.fc-controls.is-wizard .fc-actions {
+  display: flex; gap: 12px; justify-content: center; align-items: center; flex-wrap: wrap;
+}
+
+/* Make the wizard consume vertical space nicely on small screens */
+@media (max-width: 640px) {
+  .fc-controls.is-wizard { padding: 20px; border-radius: 18px; }
+  #block-units, #block-mode, #block-start { min-height: 60vh; }
+}
+/* ===========================
+   FLASHCARDS WIZARD — One screen at a time
+   =========================== */
+
+   .fc-controls.is-wizard {
+    position: relative;
+    border: none;
+    background: radial-gradient(1200px 600px at 50% -10%, rgba(99,102,241,0.12), rgba(14,165,233,0.10) 40%, transparent 70%),
+                linear-gradient(180deg, rgba(255,255,255,0.65), rgba(255,255,255,0.35));
+    backdrop-filter: blur(8px);
+    box-shadow: 0 20px 50px rgba(2,8,23,0.15);
+    border-radius: 24px;
+    padding: clamp(24px, 5vw, 48px);
+    max-width: min(980px, 92vw);
+    margin: 28px auto 48px;
+    transform-style: preserve-3d;
+    transition: transform 420ms ease, opacity 420ms ease;
+  }
+  
+  .fc-controls.is-hidden { display: none; }
+  
+  /* Grid stays simple; each step block is shown/hidden by step */
+  .fc-controls.is-wizard .fc-grid { display: grid; }
+  
+  /* Hide everything by default inside wizard container */
+  .fc-controls.is-wizard .fc-block,
+  .fc-controls.is-wizard .fc-progress { display: none; }
+  
+  /* Show only the active step's block */
+  .fc-controls.is-wizard[data-step="1"] #block-units { display: block; }
+  .fc-controls.is-wizard[data-step="2"] #block-mode { display: block; }
+  .fc-controls.is-wizard[data-step="3"] #block-start { display: grid; place-items: center; }
+  
+  /* Hide progress area during the setup steps */
+  .fc-controls.is-wizard #block-progress { display: none !important; }
+  
+  /* Also hide the small start button during wizard; we use the big one in step 3 */
+  .fc-controls.is-wizard #start-btn { display: none !important; }
+  
+  /* Make each block feel like a single centered console */
+  #block-units, #block-mode, #block-start {
+    min-height: min(64vh, 720px);
+    display: grid;
+    align-content: center;
+    gap: 24px;
+  }
+  
+  /* Larger chips & better tap targets */
+  .unit-list {
+    display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;
+  }
+  .unit-chip {
+    font-size: clamp(14px, 1.55vw, 18px);
+    padding: 12px 16px;
+    border-radius: 999px;
+    border: 1px solid rgba(2,8,23,0.10);
+    background: white;
+    transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+  }
+  .unit-chip:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(2,8,23,0.08); }
+  .unit-chip.is-active {
+    background: linear-gradient(135deg, #6366f1, #06b6d4);
+    color: white;
+    border-color: transparent;
+  }
+  
+  .mode-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .mode-chip { cursor: pointer; user-select: none; border-radius: 999px; border: 1px solid rgba(2,8,23,0.1); padding: 10px 14px; background: white; transition: transform 180ms ease, box-shadow 180ms ease; }
+  .mode-chip input { display: none; }
+  .mode-chip:has(input:checked) {
+    background: linear-gradient(135deg, #22c55e, #06b6d4);
+    color: white; border-color: transparent; transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(2,8,23,0.12);
+  }
+  
+  .fc-controls.is-wizard .fc-label {
+    text-align: center;
+    font-family: "Space Grotesk", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    font-weight: 700;
+    font-size: clamp(22px, 2.4vw, 32px);
+  }
+  .fc-controls.is-wizard .opt-row, 
+  .fc-controls.is-wizard .fc-actions {
+    display: flex; gap: 12px; justify-content: center; align-items: center; flex-wrap: wrap;
+  }
+  
+  .btn-giant {
+    font-size: clamp(18px, 2.2vw, 24px);
+    padding: clamp(14px, 2.5vw, 20px) clamp(24px, 4vw, 36px);
+    border-radius: 16px;
+    box-shadow: 0 16px 36px rgba(2,8,23,0.16);
+    transform: translateZ(0);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+  .btn-giant:hover { transform: translateY(-2px); box-shadow: 0 24px 48px rgba(2,8,23,0.18); }
+  
+  /* Step flip animation */
+  .fc-controls.is-wizard.flip-out { transform: rotateY(16deg) scale(0.98); opacity: 0.7; }
+  .fc-controls.is-wizard.flip-in  { transform: rotateY(0deg)  scale(1);    opacity: 1; }
+  
+  /* Subtle polish */
+  .feedback.ok { color: #16a34a; }
+  .feedback.bad { color: #ef4444; }
+  .toast {
+    position: relative;
+    margin: 8px auto 0;
+    width: fit-content;
+    padding: 10px 14px;
+    border-radius: 999px;
+    background: rgba(17,24,39,0.9);
+    color: white;
+    animation: toastIn 180ms ease;
+  }
+  @keyframes toastIn { from { transform: translateY(6px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+  
+  .vh { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+  
+  /* Lock visual */
+  .mc-area.is-locked { opacity: 0.6; pointer-events: none; }
+  
+  /* Stage polish */
+  .fc-stage .btn-flip-big {
+    font-size: clamp(16px, 1.6vw, 20px);
+    padding: 10px 20px;
+    border-radius: 999px;
+  }
+  
+  .btn-ended { background: #10b981 !important; color: white !important; }
+  .fc-stage.ending { animation: stageBlink 420ms ease; }
+  @keyframes stageBlink {
+    0% { filter: brightness(1); } 50% { filter: brightness(1.1); } 100% { filter: brightness(1); }
+  }
+  
+  /* Mobile tweaks */
+  @media (max-width: 640px) {
+    .fc-controls.is-wizard { padding: 20px; border-radius: 18px; }
+    #block-units, #block-mode, #block-start { min-height: 60vh; }
+  }
+/* Hard-hide non-active wizard blocks */
+.fc-controls.is-wizard .fc-grid { position: relative; }
+.fc-controls.is-wizard .fc-block[hidden] { display: none !important; }
+
+/* Keep the wizard card in one place (steady height) */
+.fc-controls.is-wizard {
+  min-height: min(64vh, 720px);
+}
+
+/* Flip animation polish (same container, no page scroll) */
+.fc-controls.is-wizard.flip-out { transform: rotateY(16deg) scale(0.98); opacity: 0.7; transition: transform 220ms ease, opacity 220ms ease; }
+.fc-controls.is-wizard.flip-in  { transform: rotateY(0deg)  scale(1);    opacity: 1;   transition: transform 420ms ease, opacity 420ms ease; }
+
+/* Hide small Start button in wizard; we use the big one */
+.fc-controls.is-wizard #start-btn { display: none !important; }
+  /* Unit chips: brand gray instead of white */
+.unit-list .unit-chip {
+  background: #2e3239;           /* medium gray */
+  color: #e9edf1;
+  border: 1px solid #3a4048;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.03);
+  transition: transform .12s ease, filter .12s ease, background .12s ease;
+}
+.unit-list .unit-chip:hover {
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+}
+.unit-list .unit-chip.is-active {
+  background: #3a3f48;           /* slightly lighter when active */
+  border-color: #5b6470;
+  box-shadow: 0 0 0 2px rgba(88,166,255,.22); /* subtle focus ring */
+}
+
+/* Put the new quiz actions on the right of the top bar */
+.fc-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.stage-actions {
+  display: flex;
+  gap: .5rem;
+}
+/* Center the Mode step actions (do not affect other steps) */
+#block-mode .fc-actions {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#block-mode .fc-actions .btn-next {
+  margin: 0 auto;
+}
+/* --- Flashcard flip animation (non-invasive) --- */
+.fc-card {
+  position: relative;
+  perspective: 1000px;
+  border-radius: 16px;
+  box-shadow: 0 10px 28px rgba(0,0,0,.08);
+  overflow: hidden; /* keeps edges crisp while flipping */
+  min-height: 220px; /* prevents layout jump during flip */
+}
+
+.fc-card .side {
+  position: absolute;
+  inset: 0;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  background: var(--card-bg, #fff);
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: transform .5s ease, opacity .5s ease, filter .5s ease;
+}
+
+/* front is visible, back is rotated */
+.fc-card .side.is-front {
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+.fc-card .side:not(.is-front) {
+  transform: rotateY(180deg);
+  opacity: 0;
+  filter: blur(0.2px);
+}
+
+/* Slight “lift” when flipping for extra polish (optional, subtle) */
+.btn-flip-big:active ~ .fc-bottom,
+.btn-flip-big:active {
+  transform: translateZ(0); /* no-op, just ensures GPU path */
+}
+
+/* --- Session Summary modal aesthetics --- */
+.summary-dialog {
+  max-width: 560px;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: .75rem;
+}
+
+.summary-item {
+  background: color-mix(in oklab, Canvas, var(--brand, #5a6fff) 6%);
+  border: 1px solid color-mix(in oklab, #000, transparent 92%);
+  border-radius: 12px;
+  padding: .9rem 1rem;
+}
+.summary-item span {
+  display: block;
+  font-size: .85rem;
+  color: var(--muted-fg, #6b7280);
+  margin-bottom: .25rem;
+}
+.summary-item strong {
+  font-size: 1.15rem;
+}
+
+.summary-units {
+  margin-top: 1rem;
+}
+.summary-units::before {
+  content: "Units practiced";
+  display: block;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+.summary-units .chip {
+  display: inline-block;
+  border: 1px solid color-mix(in oklab, #000, transparent 90%);
+  padding: .35rem .6rem;
+  border-radius: 9999px;
+  margin: 2px 6px 2px 0;
+  background: color-mix(in oklab, Canvas, var(--brand, #5a6fff) 5%);
+  font-size: .9rem;
+}
+/* === Flashcards tweaks (requested) ========================= */
+
+/* 1) Progress block: shorter & compact so it fits on screen */
+.fc-progress {
+  padding: 12px 16px;
+}
+
+.fc-progress .fc-label { 
+  margin-bottom: 6px;
+}
+
+.fc-progress .bar {
+  height: 8px;               /* shorter bar */
+  margin: 6px 0 8px;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+#progress-fill.fill {
+  height: 100%;
+  width: var(--p, 0%);
+  transition: width 220ms ease;
+}
+
+/* Compact stats row */
+.fc-progress .stats {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 6px;
+  flex-wrap: wrap;           /* wrap on small screens instead of growing tall */
+}
+.fc-progress .stats li {
+  display: grid;
+  gap: 2px;
+  line-height: 1.1;
+}
+.fc-progress .stats strong {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.fc-progress .stats span {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 640px) {
+  .fc-progress { padding: 10px 12px; }
+  .fc-progress .stats { gap: 10px; }
+  .fc-progress .stats strong { font-size: 0.9rem; }
+  .fc-progress .stats span { font-size: 0.72rem; }
+}
+
+/* 2) Navigation: give bigger breathing room around Flip */
+.fc-stage .fc-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* widen the spacer elements flanking the Flip button */
+.fc-stage .fc-nav .gap {
+  width: clamp(40px, 8vw, 120px);
+}
+
+@media (max-width: 640px) {
+  .fc-stage .fc-nav .gap {
+    width: clamp(24px, 6vw, 64px);
+  }
+}
+/* Back-to-Top: bottom-left & bigger, more obvious */
+/* ===== Wizard (single-screen flow, centered) ===== */
+.wizard {
+  position: relative;
+  display: grid;
+  place-items: center;
+  padding: 1.25rem;
+  min-height: 360px;
+}
+
+.wizard-panel {
+  width: min(880px, 100%);
+  background: var(--surface-2, rgba(15, 18, 33, 0.7));
+  backdrop-filter: saturate(130%) blur(2px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  padding: clamp(1rem, 2vw, 1.5rem);
+  box-shadow: 0 12px 35px rgba(0,0,0,.25);
+  transform-origin: center top;
+}
+
+.wizard-panel[hidden] { display: none; }
+.wizard-panel {
+  /* keep your existing styles */
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  will-change: transform, opacity;
+}
+
+.wizard .wizard-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 1rem;
+  align-items: end;
+}
+
+@media (max-width: 720px) {
+  .wizard .wizard-fields { grid-template-columns: 1fr; }
+}
+
+.wizard-actions {
+  display: flex;
+  gap: .75rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.center { text-align: center; }
+
+.is-hidden { display: none !important; }
+
+/* Flip / slide animations */
+@keyframes flipIn {
+  0% { opacity: 0; transform: perspective(900px) rotateX(-8deg) translateY(10px) scale(.98); }
+  100% { opacity: 1; transform: perspective(900px) rotateX(0) translateY(0) scale(1); }
+}
+.flip-in { animation: flipIn .6s cubic-bezier(.2,.8,.2,1) both; }
+
+@keyframes slideOut {
+  from { opacity: 1; transform: translateY(0); }
+  to   { opacity: 0; transform: translateY(-8px); }
+}
+.slide-out { animation: slideOut .25s ease-out both; }
+
+/* Topic chips refine for the centered panel */
+#topics-scroller {
+  max-height: 320px;
+  overflow: auto;
+  margin-top: .5rem;
+  padding-right: .25rem;
+}
+.topics-actions.center { margin-top: .75rem; }
+
+/* Make the selection panel feel "one big box" */
+.practice-controls {
+  overflow: visible;
+}
+@keyframes flipIn {
+  0%   { opacity: 0; transform: translateY(10px) scale(0.985); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+.flip-in { animation: flipIn .4s cubic-bezier(.2,.8,.2,1) both; }
+
+/* You can keep slide-out if you like, but it's no longer needed with the instant hide.
+   Leaving it here doesn't hurt anything: */
+@keyframes slideOut {
+  from { opacity: 1; transform: translateY(0); }
+  to   { opacity: 0; transform: translateY(-8px); }
+}
+.slide-out { animation: slideOut .25s ease-out both; }
+/* ===== Wizard polish: no 3D backface flicker ===== */
+.wizard-panel {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  will-change: transform, opacity;
+}
+
+@keyframes flipIn {
+  0%   { opacity: 0; transform: translateY(10px) scale(0.985); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+.flip-in { animation: flipIn .4s cubic-bezier(.2,.8,.2,1) both; }
+
+/* ===== Session Summary box styling ===== */
+.session-stats .stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-top: .5rem;
+}
+.session-stat {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+}
+.session-stat.wide {
+  grid-column: 1 / -1;
+}
+.session-stat .k {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.session-stat .l {
+  font-size: .8rem;
+  opacity: .8;
+  margin-top: 4px;
+}
+/* ===== Cross-out (eliminate) styling for answers ===== */
+.mc-option.is-eliminated {
+  text-decoration: line-through;
+  opacity: .55;
+  filter: grayscale(25%);
+}
+
+/* Just in case a selected button still has the class (we remove it in JS) */
+.mc-option.is-selected.is-eliminated {
+  text-decoration: none;
+  opacity: 1;
+  filter: none;
+}

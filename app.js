@@ -599,3 +599,55 @@ if (toggle && drawer) {
     });
   }
 })();
+/* ===== Theme toggle (persisted) ===== */
+/* ===== Theme toggle (robust + persisted) ===== */
+(() => {
+  const STORAGE_KEY = 'fynoptic-theme';
+  const btn = document.getElementById('theme-btn');
+  const roots = [document.documentElement, document.body]; // set on both, to be safe
+
+  // preferred theme
+  const stored = localStorage.getItem(STORAGE_KEY);
+  const prefersLight = window.matchMedia?.('(prefers-color-scheme: light)').matches;
+  const initial = stored || (prefersLight ? 'light' : 'dark');
+
+  const applyTheme = (mode) => {
+    roots.forEach(r => r.setAttribute('data-theme', mode));
+    if (btn) {
+      btn.textContent = mode === 'light' ? 'Dark' : 'Light';
+      btn.setAttribute('aria-pressed', String(mode === 'light'));
+      btn.title = `Toggle to ${mode === 'light' ? 'dark' : 'light'} mode`;
+    }
+  };
+
+  applyTheme(initial);
+
+  btn?.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+    const next = current === 'light' ? 'dark' : 'light';
+    applyTheme(next);
+    localStorage.setItem(STORAGE_KEY, next);
+  });
+})();
+
+
+/* ===== Flip / reveal buttons ===== */
+(() => {
+  const flips = document.querySelectorAll('.flip');
+  flips.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const pressed = btn.classList.toggle('is-flipped');
+      btn.setAttribute('aria-pressed', String(pressed));
+    });
+  });
+})();
+
+/* ===== Pause ticker on hover (optional) ===== */
+(() => {
+  const track = document.getElementById('fact-track');
+  if (!track) return;
+  const pause = () => track.style.animationPlayState = 'paused';
+  const play  = () => track.style.animationPlayState = 'running';
+  track.addEventListener('mouseenter', pause);
+  track.addEventListener('mouseleave', play);
+})();
