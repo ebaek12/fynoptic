@@ -2,8 +2,7 @@
 <html lang="en" class="no-js">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
   <meta name="description" content="Fynoptic helps people identify and avoid junk fees, dark patterns, and subscription traps—before they cost you money." />
   <meta name="theme-color" content="#0B1220" />
   <meta property="og:title" content="Fynoptic" />
@@ -12,12 +11,24 @@
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="canonical" href="/" />
   <link rel="icon" href="favicon-96x96.png" type="image/svg+xml" />
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="styles.css" />
   <title>Take your first step towards financial freedom.</title>
 </head>
 <body data-theme="dark">
+  <!-- Site-wide background canvas (one per page) -->
+<div class="site-bg" aria-hidden="true">
+  <div class="noise"></div>
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+  <div class="orb orb-c"></div>
+</div>
+
   <!-- Header -->
   <header class="header" role="banner">
     <nav class="nav container" role="navigation" aria-label="Main navigation">
@@ -26,13 +37,7 @@
         <span class="logo-text">Fynoptic</span>
       </a>
 
-      <!-- inside <nav class="nav container"> -->
-      <button id="nav-toggle"
-        class="nav-toggle"
-        aria-label="Open menu"
-        aria-controls="mobile-menu"
-        aria-expanded="false">
-        <!-- 9-dot “waffle” -->
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
         <span aria-hidden="true" class="dot"></span><span class="dot"></span><span class="dot"></span>
         <span class="dot"></span><span class="dot"></span><span class="dot"></span>
         <span class="dot"></span><span class="dot"></span><span class="dot"></span>
@@ -43,10 +48,10 @@
         <li><a href="articles.html">Articles</a></li>
         <li><a href="flashcard.html">Flashcards</a></li>
         <li><a href="practice.html">Practice</a></li>
+        <li><a href="about.html">About</a></li>
       </ul>
 
       <div class="nav-actions">
-        <!-- Theme toggle for light–dark contrast -->
         <a href="courses.html" class="btn btn-primary cta-desktop" data-track="cta_click">Start the free course</a>
         <button id="user-btn" class="user-icon" aria-label="User menu" data-modal-open="login-modal">
           <img id="nav-avatar" alt="" hidden />
@@ -54,178 +59,156 @@
         </button>
       </div>
     </nav>
-
-    <div id="mobile-menu" class="mobile-menu" hidden>
-      <button class="menu-close" aria-label="Close menu">&times;</button>
-      <ul>
-        <li><a href="courses.html">Course</a></li>
-        <li><a href="articles.html">Articles</a></li>
-        <li><a href="flashcard.html">Flashcards</a></li>
-        <li><a href="practice.html">Practice</a></li>
-        <li><a href="courses.html" class="btn btn-primary" data-track="cta_click">Start the free course</a></li>
-      </ul>
-    </div>
   </header>
 
   <main id="main">
     <!-- HERO -->
     <section class="hero" role="region" aria-labelledby="hero-heading">
-      <div class="container hero-content">
-        <!-- Keep this headline verbatim per request -->
-        <h1 id="hero-heading">Take your first step <br />toward financial freedom.</h1>
 
-        <p class="hero-sub">
-          Practical guidance to spot and avoid digital traps, junk fees, and subscription tactics.
+      <div class="container hero-content">
+        <!-- Headline (unchanged text) -->
+        <h1 id="hero-heading" class="reveal-up">Take your first step<br />toward financial freedom.</h1>
+
+        <!-- New, more practical value prop -->
+        <p class="hero-sub reveal-up delay-1">
+          Fynoptic is the ultimate free learning platform for consumer awareness.
+          Interactive lessons, informative articles, and practice questions.
         </p>
-        <div class="hero-cta">
+
+        <div class="hero-cta reveal-up delay-2">
           <a href="courses.html" class="btn btn-primary" data-track="cta_click">Start the free course</a>
           <a href="practice.html" class="btn btn-ghost">Try Practice mode</a>
         </div>
 
-        <!-- Auto-scrolling facts ticker -->
-        <div class="fact-ticker" role="region" aria-label="Fast facts">
-          <div class="fact-track" id="fact-track">
-            <div class="fact"><strong>38%</strong> of people miss trial cancellations.</div>
-            <div class="fact"><strong>$130</strong> average wasted yearly on unused subscriptions.</div>
-            <div class="fact"><strong>1 in 4</strong> bills includes an unexpected fee.</div>
-            <div class="fact"><strong>3 clicks</strong> is the median to find the cancel path.</div>
-            <!-- duplicate for seamless loop -->
-            <div class="fact"><strong>38%</strong> of people miss trial cancellations.</div>
-            <div class="fact"><strong>$130</strong> average wasted yearly on unused subscriptions.</div>
-            <div class="fact"><strong>1 in 4</strong> bills includes an unexpected fee.</div>
-            <div class="fact"><strong>3 clicks</strong> is the median to find the cancel path.</div>
-          </div>
-        </div>
-      </div>
+        <!-- Coverflow Carousel (5 placeholders) -->
+<!-- Partners marquee -->
+<div class="partners reveal-up delay-3">
+  <div class="partners-head">
+    <span class="partners-kicker">In partnership with</span>
+  </div>
 
-      <!-- Background Elements -->
-      <div class="hero-bg">
-        <img src="/assets/texture-noise.svg" alt="" role="img" aria-hidden="true" />
-        <div class="orb orb1"></div>
-        <div class="orb orb2"></div>
-        <div class="ring ring1"></div>
-        <div class="ring ring2"></div>
-        <svg class="blob blob1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path fill="#3F6AFF" opacity="0.2" d="M47.4,-64.6C61.5,-55.2,72.4,-40.2,75.2,-24.3C77.9,-8.4,72.6,8.4,65.2,24.9C57.8,41.3,48.3,57.5,34.4,65.2C20.6,72.9,2.3,72,-15.4,66.4C-33.1,60.8,-50.2,50.4,-61.5,36.1C-72.9,21.9,-78.4,3.9,-74.2,-11.6C-70,-27.2,-56,-40.2,-41.5,-49.3C-27.1,-58.3,-13.6,-63.5,2,-66.3C17.7,-69,35.4,-69.9,47.4,-64.6Z" transform="translate(100 100)" />
-        </svg>
-        <svg class="blob blob2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path fill="#22D1B2" opacity="0.15" d="M43.3,-62.5C55.8,-52.4,65.4,-37.4,68.7,-21.5C71.9,-5.6,68.7,10.9,61.3,26.6C53.9,42.2,42.2,57,27.4,63.6C12.6,70.2,-5.3,68.6,-19.8,61.4C-34.3,54.2,-45.4,41.4,-53.4,26.4C-61.4,11.4,-66.3,-5.9,-60.3,-19.7C-54.3,-33.5,-37.5,-43.7,-21.7,-52.5C-5.9,-61.3,9.9,-68.7,24.8,-67.2C39.7,-65.7,54.7,-55.1,43.3,-62.5Z" transform="translate(100 100)" />
-        </svg>
-      </div>
+  <div class="logo-ticker" role="region" aria-label="Partner organizations">
+    <div class="logo-track">
+      <!-- Replace these placeholders with your real logo files anytime -->
+      <div class="logo-card"><img src="invesco.png" alt="Invesco" /></div>
+      <div class="logo-card"><img src="npfclogosss.png" alt="National Economic Challenge" /></div>
+      <div class="logo-card"><img src="neclogossss.png" alt="Financial Literacy Coalition" /></div>
+      <div class="logo-card"><img src="emory.png" alt="CFPB Campus" /></div>
+      <div class="logo-card"><img src="kjfbskjf.png" alt="Consumer Reports Edu" /></div>
+
+      <!-- Duplicate once for seamless loop -->
+      <div class="logo-card"><img src="invesco.png" alt="Invesco" /></div>
+      <div class="logo-card"><img src="npfclogosss.png" alt="National Economic Challenge" /></div>
+      <div class="logo-card"><img src="neclogossss.png" alt="Financial Literacy Coalition" /></div>
+      <div class="logo-card"><img src="emory.png" alt="CFPB Campus" /></div>
+      <div class="logo-card"><img src="kjfbskjf.png" alt="Consumer Reports Edu" /></div>
+      <div class="logo-card"><img src="invesco.png" alt="Invesco" /></div>
+      <div class="logo-card"><img src="npfclogosss.png" alt="National Economic Challenge" /></div>
+      <div class="logo-card"><img src="neclogossss.png" alt="Financial Literacy Coalition" /></div>
+      <div class="logo-card"><img src="emory.png" alt="CFPB Campus" /></div>
+      <div class="logo-card"><img src="kjfbskjf.png" alt="Consumer Reports Edu" /></div>
+      <div class="logo-card"><img src="invesco.png" alt="Invesco" /></div>
+      <div class="logo-card"><img src="npfclogosss.png" alt="National Economic Challenge" /></div>
+      <div class="logo-card"><img src="neclogossss.png" alt="Financial Literacy Coalition" /></div>
+      <div class="logo-card"><img src="emory.png" alt="CFPB Campus" /></div>
+      <div class="logo-card"><img src="kjfbskjf.png" alt="Consumer Reports Edu" /></div>
+      <div class="logo-card"><img src="invesco.png" alt="Invesco" /></div>
+      <div class="logo-card"><img src="npfclogosss.png" alt="National Economic Challenge" /></div>
+      <div class="logo-card"><img src="neclogossss.png" alt="Financial Literacy Coalition" /></div>
+      <div class="logo-card"><img src="emory.png" alt="CFPB Campus" /></div>
+      <div class="logo-card"><img src="kjfbskjf.png" alt="Consumer Reports Edu" /></div>
+      <div class="logo-card"><img src="invesco.png" alt="Invesco" /></div>
+      <div class="logo-card"><img src="npfclogosss.png" alt="National Economic Challenge" /></div>
+      <div class="logo-card"><img src="neclogossss.png" alt="Financial Literacy Coalition" /></div>
+      <div class="logo-card"><img src="emory.png" alt="CFPB Campus" /></div>
+      <div class="logo-card"><img src="kjfbskjf.png" alt="Consumer Reports Edu" /></div>
+    </div>
+    <div class="ticker-glow" aria-hidden="true"></div>
+  </div>
+</div>
+
     </section>
-
     <!-- Section divider -->
     <hr class="section-divider" />
+<!-- ——— CENTERED STATEMENT ——— -->
+<!-- ——— CENTERED STATEMENT (non-bold) ——— -->
+<section class="statement" aria-labelledby="statement-title">
+  <div class="container">
+    <p id="statement-title" class="big-statement reveal-prism" data-reveal-words>
+      Knowledge, confidence, and control,
+      empowering you to make smarter financial choices
+      with clarity and purpose.
+    </p>
+  </div>
+</section>
+<!-- ——— WHY USE FYNOPTIC ——— -->
+<section class="why-slab reveal-section" aria-labelledby="why-title">
+  <div class="container">
+    <h2 id="why-title" class="slab-title">Why use Fynoptic?</h2>
 
-    <!-- WHY THIS MATTERS -->
-    <section class="why-section">
-      <div class="why-content">
-        <h2 class="section-title">Why this matters</h2>
-        <p class="lead">
-          Junk fees and design tricks make it easy to overspend. Many people don’t notice until after they’re charged.
-        </p>
-        <p>
-          Fynoptic helps you recognize these tactics early and choose better options.
-        </p>
-
-        <ul class="feature-list">
-          <li><span>✓</span> Practical consumer-protection guidance</li>
-          <li><span>✓</span> Student-powered, community-driven resources</li>
-          <li><span>✓</span> Built for today’s digital economy</li>
-        </ul>
-
-        <a href="courses.html" class="why-btn">Explore the course</a>
-
-        <!-- Flip/reveal extras -->
-        <div class="flip-grid" style="margin-top:1.5rem">
-          <button class="flip" aria-pressed="false">
-            <div class="flip-inner">
-              <div class="flip-face">What is a “drip fee”?</div>
-              <div class="flip-face flip-back">A price add‑on revealed late in checkout.</div>
-            </div>
-          </button>
-          <button class="flip" aria-pressed="false">
-            <div class="flip-inner">
-              <div class="flip-face">What is a “Roach Motel” pattern?</div>
-              <div class="flip-face flip-back">Easy to sign up, difficult to cancel—by design.</div>
-            </div>
-          </button>
-          <button class="flip" aria-pressed="false">
-            <div class="flip-inner">
-              <div class="flip-face">First step with a surprise bill?</div>
-              <div class="flip-face flip-back">Request an itemized statement and dispute unauthorized charges.</div>
-            </div>
-          </button>
+    <div class="slab-grid">
+      <article class="slab-item reveal-card">
+        <div class="disc">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3.5 9-7 10-3.5-1-7-5-7-10V6l7-3Z" stroke="currentColor" stroke-width="1.6"/></svg>
         </div>
-      </div>
-    </section>
+        <h3>Courses</h3>
+        <p>Explore 4 hands on courses designed to help you learn step by step.</p>
+      </article>
 
-    <!-- Section divider -->
-    <hr class="section-divider" />
-
-    <!-- HOW WE HELP -->
-    <section class="how-we-help fade-up">
-      <div class="container">
-        <h2>How we help</h2>
-
-        <div class="grid help-columns">
-          <div class="card">
-            <h3>Course</h3>
-            <p>Learn to recognize and prevent common consumer traps.</p>
-            <a href="courses.html" class="glow-btn">Open course</a>
-          </div>
-          <div class="card">
-            <h3>Articles</h3>
-            <p>Reporting and explainers on fees, tactics, and your options.</p>
-            <a href="articles.html" class="glow-btn">Browse articles</a>
-          </div>
-          <div class="card">
-            <h3>Flashcards</h3>
-            <p>Quick reviews of core concepts and patterns.</p>
-            <a href="flashcard.html" class="glow-btn">Open flashcards</a>
-          </div>
-          <div class="card">
-            <h3>Practice</h3>
-            <p>Short scenarios and multiple‑choice drills to build confidence.</p>
-            <a href="practice.html" class="glow-btn">Start practice</a>
-          </div>
+      <article class="slab-item reveal-card">
+        <div class="disc">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8Z" stroke="currentColor" stroke-width="1.6"/></svg>
         </div>
-      </div>
-    </section>
+        <h3>Articles</h3>
+        <p>Access a library of over 240 insightful articles on different topics.</p>
+      </article>
+
+      <article class="slab-item reveal-card">
+        <div class="disc">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="7" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="2" fill="currentColor"/></svg>
+        </div>
+        <h3>Flashcards</h3>
+        <p>Review and master 3,000+ vocabulary words with easy to use flashcards.</p>
+      </article>
+
+      <article class="slab-item reveal-card">
+        <div class="disc">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 4h10a3 3 0 0 1 3 3v12H8a3 3 0 0 0-3 3V4Z" stroke="currentColor" stroke-width="1.6"/></svg>
+        </div>
+        <h3>Practice</h3>
+        <p>Sharpen your skills with 10,000+ challenging practice questions.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 
     <!-- Section divider -->
     <hr class="section-divider" />
 
     <!-- MOVEMENT CTA -->
-    <section class="movement-section">
-      <div class="movement-content">
-        <h2 class="movement-title">Get involved</h2>
-        <p class="movement-subtitle">
-          Join a growing network of informed, proactive consumers.
-        </p>
+<!-- ——— FINAL CTA ——— -->
+<!-- ——— FINAL CTA (no box) ——— -->
+<section class="final-cta reveal-cta" aria-labelledby="cta-title">
+  <div class="container">
+    <h2 id="cta-title" class="cta-title">
+      Ready to keep more<br><span>of your money?</span>
+    </h2>
 
-        <div class="movement-grid">
-          <div class="movement-card">Start the course</div>
-          <div class="movement-card">Use the Fix‑it Bot</div>
-          <div class="movement-card">Share locally</div>
-        </div>
+    <p class="cta-sub">
+      Join thousands of users who trust Fynoptic for clear, fast, fee-saving decisions.
+    </p>
 
-        <a href="courses.html" class="glow-cta-btn">Get started</a>
+    <a href="courses.html" class="btn btn-cta" data-track="cta_click">
+      Get started now
+      <svg class="cta-arrow" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+        <path d="M7 17l10-10M11 7h6v6" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </div>
+</section>
 
-        <!-- Testimonials -->
-        <div class="movement-quotes">
-          <div class="quote-bubble">“I canceled two trials before renewal and saved $54.”
-            <small>— M. Taylor, Philadelphia</small>
-          </div>
-          <div class="quote-bubble">“The template helped me get a $35 fee waived.”
-            <small>— J. Rivera, Austin</small>
-          </div>
-          <div class="quote-bubble">“We used the newsroom guide for a campus article on junk fees.”
-            <small>— A. Shah & D. Nguyen, Detroit</small>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Other sections continue here: #course, #bot, #articles, etc. -->
   </main>
@@ -304,11 +287,125 @@
   </footer>
 
   <!-- JSON-LD and scripts -->
-  <script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "Organization", "name": "Fynoptic", "url": "https://Fynoptic.org" }
-  </script>
+
   <script type="application/ld+json">
     { "@context": "https://schema.org", "@type": "Course", "name": "Fynoptic Core Modules", "provider": { "@type": "Organization", "name": "Fynoptic" } }
   </script>
+  <script>
+    // --- Entrance reveals ---
+    document.documentElement.classList.add('page-loaded');
+
+    // --- Carousel logic (coverflow style) ---
+    (function(){
+      const root = document.getElementById('hero-carousel');
+      if(!root) return;
+
+      const track = root.querySelector('.track');
+      const slides = Array.from(track.children);
+      const prev = root.querySelector('.prev');
+      const next = root.querySelector('.next');
+      const dotsWrap = root.querySelector('#hero-dots');
+
+      let index = 0;
+      let timer;
+      const AUTOPLAY_MS = 3500;
+
+      // dots
+      slides.forEach((_, i)=>{
+        const b = document.createElement('button');
+        b.className = 'dot';
+        b.setAttribute('aria-label', 'Go to slide ' + (i+1));
+        b.addEventListener('click', ()=>go(i));
+        dotsWrap.appendChild(b);
+      });
+
+      function position(){
+        slides.forEach((el,i)=>{
+          const offset = i - index;
+          el.style.setProperty('--offset', offset);
+          el.setAttribute('aria-hidden', Math.abs(offset)>2 ? 'true' : 'false');
+          el.classList.toggle('is-center', offset===0);
+        });
+        Array.from(dotsWrap.children).forEach((d,i)=>d.classList.toggle('active', i===index));
+      }
+      function go(i){
+        index = (i + slides.length) % slides.length;
+        position(); restart();
+      }
+      function nextSlide(){ go(index+1); }
+      function prevSlide(){ go(index-1); }
+      function restart(){
+        clearInterval(timer);
+        timer = setInterval(nextSlide, AUTOPLAY_MS);
+      }
+
+      // drag / swipe
+      let startX=null;
+      track.addEventListener('pointerdown',e=>{ startX=e.clientX; track.setPointerCapture(e.pointerId); clearInterval(timer); });
+      track.addEventListener('pointerup',e=>{
+        if(startX===null) return;
+        const dx = e.clientX - startX;
+        if(Math.abs(dx)>40) (dx<0?nextSlide:prevSlide)();
+        startX=null; restart();
+      });
+
+      prev.addEventListener('click', prevSlide);
+      next.addEventListener('click', nextSlide);
+
+      position(); restart();
+    })();
+  </script>
+<script>
+  // Split statement into spans with real spaces
+  (function(){
+    const el = document.querySelector('[data-reveal-words]');
+    if(!el) return;
+    const words = el.textContent.trim().split(/\s+/);
+    el.textContent = '';
+    words.forEach((w,i)=>{
+      const span = document.createElement('span');
+      span.textContent = w;
+      span.style.setProperty('--i', i);
+      el.appendChild(span);
+      if (i < words.length - 1) el.appendChild(document.createTextNode(' '));
+    });
+  })();
+
+  // Stagger index for cards
+  document.querySelectorAll('.slab-item').forEach((n,i)=>n.style.setProperty('--i', i));
+
+  // IntersectionObserver: trigger when mostly visible (arrive late)
+  (function(){
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{
+        if(e.isIntersecting){
+          e.target.classList.add('in-view');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.6, rootMargin: '0px 0px -10% 0px' }); // ~60% in view
+
+    document.querySelectorAll('.reveal-prism, .reveal-section, .reveal-card').forEach(n=>io.observe(n));
+    // also mark the whole "why" section for title underline
+    const why = document.querySelector('.why-slab');
+    if (why) io.observe(why);
+  })();
+</script>
+<script>
+  (function(){
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{
+        if(e.isIntersecting){
+          e.target.classList.add('in-view');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.6, rootMargin: '0px 0px -10% 0px' });
+
+    document.querySelectorAll('.reveal-cta').forEach(n=>io.observe(n));
+  })();
+</script>
+
+
 </body>
 </html>

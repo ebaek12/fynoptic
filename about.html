@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <meta name="description" content="About Fynoptic — Meet the founders and our partners." />
+  <meta name="theme-color" content="#0B1220" />
+  <meta property="og:title" content="About • Fynoptic" />
+  <meta property="og:description" content="Meet the founders and our partners." />
+  <meta property="og:image" content="/assets/logo-Fynoptic.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="/about.html" />
+  <link rel="icon" href="favicon-96x96.png" type="image/svg+xml" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Your global theme -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Page-specific styles -->
+  <link rel="stylesheet" href="about.css" />
+
+  <title>About • Fynoptic</title>
+</head>
+<body data-theme="dark">
+  <!-- Site-wide background canvas (one per page) -->
+  <div class="site-bg" aria-hidden="true">
+    <div class="noise"></div>
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="orb orb-c"></div>
+  </div>
+
+  <!-- Header (copied structure) -->
+  <header class="header" role="banner">
+    <nav class="nav container" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="logo" aria-label="Fynoptic Home">
+        <img src="fynopticlogo.png" alt="Fynoptic logo" />
+        <span class="logo-text">Fynoptic</span>
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <span aria-hidden="true" class="dot"></span><span class="dot"></span><span class="dot"></span>
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      </button>
+
+      <ul class="nav-links" id="desktop-nav">
+        <li><a href="courses.html">Course</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="flashcard.html">Flashcards</a></li>
+        <li><a href="practice.html">Practice</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="courses.html" class="btn btn-primary cta-desktop" data-track="cta_click">Start the free course</a>
+        <button id="user-btn" class="user-icon" aria-label="User menu" data-modal-open="login-modal">
+          <img id="nav-avatar" alt="" hidden />
+          <span id="nav-initials" aria-hidden="true">?</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- —— MEET THE FOUNDERS —— -->
+<!-- —— MEET THE FOUNDERS —— -->
+<section class="founders-slab" role="region" aria-labelledby="founders-title">
+    <div class="container">
+      <h1 id="founders-title" class="slab-title">Meet the founders</h1>
+  
+      <div class="founders-grid">
+        <!-- Card 1 -->
+        <article class="founder-card" tabindex="0">
+            <div class="portrait" aria-hidden="true">
+              <img src="Screenshot 2025-11-15 at 10.53.13 AM.png" alt="" />
+              <span class="shine" aria-hidden="true"></span>
+              <span class="ring" aria-hidden="true"></span>
+            </div>
+          
+            <!-- name + role BELOW the box -->
+            <div class="founder-meta">
+              <h3 class="founder-name">Arhan Barve</h3>
+              <p class="founder-title">Co-founder &amp; President</p>
+            </div>
+          </article>
+  
+        <!-- Card 2 -->
+        <article class="founder-card" tabindex="0">
+            <div class="portrait" aria-hidden="true">
+              <img src="Screenshot 2025-11-15 at 10.52.27 AM.png" alt="" />
+              <span class="shine" aria-hidden="true"></span>
+              <span class="ring" aria-hidden="true"></span>
+            </div>
+          
+            <!-- name + role BELOW the box -->
+            <div class="founder-meta">
+              <h3 class="founder-name">Ethan Baek</h3>
+              <p class="founder-title">Co-founder &amp; Vice President</p>
+            </div>
+          </article>
+          
+          <!-- repeat for card 2 / 3 with your names + roles -->
+          
+  
+        <!-- Card 3 -->
+        <article class="founder-card" tabindex="0">
+            <div class="portrait" aria-hidden="true">
+              <img src="vishwa.png" alt="" />
+              <span class="shine" aria-hidden="true"></span>
+              <span class="ring" aria-hidden="true"></span>
+            </div>
+          
+            <!-- name + role BELOW the box -->
+            <div class="founder-meta">
+              <h3 class="founder-name">Vishwa Rajan</h3>
+              <p class="founder-title">Co-Founder &amp; Head of Outreach</p>
+            </div>
+          </article>
+          
+          <!-- repeat for card 2 / 3 with your names + roles -->
+          
+      </div>
+    </div>
+  </section>
+  
+
+    <!-- —— OUR PARTNERS —— -->
+    <section class="partners-slab" role="region" aria-labelledby="partners-title">
+      <div class="container">
+        <h2 id="partners-title" class="slab-title">Our partners</h2>
+
+        <ul class="partners-grid" role="list" aria-label="Partner logos">
+          <!-- Replace these 5 src values with your real logos -->
+          <li class="partner-cell"><img src="emory.png" alt="Partner 1" /></li>
+          <li class="partner-cell"><img src="invesco.png" alt="Partner 2" /></li>
+          <li class="partner-cell"><img src="kjfbskjf.png" alt="Partner 3" /></li>
+          <li class="partner-cell"><img src="neclogossss.png" alt="Partner 4" /></li>
+          <li class="partner-cell"><img src="npfclogosss.png" alt="Partner 5" /></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modals (copied) -->
+  <div id="fixit-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="fixit-title"></div>
+  <div id="report-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="report-title"></div>
+  <div id="writer-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="writer-title"></div>
+
+  <!-- Login Modal -->
+  <div id="login-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="login-title">
+    <div class="dialog" role="document">
+      <button class="modal-close" data-modal-close aria-label="Close">&times;</button>
+      <h2 id="login-title">Sign in</h2>
+      <form id="login-form">
+        <label for="login-email">Email</label>
+        <input type="email" id="login-email" name="email" required />
+        <label for="login-password">Password</label>
+        <input type="password" id="login-password" name="password" required />
+        <button type="submit" class="btn btn-primary">Sign in</button>
+        <div class="divider">or</div>
+        <button type="button" class="btn btn-ghost" id="google-login">Continue with Google</button>
+      </form>
+      <p class="auth-link">New user? <button data-modal-switch="signup-modal">Create an account</button></p>
+    </div>
+  </div>
+
+  <!-- Sign Up Modal -->
+  <div id="signup-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="signup-title">
+    <div class="dialog" role="document">
+      <button class="modal-close" data-modal-close aria-label="Close">&times;</button>
+      <h2 id="signup-title">Sign up</h2>
+      <form id="signup-form">
+        <label for="signup-email">Email</label>
+        <input type="email" id="signup-email" name="email" required />
+        <label for="signup-password">Password</label>
+        <input type="password" id="signup-password" name="password" required />
+        <label for="signup-confirm">Confirm password</label>
+        <input type="password" id="signup-confirm" name="confirm" required />
+        <button type="submit" class="btn btn-primary">Create account</button>
+        <div class="divider">or</div>
+        <button type="button" class="btn btn-ghost" id="google-signup">Continue with Google</button>
+      </form>
+      <p class="auth-link">Already have an account? <button data-modal-switch="login-modal">Sign in</button></p>
+    </div>
+  </div>
+
+  <!-- Toasts -->
+  <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Footer (copied structure) -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <img src="fynopticlogo.png" alt="Fynoptic logo" class="footer-logo" />
+        <p class="footer-tagline">Helping people identify and avoid junk fees, dark patterns, and subscription traps.</p>
+      </div>
+      <div class="footer-links">
+        <a href="courses.html">Course</a>
+        <a href="articles.html">Articles</a>
+        <a href="flashcard.html">Flashcards</a>
+        <a href="practice.html">Practice</a>
+      </div>
+      <div class="footer-contact"><p>info@fynoptic.org</p></div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 Fynoptic. Educational content. Not legal advice.</p></div>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="auth.js"></script>
+  <script defer src="app.js"></script>
+  <!-- Page-specific JS -->
+  <script defer src="about.js"></script>
+</body>
+</html>

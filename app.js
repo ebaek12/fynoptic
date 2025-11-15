@@ -651,3 +651,58 @@ if (toggle && drawer) {
   track.addEventListener('mouseenter', pause);
   track.addEventListener('mouseleave', play);
 })();
+// Stagger + reveal-in
+(() => {
+  const items = document.querySelectorAll('.founder-card, .partner-cell');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in-view');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.45 });
+
+  items.forEach((el, i) => {
+    el.classList.add('reveal-in');
+    el.style.transitionDelay = `${Math.min(i * 70, 280)}ms`;
+    io.observe(el);
+  });
+})();
+
+// Tasteful 3D tilt (desktop only, respects reduced motion)
+(() => {
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const isTouch = matchMedia('(pointer: coarse)').matches;
+
+  if (prefersReduced || isTouch) return;
+
+  const MAX_TILT = 8;      // degrees
+  const MAX_Z = 14;        // px
+  const cards = document.querySelectorAll('.founder-card');
+
+  cards.forEach(card => {
+    const portrait = card.querySelector('.portrait');
+
+    function move(e) {
+      const r = card.getBoundingClientRect();
+      const x = e.clientX - r.left;
+      const y = e.clientY - r.top;
+      const rx = ((y / r.height) - 0.5) * -2; // -1..1
+      const ry = ((x / r.width)  - 0.5) *  2; // -1..1
+
+      card.style.transform =
+        `perspective(900px) rotateX(${rx * MAX_TILT}deg) rotateY(${ry * MAX_TILT}deg) translateZ(${MAX_Z}px)`;
+      if (portrait) portrait.style.filter = `saturate(${1 + Math.abs(ry)*0.12})`;
+    }
+
+    function reset() {
+      card.style.transform = '';
+      if (portrait) portrait.style.filter = '';
+    }
+
+    card.addEventListener('pointermove', move);
+    card.addEventListener('pointerleave', reset);
+    card.addEventListener('blur', reset);
+  });
+})();
