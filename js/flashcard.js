@@ -114,9 +114,10 @@ function init() {
     els.blockProgress.setAttribute('aria-hidden', 'true');
   }
 
-  // Center the Units box ON LOAD only (per your request)
-  requestAnimationFrame(() => centerOn(els.blockUnits, { behavior: "smooth" }));
-
+  // Deliberately no scroll on load. Centring the Units box sounds harmless, but
+  // that box is ~1030px tall against a ~900px viewport, so "centre it" resolved
+  // to scrollTop 314 — which threw away the header and the page title before the
+  // user had touched anything. A freshly opened page starts at the top.
 }
 
 // ---------- WIZARD FLOW ----------
@@ -738,15 +739,23 @@ function updateAnswerToggleLabel() {
     answerTarget === "term" ? "Answer with Term" : "Answer with Definition";
 }
 
-/* Center the given element roughly in viewport (used only on load) */
-function centerOn(el, { behavior = "smooth", offset = 12 } = {}) {
+/* Bring an element into view without burying it under the sticky header.
+   Centring is only safe while the element is shorter than the space below the
+   header; anything taller must be aligned to its top instead, or the top of the
+   element (and the header above it) scrolls off-screen. */
+function centerOn(el, { behavior = "smooth", offset = 16 } = {}) {
   if (!el) return;
   const header = document.querySelector(".header");
   const headerH = header ? header.offsetHeight : 0;
+  const avail = window.innerHeight - headerH;
   const rect = el.getBoundingClientRect();
-  const elMid = rect.top + window.pageYOffset + rect.height / 2;
-  const targetTop = Math.max(0, elMid - (window.innerHeight / 2) - headerH / 2 - offset);
-  window.scrollTo({ top: targetTop, behavior });
+  const elTop = rect.top + window.pageYOffset;
+
+  const targetTop = rect.height > avail
+    ? elTop - headerH - offset
+    : elTop - headerH - offset - (avail - rect.height) / 2;
+
+  window.scrollTo({ top: Math.max(0, targetTop), behavior });
 }
 
 function setAnswerInteractivity() {

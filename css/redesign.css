@@ -24,6 +24,10 @@
 :root {
   --display-face: 'Spectral', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
 
+  /* styles.css reads --header-h in two places but never defines it, so both fell
+     back to guesses (64px and 16px offsets) that no longer match the bar. */
+  --header-h: 56px;
+
   /* One flat interface hue replaces the gradient. Dark values here; light below. */
   --db-optic: #94ABFF;
   --db-optic-ink: #0B0F16;   /* ink ON the optic fill */
@@ -74,21 +78,33 @@
    fynopticlogo.png is a white F with a teal magnifier on transparent, so on the light
    header the F vanishes and only the lens is left. It gets the same fixed dark plate
    the partner marks get, which keeps one lockup in both themes instead of two. */
-.logo { display: inline-flex; align-items: center; gap: 11px; }
+.logo { display: inline-flex; align-items: center; gap: 9px; }
 .logo img {
-  width: 30px; height: 30px; object-fit: contain; display: block;
+  width: 26px; height: 26px; object-fit: contain; display: block;
   box-sizing: content-box;
 }
-:is(html[data-theme="light"], body[data-theme="light"]) .logo img {
+:is(html[data-theme="light"], body[data-theme="light"]) .logo img,
+:is(html[data-theme="light"], body[data-theme="light"]) .footer-logo {
   background: var(--db-plate);
   padding: 4px;
   border-radius: 5px;
+  box-sizing: content-box;
 }
+/* The footer mark is the same white-F-on-transparent artwork as the header's and
+   needs the same plate; without it only the teal lens survived on the light
+   footer and the F disappeared. */
+:is(html[data-theme="light"], body[data-theme="light"]) .footer-logo {
+  width: 24px; height: 24px; object-fit: contain;
+}
+/* legacy set this to 30px, and the first pass at 1.55rem (~25px) was still a
+   display size sitting in a 56px bar next to 15px nav links. A wordmark is a
+   label, not a headline. */
 .logo-text {
   font-family: var(--display-face) !important;
   font-weight: 600 !important;
-  font-size: 1.55rem !important;
-  letter-spacing: -.018em !important;
+  font-size: 1.2rem !important;
+  letter-spacing: -.012em !important;
+  line-height: 1 !important;
   color: var(--header-fg) !important;
 }
 
@@ -148,14 +164,38 @@ h1, h2, h3, .slab-title, .cta-title, .big-statement, .art-title, .reader-title {
   letter-spacing: -.018em !important;
 }
 /* the old hero headline ran to ~90px and shouted; Spectral is a text serif and
-   carries far better one step down */
+   carries far better one step down. 5vw was still 72px at 1440 — a step too far
+   for a text serif, and it forced the two-line break that pushed the partner
+   strip down the page. */
 .hero h1 {
-  font-size: clamp(2.4rem, 5vw, 4.1rem) !important;
-  line-height: 1.03 !important;
+  font-size: clamp(2rem, 3.4vw, 3.15rem) !important;
+  line-height: 1.06 !important;
+  max-width: 22ch;
   text-wrap: balance;
 }
-/* gradient text is retired: a single solid colour, emphasis via weight */
-.big-statement, .cta-title span, [class*="grad-text"] {
+/* Interior pages inherited the hero's display scale, so "Practice Flashcards"
+   and "Adaptive Practice Bank" rendered at ~64px on a page whose body copy is
+   16px. Interior h1s are titles, not heroes. */
+main h1:not(.hero h1) {
+  font-size: clamp(1.75rem, 2.5vw, 2.3rem) !important;
+  line-height: 1.12 !important;
+  max-width: 30ch;
+  text-wrap: balance;
+}
+main h2:not(.cta-title) {
+  font-size: clamp(1.35rem, 1.7vw, 1.6rem) !important;
+  line-height: 1.2 !important;
+}
+/* gradient text is retired: a single solid colour, emphasis via weight.
+   Three more selectors in styles.css were still doing it and the first pass
+   missed them: .articles-hero h1 (line ~1603), .md h1 (~3294) and
+   .auth-link button (~722). The articles heading was the worst of them — it
+   clipped a `linear-gradient(ink, ink 30%)` to the glyphs, so the bottom of
+   every letter faded to 30% opacity in both themes. */
+.big-statement, .cta-title span, [class*="grad-text"],
+html body .articles-hero h1,
+html body .md h1,
+html body .auth-link button {
   background: none !important;
   -webkit-background-clip: border-box !important;
   background-clip: border-box !important;
@@ -164,8 +204,19 @@ h1, h2, h3, .slab-title, .cta-title, .big-statement, .art-title, .reader-title {
 }
 
 /* ---- 5. hero: left-aligned, measured -------------------------------------- */
-.hero { min-height: 0 !important; padding: clamp(3.5rem, 8vw, 6.5rem) 0 clamp(2.5rem, 5vw, 4rem) !important; }
-.hero-content { text-align: left !important; margin-left: 0 !important; }
+/* `margin-left: 0` was the bug behind the whole "nothing lines up" complaint.
+   .hero-content is `class="container hero-content"`, and .hero-content caps it at
+   960px. Killing the auto margin dropped that 960px box to x=0, so hero text
+   started at 32px while the header started at 120px and the card grid at 152px:
+   four different left edges on one page. The hero now rides the same rail as
+   everything else, and the *text* is what carries a measure. */
+.hero { min-height: 0 !important; padding: clamp(3rem, 6vw, 5rem) 0 clamp(2.5rem, 5vw, 3.5rem) !important; }
+.hero-content {
+  text-align: left !important;
+  max-width: var(--container-max) !important;
+  margin-inline: auto !important;
+  padding-inline: var(--gutter) !important;
+}
 .hero-sub {
   margin-left: 0 !important;
   margin-right: auto !important;
@@ -226,3 +277,291 @@ h1, h2, h3, .slab-title, .cta-title, .big-statement, .art-title, .reader-title {
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; }
 }
+
+/* ============================================================================
+   9. ONE RAIL
+   ----------------------------------------------------------------------------
+   The single biggest reason the pages read as broken. Measured at 1440px, one
+   homepage had four different left edges:
+
+       32px   .hero-content   (960px box with margin-left:0)
+      120px   .nav.container  (.nav's `padding:14px 0` zeroed the gutter)
+      152px   .slab-grid      (inside .container, gutter applied)
+      230px   .big-statement  (980px box, margin auto, centred)
+
+   Nothing was wrong with any one of those numbers; the problem was having four.
+   Everything below pins one content edge — .container's own, 152px at 1440 —
+   and every band on every page now starts there. `html body` prefixes are here
+   because legacy selectors carry more specificity than a bare class.
+   ========================================================================== */
+
+/* The recurring trap: .container carries the gutter as part of a `padding`
+   shorthand, and any later single-class rule that also uses the shorthand wipes
+   it. `.nav { padding: 14px 0 }` did it in the header, `.section { padding: ... }`
+   did it to every band on courseone.html. Rather than chase each one, the gutter
+   is pinned to .container itself above the reach of those rules, so a co-class
+   can no longer silently un-inset a band. */
+html body .container { padding-inline: var(--gutter) !important; }
+
+html body .header .nav {
+  padding-block: 10px !important;
+  gap: clamp(1rem, 3vw, 2.5rem);
+}
+
+/* .footer supplies its own 32px inline padding *and* contains .footer-container,
+   which applies the gutter again — so the footer sat one gutter deeper than the
+   page at every width below 1200px. One of the two has to own it. */
+html body .footer { padding-inline: 0 !important; }
+html body .footer .footer-container { padding-inline: var(--gutter) !important; }
+
+/* Anything that opted out of the rail with its own narrower box gets pulled
+   back onto it. The measure moves to the text, where it belongs. */
+html body .big-statement,
+html body .cta-title,
+html body .cta-sub {
+  max-width: 38ch !important;
+  margin-inline: 0 !important;
+  text-align: left !important;
+}
+html body .big-statement { max-width: 46ch !important; }
+
+html body .statement .container,
+html body .why-slab .container,
+html body .final-cta .container {
+  max-width: var(--container-max) !important;
+  margin-inline: auto !important;
+  padding-inline: var(--gutter) !important;
+}
+
+/* The section headings were centred with a centred underline rule while the
+   cards beneath them were left-aligned — the mismatch read as a mistake. */
+html body .why-slab .slab-head,
+html body .why-slab h2,
+html body .section > h2,
+html body .final-cta { text-align: left !important; }
+/* The underline rule is `position:absolute; left:568px; translateX(-79px)` — it
+   was centred under a centred heading, so once the heading moved left the rule
+   stayed stranded in the middle of the band. It has to be anchored, not nudged;
+   margin does nothing to an absolutely positioned box. */
+html body .why-slab h2::after,
+html body .slab-head::after,
+html body .section > h2::after {
+  left: 0 !important;
+  right: auto !important;
+  transform: none !important;
+  width: 56px !important;
+  margin-inline: 0 !important;
+  background: var(--db-optic) !important;
+}
+
+/* 59px type on a 94.7px line box (1.6) is a body-copy ratio applied to display
+   type; it read as two unrelated headings rather than one two-line sentence. */
+html body .cta-title {
+  font-size: clamp(1.9rem, 3vw, 2.6rem) !important;
+  line-height: 1.1 !important;
+  max-width: 24ch !important;
+  text-wrap: balance;
+}
+html body .cta-sub { margin-block: .75rem 1.5rem !important; }
+
+/* .art-media's plate is `linear-gradient(135deg,#0F172A,#0B1220)` — a fixed dark
+   thumbnail ground that does not follow the theme (the same deliberate choice as
+   the partner logo plates). The badge sitting on it took its ink from --text-100,
+   which flips to near-black in the light theme: dark ink on a permanently dark
+   plate, 1.43:1. Ink that sits on a fixed plate has to be fixed too. */
+html body .art-media .art-badge,
+html body .art-media :is(.art-badge, .art-kicker) {
+  color: #EAF2FF !important;
+  background: rgba(255, 255, 255, .14) !important;
+  border-color: rgba(255, 255, 255, .22) !important;
+}
+
+/* ---- 15. the last gradient holdout -------------------------------------- */
+/* .badge--grad paints --brand-950 ink on --grad-primary. In the light theme
+   both resolve near white, so every "Certified" pill on the catalogue measured
+   1.00:1 — invisible. It takes the same flat optic fill as the buttons. */
+html body .badge--grad,
+html body .badge.badge--grad {
+  background: var(--db-optic) !important;
+  background-image: none !important;
+  color: var(--db-optic-ink) !important;
+  border: 1px solid var(--db-optic) !important;
+}
+
+html body .final-cta .cta-actions,
+html body .final-cta .hero-cta { justify-content: flex-start !important; }
+
+/* .partners was `margin: 2.75rem auto 0; max-width: 1100px`, a fifth edge
+   inside the hero. It rides the hero's own text edge instead. */
+html body .partners { max-width: none !important; margin-inline: 0 !important; }
+
+/* ---- 10. vertical rhythm -------------------------------------------------- */
+/* The bands all carried their own ad-hoc padding, which is what produced the
+   ~1,000px dead zone between the partner strip and the footer. */
+html body .statement { padding-block: clamp(2.5rem, 5vw, 4rem) !important; }
+html body .why-slab  { padding-block: clamp(2.5rem, 5vw, 4rem) !important; }
+html body .final-cta { padding-block: clamp(3rem, 6vw, 4.5rem) !important; }
+html body .section   { padding-block: clamp(2rem, 4vw, 3rem) !important; }
+html body .section-divider {
+  max-width: var(--container-max) !important;
+  margin: 0 auto !important;
+  border: 0 !important;
+  border-top: 1px solid var(--db-rule) !important;
+}
+
+/* ---- 11. header chrome ---------------------------------------------------- */
+/* The header CTA was rendering 110x50 — a hero-sized button in a nav bar. */
+html body .header .nav-actions { gap: 12px; }
+html body .header :is(a, button).btn.btn-primary {
+  padding: .55rem 1rem !important;
+  font-size: .9rem !important;
+  line-height: 1.2 !important;
+  white-space: nowrap;
+}
+html body .header .user-icon {
+  width: 34px !important; height: 34px !important;
+  flex: 0 0 34px !important;
+}
+html body .header .nav-links { gap: clamp(.9rem, 1.6vw, 1.6rem) !important; }
+html body .header .nav-links a { font-size: .925rem !important; }
+
+/* ---- 12. the course progress rail ---------------------------------------- */
+/* It was `position: fixed; right: 12px` — glued to the window, not to the
+   content rail, so it floated in the gutter and overlapped the h1 and the quiz
+   cards, and its 12 items ran past the card's bottom edge and clipped. */
+#progress-sidebar {
+  top: calc(var(--header-h, 56px) + 24px) !important;
+  right: max(var(--gutter), calc(50vw - (var(--container-max) / 2) + var(--gutter))) !important;
+  left: auto !important;
+  width: 260px !important;
+  max-height: calc(100vh - var(--header-h, 56px) - 48px) !important;
+  display: flex !important;
+}
+#progress-sidebar .ps-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 0;
+  padding: 14px !important;
+  border-radius: 10px !important;
+  background: var(--surface-1, rgba(var(--surf-rgb), .96)) !important;
+  border: 1px solid var(--db-rule) !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+/* Label and bar were on one row, so the bar was squeezed to whatever was left
+   and ran into the card's right padding. Stacked, it gets the full width. */
+/* Switching this to a grid was not enough on its own: `justify-content:
+   space-between` survived from the old flex rule, and on a single-column grid
+   that packs the column to its content instead of stretching it. The column
+   sized itself to the word "Progress" (68px of a 210px card), so the bar was
+   squeezed to 68px — which is what read as the bar being cut off. */
+#progress-sidebar .ps-head {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  justify-content: stretch !important;
+  justify-items: stretch !important;
+  align-items: start !important;
+  gap: 8px !important;
+  margin-bottom: 12px !important;
+}
+#progress-sidebar .ps-head strong {
+  font-family: var(--font-body);
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--muted-fg);
+}
+#progress-sidebar .ps-bar {
+  flex: none !important;
+  width: 100% !important;
+  height: 4px !important;
+  border-radius: 2px !important;
+}
+#progress-sidebar #ps-fill { background: var(--db-optic) !important; }
+
+/* 12 items never fit a fixed-height card, so the last two clipped. Scroll the
+   list, not the page. */
+#progress-sidebar .ps-list {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  gap: 2px !important;
+  margin: 0 -4px !important;
+  padding: 0 4px !important;
+  scrollbar-width: thin;
+}
+#progress-sidebar .ps-list li {
+  padding: 7px 9px !important;
+  border-radius: 6px !important;
+  font-size: .855rem !important;
+  line-height: 1.3 !important;
+  background: transparent !important;
+  border: 1px solid transparent !important;
+}
+#progress-sidebar .ps-list li:hover { background: rgba(var(--tint-rgb), .05) !important; }
+#progress-sidebar .ps-item--current {
+  background: rgba(var(--tint-rgb), .07) !important;
+  border-color: var(--db-rule-strong) !important;
+  font-weight: 600 !important;
+}
+#progress-sidebar .ps-dot { flex: 0 0 7px !important; width: 7px !important; height: 7px !important; }
+
+/* Reserve the rail's width so the course body stops running underneath it. */
+@media (min-width: 1100px) {
+  html body:has(#progress-sidebar) main .container {
+    padding-right: calc(var(--gutter) + 284px) !important;
+  }
+}
+@media (max-width: 1099px) {
+  #progress-sidebar { display: none !important; }
+}
+
+/* ---- 13. no page scrolls sideways ---------------------------------------- */
+html, body { overflow-x: clip; }
+
+/* styles.css sets `body { background: var(--brand-950) }`, then page rules set
+   `background: var(--grad-hero)` — a shorthand, which resets background-color to
+   transparent. The gradient's own stops fade to transparent at 60%, so below that
+   the page had no colour of its own and fell through to the canvas: in the light
+   theme the flashcard and practice heroes faded into a near-black band above the
+   footer. The ground colour is pinned here, and the gradient rides on top of it
+   as background-image, which is the layer it was always meant to be. */
+html { background-color: var(--surface-0); }
+html body { background-color: var(--surface-0) !important; }
+html body .logo-ticker { overflow: hidden !important; }
+html body .video-wrap { overflow: hidden; }
+html body .video-wrap :is(video, iframe) { max-width: 100%; height: auto; }
+
+/* ---- 14. cards: stop nesting them --------------------------------------- */
+/* Both wizard pages put a bordered, tinted panel inside another bordered,
+   tinted panel: .fc-controls.card > .fc-block on flashcard.html, and
+   .card.practice-controls > .wizard-panel on practice.html. The outer box
+   carries no information of its own, and on flashcard.html it was also centred
+   at x=340 — a fifth left edge. It becomes a plain layout wrapper on the rail;
+   the inner panel keeps the single skin. */
+html body .fc-controls.card,
+html body .card.practice-controls {
+  background: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  padding: 0 !important;
+  max-width: none !important;
+  margin-inline: 0 !important;
+}
+html body .fc-block,
+html body .wizard-panel {
+  margin-inline: 0 !important;
+  max-width: 640px !important;
+  border-radius: 8px !important;
+  border: 1px solid var(--db-rule) !important;
+  background: var(--surface-1, rgba(var(--surf-rgb), .55)) !important;
+}
+/* those panels centred their own headings and controls against left-aligned
+   page copy */
+html body .fc-block > h2,
+html body .wizard-panel > h2,
+html body .fc-block .fc-label,
+html body .wizard-panel h2 { text-align: left !important; }

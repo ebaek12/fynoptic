@@ -964,15 +964,6 @@
     img.src = url;
   });
 
-  // Make the progress panel a tad skinnier so it fits the margin
-  function shrinkProgressPanel(){
-    const list = document.getElementById('progress-list');
-    if (!list) return;
-    const panel = list.closest('aside') || list.closest('[class*="progress"]') || list.parentElement;
-    if (panel) { panel.style.maxWidth = '240px'; panel.style.width = '240px'; }
-  }
-
   // Boot
   updateLocks();
-  shrinkProgressPanel();
 })();

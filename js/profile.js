@@ -200,7 +200,7 @@ import {
     $('#logout-btn')?.addEventListener('click', async () => {
       try {
         await window.authUI.logout();
-        window.location.replace('index.html');
+        window.location.replace('/');
       } catch(e){
         showToast('Could not sign out. Try again.');
       }
@@ -291,7 +291,7 @@ import {
     wireEvents(auth);
 
     onAuthStateChanged(auth, (user) => {
-      if (!user) { window.location.replace('index.html'); return; }
+      if (!user) { window.location.replace('/'); return; }
       populate(user);
     });
 

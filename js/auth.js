@@ -95,7 +95,7 @@ onAuthStateChanged(auth, (user) => {
 
     userBtn.innerHTML = `<div class="user-initials" title="${user.email || user.displayName || ''}">${initials}</div>`;
     // 👉 Go to profile when clicked
-    userBtn.onclick = () => { window.location.href = "profile.html"; };
+    userBtn.onclick = () => { window.location.href = "/profile"; };
   } else {
     userBtn.innerHTML = `
       <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
