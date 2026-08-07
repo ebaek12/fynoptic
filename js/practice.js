@@ -3,6 +3,8 @@
    Only minimal changes for requested features
    =========================================================== */
 
+   (function () {
+
    const $ = (sel, root = document) => root.querySelector(sel);
    const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
    
@@ -16,8 +18,14 @@
      setTimeout(() => el.remove(), 3000);
    };
    
-   // Single source of truth for the question bank
+   // Single source of truth for the question bank.
+   // Always assign through setQuestions so window.QUESTIONS stays in sync for
+   // outside readers (test harness).
    let QUESTIONS = window.QUESTIONS || {};
+   const setQuestions = (next) => {
+     QUESTIONS = next;
+     window.QUESTIONS = QUESTIONS;
+   };
    
    /* ---------- Elements (match your HTML) ---------- */
    const elCategory = $('#category');
@@ -156,56 +164,51 @@
    elEndSessionBtn?.addEventListener('click', openEndSessionModal);
    elEndSessionClose?.addEventListener('click', closeEndSessionModalAndReturn);
    
-   /* ---------- Load question banks (unchanged) ---------- */
+   /* ---------- Load question banks ---------- */
+   // These only fetch. The merge into QUESTIONS happens once, after both banks
+   // settle, so network ordering can never let one bank clobber the other.
    async function loadPF() {
      const tryPaths = [
-       './pf_bank_modules_1of6.json',
        'data/pf_bank_modules_1of6.json',
-       '/pf_bank_modules_1of6.json'
+       'data/pf_bank_modules_1of6.json',
+       'data/pf_bank_modules_1of6.json'
      ];
      for (const path of tryPaths) {
        try {
          const res = await fetch(path);
          if (!res.ok) continue;
-         const db = await res.json();
-         window.QUESTIONS = QUESTIONS = db; // sync
-         refreshTopicsUIForCategory(elCategory.value);
-         return;
+         return await res.json();
        } catch (e) {}
      }
      console.error('Could not load pf_bank_modules_1of6.json from expected paths.');
      toast('Could not load the question bank (check file path/name).');
+     return null;
    }
-   
+
    async function loadEconomics() {
      try {
-       const res = await fetch('./econ_grouped_by_module_unit_with_choices.json');
+       const res = await fetch('data/econ_grouped_by_module_unit_with_choices.json');
        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-       const econ = await res.json();
-   
-       window.QUESTIONS = window.QUESTIONS || {};
-       window.QUESTIONS = { ...window.QUESTIONS, ...econ };
-   
-       if (document.getElementById('category')?.value === 'Economics') {
-         if (typeof refreshTopicList === 'function') refreshTopicList();
-         if (typeof initTopics === 'function') initTopics();
-       }
-   
-       try { (window.toast || console.log)('Economics bank loaded.'); } catch {}
+       return await res.json();
      } catch (err) {
        console.error('loadEconomics error:', err);
-       try { (window.toast || console.error)('Could not load Economics bank (check path).'); } catch {}
+       toast('Could not load Economics bank (check path).');
+       return null;
      }
    }
-   
-   loadPF();
-   loadEconomics();
+
+   async function loadQuestionBanks() {
+     const [pf, econ] = await Promise.all([loadPF(), loadEconomics()]);
+     setQuestions({ ...QUESTIONS, ...(pf || {}), ...(econ || {}) });
+     refreshTopicsUIForCategory(elCategory?.value);
+   }
+
+   loadQuestionBanks();
    
    /* External merge hook (unchanged) */
    window.injectQuestions = function(newData) {
-     QUESTIONS = deepMerge(QUESTIONS, newData || {});
-     window.QUESTIONS = QUESTIONS;
-     refreshTopicsUIForCategory(elCategory.value);
+     setQuestions(deepMerge(QUESTIONS, newData || {}));
+     refreshTopicsUIForCategory(elCategory?.value);
      toast('Question bank loaded.');
    };
    
@@ -688,40 +691,44 @@
    }
    
    /* ---------- Events ---------- */
-   elCategory.addEventListener('change', () => {
+   elCategory?.addEventListener('change', () => {
      refreshTopicsUIForCategory(elCategory.value);
    });
-   
-   elTopicsSelectAll.addEventListener('click', selectAllTopics);
-   elTopicsClear.addEventListener('click', clearAllTopics);
-   
-   elStart.addEventListener('click', startPractice);
-   elReset.addEventListener('click', resetPractice);
-   elFinishReset.addEventListener('click', resetPractice);
-   
-   elSubmit.addEventListener('click', submitAnswer);
-   elNext.addEventListener('click', nextQuestion);
-   elPrev.addEventListener('click', prevQuestion);
-   
-   elRestart.addEventListener('click', () => {
+
+   elTopicsSelectAll?.addEventListener('click', selectAllTopics);
+   elTopicsClear?.addEventListener('click', clearAllTopics);
+
+   elStart?.addEventListener('click', startPractice);
+   elReset?.addEventListener('click', resetPractice);
+   elFinishReset?.addEventListener('click', resetPractice);
+
+   elSubmit?.addEventListener('click', submitAnswer);
+   elNext?.addEventListener('click', nextQuestion);
+   elPrev?.addEventListener('click', prevQuestion);
+
+   elRestart?.addEventListener('click', () => {
      if (!STATE.session) return;
      const { category, topics, totalQuestions, adaptWindow, adaptive } = STATE.session;
-     STATE.session = createSession({ category, topics, totalQuestions, adaptWindow, adaptive });
+     const session = createSession({ category, topics, totalQuestions, adaptWindow, adaptive });
+     if (!session) { toast('No questions available for that selection.'); return; }
+
+     STATE.session = session;
      updateChips(category, topics);
-     updateProgress(STATE.session);
-     const q = drawQuestion(STATE.session);
+     updateProgress(session);
+     const q = drawQuestion(session);
+     if (!q) { toast('Question pool is empty.'); return; }
      showQuestionView();
-   
-     STATE.session.timeline.push({ q, answered: false, chosenIdx: null, correct: null, eliminated: [] });
-     STATE.session.currentIndex = 0;
-   
+
+     session.timeline.push({ q, answered: false, chosenIdx: null, correct: null, eliminated: [] });
+     session.currentIndex = 0;
+
      renderQuestion(q);
    });
    
    /* Enter key submits only while a question is on screen */
    document.addEventListener('keydown', (e) => {
-     const questionVisible = !elStageWrap.classList.contains('hide');
-     if (e.key === 'Enter' && questionVisible && !elSubmit.disabled) {
+     const questionVisible = !!elStageWrap && !elStageWrap.classList.contains('hide');
+     if (e.key === 'Enter' && questionVisible && elSubmit && !elSubmit.disabled) {
        e.preventDefault();
        submitAnswer();
      }
@@ -730,10 +737,11 @@
    /* ---------- Initial UI ---------- */
    showEmpty();
    function syncAdaptiveDisable() {
+     if (!elAdaptiveToggle || !elAdaptEvery) return;
      const on = elAdaptiveToggle.checked;
      elAdaptEvery.disabled = !on;
    }
-   elAdaptiveToggle.addEventListener('change', syncAdaptiveDisable);
+   elAdaptiveToggle?.addEventListener('change', syncAdaptiveDisable);
    syncAdaptiveDisable();
    
    // Start at step 1, centered wizard
@@ -749,5 +757,7 @@
      }
      catSel.addEventListener('change', updateCatAttr);
      updateCatAttr();
+   })();
+
    })();
    

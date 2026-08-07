@@ -82,14 +82,9 @@
      Helpers
   ───────────────────────────*/
   async function fetchFirst(filename, as='text'){
-    const paths = [filename, `./${filename}`];
-    for (const p of paths){
-      try {
-        const res = await fetch(p, { cache:'no-store' });
-        if (res.ok) return as === 'json' ? res.json() : res.text();
-      } catch {}
-    }
-    throw new Error(`${filename} not reachable`);
+    const res = await fetch(filename, { cache:'no-store' });
+    if (!res.ok) throw new Error(`${filename} not reachable`);
+    return as === 'json' ? res.json() : res.text();
   }
 
   function bumpCourseProgress(){
@@ -179,8 +174,9 @@
       .replace(/^#\s+(.*)$/gmi,   (_,t) => `<h1>${t}</h1>`);
 
     // Lists
+    // each run of consecutive <li> lines becomes its own <ul>
     md = md.replace(/^\s*[-*]\s+(.*)$/gmi, '<li>$1</li>')
-           .replace(/(<li>.*<\/li>)/gims, '<ul>$1</ul>');
+           .replace(/(?:^<li>.*<\/li>\n?)+/gm, run => `<ul>${run.trim()}</ul>`);
 
     // Inline marks
     md = md.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
@@ -208,9 +204,16 @@
     const items = heads.map(h => {
       const id = h.id || slugify(h.textContent);
       h.id = id;
-      return { id, text: h.textContent.trim(), level: h.tagName.toLowerCase() };
+      return { id, text: h.textContent.replace(/#\s*$/, '').trim(), level: h.tagName.toLowerCase() };
     });
     const showToc = items.filter(i => i.level === 'h2').length >= 2;
+    if (showToc){
+      const nav = document.createElement('nav');
+      nav.className = 'article-toc';
+      nav.setAttribute('aria-label', 'On this page');
+      nav.innerHTML = `<ul>${items.map(i => `<li class="toc-${i.level}"><a href="#${i.id}">${i.text}</a></li>`).join('')}</ul>`;
+      mountEl.prepend(nav);
+    }
   }
 
   // Smart loader: fetch JSON/text; if blocked (file://), fall back to iframe viewer
@@ -486,6 +489,7 @@
     const preRoot   = $('#pre-quiz-root');
     const preBtn    = $('#pre-submit');
     const preResult = $('#pre-result');
+    if (!preRoot || !preBtn || !preResult) return;
 
     const saved = Array.isArray(state.preQuiz.answers) ? state.preQuiz.answers : [];
     const correctness = Array.isArray(state.preQuiz.correctness) ? state.preQuiz.correctness : [];
@@ -544,7 +548,7 @@
     if (m1Loaded) return; m1Loaded = true;
     gateVideo($('#m1-video'), () => { state.m1.video = true; saveState(state); updateLocks(); ffTrack('video_complete',{module:'m1'}); });
     const btn = $('#m1-mark-read'), mount = $('#md-01');
-    loadMarkdownSmart('01-foundations.md', mount, btn);
+    loadMarkdownSmart('content/01-foundations.md', mount, btn);
     btn?.addEventListener('click', () => {
       if (btn.disabled || btn.getAttribute('aria-disabled')==='true') return toast('Scroll to the end first.', 'error');
       state.m1.article = true; saveState(state); updateLocks();
@@ -556,7 +560,7 @@
     if (m2Loaded) return; m2Loaded = true;
     gateVideo($('#m2-video'), () => { state.m2.video = true; saveState(state); updateLocks(); ffTrack('video_complete',{module:'m2'}); });
     const btn = $('#m2-mark-read'), mount = $('#md-02');
-    loadMarkdownSmart('02-families.md', mount, btn);
+    loadMarkdownSmart('content/02-families.md', mount, btn);
     btn?.addEventListener('click', () => {
       if (btn.disabled || btn.getAttribute('aria-disabled')==='true') return toast('Scroll to the end first.', 'error');
       state.m2.article = true; saveState(state); updateLocks();
@@ -567,7 +571,7 @@
     (async () => {
       const root = $('#id-ex-root'), submit = $('#id-ex-submit'), out = $('#id-ex-result');
       try {
-        const data = await fetchFirst('id-exercise.json', 'json');
+        const data = await fetchFirst('data/id-exercise.json', 'json');
         if (!data.items?.length) throw new Error('No items in id-exercise.json');
         root.innerHTML = '';
 
@@ -622,7 +626,7 @@
           const total = data.items.length;
           const allCorrect = correct === total;
           out.textContent = allCorrect
-            ? `All ${total}/{total} correct.`
+            ? `All ${total}/${total} correct.`
             : `${total - correct} incorrect. Fix and check again.`;
 
           if (allCorrect) {
@@ -649,7 +653,7 @@
     if (m3Loaded) return; m3Loaded = true;
     gateVideo($('#m3-video'), () => { state.m3.video = true; saveState(state); updateLocks(); ffTrack('video_complete',{module:'m3'}); });
     const btn = $('#m3-mark-read'), mount = $('#md-03');
-    loadMarkdownSmart('03-counter-moves.md', mount, btn);
+    loadMarkdownSmart('content/03-counter-moves.md', mount, btn);
     btn?.addEventListener('click', () => {
       if (btn.disabled || btn.getAttribute('aria-disabled')==='true') return toast('Scroll to the end first.', 'error');
       state.m3.article = true; saveState(state); updateLocks();
@@ -675,7 +679,7 @@
   function loadM4(){
     if (m4Loaded) return; m4Loaded = true;
     const btn = $('#m4-mark-read'), mount = $('#md-04');
-    loadMarkdownSmart('04-evidence.md', mount, btn);
+    loadMarkdownSmart('content/04-evidence.md', mount, btn);
     btn?.addEventListener('click', () => {
       if (btn.disabled || btn.getAttribute('aria-disabled')==='true') return toast('Scroll to the end first.', 'error');
       state.m4.article = true; saveState(state); updateLocks();
@@ -747,7 +751,7 @@
     }
   
     try {
-      const dataRaw = await fetchFirst('quiz.json', 'json');
+      const dataRaw = await fetchFirst('data/quiz.json', 'json');
       const items   = normalizeQuiz(dataRaw);
   
       const saved = Array.isArray(state.postQuiz.answers) ? state.postQuiz.answers : [];
@@ -775,7 +779,7 @@
         state.postQuiz = {
           completed: true, score: pct, pass,
           answers: items.map(q => q._choice),
-          correctness: items.map(q => Number(q.__choice) === Number(q.answer_index))
+          correctness: items.map(q => Number(q._choice) === Number(q.answer_index))
         };
         saveState(state);
         ffTrack('post_quiz_submit', { score:pct, pass });
@@ -944,7 +948,9 @@
   }
   $('#download-cert')?.addEventListener('click', ()=>{ prepareCertificate(); window.print(); ffTrack('certificate_print'); });
   $('#download-badge')?.addEventListener('click', async () => {
-    const svg = document.querySelector('#certificate .badge-svg').outerHTML;
+    const badge = document.querySelector('#certificate .badge-svg');
+    if (!badge) return toast('Badge artwork not found.', 'error');
+    const svg = badge.outerHTML;
     const svgBlob = new Blob([svg], { type:'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(svgBlob);
     const img = new Image();

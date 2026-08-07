@@ -3,26 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+      content="width=device-width, initial-scale=1, viewport-fit=cover">
 
   <title>Your Profile • Fynoptic</title>
 
   <!-- Fonts + global theme -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
-  <link rel="icon" href="favicon-96x96.png" type="image/svg+xml" />
 
   <!-- Your existing global styles -->
-  <link rel="stylesheet" href="styles.css" />
+  <!-- Fonts — must match --font-head / --font-body in styles.css. Keep identical on every page. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Icons — keep this block identical on every page -->
+  <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  <link rel="icon" href="/assets/icons/favicon-96x96.png" type="image/png" sizes="96x96" />
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <link rel="stylesheet" href="css/styles.css" />
   <!-- Page-specific polish -->
-  <link rel="stylesheet" href="profile.css" />
+  <link rel="stylesheet" href="css/profile.css" />
 </head>
-<body class="profile-shell">
+<body data-theme="dark" class="profile-shell">
 
   <!-- Header (same structure so your CSS applies) -->
   <header class="header" role="banner">
     <nav class="nav container" role="navigation" aria-label="Main navigation">
       <a href="index.html" class="logo" aria-label="Fynoptic Home">
-        <img src="fynopticlogo.png" alt="Fynoptic logo" />
+        <img src="assets/img/fynopticlogo.png" alt="Fynoptic logo" />
         <span class="logo-text">Fynoptic</span>
       </a>
 
@@ -151,7 +160,7 @@
   <footer class="footer">
     <div class="footer-container">
       <div class="footer-left">
-        <img src="fynopticlogo.png" alt="Fynoptic logo" class="footer-logo" />
+        <img src="assets/img/fynopticlogo.png" alt="Fynoptic logo" class="footer-logo" />
         <p class="footer-tagline">Helping you spot & stop predatory fees, dark patterns, and subscription traps.</p>
       </div>
       <div class="footer-links">
@@ -210,9 +219,9 @@
   </div>
 
   <!-- Scripts -->
-  <script defer src="app.js"></script>
-  <script type="module" src="auth.js"></script>
-  <script type="module" src="profile.js"></script>
+  <script type="module" src="js/auth.js"></script>
+  <script defer src="js/app.js"></script>
+  <script type="module" src="js/profile.js"></script>
 
   <script>
     // footer year

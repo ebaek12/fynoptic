@@ -3,21 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+      content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0B1220" />
   <meta name="description" content="Course 1 — Dark Patterns—Spot Them, Stop Them. Learn to identify dark patterns and act fast with proof. Certification included." />
   <meta property="og:title" content="Course 1 — Dark Patterns—Spot Them, Stop Them" />
   <meta property="og:description" content="Know the playbook. Beat the traps." />
-  <meta property="og:image" content="/assets/logo-Fynoptic.svg" />
+  <meta property="og:image" content="https://fynoptic.org/assets/img/fynopticlogo.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <link rel="canonical" href="/courseone.html" />
+  <link rel="canonical" href="https://fynoptic.org/courseone.html" />
 
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet"/>
 
   <!-- Reuse your existing site styles -->
-  <link rel="stylesheet" href="styles.css" />
+  <!-- Fonts — must match --font-head / --font-body in styles.css. Keep identical on every page. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Icons — keep this block identical on every page -->
+  <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  <link rel="icon" href="/assets/icons/favicon-96x96.png" type="image/png" sizes="96x96" />
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <link rel="stylesheet" href="css/styles.css" />
 
 
   <title>Fynoptic — Course 1: Dark Patterns—Spot Them, Stop Them</title>
@@ -73,14 +81,14 @@
     body.dyslexia * { letter-spacing: .02em; word-spacing: .02em; }
   </style>
 </head>
-<body>
+<body data-theme="dark">
 
 
 <!-- Header -->
 <header class="header" role="banner">
     <nav class="nav container" role="navigation" aria-label="Main navigation">
       <a href="index.html" class="logo" aria-label="Fynoptic Home">
-        <img src="fynopticlogo.png" alt="Fynoptic logo" />
+        <img src="assets/img/fynopticlogo.png" alt="Fynoptic logo" />
         <span class="logo-text">Fynoptic</span>
       </a>
 
@@ -181,7 +189,7 @@
 
       <div class="video-wrap">
         <video id="m1-video" controls preload="metadata" aria-label="Video 1 — Why dark patterns exist (2:00)">
-          <source src="video1.mp4" type="video/mp4"/>
+          <source src="assets/video/video1.mp4" type="video/mp4"/>
           Your browser does not support the video tag.
         </video>
       </div>
@@ -217,7 +225,7 @@
 
       <div class="video-wrap">
         <video id="m2-video" controls preload="metadata" aria-label="Micro-video 2 — The eight families in 90 seconds (1:30)">
-          <source src="vidoe2.mp4" type="video/mp4"/>
+          <source src="assets/video/vidoe2.mp4" type="video/mp4"/>
         </video>
       </div>
 
@@ -263,7 +271,7 @@
 
       <div class="video-wrap">
         <video id="m3-video" controls preload="metadata" aria-label="Micro-video 3 — The three actions that fix most situations (1:40)">
-          <source src="course3.mp4" type="video/mp4"/>
+          <source src="assets/video/course3.mp4" type="video/mp4"/>
         </video>
       </div>
 
@@ -428,7 +436,7 @@
       <!-- Printable sheet -->
       <div id="certificate-sheet" class="certificate-sheet" aria-hidden="true">
         <div style="display:flex; align-items:center; gap:16px; margin-bottom:24px;">
-          <img src="/assets/logo-Fynoptic.svg" alt="" style="width:56px; height:56px"/>
+          <img src="assets/img/fynopticlogo.png" alt="" style="width:56px; height:56px"/>
           <div>
             <h1 style="margin:0; font-family:'Space Grotesk',sans-serif;">Certificate of Completion</h1>
             <div style="color:#111; font-family:Inter, sans-serif;">Fynoptic · Educational content. Not legal advice.</div>
@@ -463,7 +471,7 @@
   <footer class="footer">
     <div class="footer-container">
       <div class="footer-left">
-        <img src="fynopticlogo.png" alt="Fynoptic logo" class="footer-logo" />
+        <img src="assets/img/fynopticlogo.png" alt="Fynoptic logo" class="footer-logo" />
         <p class="footer-tagline">Helping you spot & stop predatory fees, dark patterns, and subscription traps.</p>
       </div>
       <div class="footer-links">
@@ -475,7 +483,7 @@
       </div>
       <div class="footer-contact"><p>info@fynoptic.org</p></div>
     </div>
-    <div class="footer-bottom"><p>© 2025 Fynoptic. Educational content. Not legal advice.</p></div>
+    <div class="footer-bottom"><p>© <span id="yy">2025</span> Fynoptic. Educational content. Not legal advice.</p></div>
   </footer>
 
   <!-- Login Modal -->
@@ -520,10 +528,10 @@
   <script>document.getElementById('yy').textContent=new Date().getFullYear();</script>
 
   <!-- Scripts needed for user icon -->
-  <script type="module" src="auth.js"></script>
-  <script defer src="app.js"></script>
+  <script type="module" src="js/auth.js"></script>
+  <script defer src="js/app.js"></script>
 
-  <script defer src="course-one.js"></script>
+  <script defer src="js/course-one.js"></script>
 
 
 </body>

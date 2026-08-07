@@ -16,6 +16,7 @@ import {
   
   /* DOM + toasts */
   const $ = (sel) => document.querySelector(sel);
+  const setText = (sel, val) => { const el = $(sel); if (el) el.textContent = val; };
   const showToast = (msg) => {
     const c = document.querySelector('.toast-container') || (() => {
       const d = document.createElement('div');
@@ -100,13 +101,16 @@ import {
   function setRing(pct){
     const deg = Math.max(0, Math.min(100, pct)) * 3.6;
     const ring = $('#ring');
-    ring.style.setProperty('--deg', `${deg}deg`);
-    $('#ring-num').textContent = pct;
-    ring.setAttribute('aria-valuenow', String(pct));
+    if (ring) {
+      ring.style.setProperty('--deg', `${deg}deg`);
+      ring.setAttribute('aria-valuenow', String(pct));
+    }
+    setText('#ring-num', pct);
   }
   function setBar(pct){
-    $('#progress-fill').style.setProperty('--p', `${pct}%`);
-    $('#pct-text').textContent = `${pct}%`;
+    const fill = $('#progress-fill');
+    if (fill) fill.style.setProperty('--p', `${pct}%`);
+    setText('#pct-text', `${pct}%`);
   }
   
   function setAvatar(user){
@@ -114,19 +118,25 @@ import {
     const fallback = $('#prof-initials');
     const url = user.photoURL;
     if (url) {
-      img.src = url;
-      img.alt = user.displayName || user.email || 'User avatar';
-      img.hidden = false;
-      fallback.hidden = true;
+      if (img) {
+        img.src = url;
+        img.alt = user.displayName || user.email || 'User avatar';
+        img.hidden = false;
+      }
+      if (fallback) fallback.hidden = true;
     } else {
-      img.hidden = true;
-      fallback.hidden = false;
-      fallback.textContent = initialsFrom(user);
+      if (img) img.hidden = true;
+      if (fallback) {
+        fallback.hidden = false;
+        fallback.textContent = initialsFrom(user);
+      }
     }
   }
-  
+
   function renderChips(user){
-    const row = $('#chip-row'); row.innerHTML = '';
+    const row = $('#chip-row');
+    if (!row) return;
+    row.innerHTML = '';
     const make = (txt) => { const s = document.createElement('span'); s.className='chip'; s.textContent = txt; return s; };
     row.appendChild(make(user.emailVerified ? 'Email verified' : 'Email not verified'));
     const prov = user.providerData.map(p=>p.providerId.replace('.com','')).join(', ') || 'password';
@@ -134,23 +144,26 @@ import {
   }
   
   function populate(user){
-    $('#prof-name').textContent = user.displayName || (user.email?.split('@')[0] ?? 'Friend');
-    $('#prof-email').textContent = user.email || '';
-    $('#joined-at').textContent = fmtDate(user.metadata?.creationTime);
-    $('#last-login').textContent = fmtDate(user.metadata?.lastSignInTime);
-  
+    setText('#prof-name', user.displayName || (user.email?.split('@')[0] ?? 'Friend'));
+    setText('#prof-email', user.email || '');
+    setText('#joined-at', fmtDate(user.metadata?.creationTime));
+    setText('#last-login', fmtDate(user.metadata?.lastSignInTime));
+
     setAvatar(user);
     renderChips(user);
-  
+
     const p = computeProgressAccurate();
-    $('#mods-done').textContent = p.done;
-    $('#mods-total').textContent = p.total;
+    setText('#mods-done', p.done);
+    setText('#mods-total', p.total);
     setRing(p.pct); setBar(p.pct);
-  
+
     // settings defaults
-    $('#input-name').value = user.displayName || localStorage.getItem(NAME_KEY) || '';
-    $('#input-photo').value = user.photoURL || '';
-    $('#verify-btn').hidden = !!user.emailVerified;
+    const nameInput = $('#input-name');
+    if (nameInput) nameInput.value = user.displayName || localStorage.getItem(NAME_KEY) || '';
+    const photoInput = $('#input-photo');
+    if (photoInput) photoInput.value = user.photoURL || '';
+    const verifyBtn = $('#verify-btn');
+    if (verifyBtn) verifyBtn.hidden = !!user.emailVerified;
   }
   
   /* === Avatar upload === */
@@ -180,7 +193,11 @@ import {
   
   /* === Wire UI === */
   function wireEvents(auth){
-    $('#logout-btn').addEventListener('click', async () => {
+    // profile.html currently ships markup for the summary card only — the settings/edit
+    // panel (#settings, #edit-open, #edit-cancel, #settings-form, #verify-btn,
+    // #input-photo-file) has no markup on the page. Bind defensively so a missing panel
+    // degrades to "feature absent" instead of throwing and killing the whole script.
+    $('#logout-btn')?.addEventListener('click', async () => {
       try {
         await window.authUI.logout();
         window.location.replace('index.html');
@@ -188,9 +205,9 @@ import {
         showToast('Could not sign out. Try again.');
       }
     });
-  
-    $('#edit-open').addEventListener('click', () => { $('#settings').hidden = false; });
-    $('#edit-cancel').addEventListener('click', () => { $('#settings').hidden = true; });
+
+    $('#edit-open')?.addEventListener('click', () => { const s = $('#settings'); if (s) s.hidden = false; });
+    $('#edit-cancel')?.addEventListener('click', () => { const s = $('#settings'); if (s) s.hidden = true; });
   
     // Preview selected avatar instantly
     $('#input-photo-file')?.addEventListener('change', (e) => {
@@ -204,7 +221,7 @@ import {
       }
     });
   
-    $('#settings-form').addEventListener('submit', async (e) => {
+    $('#settings-form')?.addEventListener('submit', async (e) => {
       e.preventDefault();
       const user = auth.currentUser;
       if (!user) return;
@@ -228,6 +245,11 @@ import {
           photoURL: finalPhotoURL || null
         });
   
+        // 2b) Tell the header avatar to refresh (null means "cleared" -> initials)
+        window.dispatchEvent(new CustomEvent('avatar-updated', {
+          detail: { photoURL: finalPhotoURL || null }
+        }));
+
         // 3) Mirror display name to your certificate name key
         if (nameInput) {
           try { localStorage.setItem(NAME_KEY, nameInput); } catch {}
@@ -243,7 +265,7 @@ import {
       }
     });
   
-    $('#verify-btn').addEventListener('click', async () => {
+    $('#verify-btn')?.addEventListener('click', async () => {
       const user = auth.currentUser;
       if (!user) return;
       try {
@@ -264,31 +286,15 @@ import {
   
   (async () => {
     const auth = await authReady();
-  
+
+    // Bind once — onAuthStateChanged fires again on every token refresh.
+    wireEvents(auth);
+
     onAuthStateChanged(auth, (user) => {
       if (!user) { window.location.replace('index.html'); return; }
       populate(user);
-      wireEvents(auth);
     });
-  
-    // tiny nav helpers from your existing app.js
-    const toggle = document.getElementById('nav-toggle');
-    const menu = document.getElementById('mobile-menu');
-    if (toggle && menu) {
-      toggle.addEventListener('click', () => {
-        const expanded = toggle.getAttribute('aria-expanded') === 'true';
-        toggle.setAttribute('aria-expanded', String(!expanded));
-        menu.hidden = expanded;
-        document.body.classList.toggle('no-scroll', !expanded);
-      });
-      menu.addEventListener('click', (e) => {
-        const el = e.target;
-        if (el.matches('a[href], button')) {
-          menu.hidden = true;
-          toggle.setAttribute('aria-expanded', 'false');
-          document.body.classList.remove('no-scroll');
-        }
-      });
-    }
+
+    // Mobile nav is handled by app.js — do not duplicate it here.
   })();
   

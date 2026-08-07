@@ -33,7 +33,7 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
 // Durable persistence with graceful fallbacks
-(async () => {
+const persistenceReady = (async () => {
   try {
     await setPersistence(auth, indexedDBLocalPersistence);
   } catch {
@@ -46,7 +46,7 @@ const auth = getAuth(app);
 })();
 
 // Complete any pending redirect (ignore if none)
-getRedirectResult(auth).catch(() => {});
+getRedirectResult(auth).catch((err) => console.error("Redirect sign-in failed:", err));
 
 // Google Sign-In (popup → redirect fallback; also fallback on argument-error)
 async function googleSignIn() {
@@ -77,8 +77,10 @@ window.authUI = {
   auth
 };
 
-// Fire once after authUI exists
-window.dispatchEvent(new Event("auth-ready"));
+// Fire once after authUI exists AND persistence has settled
+persistenceReady
+  .catch((err) => console.error("Auth persistence setup failed:", err))
+  .then(() => window.dispatchEvent(new Event("auth-ready")));
 
 // Reflect auth state in the header button
 onAuthStateChanged(auth, (user) => {

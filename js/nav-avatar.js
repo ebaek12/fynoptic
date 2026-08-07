@@ -33,5 +33,7 @@ onReady((auth)=>{
 // When profile page updates the avatar, it will dispatch this:
 window.addEventListener('avatar-updated', (e)=>{
   const url = e.detail?.photoURL;
-  if (url) applyAvatar(url);
+  // A null/empty photoURL means the avatar was cleared: fall back to initials
+  // for the signed-in user instead of leaving a stale image up.
+  applyAvatar(url || window.authUI?.auth?.currentUser || null);
 });

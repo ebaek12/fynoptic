@@ -1,5 +1,5 @@
 /* ------------------------------
-   FinanceFirst - app.js
+   Fynoptic - app.js
    Interactivity, storage, modals, filters
 ------------------------------ */
 
@@ -32,12 +32,12 @@ const REPORTS_KEY = 'ff_reports';
 // Init on DOM load
 document.addEventListener('DOMContentLoaded', () => {
   setFooterYear();
-  initModals();
-  initMobileNav();
   initProgress();
   initToasts(); // <-- ensure function exists
   initFixitBot();
   initSearchFilter();
+  initCounters();
+  initAuthUI();
 });
 
 // --------- Utility Functions ---------
@@ -114,75 +114,69 @@ function updateProgressBar(count) {
 
 // --------- Modals ---------
 
-function initModals() {
-  document.querySelectorAll('[data-modal-open]').forEach(trigger => {
-    const modalId = trigger.getAttribute('data-modal-open');
-    trigger.addEventListener('click', () => openModal(modalId));
-  });
+const MODAL_FOCUSABLE = 'a, button, textarea, input, select, [tabindex]:not([tabindex="-1"])';
 
-  document.querySelectorAll('.modal').forEach(modal => {
-    modal.addEventListener('click', e => {
-      if (e.target === modal) closeModal(modal.id);
-    });
-    document.addEventListener('keydown', e => {
-      if (e.key === 'Escape') closeModal(modal.id);
-    });
-  });
+let modalScrollY = 0;
+
+function lockBody() {
+  if (document.body.classList.contains('no-scroll')) return;
+  modalScrollY = window.scrollY || 0;
+  document.body.classList.add('no-scroll');
+  document.body.style.position = 'fixed';
+  document.body.style.top = `-${modalScrollY}px`;
+  document.body.style.width = '100%';
 }
 
-function openModal(id) {
-  const modal = document.getElementById(id);
-  if (modal) {
-    modal.removeAttribute('hidden');
-    trapFocus(modal);
-  }
+function unlockBody() {
+  if (!document.body.classList.contains('no-scroll')) return;
+  document.body.classList.remove('no-scroll');
+  document.body.style.position = '';
+  document.body.style.top = '';
+  document.body.style.width = '';
+  window.scrollTo(0, modalScrollY);
 }
 
-function closeModal(id) {
-  const modal = document.getElementById(id);
-  if (modal) {
-    modal.setAttribute('hidden', '');
-  }
+// Accepts a modal id (auth wiring passes strings) or the modal element itself
+function resolveModal(target) {
+  return typeof target === 'string' ? document.getElementById(target) : target;
+}
+
+function openModal(target) {
+  const modal = resolveModal(target);
+  if (!modal) return;
+  modal.hidden = false;
+  lockBody();
+  trapFocus(modal);
+}
+
+function closeModal(target) {
+  const modal = resolveModal(target);
+  if (!modal || modal.hidden) return;
+  modal.hidden = true;
+  unlockBody();
 }
 
 function trapFocus(modal) {
-  const focusable = modal.querySelectorAll('a, button, textarea, input, select, [tabindex]:not([tabindex="-1"])');
-  if (focusable.length === 0) return;
-  const first = focusable[0];
-  const last = focusable[focusable.length - 1];
-  modal.addEventListener('keydown', e => {
-    if (e.key !== 'Tab') return;
-    if (e.shiftKey && document.activeElement === first) {
-      e.preventDefault();
-      last.focus();
-    } else if (!e.shiftKey && document.activeElement === last) {
-      e.preventDefault();
-      first.focus();
-    }
-  });
-  first.focus();
-}
-
-// --------- Mobile Nav ---------
-
-function initMobileNav() {
-  const toggle = document.querySelector('.nav-toggle');
-  const menu = document.getElementById('mobile-menu');
-
-  if (toggle && menu) {
-    toggle.addEventListener('click', () => {
-      const expanded = toggle.getAttribute('aria-expanded') === 'true';
-      toggle.setAttribute('aria-expanded', !expanded);
-      menu.hidden = expanded;
-    });
-
-    menu.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        menu.hidden = true;
-        toggle.setAttribute('aria-expanded', 'false');
-      });
+  // bind the Tab handler once per modal so repeated opens don't stack listeners
+  if (!modal.dataset.focusTrapped) {
+    modal.dataset.focusTrapped = '1';
+    modal.addEventListener('keydown', e => {
+      if (e.key !== 'Tab') return;
+      const focusable = modal.querySelectorAll(MODAL_FOCUSABLE);
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
     });
   }
+  const first = modal.querySelector(MODAL_FOCUSABLE);
+  if (first) first.focus();
 }
 
 // --------- Fix-it Bot ---------
@@ -294,8 +288,9 @@ document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
 // HERO METRICS COUNT-UP
 function animateCount(el, target, duration = 1500) {
+  // a missing/blank data-target gives NaN, which would recurse forever
+  if (!Number.isFinite(target) || target <= 0) return;
   let start = 0;
-  const stepTime = Math.abs(Math.floor(duration / target));
   const update = () => {
     start += Math.ceil(target / (duration / 16));
     if (start >= target) {
@@ -308,18 +303,13 @@ function animateCount(el, target, duration = 1500) {
   update();
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+function initCounters() {
   const counters = document.querySelectorAll('.count');
   counters.forEach(counter => {
     const target = +counter.getAttribute('data-target');
     animateCount(counter, target);
   });
-});
-
-document.addEventListener("DOMContentLoaded", () => {
-  const yearSpan = document.getElementById("year");
-  if (yearSpan) yearSpan.textContent = new Date().getFullYear();
-});
+}
 
 // app.js (use as a module)
 
@@ -332,7 +322,8 @@ function onAuthReady(fn) {
   window.addEventListener('auth-ready', fn, { once: true });
 }
 
-// Global handlers for [data-modal-open] and [data-modal-switch]
+// Global handlers for [data-modal-open], [data-modal-close], [data-modal-switch]
+// and click-outside. Delegated so dynamically added nodes work too.
 document.addEventListener('click', (e) => {
   const trigger = e.target.closest('[data-modal-open]');
   if (trigger) {
@@ -340,23 +331,30 @@ document.addEventListener('click', (e) => {
     openModal(trigger.getAttribute('data-modal-open'));
     return;
   }
-  const switcher = e.target.closest('[data-modal-switch]');
-  if (switcher) {
-    const to = switcher.getAttribute('data-modal-switch');
-    document.querySelectorAll('.modal').forEach(m => m.setAttribute('hidden',''));
-    openModal(to);
+  const closer = e.target.closest('[data-modal-close]');
+  if (closer) {
+    closeModal(closer.closest('.modal'));
     return;
   }
+  const switcher = e.target.closest('[data-modal-switch]');
+  if (switcher) {
+    const current = switcher.closest('.modal');
+    if (current) current.hidden = true;
+    openModal(switcher.getAttribute('data-modal-switch'));
+    return;
+  }
+  // click on the backdrop itself closes the modal
+  if (e.target.classList.contains('modal')) closeModal(e.target);
 });
 
 document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') {
-    document.querySelectorAll('.modal').forEach(m => m.setAttribute('hidden',''));
-  }
+  if (e.key !== 'Escape') return;
+  const open = document.querySelector('.modal:not([hidden])');
+  if (open) closeModal(open);
 });
 
-// --- Wire up Auth UI once DOM is ready ---
-document.addEventListener('DOMContentLoaded', () => {
+// --- Wire up Auth UI once DOM is ready (called from the init block above) ---
+function initAuthUI() {
   const loginForm  = $('#login-form');
   const signupForm = $('#signup-form');
 
@@ -424,49 +422,10 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
-});
+}
 
 // ======= REMOVED: googleInFlight/wire() duplicate Google wiring =======
 
-// Mobile "waffle" nav (kept as-is)
-(() => {
-  const btn  = document.getElementById('nav-toggle');
-  const menu = document.getElementById('mobile-menu');
-
-  if (!btn || !menu) return;
-
-  const openMenu = () => {
-    btn.setAttribute('aria-expanded', 'true');
-    menu.hidden = false;
-    document.body.classList.add('no-scroll');
-    // move focus to the first link for a11y
-    const firstLink = menu.querySelector('a, button');
-    firstLink && firstLink.focus();
-  };
-
-  const closeMenu = () => {
-    btn.setAttribute('aria-expanded', 'false');
-    menu.hidden = true;
-    document.body.classList.remove('no-scroll');
-    btn.focus();
-  };
-
-  btn.addEventListener('click', () => {
-    const expanded = btn.getAttribute('aria-expanded') === 'true';
-    expanded ? closeMenu() : openMenu();
-  });
-
-  // close on ESC
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && !menu.hidden) closeMenu();
-  });
-
-  // close when a menu link is clicked
-  menu.addEventListener('click', (e) => {
-    const el = e.target;
-    if (el.matches('a[href], button')) closeMenu();
-  });
-})();
 // === Mobile nav toggle (accessibility + iOS scroll lock) =================
 const toggle = document.getElementById('nav-toggle');
 const drawer = document.getElementById('mobile-menu');
@@ -474,6 +433,7 @@ const drawer = document.getElementById('mobile-menu');
 let _scrollY = 0;
 
 function openMenu() {
+  if (!toggle || !drawer) return;
   drawer.hidden = false;
   toggle.setAttribute('aria-expanded', 'true');
 
@@ -486,6 +446,7 @@ function openMenu() {
 }
 
 function closeMenu() {
+  if (!toggle || !drawer) return;
   drawer.hidden = true;
   toggle.setAttribute('aria-expanded', 'false');
 
@@ -509,96 +470,14 @@ if (toggle && drawer) {
 
   // close on ESC
   window.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeMenu();
+    if (e.key === 'Escape' && !drawer.hidden) closeMenu();
   });
+
+  // the drawer's "X" re-uses the same close
+  const menuClose = drawer.querySelector('.menu-close');
+  if (menuClose) menuClose.addEventListener('click', closeMenu);
 }
 // ========================================================================
-// ======= Modal helpers (Sign In / Sign Up) ==============================
-(function () {
-  const BODY = document.body;
-  let scrollY = 0;
-
-  function lockBody() {
-    scrollY = window.scrollY || 0;
-    BODY.classList.add('no-scroll');
-    BODY.style.position = 'fixed';
-    BODY.style.top = `-${scrollY}px`;
-    BODY.style.width = '100%';
-  }
-  function unlockBody() {
-    BODY.classList.remove('no-scroll');
-    BODY.style.position = '';
-    BODY.style.top = '';
-    BODY.style.width = '';
-    window.scrollTo(0, scrollY);
-  }
-
-  function openModal(modal) {
-    if (!modal) return;
-    modal.hidden = false;
-    lockBody();
-
-    // focus first focusable control
-    const focusable = modal.querySelector('input, button, [href], select, textarea, [tabindex]:not([tabindex="-1"])');
-    (focusable || modal).focus?.();
-  }
-
-  function closeModal(modal) {
-    if (!modal) return;
-    modal.hidden = true;
-    unlockBody();
-  }
-
-  // open buttons: [data-modal-open="login-modal"]
-  document.querySelectorAll('[data-modal-open]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const id = btn.getAttribute('data-modal-open');
-      const modal = document.getElementById(id);
-      openModal(modal);
-    });
-  });
-
-  // close buttons: [data-modal-close]
-  document.querySelectorAll('[data-modal-close]').forEach(btn => {
-    btn.addEventListener('click', () => closeModal(btn.closest('.modal')));
-  });
-
-  // switch between modals: [data-modal-switch="signup-modal"]
-  document.querySelectorAll('[data-modal-switch]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const target = document.getElementById(btn.getAttribute('data-modal-switch'));
-      const current = btn.closest('.modal');
-      current && (current.hidden = true);
-      openModal(target);
-    });
-  });
-
-  // click outside dialog closes
-  document.querySelectorAll('.modal').forEach(modal => {
-    modal.addEventListener('click', (e) => {
-      if (e.target === modal) closeModal(modal);
-    });
-  });
-
-  // ESC closes whichever modal is open
-  window.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-      const open = document.querySelector('.modal:not([hidden])');
-      if (open) closeModal(open);
-    }
-  });
-
-  // Hook up the mobile menu "X" to re-use the same close
-  const menu = document.getElementById('mobile-menu');
-  const menuClose = menu?.querySelector('.menu-close');
-  if (menuClose) {
-    menuClose.addEventListener('click', () => {
-      // use the existing nav code’s close function if present
-      if (typeof closeMenu === 'function') closeMenu();
-      else menu.hidden = true, unlockBody();
-    });
-  }
-})();
 /* ===== Theme toggle (persisted) ===== */
 /* ===== Theme toggle (robust + persisted) ===== */
 (() => {
@@ -606,10 +485,12 @@ if (toggle && drawer) {
   const btn = document.getElementById('theme-btn');
   const roots = [document.documentElement, document.body]; // set on both, to be safe
 
-  // preferred theme
+  // Fynoptic is a dark-first brand: every page ships <body data-theme="dark">, the body
+  // background is var(--brand-950), and theme-color is #0B1220. Following the OS here meant
+  // every visitor on a light-mode machine landed on the light theme, which is only partly
+  // built. Default to dark; light is opt-in via the toggle and remembered after that.
   const stored = localStorage.getItem(STORAGE_KEY);
-  const prefersLight = window.matchMedia?.('(prefers-color-scheme: light)').matches;
-  const initial = stored || (prefersLight ? 'light' : 'dark');
+  const initial = stored === 'light' || stored === 'dark' ? stored : 'dark';
 
   const applyTheme = (mode) => {
     roots.forEach(r => r.setAttribute('data-theme', mode));

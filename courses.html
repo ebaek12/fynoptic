@@ -3,19 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+      content="width=device-width, initial-scale=1, viewport-fit=cover">
 
   <meta name="description" content="Fynoptic helps consumers spot and stop predatory fees, dark patterns, and subscription traps—before they hit your wallet." />
   <meta name="theme-color" content="#0B1220" />
   <meta property="og:title" content="Fynoptic" />
   <meta property="og:description" content="Know the playbook. Beat the traps." />
-  <meta property="og:image" content="/assets/logo-Fynoptic.svg" />
+  <meta property="og:image" content="https://fynoptic.org/assets/img/fynopticlogo.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <link rel="canonical" href="/" />
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="canonical" href="https://fynoptic.org/courses.html" />
+  <!-- Fonts — must match --font-head / --font-body in styles.css. Keep identical on every page. -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Icons — keep this block identical on every page -->
+  <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  <link rel="icon" href="/assets/icons/favicon-96x96.png" type="image/png" sizes="96x96" />
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <link rel="stylesheet" href="css/styles.css" />
   <title>Know the playbook. Beat the traps.</title>
 
   <!-- Added: minimal styles for scroll behavior, course descriptions, and Back-to-Top -->
@@ -57,12 +65,12 @@
     .back-to-top:focus { outline: 2px solid #8bd; outline-offset: 2px; }
   </style>
 </head>
-<body id="top">
+<body data-theme="dark" id="top">
   <!-- Header -->
   <header class="header" role="banner">
     <nav class="nav container" role="navigation" aria-label="Main navigation">
       <a href="index.html" class="logo" aria-label="Fynoptic Home">
-        <img src="fynopticlogo.png" alt="Fynoptic logo" />
+        <img src="assets/img/fynopticlogo.png" alt="Fynoptic logo" />
         <span class="logo-text">Fynoptic</span>
       </a>
 
@@ -367,7 +375,7 @@
   <footer class="footer">
     <div class="footer-container">
       <div class="footer-left">
-        <img src="fynopticlogo.png" alt="Fynoptic logo" class="footer-logo" />
+        <img src="assets/img/fynopticlogo.png" alt="Fynoptic logo" class="footer-logo" />
         <p class="footer-tagline">Helping you spot & stop predatory fees, dark patterns, and subscription traps.</p>
       </div>
       <div class="footer-links">
@@ -378,7 +386,7 @@
       </div>
       <div class="footer-contact"><p>info@fynoptic.org</p></div>
     </div>
-    <div class="footer-bottom"><p>© 2025 Fynoptic. Educational content. Not legal advice.</p></div>
+    <div class="footer-bottom"><p>© <span id="yy">2025</span> Fynoptic. Educational content. Not legal advice.</p></div>
   </footer>
 
   <!-- Back to Top button -->
@@ -450,13 +458,14 @@
   <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
 
   <!-- Scripts needed for user icon -->
-  <script type="module" src="auth.js"></script>
-  <script defer src="app.js"></script>
+  <script type="module" src="js/auth.js"></script>
+  <script defer src="js/app.js"></script>
 
   <!-- Added: tiny script for Back-to-Top visibility & action -->
   <script>
     (function () {
       const btn = document.getElementById('back-to-top');
+      if (!btn) return;
       const onScroll = () => {
         const y = window.scrollY || document.documentElement.scrollTop;
         if (y > 600) { btn.classList.add('show'); } else { btn.classList.remove('show'); }

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700">
+  <!-- Subtle film-grain overlay used across the site. Consumers supply the
+       opacity (.04-.06) via CSS, so this renders white grain on transparent:
+       it lifts the dark background slightly instead of muddying it.
+       stitchTiles="stitch" keeps the edges seamless when tiled as a
+       background-image; 700px square keeps the grain fine when an <img> of
+       this file is stretched with object-fit: cover. -->
+  <filter id="grain" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+    <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/>
+    <!-- force RGB to white, derive alpha from the noise luminance -->
+    <feColorMatrix values="0 0 0 0 1
+                           0 0 0 0 1
+                           0 0 0 0 1
+                           0.33 0.33 0.34 0 0"/>
+    <!-- push contrast so it reads as speckle rather than a flat wash -->
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="1.7" intercept="-0.55"/>
+    </feComponentTransfer>
+  </filter>
+  <rect width="700" height="700" filter="url(#grain)"/>
+</svg>

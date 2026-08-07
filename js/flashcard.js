@@ -105,8 +105,8 @@ function init() {
 
   // Start at step 1; hide others hard via [hidden]
   setStepHiddenState(1, true);
-  els.stage.hidden = true;
-  els.empty.hidden = true;
+  if (els.stage) els.stage.hidden = true;
+  if (els.empty) els.empty.hidden = true;
 
   // Ensure progress stays hidden until session actually starts (ADDED)
   if (els.blockProgress) {
@@ -129,7 +129,7 @@ function setStepHiddenState(step, initial = false) {
     b.setAttribute('aria-hidden', String(shouldHide));
   });
   // data-step used only for styling/animation
-  els.controls.dataset.step = String(step);
+  if (els.controls) els.controls.dataset.step = String(step);
 
   // Update summary for step 3
   if (step === 3 && els.startSummary) {
@@ -141,7 +141,7 @@ function setStepHiddenState(step, initial = false) {
   }
 
   // Flip animation (skip on very first paint)
-  if (!initial) {
+  if (!initial && els.controls) {
     els.controls.classList.add("flip-out");
     setTimeout(() => {
       els.controls.classList.remove("flip-out");
@@ -158,6 +158,8 @@ function showWizardStep(step) {
 
 // ---------- UNITS ----------
 function hydrateUnits() {
+  if (!els.unitList) return;
+
   const frag = document.createDocumentFragment();
   Object.keys(FLASHCARDS.units).forEach((unitName) => {
     const chip = document.createElement("button");
@@ -199,12 +201,12 @@ function hookControls() {
     });
   });
 
-  els.selectAll.addEventListener("click", () => {
+  els.selectAll?.addEventListener("click", () => {
     state.unitsSelected = new Set(Object.keys(FLASHCARDS.units));
     document.querySelectorAll(".unit-chip").forEach(el => el.classList.add("is-active"));
   });
 
-  els.clearAll.addEventListener("click", () => {
+  els.clearAll?.addEventListener("click", () => {
     state.unitsSelected.clear();
     document.querySelectorAll(".unit-chip").forEach(el => el.classList.remove("is-active"));
   });
@@ -223,12 +225,12 @@ function hookControls() {
   });
 
   // Start buttons
-  els.startBtn.addEventListener("click", startSession);
+  els.startBtn?.addEventListener("click", startSession);
   els.startBig?.addEventListener("click", startSession);
 
-  els.endBtn.addEventListener("click", endSession);
+  els.endBtn?.addEventListener("click", endSession);
 
-  els.resetProgress.addEventListener("click", () => {
+  els.resetProgress?.addEventListener("click", () => {
     if (confirm("Reset all saved flashcard progress?")) {
       localStorage.removeItem(STORAGE_KEY);
       state.stats = { total: 0, done: 0, correct: 0, streak: 0 };
@@ -239,14 +241,14 @@ function hookControls() {
   });
 
   // Stage actions
-  els.flip.addEventListener("click", () => flipCard());
-  els.prev.addEventListener("click", () => gotoRelative(-1));
-  els.next.addEventListener("click", () => gotoRelative(+1));
-  els.restart.addEventListener("click", () => restartDeck());
+  els.flip?.addEventListener("click", () => flipCard());
+  els.prev?.addEventListener("click", () => gotoRelative(-1));
+  els.next?.addEventListener("click", () => gotoRelative(+1));
+  els.restart?.addEventListener("click", () => restartDeck());
 
   // FITB
-  els.fitbForm.addEventListener("submit", onFitbSubmit);
-  els.fitbHint.addEventListener("click", () => showHint());
+  els.fitbForm?.addEventListener("submit", onFitbSubmit);
+  els.fitbHint?.addEventListener("click", () => showHint());
 
   // Toggle "answer with ..." for both modes
   if (els.mcAnswerToggle) {
@@ -277,13 +279,13 @@ function startSession() {
   state.revealed.clear();
 
   document.querySelectorAll('input[name="mode"]').forEach(r => r.disabled = true);
-  els.endBtn.hidden = false;
+  if (els.endBtn) els.endBtn.hidden = false;
 
   // Hide wizard, show stage in same spot
-  els.controls.setAttribute("aria-hidden", "true");
-  els.controls.classList.add("is-hidden");
-  els.stage.hidden = false;
-  els.empty.hidden = true;
+  els.controls?.setAttribute("aria-hidden", "true");
+  els.controls?.classList.add("is-hidden");
+  if (els.stage) els.stage.hidden = false;
+  if (els.empty) els.empty.hidden = true;
 
   // Show progress only when the stage is actually visible (ADDED)
   if (els.blockProgress) {
@@ -391,10 +393,10 @@ function onSummaryModalClick(e) {
 // ADDED: Cleanup and navigate back to Unit selection
 function returnToUnitSelection() {
   // Hide stage, show wizard step 1
-  els.stage.hidden = true;
-  els.empty.hidden = true;
-  els.controls.classList.remove("is-hidden");
-  els.controls.removeAttribute("aria-hidden");
+  if (els.stage) els.stage.hidden = true;
+  if (els.empty) els.empty.hidden = true;
+  els.controls?.classList.remove("is-hidden");
+  els.controls?.removeAttribute("aria-hidden");
   state.step = 1;
   setStepHiddenState(1);
 
@@ -405,11 +407,13 @@ function returnToUnitSelection() {
   }
 
   // Reset End button UI
-  els.endBtn.hidden = true;
-  els.endBtn.classList.remove('btn-ended');
-  els.endBtn.removeAttribute('aria-disabled');
-  els.endBtn.textContent = 'End Session';
-  els.stage.classList.remove('ending');
+  if (els.endBtn) {
+    els.endBtn.hidden = true;
+    els.endBtn.classList.remove('btn-ended');
+    els.endBtn.removeAttribute('aria-disabled');
+    els.endBtn.textContent = 'End Session';
+  }
+  els.stage?.classList.remove('ending');
 
   // Allow switching modes again
   document.querySelectorAll('input[name="mode"]').forEach(r => r.disabled = false);
@@ -484,8 +488,8 @@ function renderCard() {
 
 function renderAnswerArea() {
   const isMC = state.mode === "mc";
-  els.mcArea.hidden = !isMC;
-  els.fitbForm.hidden = isMC;
+  if (els.mcArea) els.mcArea.hidden = !isMC;
+  if (els.fitbForm) els.fitbForm.hidden = isMC;
 
   if (els.mcAnswerToggle) {
     els.mcAnswerToggle.hidden = false;
@@ -545,8 +549,9 @@ function buildMCOptions(card) {
 
   const values = new Set([correctValue]);
   while (values.size < 4 && candidates.length) {
-    const v = candidates[Math.floor(Math.random() * candidates.length)];
-    values.add(v);
+    const i = Math.floor(Math.random() * candidates.length);
+    values.add(candidates[i]);
+    candidates.splice(i, 1);
   }
   const options = Array.from(values);
   shuffle(options);
@@ -616,6 +621,8 @@ function onFitbSubmit(e) {
 
 function showHint() {
   const card = currentCard();
+  if (!card) return;
+
   const target = state.fitbAnswer === "term" ? card.term : card.definition;
   const visible = Math.max(1, Math.ceil(target.length / 3));
   const hint = target.slice(0, visible) + "…";
@@ -651,19 +658,39 @@ function gradeCurrent(correct) {
 function updateProgressUI() {
   const { total, done, correct, streak } = state.stats;
   const acc = total ? Math.round((correct / (done || 1)) * 100) : 0;
-  els.statTotal.textContent = total;
-  els.statDone.textContent = done;
-  els.statCorrect.textContent = correct;
-  els.statAcc.textContent = `${acc}%`;
-  els.statStreak.textContent = String(streak);
+  if (els.statTotal) els.statTotal.textContent = total;
+  if (els.statDone) els.statDone.textContent = done;
+  if (els.statCorrect) els.statCorrect.textContent = correct;
+  if (els.statAcc) els.statAcc.textContent = `${acc}%`;
+  if (els.statStreak) els.statStreak.textContent = String(streak);
 
   const p = total ? Math.round((done / total) * 100) : 0;
-  els.progressFill.style.setProperty("--p", `${p}%`);
-  els.progressFill.style.width = `${p}%`;
+  if (els.progressFill) {
+    els.progressFill.style.setProperty("--p", `${p}%`);
+    els.progressFill.style.width = `${p}%`;
+  }
 }
 
 function persistProgress() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify({ answers: state.answers }));
+}
+
+function loadSavedProgress() {
+  const saved = readStorage();
+  const answers = (saved && typeof saved.answers === "object" && saved.answers) ? saved.answers : {};
+  state.answers = answers;
+
+  // Recount the same way buildDeck() does (no deck yet, so nothing to scope to)
+  let done = 0, correct = 0;
+  for (const a of Object.values(answers)) {
+    if (a && typeof a.correct === "boolean") {
+      done++;
+      if (a.correct) correct++;
+    }
+  }
+  state.stats.done = done;
+  state.stats.correct = correct;
+  state.stats.streak = 0;
 }
 
 function readStorage() {
@@ -691,6 +718,8 @@ function showFeedback(html, good) {
 
 function toast(msg) {
   const wrap = document.querySelector(".toast-container");
+  if (!wrap) return;
+
   const el = document.createElement("div");
   el.className = "toast";
   el.textContent = msg;
@@ -724,8 +753,8 @@ function setAnswerInteractivity() {
   const card = currentCard();
   const locked = card ? state.revealed.has(card.id) : false;
 
-  els.mcArea.classList.toggle('is-locked', locked);
-  els.mcArea.querySelectorAll('.mc-option').forEach(btn => {
+  els.mcArea?.classList.toggle('is-locked', locked);
+  els.mcArea?.querySelectorAll('.mc-option').forEach(btn => {
     btn.disabled = locked;
     btn.setAttribute('aria-disabled', String(locked));
     btn.tabIndex = locked ? -1 : 0;
@@ -736,6 +765,8 @@ function setAnswerInteractivity() {
     els.fitbForm.querySelectorAll('button').forEach(b => b.disabled = locked);
   }
 
-  els.flip.disabled = locked;
-  els.flip.setAttribute('aria-disabled', String(locked));
+  if (els.flip) {
+    els.flip.disabled = locked;
+    els.flip.setAttribute('aria-disabled', String(locked));
+  }
 }

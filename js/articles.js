@@ -18,21 +18,35 @@ function computeReadMins(text) {
     const esc = (text || "").replace(/[&<>]/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[s]));
     return '<p>' + esc.split(/\n{2,}/).join('</p><p>') + '</p>';
   }
-  
+  function deriveBlurb(html) {
+    // strip tags, collapse whitespace, cut on a word boundary near 160 chars
+    const text = (html || "").replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+    if (text.length <= 160) return text;
+    const cut = text.slice(0, 160);
+    const lastSpace = cut.lastIndexOf(' ');
+    return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut).replace(/[\s.,;:—-]+$/, '') + '…';
+  }
+  // Placeholder dates pending real publication metadata: derived from the article's
+  // index so ordering stays stable across reloads and days.
+  const PLACEHOLDER_DATE_ANCHOR = Date.UTC(2025, 0, 1);
+  function placeholderDate(i) {
+    return new Date(PLACEHOLDER_DATE_ANCHOR + i * 86400000).toISOString().slice(0,10);
+  }
+
   let ARTICLES_DB;
   
   // If articles-data.js populated window.ARTICLES, normalize it for the UI.
   // Expected optional fields in your data file: tags[], blurb, dateISO, readMins, body|content
   if (Array.isArray(window.ARTICLES) && window.ARTICLES.length) {
-    ARTICLES_DB = window.ARTICLES.map(a => {
+    ARTICLES_DB = window.ARTICLES.map((a, i) => {
       const hasHTML = typeof a.content === 'string' && /<\/?[a-z][\s\S]*>/i.test(a.content);
       const bodyHTML = a.body || (hasHTML ? a.content : plainToHTML(a.content));
       return {
         id: a.id,
         title: a.title,
         tags: a.tags && a.tags.length ? a.tags : ['Guides'],
-        blurb: "",
-        date: a.dateISO || new Date().toISOString().slice(0,10),
+        blurb: a.blurb || deriveBlurb(bodyHTML),
+        date: a.dateISO || placeholderDate(i),
         readMins: a.readMins || computeReadMins(a.body || a.content || ''),
         body: bodyHTML
       };
@@ -92,8 +106,9 @@ function computeReadMins(text) {
       if (activeTag !== 'all') {
         list = list.filter(a => a.tags.includes(activeTag));
       }
-      if (sortSelect.value === 'new') list.sort((a, b) => new Date(b.date) - new Date(a.date));
-      else if (sortSelect.value === 'old') list.sort((a, b) => new Date(a.date) - new Date(b.date));
+      const sortBy = sortSelect ? sortSelect.value : 'new';
+      if (sortBy === 'new') list.sort((a, b) => new Date(b.date) - new Date(a.date));
+      else if (sortBy === 'old') list.sort((a, b) => new Date(a.date) - new Date(b.date));
       else list.sort((a, b) => a.readMins - b.readMins);
   
       return list;
@@ -138,7 +153,7 @@ function computeReadMins(text) {
       grid.appendChild(frag);
       visibleCount += slice.length;
   
-      loadMoreBtn.style.display = (visibleCount < data.length) ? 'inline-block' : 'none';
+      if (loadMoreBtn) loadMoreBtn.style.display = (visibleCount < data.length) ? 'inline-block' : 'none';
       observeReveals();
     }
   
@@ -159,8 +174,8 @@ function computeReadMins(text) {
   
     // -------- Events --------
     const onSearch = debounce((e) => { query = e.target.value; render(true); }, 250);
-    searchInput.addEventListener('input', onSearch);
-    sortSelect.addEventListener('change', () => render(true));
+    if (searchInput) searchInput.addEventListener('input', onSearch);
+    if (sortSelect) sortSelect.addEventListener('change', () => render(true));
   
     document.querySelectorAll('.filters .chip').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -171,21 +186,29 @@ function computeReadMins(text) {
       });
     });
   
-    document.getElementById('clear-filters').addEventListener('click', () => {
+    const clearFiltersBtn = document.getElementById('clear-filters');
+    if (clearFiltersBtn) clearFiltersBtn.addEventListener('click', () => {
       query = '';
       activeTag = 'all';
-      searchInput.value = '';
+      if (searchInput) searchInput.value = '';
       document.querySelectorAll('.filters .chip').forEach(b => b.classList.toggle('is-active', b.dataset.tag === 'all'));
       render(true);
     });
-  
-    loadMoreBtn.addEventListener('click', () => render(false));
+
+    if (loadMoreBtn) loadMoreBtn.addEventListener('click', () => render(false));
   
     // Keyboard shortcuts
+    // Is the user typing in a field? If so, leave their arrow keys alone.
+    function isTypingTarget(el) {
+      if (!el) return false;
+      return /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName) || el.isContentEditable;
+    }
+
     window.addEventListener('keydown', (e) => {
-      if (e.key === '/' && document.activeElement !== searchInput) {
+      if (e.key === '/' && searchInput && document.activeElement !== searchInput) {
         e.preventDefault(); searchInput.focus(); searchInput.select();
       }
+      if (isTypingTarget(e.target)) return;
       const cards = Array.from(document.querySelectorAll('.article-card'));
       if (!cards.length) return;
       if (['ArrowDown', 'ArrowRight'].includes(e.key)) { focusIndex = Math.min(focusIndex + 1, cards.length - 1); cards[focusIndex].focus(); }
@@ -207,12 +230,21 @@ function computeReadMins(text) {
   
     // Back-to-top button
     const onScroll = () => {
-      document.getElementById('float-top').classList.toggle('show', window.scrollY > 600);
+      floatTopBtn.classList.toggle('show', window.scrollY > 600);
     };
-    window.addEventListener('scroll', onScroll, { passive: true });
-    floatTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    if (floatTopBtn) {
+      window.addEventListener('scroll', onScroll, { passive: true });
+      floatTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    }
   
     // -------- Reader modal --------
+    // Single reused handler so repeated opens rebind instead of stacking listeners.
+    function onProg() {
+      const max = readerBody.scrollHeight - readerBody.clientHeight;
+      const pct = max > 0 ? (readerBody.scrollTop / max) * 100 : 0;
+      progressBar.style.width = pct + '%';
+    }
+
     function openReader(id) {
       const a = ARTICLES_DB.find(x => x.id === id);
       if (!a) return;
@@ -234,11 +266,7 @@ function computeReadMins(text) {
   
       // Progress bar
       const scroller = readerBody;
-      const onProg = () => {
-        const max = scroller.scrollHeight - scroller.clientHeight;
-        const pct = max > 0 ? (scroller.scrollTop / max) * 100 : 0;
-        progressBar.style.width = pct + '%';
-      };
+      scroller.removeEventListener('scroll', onProg);
       scroller.addEventListener('scroll', onProg, { passive: true });
       onProg();
     }
@@ -250,14 +278,15 @@ function computeReadMins(text) {
       ffTrack('close_article');
     }
   
-    readerModal.addEventListener('click', (e) => {
+    if (readerModal) readerModal.addEventListener('click', (e) => {
       if (e.target === readerModal || e.target.hasAttribute('data-modal-close')) closeReader();
     });
     window.addEventListener('keydown', (e) => {
-      if (!readerModal.hidden && e.key === 'Escape') closeReader();
+      if (readerModal && !readerModal.hidden && e.key === 'Escape') closeReader();
     });
-  
-    document.getElementById('save-reading').addEventListener('click', () => {
+
+    const saveReadingBtn = document.getElementById('save-reading');
+    if (saveReadingBtn) saveReadingBtn.addEventListener('click', () => {
       toast('Saved to reading list');
       ffTrack('save_article', { title: readerTitle.textContent });
     });
@@ -276,7 +305,7 @@ function computeReadMins(text) {
       const el = document.createElement('div');
       el.className = 'toast';
       el.setAttribute('role', 'status');
-      el.innerHTML = msg;
+      el.textContent = msg;
       box.appendChild(el);
       setTimeout(() => { el.remove(); }, 4000);
     }
@@ -285,15 +314,7 @@ function computeReadMins(text) {
     render(true);
     checkHashOpen();
   
-    // Minimal mobile menu toggling
-    const toggle = document.querySelector('.nav-toggle');
-    const mobile = document.getElementById('mobile-menu');
-    if (toggle && mobile) {
-      toggle.addEventListener('click', () => {
-        const expanded = toggle.getAttribute('aria-expanded') === 'true';
-        toggle.setAttribute('aria-expanded', String(!expanded));
-        mobile.hidden = expanded;
-      });
-    }
+    // Mobile nav is wired by app.js, which articles.html now loads.
+    // A local copy here would double-bind the toggle and cancel itself out on every click.
   })();
   
