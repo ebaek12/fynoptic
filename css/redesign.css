@@ -1,0 +1,228 @@
+/* ============================================================================
+   FYNOPTIC — DESIGN LAYER  ("Optical Bench", direction B, with direction A's type)
+   ----------------------------------------------------------------------------
+   Loaded AFTER styles.css so it wins the cascade. Kept as its own file so the
+   redesign is reviewable in one place and revertible by deleting one <link>,
+   rather than appended to the 6,800-line legacy sheet that caused the drift in
+   the first place.
+
+   What this layer does, and why:
+     - Retires the ambient gradient orbs and the dissolving header gradient.
+       The old header faded from navy to transparent over a white page, which is
+       what made the white logo mark vanish halfway down it.
+     - Retires the blue-to-green gradient pill CTA and its shimmer animation.
+     - Puts Spectral on the display type (direction A's face, at A's weight 600),
+       against Inter for body. Serif for the voice you should believe, sans for
+       the voice selling to you.
+     - Left-aligns the hero. Everything centred, top to bottom, was the single
+       biggest generic tell on the old page.
+     - Gives the partner logos an opaque dark plate. They are white artwork on
+       transparent PNGs, so on a light ground they were invisible; recolouring
+       somebody else's mark is not an option.
+   ========================================================================== */
+
+:root {
+  --display-face: 'Spectral', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+
+  /* One flat interface hue replaces the gradient. Dark values here; light below. */
+  --db-optic: #94ABFF;
+  --db-optic-ink: #0B0F16;   /* ink ON the optic fill */
+  --db-plate: #12171F;       /* fixed plate under third-party logo artwork */
+  --db-rule: rgba(255, 255, 255, .10);
+  --db-rule-strong: rgba(255, 255, 255, .22);
+}
+:is(html[data-theme="light"], body[data-theme="light"]) {
+  --db-optic: #2440C0;
+  --db-optic-ink: #FFFFFF;
+  --db-plate: #12171F;       /* deliberately unchanged: the artwork is white */
+  --db-rule: rgba(15, 23, 42, .12);
+  --db-rule-strong: rgba(15, 23, 42, .26);
+}
+
+/* ---- 1. retire the ambient decoration ----------------------------------- */
+.site-bg,
+.orb, .orb1, .orb2, .orb-a, .orb-b, .orb-c,
+.noise,
+.ticker-glow,
+.hero-bg { display: none !important; }
+
+/* ---- 2. header: one opaque plane, one hairline --------------------------- */
+.header {
+  background: var(--surface-0) !important;
+  background-image: none !important;
+  border-bottom: 1px solid var(--db-rule) !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+/* styles.css paints the dissolving navy gradient on a pseudo-element, so overriding
+   .header's own background was never going to remove it. */
+.header::before, .header::after { display: none !important; content: none !important; }
+
+.header .nav, .header .nav a, .header .nav *:not(.btn-primary) {
+  color: var(--header-fg) !important;
+}
+.header .nav-links a {
+  font-family: var(--font-body);
+  font-size: .975rem;
+  font-weight: 500;
+  opacity: .88;
+  transition: opacity .18s ease;
+}
+.header .nav-links a:hover { opacity: 1; }
+
+/* The lockup: mark and wordmark locked to one optical box.
+   fynopticlogo.png is a white F with a teal magnifier on transparent, so on the light
+   header the F vanishes and only the lens is left. It gets the same fixed dark plate
+   the partner marks get, which keeps one lockup in both themes instead of two. */
+.logo { display: inline-flex; align-items: center; gap: 11px; }
+.logo img {
+  width: 30px; height: 30px; object-fit: contain; display: block;
+  box-sizing: content-box;
+}
+:is(html[data-theme="light"], body[data-theme="light"]) .logo img {
+  background: var(--db-plate);
+  padding: 4px;
+  border-radius: 5px;
+}
+.logo-text {
+  font-family: var(--display-face) !important;
+  font-weight: 600 !important;
+  font-size: 1.55rem !important;
+  letter-spacing: -.018em !important;
+  color: var(--header-fg) !important;
+}
+
+/* ---- 3. buttons: flat, no gradient, no shimmer --------------------------- */
+.btn-primary,
+.header .btn.btn-primary,
+.btn-cta,
+.why-btn,
+.glow-cta-btn,
+.glow-btn {
+  background: var(--db-optic) !important;
+  background-image: none !important;
+  color: var(--db-optic-ink) !important;
+  border: 1px solid var(--db-optic) !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+  animation: none !important;
+  font-family: var(--font-body) !important;
+  font-weight: 600 !important;
+  transition: filter .18s ease, transform .18s ease !important;
+}
+.btn-primary:hover,
+.header .btn.btn-primary:hover,
+.btn-cta:hover,
+.why-btn:hover,
+.glow-cta-btn:hover { filter: brightness(1.08) !important; transform: none !important; }
+
+/* Legacy rules like `.header .btn.btn-primary` and `.hero-cta .btn` carry more
+   specificity than a bare `.btn-primary`, so they were still forcing --on-brand
+   (dark ink) onto the solid --db-optic fill: 2.29:1 in light. The fill and the ink
+   that sits on it have to travel together, so this pins the ink at a specificity
+   nothing in styles.css reaches. */
+html body :is(a, button).btn.btn-primary,
+html body :is(a, button).btn-cta,
+html body .hero-cta :is(a, button).btn-primary,
+html body .header :is(a, button).btn.btn-primary,
+html body :is(a, button).why-btn,
+html body :is(a, button).glow-cta-btn {
+  background: var(--db-optic) !important;
+  color: var(--db-optic-ink) !important;
+}
+
+.btn-ghost {
+  background: transparent !important;
+  backdrop-filter: none !important;
+  border: 1px solid var(--db-rule-strong) !important;
+  border-radius: 6px !important;
+  color: var(--text-100) !important;
+  font-weight: 600 !important;
+}
+.btn-ghost:hover { border-color: var(--db-optic) !important; color: var(--db-optic) !important; }
+
+/* ---- 4. type ------------------------------------------------------------- */
+h1, h2, h3, .slab-title, .cta-title, .big-statement, .art-title, .reader-title {
+  font-family: var(--display-face) !important;
+  font-weight: 600 !important;
+  letter-spacing: -.018em !important;
+}
+/* the old hero headline ran to ~90px and shouted; Spectral is a text serif and
+   carries far better one step down */
+.hero h1 {
+  font-size: clamp(2.4rem, 5vw, 4.1rem) !important;
+  line-height: 1.03 !important;
+  text-wrap: balance;
+}
+/* gradient text is retired: a single solid colour, emphasis via weight */
+.big-statement, .cta-title span, [class*="grad-text"] {
+  background: none !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: currentColor !important;
+  color: var(--text-100) !important;
+}
+
+/* ---- 5. hero: left-aligned, measured -------------------------------------- */
+.hero { min-height: 0 !important; padding: clamp(3.5rem, 8vw, 6.5rem) 0 clamp(2.5rem, 5vw, 4rem) !important; }
+.hero-content { text-align: left !important; margin-left: 0 !important; }
+.hero-sub {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  max-width: 54ch !important;
+  color: var(--text-300) !important;
+  font-size: clamp(1rem, 1.15vw, 1.12rem) !important;
+}
+.hero-cta { justify-content: flex-start !important; }
+
+/* ---- 6. partner strip: opaque plates so white artwork is legible ---------- */
+.partners { margin-top: clamp(2rem, 4vw, 3rem) !important; }
+.partners-head { justify-content: flex-start !important; }
+.partners-kicker {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace !important;
+  font-size: .68rem !important;
+  letter-spacing: .11em !important;
+  color: var(--muted-fg) !important;
+}
+.partners-kicker::after { display: none !important; }
+.logo-card {
+  background: var(--db-plate) !important;
+  background-image: none !important;
+  border: 1px solid rgba(255, 255, 255, .09) !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  height: 64px !important;
+  min-width: 176px !important;
+  padding: 10px 16px !important;
+}
+.logo-card::before { display: none !important; }
+.logo-card img { max-height: 40px !important; opacity: 1 !important; filter: none !important; }
+
+/* The partner marks are not a consistent set: some are white artwork on transparent,
+   some are dark artwork. One plate colour cannot serve both, and recolouring another
+   organisation's mark is not an option. So the plate follows the artwork.
+   Dark artwork -> light plate. Everything else keeps the dark plate above. */
+.logo-card:has(img[src*="invesco"]),
+.logo-card:has(img[src*="emory"]) {
+  background: #FFFFFF !important;
+  border-color: rgba(15, 23, 42, .14) !important;
+}
+
+/* ---- 7. cards: retire the glass ------------------------------------------ */
+.card, .slab-item, .article-card, .quiz-card, .course-card {
+  backdrop-filter: none !important;
+  border-radius: 6px !important;
+  border: 1px solid var(--db-rule) !important;
+  box-shadow: none !important;
+}
+
+/* ---- 8. focus is visible and consistent ---------------------------------- */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--db-optic) !important;
+  outline-offset: 2px !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; }
+}
