@@ -2,9 +2,9 @@
 // flashcard experience: pick units, pick a mode (multiple choice / fill in
 // the blank), run a session, track progress in localStorage, show a summary.
 //
-// Behavior is ported as-is. In particular `centerOn()` below carries a
-// pre-existing bug (flagged inline) that is NOT fixed here — it belongs to a
-// separate audit.
+// Behavior matches js/flashcard.js as of the arhan/layout-alignment-fix merge:
+// there is no scroll on load, and `centerOn()` aligns elements taller than the
+// space below the sticky header to their top rather than centring them past it.
 
 import { z } from 'zod';
 import type { Flashcard } from '../types';
@@ -257,8 +257,10 @@ export function initFlashcards(): void {
     els.blockProgress.setAttribute('aria-hidden', 'true');
   }
 
-  // Center the Units box on load only (per original design).
-  requestAnimationFrame(() => centerOn(els.blockUnits, { behavior: 'smooth' }));
+  // Deliberately no scroll on load. Centring the Units box sounds harmless, but
+  // that box is ~1030px tall against a ~900px viewport, so "centre it" resolved
+  // to scrollTop 314 — which threw away the header and the page title before the
+  // user had touched anything. A freshly opened page starts at the top.
 }
 
 // ---------- A11Y LIVE REGION (ported for fidelity; unused in original too) ----------
@@ -859,22 +861,24 @@ function updateAnswerToggleLabel(): void {
 }
 
 /**
- * Centers the given element roughly in the viewport (used only on load and
- * on session start).
- *
- * KNOWN BUG — NOT FIXED HERE: this assumes a sticky header whose height
- * should be subtracted from the scroll target, but the offset math doesn't
- * match the real layout, causing an unwanted ~314px scroll on page load.
- * Ported verbatim from js/flashcard.js; flagged for a separate fix, not
- * addressed as part of this port.
+ * Brings an element into view without burying it under the sticky header.
+ * Centring is only safe while the element is shorter than the space below the
+ * header; anything taller must be aligned to its top instead, or the top of the
+ * element (and the header above it) scrolls off-screen.
  */
-function centerOn(el: HTMLElement, { behavior = 'smooth' as ScrollBehavior, offset = 12 } = {}): void {
+function centerOn(el: HTMLElement, { behavior = 'smooth' as ScrollBehavior, offset = 16 } = {}): void {
   const header = document.querySelector<HTMLElement>('.header');
   const headerH = header ? header.offsetHeight : 0;
+  const avail = window.innerHeight - headerH;
   const rect = el.getBoundingClientRect();
-  const elMid = rect.top + window.pageYOffset + rect.height / 2;
-  const targetTop = Math.max(0, elMid - window.innerHeight / 2 - headerH / 2 - offset);
-  window.scrollTo({ top: targetTop, behavior });
+  const elTop = rect.top + window.pageYOffset;
+
+  const targetTop =
+    rect.height > avail
+      ? elTop - headerH - offset
+      : elTop - headerH - offset - (avail - rect.height) / 2;
+
+  window.scrollTo({ top: Math.max(0, targetTop), behavior });
 }
 
 function setAnswerInteractivity(): void {

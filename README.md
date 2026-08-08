@@ -11,6 +11,12 @@ build order. The legacy `*.html`, `css/`, `js/` files at the repo root remain
 live and unported until cutover — do not delete them until the Astro build has
 run in production for one release cycle (see `IMPLEMENTATION.md` §9).
 
+**Before cutover, two things must happen.** Switch the Pages source to GitHub
+Actions (`.github/workflows/deploy.yml` is already in place but does nothing
+while Pages is set to deploy from a branch), and build
+`src/islands/articles-browser.ts` — without it `/articles` renders an empty
+grid. That island is blocked on question Q6 in `IMPLEMENTATION.md` §11.
+
 ## Development
 
 ```bash

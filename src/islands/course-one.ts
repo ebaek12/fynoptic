@@ -8,13 +8,12 @@
 //    instead of trusted blindly. Same for data/id-exercise.json via
 //    parseIdExercise().
 //
-//  - shrinkProgressPanel() is NOT ported. A peer worktree
-//    (fynoptic-layout, commit d19d096, not yet merged) removed this exact
-//    function from js/course-one.js, moving #progress-sidebar's width
-//    from an inline-JS style write to CSS. src/styles/redesign.css
-//    already sets `#progress-sidebar { width: 240px; }` (overriding
-//    legacy.css's 280px) — the same width the removed function used to
-//    force via `style.width`. No further CSS change was needed here.
+//  - shrinkProgressPanel() is NOT ported. arhan/layout-alignment-fix
+//    (d19d096, now merged) removed this exact function from
+//    js/course-one.js, moving #progress-sidebar's geometry from an
+//    inline-JS style write to CSS. src/styles/redesign.css now pins the
+//    rail to the content rail's right edge at width 260px, so the inline
+//    max-width the removed function wrote would only clamp it again.
 //
 //  - The a11y bar (#toggle-hc/#toggle-dys) and #learner-name/#save-name
 //    have no markup anywhere in courseone.html (checked both this

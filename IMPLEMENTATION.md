@@ -1,7 +1,22 @@
 # Fynoptic → Astro + TypeScript: implementation plan
 
-**Status: awaiting approval. Nothing implemented.**
-Branch `worktree-astro-migration-plan`, worktree `.claude/worktrees/astro-migration-plan`.
+**Status: merged to `main`, not cut over.** GitHub Pages still serves the legacy
+`*.html` at the repo root; the Astro build is dormant until the Pages source is
+switched to GitHub Actions.
+
+Built and passing: P0–P6 for eight of the nine pages. `astro check` reports 0
+errors, `npm run build` emits 253 pages, and the build passes the same 318
+runtime assertions as the legacy site (nav/auth contract, image decode, reveal,
+overflow, console errors) plus the one-content-rail check.
+
+**Not built — one known gap.** `src/islands/articles-browser.ts` (§4 target tree)
+does not exist, so `/articles` renders its search, filter and sort chrome over an
+empty `#articles-grid`: zero cards, and the reader modal never opens. The 244
+individual `articles/<id>.html` pages are fine. This is deliberate, not an
+oversight in the merge — the island cannot be written without an answer to **Q6**
+(§5.6, §11), which is a product decision about the synthetic tag/date metadata.
+Answer Q6 before cutover, or `/articles` ships blank.
+
 Supersedes the strategy sketch in `PLAN-astro-migration.md`.
 
 ---
