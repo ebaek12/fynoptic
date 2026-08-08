@@ -628,18 +628,6 @@ h3 {
 /* USER STATE DISPLAY   */
 /* -------------------- */
 
-.user-initials {
-  background: var(--primary-600);
-  color: var(--brand-950);
-  font-weight: 600;
-  font-size: 1rem;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
 /* -------------------- */
 /* AUTH MODALS REFINED  */
 /* -------------------- */
@@ -652,14 +640,16 @@ h3 {
 }
 
 #login-form,
-#signup-form {
+#signup-form,
+#reset-form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
 #login-form input,
-#signup-form input {
+#signup-form input,
+#reset-form input {
   padding: 0.75em 1em;
   background: var(--brand-900);
   border: 1px solid var(--text-300);
@@ -669,7 +659,8 @@ h3 {
 }
 
 #login-form input:focus,
-#signup-form input:focus {
+#signup-form input:focus,
+#reset-form input:focus {
   outline: 2px solid var(--primary-500);
   outline-offset: 2px;
 }
@@ -700,6 +691,15 @@ h3 {
   align-items: center;
   font-weight: 500;
 }
+
+/* inline validation / error text inside the auth forms */
+.form-error {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--danger-400);
+}
+.form-error[hidden] { display: none; }
 
 /* -------------------- */
 /* LINK-STYLE SWITCH    */
@@ -2296,20 +2296,23 @@ outline:2px solid var(--primary-500); outline-offset: 2px;
 }
 /* Make auth modals wider */
 #login-modal .dialog,
-#signup-modal .dialog {
+#signup-modal .dialog,
+#reset-modal .dialog {
 max-width: clamp(560px, 60vw, 720px); /* pick the size you like */
 width: min(720px, calc(100% - 48px)); /* stays responsive */
 }
 /* FINAL override for auth modals */
 #login-modal .dialog,
-#signup-modal .dialog {
+#signup-modal .dialog,
+#reset-modal .dialog {
 max-width: none !important;                 /* remove old clamps */
 width: clamp(560px, 60vw, 720px) !important;/* pick your preferred size */
 }
 
 /* (optional) make fields fill the wider dialog */
 #login-modal input,
-#signup-modal input {
+#signup-modal input,
+#reset-modal input {
 width: 100%;
 box-sizing: border-box;
 }
@@ -2875,7 +2878,8 @@ overflow: hidden;
 
 /* --- Auth modals: never clip; scroll if needed --- */
 #login-modal .dialog,
-#signup-modal .dialog {
+#signup-modal .dialog,
+#reset-modal .dialog {
 /* keep your preferred width but allow vertical scroll */
 width: clamp(560px, 60vw, 720px);
 max-height: calc(100dvh - 2rem);
@@ -3119,7 +3123,8 @@ box-sizing: border-box;
 
 /* B) Auth modals: fully responsive, never cut off */
 #login-modal .dialog,
-#signup-modal .dialog{
+#signup-modal .dialog,
+#reset-modal .dialog{
 width: min(92vw, 560px) !important;  /* fit on iPhone */
 max-width: 92vw !important;
 box-sizing: border-box;

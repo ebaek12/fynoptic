@@ -223,6 +223,62 @@ h1, h2, h3, .slab-title, .cta-title, .big-statement, .art-title, .reader-title {
   outline-offset: 2px !important;
 }
 
+/* ---- 9. nav avatar: the signed-in user's photo, or their initials --------- */
+/* #user-btn now keeps two persistent children in the markup (#nav-avatar and
+   #nav-initials) which auth.js toggles via the `hidden` attribute; it no longer
+   writes innerHTML, so the legacy `.user-initials` class is never generated and
+   had nothing to style. These rules live here rather than in styles.css because
+   section 2 above pins `color` on every `.header .nav` descendant with
+   !important, which a plain declaration in the legacy sheet cannot beat. */
+/* the UA gives <button> `padding: 1px 6px`, which styles.css never cleared. That
+   made the 40px button's content box 24x34, so a child at `height/width: 100%`
+   came out an oval rather than a circle. */
+.user-icon { padding: 0; }
+#nav-avatar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+#nav-initials {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: var(--db-optic);
+  color: var(--db-optic-ink) !important;   /* fill and its ink travel together */
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1;
+}
+/* the display values above would otherwise defeat the `hidden` attribute both
+   children rely on */
+#nav-avatar[hidden],
+#nav-initials[hidden] { display: none; }
+
+/* Signed OUT the button has no visible child at all (#nav-avatar is hidden and
+   #nav-initials is empty), so .user-icon's bare circle rendered as a blank ring.
+   auth.js removes data-modal-open the moment a user is signed in, so that
+   attribute is the signed-out hook — and because the static HTML ships it, the
+   glyph is also correct in the pre-auth frame, with no JS involved.
+   It has to live here: styles.css paints `.user-icon:hover { background: … }` as a
+   shorthand AFTER .user-icon, which resets background-image to none, so an equal-
+   specificity rule has to come later in the cascade to survive hover.
+   The stroke is pinned to #3F6AFF (--primary-600's dark value, i.e. the ring's own
+   colour) rather than currentColor, which a background-image cannot read: the four
+   plates this glyph sits on are #111A2E / #f7fafc at rest and, because :hover
+   inverts the plate, #E6ECFF / #0b1220 on hover. #3F6AFF clears 3:1 against all
+   four, so one declaration covers both themes in both states. */
+.user-icon[data-modal-open] {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233F6AFF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 21v-1.6A5.4 5.4 0 0 0 14.6 14H9.4A5.4 5.4 0 0 0 4 19.4V21'/%3E%3Ccircle cx='12' cy='7.5' r='4'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 23px 23px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; }
 }
