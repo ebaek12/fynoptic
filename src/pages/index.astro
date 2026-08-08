@@ -13,7 +13,11 @@ import Hero from '../components/hero/Hero';
   <section class="hero" role="region" aria-labelledby="hero-heading">
 
     <div class="container hero-content">
-      <!-- Hero island: headline, subhead, CTAs -->
+      <!-- Hero island: headline, subhead, CTAs. client:load (not client:visible):
+           this content is always in the initial viewport, so there's no scroll
+           distance for an IntersectionObserver to save — client:load hydrates
+           it as soon as the bundle is ready instead of waiting on an observer
+           callback for content that's already on screen. -->
       <Hero client:load />
 
       <!-- Partners marquee -->

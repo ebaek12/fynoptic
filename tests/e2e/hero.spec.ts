@@ -47,6 +47,20 @@ test.describe('homepage hero', () => {
     expect(fontFamily).toContain('Helvetica');
   });
 
+  test('subhead uses the muted-foreground token, not a stale legacy color', async ({ page }) => {
+    // The subhead used to carry the legacy `.hero-sub` classname, whose
+    // unlayered `!important` color rule silently beat this Tailwind
+    // `text-muted-foreground` utility the same way the headline's utilities
+    // were beaten before they got the `!` treatment. Fixed by dropping the
+    // legacy class instead. Guard the real computed value so it can't
+    // silently regress back to the old --text-300 color.
+    await page.goto('/');
+    const color = await page
+      .locator('#hero-heading + p')
+      .evaluate((el) => getComputedStyle(el).color);
+    expect(color).toBe('rgb(133, 147, 174)'); // --muted-fg (#8593AE)
+  });
+
   test('rotates through all five words over one full cycle', async ({ page }) => {
     await page.goto('/');
     const words = ['scam', 'setup', 'lie', 'con', 'trap'];

@@ -49,7 +49,13 @@ export function Hero() {
         .
       </h1>
 
-      <p className="hero-sub mt-4 max-w-[54ch] text-[clamp(1rem,1.15vw,1.12rem)] text-muted-foreground">
+      {/* No `hero-sub` legacy classname here on purpose: redesign.css's
+          `.hero-sub { color: var(--text-300) !important }` is unlayered, so it
+          would silently beat this Tailwind `text-muted-foreground` utility the
+          same way it beat the h1's utilities above — dropping the legacy class
+          (rather than adding another `!`) means there's no competing rule to
+          fight in the first place. */}
+      <p className="mt-4 max-w-[54ch] text-[clamp(1rem,1.15vw,1.12rem)] text-muted-foreground">
         Fynoptic is the ultimate free learning platform for consumer awareness.
         Interactive lessons, informative articles, and practice questions.
       </p>
