@@ -1,0 +1,37 @@
+/* Tailwind v4, preflight intentionally excluded.
+   legacy.css already owns the site's base reset across all 9 pages;
+   importing tailwindcss/preflight.css here would re-reset margins,
+   headings, and form elements site-wide and silently break every page
+   except this one. Only theme (tokens) + utilities (classes) are loaded. */
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@theme inline {
+  /* Reuse the site's existing design tokens (legacy.css / redesign.css)
+     instead of introducing a second, competing color system. */
+  --color-background: var(--surface-0);
+  --color-foreground: var(--text-100);
+  --color-card: var(--surface-1);
+  --color-card-foreground: var(--text-100);
+  --color-primary: var(--db-optic);
+  --color-primary-foreground: var(--db-optic-ink);
+  --color-secondary: var(--surface-2);
+  --color-secondary-foreground: var(--text-100);
+  --color-muted: var(--surface-2);
+  --color-muted-foreground: var(--muted-fg);
+  --color-accent: var(--db-optic);
+  --color-accent-foreground: var(--db-optic-ink);
+  --color-destructive: var(--danger-500);
+  --color-border: var(--db-rule);
+  --color-input: var(--input-bg);
+  --color-ring: var(--db-optic);
+  --radius: 6px;
+  --radius-sm: calc(var(--radius) * 0.75);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) * 1.5);
+
+  /* Hero-only display face. Deliberately NOT named --font-sans or
+     --display-face — those are Spectral, site-wide, defined in
+     redesign.css, and untouched by this file. */
+  --font-hero: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
