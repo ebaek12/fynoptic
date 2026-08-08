@@ -1,32 +1,31 @@
 # Fynoptic
 
 Static site, built with [Astro](https://astro.build) + TypeScript, deployed to
-GitHub Pages at [fynoptic.org](https://fynoptic.org).
+Vercel at [fynoptic.org](https://fynoptic.org).
 
 ## Migration status
 
-This repo is mid-migration from plain HTML/CSS/JS to Astro. See
-`IMPLEMENTATION.md` for the full plan, defect register, and phase-by-phase
-build order. The legacy `*.html`, `css/`, `js/` files at the repo root remain
-live and unported until cutover — do not delete them until the Astro build has
-run in production for one release cycle (see `IMPLEMENTATION.md` §9).
+The Astro port is live. `fynoptic.org` serves `dist/` from Vercel; the apex A
+record at GoDaddy points to `76.76.21.21`. See `IMPLEMENTATION.md` for the
+original plan, defect register, and phase-by-phase build order.
 
-**Remaining cutover step:** switch the Pages source to GitHub Actions (Settings
-→ Pages → Source). That is admin-only, and it is the last thing standing
-between the built artifact and the live site. The `push` trigger in
-`.github/workflows/deploy.yml` is already restored and the workflow already
-publishes a Pages deployment on every push — it just is not the deployment the
-domain routes to until the source is flipped. Everything else is built and
-passing.
+The legacy `*.html`, `css/`, `js/` files at the repo root are no longer served.
+They stay as the rollback path until the Astro build has run in production for
+one release cycle (`IMPLEMENTATION.md` §9), then get removed in their own
+commit. `tsconfig.json` already excludes `js/`, so they cost nothing.
 
-Then check one URL by hand: **`/articles`**. `build.format: 'file'` emits both
-`dist/articles.html` (the index) and `dist/articles/` (the 244 detail pages), so
-that one path is ambiguous and how it resolves is the host's choice, not ours.
-It must serve the index, not the directory. If GitHub Pages resolves it to the
-directory instead, the fix is to add `dist/articles/index.html` — either by
-extracting the index into a component rendered at both routes, or by moving the
-detail pages to `/article/<id>`. The legacy site has no `articles/` directory,
-so this cannot affect the site before cutover.
+GitHub Pages is gone: no `deploy.yml`, no `CNAME`. Pages' custom-domain
+mechanism was that file; Vercel reads the domain from the project instead.
+`ci.yml` still runs `npm run check` and `npm run build` on every push and PR.
+
+**`vercel.json` is load-bearing.** Every internal link on the site is
+extensionless (`/courses`, not `/courses.html`) while `build.format: 'file'`
+emits `courses.html`, so `cleanUrls` is what connects the two. Without it every
+route except `/` returns 404. It also settles the one genuinely ambiguous path,
+**`/articles`** — the build emits both `articles.html` (the index) and
+`articles/` (the 244 detail pages), and which one wins is the host's choice, not
+ours. Vercel serves the index, which is correct. Re-check it after any change to
+routing config or `build.format`.
 
 ## Development
 
@@ -56,11 +55,14 @@ src/types.ts  src/schemas.ts   shared types + zod validation for runtime JSON
 
 ## Deploy
 
-`GitHub Actions` builds and deploys `dist/` on every push to `main`
-(`.github/workflows/deploy.yml`). **This requires the repo's Pages source to be
-set to "GitHub Actions"** (Settings → Pages) — it is not yet switched over from
-branch-deploy. See `IMPLEMENTATION.md` §6 for the cutover sequence; flipping
-this setting before the Actions build is verified will take the live site down.
+Vercel builds and deploys on every push to `main` — project `fynoptic` under
+the `fynoptic` team. It auto-detects Astro, runs `npm run build` (which syncs
+`public/` first, then runs `astro check && astro build`) and serves `dist/`.
+Routing config is `vercel.json`; see the note under Migration status before
+changing it.
+
+`IMPLEMENTATION.md` §6 describes a GitHub Pages cutover that was never taken —
+the site moved to Vercel instead. Read it as history, not as instructions.
 
 ## Testing
 
