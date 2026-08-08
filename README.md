@@ -11,11 +11,10 @@ build order. The legacy `*.html`, `css/`, `js/` files at the repo root remain
 live and unported until cutover — do not delete them until the Astro build has
 run in production for one release cycle (see `IMPLEMENTATION.md` §9).
 
-**Before cutover, two things must happen.** Switch the Pages source to GitHub
-Actions (`.github/workflows/deploy.yml` is already in place but does nothing
-while Pages is set to deploy from a branch), and build
-`src/islands/articles-browser.ts` — without it `/articles` renders an empty
-grid. That island is blocked on question Q6 in `IMPLEMENTATION.md` §11.
+**Before cutover:** switch the Pages source to GitHub Actions and restore the
+`push` trigger in `.github/workflows/deploy.yml`. The workflow is manual-only
+today because `actions/deploy-pages` cannot run while Pages deploys from a
+branch. Everything else is built and passing.
 
 ## Development
 
@@ -35,7 +34,7 @@ Node ≥ 22 required (see `.nvmrc`).
 public/       served verbatim at the same URL — assets, data, favicon, CNAME
 src/pages/    one file per route; build.format:'file' keeps /about.html etc.
 src/layouts/  Base.astro — head, fonts, icons, theme
-src/components/  Header, Footer, LoginModal, SiteBg
+src/components/  Header, Footer, SiteBg (auth modals are injected by lib/auth-ui)
 src/lib/      shared typed helpers (auth, reveal, modal, storage, ...)
 src/islands/  page-specific interactive TypeScript
 src/articles/ 244 article bodies, extracted from js/articles-data.js

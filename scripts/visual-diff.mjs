@@ -8,7 +8,7 @@
 // baselines — that comparison logic is intentionally not implemented yet.
 
 import { chromium } from '@playwright/test';
-import { mkdir, writeFile, readdir } from 'node:fs/promises';
+import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 

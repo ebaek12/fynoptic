@@ -4,18 +4,24 @@
 `*.html` at the repo root; the Astro build is dormant until the Pages source is
 switched to GitHub Actions.
 
-Built and passing: P0–P6 for eight of the nine pages. `astro check` reports 0
-errors, `npm run build` emits 253 pages, and the build passes the same 318
-runtime assertions as the legacy site (nav/auth contract, image decode, reveal,
-overflow, console errors) plus the one-content-rail check.
+Built and passing: P0–P6, all nine pages. `astro check` reports 0 errors, 0
+warnings and 0 hints, `npm run build` emits 253 pages, and the build passes the
+same 318 runtime assertions as the legacy site (nav/auth contract, image decode,
+reveal, overflow, console errors) plus the one-content-rail check, 19
+interactive assertions and 17 articles-index assertions.
 
-**Not built — one known gap.** `src/islands/articles-browser.ts` (§4 target tree)
-does not exist, so `/articles` renders its search, filter and sort chrome over an
-empty `#articles-grid`: zero cards, and the reader modal never opens. The 244
-individual `articles/<id>.html` pages are fine. This is deliberate, not an
-oversight in the merge — the island cannot be written without an answer to **Q6**
-(§5.6, §11), which is a product decision about the synthetic tag/date metadata.
-Answer Q6 before cutover, or `/articles` ships blank.
+**Q6 is answered — option (b), drop the dead controls.** `/articles` now renders
+all 244 cards as static HTML at build time and
+`src/islands/articles-browser.ts` narrows what is already there. The tag filter
+and the newest/oldest sort are gone: every article carried the same invented tag
+and a date synthesised from its array index, so those two controls sorted and
+filtered on data that did not exist. Search, "featured order", A–Z, Z–A and
+shortest/longest read all run on real or content-derived values
+(`src/lib/article-summary.ts`). Cards link to the real `/articles/<id>` pages
+rather than a client-side overlay, which is what Q4 was for.
+
+Success criterion S4 is met with room to spare: the articles index first-load JS
+is **2.3 KB** (plus the 10 KB shared Base bundle), down from 6.1 MB.
 
 Supersedes the strategy sketch in `PLAN-astro-migration.md`.
 
