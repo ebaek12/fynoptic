@@ -50,7 +50,12 @@ git clone --quiet --depth 1 "$REMOTE" "$TMPCHK/probe"
 # and then excluded from the path itself -- do not collapse these branches
 # into one character class.
 MP4_RE='(src|href)=["'"'"'][^"'"'"']*\.mp4|url\([^)]*\.mp4'
+# .astro and .ts are in the list because the Astro rewrite landed after this
+# script was written: src/pages/courseone.astro carries its own copies of the
+# three <source src> tags, and missing them would let the purge run while the
+# migrated site still points at local videos.
 REFS="$(grep -rIlE --include='*.html' --include='*.css' --include='*.js' \
+          --include='*.astro' --include='*.ts' \
           "$MP4_RE" "$TMPCHK/probe" 2>/dev/null || true)"
 if [ -n "$REFS" ]; then
   echo
