@@ -224,9 +224,25 @@ img {
   max-width: 100%;
   display: block;
 }
+/* text-decoration stays universal: shadcn button-rendered links never want
+   an underline and no Tailwind utility ever fights that, so there's nothing
+   to exclude them from. color is split into its own rule below because
+   that's the one Tailwind's layered utilities (text-primary-foreground
+   etc.) need to win — this reset is unlayered, so it always beats a @layer
+   utility regardless of specificity or source order, leaving a shadcn
+   <Button asChild><a>...</a></Button> tinted by inherited ambient text
+   instead of its own foreground token (and failing contrast against its
+   bg-primary background) if left unexcluded. */
 a {
-  color: inherit;
   text-decoration: none;
+}
+/* Excludes shadcn button-rendered links (data-slot="button") from the color
+   reset above. Wrapped in :where() so it adds zero specificity — a bare
+   :not([data-slot]) would raise this selector's specificity above every
+   single-class link rule below (.nav-links a, .footer-links a, …), letting
+   the reset win where it used to lose and re-tinting those links too. */
+a:not(:where([data-slot="button"])) {
+  color: inherit;
 }
 ul {
   list-style: none;
@@ -5766,7 +5782,13 @@ body[data-cat="Economics"] .topics-card {
 /* ---------- BASE ---------- */
 *{box-sizing:border-box} html{scroll-behavior:smooth}
 body{margin:0;background:var(--brand-950);color:var(--text-100);font-family:var(--font-body);line-height:1.6}
-a{text-decoration:none;color:inherit} img{max-width:100%;display:block}
+/* Same shadcn-button exclusion as the `a` reset near the top of this file
+   (see the comment there) — this is a second, later-in-source occurrence of
+   the identical unlayered `color: inherit` reset, and same-specificity CSS
+   resolves ties by source order, so this one — not the one above — was the
+   rule actually winning against Tailwind's layered text-primary-foreground
+   utility. Both must exclude data-slot="button" or the fix above is a no-op. */
+a{text-decoration:none}a:not(:where([data-slot="button"])){color:inherit} img{max-width:100%;display:block}
 .container{max-width:var(--container-max);margin:0 auto;padding:0 var(--gutter)}
 
 /* ---------- TYPE ---------- */
