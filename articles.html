@@ -17,6 +17,7 @@
   <!-- Fonts — must match --font-head / --font-body in styles.css. Keep identical on every page. -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://www.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
 
   <!-- Icons — keep this block identical on every page -->
@@ -61,6 +62,10 @@
 
       <div class="nav-actions">
         <a href="courses.html" class="btn btn-primary" data-track="cta_click">Start the free course</a>
+        <button id="user-btn" class="user-icon" aria-label="Sign in" data-modal-open="login-modal">
+          <img id="nav-avatar" alt="" hidden />
+          <span id="nav-initials" aria-hidden="true"></span>
+        </button>
       </div>
     </nav>
 

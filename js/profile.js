@@ -5,14 +5,14 @@ import {
     onAuthStateChanged,
     updateProfile,
     sendEmailVerification
-  } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+  } from "https://www.gstatic.com/firebasejs/12.17.1/firebase-auth.js";
   
   import {
     getStorage,
     ref as sRef,
     uploadBytesResumable,
     getDownloadURL
-  } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js";
+  } from "https://www.gstatic.com/firebasejs/12.17.1/firebase-storage.js";
   
   /* DOM + toasts */
   const $ = (sel) => document.querySelector(sel);
