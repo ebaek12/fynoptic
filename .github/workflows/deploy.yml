@@ -1,9 +1,15 @@
 name: Deploy
 
+# Manual-only until cutover. GitHub Pages for this repo is still in "legacy"
+# mode (deploy from branch main, path /), which is what serves the plain .html
+# files at the repo root. While that is the case actions/deploy-pages fails,
+# so a push trigger would put a red X on every commit without changing the
+# site. At cutover: set Settings -> Pages -> Source to "GitHub Actions", then
+# restore the push trigger below.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
+  # push:
+  #   branches: [main]
 
 permissions:
   contents: read
