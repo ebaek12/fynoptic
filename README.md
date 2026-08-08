@@ -64,10 +64,21 @@ src/types.ts  src/schemas.ts   shared types + zod validation for runtime JSON
 ## Deploy
 
 Vercel builds and deploys on every push to `main` — project `fynoptic` under
-the `fynoptic` team. It auto-detects Astro, runs `npm run build` (which syncs
-`public/` first, then runs `astro check && astro build`) and serves `dist/`.
-Routing config is `vercel.json`; see the note under Migration status before
-changing it.
+the `fynoptic` team. It runs `npm run build` (which syncs `public/` first, then
+runs `astro check && astro build`) and serves `dist/`.
+
+Do not rely on Vercel's framework auto-detection. The project was created with
+preset `Other` and output directory `public`, which is wrong for Astro, so
+`framework`, `buildCommand`, `outputDirectory` and `installCommand` are pinned
+in `vercel.json`. Those override the dashboard settings, which means the repo
+describes its own build and a fresh project link cannot silently mis-deploy.
+
+The Git integration is also load-bearing and easy to lose: transferring the
+repo between GitHub owners **silently disconnects it**, and pushes then land on
+`main` with no deploy and no error anywhere. That happened during the
+`ebaek12` → `arhanbarve` transfer. If a change is on `main` but not live, check
+`vercel ls` first — a production deployment older than the commit means the
+hook is gone. Reconnect with `vercel git connect <repo-url>`.
 
 `IMPLEMENTATION.md` §6 describes a GitHub Pages cutover that was never taken —
 the site moved to Vercel instead. Read it as history, not as instructions.

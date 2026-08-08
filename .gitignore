@@ -23,3 +23,5 @@ tests/baseline/*.png
 
 # Claude Code session state and its git worktrees — never commit these.
 .claude/
+.vercel
+.env*
