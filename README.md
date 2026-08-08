@@ -16,6 +16,15 @@ run in production for one release cycle (see `IMPLEMENTATION.md` §9).
 today because `actions/deploy-pages` cannot run while Pages deploys from a
 branch. Everything else is built and passing.
 
+Then check one URL by hand: **`/articles`**. `build.format: 'file'` emits both
+`dist/articles.html` (the index) and `dist/articles/` (the 244 detail pages), so
+that one path is ambiguous and how it resolves is the host's choice, not ours.
+It must serve the index, not the directory. If GitHub Pages resolves it to the
+directory instead, the fix is to add `dist/articles/index.html` — either by
+extracting the index into a component rendered at both routes, or by moving the
+detail pages to `/article/<id>`. The legacy site has no `articles/` directory,
+so this cannot affect the site before cutover.
+
 ## Development
 
 ```bash
