@@ -1,11 +1,14 @@
 #!/usr/bin/env node
 // Visual regression harness for the Astro migration.
 //
-// --capture-baseline: screenshots the CURRENT plain-HTML site (served over
-// http://localhost:8940) at every {page} x {theme} x {viewport} combination
-// and stores them under tests/baseline/. Later phases will add a diff mode
-// that re-captures the ported Astro pages and compares them against these
-// baselines — that comparison logic is intentionally not implemented yet.
+// --capture-baseline: screenshots the site served over http://localhost:8940
+// at every {page} x {theme} x {viewport} combination and stores them under
+// tests/baseline/. Later phases will add a diff mode that re-captures and
+// compares against these baselines — that logic is not implemented yet.
+//
+// This originally captured the legacy plain-HTML site at the repo root as the
+// reference to port against. Those files are gone, so point it at
+// `npm run preview` instead; it now compares Astro against Astro.
 
 import { chromium } from '@playwright/test';
 import { mkdir, writeFile } from 'node:fs/promises';

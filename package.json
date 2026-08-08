@@ -15,7 +15,6 @@
     "check": "astro check",
     "lint": "eslint . --ext .js,.ts,.astro",
     "format": "prettier --write \"**/*.{ts,astro,css,md,json}\"",
-    "extract-articles": "node scripts/extract-articles.mjs && node scripts/verify-articles.mjs",
     "test:visual": "node scripts/visual-diff.mjs",
     "test:e2e": "playwright test"
   },

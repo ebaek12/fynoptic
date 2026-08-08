@@ -120,8 +120,12 @@ echo "== rewriting =="
 # *.mp4          -- three course videos, ~70 MB. Lived at the repo root
 #                   before commit 4ffedfa moved them into assets/video/, so
 #                   this must match by glob, not by path.
-# articles-data.js -- 13 stale revisions (~27 MB) at the old root path. The
-#                   live file is js/articles-data.js and is NOT touched.
+# articles-data.js -- 13 stale revisions (~27 MB) at the old root path.
+#                   js/articles-data.js was deleted along with the rest of the
+#                   legacy site; its 6.1 MB is still in history and is NOT
+#                   purged here. Add `--path js/articles-data.js` to reclaim
+#                   it, but note that is one-way: the extracted articles under
+#                   src/articles/ become the only surviving copy.
 git -C "$OUT" filter-repo --force --invert-paths \
   --path-glob '*.mp4' \
   --path articles-data.js

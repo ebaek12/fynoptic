@@ -9,14 +9,21 @@ The Astro port is live. `fynoptic.org` serves `dist/` from Vercel; the apex A
 record at GoDaddy points to `76.76.21.21`. See `IMPLEMENTATION.md` for the
 original plan, defect register, and phase-by-phase build order.
 
-The legacy `*.html`, `css/`, `js/` files at the repo root are no longer served.
-They stay as the rollback path until the Astro build has run in production for
-one release cycle (`IMPLEMENTATION.md` §9), then get removed in their own
-commit. `tsconfig.json` already excludes `js/`, so they cost nothing.
+The legacy `*.html`, `css/` and `js/` files at the repo root are gone. They were
+removed once the Astro build was serving production; the rollback path is the
+git history and the `pre-merge-backup-20260807` tag, not a second copy in the
+working tree. Deleting them changed `dist/` by nothing — the output was
+byte-identical before and after.
+
+Their 78 MB is still in history, so the repo is ~81 MB packed until
+`scripts/purge-media-history.sh` runs.
 
 GitHub Pages is gone: no `deploy.yml`, no `CNAME`. Pages' custom-domain
 mechanism was that file; Vercel reads the domain from the project instead.
 `ci.yml` still runs `npm run check` and `npm run build` on every push and PR.
+
+`www.fynoptic.org` is attached to the Vercel project and redirects to the apex
+via the `redirects` rule in `vercel.json`.
 
 **`vercel.json` is load-bearing.** Every internal link on the site is
 extensionless (`/courses`, not `/courses.html`) while `build.format: 'file'`
@@ -42,13 +49,14 @@ Node ≥ 22 required (see `.nvmrc`).
 ## Structure
 
 ```
-public/       served verbatim at the same URL — assets, data, favicon, CNAME
+public/       served verbatim at the same URL — assets, data, favicon
 src/pages/    one file per route; build.format:'file' keeps /about.html etc.
 src/layouts/  Base.astro — head, fonts, icons, theme
 src/components/  Header, Footer, SiteBg (auth modals are injected by lib/auth-ui)
 src/lib/      shared typed helpers (auth, reveal, modal, storage, ...)
 src/islands/  page-specific interactive TypeScript
-src/articles/ 244 article bodies, extracted from js/articles-data.js
+src/articles/ 244 article bodies; the js/articles-data.js they came from is
+              deleted, so these are the source of truth now
 src/data/     typed manifests (e.g. article metadata)
 src/types.ts  src/schemas.ts   shared types + zod validation for runtime JSON
 ```
