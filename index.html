@@ -40,7 +40,7 @@
   <!-- Header -->
   <header class="header" role="banner">
     <nav class="nav container" role="navigation" aria-label="Main navigation">
-      <a href="index.html" class="logo" aria-label="Fynoptic Home">
+      <a href="/" class="logo" aria-label="Fynoptic Home">
         <img src="assets/img/fynopticlogo.png" alt="Fynoptic logo" />
         <span class="logo-text">Fynoptic</span>
       </a>
@@ -52,15 +52,15 @@
       </button>
 
       <ul class="nav-links" id="desktop-nav">
-        <li><a href="courses.html">Course</a></li>
-        <li><a href="articles.html">Articles</a></li>
-        <li><a href="flashcard.html">Flashcards</a></li>
-        <li><a href="practice.html">Practice</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="/courses">Course</a></li>
+        <li><a href="/articles">Articles</a></li>
+        <li><a href="/flashcard">Flashcards</a></li>
+        <li><a href="/practice">Practice</a></li>
+        <li><a href="/about">About</a></li>
       </ul>
 
       <div class="nav-actions">
-        <a href="courses.html" class="btn btn-primary cta-desktop" data-track="cta_click">Start the free course</a>
+        <a href="/courses" class="btn btn-primary cta-desktop" data-track="cta_click">Start the free course</a>
         <button id="user-btn" class="user-icon" aria-label="Sign in" data-modal-open="login-modal">
           <img id="nav-avatar" alt="" hidden />
           <span id="nav-initials" aria-hidden="true"></span>
@@ -72,12 +72,12 @@
     <div id="mobile-menu" class="mobile-menu" hidden>
       <button class="menu-close" aria-label="Close menu">&times;</button>
       <ul>
-        <li><a href="courses.html">Course</a></li>
-        <li><a href="articles.html">Articles</a></li>
-        <li><a href="flashcard.html">Flashcards</a></li>
-        <li><a href="practice.html">Practice</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="courses.html" class="btn btn-primary" data-track="cta_click">Start the free course</a></li>
+        <li><a href="/courses">Course</a></li>
+        <li><a href="/articles">Articles</a></li>
+        <li><a href="/flashcard">Flashcards</a></li>
+        <li><a href="/practice">Practice</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/courses" class="btn btn-primary" data-track="cta_click">Start the free course</a></li>
       </ul>
     </div>
   </header>
@@ -97,8 +97,8 @@
         </p>
 
         <div class="hero-cta reveal-up delay-2">
-          <a href="courses.html" class="btn btn-primary" data-track="cta_click">Start the free course</a>
-          <a href="practice.html" class="btn btn-ghost">Try Practice mode</a>
+          <a href="/courses" class="btn btn-primary" data-track="cta_click">Start the free course</a>
+          <a href="/practice" class="btn btn-ghost">Try Practice mode</a>
         </div>
 
         <!-- Coverflow Carousel (5 placeholders) -->
@@ -200,7 +200,7 @@
       Join thousands of users who trust Fynoptic for clear, fast, fee-saving decisions.
     </p>
 
-    <a href="courses.html" class="btn btn-cta" data-track="cta_click">
+    <a href="/courses" class="btn btn-cta" data-track="cta_click">
       Get started now
       <svg class="cta-arrow" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
         <path d="M7 17l10-10M11 7h6v6" fill="none" stroke="currentColor" stroke-width="2"
@@ -238,10 +238,10 @@
         <p class="footer-tagline">Helping people identify and avoid junk fees, dark patterns, and subscription traps.</p>
       </div>
       <div class="footer-links">
-        <a href="courses.html">Course</a>
-        <a href="articles.html">Articles</a>
-        <a href="flashcard.html">Flashcards</a>
-        <a href="practice.html">Practice</a>
+        <a href="/courses">Course</a>
+        <a href="/articles">Articles</a>
+        <a href="/flashcard">Flashcards</a>
+        <a href="/practice">Practice</a>
       </div>
       <div class="footer-contact"><p>info@fynoptic.org</p></div>
     </div>
@@ -276,35 +276,44 @@
   // Stagger index for cards
   document.querySelectorAll('.slab-item').forEach((n,i)=>n.style.setProperty('--i', i));
 
-  // IntersectionObserver: trigger when mostly visible (arrive late)
+  // Reveal-on-scroll, with a floor under it.
+  //
+  // .reveal-section / .reveal-card / .reveal-cta all sit at opacity:0 and are
+  // raised only by .in-view. That makes the observer load-bearing for *content*,
+  // not just for motion — and at threshold 0.6 it was too easy to miss. The
+  // "why" section is 506px and the final CTA 535px; requiring 60% of a half-
+  // viewport band to be visible, minus a 10% bottom margin, meant a fast scroll,
+  // a short window, a background tab, or any headless render left both sections
+  // permanently blank. That reproduced as ~1,000px of empty page above the
+  // footer.
+  //
+  // Two changes: fire early (12% is plenty to start a 600ms fade), and keep a
+  // timer that reveals anything still hidden so a missed callback can never cost
+  // the user the content.
   (function(){
+    const SELECTOR = '.reveal-prism, .reveal-section, .reveal-card, .reveal-cta, .why-slab';
+    const targets = [...document.querySelectorAll(SELECTOR)];
+    const show = el => { el.classList.add('in-view'); };
+
+    if (!('IntersectionObserver' in window)) { targets.forEach(show); return; }
+
     const io = new IntersectionObserver((entries)=>{
       entries.forEach(e=>{
         if(e.isIntersecting){
-          e.target.classList.add('in-view');
+          show(e.target);
           io.unobserve(e.target);
         }
       });
-    }, { threshold: 0.6, rootMargin: '0px 0px -10% 0px' }); // ~60% in view
+    }, { threshold: 0.12, rootMargin: '0px 0px -5% 0px' });
 
-    document.querySelectorAll('.reveal-prism, .reveal-section, .reveal-card').forEach(n=>io.observe(n));
-    // also mark the whole "why" section for title underline
-    const why = document.querySelector('.why-slab');
-    if (why) io.observe(why);
-  })();
-</script>
-<script>
-  (function(){
-    const io = new IntersectionObserver((entries)=>{
-      entries.forEach(e=>{
-        if(e.isIntersecting){
-          e.target.classList.add('in-view');
-          io.unobserve(e.target);
-        }
+    targets.forEach(n=>io.observe(n));
+
+    // Safety net: whatever has not been reached by now gets revealed outright.
+    setTimeout(()=>{
+      targets.forEach(el=>{
+        if(!el.classList.contains('in-view')){ show(el); io.unobserve(el); }
       });
-    }, { threshold: 0.6, rootMargin: '0px 0px -10% 0px' });
-
-    document.querySelectorAll('.reveal-cta').forEach(n=>io.observe(n));
+    }, 2500);
   })();
 </script>
 

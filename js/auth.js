@@ -170,7 +170,7 @@ onAuthStateChanged(auth, (user) => {
   if (user) {
     btn.removeAttribute("data-modal-open");
     btn.setAttribute("aria-label", "Your profile");
-    btn.onclick = () => { window.location.href = "profile.html"; };
+    btn.onclick = () => { window.location.href = "/profile"; };
     showAvatar(user.photoURL, user);
   } else {
     if (img) {
