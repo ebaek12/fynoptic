@@ -7,8 +7,8 @@
 | File | Size | Used by |
 |---|---|---|
 | `video1.mp4` | 24 MB | Module 1, "Why dark patterns exist" |
-| `vidoe2.mp4` | 24 MB | Module 2, "The eight families in 90 seconds" |
-| `course3.mp4` | 24 MB | Module 3, "The three actions that fix most situations" |
+| `video2.mp4` | 24 MB | Module 2, "The eight families in 90 seconds" |
+| `video3.mp4` | 24 MB | Module 3, "The three actions that fix most situations" |
 
 They are 86% of the 81 MB repository. Three separate costs:
 
@@ -59,8 +59,8 @@ protection.
 1. Create a Cloudflare account. You do **not** have to move `fynoptic.org`'s DNS
    to Cloudflare for this to work — the `r2.dev` URL is enough to start.
 2. **R2 → Create bucket**, name it `fynoptic-media`. Pick the automatic region.
-3. Upload the three files from `assets/video/`. Keep the existing filenames,
-   typo included (`vidoe2.mp4`), so the only change in the HTML is the prefix.
+3. Upload the three files from `assets/video/`. Keep the existing filenames
+   so the only change in the HTML is the prefix.
 4. **Bucket → Settings → Public access.** Either:
    - enable the `r2.dev` development URL — instant, gives you
      `https://pub-<hash>.r2.dev/video1.mp4`, rate-limited and not meant for
