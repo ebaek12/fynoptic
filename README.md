@@ -11,10 +11,13 @@ build order. The legacy `*.html`, `css/`, `js/` files at the repo root remain
 live and unported until cutover — do not delete them until the Astro build has
 run in production for one release cycle (see `IMPLEMENTATION.md` §9).
 
-**Before cutover:** switch the Pages source to GitHub Actions and restore the
-`push` trigger in `.github/workflows/deploy.yml`. The workflow is manual-only
-today because `actions/deploy-pages` cannot run while Pages deploys from a
-branch. Everything else is built and passing.
+**Remaining cutover step:** switch the Pages source to GitHub Actions (Settings
+→ Pages → Source). That is admin-only, and it is the last thing standing
+between the built artifact and the live site. The `push` trigger in
+`.github/workflows/deploy.yml` is already restored and the workflow already
+publishes a Pages deployment on every push — it just is not the deployment the
+domain routes to until the source is flipped. Everything else is built and
+passing.
 
 Then check one URL by hand: **`/articles`**. `build.format: 'file'` emits both
 `dist/articles.html` (the index) and `dist/articles/` (the 244 detail pages), so

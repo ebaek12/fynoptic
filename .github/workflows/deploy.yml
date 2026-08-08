@@ -1,15 +1,16 @@
 name: Deploy
 
-# Manual-only until cutover. GitHub Pages for this repo is still in "legacy"
-# mode (deploy from branch main, path /), which is what serves the plain .html
-# files at the repo root. While that is the case actions/deploy-pages fails,
-# so a push trigger would put a red X on every commit without changing the
-# site. At cutover: set Settings -> Pages -> Source to "GitHub Actions", then
-# restore the push trigger below.
+# Builds dist/ and publishes it as the Pages artifact on every push to main.
+#
+# This only reaches the live site once Pages Source is "GitHub Actions"
+# (build_type 'workflow'). Until then the branch build keeps serving the legacy
+# .html at the repo root and this workflow still succeeds — the earlier note
+# here claimed actions/deploy-pages errors under branch-deploy; run 31237197353
+# shows it does not, it just publishes a deployment nothing routes to yet.
 on:
   workflow_dispatch:
-  # push:
-  #   branches: [main]
+  push:
+    branches: [main]
 
 permissions:
   contents: read
