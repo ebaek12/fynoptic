@@ -4,7 +4,16 @@
    headings, and form elements site-wide and silently break every page
    except this one. Only theme (tokens) + utilities (classes) are loaded. */
 @import "tailwindcss/theme.css" layer(theme);
-@import "tailwindcss/utilities.css" layer(utilities);
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
+
+/* Tailwind's default content scanner walks the whole project (respecting
+   .gitignore), which sweeps up incidental "rounded"/"rounded-md"-looking
+   text in article prose and planning docs under docs/ and generates bogus
+   utility CSS for classes nobody actually uses. source(none) above turns
+   off automatic detection; these @source lines opt back in only the
+   directories where Tailwind classes are actually authored. */
+@source "../components/**/*.{tsx,jsx,astro}";
+@source "../pages/**/*.astro";
 
 @theme inline {
   /* Reuse the site's existing design tokens (legacy.css / redesign.css)
@@ -25,10 +34,14 @@
   --color-border: var(--db-rule);
   --color-input: var(--input-bg);
   --color-ring: var(--db-optic);
-  --radius: 6px;
-  --radius-sm: calc(var(--radius) * 0.75);
-  --radius-md: var(--radius);
-  --radius-lg: calc(var(--radius) * 1.5);
+  /* legacy.css already defines --radius-sm/-md/-lg unlayered in :root and
+     those always win the cascade over anything declared here (unlayered
+     beats layered regardless of source order) — so this intentionally does
+     NOT redeclare those names. Tailwind's shadcn-style components read the
+     bare --radius token, which is pointed at the site's own --radius-md so
+     new components get the same corner rounding as everything else instead
+     of a second, unreachable scale. */
+  --radius: var(--radius-md);
 
   /* Hero-only display face. Deliberately NOT named --font-sans or
      --display-face — those are Spectral, site-wide, defined in
