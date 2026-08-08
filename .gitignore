@@ -20,3 +20,6 @@ public/CNAME
 # `node scripts/visual-diff.mjs --capture-baseline`. The JSON manifests
 # alongside them are small and tracked.
 tests/baseline/*.png
+
+# Claude Code session state and its git worktrees — never commit these.
+.claude/

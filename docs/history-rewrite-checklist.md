@@ -24,21 +24,25 @@ root until commit `4ffedfa` moved them into `assets/video/`, so
 
 Both are enforced by the script, which refuses to run otherwise.
 
-1. **The videos are already on the CDN.** Purging `*.mp4` removes them from
-   the working tree as well as from history. If `courseone.html` still
-   points at `assets/video/*.mp4`, the rewrite ships three broken players.
-   Migrate first, update the three `<source src>` tags, merge that.
+1. **The videos are already on the CDN** — see `docs/cdn-setup.md` for the
+   walkthrough. **Still outstanding.** Purging `*.mp4` removes them from the
+   working tree as well as from history, so if `courseone.html` and
+   `src/pages/courseone.astro` still point at `assets/video/*.mp4`, the rewrite
+   ships six broken players. Migrate first, update the six `<source src>` tags,
+   merge that.
 
-2. **Every branch is merged.** A rewrite orphans anything based on the old
-   history. As of writing there were six worktrees on `ab24e9c`
+2. **Every branch is merged. Done.** A rewrite orphans anything based on the old
+   history. The five branches that were outstanding on `ab24e9c`
    (`image-compression`, `layout-alignment-fix`, `astro-migration-plan`,
-   `auth-overhaul`, `history-rewrite-tooling`, plus `main`). Get them all
-   into `main` and delete the branches before rewriting.
+   `auth-overhaul`, `history-rewrite-tooling`) are all merged into `main`.
+   Delete the branches and remove the worktrees under `.claude/worktrees/`
+   before rewriting, and confirm no other session is still working in them.
 
 ## Order of operations
 
 1. Merge every outstanding branch into `main`. Push.
-2. Migrate the videos to the CDN. Update `courseone.html`. Merge. Push.
+2. Migrate the videos to the CDN (`docs/cdn-setup.md`). Update `courseone.html`
+   and `src/pages/courseone.astro`. Merge. Push.
 3. Tell everyone with a clone to push whatever they have, then stop working.
 4. Run `scripts/purge-media-history.sh`. It writes a rewritten clone to
    `~/Code/fynoptic-rewritten` and pushes nothing.
