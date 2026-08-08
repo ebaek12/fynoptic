@@ -27,14 +27,16 @@ export function Hero() {
     >
       {/* redesign.css's sitewide `h1 { font-family: var(--display-face) !important }`
           (used for the legacy Spectral display headings) outranks a plain inline
-          style — !important always beats a non-important declaration regardless of
-          specificity. An ID-scoped !important rule is the minimal way to let this
-          heading keep the hero-only Helvetica stack without touching that file. */}
-      <style>{'#hero-heading{font-family:var(--font-hero) !important}'}</style>
+          style. The trailing `!` makes this an !important Tailwind utility, and
+          Tailwind's utilities live in globals.css's `@layer utilities` while
+          redesign.css is unlayered — for !important declarations, layered rules
+          always outrank unlayered ones regardless of selector specificity, so
+          this reliably keeps the hero-only Helvetica stack without touching that
+          file. `id="hero-heading"` is required separately: index.astro's hero
+          section reads it via aria-labelledby. */}
       <h1
         id="hero-heading"
-        className="max-w-[22ch] text-[clamp(2rem,3.4vw,3.15rem)] font-bold leading-[1.06] tracking-[-0.02em] text-foreground"
-        style={{ fontFamily: 'var(--font-hero)' }}
+        className="max-w-[22ch] text-[clamp(2rem,3.4vw,3.15rem)] font-bold leading-[1.06] tracking-[-0.02em] text-foreground [font-family:var(--font-hero)]!"
       >
         See through the{' '}
         <RotatingWord
