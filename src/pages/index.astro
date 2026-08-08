@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Hero from '../components/hero/Hero';
 ---
 <Base
   title="Take your first step towards financial freedom."
@@ -12,21 +13,13 @@ import Base from '../layouts/Base.astro';
   <section class="hero" role="region" aria-labelledby="hero-heading">
 
     <div class="container hero-content">
-      <!-- Headline (unchanged text) -->
-      <h1 id="hero-heading" class="reveal-up">Take your first step<br />toward financial freedom.</h1>
+      <!-- Hero island: headline, subhead, CTAs. client:load (not client:visible):
+           this content is always in the initial viewport, so there's no scroll
+           distance for an IntersectionObserver to save — client:load hydrates
+           it as soon as the bundle is ready instead of waiting on an observer
+           callback for content that's already on screen. -->
+      <Hero client:load />
 
-      <!-- New, more practical value prop -->
-      <p class="hero-sub reveal-up delay-1">
-        Fynoptic is the ultimate free learning platform for consumer awareness.
-        Interactive lessons, informative articles, and practice questions.
-      </p>
-
-      <div class="hero-cta reveal-up delay-2">
-        <a href="/courses" class="btn btn-primary" data-track="cta_click">Start the free course</a>
-        <a href="/practice" class="btn btn-ghost">Try Practice mode</a>
-      </div>
-
-      <!-- Coverflow Carousel (5 placeholders) -->
       <!-- Partners marquee -->
       <div class="partners reveal-up delay-3">
         <div class="partners-head">

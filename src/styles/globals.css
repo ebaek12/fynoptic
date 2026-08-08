@@ -1,0 +1,50 @@
+/* Tailwind v4, preflight intentionally excluded.
+   legacy.css already owns the site's base reset across all 9 pages;
+   importing tailwindcss/preflight.css here would re-reset margins,
+   headings, and form elements site-wide and silently break every page
+   except this one. Only theme (tokens) + utilities (classes) are loaded. */
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
+
+/* Tailwind's default content scanner walks the whole project (respecting
+   .gitignore), which sweeps up incidental "rounded"/"rounded-md"-looking
+   text in article prose and planning docs under docs/ and generates bogus
+   utility CSS for classes nobody actually uses. source(none) above turns
+   off automatic detection; these @source lines opt back in only the
+   directories where Tailwind classes are actually authored. */
+@source "../components/**/*.{tsx,jsx,astro}";
+@source "../pages/**/*.astro";
+
+@theme inline {
+  /* Reuse the site's existing design tokens (legacy.css / redesign.css)
+     instead of introducing a second, competing color system. */
+  --color-background: var(--surface-0);
+  --color-foreground: var(--text-100);
+  --color-card: var(--surface-1);
+  --color-card-foreground: var(--text-100);
+  --color-primary: var(--db-optic);
+  --color-primary-foreground: var(--db-optic-ink);
+  --color-secondary: var(--surface-2);
+  --color-secondary-foreground: var(--text-100);
+  --color-muted: var(--surface-2);
+  --color-muted-foreground: var(--muted-fg);
+  --color-accent: var(--db-optic);
+  --color-accent-foreground: var(--db-optic-ink);
+  --color-destructive: var(--danger-500);
+  --color-border: var(--db-rule);
+  --color-input: var(--input-bg);
+  --color-ring: var(--db-optic);
+  /* legacy.css already defines --radius-sm/-md/-lg unlayered in :root and
+     those always win the cascade over anything declared here (unlayered
+     beats layered regardless of source order) — so this intentionally does
+     NOT redeclare those names. Tailwind's shadcn-style components read the
+     bare --radius token, which is pointed at the site's own --radius-md so
+     new components get the same corner rounding as everything else instead
+     of a second, unreachable scale. */
+  --radius: var(--radius-md);
+
+  /* Hero-only display face. Deliberately NOT named --font-sans or
+     --display-face — those are Spectral, site-wide, defined in
+     redesign.css, and untouched by this file. */
+  --font-hero: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
