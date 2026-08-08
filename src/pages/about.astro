@@ -1,0 +1,73 @@
+---
+import Base from '../layouts/Base.astro';
+import '../styles/about.css';
+---
+<Base
+  title="About • Fynoptic"
+  description="About Fynoptic — Meet the founders and our partners."
+  canonical="/about"
+  ogTitle="About • Fynoptic"
+  ogDescription="Meet the founders and our partners."
+>
+  <section class="founders-slab" role="region" aria-labelledby="founders-title">
+    <div class="container">
+      <h1 id="founders-title" class="slab-title">Meet the founders</h1>
+
+      <div class="founders-grid">
+        <article class="founder-card" tabindex="0">
+          <div class="portrait" aria-hidden="true">
+            <img src="/assets/img/arhananan.png" alt="" />
+            <span class="shine" aria-hidden="true"></span>
+            <span class="ring" aria-hidden="true"></span>
+          </div>
+          <div class="founder-meta">
+            <h3 class="founder-name">Arhan Barve</h3>
+            <p class="founder-title">Co-founder &amp; President</p>
+          </div>
+        </article>
+
+        <article class="founder-card" tabindex="0">
+          <div class="portrait" aria-hidden="true">
+            <img src="/assets/img/ethannn.png" alt="" />
+            <span class="shine" aria-hidden="true"></span>
+            <span class="ring" aria-hidden="true"></span>
+          </div>
+          <div class="founder-meta">
+            <h3 class="founder-name">Ethan Baek</h3>
+            <p class="founder-title">Co-founder &amp; Vice President</p>
+          </div>
+        </article>
+
+        <article class="founder-card" tabindex="0">
+          <div class="portrait" aria-hidden="true">
+            <img src="/assets/img/oihgfsogh.png" alt="" />
+            <span class="shine" aria-hidden="true"></span>
+            <span class="ring" aria-hidden="true"></span>
+          </div>
+          <div class="founder-meta">
+            <h3 class="founder-name">Vishwa Rajan</h3>
+            <p class="founder-title">Co-Founder &amp; Head of Outreach</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="partners-slab" role="region" aria-labelledby="partners-title">
+    <div class="container">
+      <h2 id="partners-title" class="slab-title">Our partners</h2>
+
+      <ul class="partners-grid" role="list" aria-label="Partner logos">
+        <li class="partner-cell"><img src="/assets/img/emory.png" alt="Partner 1" /></li>
+        <li class="partner-cell"><img src="/assets/img/invesco.png" alt="Partner 2" /></li>
+        <li class="partner-cell"><img src="/assets/img/kjfbskjf.png" alt="Partner 3" /></li>
+        <li class="partner-cell"><img src="/assets/img/neclogossss.png" alt="Partner 4" /></li>
+        <li class="partner-cell"><img src="/assets/img/npfclogosss.png" alt="Partner 5" /></li>
+      </ul>
+    </div>
+  </section>
+
+  <div id="fixit-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="fixit-title"></div>
+  <div id="report-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="report-title"></div>
+  <div id="writer-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="writer-title"></div>
+</Base>

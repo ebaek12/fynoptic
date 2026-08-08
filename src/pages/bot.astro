@@ -1,0 +1,44 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base
+  title="Know the playbook. Beat the traps."
+  description="Fynoptic helps consumers spot and stop predatory fees, dark patterns, and subscription traps—before they hit your wallet."
+  canonical="/bot"
+  ogTitle="Fynoptic"
+  ogDescription="Know the playbook. Beat the traps."
+>
+  <div class="chat-shell">
+    <!-- Animated ambient background -->
+    <div class="chat-bg">
+      <img src="/assets/texture-noise.svg" alt="" aria-hidden="true" />
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+    </div>
+
+    <!-- Chat UI -->
+    <section class="chat-area container">
+      <div class="chat-title">
+        <h1>Fix-it Bot</h1>
+        <p class="chat-subtext">Tell me what’s happening and I’ll guide you.</p>
+      </div>
+
+      <div id="chat-window" class="chat-window">
+        <div class="bot-bubble intro">Hi! How can I help you today?</div>
+      </div>
+
+      <form id="chat-form" class="chat-form">
+        <input type="text" id="user-input" placeholder="Type your issue…" autocomplete="off" required />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+
+  <script>
+    import { initBotChat } from '../islands/bot';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initBotChat();
+    });
+  </script>
+</Base>
