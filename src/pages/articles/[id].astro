@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import { ARTICLE_META } from '../../data/articles';
+
+export function getStaticPaths() {
+  return ARTICLE_META.map((a) => ({ params: { id: a.id }, props: a }));
+}
+
+const { id, title } = Astro.props;
+const bodies = import.meta.glob('../../articles/*.html', { query: '?raw', import: 'default', eager: true });
+const body = bodies[`../../articles/${id}.html`];
+if (typeof body !== 'string') throw new Error(`missing article body for id: ${id}`);
+---
+<Base title={`${title} • Fynoptic`} description={title} canonical={`/articles/${id}`}>
+  <article class="container">
+    <h1 class="reader-title">{title}</h1>
+    <div class="reader-body" set:html={body} />
+  </article>
+</Base>

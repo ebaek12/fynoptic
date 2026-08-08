@@ -1,0 +1,97 @@
+---
+// Shared <head> + <body> shell. Required title/description/canonical fixes
+// D15 — flashcard.html, practice.html, profile.html shipped none of the
+// three in the legacy site, and courses.html/bot.html shared an identical
+// <title>. A page cannot omit them here without a type error.
+//
+// Fonts are self-hosted via @fontsource (fixes D12 — the legacy site loaded
+// three families render-blocking from a third-party CDN on every page).
+//
+// canonical is extensionless to match the hrefs Header/Footer emit — see
+// IMPLEMENTATION.md §0.1 for why: pairing extensionless links with a .html
+// canonical is self-contradictory for search engines, confirmed live that
+// GitHub Pages serves both forms, so this is a consistency fix, not a new
+// SEO judgment call.
+import '@fontsource-variable/inter';
+import '@fontsource-variable/sora';
+import '@fontsource/spectral/400.css';
+import '@fontsource/spectral/500.css';
+import '@fontsource/spectral/600.css';
+import '@fontsource/spectral/400-italic.css';
+import '../styles/legacy.css';
+import '../styles/redesign.css';
+import SiteBg from '../components/SiteBg.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  /** Extensionless, site-relative, e.g. "/about" or "/" for the homepage. */
+  canonical: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+}
+
+const {
+  title,
+  description,
+  canonical,
+  ogTitle = title,
+  ogDescription = description,
+  ogImage = 'https://fynoptic.org/assets/img/fynopticlogo.png',
+} = Astro.props;
+
+const canonicalUrl = new URL(canonical, 'https://fynoptic.org').toString();
+---
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content={description} />
+  <meta name="theme-color" content="#0B1220" />
+  <meta property="og:title" content={ogTitle} />
+  <meta property="og:description" content={ogDescription} />
+  <meta property="og:image" content={ogImage} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href={canonicalUrl} />
+
+  <!-- Icons — identical on every page -->
+  <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  <link rel="icon" href="/assets/icons/favicon-96x96.png" type="image/png" sizes="96x96" />
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <title>{title}</title>
+</head>
+<body data-theme="dark">
+  <SiteBg />
+  <Header />
+  <main id="main">
+    <slot />
+  </main>
+  <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+  <Footer />
+
+  <script>
+    import { initNav } from '../lib/nav';
+    import { initTheme } from '../lib/theme';
+    import { initModals } from '../lib/modal';
+    import { initAuthWatcher } from '../lib/auth';
+    import { initAuthUI } from '../lib/auth-ui';
+    import { initToasts } from '../lib/toast';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initTheme();
+      initNav();
+      initModals();
+      initAuthWatcher();
+      initAuthUI();
+      initToasts();
+    });
+  </script>
+</body>
+</html>
