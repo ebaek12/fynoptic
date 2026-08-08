@@ -34,6 +34,19 @@ test.describe('homepage hero', () => {
     await expect(secondaryCta).toBeVisible();
   });
 
+  test('headline renders in the Helvetica stack, not the sitewide Spectral display face', async ({ page }) => {
+    // This session hit three separate cascade bugs getting this one property
+    // right (redesign.css's sitewide `h1 { font-family: var(--display-face)
+    // !important }` beats a plain inline style; the fix landed as a Tailwind
+    // `!`-important utility instead). Guard the actual computed value so a
+    // future cascade/layer change can't silently regress it back to Spectral.
+    await page.goto('/');
+    const fontFamily = await page
+      .locator('#hero-heading')
+      .evaluate((el) => getComputedStyle(el).fontFamily);
+    expect(fontFamily).toContain('Helvetica');
+  });
+
   test('rotates through all five words over one full cycle', async ({ page }) => {
     await page.goto('/');
     const words = ['scam', 'setup', 'lie', 'con', 'trap'];
