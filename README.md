@@ -86,4 +86,6 @@ the site moved to Vercel instead. Read it as history, not as instructions.
 ## Testing
 
 `npm run test:visual` runs the Playwright screenshot-diff harness
-(`scripts/visual-diff.mjs`) against the baseline in `tests/baseline/`.
+(`scripts/visual-diff.mjs`) against the baseline in `tests/baseline/`. Start
+`npm run preview` first — the harness screenshots a running server, and only
+`--capture-baseline` is implemented so far; the diff half is still a stub.

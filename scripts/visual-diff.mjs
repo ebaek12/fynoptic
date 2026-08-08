@@ -1,14 +1,17 @@
 #!/usr/bin/env node
 // Visual regression harness for the Astro migration.
 //
-// --capture-baseline: screenshots the site served over http://localhost:8940
-// at every {page} x {theme} x {viewport} combination and stores them under
+// --capture-baseline: screenshots the running site at every
+// {page} x {theme} x {viewport} combination and stores them under
 // tests/baseline/. Later phases will add a diff mode that re-captures and
 // compares against these baselines — that logic is not implemented yet.
 //
-// This originally captured the legacy plain-HTML site at the repo root as the
-// reference to port against. Those files are gone, so point it at
-// `npm run preview` instead; it now compares Astro against Astro.
+// Run `npm run preview` first; that serves dist/ on the port BASE_URL expects.
+//
+// This originally captured the legacy plain-HTML site at the repo root, on a
+// separate port, as the reference to port the Astro build against. Those files
+// are gone, so a baseline is now Astro-against-Astro: useful for catching
+// regressions between builds, useless as a migration oracle.
 
 import { chromium } from '@playwright/test';
 import { mkdir, writeFile } from 'node:fs/promises';
@@ -18,7 +21,9 @@ import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const BASELINE_DIR = path.join(ROOT, 'tests', 'baseline');
-const BASE_URL = 'http://localhost:8940';
+// Defaults to `astro preview`, which serves dist/ on 4321. Override with
+// BASE_URL to point at any other running build.
+const BASE_URL = process.env.BASE_URL ?? 'http://localhost:4321';
 
 const PAGES = [
   'index.html',
