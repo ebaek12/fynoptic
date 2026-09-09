@@ -18,7 +18,6 @@ const ROUTES = [
   '/flashcard',
   '/practice',
   '/profile',
-  '/bot',
 ];
 
 const findings = [];
@@ -309,39 +308,6 @@ async function testFlashcards(browser) {
   });
 }
 
-async function testBotChat(browser) {
-  await withPage(browser, async (page, { consoleErrors }) => {
-    // Mock the backend so we don't wait 60s for a real cold start.
-    await page.route('https://fixitbotbackend.onrender.com/api/chat', (route) => {
-      route.fulfill({
-        status: 200,
-        contentType: 'application/json',
-        body: JSON.stringify({ reply: 'QA-mocked response' }),
-      });
-    });
-    await page.goto(`${BASE_URL}/bot`, { waitUntil: 'networkidle' });
-    const input = await page.$('#user-input');
-    const form = await page.$('#chat-form');
-    if (!input || !form) {
-      report('/bot', 'FAIL', 'chat input/form not found');
-      return;
-    }
-    await input.fill('test message from qa audit');
-    await form.evaluate((f) => f.requestSubmit());
-    await page.waitForTimeout(1000);
-    const botReply = await page.evaluate(() => {
-      const bubbles = document.querySelectorAll('.bot-bubble:not(.intro)');
-      return bubbles.length ? bubbles[bubbles.length - 1].textContent : null;
-    });
-    if (botReply && botReply.includes('QA-mocked response')) {
-      report('/bot', 'OK', 'chat round-trip works (mocked backend)');
-    } else {
-      report('/bot', 'ERROR', `chat did not render expected mocked reply, got: "${botReply}"`);
-    }
-    if (consoleErrors.length) report('/bot', 'ERROR', `bot chat console errors: ${consoleErrors.join('; ')}`);
-  });
-}
-
 async function testMobileViewport(browser) {
   const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
   const page = await context.newPage();
@@ -384,7 +350,6 @@ async function main() {
   await testProfileRedirect(browser);
   await testPractice(browser);
   await testFlashcards(browser);
-  await testBotChat(browser);
   await testMobileViewport(browser);
 
   await browser.close();

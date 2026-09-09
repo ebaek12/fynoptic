@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import { PARTNERS } from '../data/partners';
 import '../styles/about.css';
 ---
 <Base
@@ -9,7 +10,7 @@ import '../styles/about.css';
   ogTitle="About • Fynoptic"
   ogDescription="Meet the founders and our partners."
 >
-  <section class="founders-slab" role="region" aria-labelledby="founders-title">
+  <section class="founders-slab page-heading" role="region" aria-labelledby="founders-title">
     <div class="container">
       <h1 id="founders-title" class="slab-title">Meet the Founders</h1>
       <p class="slab-lede">Three students who got tired of watching people they know get charged for things nobody explained to them.</p>
@@ -60,16 +61,13 @@ import '../styles/about.css';
       <p class="slab-lede">Organisations whose programmes and research we build on, and who help us reach the classrooms we can't reach alone.</p>
 
       <ul class="partners-grid" role="list" aria-label="Partner logos">
-        <li class="partner-cell"><img src="/assets/img/emory.webp" alt="Emory University" /></li>
-        <li class="partner-cell"><img src="/assets/img/invesco.webp" alt="Invesco" /></li>
-        <li class="partner-cell"><img src="/assets/img/gcee-logo.webp" alt="Georgia Council on Economic Education" /></li>
-        <li class="partner-cell"><img src="/assets/img/national-economic-challenge-logo.webp" alt="National Economic Challenge" /></li>
-        <li class="partner-cell"><img src="/assets/img/national-personal-finance-challenge-logo.webp" alt="National Personal Finance Challenge" /></li>
+        {PARTNERS.map((partner) => (
+          <li class="partner-cell"><img src={`/assets/img/${partner.image}`} alt={partner.name} /></li>
+        ))}
       </ul>
     </div>
   </section>
 
-  <div id="fixit-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="fixit-title"></div>
   <div id="report-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="report-title"></div>
   <div id="writer-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="writer-title"></div>
 </Base>

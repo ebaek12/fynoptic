@@ -324,7 +324,9 @@ html body .auth-link button {
    organisation's mark is not an option. So the plate follows the artwork.
    Dark artwork -> light plate. Everything else keeps the dark plate above. */
 .logo-card:has(img[src*="invesco"]),
-.logo-card:has(img[src*="emory"]) {
+.logo-card:has(img[src*="emory"]),
+.logo-card:has(img[src$="falcons.png"]),
+html body .partner-cell:has(img[src$="falcons.png"]) {
   background: #FFFFFF !important;
   border-color: rgba(15, 23, 42, .14) !important;
 }
@@ -358,7 +360,7 @@ html body .auth-link button {
   display: block;
   width: 100%;
   height: 100%;
-  border-radius: 6px;
+  border-radius: 50%;
   object-fit: cover;
 }
 #nav-initials {
@@ -367,7 +369,7 @@ html body .auth-link button {
   justify-content: center;
   width: 100%;
   height: 100%;
-  border-radius: 6px;
+  border-radius: 50%;
   background: var(--db-optic);
   color: var(--db-optic-ink) !important;   /* fill and its ink travel together */
   font-weight: 600;
@@ -629,9 +631,12 @@ html body .header :is(a, button).btn.btn-primary {
   html body .header :is(a, button).btn.btn-primary.cta-desktop { display: none !important; }
 }
 
-/* Signed IN this is the avatar/initials square; signed out the pill rule in
+/* Signed IN this is the avatar/initials circle; signed out the pill rule in
    section 16 takes over. Both are the same height as everything else now. */
 html body .header .user-icon {
+  border-radius: 50% !important;
+  overflow: hidden;
+  padding: 0 !important;
   width: var(--nav-control-h) !important; height: var(--nav-control-h) !important;
   flex: 0 0 var(--nav-control-h) !important;
 }
@@ -766,8 +771,9 @@ html body .card.practice-controls {
 }
 html body .fc-block,
 html body .wizard-panel {
-  margin-inline: 0 !important;
-  max-width: 640px !important;
+  margin-inline: auto !important;
+  width: 100%;
+  max-width: 960px !important;
   border-radius: 8px !important;
   border: 1px solid var(--db-rule) !important;
   background: var(--surface-1, rgba(var(--surf-rgb), .55)) !important;
@@ -779,35 +785,16 @@ html body .wizard-panel > h2,
 html body .fc-block .fc-label,
 html body .wizard-panel h2 { text-align: left !important; }
 
-/* ---- 15. footer: four columns (Footer.tsx, §6.4) ------------------------- */
-/* Grid lives on a class of its own (.ft-grid) rather than reusing the old
-   .footer-container's 3-column grid from legacy.css — that grid is keyed to
-   exactly .footer-left/.footer-links/.footer-contact as direct children, so
-   giving it a new name keeps the two systems from fighting once the old
-   Footer.astro (and this rule's only consumer) is deleted. */
-/* S6 (Phase 8): this rule's horizontal padding was 0 (the shorthand's middle
-   value) with no max-width/centering to replace it, so on every build the
-   four columns ran flush to the viewport edge instead of sharing the page's
-   rail — see the note by `html body .footer` above. `max-width` + `margin-
-   inline: auto` matches how .hero-content and .container do the same job
-   above 1200px; `padding-inline: var(--gutter)` covers it below that. */
+/* ---- 15. footer: brand, Learn, and Fynoptic ---------------------------- */
 .footer .ft-grid {
   display: grid;
-  grid-template-columns: 1.3fr 1fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1fr;
   gap: clamp(24px, 4vw, 48px);
   max-width: var(--container-max);
   margin-inline: auto;
   padding: clamp(32px, 5vw, 56px) var(--gutter) clamp(20px, 3vw, 32px);
 }
-/* S6 (Phase 8): the old .footer-container had its own 768px collapse
-   (`flex-direction: column`, legacy.css:1349) for exactly this reason — four
-   fixed tracks with no responsive rule left nothing for narrow viewports.
-   .ft-grid never got the equivalent when Footer.tsx replaced it in Phase 5:
-   below 768px the four columns (1.3fr/1fr/1fr/1fr, min-width: 0) each got
-   pressed under ~90px, and link text like "Pattern Families" or "Fix-it Bot"
-   doesn't wrap at a container that narrow so cleanly — rows visually
-   overlapped their neighbors instead of just wrapping within their own
-   column. Stacked, matching the old page's same breakpoint. */
+/* Give each group enough room on narrow screens. */
 @media (max-width: 768px) {
   .footer .ft-grid { grid-template-columns: 1fr; }
 }
@@ -1133,15 +1120,9 @@ html body .article-page .reader-body h3 { font-size: 1.3rem !important; margin-t
    up" symptom §9 was written to end.
    ========================================================================== */
 
-/* /practice — `.wizard` is a grid, and a grid item with a definite
-   `max-width` under the default `justify-items` lands centred in its track
-   in Chrome. So the h1 sat on the rail at x=152 while the step indicator
-   (x=466) and the 640px wizard panel (x=400) floated in the middle of the
-   page and the stats/stage cards below them ran the full 1136px — four
-   different left edges on one screen. All of it goes on the rail; the panel
-   keeps its 640px measure, it just stops being centred inside it. */
-html body .wizard { justify-items: start !important; }
-html body .wizard-progress { justify-content: flex-start !important; }
+/* Center the setup panel and keep its fields aligned. */
+html body .wizard { justify-items: stretch; padding: 0; max-width: 960px; margin-inline: auto; }
+html body .wizard-progress { justify-content: center; }
 /* The panel's own heading, its submit row and its footnote were all centred
    against left-aligned fields, so nothing inside the panel agreed with
    anything else inside it either. */
@@ -1153,41 +1134,6 @@ html body .wizard-panel .note.center { text-align: left !important; }
    stack rather than level with the "Category" label it pairs with — the
    two field labels in a row never lined up. */
 html body .wizard .wizard-fields { align-items: start !important; }
-
-/* /bot — two separate faults in one band.
-   1. `.chat-area` is also `.container`, and legacy.css:5825 redeclares
-      `.container { padding: 0 var(--gutter) }` as a shorthand 4,000 lines
-      after `.chat-area { padding: 3rem 2rem }`, resetting padding-block to
-      0 at equal specificity. The <h1> therefore started at the exact pixel
-      the sticky header ends, with its ascenders tucked under the bar. This
-      is the same collision `.articles-hero` documents above; longhand fixes
-      it for good.
-   2. The title block was centred while its own subtitle, the chat window
-      and the composer under it are left-aligned inside a 1136px box — and
-      because `main h1:not(.hero h1)` caps the h1 at 30ch, "Fix-it Bot"
-      centred inside a 600px box rather than the page, landing at x=452:
-      aligned with nothing at all. */
-html body .chat-area {
-  padding-block: clamp(2.5rem, 5vw, 3.5rem) clamp(2rem, 4vw, 3rem) !important;
-}
-html body .chat-title,
-html body .chat-title h1,
-html body .chat-subtext { text-align: left !important; margin-inline: 0 !important; }
-
-/* /bot — the composer's submit button is a bare `<button type="submit">`
-   with no class, so none of the button rules in §3 reach it and it kept
-   legacy's --primary-600 fill: a second, brighter blue than the flat optic
-   fill every other CTA on the site uses. */
-html body .chat-form button[type="submit"] {
-  background: var(--db-optic) !important;
-  background-image: none !important;
-  color: var(--db-optic-ink) !important;
-  border: 1px solid var(--db-optic) !important;
-  border-radius: 6px !important;
-  box-shadow: none !important;
-  font-weight: 600 !important;
-}
-html body .chat-form button[type="submit"]:hover { filter: brightness(1.08); }
 
 /* /accessibility — `.slab-title` still carries legacy.css:6256's
    `text-align: center`; the About page's copy of that fix (§ABOUT PAGE
@@ -1351,7 +1297,7 @@ html body .founders-grid {
 }
 html body .founder-card .portrait { aspect-ratio: 1 !important; }
 
-/* Partner plates keep about.css's single dark --db-plate in both themes —
+/* Existing partner plates keep about.css's single dark --db-plate in both themes —
    deliberately NOT the hero strip's "white plate for dark artwork" rule. That
    was tried here and rejected: a row of five marks reads better as one
    consistent plate than as three dark and two white. Only the geometry is

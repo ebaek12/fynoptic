@@ -291,7 +291,7 @@ export function usePracticeSession(): UsePracticeSessionResult {
   function selectChoice(idx: number): void {
     if (!session) return;
     const entry = session.timeline[session.currentIndex];
-    if (!entry) return;
+    if (!entry || entry.answered) return;
     entry.chosenIdx = idx;
     // Selecting overrides any cross-out on that same option.
     entry.eliminated = entry.eliminated.filter((i) => i !== idx);
@@ -301,7 +301,7 @@ export function usePracticeSession(): UsePracticeSessionResult {
   function toggleEliminate(idx: number): void {
     if (!session) return;
     const entry = session.timeline[session.currentIndex];
-    if (!entry) return;
+    if (!entry || entry.answered) return;
     const pos = entry.eliminated.indexOf(idx);
     if (pos === -1) entry.eliminated.push(idx);
     else entry.eliminated.splice(pos, 1);

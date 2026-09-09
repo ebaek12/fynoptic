@@ -11,7 +11,7 @@ import { test, expect } from '@playwright/test';
 //     or not — legacy.css:1827-1828)
 // Phase 2 fixed both (F1/F10); the specs below are now un-fixmed.
 
-const PAGES = ['/', '/about', '/articles', '/courses', '/courseone', '/flashcard', '/practice', '/bot', '/accessibility', '/privacy'];
+const PAGES = ['/', '/about', '/articles', '/courses', '/courseone', '/flashcard', '/practice', '/accessibility', '/privacy'];
 // '/profile' is excluded: signed-out it immediately redirects to '/', so
 // scanning it is really just re-scanning the homepage mid-navigation.
 const THEMES = ['dark', 'light'] as const;
@@ -30,7 +30,6 @@ const KNOWN_VIOLATIONS_BASE: Record<string, string[]> = {
   'dark:/courseone': [],
   'dark:/flashcard': ['heading-order'],
   'dark:/practice': [],
-  'dark:/bot': [],
   'dark:/accessibility': [],
   'dark:/privacy': [],
   'light:/': [],
@@ -40,7 +39,6 @@ const KNOWN_VIOLATIONS_BASE: Record<string, string[]> = {
   'light:/courseone': [],
   'light:/flashcard': ['heading-order'],
   'light:/practice': [],
-  'light:/bot': [],
   'light:/accessibility': [],
   'light:/privacy': [],
 };

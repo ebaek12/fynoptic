@@ -1,4 +1,5 @@
 ---
+import '../styles/profile.css';
 import Base from '../layouts/Base.astro';
 import { Profile } from '../components/profile/Profile';
 ---
@@ -9,9 +10,5 @@ import { Profile } from '../components/profile/Profile';
   ogTitle="Your Profile • Fynoptic"
   ogDescription="Manage your Fynoptic account and progress."
 >
-  <!-- client:load (not client:visible): this is the entire content of the
-       page — nothing above the fold to defer hydration across — and the
-       signed-out redirect must fire as soon as auth resolves, not once the
-       component happens to scroll into view. -->
   <Profile client:load />
 </Base>

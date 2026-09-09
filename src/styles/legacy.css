@@ -1708,7 +1708,7 @@ box-shadow: inset 0 0 0 1px rgba(var(--tint-rgb),.02);
 .search-wrap input{
 flex:1; border:0; outline:0; background:transparent; color:var(--text-100);
 }
-.search-wrap input::placeholder{ color: rgba(182,194,226,.75); }
+.search-wrap input::placeholder{ color: var(--muted-fg); opacity: 1; }
 .kbd{
 font-size:.8rem; line-height:1;
 color: var(--text-300);
@@ -2541,7 +2541,7 @@ background: var(--border-strong);
 border: 1px solid rgba(var(--tint-rgb),.12);
 }
 .step.is-unlocked .dot { background: var(--primary-600); border-color: transparent; }
-.step.is-locked { opacity: .65; }
+.step.is-locked { color: var(--muted-fg); }
 
 /* Progress */
 .course-progress {
@@ -4450,47 +4450,6 @@ display: none !important;        /* hidden by default (desktop/tablet) */
   font-weight: 700;
   letter-spacing: .2px;
 }
-/* ─────────────────────────────────────────────────────────
-   PRACTICE: force header to blend (beats earlier !important)
-   ───────────────────────────────────────────────────────── */
-   .practice-shell .header{
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: transparent !important;   /* kill the solid block */
-    box-shadow: none !important;
-    isolation: isolate;                   /* layer context for ::before */
-  }
-  
-  /* Soft fade under the nav so it merges into the hero/bg */
-  .practice-shell .header::before{
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: -1;                          /* behind nav contents */
-    background:
-      radial-gradient(900px 420px at 20% -10%, rgba(63,106,255,.12), transparent 60%),
-      radial-gradient(700px 420px at 80%   0%, rgba(34,209,178,.10), transparent 60%),
-      linear-gradient(180deg,
-        rgba(var(--sunken-rgb),.85) 0%,
-        rgba(var(--sunken-rgb),.55) 55%,
-        rgba(var(--sunken-rgb),0)   100%);
-    backdrop-filter: blur(8px);
-    border-bottom: 1px solid rgba(var(--tint-rgb),.06);
-  }
-  
-  /* Defensive: if any page-level rule keeps painting a header color, blank it */
-  .practice-shell body > .header,
-  .practice-shell .header,
-  .practice-shell .header *:where(.nav){ background: transparent !important; }
-  
-  /* Optional: give the hero a tiny top fade so there’s never a seam */
-  .practice-shell .practice-hero::before{
-    content:"";
-    position:absolute; inset:0 0 auto 0; height:40px;
-    background: linear-gradient(180deg, rgba(11,18,32,0) 0%, rgba(11,18,32,.02) 60%, rgba(11,18,32,.06) 100%);
-    pointer-events:none;
-  }
   /* Compact Topics pills when Economics is selected */
 body[data-cat="Economics"] .topics-card .topics-title {
   font-size: 1.35rem;          /* slightly smaller header to gain space */

@@ -70,7 +70,6 @@ test.describe('Phase 3 type system', () => {
       '/courses',
       '/courseone',
       '/about',
-      '/bot',
     ];
     for (const route of routes) {
       await page.goto(route);

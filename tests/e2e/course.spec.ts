@@ -307,7 +307,8 @@ test('certificate prints the profile-set learner name', async ({ page }) => {
 });
 
 test('certificate falls back to "Learner" when no profile name is set', async ({ page }) => {
-  await reachPassedCertificate(page); // no userName seeded, and not signed in
+  await page.addInitScript(() => localStorage.setItem('ff_user_name', ''));
+  await reachPassedCertificate(page); // a cleared profile name must not produce a blank certificate
 
   await page.locator('#download-cert').click();
   await expect(page.locator('#cert-name')).toHaveText('Learner');

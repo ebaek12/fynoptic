@@ -30,7 +30,7 @@ import { test, expect } from '@playwright/test';
 const REVEAL_SELECTOR =
   '.fade-up, .reveal, .reveal-up, .reveal-card, .reveal-section, .reveal-prism, .reveal-cta, .reveal-in, .founder-card, .partner-cell, [role="tab"], #rack-tabpanel, [data-rack-name], [data-rack-panel]';
 
-const PAGES = ['/', '/about', '/articles', '/courses', '/courseone', '/flashcard', '/practice', '/bot'];
+const PAGES = ['/', '/about', '/articles', '/courses', '/courseone', '/flashcard', '/practice'];
 
 for (const path of PAGES) {
   test(`${path}: nothing is stuck at opacity 0 under reduced motion`, async ({ page }) => {

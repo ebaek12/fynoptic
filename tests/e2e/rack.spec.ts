@@ -11,21 +11,27 @@ import { test, expect, type Page } from '@playwright/test';
 const RACK_SECTION = 'section[aria-labelledby="rack-heading"]';
 
 /**
- * Bring the rack section into view and wait for it to hydrate into the
- * pinned track. It's wired with `client:visible`, so hydration doesn't start
- * until the section is scrolled into view.
+ * Land at the learning section after its magnifier introduction.
  */
 async function hydrateTrack(page: Page) {
   await page.goto('/');
-  await page.locator(RACK_SECTION).scrollIntoViewIfNeeded();
+  await revealLearning(page);
   await page.waitForSelector('[data-rack-track]', { timeout: 8000 });
+}
+
+async function revealLearning(page: Page) {
+  await expect(page.locator('.magnifier-transition')).toHaveAttribute('data-animated', 'true');
+  await page.locator('#learning').evaluate((el) => window.scrollTo({
+    top: Math.ceil(scrollY + el.getBoundingClientRect().top),
+    behavior: 'instant',
+  }));
+  await expect(page.locator('.magnifier-experience')).toHaveAttribute('data-phase', 'complete');
 }
 
 /**
  * Sets scroll position to a given fraction (0..1) of the pinned track's
  * scrollable range, mirroring RackFocus's own `useTrackProgress` /
- * `scrollToItem` math: progress = (scrollY - pinStartDoc) / (trackHeight -
- * pinnedHeight), so scrollY = pinStartDoc + fraction * (trackHeight - pinH).
+ * `scrollToItem` math, starting only at the panel's centred sticky position.
  *
  * The denominator used to be `trackHeight - viewportHeight`, matching what
  * the component did at the time. That was the bug: the pinned block is
@@ -41,13 +47,12 @@ async function scrollToTrackFraction(page: Page, fraction: number) {
     const track = document.querySelector('[data-rack-track]') as HTMLElement | null;
     if (!track) return;
     const pin = track.firstElementChild as HTMLElement | null;
-    const raw = getComputedStyle(document.documentElement).getPropertyValue('--header-h');
-    const headerH = parseFloat(raw) || 56;
+    const pinTop = pin ? parseFloat(getComputedStyle(pin).top) : 0;
     const rect = track.getBoundingClientRect();
-    const pinStartDoc = window.scrollY + rect.top - headerH;
+    const pinStartDoc = window.scrollY + rect.top - pinTop;
     const pinH = pin?.offsetHeight ?? window.innerHeight;
     const denom = Math.max(1, track.offsetHeight - pinH);
-    window.scrollTo(0, pinStartDoc + f * denom);
+    window.scrollTo({ top: pinStartDoc + f * denom, behavior: 'instant' });
   }, fraction);
   // rAF-throttled progress update (useTrackProgress) plus one paint.
   await page.waitForTimeout(150);
@@ -58,6 +63,32 @@ async function readNameDefocus(page: Page): Promise<number[]> {
   return page.evaluate(() => {
     const buttons = Array.from(document.querySelectorAll<HTMLElement>('[data-rack-name]'));
     return buttons.map((b) => 2 * (1 - parseFloat(getComputedStyle(b).opacity)));
+  });
+}
+
+for (const height of [700, 900, 1200]) {
+  test(`panel reaches the centre before cycling and stays centred at ${height}px tall`, async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height });
+    await hydrateTrack(page);
+    const approach = await page.locator('[data-rack-track]').evaluate(track => {
+      const pin = track.firstElementChild as HTMLElement;
+      const top = parseFloat(getComputedStyle(pin).top);
+      return { distance: pin.getBoundingClientRect().top - top, start: scrollY + track.getBoundingClientRect().top - top };
+    });
+    expect(approach.distance).toBeGreaterThan(30);
+    expect((await readNameDefocus(page))[0]).toBe(0);
+    await page.evaluate(y => window.scrollTo({ top: y, behavior: 'instant' }), approach.start - 12);
+    expect((await readNameDefocus(page))[0]).toBe(0);
+    for (const fraction of [0, 0.35, 0.7, 1]) {
+      await scrollToTrackFraction(page, fraction);
+      const alignment = await page.locator('[data-rack-stage]').evaluate(stage => {
+        const bounds = stage.getBoundingClientRect();
+        const headerHeight = document.querySelector('header[role="banner"]')!.getBoundingClientRect().height;
+        return { centre: bounds.top + bounds.height / 2, target: (innerHeight + headerHeight) / 2 };
+      });
+      expect(Math.abs(alignment.centre - alignment.target)).toBeLessThan(2);
+    }
+    await page.screenshot({ path: `/tmp/fynoptic-centred-rack-${height}.png` });
   });
 }
 
@@ -207,7 +238,7 @@ test.describe('rack focus section — degraded modes render the static tab set',
     await page.setViewportSize({ width: 800, height: 900 });
     await page.goto('/');
     const rackSection = page.locator(RACK_SECTION);
-    await rackSection.scrollIntoViewIfNeeded();
+    await revealLearning(page);
 
     const tabs = rackSection.locator('[role="tab"]');
     await expect(tabs).toHaveCount(4);
@@ -221,7 +252,7 @@ test.describe('rack focus section — degraded modes render the static tab set',
     await page.setViewportSize({ width: 800, height: 900 });
     await page.goto('/');
     const rackSection = page.locator(RACK_SECTION);
-    await rackSection.scrollIntoViewIfNeeded();
+    await revealLearning(page);
 
     const tabs = rackSection.locator('[role="tab"]');
     await expect(tabs).toHaveCount(4);

@@ -20,7 +20,7 @@ if (typeof body !== 'string') throw new Error(`missing article body for id: ${id
     into a scrollbox floating in a page that didn't scroll. The class scopes the
     release so the modal rules keep working for anything still using them.
   -->
-  <article class="container article-page">
+  <article class="container article-page page-heading">
     <h1 class="reader-title">{title}</h1>
     <div class="reader-body" set:html={body} />
   </article>

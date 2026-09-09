@@ -1,24 +1,5 @@
-/* ---------------------------- */
-/* FLASHCARDS PAGE              */
-/* ---------------------------- */
-
-/* All of the flashcard page's styles currently live in styles.css
-   (.fc-controls, .unit-chip, #fc-stage, #progress-fill, .summary-item,
-   etc.). This file exists so the <link> in flashcard.html resolves
-   instead of 404ing, and as the place to put flashcard-only overrides in
-   future.
-
-   Deliberately empty: flashcard.html loads styles.css first and this file
-   second, so anything added here wins over styles.css. Do not copy rules
-   out of styles.css into this file — duplicated cascading rules are what
-   made these styles hard to reason about in the first place. */
-
-/* Commit 7 (design-fixes spec §6.3): step 1's unit picker as a table
-   instead of wrapped chips. Three legacy rules fight over `.unit-list`
-   (legacy.css:3481, :5078, :5206), all `display:flex; flex-wrap:wrap` —
-   won here with the `.is-table` co-class the container also carries,
-   rather than stacking more `!important` onto the bare selector. */
 .unit-list.is-table {
+  --unit-hue: var(--primary-500);
   display: flex !important;
   flex-direction: column !important;
   flex-wrap: nowrap !important;
@@ -29,12 +10,12 @@
   grid-template-columns: 22px 1fr 84px 1fr 34px;
   gap: 12px;
   align-items: center;
-  text-align: left !important; /* undoes the inline centring that used to live at FlashcardWizard.tsx:129 */
+  text-align: left !important;
   padding: 9px 13px;
   border-left: 3px solid var(--unit-hue);
-  border-radius: 8px !important; /* legacy.css:5213 makes .unit-chip a 999px pill, wrong for a table row */
-  background: color-mix(in oklab, var(--unit-hue) 9%, var(--surface-1));
-  transform: none !important; /* kills legacy.css:5220's hover lift — wrong for a row */
+  border-radius: 8px !important;
+  background: var(--surface-2);
+  transform: none !important;
 }
 .unit-list.is-table .unit-box {
   width: 18px;
@@ -47,26 +28,21 @@
   font-size: 12px;
   line-height: 1;
 }
-/* Checkmark is generated content, not a text node — see the JSX comment on
-   why (keeps .unit-chip's textContent() to just the unit name). */
+
 .unit-list.is-table .unit-box::after {
   content: '';
 }
 .unit-list.is-table .unit-chip.is-active .unit-box::after {
-  content: '\2713'; /* ✓ */
+  content: '\2713';
 }
 .unit-list.is-table .unit-name {
   min-width: 0;
   white-space: normal;
 }
-/* Count and percent are also generated content, sourced from data-*
-   attributes — same textContent constraint as the checkmark above. */
+
 .unit-list.is-table .unit-count {
   color: var(--text-70, inherit);
   font-size: 0.85em;
-}
-.unit-list.is-table .unit-count::after {
-  content: attr(data-count);
 }
 .unit-list.is-table .unit-bar {
   display: block;
@@ -85,9 +61,6 @@
   font-size: 0.85em;
   color: var(--text-70, inherit);
 }
-.unit-list.is-table .unit-pct::after {
-  content: attr(data-pct);
-}
 .unit-total {
   margin: 0.5rem 0 0;
   font-size: 0.85em;
@@ -101,4 +74,13 @@
   .unit-list.is-table .unit-pct {
     display: none;
   }
+}
+
+.flashcards-shell .mode-chip input {
+  display: block;
+}
+
+.flashcards-shell :is(.mode-chip, .unit-chip):has(input:focus-visible) {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 4px;
 }

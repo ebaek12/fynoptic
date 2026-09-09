@@ -7,7 +7,7 @@
 // Phase 5: the login/signup/reset modals moved to Modal.tsx (Radix Dialog)
 // and are no longer opened/closed through this module — but initModals()
 // keeps running from Base.astro because practice.astro's #end-session-modal,
-// flashcard.astro's #fixit/#report/#writer stubs, and course-one's modals
+// legacy #report/#writer stubs, and course-one's modals
 // are all still vanilla and still depend on this file's global Escape/
 // backdrop-click delegation (practice.spec.ts pins Escape hiding
 // #end-session-modal on exactly this handler). Every element Radix's

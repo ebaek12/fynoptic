@@ -176,12 +176,12 @@ export function FlashcardView({ engine, shuffleDeck, onRequestResetProgress, onR
             aria-live="polite"
             hidden={!feedback}
           >
-            {mcFeedback && (mcFeedback.correct ? 'Nice! ✅' : (
+            {mcFeedback && (mcFeedback.correct ? 'Correct!' : (
               <>
                 Not quite. The answer is <strong>{mcFeedback.correctValue}</strong>.
               </>
             ))}
-            {fitbFeedback && (fitbFeedback.correct ? 'Correct! ✅' : (
+            {fitbFeedback && (fitbFeedback.correct ? 'Correct!' : (
               <>
                 Answer: <strong>{fitbFeedback.target}</strong>
               </>

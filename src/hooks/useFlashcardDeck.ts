@@ -205,7 +205,7 @@ const storedDataSchema = z.object({
   answers: z.record(answerRecordSchema),
 });
 
-function readStorage(): { answers: Record<string, AnswerRecord> } {
+export function readStorage(): { answers: Record<string, AnswerRecord> } {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     const parsed: unknown = raw ? JSON.parse(raw) : {};
@@ -365,8 +365,8 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
     const alreadyCounted = !!prev;
     next.answers[card.id] = { correct, attempts: (prev?.attempts ?? 0) + 1, lastAt: Date.now() };
     if (!alreadyCounted) next.stats.done += 1;
+    next.stats.correct += Number(correct) - Number(prev?.correct ?? false);
     if (correct) {
-      next.stats.correct += 1;
       next.stats.streak += 1;
     } else {
       next.stats.streak = 0;
@@ -429,9 +429,9 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
 
   function toggleAnswerTarget(): void {
     if (state.mode === 'mc') {
-      setState({ ...state, mcAnswer: state.mcAnswer === 'term' ? 'definition' : 'term' });
+      setState({ ...state, mcAnswer: state.mcAnswer === 'term' ? 'definition' : 'term', feedback: null });
     } else {
-      setState({ ...state, fitbAnswer: state.fitbAnswer === 'term' ? 'definition' : 'term' });
+      setState({ ...state, fitbAnswer: state.fitbAnswer === 'term' ? 'definition' : 'term', feedback: null });
     }
   }
 
@@ -461,8 +461,19 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
   }
 
   function resetProgress(): void {
-    localStorage.removeItem(STORAGE_KEY);
-    setState({ ...state, stats: { total: 0, done: 0, correct: 0, streak: 0 }, answers: {} });
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+    } catch {
+      showToast('Browser storage is unavailable. Saved progress could not be cleared.');
+      return;
+    }
+    setState({
+      ...state,
+      stats: { total: state.deck.length, done: 0, correct: 0, streak: 0 },
+      answers: {},
+      revealed: new Set(),
+      feedback: null,
+    });
     showToast('Progress reset.');
   }
 

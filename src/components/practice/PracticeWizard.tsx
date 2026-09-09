@@ -1,45 +1,3 @@
-// React port of the setup wizard half of islands/practice.ts (Phase 10d).
-// Scope: steps 1-3 (category/questions/adaptive -> units -> confirm+start).
-// The in-session question UI (Session.tsx) and the adaptive engine
-// (usePracticeSession.ts) belong to a different task and are NOT built
-// here — see PracticeWizardProps.onComplete below for the handoff point.
-//
-// Behavior preserved exactly from islands/practice.ts:
-//   - The hidden <select multiple> becomes a Set<string> in state, but
-//     changing category still clears the topic selection immediately
-//     (refreshTopicsUIForCategory() used to rebuild the hidden <select>'s
-//     <option>s from scratch on category 'change', which drops all prior
-//     selections as a side effect — replicated here by resetting the Set
-//     in the same handler that changes `category`).
-//   - "Select at least one unit" gate lives on step 2 -> 3, not on Start;
-//     the toast text is byte-identical to today's: 'Please select at least
-//     one unit.' (islands/practice.ts:154). Do not "fix" the wording to
-//     match startPractice()'s differently-worded, currently-unreachable
-//     'Please select at least one topic.' check (:624) — that check can
-//     never fire once step 2 already guarantees a non-empty selection, so
-//     it isn't ported here at all (dead code, not carried forward).
-//   - Step 3's summary line (#wiz-summary) keeps its exact punctuation and
-//     pluralization; it's now the accessible text companion (sr-only) to
-//     the visual summary card below, rather than the only summary on-screen.
-//
-// Design-fixes batch, commit 8 (2026-08-09): all three steps got a visual
-// pass — a step indicator, bank cards, pill groups, per-topic counts, and a
-// structured step-3 summary card.
-//   - #category / #question-count / #adapt-every stay real <select>
-//     elements (visually hidden via .sr-only, never display:none), because
-//     practice.spec.ts drives them with page.selectOption(...) and
-//     body[data-cat] (legacy.css contract I3) is keyed off #category's
-//     value. The new cards/pills call the same state setters the selects
-//     do — they don't replace them, they front them.
-//   - .topic-btn's role="checkbox" now pairs with aria-checked (was
-//     aria-pressed, a genuine ARIA mismatch). practice.spec.ts asserts on
-//     .is-selected, not the ARIA attribute, so fixing this is safe.
-//   - The comment that used to live here claiming topic chips show raw
-//     slugs like "cash_flow" described a bank that's no longer shipped —
-//     the shipped topic keys are already human-readable ("Macroeconomic
-//     Theory", "Fixed Income & Bonds"). There's no prettification to
-//     build; the per-topic question count shown alongside each chip is
-//     computed straight from `bank`.
 import { useEffect, useMemo, useState } from 'react';
 import { showToast } from '@/lib/toast';
 import type { PracticeBank } from '@/types';
@@ -55,18 +13,8 @@ export interface WizardSelection {
 export interface PracticeWizardProps {
   /** Merged question bank (Personal Finance + Economics), already fetched by the caller. */
   bank: PracticeBank;
-  /** Category options, in display order. Listed explicitly (not derived from `bank`'s keys) because the <select> must render before any bank fetch resolves — matches practice.astro's static <option>s. */
+  /** Category options, in display order. */
   categories: string[];
-  /**
-   * `session !== null` from usePracticeSession. This wizard only ever mounts
-   * while there is no session (Practice.tsx unmounts it once one starts), so
-   * this is always false in practice today — passed through anyway so
-   * `#reset-btn`'s disabled state is wired to the real source of truth
-   * rather than a hardcoded literal, matching practice.ts's own
-   * `elReset.disabled = false` (on session start) / `= true` (on reset)
-   * pairing (10d fix: it used to ship enabled with no session at all).
-   */
-  hasSession: boolean;
   /** Fired when the user presses "Start Practice" on step 3. The caller owns createSession()/session state from here. */
   onComplete: (selection: WizardSelection) => void;
 }
@@ -81,7 +29,7 @@ function countTopicQuestions(byDifficulty: Record<string, unknown[]> | undefined
   return Object.values(byDifficulty).reduce((sum, items) => sum + items.length, 0);
 }
 
-export function PracticeWizard({ bank, categories, hasSession, onComplete }: PracticeWizardProps) {
+export function PracticeWizard({ bank, categories, onComplete }: PracticeWizardProps) {
   const [step, setStep] = useState<1 | 2 | 3>(1);
   const [category, setCategory] = useState(categories[0] ?? '');
   const [selectedTopics, setSelectedTopics] = useState<Set<string>>(new Set());
@@ -91,9 +39,6 @@ export function PracticeWizard({ bank, categories, hasSession, onComplete }: Pra
 
   const topics = useMemo(() => Object.keys(bank[category] ?? {}).sort(), [bank, category]);
 
-  // Per-topic question counts for the current category (step 2 chip badges,
-  // step 3's "Drawing from" total). Derived from the real bank data rather
-  // than any hardcoded table, so it can't go stale the way a comment can.
   const topicCounts = useMemo(() => {
     const catBank = bank[category] ?? {};
     const counts: Record<string, number> = {};
@@ -118,14 +63,12 @@ export function PracticeWizard({ bank, categories, hasSession, onComplete }: Pra
     [selectedTopics, topicCounts],
   );
 
-  // I3: `data-cat` on <body> drives legacy.css's `body[data-cat="Economics"]`
-  // rules (topics-card sizing/typography). practice.ts kept this in sync on
-  // #category's 'change' event plus once at init; this effect covers both.
   useEffect(() => {
     document.body.setAttribute('data-cat', category);
   }, [category]);
 
   function handleCategoryChange(next: string): void {
+    if (next === category) return;
     setCategory(next);
     setSelectedTopics(new Set()); // category change always clears topic selection
   }
@@ -187,7 +130,7 @@ export function PracticeWizard({ bank, categories, hasSession, onComplete }: Pra
         <section id="step-1" className="wizard-panel" aria-label="Step 1: Build your session">
           <h2 className="topics-title center">Build your session</h2>
           <div className="wizard-fields">
-            <div>
+            <div className="category-field">
               <span className="pc-label" id="category-label">
                 Category
               </span>
@@ -211,20 +154,7 @@ export function PracticeWizard({ bank, categories, hasSession, onComplete }: Pra
                   );
                 })}
               </div>
-              <select
-                id="category"
-                className="sr-only"
-                aria-hidden="true"
-                tabIndex={-1}
-                value={category}
-                onChange={(e) => handleCategoryChange(e.target.value)}
-              >
-                {categories.map((c) => (
-                  <option key={c} value={c}>
-                    {c}
-                  </option>
-                ))}
-              </select>
+
             </div>
 
             <div>
@@ -244,25 +174,12 @@ export function PracticeWizard({ bank, categories, hasSession, onComplete }: Pra
                   </button>
                 ))}
               </div>
-              <select
-                id="question-count"
-                className="sr-only"
-                aria-hidden="true"
-                tabIndex={-1}
-                value={totalQuestions}
-                onChange={(e) => setTotalQuestions(Number(e.target.value))}
-              >
-                {QUESTION_COUNT_OPTIONS.map((n) => (
-                  <option key={n} value={n}>
-                    {n}
-                  </option>
-                ))}
-              </select>
+
             </div>
 
             <div id="adapt-every-field" className="pc-field">
               <span className="pc-label" id="adapt-every-label">
-                Adapt Every
+                Adjust difficulty every
               </span>
               <div className="pill-group" role="group" aria-labelledby="adapt-every-label" aria-disabled={!adaptive}>
                 {ADAPT_EVERY_OPTIONS.map((n) => (
@@ -278,31 +195,19 @@ export function PracticeWizard({ bank, categories, hasSession, onComplete }: Pra
                   </button>
                 ))}
               </div>
-              <select
-                id="adapt-every"
-                className="sr-only"
-                aria-hidden="true"
-                tabIndex={-1}
-                disabled={!adaptive}
-                value={adaptWindow}
-                onChange={(e) => setAdaptWindow(Number(e.target.value))}
-              >
-                {ADAPT_EVERY_OPTIONS.map((n) => (
-                  <option key={n} value={n}>
-                    {n} questions
-                  </option>
-                ))}
-              </select>
+
             </div>
 
             <div id="adaptive-field" className="pc-field pc-toggle">
-              <label className="pc-label" htmlFor="adaptive-toggle">
-                Adaptive
-              </label>
+              <div>
+                <label className="pc-label" htmlFor="adaptive-toggle">Adaptive mode</label>
+                <p className="adaptive-description">Adjust difficulty based on your recent answers.</p>
+              </div>
               <label className="switch" aria-label="Adaptive mode">
                 <input
                   type="checkbox"
                   id="adaptive-toggle"
+                  className="sr-only"
                   checked={adaptive}
                   onChange={(e) => setAdaptive(e.target.checked)}
                 />
@@ -316,7 +221,6 @@ export function PracticeWizard({ bank, categories, hasSession, onComplete }: Pra
               Confirm &amp; Continue
             </button>
           </div>
-          <p className="note tiny center">We&rsquo;ll step up or down difficulty based on your recent accuracy.</p>
         </section>
       )}
 
@@ -416,14 +320,6 @@ export function PracticeWizard({ bank, categories, hasSession, onComplete }: Pra
             </button>
             <button id="start-btn" className="btn btn-primary" type="button" onClick={handleStart}>
               Start Practice
-            </button>
-            {/* 10d fix: shipped permanently enabled in the vanilla markup
-                regardless of session state. Wired to hasSession (see the
-                prop doc above) — this wizard only mounts while there is no
-                session, so it is always disabled in the current
-                architecture, which is the correct state for "no session". */}
-            <button id="reset-btn" className="btn btn-ghost" type="button" disabled={!hasSession} onClick={() => setStep(1)}>
-              Reset
             </button>
           </div>
         </section>

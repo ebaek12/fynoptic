@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react';
-import { useReducedMotion } from 'framer-motion';
 import { cn } from '@/lib/utils';
 import { RACK_ITEMS, type RackItem } from './rack-data';
 
@@ -17,12 +16,8 @@ import { RACK_ITEMS, type RackItem } from './rack-data';
  *  3. Narrow (<900px) — same static tablist; the pin/blur experience doesn't
  *     work on small screens.
  *
- * The lead (heading + intro) is INSIDE the pinned block. It used to sit
- * outside it, which meant the section's own heading scrolled away the instant
- * the lock began and the reader spent the whole sequence looking at four
- * unlabelled words. The earlier objection to pinning it — that the pin
- * overflowed on short viewports — is handled by PIN_H's `min()` below rather
- * than by evicting the heading.
+ * The heading introduces the panel in normal flow. Only the names and card
+ * pin, once their centre reaches the centre of the space below the nav.
  */
 
 const NARROW_BREAKPOINT_PX = 900;
@@ -39,39 +34,10 @@ const NARROW_BREAKPOINT_PX = 900;
  */
 const SHORT_BREAKPOINT_PX = 700;
 
-/**
- * Height of the block that stays on screen. Two constraints, and it has to
- * satisfy both:
- *
- *  - It can never exceed the viewport under the fixed header, or the pinned
- *    block doesn't fit on screen and the bottom of it is cut off.
- *  - It must not exceed what the content inside it actually needs. Pinning
- *    the *full* viewport height (what this was) means that on any tall
- *    display the block is far bigger than the lead + names + panel inside
- *    it, and `items-center` splits the difference into two equal bands of
- *    nothing. Measured at 1440x1345 that was ~580px of dead space, and the
- *    same slack shows up again as a ~500px void between the last panel and
- *    the footer once the track releases (the pin is parked at the track's
- *    bottom with its content still centred inside it).
- *
- * 760px is the content's real ceiling: RackLead (~200px) + the 460px panel
- * + the 40-64px of air above the lead. `min()` keeps the viewport clamp for
- * short windows.
- */
-const PIN_H = 'min(calc(100vh - var(--header-h, 56px)), 760px)';
-/**
- * Scroll distance spent on each rack transition. Track length is
- * PIN_H + STEP*segments = 760 + 3*243 = 1489px. Roughly the same total
- * scroll cost as the old 1982px track, except none of it is now spent on
- * dead space: every pixel advances the focus.
- *
- * 0.32 rather than the old 0.18: with PIN_H capped the absolute step would
- * otherwise have shrunk with it, and `dwellEase` only spends half a segment
- * travelling — 0.18 * 760 would have racked a whole item in 68px of scroll,
- * which reads as a snap rather than a rack.
- */
-const STEP = `calc(${PIN_H} * 0.32)`;
-const DEFAULT_HEADER_H_PX = 56; // matches --header-h in redesign.css; re-read live below.
+const PIN_H = 'min(460px, calc(100svh - var(--header-h, 58px) - 96px))';
+const PIN_TOP = `calc((100svh + var(--header-h, 58px) - ${PIN_H}) / 2)`;
+// Keep roughly 240px of scrolling per transition with the shorter panel.
+const STEP = `calc(${PIN_H} * 0.52)`;
 /** 3.4px smeared the defocused names into unreadable ghosts rather than reading as depth-of-field. */
 const NAME_BLUR_CAP_PX = 2.4;
 const PANEL_BLUR_CAP_PX = 4;
@@ -116,11 +82,8 @@ function progressForItem(i: number, segments: number): number {
   return (i + 0.12) / segments;
 }
 
-function readHeaderHeightPx(): number {
-  if (typeof window === 'undefined') return DEFAULT_HEADER_H_PX;
-  const raw = getComputedStyle(document.documentElement).getPropertyValue('--header-h');
-  const n = parseFloat(raw);
-  return Number.isFinite(n) ? n : DEFAULT_HEADER_H_PX;
+function readPinTopPx(pin: HTMLDivElement | null): number {
+  return pin ? parseFloat(getComputedStyle(pin).top) || 0 : 0;
 }
 
 /**
@@ -130,8 +93,8 @@ function readHeaderHeightPx(): number {
  * same approach as Hero.tsx's `useHeroScrollProgress`.
  *
  * progress = clamp((scrolledIntoTrack) / (trackHeight - pinnedHeight), 0, 1)
- * where scrolledIntoTrack = headerHeight - rect.top (0 right as the track's
- * top clears the fixed nav, growing as the user scrolls further into it).
+ * where scrolledIntoTrack = pinTop - rect.top. Progress stays zero while
+ * the panel is travelling upward to its centred sticky position.
  *
  * The denominator is the distance the sticky block can actually travel inside
  * the track — trackHeight minus the sticky block's own height — not
@@ -157,8 +120,7 @@ function useTrackProgress(
       raf = 0;
       const rect = el.getBoundingClientRect();
       const pinH = pinRef.current?.offsetHeight ?? window.innerHeight;
-      const headerH = readHeaderHeightPx();
-      const scrolledIntoTrack = headerH - rect.top;
+      const scrolledIntoTrack = readPinTopPx(pinRef.current) - rect.top;
       const denom = Math.max(1, rect.height - pinH);
       setProgress(clamp01(scrolledIntoTrack / denom));
     };
@@ -313,9 +275,7 @@ function RackPanel({ item, d }: PanelProps) {
   );
 }
 
-/** The section's own heading and standfirst. Rendered inside the pinned block
- *  in rack mode and above the tablist in the fallback, so it is present in
- *  both and never scrolls out from under the thing it names. */
+/** The section's heading and introduction, before the interactive panel. */
 function RackLead() {
   return (
     <div className="pb-6">
@@ -334,13 +294,16 @@ function RackLead() {
 }
 
 /** The always-mounted, pinned rack experience: 4-name list + up to 2 cross-fading panels + a progress rail. */
-function RackTrack({ items }: { items: readonly RackItem[] }) {
+function RackTrack({ items, introActive = false }: { items: readonly RackItem[]; introActive?: boolean }) {
   const segments = items.length - 1;
   const trackRef = useRef<HTMLDivElement>(null);
   const pinRef = useRef<HTMLDivElement>(null);
   const nameRefs = useRef<Array<HTMLButtonElement | null>>([]);
   const near = useNearViewport(trackRef, true);
-  const progress = useTrackProgress(trackRef, pinRef, near);
+  const trackProgress = useTrackProgress(trackRef, pinRef, near && !introActive);
+  // During the magnifier introduction this same section is scaled inside
+  // the lens. Its transformed bounds must not advance the course selection.
+  const progress = introActive ? 0 : trackProgress;
   const focus = focusFromProgress(progress, segments);
 
   const lowIndex = Math.max(0, Math.min(items.length - 1, Math.floor(focus)));
@@ -360,11 +323,11 @@ function RackTrack({ items }: { items: readonly RackItem[] }) {
     (i: number) => {
       const el = trackRef.current;
       if (!el) return;
-      const headerH = readHeaderHeightPx();
+      const pinTop = readPinTopPx(pinRef.current);
       // Document-relative top of the track is scroll-position-invariant:
       // (current scrollY + current rect.top) is the same value no matter
       // when it's measured, so this works from any scroll position.
-      const pinStartDoc = window.scrollY + el.getBoundingClientRect().top - headerH;
+      const pinStartDoc = window.scrollY + el.getBoundingClientRect().top - pinTop;
       // Same denominator as useTrackProgress — the sticky block's travel, not
       // the viewport's. They have to agree or click-to-jump lands off-plateau.
       const pinH = pinRef.current?.offsetHeight ?? window.innerHeight;
@@ -389,6 +352,17 @@ function RackTrack({ items }: { items: readonly RackItem[] }) {
   }
 
   return (
+    <>
+    <div
+      data-rack-lead=""
+      className="flex flex-col justify-end"
+      style={{
+        minHeight: `calc(${PIN_TOP} + clamp(40px, 8svh, 96px))`,
+        paddingTop: 'calc(var(--header-h, 58px) + clamp(32px, 5svh, 64px))',
+      }}
+    >
+      <RackLead />
+    </div>
     <div
       ref={trackRef}
       data-rack-track=""
@@ -399,20 +373,11 @@ function RackTrack({ items }: { items: readonly RackItem[] }) {
         ref={pinRef}
         className="sticky flex flex-col overflow-hidden"
         style={{
-          top: 'var(--header-h, 56px)',
+          top: PIN_TOP,
           height: PIN_H,
-          // The heading used to lock flush against the navbar, with the two
-          // rules touching. This is the air between them, and it's the reason
-          // PIN_H is the full viewport rather than something content-sized:
-          // there's room to give.
-          paddingTop: 'clamp(40px, 5vh, 64px)',
           willChange: near ? 'contents' : undefined,
         }}
       >
-        {/* Inside the pin, so the section keeps its own name for the whole
-            locked sequence instead of handing the reader four bare words. */}
-        <RackLead />
-
         {/* Full container width, not the 980px cap this used to carry. The
             cap was meant to stop the names and the panel drifting to
             opposite ends of the screen, but with the panel column allowed to
@@ -421,7 +386,7 @@ function RackTrack({ items }: { items: readonly RackItem[] }) {
             container's right edge and the content under it stopped ~25%
             short of it. Capping the *panel* (max-w below) does the same job
             without breaking the section's own rail. */}
-        <div className="flex min-h-0 flex-1 items-center gap-8 lg:gap-12">
+        <div data-rack-stage="" className="flex min-h-0 flex-1 items-center gap-8 lg:gap-12">
         <div
           role="group"
           aria-label="Fynoptic — Courses, Articles, Flashcards, Practice"
@@ -492,16 +457,7 @@ function RackTrack({ items }: { items: readonly RackItem[] }) {
         <div
           className="flex min-w-0 flex-1 flex-col justify-center self-center rounded-lg border border-border bg-card p-6 sm:p-7"
           style={{
-            // `min(460px, 100%)` looked like it adapted and didn't: a
-            // percentage height only resolves against a definite parent
-            // height, and inside a centred flex row it isn't one, so the
-            // card fell back to a flat 460px. On a 600px-tall window that
-            // is taller than the whole row, and the pin's `overflow-hidden`
-            // sheared the bottom off the card and the last two names.
-            // Viewport units are always definite: 260px is the lead plus
-            // the pin's top padding, so this is "whatever is left under the
-            // heading", floored so the card never collapses.
-            height: 'clamp(280px, calc(100vh - var(--header-h, 56px) - 260px), 460px)',
+            height: PIN_H,
           }}
         >
           {panelItem && <RackPanel key={panelItem.id} item={panelItem} d={panelD} />}
@@ -509,6 +465,7 @@ function RackTrack({ items }: { items: readonly RackItem[] }) {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
@@ -591,9 +548,9 @@ function RackTabs({ items }: { items: readonly RackItem[] }) {
   );
 }
 
-export function RackFocus() {
+export function RackFocus({ introActive = false }: { introActive?: boolean }) {
   const [mounted, setMounted] = useState(false);
-  const prefersReducedMotion = useReducedMotion();
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
   const [tooSmall, setTooSmall] = useState(false);
 
   useEffect(() => {
@@ -604,10 +561,18 @@ export function RackFocus() {
     const mq = window.matchMedia(
       `(max-width: ${NARROW_BREAKPOINT_PX - 1}px), (max-height: ${SHORT_BREAKPOINT_PX - 1}px)`,
     );
-    const update = () => setTooSmall(mq.matches);
+    const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const update = () => {
+      setTooSmall(mq.matches);
+      setPrefersReducedMotion(motion.matches);
+    };
     update();
     mq.addEventListener('change', update);
-    return () => mq.removeEventListener('change', update);
+    motion.addEventListener('change', update);
+    return () => {
+      mq.removeEventListener('change', update);
+      motion.removeEventListener('change', update);
+    };
   }, []);
 
   // SSR (and the first client render, pre-effect) always renders the static
@@ -621,13 +586,9 @@ export function RackFocus() {
   const items = useMemo(() => RACK_ITEMS, []);
 
   return (
-    <section className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 lg:px-8" aria-labelledby="rack-heading">
-      {/* The lead lives inside RackTrack's sticky block in rack mode (so it
-          stays put for the whole locked sequence) and above the tablist in the
-          fallback — exactly one of the two renders it, so `#rack-heading` is
-          never duplicated for the `aria-labelledby` above. */}
+    <section className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 lg:px-8" aria-labelledby="rack-heading" style={useRack ? { paddingTop: 0 } : undefined}>
       {useRack ? (
-        <RackTrack items={items} />
+        <RackTrack items={items} introActive={introActive} />
       ) : (
         <>
           <RackLead />

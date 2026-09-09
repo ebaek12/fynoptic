@@ -39,7 +39,7 @@ async function selectFirstUnitAndStart(page: Page, mode: 'mc' | 'fitb' = 'mc'): 
   await goto(page);
   const chip = page.locator('#unit-list .unit-chip').first();
   await chip.click();
-  const unitLabel = await chip.textContent();
+  const unitLabel = await chip.locator('.unit-name').textContent();
   await page.locator('#confirm-units').click();
   if (mode === 'fitb') {
     await page.locator('label.mode-chip', { hasText: 'Fill in the Blank' }).click();
@@ -244,4 +244,55 @@ test('ending a session opens the summary modal with the selected units listed', 
   await modal.locator('.modal-close').click();
   await expect(modal).toBeHidden();
   await expect(page.locator('#block-units')).toBeVisible();
+});
+
+test('setup can go back without losing units or mode', async ({ page }) => {
+  await goto(page);
+  const unit = page.locator('#unit-list input').first();
+  await page.locator('#unit-list .unit-chip').first().click();
+  await page.locator('#confirm-units').click();
+  await page.getByLabel('Fill in the Blank', { exact: true }).focus();
+  await page.keyboard.press('Space');
+  await page.locator('#confirm-mode').click();
+  await page.locator('#back-to-mode').click();
+  await expect(page.getByLabel('Fill in the Blank', { exact: true })).toBeChecked();
+  await page.locator('#back-to-units').click();
+  await expect(unit).toBeChecked();
+});
+
+test('malformed saved progress does not crash the unit picker', async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem('fynoptic.flashcards.v1', JSON.stringify({ answers: { 'Banking::Checking Account': null } })));
+  const errors: string[] = [];
+  page.on('pageerror', error => errors.push(error.message));
+  await page.goto('/flashcard');
+  await page.locator('#select-all').click();
+  await expect(page.locator('#unit-list input').first()).toBeChecked();
+  expect(errors).toEqual([]);
+});
+
+test('repeated answers count each card once and reflect its latest result', async ({ page }) => {
+  await selectFirstUnitAndStart(page, 'fitb');
+  const term = await page.locator('#term-text').textContent();
+  await page.locator('#fitb-input').fill(term!);
+  await page.locator('#fitb-input').press('Enter');
+  await expect(page.locator('#stat-correct')).toHaveText('1');
+  await page.locator('#fitb-input').press('Enter');
+  await expect(page.locator('#stat-correct')).toHaveText('1');
+  await expect(page.locator('#stat-done')).toHaveText('1');
+  await page.locator('#fitb-input').fill('incorrect answer');
+  await page.locator('#fitb-input').press('Enter');
+  await expect(page.locator('#stat-correct')).toHaveText('0');
+  await expect(page.locator('#stat-done')).toHaveText('1');
+});
+
+test('resetting progress preserves the deck size and unlocks revealed cards', async ({ page }) => {
+  await selectFirstUnitAndStart(page);
+  const total = await page.locator('#stat-total').textContent();
+  await page.locator('#flip-btn').click();
+  await page.locator('#reset-progress').click();
+  await page.locator('#reset-progress-confirm').click();
+  await expect(page.locator('#stat-total')).toHaveText(total!);
+  await expect(page.locator('#stat-done')).toHaveText('0');
+  await expect(page.locator('#mc-area')).not.toHaveClass(/is-locked/);
+  await expect(page.locator('.mc-option').first()).toBeEnabled();
 });

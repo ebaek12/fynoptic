@@ -1,0 +1,112 @@
+html body .course-library {
+  padding-bottom: 72px;
+}
+.course-library h1 {
+  margin-bottom: 12px;
+}
+.library-intro {
+  color: var(--muted-fg);
+  margin: 0 0 36px;
+  max-width: 640px;
+}
+.library-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 20px;
+}
+.library-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 28px;
+  border: 1px solid var(--db-rule);
+  border-radius: 12px;
+  background: var(--surface-1);
+}
+.library-card--available {
+  border-color: var(--db-optic);
+}
+.library-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted-fg);
+  margin-bottom: 28px;
+}
+.library-available {
+  color: var(--db-optic);
+}
+.library-card h2 {
+  font-size: 23px;
+  line-height: 1.3;
+  margin: 0 0 10px;
+  letter-spacing: -0.4px;
+}
+.library-subtitle {
+  margin: 0;
+  color: var(--muted-fg);
+  font-size: 15px;
+  line-height: 1.6;
+}
+.library-description {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--muted-fg);
+  margin: 20px 0 0;
+}
+.library-card-bottom {
+  margin-top: auto;
+  padding-top: 28px;
+}
+.library-format {
+  margin: 0 0 14px;
+  font-size: 13px;
+  color: var(--muted-fg);
+}
+.library-card .btn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.library-lock {
+  margin: 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--db-rule);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--text-100);
+}
+.library-lock-hint {
+  margin: 6px 0 0;
+  color: var(--muted-fg);
+  font-size: 12px;
+}
+.library-footnote {
+  margin: 28px 0 0;
+  color: var(--muted-fg);
+  font-size: 14px;
+}
+.library-footnote a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+@media (max-width: 1000px) {
+  .library-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .library-grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-auto-rows: auto;
+  }
+  .library-card {
+    padding: 24px;
+    min-height: 300px;
+  }
+}

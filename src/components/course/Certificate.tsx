@@ -49,7 +49,7 @@ import type { CertificateProps } from './CourseOne';
 
 export function Certificate({ postQuizScore, certificate: _certificate, onIssue }: CertificateProps) {
   const { user } = useAuth();
-  const learnerName = getUserName() ?? user?.displayName ?? 'Learner';
+  const learnerName = user ? user.displayName?.trim() || 'Learner' : getUserName()?.trim() || 'Learner';
 
   const badgeSvgRef = useRef<SVGSVGElement>(null);
   const certNameRef = useRef<HTMLElement>(null);

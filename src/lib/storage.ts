@@ -5,7 +5,6 @@
 import { z } from 'zod';
 
 const COURSE_PROGRESS_KEY = 'ff_course_progress';
-const FIXIT_HISTORY_KEY = 'ff_fixit_history';
 const REPORTS_KEY = 'ff_reports';
 const THEME_KEY = 'fynoptic-theme';
 const A11Y_HC_KEY = 'ff_a11y_hc';
@@ -65,14 +64,6 @@ export function setCourseProgress(moduleIds: string[]): void {
   writeJson(COURSE_PROGRESS_KEY, moduleIds);
 }
 
-export function getFixitHistory(): string[] {
-  return readStringArray(FIXIT_HISTORY_KEY);
-}
-
-export function setFixitHistory(entries: string[]): void {
-  writeJson(FIXIT_HISTORY_KEY, entries);
-}
-
 // Article ids the reader has visited. Local-only, same shape/convention as
 // ff_course_progress: string[], zod-validated, empty array on anything else.
 export function getArticlesRead(): string[] {
@@ -95,9 +86,9 @@ export function setReports(reports: unknown[]): void {
 export function getTheme(): Theme {
   try {
     const result = themeSchema.safeParse(localStorage.getItem(THEME_KEY));
-    return result.success ? result.data : 'dark';
+    return result.success ? result.data : 'light';
   } catch {
-    return 'dark';
+    return 'light';
   }
 }
 

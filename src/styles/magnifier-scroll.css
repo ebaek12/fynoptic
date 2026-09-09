@@ -1,0 +1,172 @@
+.magnifier-transition {
+  position: relative;
+  padding: 0 !important;
+  /* Above the fixed navigation for the genuinely full-screen dive, below dialogs. */
+  z-index: 110;
+  height: 100svh;
+  background: var(--surface-0);
+}
+
+.magnifier-transition[data-animated="true"] {
+  height: 360svh;
+}
+
+.magnifier-pin {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--surface-0);
+}
+
+.magnifier-caption {
+  position: absolute;
+  top: clamp(48px, 8svh, 100px);
+  inset-inline: 24px;
+  text-align: center;
+  color: var(--text-100);
+}
+
+.magnifier-eyebrow {
+  display: block;
+  margin-bottom: 12px;
+  font-size: clamp(12px, 1.2vw, 15px);
+  color: var(--muted-fg);
+}
+
+html body #main .magnifier-caption h2 {
+  margin: 0;
+  font-family: var(--display-face);
+  font-size: clamp(42px, 6vw, 80px) !important;
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+}
+
+.magnifier-art {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.magnifier-glass {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: clamp(260px, 34vw, 420px);
+  height: auto;
+  overflow: visible;
+  /* Optical centre (200,200), not the bounding box including the handle. */
+  translate: -41.666667% -41.666667%;
+}
+
+.magnifier-skip {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  padding: 12px 18px;
+  background: var(--surface-1);
+  color: var(--text-100);
+  border-radius: 6px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.magnifier-skip:focus-visible {
+  opacity: 1;
+  pointer-events: auto;
+  outline: 2px solid var(--db-optic);
+  outline-offset: 3px;
+}
+
+#learning {
+  /* Match the opaque lens exactly, including in dark mode. */
+  background: var(--surface-0);
+  scroll-margin-top: var(--header-h, 58px);
+}
+
+/* One live learning section: scaled inside the lens during the dive, then
+   docked at exactly the same viewport position in the normal document. */
+.magnifier-experience[data-animated="true"] .magnifier-learning {
+  position: relative;
+  margin-top: -100svh;
+  min-height: var(--learning-height);
+  scroll-margin-top: 0;
+}
+
+.magnifier-experience[data-animated="true"] .magnifier-portal {
+  position: fixed;
+  inset: 0 0 auto;
+  height: 100svh;
+  overflow: hidden;
+  z-index: 111;
+  visibility: hidden;
+}
+
+.magnifier-content {
+  background: var(--surface-0);
+  transform-origin: 50% 50svh;
+}
+
+html body .header[data-magnifying="true"] {
+  z-index: 112;
+  transform: scale(var(--magnifier-nav-scale));
+  transform-origin: 50% 50svh;
+  opacity: var(--magnifier-nav-opacity);
+  pointer-events: none;
+  transition: none !important;
+}
+
+.magnifier-experience[data-phase="zooming"] .magnifier-portal {
+  visibility: visible;
+}
+
+.magnifier-experience[data-phase="complete"] .magnifier-portal {
+  position: relative;
+  inset: auto;
+  height: auto;
+  overflow: visible;
+  visibility: visible;
+  z-index: auto;
+}
+
+.magnifier-experience[data-phase="complete"] .magnifier-transition {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@media (max-height: 600px) {
+  .magnifier-glass {
+    width: min(260px, 47svh);
+  }
+  .magnifier-caption {
+    top: 24px;
+  }
+  html body #main .magnifier-caption h2 {
+    font-size: 38px !important;
+  }
+  .magnifier-eyebrow {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .magnifier-transition,
+  .magnifier-transition[data-animated="true"] {
+    height: auto;
+  }
+  .magnifier-pin {
+    position: relative;
+    height: min(640px, 85svh);
+  }
+}
+
+.no-js .magnifier-transition {
+  height: auto;
+}
+.no-js .magnifier-pin {
+  position: relative;
+  height: min(640px, 85svh);
+}

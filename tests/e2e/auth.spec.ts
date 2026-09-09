@@ -304,3 +304,23 @@ test.describe('submit locking', () => {
     await expect(page.locator('#auth-modal')).toBeHidden();
   });
 });
+
+test('restoring a session never paints the sign-in label during navigation', async ({ page }) => {
+  await page.goto('/');
+  await signUp(page, uniqueEmail());
+  await page.addInitScript(() => {
+    (window as any).__signInFlashed = false;
+    const inspect = () => {
+      const label = document.getElementById('nav-user-label');
+      if (label && !label.hidden && label.getClientRects().length > 0) {
+        (window as any).__signInFlashed = true;
+      }
+    };
+    new MutationObserver(inspect).observe(document, { subtree: true, childList: true, attributes: true });
+  });
+  for (const path of ['/flashcard', '/practice', '/profile']) {
+    await page.goto(path);
+    await expect(page.locator('#user-btn')).toHaveAttribute('aria-label', 'Your Profile');
+    expect(await page.evaluate(() => (window as any).__signInFlashed)).toBe(false);
+  }
+});

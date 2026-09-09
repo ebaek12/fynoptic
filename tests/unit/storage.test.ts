@@ -2,18 +2,15 @@ import { beforeEach, describe, expect, it } from 'vitest';
 import {
   getArticlesRead,
   getCourseProgress,
-  getFixitHistory,
   getReports,
   getTheme,
   setArticlesRead,
   setCourseProgress,
-  setFixitHistory,
   setReports,
   setTheme,
 } from '../../src/lib/storage';
 
 const COURSE_PROGRESS_KEY = 'ff_course_progress';
-const FIXIT_HISTORY_KEY = 'ff_fixit_history';
 const REPORTS_KEY = 'ff_reports';
 const THEME_KEY = 'fynoptic-theme';
 const ARTICLES_READ_KEY = 'ff_articles_read';
@@ -27,8 +24,6 @@ describe('exact key names', () => {
     setCourseProgress(['dp-m1']);
     expect(localStorage.getItem(COURSE_PROGRESS_KEY)).toBe('["dp-m1"]');
 
-    setFixitHistory(['entry-1']);
-    expect(localStorage.getItem(FIXIT_HISTORY_KEY)).toBe('["entry-1"]');
 
     setReports([{ a: 1 }]);
     expect(localStorage.getItem(REPORTS_KEY)).toBe('[{"a":1}]');
@@ -52,11 +47,6 @@ describe('zod fallbacks on corrupt JSON', () => {
     expect(getCourseProgress()).toEqual([]);
     localStorage.setItem(COURSE_PROGRESS_KEY, JSON.stringify([1, 2, 3]));
     expect(getCourseProgress()).toEqual([]); // array of numbers, not strings
-  });
-
-  it('getFixitHistory falls back to [] on invalid JSON', () => {
-    localStorage.setItem(FIXIT_HISTORY_KEY, 'nope');
-    expect(getFixitHistory()).toEqual([]);
   });
 
   it('getReports falls back to [] on invalid JSON', () => {
@@ -90,12 +80,12 @@ describe('getTheme reads a raw string, not JSON', () => {
     expect(getTheme()).toBe('dark');
   });
 
-  it('falls back to dark for a missing or invalid value', () => {
-    expect(getTheme()).toBe('dark'); // nothing stored
+  it('falls back to light for a missing or invalid value', () => {
+    expect(getTheme()).toBe('light'); // nothing stored
     localStorage.setItem(THEME_KEY, '"dark"'); // JSON-quoted -> not a valid raw enum value
-    expect(getTheme()).toBe('dark'); // falls back, doesn't crash
+    expect(getTheme()).toBe('light'); // falls back, doesn't crash
     localStorage.setItem(THEME_KEY, 'purple');
-    expect(getTheme()).toBe('dark');
+    expect(getTheme()).toBe('light');
   });
 });
 
@@ -120,7 +110,7 @@ describe('write swallows quota/unavailable errors', () => {
     };
     try {
       expect(getCourseProgress()).toEqual([]);
-      expect(getTheme()).toBe('dark');
+      expect(getTheme()).toBe('light');
     } finally {
       Storage.prototype.getItem = original;
     }

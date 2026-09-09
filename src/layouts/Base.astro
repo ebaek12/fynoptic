@@ -1,22 +1,11 @@
 ---
-// Shared <head> + <body> shell. Required title/description/canonical fixes
-// D15 — flashcard.html, practice.html, profile.html shipped none of the
-// three in the legacy site, and courses.html/bot.html shared an identical
-// <title>. A page cannot omit them here without a type error.
-//
-// Fonts are self-hosted via @fontsource (fixes D12 — the legacy site loaded
-// three families render-blocking from a third-party CDN on every page).
-//
-// canonical is extensionless to match the hrefs Nav/Footer emit — see
-// IMPLEMENTATION.md §0.1 for why: pairing extensionless links with a .html
-// canonical is self-contradictory for search engines, confirmed live that
-// GitHub Pages serves both forms, so this is a consistency fix, not a new
-// SEO judgment call.
 import '@fontsource-variable/inter';
 import '@fontsource/spectral/600.css';
 import '../styles/legacy.css';
 import '../styles/redesign.css';
 import '../styles/globals.css';
+import '../styles/interface.css';
+import '../styles/auth.css';
 import SiteBg from '../components/SiteBg.astro';
 import { Nav } from '../components/shell/Nav';
 import { Footer } from '../components/shell/Footer';
@@ -31,6 +20,7 @@ interface Props {
   ogTitle?: string;
   ogDescription?: string;
   ogImage?: string;
+  bodyClass?: string;
 }
 
 const {
@@ -40,52 +30,29 @@ const {
   ogTitle = title,
   ogDescription = description,
   ogImage = 'https://fynoptic.org/assets/img/fynopticlogo.png',
+  bodyClass,
 } = Astro.props;
 
 const canonicalUrl = new URL(canonical, 'https://fynoptic.org').toString();
 ---
 
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <script is:inline>
-    // Pre-paint theme: sets data-theme on <html> synchronously, before any
-    // stylesheet is parsed, so a stored preference never flashes the wrong
-    // theme on load/navigation. Mirrors getTheme()'s key/default in
-    // ../lib/storage.ts — keep the two in sync if that logic ever changes.
-    // <body> can't be touched this early (it doesn't exist yet); Nav.tsx's
-    // mount effect (Phase 5) re-applies the same value to both <html> and
-    // <body> once React hydrates, using the same storage key/default, so it
-    // recomputes the same value and never flips it.
     (function () {
-      // `no-js` ships in the markup and was never taken off again, so the
-      // class meant "JS is unavailable" on every page including the ones
-      // where it plainly was. Removing it here — synchronously, before
-      // first paint, in the one script that is guaranteed to run — is what
-      // makes it mean what it says, and lets the stylesheet keep
-      // JS-dependent reveal animations off for readers who really have no
-      // JS instead of hiding their content behind an animation that will
-      // never fire.
       document.documentElement.classList.remove('no-js');
-      // `page-loaded` is the gate every reveal animation hangs off. It has
-      // to be set here, before first paint, and not from the module script
-      // at DOMContentLoaded where it used to live: the reveal styles take
-      // an element from visible to opacity 0 and animate it back, so
-      // applying the class after the first frame is painted makes content
-      // appear, blink out, and fade in again. Setting it pre-paint means
-      // the element is only ever seen mid-animation. It stays JS-gated, so
-      // a reader without JS still gets the plain, visible resting state.
       document.documentElement.classList.add('page-loaded');
       try {
         var theme = localStorage.getItem('fynoptic-theme');
-        document.documentElement.setAttribute('data-theme', theme === 'light' ? 'light' : 'dark');
+        document.documentElement.setAttribute('data-theme', theme === 'dark' ? 'dark' : 'light');
       } catch (e) {}
     })();
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content={description} />
-  <meta name="theme-color" content="#0B1220" />
+  <meta name="theme-color" content="#F7F9FC" />
   <meta property="og:title" content={ogTitle} />
   <meta property="og:description" content={ogDescription} />
   <meta property="og:image" content={ogImage} />
@@ -100,7 +67,10 @@ const canonicalUrl = new URL(canonical, 'https://fynoptic.org').toString();
 
   <title>{title}</title>
 </head>
-<body data-theme="dark">
+<body class={bodyClass}>
+  <script is:inline>
+    document.body.setAttribute('data-theme', document.documentElement.getAttribute('data-theme') || 'light');
+  </script>
   <a href="#main" class="skip-link">Skip to content</a>
   <SiteBg />
   <Nav client:load />
@@ -112,25 +82,6 @@ const canonicalUrl = new URL(canonical, 'https://fynoptic.org').toString();
   <AuthDialog client:load />
 
   <script>
-    // Phase 5: initNav, initModals's login/signup/reset wiring, initAuthUI
-    // and initToasts are retired — Nav/AuthDialog/Toaster above cover all of
-    // it. Two imperative calls remain:
-    //   - applyA11y(): still DOM-only (body.hc/body.dyslexia), no React
-    //     consumer of prefsStore exists yet.
-    //   - initModals(): NOT retired, despite Phase 5's plan text. It's still
-    //     the only thing giving Escape/backdrop-click to every modal that
-    //     hasn't been converted yet — practice.astro's #end-session-modal
-    //     (practice.spec.ts pins Escape hiding it), course-one's modals, and
-    //     the flashcard/practice/index/about fixit/report/writer stubs. See
-    //     the comment atop lib/modal.ts for how it now steps aside for
-    //     Radix-owned (login/signup/reset) modals instead of fighting them.
-    // initTheme() is gone: the pre-paint script in <head> plus useTheme()
-    // (via Nav's theme button) now cover every case that used to need it.
-    //
-    // Phase 11: initAuthWatcher() is deleted. Its two jobs — kicking off
-    // ensureAuthReady(), and starting the onAuthStateChanged subscription
-    // authStore needs — moved to Nav.tsx's mount effect and to
-    // src/lib/auth.ts's module scope, respectively. See both files.
     import { initModals } from '../lib/modal';
     import { applyA11y } from '../lib/a11y';
     import { initReveal } from '../lib/reveal';
@@ -138,16 +89,6 @@ const canonicalUrl = new URL(canonical, 'https://fynoptic.org').toString();
     document.addEventListener('DOMContentLoaded', () => {
       applyA11y();
       initModals();
-      // Scroll-triggered reveals are a layout shell concern, not a homepage
-      // one. This pair used to live in index.astro alone, so `/courses` —
-      // which carries fourteen `.fade-up` elements — got no observer at
-      // all: legacy.css's `.fade-up { animation: fadeUp .7s forwards }`
-      // simply ran every one of them at load, including the ten below the
-      // fold, so by the time a reader scrolled to them the "reveal" had
-      // been over for several seconds. Every page gets the observer now,
-      // and the stylesheet no longer self-animates `.fade-up` (see
-      // redesign.css, "reveal on scroll" section). `page-loaded` itself is
-      // set pre-paint by the inline <head> script above.
       initReveal();
     });
   </script>

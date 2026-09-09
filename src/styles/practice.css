@@ -1,19 +1,3 @@
-/* ---------------------------- */
-/* PRACTICE PAGE                */
-/* ---------------------------- */
-
-/* Design-fixes batch, commit 8 (2026-08-09): visual redesign of the 3-step
-   wizard (PracticeWizard.tsx) — step indicator, bank cards, pill groups,
-   per-topic counts, and a structured step-3 summary card. This file loads
-   after legacy.css/redesign.css (practice.astro imports it, which is
-   imported after Base.astro's own stylesheet imports resolve), so rules
-   here win the cascade without needing to out-!important every legacy
-   declaration — only where legacy/redesign already used !important on a
-   property this file also sets. Do not copy rules out of legacy.css into
-   this file; that duplication is what made the old styles hard to reason
-   about. */
-
-/* ---- Step indicator ------------------------------------------------- */
 .wizard-progress {
   display: flex;
   justify-content: center;
@@ -78,7 +62,6 @@
   background: rgba(var(--tint-rgb), .16);
 }
 
-/* ---- Step 1: bank cards ---------------------------------------------- */
 .bank-cards {
   display: flex;
   flex-wrap: wrap;
@@ -107,17 +90,11 @@
 .bank-card-meta { font-size: .82rem; color: var(--text-300); }
 .bank-card.is-selected .bank-card-meta { color: var(--text-100); opacity: .8; }
 
-/* .wizard-fields (legacy.css:5694) is a 2-col grid, which makes
-   #adapt-every-field/#adaptive-field actual grid items — so their old
-   `grid-column: span 6` (written for a since-removed 12-col .pc-grid) would
-   otherwise blow up the 2-col track. Same id specificity, later file: this
-   wins the tie and lets the 4 fields fall into a plain 2x2. */
 #adapt-every-field,
 #adaptive-field {
   grid-column: auto;
 }
 
-/* ---- Step 1: segmented pill groups (Questions / Adapt Every) --------- */
 .pill-group {
   display: inline-flex;
   flex-wrap: wrap;
@@ -146,13 +123,10 @@
 #adapt-every-field[aria-disabled="true"] .pill-group,
 .pill-group[aria-disabled="true"] { opacity: .6; }
 
-/* ---- Step 2: topic chips with trailing counts ------------------------ */
 #topics-list.topics-list {
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 }
-/* #topics-list beats .practice-shell .topic-btn (id+class > class+class)
-   without needing !important, per the project's "specificity, not
-   !important" convention. */
+
 #topics-list .topic-btn {
   display: flex;
   align-items: center;
@@ -177,24 +151,33 @@
   background: rgba(91, 140, 255, .55);
 }
 .topics-selected-count { margin: .5rem 0 0; }
-/* legacy.css's `.practice-shell .topics-actions{justify-content:space-between}`
-   (0,2,0) shoves Select All / Clear to opposite edges of the panel now that
-   the panel is wider than the old two-button pair was designed for.
-   `.wizard-panel .topics-actions` ties its specificity (0,2,0); later file
-   wins the tie. */
+
 .wizard-panel .topics-actions {
   justify-content: center;
   gap: .6rem;
 }
 
-/* ---- Step 3: structured summary card ---------------------------------- */
 .summary-card {
   margin: 0 auto 1rem;
-  max-width: 420px;
+  max-width: none;
   border-radius: 12px;
   border: 1px solid rgba(var(--tint-rgb), .10);
   background: rgba(var(--tint-rgb), .03);
   padding: .25rem 1rem;
+}
+
+.practice-shell .switch input {
+  display: block;
+}
+
+.practice-shell .switch:has(input:focus-visible) {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 4px;
+  border-radius: 999px;
+}
+
+.wizard-actions {
+  flex-wrap: wrap;
 }
 .summary-row {
   display: flex;
@@ -208,18 +191,50 @@
 .summary-label { color: var(--text-300); font-size: .88rem; }
 .summary-value { color: var(--text-100); font-weight: 700; text-align: right; }
 
-/* legacy.css:4428 `#question-count { min-width: 140px }` and legacy.css:4425
-   `#adapt-every { min-width: 180px }` (an id selector's `.sr-only` had no
-   answer for — min-width always wins over width regardless of the width
-   value, and no stack of classes outranks an id) were forcing the hidden
-   #question-count/#adapt-every selects to lay out at real width, right
-   edge landing past the viewport at narrow widths. clip-path still made
-   them invisible, but the layout box was real, which both corrupted
-   full-page screenshot capture (canvas widened to fit it) and left an
-   oversized off-flow box for no reason. id+class beats a bare id. */
-#question-count.sr-only,
-#adapt-every.sr-only {
-  width: 1px;
-  min-width: 0;
-  padding: 0;
+html body #practice-wizard .wizard-panel {
+  padding: clamp(24px, 3vw, 36px);
+}
+html body #practice-wizard .wizard-panel > h2 {
+  margin: 0 0 28px;
+}
+html body #practice-wizard .wizard-fields {
+  gap: 28px 40px;
+}
+#practice-wizard .category-field { grid-column: 1 / -1; }
+#practice-wizard .pc-label { display: block; margin: 0 0 12px; }
+#practice-wizard .bank-card { padding: 18px 20px; gap: 8px; }
+#practice-wizard .bank-card.is-selected {
+  background: color-mix(in srgb, var(--db-optic) 8%, var(--surface-1));
+  border-color: var(--db-optic);
+  box-shadow: none;
+}
+#practice-wizard .pill-group { gap: 6px; padding: 6px; border-radius: 12px; }
+#practice-wizard .pill { min-width: 40px; min-height: 40px; border-radius: 8px; }
+#practice-wizard #adaptive-field {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-top: 1px solid var(--db-rule);
+  padding-top: 24px;
+}
+#practice-wizard #adaptive-field .pc-label { margin-bottom: 6px; }
+html body #practice-wizard .adaptive-description {
+  margin: 0;
+  color: var(--text-300);
+  font-size: .95rem !important;
+  line-height: 1.5;
+}
+#practice-wizard .switch { flex: 0 0 48px; width: 48px; height: 28px; }
+#practice-wizard .switch .slider { background: var(--input-border); box-shadow: none; }
+#practice-wizard .switch input:checked + .slider { background: var(--db-optic); }
+#practice-wizard .switch .slider::before { width: 20px; height: 20px; left: 4px; background: #fff; }
+#practice-wizard .switch input:checked + .slider::before { left: calc(100% - 24px); }
+#practice-wizard .wizard-actions { margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--db-rule); }
+@media (max-width: 720px) {
+  html body #practice-wizard .wizard-fields { gap: 24px; }
+  #practice-wizard .bank-cards { flex-direction: column; }
+  #practice-wizard .bank-card { flex-basis: auto; }
+  #practice-wizard .pill { min-width: 36px; }
 }

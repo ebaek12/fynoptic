@@ -1,31 +1,3 @@
-// The in-session question UI for /practice (Phase 10d). This is the
-// counterpart to src/hooks/usePracticeSession.ts: that hook owns the
-// question-bank load and the engine session's mutations, this component is
-// the presentational half — question display, choice rendering, submit,
-// prev/next, and the finish screen. Mount it once a session exists; the
-// wizard/setup screens (category/topic/settings selection) and the
-// end-session confirmation modal are owned by a parallel conversion and are
-// NOT part of this file — see the two callback props below for the exact
-// seam.
-//
-// Preserves exactly, per Appendix A/D and tests/e2e/practice.spec.ts:
-//   - Right-click and Alt/Ctrl/Meta-click eliminate (cross out) a choice,
-//     independent of selection; a normal click selects and clears any
-//     cross-out on that same option.
-//   - Enter submits while a question is visible and a choice is selected
-//     but not yet graded.
-//   - Prev/next re-render from `session.timeline[currentIndex]`, so a
-//     previously-visited question's selection, grading and eliminations
-//     reappear exactly as left (this is a pure render of engine state now,
-//     not the original's imperative replay-and-reapply).
-//   - The `is-selected` / `is-eliminated` / `is-correct` / `is-wrong` /
-//     `ok` / `bad` / `hide` class names (Appendix D / I3).
-//
-// Fixed while converting: `explanation` is always '' in the shipped data
-// (see normalizeQuestion), so the old markResponse's
-// `q.explanation ? "Correct! " + q.explanation : "Correct!"` branches were
-// dead on every real question — dropped rather than ported. Feedback text
-// is just 'Correct!' / 'Not quite.'.
 import { useEffect, type CSSProperties } from 'react';
 import type { Session } from '@/hooks/usePracticeSession';
 
@@ -82,11 +54,6 @@ export function Session({
   const questionVisible = !finishSummary;
   const submitEnabled = !!entry && entry.chosenIdx !== null && !entry.answered;
 
-  // Auto-scroll #stage into view once, on mount — matches practice.ts's
-  // startPractice() calling centerScroll() via setTimeout(…, 0) right after
-  // the first question renders. Same DOM lookup (a plain getElementById,
-  // not a ref) so this needs no coordination with whatever owns the
-  // surrounding `#stage` card markup.
   useEffect(() => {
     const id = window.setTimeout(() => {
       const stage = document.getElementById('stage');
@@ -104,11 +71,9 @@ export function Session({
     // eslint-disable-next-line react-hooks/exhaustive-deps -- fires once on mount, matching the original's one-shot post-start scroll.
   }, []);
 
-  // Enter submits only while a question is on screen and a choice is
-  // selected but not yet graded — same guard as the original's document
-  // keydown listener (questionVisible && !elSubmit.disabled).
   useEffect(() => {
     function onKeyDown(e: KeyboardEvent): void {
+      if (e.defaultPrevented || e.target instanceof Element && e.target.closest('input, textarea, select, a, [contenteditable="true"], [role="dialog"], [role="alertdialog"], button:not(.mc-option)')) return;
       if (e.key === 'Enter' && questionVisible && submitEnabled) {
         e.preventDefault();
         onSubmit();
@@ -146,11 +111,6 @@ export function Session({
         </div>
       </div>
 
-      {/* practice.astro's original `.card.stage` wrapper — required both for
-          legacy.css's `.practice-shell .stage.card` chrome and because this
-          component's own auto-scroll effect above does
-          `document.getElementById('stage')`. Without this wrapper the id
-          didn't exist anywhere and the scroll-into-view silently no-op'd. */}
       <div className="card stage" id="stage">
         <div id="stage-qwrap" className={cx(!questionVisible && 'hide')}>
           {q && entry && (
@@ -232,7 +192,7 @@ export function Session({
         </div>
 
         <div id="stage-finish" className={cx(questionVisible && 'hide')}>
-          <h3>Nice work! 🎉</h3>
+          <h3>Session complete</h3>
           <p id="finish-summary" className="muted">
             {finishSummary}
           </p>

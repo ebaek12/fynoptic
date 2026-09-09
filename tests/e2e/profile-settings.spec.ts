@@ -262,12 +262,21 @@ test.describe('name save propagates to nav (authStore push)', () => {
     // unrelated to what this test is characterizing (the authStore-push
     // propagation, not image-loading). A data: URI loads with no network
     // round-trip at all and always decodes.
+    await page.getByText('Use an image link', { exact: true }).click();
     await page.locator('#input-photo').fill(ONE_PIXEL_PNG_DATA_URL);
     await page.locator('#settings-submit').click();
     await expect(page.locator('.toast-container .toast')).toHaveText('Profile updated');
 
     await expect(page.locator('#nav-avatar')).toBeVisible();
     await expect(page.locator('#nav-avatar')).toHaveAttribute('src', ONE_PIXEL_PNG_DATA_URL);
+    await expect(page.locator('#user-btn')).toHaveCSS('border-radius', '50%');
+    await expect(page.locator('#user-btn')).toHaveCSS('overflow', 'hidden');
+    await expect(page.locator('#nav-avatar')).toHaveCSS('border-radius', '50%');
+    await expect(page.locator('#prof-avatar')).toBeVisible();
+    const headingGap = await page.evaluate(() => document.querySelector('#profile-heading')!.getBoundingClientRect().top + window.scrollY - document.querySelector('.header')!.getBoundingClientRect().height);
+    expect(headingGap).toBeCloseTo(48, 0);
+    const avatar = await page.locator('#nav-avatar').boundingBox();
+    expect(avatar!.width).toBeCloseTo(avatar!.height, 1);
     await expect(page.locator('#nav-initials')).toBeHidden();
   });
 });
@@ -322,13 +331,13 @@ test.describe('avatar upload — mocked Storage backend (see file header)', () =
     });
     await page.locator('#settings-submit').click();
 
-    const bar = page.locator('[role="progressbar"][aria-label="Avatar upload progress"]');
+    const bar = page.getByRole('progressbar', { name: 'Avatar upload progress' });
     await expect(bar).toBeVisible();
 
     // First chunk lands (~83% of 300KB) before the delayed finalize response
     // comes back, so this catches a real intermediate value, not just 0/100.
     await expect(async () => {
-      const value = Number(await bar.getAttribute('aria-valuenow'));
+      const value = Number(await bar.getAttribute('value'));
       expect(value).toBeGreaterThan(0);
       expect(value).toBeLessThan(100);
     }).toPass({ timeout: 3000 });
@@ -390,7 +399,7 @@ test.describe('avatar upload — mocked Storage backend (see file header)', () =
     });
     await page.locator('#settings-submit').click();
 
-    const bar = page.locator('[role="progressbar"][aria-label="Avatar upload progress"]');
+    const bar = page.getByRole('progressbar', { name: 'Avatar upload progress' });
     await expect(bar).toBeVisible();
 
     await page.getByRole('button', { name: 'Cancel Upload' }).click();
@@ -419,8 +428,43 @@ test.describe('verify-email button (real Auth emulator)', () => {
     // ProfileSettings.tsx calls user.reload() once on mount, not on a live
     // subscription (a deliberate choice — see its comment) — so a fresh
     // mount is what picks the just-confirmed state up.
-    await page.reload();
+    await page.evaluate(() => window.dispatchEvent(new Event('focus')));
     await expect(page.getByRole('button', { name: 'Verify Email' })).toBeHidden();
-    await expect(page.locator('.settings .chip-row')).toContainText('Email verified');
+    await expect(page.locator('.account-verification')).toContainText('Email verified');
   });
+});
+
+test('photo and name can be removed and remain cleared after a reload', async ({ page }) => {
+  const email = uniqueEmail();
+  await signUpFromHome(page, email);
+  await page.goto('/profile');
+  await page.locator('#input-name').fill('Saved Name');
+  await page.getByText('Use an image link', { exact: true }).click();
+  await page.locator('#input-photo').fill(ONE_PIXEL_PNG_DATA_URL);
+  await page.locator('#settings-submit').click();
+  await expect(page.locator('#nav-avatar')).toBeVisible();
+  await page.getByRole('button', { name: 'Remove photo' }).click();
+  await page.locator('#input-name').fill('');
+  await page.locator('#settings-submit').click();
+  await expect(page.locator('#nav-avatar')).toBeHidden();
+  await expect(page.locator('#prof-name')).toHaveText(email.split('@')[0]!);
+  await page.reload();
+  await expect(page.locator('#nav-avatar')).toBeHidden();
+  await expect(page.locator('#input-name')).toHaveValue('');
+  await expect(page.locator('#prof-name')).toHaveText(email.split('@')[0]!);
+});
+
+test('discard restores saved details and password reset sends the account an email', async ({ page }) => {
+  const email = uniqueEmail();
+  await signUpFromHome(page, email);
+  await page.goto('/profile');
+  await page.locator('#input-name').fill('Unsaved name');
+  await page.getByRole('button', { name: 'Discard changes' }).click();
+  await expect(page.locator('#input-name')).toHaveValue('');
+  await expect(page.locator('#settings-submit')).toBeDisabled();
+  await page.getByRole('button', { name: 'Reset password', exact: true }).click();
+  await expect(page.locator('.account-message')).toContainText('Password reset link sent.');
+  const response = await page.request.get(`${EMULATOR_HOST}/emulator/v1/projects/${PROJECT_ID}/oobCodes`);
+  const { oobCodes } = await response.json();
+  expect(oobCodes.some((code: { email: string; requestType: string }) => code.email === email && code.requestType === 'PASSWORD_RESET')).toBe(true);
 });

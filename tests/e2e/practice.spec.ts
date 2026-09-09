@@ -22,7 +22,7 @@ async function goToStep2(page: Page, questionCount?: string): Promise<void> {
   // exists, #topics-list is already populated for the default category —
   // no separate wait for topic buttons is needed.
   await page.locator('#wiz-next-1').waitFor();
-  if (questionCount) await page.selectOption('#question-count', questionCount);
+  if (questionCount) await page.getByRole('group', { name: 'Questions', exact: true }).getByRole('button', { name: questionCount, exact: true }).click();
   await page.locator('#wiz-next-1').click();
   await page.locator('#topics-list .topic-btn').first().waitFor();
 }
@@ -73,7 +73,7 @@ test('changing category clears the topic selection', async ({ page }) => {
   await expect(firstChip).toHaveClass(/is-selected/);
 
   await page.locator('#wiz-back-2').click();
-  await page.selectOption('#category', { label: 'Personal Finance' });
+  await page.locator('.bank-card', { hasText: 'Economics' }).click();
   await page.locator('#wiz-next-1').click();
 
   const chips = page.locator('#topics-list .topic-btn.is-selected');
@@ -84,7 +84,7 @@ test('changing category updates body[data-cat] (legacy.css hook, I3)', async ({ 
   await page.goto('/practice');
   await page.locator('#wiz-next-1').waitFor();
   await expect(page.locator('body')).toHaveAttribute('data-cat', 'Personal Finance');
-  await page.selectOption('#category', { label: 'Economics' });
+  await page.locator('.bank-card', { hasText: 'Economics' }).click();
   await expect(page.locator('body')).toHaveAttribute('data-cat', 'Economics');
 });
 
@@ -127,13 +127,13 @@ test('.topic-btn pairs role="checkbox" with aria-checked, not aria-pressed', asy
   expect(await chip.getAttribute('aria-pressed')).toBeNull();
 });
 
-test("step 3's Reset button ships disabled — there is no active session while the wizard is showing (10d fix)", async ({
+test("setup shows only available actions", async ({
   page,
 }) => {
   await goToStep2(page);
   await page.locator('#topics-select-all').click();
   await page.locator('#wiz-next-2').click();
-  await expect(page.locator('#reset-btn')).toBeDisabled();
+  await expect(page.locator('#reset-btn')).toHaveCount(0);
 });
 
 test('a session runs: right-click and Alt-click eliminate a choice, Enter submits', async ({ page }) => {
@@ -242,4 +242,26 @@ test('end-session modal: the explicit "End Session" button is the only thing tha
   // Only the destructive button ends the session: back to the wizard, session cleared.
   await expect(page.locator('#practice-wizard')).toBeVisible();
   await expect(page.locator('#practice-wizard')).toHaveAttribute('data-step', '1');
+});
+
+test('Enter in a dialog does not submit the practice answer behind it', async ({ page }) => {
+  await selectAllUnitsAndStart(page);
+  await page.locator('.mc-option').first().click();
+  await page.locator('#user-btn').click();
+  await page.locator('#login-email').fill('unfinished@example.com');
+  await page.locator('#login-email').press('Enter');
+  await page.keyboard.press('Escape');
+  await expect(page.locator('#feedback')).toBeHidden();
+  await expect(page.locator('#submit-btn')).toBeEnabled();
+});
+
+test('adaptive mode is keyboard accessible', async ({ page }) => {
+  await page.goto('/practice');
+  const toggle = page.locator('#adaptive-toggle');
+  await expect(toggle).toBeChecked();
+  await toggle.focus();
+  await expect(toggle).toBeFocused();
+  await page.keyboard.press('Space');
+  await expect(toggle).not.toBeChecked();
+  await expect(page.locator('#adapt-every-field .pill').first()).toBeDisabled();
 });

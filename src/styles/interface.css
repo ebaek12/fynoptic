@@ -1,0 +1,103 @@
+/* Shared page spacing and theme-aware controls. */
+:root {
+  --page-heading-gap: 48px;
+  --page-heading-size: clamp(2rem, 3.4vw, 3.15rem);
+  --page-heading-line-height: 1.06;
+  --page-heading-copy-gap: 12px;
+}
+
+@media (max-width: 720px) {
+  :root {
+    --page-heading-gap: 32px;
+  }
+}
+
+html body #main .page-heading {
+  padding-top: var(--page-heading-gap) !important;
+  margin-top: 0 !important;
+  border-top: 0;
+}
+
+html body #main .page-heading h1 {
+  max-width: 22ch;
+  margin: 0 0 var(--page-heading-copy-gap) !important;
+  font-size: var(--page-heading-size) !important;
+  line-height: var(--page-heading-line-height) !important;
+  letter-spacing: -0.025em !important;
+  text-wrap: balance;
+  text-shadow: none;
+}
+
+html body #main .page-heading h1 + p {
+  margin-top: 0 !important;
+}
+
+html[data-theme="light"] body[data-theme="light"] {
+  background: var(--surface-0) !important;
+}
+
+html[data-theme="light"],
+html[data-theme="light"] body {
+  --surface-0: #f7f9fc;
+  --surface-1: #ffffff;
+  --surface-2: #eef2f7;
+  --shadow-lg: 0 4px 16px rgba(15, 23, 42, 0.06);
+  color-scheme: light;
+}
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+html[data-theme="light"] body #main .page-heading,
+html[data-theme="light"] body .chat-shell {
+  background: transparent !important;
+}
+
+html[data-theme="light"] body :is(.wizard-panel, .profile-card, .controls) {
+  box-shadow: var(--shadow-lg) !important;
+}
+
+html body .search-wrap {
+  background: var(--input-bg);
+  border-color: var(--input-border);
+  box-shadow: none;
+}
+html body .search-wrap input {
+  min-width: 0;
+  background: transparent !important;
+  color: var(--input-fg);
+}
+html body :is(input, textarea)::placeholder {
+  color: var(--muted-fg);
+  opacity: 1;
+}
+html body .search-wrap:focus-within {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+html body .search-wrap input:focus-visible {
+  outline: none !important;
+}
+
+html[data-theme="light"] .art-media {
+  background: linear-gradient(135deg, #e5ebfa, #eef4f7) !important;
+}
+html[data-theme="light"] .art-badge {
+  background: var(--surface-1);
+  border-color: var(--db-rule);
+  color: var(--text-300);
+}
+
+html body .profile-hero .profile-card {
+  margin-top: 28px;
+}
+html body .profile-hero .id-block h2 {
+  margin: 0 0 0.5rem;
+}
+
+#prof-avatar:not([hidden]) {
+  display: block;
+}
+#prof-initials[hidden] {
+  display: none;
+}

@@ -1,18 +1,3 @@
-// Direction B navbar (spec §6.1: logo lockup · nav links · spacer · theme
-// icon · Sign In · Start the Free Course). Ports lib/nav.ts's mobile drawer
-// (open/close via toggle, link tap, Escape, close button, iOS-safe scroll
-// lock) and replaces initAuthWatcher's DOM-writing #user-btn wiring
-// (src/lib/auth.ts) with useAuth().
-//
-// The wordmark itself (logo image + .logo-text) is untouched — same markup,
-// same class, same font token (--wordmark-face) as it renders today. Only
-// the surrounding nav structure/layout changes.
-//
-// Wired into Base.astro as `<Nav client:load />`, replacing Header.astro and
-// the old initNav/initTheme click-handler/initAuthWatcher DOM wiring.
-// initModals() keeps running from Base.astro — it's still needed by other,
-// not-yet-converted pages' modals — but now steps aside for this component's
-// Radix-owned dialogs; see the comment atop src/lib/modal.ts.
 import { useEffect, useRef, useState } from 'react';
 import { useAuth } from '@/hooks/useAuth';
 import { useTheme } from '@/hooks/useTheme';
@@ -73,22 +58,11 @@ export function Nav() {
   const [avatarFailed, setAvatarFailed] = useState(false);
   const scrollYRef = useRef(0);
 
-  // Treat 'loading' the same as signed-out: it's the pre-hydration/pre-auth
-  // state, and the static contract (data-modal-open present, aria-label
-  // "Sign in") already assumed signed-out by default, so there's no flash.
+  const loading = status === 'loading';
   const signedIn = status === 'in' && !!user;
   const photoURL = signedIn ? (user?.photoURL ?? null) : null;
   const showAvatarImg = !!photoURL && !avatarFailed;
 
-  // Phase 11: this is now the sole caller that kicks off ensureAuthReady()
-  // on page load (it used to be initAuthWatcher(), called unconditionally
-  // from Base.astro's DOMContentLoaded handler, now deleted). Nav renders on
-  // every page via `<Nav client:load />`, so this preserves the same "runs
-  // once per page load" timing. ensureAuthReady() is idempotent and cached,
-  // so AuthDialog.tsx's own await of it before every submit is unaffected —
-  // it just resolves immediately once this has already settled. authStore
-  // itself no longer needs a kickoff: its onAuthStateChanged subscription
-  // (src/lib/auth.ts) now starts at module scope.
   useEffect(() => {
     void ensureAuthReady();
   }, []);
@@ -99,15 +73,11 @@ export function Nav() {
     setAvatarFailed(false);
   }, [photoURL]);
 
-  // Base.astro's pre-paint <head> script only ever sets <html>'s data-theme
-  // (that's all it can reach before <body> exists) — <body> ships hardcoded
-  // to "dark" in the markup. initTheme() used to correct that on every
-  // DOMContentLoaded; now that it's retired, this is the one place left that
-  // reconciles both roots with the persisted theme on every page load, not
-  // just on toggle. Keep in sync with handleThemeToggle below.
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-    document.body.setAttribute('data-theme', theme);
+    // The hydration snapshot is light; read the actual preference before writing.
+    const current = themeStore.get();
+    document.documentElement.setAttribute('data-theme', current);
+    document.body.setAttribute('data-theme', current);
   }, [theme]);
 
   function openDrawer(): void {
@@ -128,9 +98,6 @@ export function Nav() {
     setDrawerOpen(false);
   }
 
-  // Escape only ever closes this drawer, and only while it's actually open —
-  // the listener isn't even attached otherwise, so it can't fight a Modal's
-  // own Escape handler when the drawer is closed.
   useEffect(() => {
     if (!drawerOpen) return;
     const onKeyDown = (e: KeyboardEvent): void => {
@@ -142,7 +109,6 @@ export function Nav() {
 
   function handleThemeToggle(): void {
     const next: Theme = theme === 'light' ? 'dark' : 'light';
-    // Mirrors lib/theme.ts's applyTheme(): both roots, storage, and the store.
     document.documentElement.setAttribute('data-theme', next);
     document.body.setAttribute('data-theme', next);
     setTheme(next);
@@ -150,6 +116,7 @@ export function Nav() {
   }
 
   function handleUserClick(): void {
+    if (loading) return;
     if (signedIn) {
       window.location.href = '/profile';
     } else {
@@ -207,18 +174,13 @@ export function Nav() {
           <button
             id="user-btn"
             className="user-icon"
-            aria-label={signedIn ? 'Your Profile' : 'Sign In'}
-            data-modal-open={signedIn ? undefined : 'login-modal'}
+            aria-label={loading ? 'Loading account' : signedIn ? 'Your Profile' : 'Sign In'}
+            aria-busy={loading}
+            disabled={loading}
+            data-modal-open={status === 'out' ? 'login-modal' : undefined}
             onClick={handleUserClick}
           >
-            {/* Rendered only when there is actually a photo to show. It used
-                to ship on every page of the site as `<img hidden>` with no
-                `src` at all, which is the browser's broken-image state — the
-                element resolves as a failed image (`complete` with
-                `naturalWidth: 0`), which is what any image audit reports and
-                what some engines will paint a placeholder glyph for the
-                moment anything unsets `hidden`. `hidden` stays for the
-                signed-in-but-photo-failed case. */}
+
             {showAvatarImg && (
               <img
                 id="nav-avatar"
@@ -230,7 +192,7 @@ export function Nav() {
             <span id="nav-initials" aria-hidden="true" hidden={!signedIn || showAvatarImg}>
               {signedIn ? initialsFrom(user) : ''}
             </span>
-            <span id="nav-user-label" hidden={signedIn}>
+            <span id="nav-user-label" hidden={status !== 'out'}>
               Sign In
             </span>
           </button>

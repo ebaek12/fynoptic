@@ -1,13 +1,314 @@
-/* ---------------------------- */
-/* PROFILE PAGE                 */
-/* ---------------------------- */
-
-/* All of the profile page's styles currently live in styles.css
-   (.profile-hero, .ring, .orb, #progress-fill, .stat-*, etc.). This file
-   exists so the <link> in profile.html resolves instead of 404ing, and
-   as the place to put profile-only overrides in future.
-
-   Deliberately empty: profile.html loads styles.css first and this file
-   second, so anything added here wins over styles.css. Do not copy rules
-   out of styles.css into this file — duplicated cascading rules are what
-   made these styles hard to reason about in the first place. */
+html body .account-page {
+  max-width: 1100px;
+  padding-bottom: 80px;
+}
+.account-page h1 {
+  margin-bottom: 12px;
+}
+.account-intro {
+  color: var(--muted-fg);
+  margin: 0 0 36px;
+}
+.account-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 32px;
+  align-items: start;
+}
+.account-main {
+  min-width: 0;
+  background: var(--surface-1);
+  border: 1px solid var(--db-rule);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.account-identity {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 32px;
+  border-bottom: 1px solid var(--db-rule);
+}
+.account-identity h2 {
+  font-size: 24px;
+  margin: 0 0 4px;
+  overflow-wrap: anywhere;
+}
+.account-identity p {
+  margin: 0;
+  color: var(--muted-fg);
+  overflow-wrap: anywhere;
+}
+.account-identity .account-since {
+  margin-top: 8px;
+  font-size: 13px;
+}
+.account-avatar {
+  flex: 0 0 72px;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--surface-2);
+  color: var(--text-100);
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+.account-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.account-avatar [hidden] {
+  display: none !important;
+}
+.account-avatar--preview {
+  flex-basis: 56px;
+  width: 56px;
+  height: 56px;
+  font-size: 18px;
+}
+.account-page .settings {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  box-shadow: none;
+}
+.account-section {
+  padding: 28px 32px;
+  border-bottom: 1px solid var(--db-rule);
+}
+.account-section h2,
+.account-learning h2 {
+  margin: 0 0 8px;
+  font-size: 19px;
+}
+.account-page .account-note {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted-fg);
+  margin: 0;
+}
+.account-page .settings-form {
+  display: block;
+  margin-top: 24px;
+}
+.account-page fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+.account-photo-editor {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+.account-photo-controls {
+  min-width: 0;
+}
+.account-photo-controls p {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: var(--muted-fg);
+  overflow-wrap: anywhere;
+}
+.account-upload {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 12px;
+  border: 1px solid var(--db-rule);
+  border-radius: 7px;
+  background: var(--surface-1);
+  overflow: hidden;
+  vertical-align: middle;
+}
+.account-upload input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.account-upload:focus-within {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+.account-page .account-text-button {
+  border: 0;
+  background: none;
+  color: var(--muted-fg);
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.account-page .account-field {
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.account-page .account-field input {
+  width: 100%;
+  min-width: 0;
+  height: 44px;
+  border: 1px solid var(--input-border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: var(--input-bg);
+  color: var(--input-fg);
+  font-weight: 400;
+}
+.account-photo-link {
+  margin-top: 18px;
+  font-size: 14px;
+  color: var(--muted-fg);
+}
+.account-photo-link summary {
+  cursor: pointer;
+  width: fit-content;
+}
+.account-photo-link .account-field {
+  margin-top: 16px;
+  color: var(--text-100);
+}
+.account-page .settings-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+.account-upload-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+.account-upload-progress progress {
+  flex: 1;
+  min-width: 0;
+  accent-color: var(--db-optic);
+}
+.account-security-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 24px;
+}
+.account-security-row > div {
+  min-width: 0;
+}
+.account-security-row h3 {
+  margin: 0 0 6px;
+  font-size: 14px;
+}
+.account-security-row p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted-fg);
+  overflow-wrap: anywhere;
+}
+.account-security-row .btn {
+  flex-shrink: 0;
+  font-size: 13px;
+}
+.account-verification {
+  display: inline-block;
+  font-size: 12px;
+  color: var(--muted-fg);
+  margin-top: 6px;
+}
+.account-message {
+  color: var(--text-100);
+  font-size: 14px;
+  padding: 12px;
+  background: var(--surface-2);
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+.account-signout {
+  padding: 20px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.account-signout p {
+  font-size: 14px;
+  color: var(--muted-fg);
+  margin: 0;
+}
+.account-learning {
+  padding: 28px;
+  border: 1px solid var(--db-rule);
+  border-radius: 16px;
+  background: var(--surface-1);
+}
+.account-learning h3 {
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 24px 0 10px;
+}
+.account-learning > p {
+  font-size: 14px;
+  color: var(--muted-fg);
+}
+.account-progress-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-top: 28px;
+  color: var(--muted-fg);
+}
+.account-progress {
+  height: 6px;
+  overflow: hidden;
+  border-radius: 3px;
+  background: var(--surface-2);
+  margin: 10px 0 24px;
+}
+.account-page .account-progress #progress-fill {
+  height: 100%;
+  background: var(--db-optic);
+  border-radius: inherit;
+}
+.account-learning .btn {
+  width: 100%;
+  margin-bottom: 16px;
+}
+@media (max-width: 850px) {
+  .account-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 540px) {
+  .account-identity,
+  .account-section,
+  .account-learning {
+    padding: 24px 20px;
+  }
+  .account-signout {
+    padding: 20px;
+  }
+  .account-identity {
+    gap: 14px;
+  }
+  .account-identity h2 {
+    font-size: 21px;
+  }
+  .account-security-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
