@@ -16,6 +16,7 @@ export function createMagnifierLanding({
   let landingY = 0;
   let touchY = 0;
   let timer: ReturnType<typeof setTimeout> | undefined;
+  let frame = 0;
   let finish: (() => void) | undefined;
 
   const bounds = () => {
@@ -26,9 +27,21 @@ export function createMagnifierLanding({
     eligibleUntil = 0;
     active = false;
     clearTimeout(timer);
+    cancelAnimationFrame(frame);
     delete experience.dataset.settling;
     finish?.();
     finish = undefined;
+  };
+  const holdAtLanding = () => {
+    if (!active) return;
+    // Images, fonts, and responsive panels can settle while the animation is
+    // finishing. Follow the section's live endpoint so the handoff stays at
+    // exactly the first learning panel even under a busy main thread.
+    landingY = Math.ceil(bounds().end);
+    if (Math.abs(scrollY - landingY) > 1) {
+      window.scrollTo({ top: landingY, behavior: "instant" });
+    }
+    frame = requestAnimationFrame(holdAtLanding);
   };
   const land = () => {
     if (active) return true;
@@ -38,6 +51,7 @@ export function createMagnifierLanding({
     landingY = Math.ceil(bounds().end);
     experience.dataset.settling = "true";
     window.scrollTo({ top: landingY, behavior: "instant" });
+    frame = requestAnimationFrame(holdAtLanding);
     finish = settle();
     // 550ms to finish the zoom, then 300ms to read the revealed first panel.
     // This timer never extends with repeated input; continued scrolling wins.
