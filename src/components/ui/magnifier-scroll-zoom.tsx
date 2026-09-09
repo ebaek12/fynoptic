@@ -72,9 +72,10 @@ export function MagnifierScrollZoom() {
         const render = () => {
           const progress = playhead.progress;
           const scale = 1 + Math.pow(progress, 2.3) * (finalScale - 1);
-          // Browsers round scroll positions to pixels. Treat the last pixel
-          // as the landing, including native #learning anchor navigation.
-          const complete = progress >= 1 - 1 / scrollDistance;
+          // Layout bounds can be fractional while scroll positions and GSAP's
+          // playhead are rounded independently. Allow two pixels at the end
+          // so a visually finished lens cannot leave the learning section inert.
+          const complete = progress >= 1 - 2 / scrollDistance;
           zoom.setAttribute(
             "transform",
             `translate(200 200) scale(${scale}) translate(-200 -200)`,

@@ -109,6 +109,9 @@ for (const viewport of [
     });
 
     await scrollDive(page, 1);
+    // The last pixel must also dock: native scroll and fractional layout
+    // bounds do not necessarily round to the same endpoint.
+    await page.evaluate(() => scrollBy({ top: -1, behavior: "instant" }));
     // All four viewport corners must be INSIDE the opaque circular lens,
     // not just inside the larger SVG rectangle or its ring.
     await expect
