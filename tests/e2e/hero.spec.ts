@@ -228,7 +228,7 @@ test.describe("homepage hero", () => {
 test("hero content is visible without JavaScript", async ({ browser }) => {
   const context = await browser.newContext({ javaScriptEnabled: false });
   const page = await context.newPage();
-  await page.goto("http://127.0.0.1:4321/");
+  await page.goto(test.info().project.use.baseURL!);
   await expect(page.locator("#hero-heading")).toBeVisible();
   await expect(page.locator(".home-hero-description")).toBeVisible();
   await expect(page.locator(".home-hero-community")).toContainText(

@@ -34,7 +34,7 @@ const NARROW_BREAKPOINT_PX = 900;
  */
 const SHORT_BREAKPOINT_PX = 700;
 
-const PIN_H = 'min(460px, calc(100svh - var(--header-h, 58px) - 96px))';
+const PIN_H = 'clamp(400px, 51svh, 460px)';
 const PIN_TOP = `calc((100svh + var(--header-h, 58px) - ${PIN_H}) / 2)`;
 // Keep roughly 240px of scrolling per transition with the shorter panel.
 const STEP = `calc(${PIN_H} * 0.52)`;
