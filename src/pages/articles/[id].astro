@@ -1,33 +1,96 @@
 ---
-import Base from '../../layouts/Base.astro';
-import { ARTICLE_META } from '../../data/articles';
-import { ReadMarker } from '../../components/articles/ReadMarker';
+import Base from "../../layouts/Base.astro";
+import { ARTICLE_META } from "../../data/articles";
+import { ReadMarker } from "../../components/articles/ReadMarker";
+import { computeReadMins, deriveBlurb } from "../../lib/article-summary";
+import { prepareArticle } from "../../lib/article-outline";
+import "../../styles/articles.css";
 
 export function getStaticPaths() {
   return ARTICLE_META.map((a) => ({ params: { id: a.id }, props: a }));
 }
 
 const { id, title } = Astro.props;
-const bodies = import.meta.glob('../../articles/*.html', { query: '?raw', import: 'default', eager: true });
+const bodies = import.meta.glob("../../articles/*.html", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+});
 const body = bodies[`../../articles/${id}.html`];
-if (typeof body !== 'string') throw new Error(`missing article body for id: ${id}`);
+if (typeof body !== "string")
+  throw new Error(`missing article body for id: ${id}`);
+const article = prepareArticle(body);
+const readMins = computeReadMins(body);
 ---
-<Base title={`${title} • Fynoptic`} description={title} canonical={`/articles/${id}`}>
-  <!--
-    `article-page` is what tells the design layer this .reader-body is a page,
-    not the old modal reader. legacy.css caps .reader-body at 72vh with its own
-    scrollbar — correct inside a dialog, wrong here, where it turned the article
-    into a scrollbox floating in a page that didn't scroll. The class scopes the
-    release so the modal rules keep working for anything still using them.
-  -->
-  <article class="container article-page page-heading">
-    <h1 class="reader-title">{title}</h1>
-    <div class="reader-body" set:html={body} />
+
+<Base
+  title={`${title} • Fynoptic`}
+  description={deriveBlurb(body)}
+  canonical={`/articles/${id}`}
+  bodyClass="article-reader"
+>
+  <article class="container article-page" aria-labelledby="article-title">
+    <div class="reader-layout">
+      <div class="reader-main">
+        <header class="article-heading">
+          <div class="reader-overline">
+            <a class="reader-back" href="/articles"
+              ><span aria-hidden="true">←</span> All articles</a
+            >
+            <span>{readMins} min read</span>
+          </div>
+          <h1 id="article-title" class="reader-title">{title}</h1>
+        </header>
+        <div class="reader-body" set:html={article.body} />
+        <div class="reader-end">
+          <a class="reader-back" href="/articles"
+            ><span aria-hidden="true">←</span> Back to all articles</a>
+        </div>
+      </div>
+      {
+        article.sections.length > 1 && (
+          <aside class="reader-outline">
+            <details class="reader-outline-details" open>
+              <summary>On this page</summary>
+              <nav class="reader-toc" aria-label="Article sections">
+                <ol>
+                  {article.sections.map((section) => (
+                    <li>
+                      <a
+                        href={`#${encodeURIComponent(section.id)}`}
+                        set:html={section.labelHtml}
+                      />
+                    </li>
+                  ))}
+                </ol>
+              </nav>
+            </details>
+          </aside>
+        )
+      }
+    </div>
   </article>
-  <!--
-    The one client island on this otherwise script-free page: records this
-    id into ff_articles_read on mount. Renders nothing, never touches the
-    server-rendered reading content above.
-  -->
   <ReadMarker id={id} client:load />
+  <script>
+    // The long outline becomes a compact, native disclosure on phones.
+    const details = document.querySelector<HTMLDetailsElement>(
+      ".reader-outline-details",
+    );
+    if (details) {
+      const narrow = matchMedia("(max-width: 960px)");
+      const update = () => {
+        details.open = !narrow.matches;
+      };
+      update();
+      narrow.addEventListener("change", update);
+      details.addEventListener("click", (event) => {
+        if (
+          narrow.matches &&
+          event.target instanceof Element &&
+          event.target.closest("a")
+        )
+          details.open = false;
+      });
+    }
+  </script>
 </Base>

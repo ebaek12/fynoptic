@@ -215,7 +215,7 @@ export function MagnifierScrollZoom() {
             <span className="magnifier-eyebrow">
               A little curiosity changes everything.
             </span>
-            <h2>Look closer.</h2>
+            <h2>Scroll to look closer.</h2>
           </div>
 
           <div className="magnifier-art" aria-hidden="true">
@@ -234,10 +234,10 @@ export function MagnifierScrollZoom() {
                   y2="0"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#111111" />
-                  <stop offset="0.25" stopColor="#303030" />
-                  <stop offset="0.65" stopColor="#1b1b1b" />
-                  <stop offset="1" stopColor="#090909" />
+                  <stop stopColor="var(--magnifier-handle-start, #111111)" />
+                  <stop offset="0.25" stopColor="var(--magnifier-handle-highlight, #303030)" />
+                  <stop offset="0.65" stopColor="var(--magnifier-handle-mid, #1b1b1b)" />
+                  <stop offset="1" stopColor="var(--magnifier-handle-end, #090909)" />
                 </linearGradient>
                 <linearGradient
                   id={`${id}-rim`}
@@ -247,10 +247,10 @@ export function MagnifierScrollZoom() {
                   y2="358"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#393939" />
-                  <stop offset="0.3" stopColor="#181818" />
-                  <stop offset="0.7" stopColor="#0a0a0a" />
-                  <stop offset="1" stopColor="#282828" />
+                  <stop stopColor="var(--magnifier-rim-start, #393939)" />
+                  <stop offset="0.3" stopColor="var(--magnifier-rim-mid, #181818)" />
+                  <stop offset="0.7" stopColor="var(--magnifier-rim-dark, #0a0a0a)" />
+                  <stop offset="1" stopColor="var(--magnifier-rim-end, #282828)" />
                 </linearGradient>
               </defs>
               <g ref={zoomRef}>
@@ -261,7 +261,7 @@ export function MagnifierScrollZoom() {
                     width="22"
                     height="27"
                     rx="2"
-                    fill="#333333"
+                    fill="var(--magnifier-neck, #333333)"
                   />
                   <rect
                     x="187"
@@ -269,7 +269,7 @@ export function MagnifierScrollZoom() {
                     width="26"
                     height="7"
                     rx="1"
-                    fill="#8b8b8b"
+                    fill="var(--magnifier-band, #8b8b8b)"
                   />
                   <rect
                     x="184"
@@ -279,21 +279,21 @@ export function MagnifierScrollZoom() {
                     rx="5"
                     fill={`url(#${id}-handle)`}
                   />
-                  <path d="M187 373v113" stroke="#555555" strokeWidth="1" />
+                  <path d="M187 373v113" stroke="var(--magnifier-detail, #555555)" strokeWidth="1" />
                 </g>
                 <circle cx="200" cy="200" r="154" fill={`url(#${id}-rim)`} />
                 <circle
                   cx="200"
                   cy="200"
                   r="152.5"
-                  stroke="#777777"
+                  stroke="var(--magnifier-edge, #777777)"
                   strokeWidth="1"
                 />
                 <circle
                   cx="200"
                   cy="200"
                   r="141.5"
-                  stroke="#666666"
+                  stroke="var(--magnifier-inner-edge, #666666)"
                   strokeWidth="1"
                 />
                 {/* Fully opaque, with the same paint as the section it hands off to. */}

@@ -59,9 +59,6 @@ html body #main .home-hero #hero-heading {
   gap: 12px;
   min-width: 0;
 }
-.home-hero-aside .home-hero-community {
-  justify-self: center;
-}
 .scam-illustration {
   --scan-shadow: #102444;
   --scan-frame: #243858;
@@ -148,22 +145,6 @@ html[data-theme="dark"] .scam-illustration {
   font-size: 13px;
   color: var(--muted-fg);
 }
-.home-hero-community {
-  display: grid;
-  gap: 4px;
-  margin: 0;
-  font-size: clamp(1rem, 1.25vw, 1.125rem);
-  line-height: 1.5;
-  color: var(--muted-fg);
-}
-.home-hero-community strong {
-  color: var(--text-100);
-  font-weight: 500;
-}
-.home-hero-curricula {
-  display: block;
-  font-size: inherit;
-}
 
 html body .home-hero .partners {
   margin-top: clamp(40px, 5vw, 72px) !important;
@@ -228,13 +209,6 @@ html body .home-hero .logo-track {
     width: min(100%, 300px);
     justify-self: center;
     margin-top: 0;
-  }
-  .home-hero-aside .home-hero-community {
-    text-align: center;
-  }
-  .home-hero-community {
-    margin: 0;
-    font-size: 18px;
   }
 }
 

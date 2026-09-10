@@ -1,0 +1,401 @@
+/* Oversized print, a single partner line, then one decisive invitation. */
+.home-closing-container {
+  max-width: 1152px;
+  margin-inline: auto;
+  padding-inline: 32px;
+}
+
+html body #main .home-proof {
+  margin: 0;
+  padding: clamp(64px, 7vw, 100px) 0 56px;
+  background: #edf2ff;
+  color: #172036;
+  scroll-margin-top: var(--header-h, 58px);
+}
+
+.proof-stats {
+  display: grid;
+  grid-template-columns: minmax(0, 2.8fr) repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin: 0;
+}
+
+html[data-theme="dark"] body #main .home-proof {
+  background: #e3eafb;
+}
+
+.proof-stat[data-metric="cost"] .proof-number {
+  gap: 0.12em;
+  letter-spacing: 0;
+}
+
+.proof-stat {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.proof-stat + .proof-stat {
+  padding-left: 28px;
+  border-left: 1px solid #17203626;
+}
+
+.proof-stat dt {
+  order: 2;
+  padding-top: 10px;
+  font: 400 clamp(0.9375rem, 1.6vw, 1.125rem)/1.5 var(--font-body, sans-serif);
+  color: #556178;
+}
+
+.proof-stat dd {
+  order: 1;
+  margin: 0;
+  font-family: var(--display-face);
+  font-size: min(10.8vw, 9rem);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.075em;
+  white-space: nowrap;
+  color: #172036;
+}
+
+.proof-stat:first-child dd {
+  color: #2440c0;
+}
+.proof-number {
+  display: inline-flex;
+}
+.proof-glyph {
+  display: inline-block;
+  clip-path: inset(0 -0.12em);
+}
+.proof-glyph > span {
+  display: block;
+}
+
+.proof-context {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  align-items: end;
+  gap: 56px;
+  margin-top: 64px;
+  padding-top: 34px;
+  border-top: 1px solid #17203626;
+}
+
+html body #main #proof-heading {
+  margin: 0;
+  color: #172036;
+  font-size: clamp(1.875rem, 3.7vw, 3rem) !important;
+  line-height: 1.12 !important;
+  letter-spacing: -0.035em !important;
+}
+
+#proof-heading > span {
+  color: #556178;
+}
+.home-proof .proof-partnership-copy p {
+  margin: 0;
+  max-width: 33ch;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #556178;
+}
+.home-proof .proof-partnership-copy a {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 14px;
+  padding-block: 4px;
+  color: #2440c0;
+  font-size: 0.875rem;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.proof-partnership-copy a span {
+  transition: transform 180ms;
+}
+.proof-partnership-copy a:hover span {
+  transform: translate(2px, -2px);
+}
+.proof-partnership-copy a:focus-visible {
+  outline: 2px solid #2440c0;
+  outline-offset: 4px;
+}
+
+.proof-partners {
+  margin-top: 52px;
+}
+html body #main #proof-partners-heading {
+  margin: 0 0 24px;
+  color: #556178;
+  font: 400 0.875rem/1.5 var(--font-body, sans-serif) !important;
+  letter-spacing: 0 !important;
+}
+.proof-partner-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.proof-partner-list > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 110px;
+  max-width: 150px;
+  margin: 0;
+  min-width: 0;
+  height: 62px;
+}
+.proof-partner-list img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 62px;
+  object-fit: contain;
+}
+
+/* Give white lettering a readable monochrome treatment on the pale surface. */
+.proof-partner-list .proof-logo-light {
+  filter: brightness(0);
+  opacity: 0.82;
+}
+
+html body #main .home-final-cta {
+  margin: 0;
+  padding: clamp(72px, 8vw, 112px) 0;
+  background: #ecf599;
+  color: #172036;
+}
+
+html body #main #final-cta-heading {
+  margin: 0;
+  max-width: 22ch;
+  color: #172036;
+  font-size: clamp(2.375rem, 5.65vw, 5rem) !important;
+  line-height: 1.08 !important;
+  letter-spacing: -0.045em !important;
+  text-align: left;
+}
+
+#final-cta-heading > span {
+  position: relative;
+  display: inline-block;
+  color: #2440c0;
+  white-space: nowrap;
+}
+#final-cta-heading > span::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 -0.06em;
+  height: 0.04em;
+  min-height: 2px;
+  background: #2440c0;
+  transform-origin: left;
+}
+.home-final-cta p {
+  margin: 30px 0 0;
+  color: #354029;
+  font-size: clamp(1rem, 1.7vw, 1.25rem);
+  line-height: 1.6;
+}
+.home-final-cta .home-course-start {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 32px;
+  padding: 16px 20px 16px 24px;
+  min-height: 60px;
+  background: #2440c0;
+  color: #fff;
+  border: 1px solid #2440c0;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: 550;
+  line-height: 1.5;
+  text-decoration: none;
+  transition:
+    background-color 180ms,
+    box-shadow 180ms,
+    transform 180ms;
+}
+.home-course-arrow {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-left: 1px solid #ffffff55;
+}
+.home-course-arrow svg {
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 180ms;
+}
+.home-final-cta .home-course-start:hover {
+  background: #1b3094;
+  transform: translateY(-2px);
+  box-shadow: 4px 5px 0 #172036;
+}
+.home-course-start:hover svg {
+  transform: translateX(3px);
+}
+.home-final-cta .home-course-start:focus-visible {
+  outline: 2px solid #172036;
+  outline-offset: 5px;
+}
+html body.home-page .footer {
+  margin-top: 0;
+}
+
+@keyframes proof-register-up {
+  from {
+    transform: translateY(105%);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes proof-register-down {
+  from {
+    transform: translateY(-105%);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes closing-underline {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .proof-stats[data-revealed="true"] .proof-glyph > span {
+    animation: proof-register-up 850ms cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation-delay: var(--glyph-delay);
+  }
+  .proof-stats[data-revealed="true"] .proof-glyph:nth-child(even) > span {
+    animation-name: proof-register-down;
+  }
+  .home-final-cta[data-revealed="true"] #final-cta-heading > span::after {
+    animation: closing-underline 700ms 150ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+}
+
+@media (max-width: 1000px) {
+  .proof-partner-list {
+    gap: 24px 32px;
+  }
+  .proof-partner-list > li {
+    flex-basis: calc((100% - 64px) / 3);
+    max-width: none;
+  }
+  .proof-partner-list img {
+    max-width: 130px;
+    max-height: 58px;
+  }
+}
+
+@media (max-width: 800px) {
+  .home-closing-container {
+    padding-inline: 24px;
+  }
+  .proof-stats {
+    column-gap: 20px;
+  }
+  .proof-stat + .proof-stat {
+    padding-left: 20px;
+  }
+  .proof-stat dd {
+    font-size: min(10.2vw, 5.5rem);
+  }
+  .proof-context {
+    gap: 28px;
+    margin-top: 44px;
+  }
+}
+
+@media (max-width: 600px) {
+  .proof-stats {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 24px;
+  }
+  .proof-stat:first-child {
+    grid-column: 1 / -1;
+  }
+  .proof-stat:nth-child(2) {
+    padding-left: 0;
+    border-left: 0;
+  }
+  .proof-stat dd {
+    font-size: min(20vw, 5rem);
+  }
+  .proof-stat:first-child dd {
+    font-size: min(18.7vw, 7rem);
+  }
+  .proof-context {
+    grid-template-columns: 1fr;
+    align-items: start;
+    gap: 24px;
+    margin-top: 36px;
+  }
+  .proof-partnership-copy p {
+    max-width: 35ch;
+  }
+  .proof-partners {
+    margin-top: 36px;
+  }
+  .proof-partner-list {
+    gap: 24px 20px;
+  }
+  .proof-partner-list > li {
+    flex-basis: calc((100% - 40px) / 3);
+  }
+  .proof-partner-list img {
+    max-width: 100%;
+    max-height: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-closing-container {
+    padding-inline: 20px;
+  }
+  html body #main .home-proof {
+    padding-block: 52px 40px;
+  }
+  html body #main .home-final-cta {
+    padding-block: 64px;
+  }
+  .home-final-cta p {
+    margin-top: 24px;
+    max-width: 28ch;
+  }
+  .home-final-cta .home-course-start {
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 28px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-proof *,
+  .home-final-cta *,
+  .home-final-cta *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

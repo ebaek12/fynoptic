@@ -1,0 +1,114 @@
+---
+import { PARTNERS } from "../../data/partners";
+import "../../styles/home-closing.css";
+
+// These are the homepage's existing reach claims and free-course offer.
+// Keep the actual values in the rendered HTML, including without JavaScript.
+const metrics = [
+  { value: "110,000+", label: "students reached", key: "students" },
+  { value: "5", label: "county curricula", key: "curricula" },
+  { value: "$0", label: "to start learning", key: "cost" },
+];
+---
+
+<section id="our-reach" class="home-proof" aria-labelledby="proof-heading">
+  <div class="home-closing-container">
+    <dl class="proof-stats" data-reveal-once>
+      {
+        metrics.map((metric, metricIndex) => (
+          <div class="proof-stat" data-metric={metric.key}>
+            <dt>{metric.label}</dt>
+            <dd aria-label={metric.value}>
+              <span class="proof-number" aria-hidden="true">
+                {Array.from(metric.value).map((glyph, index) => (
+                  <span
+                    class="proof-glyph"
+                    style={`--glyph-delay: ${metricIndex * 120 + index * 45}ms`}
+                  >
+                    <span>{glyph}</span>
+                  </span>
+                ))}
+              </span>
+            </dd>
+          </div>
+        ))
+      }
+    </dl>
+
+    <div class="proof-context">
+      <h2 id="proof-heading">
+        Built for students.<br /><span>Useful for everyone.</span>
+      </h2>
+      <div class="proof-partnership-copy">
+        <p>Our partners help us reach the classrooms we can’t reach alone.</p>
+        <a href="/about#partners-title"
+          >Meet our partners <span aria-hidden="true">↗</span></a
+        >
+      </div>
+    </div>
+
+    <div class="proof-partners">
+      <h3 id="proof-partners-heading">In partnership with</h3>
+      <ul class="proof-partner-list" aria-labelledby="proof-partners-heading">
+        {
+          PARTNERS.map((partner) => (
+            <li>
+              <img
+                class:list={{
+                  "proof-logo-light":
+                    partner.image.endsWith("-challenge-logo.webp") ||
+                    partner.image === "gcee-logo.webp",
+                }}
+                src={`/assets/img/${partner.image}`}
+                alt={partner.name}
+                loading="lazy"
+                decoding="async"
+              />
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section
+  class="home-final-cta"
+  aria-labelledby="final-cta-heading"
+  data-reveal-once
+>
+  <div class="home-closing-container">
+    <h2 id="final-cta-heading">
+      You don’t need to<br />learn this the <span>hard way.</span>
+    </h2>
+    <p>Learn how scams work before you’re the target.</p>
+    <a class="home-course-start" href="/courses" data-track="cta_click">
+      <span>Start the Free Course</span>
+      <span class="home-course-arrow" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"
+          ><path d="M4 12h16m-7-7 7 7-7 7"></path></svg
+        >
+      </span>
+    </a>
+  </div>
+</section>
+
+<script>
+  // Reveal real, static numerals once; no rolling counters or invented totals.
+  // Without IntersectionObserver or motion, every word is already visible.
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
+          (entry.target as HTMLElement).dataset.revealed = "true";
+          observer.unobserve(entry.target);
+        }
+      },
+      { threshold: 0.3 },
+    );
+    document
+      .querySelectorAll("[data-reveal-once]")
+      .forEach((el) => observer.observe(el));
+  }
+</script>

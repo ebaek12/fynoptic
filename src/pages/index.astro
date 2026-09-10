@@ -2,6 +2,9 @@
 import Base from '../layouts/Base.astro';
 import Hero from '../components/hero/Hero';
 import MagnifierScrollZoom from '../components/ui/magnifier-scroll-zoom';
+import SpotTheRedFlag from '../components/home/SpotTheRedFlag';
+import CurriculumStrip from '../components/home/CurriculumStrip.astro';
+import HomeClosing from '../components/home/HomeClosing.astro';
 import '../styles/home-hero.css';
 ---
 <Base
@@ -10,6 +13,7 @@ import '../styles/home-hero.css';
   canonical="/"
   ogTitle="Fynoptic"
   ogDescription="Understand the tactics. Avoid the traps."
+  bodyClass="home-page"
 >
   <!-- HERO -->
   <section class="hero home-hero page-heading" role="region" aria-labelledby="hero-heading">
@@ -21,7 +25,9 @@ import '../styles/home-hero.css';
 
   <MagnifierScrollZoom client:load />
 
-  <!-- Other sections continue here: #course, #bot, #articles, etc. -->
+  <SpotTheRedFlag client:visible />
+  <CurriculumStrip />
+  <HomeClosing />
 
   <!-- Modals -->
   <div id="report-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="report-title"></div>

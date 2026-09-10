@@ -1,3 +1,19 @@
+[data-theme="dark"] .magnifier-glass {
+  --magnifier-handle-start: #e5e5e5;
+  --magnifier-handle-highlight: #ffffff;
+  --magnifier-handle-mid: #f3f3f3;
+  --magnifier-handle-end: #d4d4d4;
+  --magnifier-rim-start: #ffffff;
+  --magnifier-rim-mid: #f5f5f5;
+  --magnifier-rim-dark: #dedede;
+  --magnifier-rim-end: #fafafa;
+  --magnifier-neck: #e5e5e5;
+  --magnifier-band: #ffffff;
+  --magnifier-detail: #ffffff;
+  --magnifier-edge: #ffffff;
+  --magnifier-inner-edge: #bcbcbc;
+}
+
 .magnifier-transition {
   position: relative;
   padding: 0 !important;

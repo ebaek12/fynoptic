@@ -87,6 +87,7 @@ export function FlashcardWizard({
               return (
                 <label
                   key={unit}
+                  id={`unit-${unit.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
                   className={checked ? 'chip unit-chip is-active' : 'chip unit-chip'}
                 >
                   <input

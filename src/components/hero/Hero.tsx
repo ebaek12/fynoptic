@@ -44,14 +44,6 @@ export function Hero() {
 
         <div className="home-hero-aside">
           <ScamIllustration />
-          <p className="home-hero-community">
-            <span>
-              Used by <strong>110,000+ students</strong>
-            </span>
-            <span className="home-hero-curricula">
-              Included in 5 county curricula
-            </span>
-          </p>
         </div>
       </div>
 

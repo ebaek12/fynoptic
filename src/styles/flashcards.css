@@ -84,3 +84,10 @@
   outline: 2px solid var(--focus-ring);
   outline-offset: 4px;
 }
+.unit-chip[id] {
+  scroll-margin-top: calc(var(--header-h, 58px) + 24px);
+}
+.unit-chip:target {
+  outline: 2px solid var(--db-optic);
+  outline-offset: 4px;
+}

@@ -231,8 +231,16 @@ test("hero content is visible without JavaScript", async ({ browser }) => {
   await page.goto(test.info().project.use.baseURL!);
   await expect(page.locator("#hero-heading")).toBeVisible();
   await expect(page.locator(".home-hero-description")).toBeVisible();
-  await expect(page.locator(".home-hero-community")).toContainText(
-    "110,000+ students",
+  await expect(page.locator('[data-metric="students"] dd')).toHaveAttribute(
+    "aria-label",
+    "110,000+",
+  );
+  await expect(page.locator('[data-metric="students"] dt')).toHaveText(
+    "students reached",
+  );
+  await expect(page.locator(".home-final-cta a")).toHaveAttribute(
+    "href",
+    "/courses",
   );
   await context.close();
 });
@@ -249,14 +257,18 @@ for (const theme of ["light", "dark"]) {
       await page.goto("/");
       await page.evaluate(() => document.fonts.ready);
       await expect(page.locator('[id^="ticket-tab-"]')).toHaveCount(0);
-      await expect(page.locator(".home-hero-community")).toContainText(
-        "110,000+ students",
-      );
-      await expect(page.locator(".home-hero-community")).toContainText(
-        "5 county curricula",
+      await expect(page.locator(".home-hero-community")).toHaveCount(0);
+      await expect(page.locator('[data-metric="students"] dd')).toHaveAttribute(
+        "aria-label",
+        "110,000+",
       );
       await expect(
-        page.getByRole("img", { name: "Invesco", exact: true }),
+        page.locator('[data-metric="curricula"] dd'),
+      ).toHaveAttribute("aria-label", "5");
+      await expect(
+        page
+          .locator(".home-hero")
+          .getByRole("img", { name: "Invesco", exact: true }),
       ).toHaveCount(1);
       const heading = await page.locator("#hero-heading").boundingBox();
       const details = await page.locator(".home-hero-details").boundingBox();
@@ -264,14 +276,8 @@ for (const theme of ["light", "dark"]) {
       const illustration = await page
         .locator(".scam-illustration")
         .boundingBox();
-      const communityBounds = await page
-        .locator(".home-hero-community")
-        .boundingBox();
       expect(details!.y).toBeGreaterThan(heading!.y + heading!.height);
       expect(illustration!.y).toBeGreaterThan(heading!.y + heading!.height);
-      expect(communityBounds!.y).toBeGreaterThanOrEqual(
-        illustration!.y + illustration!.height + 10,
-      );
       expect(illustration!.x).toBeGreaterThanOrEqual(heading!.x);
       expect(illustration!.x + illustration!.width).toBeLessThanOrEqual(
         heading!.x + heading!.width + 1,
@@ -283,15 +289,6 @@ for (const theme of ["light", "dark"]) {
           .locator("#hero-heading")
           .evaluate((el) => parseFloat(getComputedStyle(el).fontSize));
         expect(size).toBeGreaterThan(100);
-        const community = await page
-          .locator(".home-hero-community")
-          .boundingBox();
-        const copy = await page.locator(".home-hero-copy").boundingBox();
-        expect(community!.x).toBeGreaterThan(copy!.x + copy!.width);
-        const actions = await page.locator(".home-hero-actions").boundingBox();
-        expect(community!.y).toBeLessThanOrEqual(
-          actions!.y + actions!.height + 24,
-        );
       }
       expect(
         await page.evaluate(() => document.documentElement.scrollWidth),
@@ -335,7 +332,7 @@ test("company carousel loops without a blank end and pauses for keyboard focus",
   expect(dimensions[0]).toBeCloseTo(dimensions[1]!, 0);
 });
 
-test("magnifying glass responds to scroll without shifting the heading or figures", async ({
+test("magnifying glass responds to scroll without shifting the heading or illustration", async ({
   page,
 }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
@@ -343,18 +340,18 @@ test("magnifying glass responds to scroll without shifting the heading or figure
   const lens = page.locator(".scan-lens");
   await expect(lens).toHaveAttribute("transform", "translate(0 0)");
   const headingBefore = await page.locator("#hero-heading").boundingBox();
-  const communityBefore = await page
-    .locator(".home-hero-community")
+  const illustrationBefore = await page
+    .locator(".scam-illustration")
     .boundingBox();
   await page.evaluate(() => window.scrollTo(0, 200));
   await expect(lens).not.toHaveAttribute("transform", "translate(0 0)");
   const headingAfter = await page.locator("#hero-heading").boundingBox();
-  const communityAfter = await page
-    .locator(".home-hero-community")
+  const illustrationAfter = await page
+    .locator(".scam-illustration")
     .boundingBox();
   expect(headingAfter!.height).toBeCloseTo(headingBefore!.height, 0);
   expect(headingAfter!.y + 200).toBeCloseTo(headingBefore!.y, 0);
-  expect(communityAfter!.y + 200).toBeCloseTo(communityBefore!.y, 0);
+  expect(illustrationAfter!.y + 200).toBeCloseTo(illustrationBefore!.y, 0);
   await page
     .locator(".scam-illustration")
     .screenshot({ path: "/tmp/fynoptic-scan-scrolled.png" });
