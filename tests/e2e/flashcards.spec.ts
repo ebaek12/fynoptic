@@ -23,6 +23,34 @@ import { test, expect, type Page } from "@playwright/test";
 
 const STORAGE_KEY = "fynoptic.flashcards.v1";
 
+test("topic selection waits for its controls to finish loading", async ({ page }) => {
+  let releaseBundle!: () => void;
+  const bundleReady = new Promise<void>((resolve) => { releaseBundle = resolve; });
+  await page.route("**/_astro/Flashcards.*.js", async (route) => {
+    await bundleReady;
+    await route.continue();
+  });
+  try {
+    await page.goto("/flashcard");
+    const setup = page.locator("#flashcard-setup");
+    const topic = page.locator("#unit-list .study-topic").first();
+    await expect(setup).toHaveAttribute("inert", "");
+    const bounds = (await topic.boundingBox())!;
+    await page.mouse.click(bounds.x + bounds.width / 2, bounds.y + bounds.height / 2);
+    await expect(topic.locator("input")).not.toBeChecked();
+    releaseBundle();
+    await expect(setup).not.toHaveAttribute("inert");
+    await topic.click();
+    await expect(topic.locator("input")).toBeChecked();
+    await expect(page.locator(".study-tools")).toContainText("1 of 12 topics selected");
+    await page.locator("#confirm-units").click();
+    await page.locator("#start-btn-big").click();
+    await expect(page.locator("#fc-stage")).toBeVisible();
+  } finally {
+    releaseBundle();
+  }
+});
+
 test("multiple choice waits for Check answer and allows changing a selection", async ({
   page,
 }) => {

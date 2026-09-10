@@ -1,4 +1,4 @@
-import { useEffect, useRef, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 
 export function StudySetup({
   id,
@@ -21,8 +21,10 @@ export function StudySetup({
   summary: ReactNode;
   actions: ReactNode;
 }) {
+  const [ready, setReady] = useState(false);
   const heading = useRef<HTMLHeadingElement>(null);
   const previousStep = useRef(step);
+  useEffect(() => setReady(true), []);
   useEffect(() => {
     if (previousStep.current === step) return;
     previousStep.current = step;
@@ -33,7 +35,9 @@ export function StudySetup({
   }, [step]);
 
   return (
-    <div id={id} className="study-setup" data-step={step}>
+    // Keep server-rendered controls inactive until their handlers are ready.
+    // Otherwise an early checkbox click can be lost during hydration.
+    <div id={id} className="study-setup" data-step={step} inert={!ready}>
       <nav className="study-steps" aria-label="Session setup">
         <button
           type="button"
