@@ -26,9 +26,8 @@
 //   - MC distractor generation (flashcard.ts:690-705): Set-backed, so
 //     duplicate candidate values collapse and fewer than 4 options is
 //     possible; the correct value is always present.
-//   - The subtle, easy-to-miss MC lock: answering multiple choice disables
-//     its buttons immediately (handleMCClick disabled every `.mc-option`
-//     directly), independent of `locked`/`revealed` — a card can be
+//   - The MC lock: checking a selected answer disables its options,
+//     independent of `locked`/`revealed` — a card can be
 //     "answered but not revealed." Fill-in-the-blank has no such lock; it
 //     stays submittable (and re-gradable — gradeCurrent's `alreadyCounted`
 //     guard is exactly what makes resubmission safe) until the card is
@@ -53,17 +52,17 @@
 //     and breaks SSR.
 //   - `#empty-state` — only ever set `hidden`, never shown with content.
 //   - `#case-insensitive` reads — the element does not exist.
-import { useMemo, useState } from 'react';
-import { z } from 'zod';
-import { FLASHCARD_UNITS } from '../data/flashcard-units';
-import { shuffle } from '../lib/shuffle';
-import { showToast } from '../lib/toast';
-import type { Flashcard, FlashcardUnit } from '../types';
+import { useMemo, useState } from "react";
+import { z } from "zod";
+import { FLASHCARD_UNITS } from "../data/flashcard-units";
+import { shuffle } from "../lib/shuffle";
+import { showToast } from "../lib/toast";
+import type { Flashcard, FlashcardUnit } from "../types";
 
-const STORAGE_KEY = 'fynoptic.flashcards.v1';
+const STORAGE_KEY = "fynoptic.flashcards.v1";
 
-export type Mode = 'mc' | 'fitb';
-export type AnswerTarget = 'term' | 'definition';
+export type Mode = "mc" | "fitb";
+export type AnswerTarget = "term" | "definition";
 
 export interface DeckCard extends Flashcard {
   unit: string;
@@ -85,9 +84,9 @@ export interface Stats {
 
 /** The MC lock and the answer text both live here, so the view never needs a separate "answered" flag (see the module comment above). */
 export type Feedback =
-  | { kind: 'mc'; correct: boolean; correctValue: string; chosenValue: string }
-  | { kind: 'fitb'; correct: boolean; target: string }
-  | { kind: 'hint'; hint: string }
+  | { kind: "mc"; correct: boolean; correctValue: string; chosenValue: string }
+  | { kind: "fitb"; correct: boolean; target: string }
+  | { kind: "hint"; hint: string }
   | null;
 
 export interface FlashcardSessionSummary {
@@ -115,7 +114,10 @@ export interface BuildDeckOptions {
  * nothing; unit-selection order, then source order within each unit, is
  * preserved.
  */
-export function buildDeck(units: string[], flashcardUnits: FlashcardUnit): DeckCard[] {
+export function buildDeck(
+  units: string[],
+  flashcardUnits: FlashcardUnit,
+): DeckCard[] {
   const deck: DeckCard[] = [];
   units.forEach((u) => {
     (flashcardUnits[u] ?? []).forEach((card) => {
@@ -134,7 +136,7 @@ export function buildDeck(units: string[], flashcardUnits: FlashcardUnit): DeckC
  * tests/unit/flashcard-logic.test.ts, not a bug to fix here.
  */
 export function checkFitbAnswer(rawInput: string, target: string): boolean {
-  const val = (rawInput || '').trim();
+  const val = (rawInput || "").trim();
   return val.toLowerCase() === target.toLowerCase();
 }
 
@@ -170,9 +172,15 @@ export function unitProgress(
  * collapse, so fewer than 4 options is possible. The correct value is
  * always included first, before the Set can be capped.
  */
-export function buildMcOptions(card: Flashcard, pool: Flashcard[], useTermAnswers: boolean): string[] {
+export function buildMcOptions(
+  card: Flashcard,
+  pool: Flashcard[],
+  useTermAnswers: boolean,
+): string[] {
   const correctValue = useTermAnswers ? card.term : card.definition;
-  const candidates = pool.map((c) => (useTermAnswers ? c.term : c.definition)).filter((v) => v && v !== correctValue);
+  const candidates = pool
+    .map((c) => (useTermAnswers ? c.term : c.definition))
+    .filter((v) => v && v !== correctValue);
 
   const values = new Set<string>([correctValue]);
   while (values.size < 4 && candidates.length) {
@@ -189,8 +197,14 @@ export function buildMcOptions(card: Flashcard, pool: Flashcard[], useTermAnswer
  * there is exactly one copy. Returns whether the *term* side is the base
  * (pre-flip) front, given which mode/answer-target combination is active.
  */
-function computeFrontIsTerm(mode: Mode, mcAnswer: AnswerTarget, fitbAnswer: AnswerTarget): boolean {
-  const showDefFirst = (mode === 'fitb' && fitbAnswer === 'term') || (mode === 'mc' && mcAnswer === 'term');
+function computeFrontIsTerm(
+  mode: Mode,
+  mcAnswer: AnswerTarget,
+  fitbAnswer: AnswerTarget,
+): boolean {
+  const showDefFirst =
+    (mode === "fitb" && fitbAnswer === "term") ||
+    (mode === "mc" && mcAnswer === "term");
   return !showDefFirst;
 }
 
@@ -224,7 +238,10 @@ function persistProgress(answers: Record<string, AnswerRecord>): void {
   }
 }
 
-function statsFromAnswers(answers: Record<string, AnswerRecord>, deckIds: Set<string> | null): Pick<Stats, 'done' | 'correct'> {
+function statsFromAnswers(
+  answers: Record<string, AnswerRecord>,
+  deckIds: Set<string> | null,
+): Pick<Stats, "done" | "correct"> {
   let done = 0;
   let correct = 0;
   for (const [id, a] of Object.entries(answers)) {
@@ -236,7 +253,11 @@ function statsFromAnswers(answers: Record<string, AnswerRecord>, deckIds: Set<st
 }
 
 /** flashcard.ts's updateProgressUI/openSummaryModal formula, single-sourced here instead of typed out twice. */
-function computeAccuracyPct(correct: number, done: number, total: number): number {
+function computeAccuracyPct(
+  correct: number,
+  done: number,
+  total: number,
+): number {
   return total ? Math.round((correct / (done || 1)) * 100) : 0;
 }
 
@@ -251,6 +272,7 @@ interface EngineState {
   stats: Stats;
   answers: Record<string, AnswerRecord>;
   feedback: Feedback;
+  selectedMc: string | null;
 }
 
 function createInitialState(): EngineState {
@@ -258,13 +280,14 @@ function createInitialState(): EngineState {
     deck: [],
     index: 0,
     active: false,
-    mode: 'mc',
-    mcAnswer: 'term',
-    fitbAnswer: 'term',
+    mode: "mc",
+    mcAnswer: "term",
+    fitbAnswer: "term",
     revealed: new Set(),
     stats: { total: 0, done: 0, correct: 0, streak: 0 },
     answers: {},
     feedback: null,
+    selectedMc: null,
   };
 }
 
@@ -284,6 +307,7 @@ export interface UseFlashcardDeckResult {
   locked: boolean;
   /** Set-backed distractors for the current card, recomputed only when the displayed card or answer-target changes — not on every incidental re-render, so an MC answer's on-screen options never reshuffle after grading. */
   mcOptions: string[];
+  selectedMc: string | null;
   feedback: Feedback;
   /** "n / total", matches updateCrumbs(). */
   crumbs: string;
@@ -296,8 +320,10 @@ export interface UseFlashcardDeckResult {
   buildDeck(units: string[], opts: BuildDeckOptions): boolean;
   /** Reveals the current card. Toasts and no-ops if it's already revealed. */
   flip(): void;
-  /** Grades a multiple-choice click. Toasts and no-ops if the card is revealed. */
-  submitMc(value: string): void;
+  /** Selects an option without grading or saving progress. */
+  selectMc(value: string): void;
+  /** Grades the selected option once, when the student checks their answer. */
+  submitMc(): void;
   /** Grades a fill-in-the-blank submission. Toasts and no-ops if the card is revealed; no-ops silently on an empty/whitespace-only input. */
   submitFitb(rawInput: string): void;
   /** Shows a hint for the current card's answer target. No guard in the original — works even on a revealed card. */
@@ -318,24 +344,36 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
 
   const current = state.deck[state.index];
   const revealedCurrent = current ? state.revealed.has(current.id) : false;
-  const frontIsTerm = computeFrontIsTerm(state.mode, state.mcAnswer, state.fitbAnswer);
+  const frontIsTerm = computeFrontIsTerm(
+    state.mode,
+    state.mcAnswer,
+    state.fitbAnswer,
+  );
   const isFront = revealedCurrent ? !frontIsTerm : frontIsTerm;
   const locked = revealedCurrent;
 
   const mcOptions = useMemo(() => {
-    if (!current || state.mode !== 'mc') return [];
-    const pool: Flashcard[] = state.deck.length ? state.deck : Object.values(FLASHCARD_UNITS).flat();
-    return buildMcOptions(current, pool, state.mcAnswer === 'term');
+    if (!current || state.mode !== "mc") return [];
+    const pool: Flashcard[] = state.deck.length
+      ? state.deck
+      : Object.values(FLASHCARD_UNITS).flat();
+    return buildMcOptions(current, pool, state.mcAnswer === "term");
     // eslint-disable-next-line react-hooks/exhaustive-deps -- deliberately keyed on the displayed card + mode/answer-target, matching renderCard's call sites (buildDeck, next/prev/restart, toggleAnswerTarget), not on every render — see the module comment on the MC lock.
   }, [current, state.mode, state.mcAnswer, state.deck]);
 
   const crumbs = `${Math.min(state.index + 1, state.deck.length)} / ${state.deck.length}`;
-  const progressPct = state.stats.total ? Math.round((state.stats.done / state.stats.total) * 100) : 0;
-  const accuracyPct = computeAccuracyPct(state.stats.correct, state.stats.done, state.stats.total);
+  const progressPct = state.stats.total
+    ? Math.round((state.stats.done / state.stats.total) * 100)
+    : 0;
+  const accuracyPct = computeAccuracyPct(
+    state.stats.correct,
+    state.stats.done,
+    state.stats.total,
+  );
 
   function buildDeckAction(units: string[], opts: BuildDeckOptions): boolean {
     if (!units.length) {
-      showToast('Select at least one unit.');
+      showToast("Select at least one unit.");
       return false;
     }
     let deck = buildDeck(units, FLASHCARD_UNITS);
@@ -350,20 +388,29 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
       index: 0,
       active: true,
       mode: opts.mode,
-      mcAnswer: opts.mcAnswer ?? 'term',
-      fitbAnswer: opts.fitbAnswer ?? 'term',
+      mcAnswer: opts.mcAnswer ?? "term",
+      fitbAnswer: opts.fitbAnswer ?? "term",
       revealed: new Set(),
       stats: { total: deck.length, done, correct, streak: 0 },
       answers: saved.answers,
       feedback: null,
+      selectedMc: null,
     });
     return true;
   }
 
-  function gradeCurrent(next: EngineState, card: DeckCard, correct: boolean): void {
+  function gradeCurrent(
+    next: EngineState,
+    card: DeckCard,
+    correct: boolean,
+  ): void {
     const prev = next.answers[card.id];
     const alreadyCounted = !!prev;
-    next.answers[card.id] = { correct, attempts: (prev?.attempts ?? 0) + 1, lastAt: Date.now() };
+    next.answers[card.id] = {
+      correct,
+      attempts: (prev?.attempts ?? 0) + 1,
+      lastAt: Date.now(),
+    };
     if (!alreadyCounted) next.stats.done += 1;
     next.stats.correct += Number(correct) - Number(prev?.correct ?? false);
     if (correct) {
@@ -377,7 +424,7 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
   function flip(): void {
     if (!current) return;
     if (state.revealed.has(current.id)) {
-      showToast('This card is already revealed.');
+      showToast("This card is already revealed.");
       return;
     }
     const revealed = new Set(state.revealed);
@@ -385,65 +432,103 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
     setState({ ...state, revealed });
   }
 
-  function submitMc(value: string): void {
-    if (!current) return;
+  function selectMc(value: string): void {
+    if (
+      !current ||
+      locked ||
+      state.feedback?.kind === "mc" ||
+      !mcOptions.includes(value)
+    )
+      return;
+    setState({ ...state, selectedMc: value });
+  }
+
+  function submitMc(): void {
+    const value = state.selectedMc;
+    if (!current || value === null || state.feedback?.kind === "mc") return;
     if (state.revealed.has(current.id)) {
-      showToast('You revealed this card; answering is disabled.');
+      showToast("You revealed this card; answering is disabled.");
       return;
     }
-    const useTermAnswers = state.mcAnswer === 'term';
+    const useTermAnswers = state.mcAnswer === "term";
     const correctValue = useTermAnswers ? current.term : current.definition;
     const correct = value === correctValue;
 
-    const next: EngineState = { ...state, answers: { ...state.answers }, stats: { ...state.stats } };
+    const next: EngineState = {
+      ...state,
+      answers: { ...state.answers },
+      stats: { ...state.stats },
+    };
     gradeCurrent(next, current, correct);
-    next.feedback = { kind: 'mc', correct, correctValue, chosenValue: value };
+    next.feedback = { kind: "mc", correct, correctValue, chosenValue: value };
     setState(next);
   }
 
   function submitFitb(rawInput: string): void {
     if (!current) return;
     if (state.revealed.has(current.id)) {
-      showToast('You revealed this card; answering is disabled.');
+      showToast("You revealed this card; answering is disabled.");
       return;
     }
-    const val = (rawInput || '').trim();
+    const val = (rawInput || "").trim();
     if (!val) return;
 
-    const target = state.fitbAnswer === 'term' ? current.term : current.definition;
+    const target =
+      state.fitbAnswer === "term" ? current.term : current.definition;
     const correct = checkFitbAnswer(rawInput, target);
 
-    const next: EngineState = { ...state, answers: { ...state.answers }, stats: { ...state.stats } };
+    const next: EngineState = {
+      ...state,
+      answers: { ...state.answers },
+      stats: { ...state.stats },
+    };
     gradeCurrent(next, current, correct);
-    next.feedback = { kind: 'fitb', correct, target };
+    next.feedback = { kind: "fitb", correct, target };
     setState(next);
   }
 
   function showHint(): void {
     if (!current) return;
-    const target = state.fitbAnswer === 'term' ? current.term : current.definition;
+    const target =
+      state.fitbAnswer === "term" ? current.term : current.definition;
     const visible = Math.max(1, Math.ceil(target.length / 3));
-    const hint = target.slice(0, visible) + '…';
-    setState({ ...state, feedback: { kind: 'hint', hint } });
+    const hint = target.slice(0, visible) + "…";
+    setState({ ...state, feedback: { kind: "hint", hint } });
   }
 
   function toggleAnswerTarget(): void {
-    if (state.mode === 'mc') {
-      setState({ ...state, mcAnswer: state.mcAnswer === 'term' ? 'definition' : 'term', feedback: null });
+    if (state.mode === "mc") {
+      setState({
+        ...state,
+        mcAnswer: state.mcAnswer === "term" ? "definition" : "term",
+        feedback: null,
+        selectedMc: null,
+      });
     } else {
-      setState({ ...state, fitbAnswer: state.fitbAnswer === 'term' ? 'definition' : 'term', feedback: null });
+      setState({
+        ...state,
+        fitbAnswer: state.fitbAnswer === "term" ? "definition" : "term",
+        feedback: null,
+      });
     }
   }
 
   function gotoRelative(delta: number): void {
     if (!state.deck.length) return;
     const index = (state.index + delta + state.deck.length) % state.deck.length;
-    setState({ ...state, index, feedback: null });
+    setState({ ...state, index, feedback: null, selectedMc: null });
   }
 
   function restart(shuffleDeck: boolean): void {
     const deck = shuffleDeck ? shuffle(state.deck) : state.deck;
-    setState({ ...state, deck, index: 0, revealed: new Set(), feedback: null });
+    setState({
+      ...state,
+      deck,
+      index: 0,
+      revealed: new Set(),
+      feedback: null,
+      selectedMc: null,
+    });
   }
 
   function endSession(): FlashcardSessionSummary {
@@ -464,7 +549,9 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
     try {
       localStorage.removeItem(STORAGE_KEY);
     } catch {
-      showToast('Browser storage is unavailable. Saved progress could not be cleared.');
+      showToast(
+        "Browser storage is unavailable. Saved progress could not be cleared.",
+      );
       return;
     }
     setState({
@@ -473,8 +560,9 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
       answers: {},
       revealed: new Set(),
       feedback: null,
+      selectedMc: null,
     });
-    showToast('Progress reset.');
+    showToast("Progress reset.");
   }
 
   return {
@@ -489,12 +577,14 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
     isFront,
     locked,
     mcOptions,
+    selectedMc: state.selectedMc,
     feedback: state.feedback,
     crumbs,
     progressPct,
     accuracyPct,
     buildDeck: buildDeckAction,
     flip,
+    selectMc,
     submitMc,
     submitFitb,
     showHint,

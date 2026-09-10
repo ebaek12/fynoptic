@@ -11,7 +11,7 @@
 // `onOpenChange(false)` and never touches the session. The single
 // destructive action is the explicit, danger-styled "End Session" button
 // below, which is not a ModalClose and must call `onEndSession` itself.
-import { Modal, ModalClose } from '@/components/ui/Modal';
+import { Modal, ModalClose } from "../ui/Modal";
 
 export interface SessionEndStats {
   answered: number;
@@ -35,51 +35,71 @@ export interface EndSessionModalProps {
   onEndSession: () => void;
 }
 
-export function EndSessionModal({ open, onOpenChange, stats, onEndSession }: EndSessionModalProps) {
+export function EndSessionModal({
+  open,
+  onOpenChange,
+  stats,
+  onEndSession,
+}: EndSessionModalProps) {
   return (
-    <Modal open={open} onOpenChange={onOpenChange} title="Session Summary" id="end-session-modal">
+    <Modal
+      open={open}
+      onOpenChange={onOpenChange}
+      title="Your session so far"
+      id="end-session-modal"
+    >
       <ModalClose />
-      <div id="end-session-stats" className="session-stats">
-        <div className="stat-grid">
-          <div className="session-stat">
-            <div className="k">
+      <div id="end-session-stats">
+        <dl className="practice-review-stats">
+          <div>
+            <dt>Answered</dt>
+            <dd>
               {stats.answered}/{stats.total}
-            </div>
-            <div className="l">Answered</div>
+            </dd>
           </div>
-          <div className="session-stat">
-            <div className="k">{stats.correct}</div>
-            <div className="l">Correct</div>
+          <div>
+            <dt>Correct</dt>
+            <dd>{stats.correct}</dd>
           </div>
-          <div className="session-stat">
-            <div className="k">{stats.accuracyPct}%</div>
-            <div className="l">Accuracy</div>
+          <div>
+            <dt>Accuracy</dt>
+            <dd>{stats.accuracyPct}%</dd>
           </div>
-          <div className="session-stat">
-            <div className="k">{stats.streak}</div>
-            <div className="l">Current Streak</div>
+        </dl>
+        <dl className="practice-review-details">
+          <div>
+            <dt>Streak</dt>
+            <dd>{stats.streak}</dd>
           </div>
-          <div className="session-stat">
-            <div className="k">{stats.difficulty}</div>
-            <div className="l">Difficulty</div>
+          <div>
+            <dt>Difficulty</dt>
+            <dd>{stats.difficulty}</dd>
           </div>
-          <div className="session-stat wide">
-            <div className="k">{stats.topicsLabel}</div>
-            <div className="l">Units</div>
+          <div>
+            <dt>Topics</dt>
+            <dd>{stats.topicsLabel}</dd>
           </div>
-        </div>
+        </dl>
       </div>
-      <div className="end-session-actions">
+      <div className="practice-review-actions">
         <button
           id="end-session-end-btn"
           type="button"
-          className="btn btn-danger"
+          className="study-back"
           onClick={() => {
             onEndSession();
             onOpenChange(false);
           }}
         >
           End Session
+        </button>
+        <button
+          id="keep-practicing"
+          type="button"
+          className="study-primary"
+          onClick={() => onOpenChange(false)}
+        >
+          Keep practicing
         </button>
       </div>
     </Modal>

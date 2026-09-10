@@ -203,9 +203,9 @@ for (const viewport of [
     await page.screenshot({
       path: `/tmp/fynoptic-magnifier-start-${viewport.width}.png`,
     });
-    // Enter the skip link from the preceding partner carousel. A focused
-    // Practice tab would otherwise make Tab jump forward to the footer.
-    await page.getByRole("region", { name: "Partner Organizations" }).focus();
+    // Partner logos now link to their official sites. The skip link follows
+    // the last real partner; the duplicated marquee links stay out of Tab order.
+    await page.locator('.partner-set:not([aria-hidden]) a').last().focus();
     await page.keyboard.press("Tab");
     await expect(page.locator(".magnifier-skip")).toBeFocused();
     await expect(page.locator(".magnifier-skip")).toHaveCSS("opacity", "1");

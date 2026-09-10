@@ -3,7 +3,7 @@ html body .study-setup {
   --study-tint: color-mix(in srgb, var(--db-optic) 7%, var(--surface-1));
   width: 100%;
   max-width: 1120px;
-  margin: 28px auto 64px;
+  margin: 14px auto 48px;
   color: var(--text-100);
   font-family: var(--font-body);
 }
@@ -16,14 +16,14 @@ html body .study-steps {
   display: flex;
   align-items: center;
   gap: 16px;
-  padding: 0 0 16px;
+  padding: 0 0 8px;
   color: var(--muted-fg);
   font-size: 0.875rem;
 }
 .study-steps button {
   background: none;
   border: 0;
-  padding: 8px 0;
+  padding: 4px 0;
   color: inherit;
   font: inherit;
   cursor: pointer;
@@ -37,13 +37,15 @@ html body .study-steps {
   text-underline-offset: 5px;
 }
 html body .study-panel {
+  padding: 0;
+  min-height: 0;
   background: var(--surface-1);
   border: 1px solid var(--db-rule-strong);
   border-top: 3px solid var(--db-optic);
   border-radius: 4px;
 }
 .study-heading {
-  padding: 28px 32px 0;
+  padding: 16px 24px 0;
 }
 html body .study-heading h2 {
   font-family: var(--editorial-face);
@@ -51,7 +53,7 @@ html body .study-heading h2 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.025em;
-  margin: 0 0 10px;
+  margin: 0 0 8px;
   scroll-margin-top: 90px;
 }
 html body .study-heading p {
@@ -61,7 +63,7 @@ html body .study-heading p {
   line-height: 1.6;
 }
 .study-body {
-  padding: 24px 32px 32px;
+  padding: 16px 24px 24px;
   animation: study-arrive 160ms ease-out;
 }
 /* Old ID rules carried viewport heights, padding and grid tracks between steps. */
@@ -492,14 +494,14 @@ html body .study-adaptive .study-toggle-row {
 }
 @media (max-width: 720px) {
   html body .study-setup {
-    margin-top: 24px;
+    margin-top: 12px;
     margin-bottom: 40px;
   }
   .study-heading {
-    padding: 24px 20px 0;
+    padding: 16px 20px 0;
   }
   .study-body {
-    padding: 20px;
+    padding: 14px 20px 20px;
   }
   .study-footer {
     padding: 16px 20px;

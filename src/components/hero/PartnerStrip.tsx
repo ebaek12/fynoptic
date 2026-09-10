@@ -20,12 +20,12 @@ export function PartnerStrip() {
               aria-hidden={copy === 1 ? true : undefined}
             >
               {PARTNERS.map((partner) => (
-                <div className="logo-card" key={partner.image}>
+                <a className="logo-card" key={partner.image} href={partner.url} target="_blank" rel="noopener noreferrer" tabIndex={copy === 1 ? -1 : undefined} aria-label={copy === 0 ? `${partner.name} — official website (opens in a new tab)` : undefined}>
                   <img
                     src={"/assets/img/" + partner.image}
                     alt={copy === 0 ? partner.name : ""}
                   />
-                </div>
+                </a>
               ))}
             </div>
           ))}

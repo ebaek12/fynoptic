@@ -18,6 +18,18 @@
 }
 .partner-cell img { opacity: 1; filter: none; }
 
+html body .founder-card .portrait--arhan { background: #dededc; }
+html body .founder-card .portrait--arhan img {
+  object-fit: contain;
+  object-position: center top;
+  transform: none;
+  filter: none;
+}
+html body .partners-grid .partner-cell { padding: 0 !important; }
+.partner-cell a { position: relative; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; padding: 14px 24px; border-radius: inherit; }
+.partner-cell a > span { position: absolute; right: 9px; top: 6px; color: #c5d0ea; font-size: 16px; }
+.partner-cell a:focus-visible { outline: 2px solid var(--db-optic); outline-offset: 4px; }
+
 .founders-slab,
 .partners-slab {
   background: none;

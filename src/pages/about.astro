@@ -17,7 +17,7 @@ import '../styles/about.css';
 
       <div class="founders-grid">
         <article class="founder-card" tabindex="0">
-          <div class="portrait" aria-hidden="true">
+          <div class="portrait portrait--arhan" aria-hidden="true">
             <img src="/assets/img/arhan-barve.webp" alt="" />
             <span class="shine" aria-hidden="true"></span>
             <span class="ring" aria-hidden="true"></span>
@@ -62,7 +62,7 @@ import '../styles/about.css';
 
       <ul class="partners-grid" role="list" aria-label="Partner logos">
         {PARTNERS.map((partner) => (
-          <li class="partner-cell"><img src={`/assets/img/${partner.image}`} alt={partner.name} /></li>
+          <li class="partner-cell"><a href={partner.url} target="_blank" rel="noopener noreferrer" aria-label={`${partner.name} — official website (opens in a new tab)`}><img src={`/assets/img/${partner.image}`} alt={partner.name} /><span aria-hidden="true">↗</span></a></li>
         ))}
       </ul>
     </div>

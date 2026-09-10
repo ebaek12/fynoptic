@@ -53,6 +53,7 @@ const metrics = [
         {
           PARTNERS.map((partner) => (
             <li>
+              <a href={partner.url} target="_blank" rel="noopener noreferrer" aria-label={`${partner.name} — official website (opens in a new tab)`}>
               <img
                 class:list={{
                   "proof-logo-light":
@@ -64,6 +65,7 @@ const metrics = [
                 loading="lazy"
                 decoding="async"
               />
+              </a>
             </li>
           ))
         }

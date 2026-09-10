@@ -1,19 +1,20 @@
-/* Match the study setup's paper surface during a live session. */
-html body .flashcards-shell { background: transparent !important; }
-html body .flashcards-shell #fc-stage {
-  max-width: 960px; margin: 20px auto 48px; padding: clamp(20px, 3vw, 32px);
-  background: var(--surface-1) !important; border: 1px solid var(--db-rule-strong);
-  border-radius: 4px; box-shadow: none; scroll-margin-top: 90px;
+html body .flashcards-shell {
+  background: transparent !important;
 }
-html body .flashcards-shell #block-progress {
-  padding: 20px 24px; min-height: 0; border-radius: 4px !important;
+html body .flashcards-shell > section.container {
+  padding-block: 0;
 }
-.flashcards-shell #block-progress .stats { flex-wrap: wrap; gap: 16px; }
-html body .flashcards-shell .fc-card { border-radius: 4px; box-shadow: none; }
-html body .flashcards-shell .fc-top { align-items: start; gap: 16px; flex-wrap: wrap; margin-bottom: 20px; }
-.flashcards-shell .stage-actions { flex-wrap: wrap; }
-html body .flashcards-shell .fc-nav { gap: 12px; flex-wrap: wrap; }
-html body .flashcards-shell .fc-nav .gap { display: none; }
-html body .flashcards-shell .fc-nav #flip-btn { margin-inline: auto; }
-html body .flashcards-shell :is(#fitb-form, #mc-area)[hidden] { display: none !important; }
-html body .flashcards-shell .mc-option { border-radius: 4px; font-size: 1rem; line-height: 1.5; }
+/* Keep the session near the navigation once the student starts studying. */
+html body #main .flashcards-shell.page-heading:has(.study-session) {
+  padding-block: 0 !important;
+}
+.flashcards-shell:has(.study-session) > .container > h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.flashcards-shell:has(.study-session) > .container > .lead {
+  display: none;
+}

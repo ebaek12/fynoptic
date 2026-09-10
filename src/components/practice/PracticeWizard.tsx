@@ -89,13 +89,11 @@ export function PracticeWizard({
       step={step}
       labels={["Build your session", "Choose topics"]}
       title={
-        step === 1
-          ? "Make it your kind of practice."
-          : "What do you want to work on?"
+        step === 1 ? "Set up your practice." : "What do you want to work on?"
       }
       description={
         step === 1
-          ? "Pick a subject and a session length that works for you."
+          ? "Choose a subject and how many questions you want to answer."
           : `Choose a few topics from ${category}, or give everything a go.`
       }
       onBack={() => setStep(1)}
@@ -191,7 +189,7 @@ export function PracticeWizard({
                 ))}
               </div>
               <p className="study-help">
-                A quick round or a deeper dive. Your choice.
+                You can finish the session whenever you need to.
               </p>
             </fieldset>
             <div className="study-adaptive">

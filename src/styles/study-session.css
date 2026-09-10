@@ -1,0 +1,641 @@
+/* One reading surface for both study modes, using the homepage's ink and cobalt. */
+html body .study-session {
+  --session-tint: color-mix(in srgb, var(--db-optic) 6%, var(--surface-1));
+  --session-good: #216745;
+  --session-bad: #a2353d;
+  --session-edge: clamp(12px, 2svh, 20px);
+  width: 100%;
+  max-width: 1280px;
+  height: calc(
+    100svh - var(--study-header-height, 58px) - 2 * var(--session-edge)
+  );
+  display: flex;
+  flex-direction: column;
+  margin: var(--session-edge) auto;
+  padding: 0;
+  color: var(--text-100);
+  font: 400 1rem/1.5 var(--font-body);
+  scroll-margin-top: 80px;
+}
+html body #main:has(.study-session) {
+  overflow-anchor: none;
+}
+html body #main .container:has(.study-session) {
+  width: 100%;
+  max-width: 1344px;
+}
+html[data-theme="dark"] body .study-session {
+  --session-good: #9bd7ae;
+  --session-bad: #ffb1b6;
+}
+.study-session * {
+  box-sizing: border-box;
+}
+.study-session > :not(.session-paper) {
+  flex-shrink: 0;
+}
+.session-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+.session-toolbar > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+  min-width: 0;
+}
+.session-toolbar strong {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.session-eyebrow {
+  color: var(--muted-fg);
+  font-size: 0.875rem;
+}
+.session-progress {
+  margin-bottom: 12px;
+}
+.session-progress-label {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 16px;
+  margin-bottom: 6px;
+  color: var(--muted-fg);
+  font-size: 0.875rem;
+}
+.session-progress-label strong {
+  color: var(--text-100);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+html body .study-session .session-progress-track {
+  height: 5px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 2px;
+  background: var(--db-rule);
+}
+html body .study-session .session-progress-track > span {
+  display: block;
+  height: 100%;
+  background: var(--db-optic);
+  transition: width 180ms ease;
+}
+html body .study-session .session-paper {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: clamp(18px, 2.7svh, 28px);
+  background: var(--surface-1);
+  border: 1px solid var(--db-rule-strong);
+  border-radius: 8px;
+  box-shadow: none;
+  scroll-margin-top: 80px;
+}
+.session-paper-top {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 10px;
+  color: var(--muted-fg);
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+}
+.session-workspace {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(20px, 2.5vw, 36px);
+  align-items: stretch;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--db-rule-strong) transparent;
+}
+.session-workspace > * {
+  min-width: 0;
+}
+html body .study-session .fc-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  background: var(--session-tint);
+  border: 0;
+  border-radius: 5px;
+  color: var(--text-100);
+  box-shadow: none;
+  overflow: visible;
+  text-align: center;
+  perspective: 1200px;
+  cursor: pointer;
+}
+html body .study-session .fc-card:disabled {
+  opacity: 1;
+  cursor: default;
+}
+.session-card-faces {
+  display: grid;
+  perspective: 1200px;
+}
+html body .study-session .fc-card .side {
+  position: relative;
+  inset: auto;
+  grid-area: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  padding: 24px 28px 18px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  filter: none;
+  backface-visibility: hidden;
+}
+.session-prompt-label {
+  display: block;
+  font: 500 0.8125rem/1.4 var(--font-body);
+  color: var(--db-optic);
+}
+.session-card-text {
+  display: block;
+  max-width: 34ch;
+  overflow-wrap: anywhere;
+  font: 500 clamp(1.25rem, min(2.1vw, 3.4svh), 1.875rem)/1.4
+    var(--editorial-face);
+  letter-spacing: -0.015em;
+}
+#term-side .session-card-text {
+  font-size: clamp(1.5rem, min(2.8vw, 4.5svh), 2.5rem);
+  line-height: 1.2;
+}
+.session-card-hint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 0 12px 12px;
+  color: var(--muted-fg);
+  font: 400 0.8125rem/1.4 var(--font-body);
+}
+.session-card-hint > span {
+  font-size: 1.1rem;
+}
+html body .study-session .session-question {
+  margin: 24px 0 28px;
+  padding: 0;
+  min-height: 0;
+  font: 500 clamp(1.4rem, 2.3vw, 1.85rem)/1.45 var(--editorial-face);
+  letter-spacing: -0.015em;
+  text-wrap: pretty;
+  scroll-margin-top: 90px;
+}
+.session-answer-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0;
+}
+.session-answer-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 0 0 8px;
+  font-size: 0.875rem;
+}
+.session-help {
+  color: var(--muted-fg);
+  font-size: 0.8125rem;
+}
+html body .study-session .session-answers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(8px, 1.2svh, 12px);
+  margin: 0;
+  padding: 0;
+}
+html body .study-session .session-answer {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) 20px;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-width: 0;
+  min-height: clamp(48px, 7.5svh, 72px);
+  padding: 12px 16px;
+  margin: 0;
+  background: var(--surface-1);
+  border: 1px solid var(--db-rule-strong);
+  border-radius: 5px;
+  color: var(--text-100);
+  font: 400 clamp(1rem, 1.2vw, 1.125rem)/1.4 var(--font-body);
+  text-align: left;
+  box-shadow: none;
+  transform: none;
+  opacity: 1;
+  cursor: pointer;
+  transition:
+    background 140ms ease,
+    border-color 140ms ease;
+}
+.session-answer-letter {
+  display: inline-grid;
+  place-items: center;
+  width: 27px;
+  height: 27px;
+  border: 1px solid var(--db-rule);
+  border-radius: 3px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--muted-fg);
+}
+.session-answer-copy {
+  overflow-wrap: anywhere;
+}
+.session-answer-mark {
+  font-size: 1.125rem;
+  text-align: center;
+}
+html body .study-session .session-answer:hover:not(:disabled),
+html body .study-session .session-answer.is-selected {
+  background: var(--session-tint);
+  border-color: var(--db-optic);
+  box-shadow: none;
+  transform: none;
+}
+html body .study-session .session-answer.is-correct {
+  border-color: var(--session-good);
+  background: color-mix(in srgb, var(--session-good) 7%, var(--surface-1));
+}
+html body .study-session .session-answer.is-wrong {
+  border-color: var(--session-bad);
+  background: color-mix(in srgb, var(--session-bad) 6%, var(--surface-1));
+}
+.session-answer.is-correct .session-answer-mark {
+  color: var(--session-good);
+}
+.session-answer.is-wrong .session-answer-mark {
+  color: var(--session-bad);
+}
+html body .study-session .session-answer:disabled {
+  cursor: default;
+}
+html body .study-session .session-answer.is-eliminated {
+  opacity: 1;
+  text-decoration: none;
+}
+.session-answer.is-eliminated .session-answer-copy {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.session-choice-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 36px;
+  align-items: center;
+  gap: 5px;
+}
+.session-eliminate {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: none;
+  color: var(--muted-fg);
+  font: 400 1.25rem var(--font-body);
+  cursor: pointer;
+}
+.session-eliminate:hover:not(:disabled),
+.session-eliminate[aria-pressed="true"] {
+  color: var(--db-optic);
+  background: var(--session-tint);
+}
+.session-eliminate:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.session-feedback-slot {
+  flex-shrink: 0;
+  min-height: 0;
+  padding-top: 0;
+}
+html body .study-session .session-feedback {
+  margin: 0;
+  padding: 10px 0 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--muted-fg);
+}
+html body .study-session .session-feedback[hidden] {
+  display: none !important;
+}
+html body .study-session .session-feedback.ok {
+  color: var(--session-good);
+}
+html body .study-session .session-feedback.bad {
+  color: var(--session-bad);
+}
+.session-feedback p {
+  margin: 8px 0 0;
+  color: var(--text-100);
+}
+.session-navigation {
+  flex-shrink: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--db-rule);
+}
+.session-forward-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+html body .study-session .session-forward-actions > button[hidden] {
+  display: none !important;
+}
+html
+  body
+  .study-session
+  :is(.session-primary, .session-secondary, .session-text-button) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-height: 44px;
+  padding: 10px 18px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font: 600 0.9375rem/1.4 var(--font-body);
+  cursor: pointer;
+  box-shadow: none;
+  transform: none;
+}
+html body .study-session .session-primary {
+  background: var(--db-optic);
+  border-color: var(--db-optic);
+  color: var(--db-optic-ink);
+}
+html body .study-session .session-primary:hover:not(:disabled) {
+  background: var(--text-100);
+  border-color: var(--text-100);
+  color: var(--surface-1);
+}
+html body .study-session .session-secondary {
+  background: var(--surface-1);
+  border-color: var(--db-rule-strong);
+  color: var(--text-100);
+}
+html body .study-session .session-secondary:hover:not(:disabled) {
+  border-color: var(--db-optic);
+  color: var(--db-optic);
+}
+html body .study-session .session-text-button {
+  padding: 6px 0;
+  background: none;
+  border: 0;
+  color: var(--muted-fg);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+html body .study-session .session-text-button:hover:not(:disabled) {
+  color: var(--db-optic);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+html
+  body
+  .study-session
+  :is(.session-primary, .session-secondary, .session-text-button):disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+html body .study-session :is(button, input):focus-visible {
+  outline: 2px solid var(--db-optic);
+  outline-offset: 3px;
+}
+.session-type-answer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+html body .study-session .session-type-answer input {
+  flex: 1 1 240px;
+  min-width: 0;
+  width: 100%;
+  padding: 13px 16px;
+  min-height: 48px;
+  border: 1px solid var(--db-rule-strong);
+  border-radius: 5px;
+  background: var(--surface-1);
+  color: var(--text-100);
+  font: 400 1rem/1.4 var(--font-body);
+}
+.session-underbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px 20px;
+  margin-top: 4px;
+}
+html body .study-session .session-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin: 10px 0;
+  padding: 0;
+}
+.session-metrics > div {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 0.875rem;
+}
+.session-metrics dt {
+  color: var(--muted-fg);
+}
+.session-metrics dd {
+  margin: 0;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.session-secondary-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+}
+.session-finish {
+  padding: 24px 8px;
+}
+html body .study-session .session-finish h2 {
+  margin: 14px 0;
+  font: 500 clamp(2rem, 4vw, 3rem)/1.2 var(--editorial-face);
+}
+.session-finish > p {
+  font-size: 1rem;
+  color: var(--muted-fg);
+  line-height: 1.6;
+}
+.session-finish-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+html body .study-session #stage-qwrap {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+  padding-bottom: 0;
+}
+.session-finish {
+  overflow-y: auto;
+}
+@media (max-width: 760px) {
+  .session-workspace {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(min-content, 1fr) max-content;
+    gap: 12px;
+  }
+}
+@media (max-width: 600px) {
+  html body .study-session {
+    --session-edge: 12px;
+  }
+  html body .study-session .session-paper {
+    padding: 12px;
+  }
+  .session-toolbar {
+    gap: 12px;
+    margin-bottom: 6px;
+  }
+  .session-toolbar > button {
+    flex-shrink: 0;
+  }
+  html body .study-session .fc-card .side {
+    padding: 12px 14px 8px;
+    gap: 6px;
+  }
+  html body .study-session .session-answer {
+    grid-template-columns: 24px minmax(0, 1fr) 16px;
+    gap: 9px;
+    padding: 8px 10px;
+    min-height: 44px;
+    font-size: 0.9375rem;
+  }
+  html body .study-session .session-answers {
+    gap: 6px;
+  }
+  .session-card-text {
+    font-size: 1.125rem;
+  }
+  #term-side .session-card-text {
+    font-size: 1.5rem;
+  }
+  .session-answer-letter {
+    width: 24px;
+    height: 24px;
+  }
+  .session-answer-area {
+    margin-top: 0;
+  }
+  .session-answer-heading {
+    align-items: baseline;
+  }
+  .session-navigation {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .session-navigation > #flip-btn {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 0.8125rem;
+    white-space: nowrap;
+  }
+  .session-navigation > #next-btn {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .session-forward-actions {
+    display: flex;
+    justify-content: flex-end;
+    grid-column: 2 / -1;
+    grid-row: 1;
+    margin-left: 0;
+  }
+  .session-forward-actions > button {
+    width: 100%;
+  }
+  .session-navigation:has(#flip-btn) .session-forward-actions {
+    grid-column: 3;
+  }
+  .session-metrics > div {
+    font-size: 0.8125rem;
+  }
+  html
+    body
+    .study-session
+    .session-navigation
+    :is(.session-primary, .session-secondary) {
+    padding: 8px 10px;
+    gap: 8px;
+    font-size: 0.8125rem;
+  }
+  html body .study-session .session-answer-heading .session-text-button {
+    min-height: 32px;
+    font-size: 0.8125rem;
+  }
+  .session-secondary-actions {
+    gap: 16px;
+  }
+  html body .study-session .session-secondary-actions .session-text-button {
+    min-height: 32px;
+    padding-block: 4px;
+    font-size: 0.8125rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .study-session *,
+  .study-session *::before,
+  .study-session *::after {
+    transition: none !important;
+  }
+}

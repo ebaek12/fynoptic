@@ -1253,11 +1253,7 @@ html body .course-card--soon:hover .soon-hint  { opacity: 1; transform: translat
    it and the nav above it each started at a different x.
    ========================================================================== */
 
-/* The rule runs down the LEFT of the whole heading block — title and
-   standfirst together — rather than sitting under the title as an underline.
-   It's carried on the section's .container (which already owns the page rail)
-   via a wrapper-free border on the heading group, so the rule and the text
-   below it share one left edge. */
+/* Align About headings with the page rail. */
 html body :is(.founders-slab, .partners-slab) .slab-title {
   text-align: left !important;
   font-family: var(--display-face) !important;
@@ -1265,8 +1261,8 @@ html body :is(.founders-slab, .partners-slab) .slab-title {
   line-height: 1.1 !important;
   letter-spacing: -.018em !important;
   margin: 0 !important;
-  padding-left: 24px;
-  border-left: 3px solid var(--db-optic);
+  padding-left: 0;
+  border-left: 0;
 }
 /* legacy.css:6260 hangs an absolutely-positioned, centred underline off
    .slab-title. It has zero width until a .in-view class that never lands on
@@ -1276,13 +1272,12 @@ html body :is(.founders-slab, .partners-slab) .slab-title {
 html body :is(.founders-slab, .partners-slab) .slab-title::after {
   content: none !important;
 }
-/* The standfirst continues the same rule, so the two read as one block with a
-   single left edge instead of a titled line and a loose paragraph. */
+/* The standfirst shares the title's left edge. */
 html body .slab-lede {
   max-width: 56ch;
   margin: 0;
-  padding: 14px 0 0 24px;
-  border-left: 3px solid var(--db-optic);
+  padding: 14px 0 0;
+  border-left: 0;
   font-size: 1.15rem;
   line-height: 1.6;
   color: var(--text-300);

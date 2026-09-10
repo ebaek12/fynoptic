@@ -22,11 +22,11 @@
 //     `q.explanation ? ... : ...` branches in the old markResponse are not
 //     ported — see Session.tsx's feedback text, which is just 'Correct!' /
 //     'Not quite.'.
-import { useEffect, useRef, useState } from 'react';
-import { shuffle } from '../lib/shuffle';
-import { showToast } from '../lib/toast';
-import { parseEconBank, parsePfBank } from '../schemas';
-import type { PracticeBank, PracticeDifficulty, PracticeItem } from '../types';
+import { useEffect, useRef, useState } from "react";
+import { shuffle } from "../lib/shuffle";
+import { showToast } from "../lib/toast";
+import { parseEconBank, parsePfBank } from "../schemas";
+import type { PracticeBank, PracticeDifficulty, PracticeItem } from "../types";
 
 export interface NormalizedQuestion {
   id: string;
@@ -76,16 +76,23 @@ export interface CreateSessionParams {
 }
 
 /** practice.ts:330-375, unchanged apart from taking the bank as a parameter. */
-export function createSession(QUESTIONS: PracticeBank, params: CreateSessionParams): Session | null {
+export function createSession(
+  QUESTIONS: PracticeBank,
+  params: CreateSessionParams,
+): Session | null {
   const { category, topics, totalQuestions, adaptWindow, adaptive } = params;
   const catObj = QUESTIONS[category];
   if (!catObj) return null;
 
-  const byDiff: Record<PracticeDifficulty, PracticeItem[]> = { easy: [], medium: [], hard: [] };
+  const byDiff: Record<PracticeDifficulty, PracticeItem[]> = {
+    easy: [],
+    medium: [],
+    hard: [],
+  };
   topics.forEach((t) => {
     const block = catObj[t];
     if (!block) return;
-    (['easy', 'medium', 'hard'] as const).forEach((d) => {
+    (["easy", "medium", "hard"] as const).forEach((d) => {
       const arr = block[d];
       if (Array.isArray(arr)) byDiff[d].push(...arr);
     });
@@ -95,9 +102,14 @@ export function createSession(QUESTIONS: PracticeBank, params: CreateSessionPara
   byDiff.medium = shuffle(byDiff.medium);
   byDiff.hard = shuffle(byDiff.hard);
 
-  if (!byDiff.easy.length && !byDiff.medium.length && !byDiff.hard.length) return null;
+  if (!byDiff.easy.length && !byDiff.medium.length && !byDiff.hard.length)
+    return null;
 
-  const startDiff: PracticeDifficulty = byDiff.medium.length ? 'medium' : byDiff.easy.length ? 'easy' : 'hard';
+  const startDiff: PracticeDifficulty = byDiff.medium.length
+    ? "medium"
+    : byDiff.easy.length
+      ? "easy"
+      : "hard";
 
   return {
     category,
@@ -128,11 +140,15 @@ export function maybeAdapt(session: Session): void {
   let next = session.currentDiff;
 
   if (acc >= 0.85) {
-    if (session.currentDiff === 'easy' && session.byDiff.medium.length) next = 'medium';
-    else if (session.currentDiff === 'medium' && session.byDiff.hard.length) next = 'hard';
+    if (session.currentDiff === "easy" && session.byDiff.medium.length)
+      next = "medium";
+    else if (session.currentDiff === "medium" && session.byDiff.hard.length)
+      next = "hard";
   } else if (acc <= 0.5) {
-    if (session.currentDiff === 'hard' && session.byDiff.medium.length) next = 'medium';
-    else if (session.currentDiff === 'medium' && session.byDiff.easy.length) next = 'easy';
+    if (session.currentDiff === "hard" && session.byDiff.medium.length)
+      next = "medium";
+    else if (session.currentDiff === "medium" && session.byDiff.easy.length)
+      next = "easy";
   }
 
   session.currentDiff = next;
@@ -140,15 +156,15 @@ export function maybeAdapt(session: Session): void {
 
 function cryptoRandomId(): string {
   try {
-    return 'q-' + crypto.getRandomValues(new Uint32Array(1))[0]!.toString(36);
+    return "q-" + crypto.getRandomValues(new Uint32Array(1))[0]!.toString(36);
   } catch {
-    return 'q-' + Math.random().toString(36).slice(2);
+    return "q-" + Math.random().toString(36).slice(2);
   }
 }
 
-/** practice.ts:397-408, unchanged. explanation is always ''. */
+/** Shuffle once when a question is drawn; its timeline entry keeps that order. */
 export function normalizeQuestion(raw: PracticeItem): NormalizedQuestion {
-  const choices = raw.choices.slice();
+  const choices = shuffle(raw.choices);
   let answerIndex = choices.findIndex((c) => c === raw.answer);
   if (answerIndex < 0) answerIndex = 0;
   return {
@@ -156,7 +172,7 @@ export function normalizeQuestion(raw: PracticeItem): NormalizedQuestion {
     prompt: raw.question,
     choices,
     answerIndex,
-    explanation: '',
+    explanation: "",
   };
 }
 
@@ -168,7 +184,12 @@ export function normalizeQuestion(raw: PracticeItem): NormalizedQuestion {
  * runs even when session.adaptive is false.
  */
 export function drawQuestion(session: Session): NormalizedQuestion | null {
-  const tryOrder: PracticeDifficulty[] = [session.currentDiff, 'medium', 'easy', 'hard'];
+  const tryOrder: PracticeDifficulty[] = [
+    session.currentDiff,
+    "medium",
+    "easy",
+    "hard",
+  ];
   for (const d of tryOrder) {
     const arr = session.byDiff[d];
     if (arr && arr.length) {
@@ -195,29 +216,37 @@ export function computeAccuracyPct(correct: number, asked: number): number {
 }
 
 function pushTimelineEntry(session: Session, q: NormalizedQuestion): void {
-  session.timeline.push({ q, answered: false, chosenIdx: null, correct: null, eliminated: [] });
+  session.timeline.push({
+    q,
+    answered: false,
+    chosenIdx: null,
+    correct: null,
+    eliminated: [],
+  });
 }
 
 async function loadPF(): Promise<PracticeBank | null> {
   try {
-    const res = await fetch('/data/pf_bank_modules_1of6.json');
+    const res = await fetch("/data/pf_bank_modules_1of6.json");
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return parsePfBank(await res.json());
   } catch (err) {
-    console.error('loadPF error:', err);
-    showToast('Could not load the question bank (check file path/name).');
+    console.error("loadPF error:", err);
+    showToast("Could not load the question bank (check file path/name).");
     return null;
   }
 }
 
 async function loadEconomics(): Promise<PracticeBank | null> {
   try {
-    const res = await fetch('/data/econ_grouped_by_module_unit_with_choices.json');
+    const res = await fetch(
+      "/data/econ_grouped_by_module_unit_with_choices.json",
+    );
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return parseEconBank(await res.json());
   } catch (err) {
-    console.error('loadEconomics error:', err);
-    showToast('Could not load Economics bank (check path).');
+    console.error("loadEconomics error:", err);
+    showToast("Could not load Economics bank (check path).");
     return null;
   }
 }
@@ -273,12 +302,12 @@ export function usePracticeSession(): UsePracticeSessionResult {
   function start(params: CreateSessionParams): boolean {
     const next = createSession(questionsRef.current, params);
     if (!next) {
-      showToast('No questions available for that selection.');
+      showToast("No questions available for that selection.");
       return false;
     }
     const q = drawQuestion(next);
     if (!q) {
-      showToast('Question pool is empty.');
+      showToast("Question pool is empty.");
       return false;
     }
     pushTimelineEntry(next, q);
@@ -319,12 +348,20 @@ export function usePracticeSession(): UsePracticeSessionResult {
     session.asked += 1;
     session.correct += isCorrect ? 1 : 0;
     session.streak = isCorrect ? session.streak + 1 : 0;
-    session.history.push({ id: session.current.id, correct: isCorrect, difficulty: session.currentDiff });
+    session.history.push({
+      id: session.current.id,
+      correct: isCorrect,
+      difficulty: session.currentDiff,
+    });
 
     entry.answered = true;
     entry.correct = isCorrect;
 
-    if (session.adaptive && session.adaptWindow > 0 && session.asked % session.adaptWindow === 0) {
+    if (
+      session.adaptive &&
+      session.adaptWindow > 0 &&
+      session.asked % session.adaptWindow === 0
+    ) {
       maybeAdapt(session);
     }
 
@@ -373,14 +410,20 @@ export function usePracticeSession(): UsePracticeSessionResult {
   function restart(): boolean {
     if (!session) return false;
     const { category, topics, totalQuestions, adaptWindow, adaptive } = session;
-    const next = createSession(questionsRef.current, { category, topics, totalQuestions, adaptWindow, adaptive });
+    const next = createSession(questionsRef.current, {
+      category,
+      topics,
+      totalQuestions,
+      adaptWindow,
+      adaptive,
+    });
     if (!next) {
-      showToast('No questions available for that selection.');
+      showToast("No questions available for that selection.");
       return false;
     }
     const q = drawQuestion(next);
     if (!q) {
-      showToast('Question pool is empty.');
+      showToast("Question pool is empty.");
       return false;
     }
     pushTimelineEntry(next, q);
@@ -395,5 +438,18 @@ export function usePracticeSession(): UsePracticeSessionResult {
     setFinishSummary(null);
   }
 
-  return { questions, banksLoading, session, finishSummary, start, selectChoice, toggleEliminate, submit, next, prev, restart, endSession };
+  return {
+    questions,
+    banksLoading,
+    session,
+    finishSummary,
+    start,
+    selectChoice,
+    toggleEliminate,
+    submit,
+    next,
+    prev,
+    restart,
+    endSession,
+  };
 }

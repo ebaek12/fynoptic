@@ -8,7 +8,7 @@ import { setTheme } from '@/lib/storage';
 import { themeStore } from '@/lib/theme';
 
 const NAV_LINKS = [
-  { href: '/courses', label: 'Course' },
+  { href: '/courses', label: 'Courses' },
   { href: '/articles', label: 'Articles' },
   { href: '/flashcard', label: 'Flashcards' },
   { href: '/practice', label: 'Practice' },
