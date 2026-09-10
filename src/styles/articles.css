@@ -7,7 +7,13 @@ body:is(.article-library, .article-reader):not(.no-scroll) {
 html body:is(.article-library, .article-reader) .header {
   position: fixed;
   inset: 0 0 auto;
+  height: var(--header-h, 58px);
   z-index: 100;
+}
+html body:is(.article-library, .article-reader) .header .nav {
+  /* Keep the fixed bar and its page offset identical at mobile breakpoints. */
+  height: 100%;
+  padding-block: 0 !important;
 }
 html body:is(.article-library, .article-reader) #main {
   padding-top: var(--header-h, 58px);
