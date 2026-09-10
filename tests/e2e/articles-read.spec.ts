@@ -50,6 +50,7 @@ test('the browse page shows a Read marker for a visited article', async ({ page 
 
 test('the unread-only filter hides read articles and keeps unread ones', async ({ page }) => {
   await page.goto(ARTICLE_URL);
+  await expect.poll(() => getReadIds(page)).toContain(ARTICLE_ID);
   await page.goto('/articles');
 
   const unreadToggle = page.locator('#unread-toggle');
@@ -57,14 +58,9 @@ test('the unread-only filter hides read articles and keeps unread ones', async (
   await expect(unreadToggle).toHaveAttribute('aria-pressed', 'true');
   await expect(unreadToggle).toHaveClass(/is-active/);
 
-  // The grid pages via the `hidden` IDL property (see ArticlesBrowser.tsx),
-  // not actual paint visibility — a page-wide `.article-card { display:
-  // block }` rule outranks the UA's `[hidden] { display: none }` in the
-  // cascade (author beats user-agent regardless of specificity), so the
-  // existing suite also asserts on the property/attribute rather than
-  // toBeHidden()/toBeVisible().
   const readCard = page.locator(`.article-card[href="${ARTICLE_URL}"]`);
   await expect(readCard).toHaveJSProperty('hidden', true);
+  await expect(readCard).toBeHidden();
 
   const visibleHrefs = await page
     .locator('.article-card:not([hidden])')
@@ -76,6 +72,7 @@ test('the unread-only filter hides read articles and keeps unread ones', async (
   await unreadToggle.click();
   await expect(unreadToggle).toHaveAttribute('aria-pressed', 'false');
   await expect(readCard).toHaveJSProperty('hidden', false);
+  await expect(readCard).toBeVisible();
 });
 
 test('clearing storage resets the read state back to nothing', async ({ page }) => {

@@ -16,7 +16,7 @@ const pages = [
 
 for (const theme of ["light", "dark"]) {
   for (const width of [1440, 390]) {
-    test(`page headings share one top gap at ${width}px in ${theme}`, async ({
+    test(`page headings and reader navigation have consistent spacing at ${width}px in ${theme}`, async ({
       page,
     }) => {
       await page.setViewportSize({ width, height: 1000 });
@@ -37,12 +37,19 @@ for (const theme of ["light", "dark"]) {
       for (const path of pages) {
         await page.goto(path);
         await page.evaluate(() => document.fonts.ready);
+        const isReader = path.startsWith('/articles/');
         const gap = await page.evaluate(
-          () =>
-            document.querySelector("main h1")!.getBoundingClientRect().top -
+          (selector) =>
+            document.querySelector(selector)!.getBoundingClientRect().top -
             document.querySelector(".header")!.getBoundingClientRect().bottom,
+          isReader ? '.reader-overline' : 'main h1',
         );
-        expect(gap, path).toBeCloseTo(width > 720 ? 48 : 32, 0);
+        // Reader navigation precedes its editorial title. Allow the header's
+        // 1px border when it is fixed and removed from normal document flow.
+        const expectedGap = isReader
+          ? (width > 720 ? 42 : 28)
+          : (width > 720 ? 48 : 32);
+        expect(Math.abs(gap - expectedGap), path).toBeLessThanOrEqual(1);
         const heading = await page.locator("main h1").evaluate((el) => {
           const style = getComputedStyle(el);
           return {
@@ -51,7 +58,15 @@ for (const theme of ["light", "dark"]) {
             marginBottom: style.marginBottom,
           };
         });
-        if (path !== '/') expect(heading, path).toEqual(practiceHeading);
+        if (path !== '/' && !isReader) expect(heading, path).toEqual(practiceHeading);
+        if (isReader) {
+          await page.evaluate(() => window.scrollTo(0, 800));
+          await expect(page.locator('.header')).toBeVisible();
+          const headerTop = await page.locator('.header').evaluate(
+            (el) => el.getBoundingClientRect().top,
+          );
+          expect(Math.abs(headerTop)).toBeLessThanOrEqual(1);
+        }
       }
     });
   }

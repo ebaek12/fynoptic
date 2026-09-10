@@ -94,7 +94,9 @@ test('load more reveals 12 additional cards and focuses the first new one', asyn
 });
 
 test('"/" focuses the search input when not already typing', async ({ page }) => {
-  await page.locator('body').click();
+  await expect(page.locator('.article-card:not([hidden])')).toHaveCount(12);
+  // The center of body can be an article link in the list layout.
+  await page.locator('.articles-hero h1').click();
   await page.keyboard.press('/');
   await expect(page.locator('#search-input')).toBeFocused();
 });
