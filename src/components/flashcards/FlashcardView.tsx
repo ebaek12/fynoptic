@@ -51,6 +51,14 @@ function answerTargetLabel(target: 'term' | 'definition'): string {
 export function FlashcardView({ engine, shuffleDeck, onRequestResetProgress, onRequestEndSession }: FlashcardViewProps) {
   const { current, mode, mcAnswer, fitbAnswer, isFront, locked, mcOptions, feedback, stats, crumbs, progressPct, accuracyPct } = engine;
   const fitbInputRef = useRef<HTMLInputElement>(null);
+  const stageRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    stageRef.current?.scrollIntoView({ block: 'start', behavior: 'instant' });
+    if (mode === 'mc') stageRef.current?.focus({ preventScroll: true });
+    // Only move to the study surface when the session starts.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // flashcard.ts:631-634 — a fresh card clears the input and autofocuses it
   // unless already revealed. Deliberately keyed on `current?.id` only, not
@@ -106,7 +114,7 @@ export function FlashcardView({ engine, shuffleDeck, onRequestResetProgress, onR
         </ul>
       </aside>
 
-      <div id="fc-stage" className="fc-stage card" aria-live="polite">
+      <div id="fc-stage" ref={stageRef} tabIndex={-1} className="fc-stage card" aria-live="polite">
         <div className="fc-top">
           <div className="crumbs">
             <span id="crumbs-text">{crumbs}</span>

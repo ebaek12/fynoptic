@@ -1,14 +1,15 @@
-import { useEffect, useState } from 'react';
-import { FLASHCARD_UNITS } from '../../data/flashcard-units';
-import { readStorage, unitProgress, type AnswerRecord } from '../../hooks/useFlashcardDeck';
-import { showToast } from '../../lib/toast';
+import { useEffect, useState } from "react";
+import { FLASHCARD_UNITS } from "../../data/flashcard-units";
+import {
+  readStorage,
+  unitProgress,
+  type AnswerRecord,
+} from "../../hooks/useFlashcardDeck";
+import { showToast } from "../../lib/toast";
+import { SelectionMark, SelectionTools, StudySetup } from "../study/StudySetup";
 
-export type Mode = 'mc' | 'fitb';
-type WizardStep = 1 | 2 | 3;
-
-
+export type Mode = "mc" | "fitb";
 export interface FlashcardWizardProps {
-  /** All unit names, in display order — flashcard-units.ts's keys. */
   allUnits: string[];
   unitsSelected: Set<string>;
   onUnitsSelectedChange: (next: Set<string>) => void;
@@ -16,7 +17,6 @@ export interface FlashcardWizardProps {
   onModeChange: (next: Mode) => void;
   shuffleDeck: boolean;
   onShuffleDeckChange: (next: boolean) => void;
-  /** Fired on step 3's "Start Session" — caller owns buildDeck() from here. */
   onStart: () => void;
 }
 
@@ -30,142 +30,225 @@ export function FlashcardWizard({
   onShuffleDeckChange,
   onStart,
 }: FlashcardWizardProps) {
-  const [step, setStep] = useState<WizardStep>(1);
-  // Starts empty (matches SSR, avoids a hydration mismatch) and is filled
-  // in from validated localStorage after mount.
+  const [step, setStep] = useState<1 | 2>(1);
   const [answers, setAnswers] = useState<Record<string, AnswerRecord>>({});
-
   useEffect(() => {
     setAnswers(readStorage().answers);
   }, []);
 
-  function toggleUnit(unit: string): void {
+  function toggleUnit(unit: string) {
     const next = new Set(unitsSelected);
     if (next.has(unit)) next.delete(unit);
     else next.add(unit);
     onUnitsSelectedChange(next);
   }
-
-  function selectAll(): void {
-    onUnitsSelectedChange(new Set(allUnits));
-  }
-
-  function clearAll(): void {
-    onUnitsSelectedChange(new Set());
-  }
-
-  function confirmUnits(): void {
-    if (unitsSelected.size === 0) {
-      showToast('Select at least one unit to continue.');
+  function confirmUnits() {
+    if (!unitsSelected.size) {
+      showToast("Select at least one unit to continue.");
       return;
     }
     setStep(2);
   }
-
-  const modeLabel = mode === 'mc' ? 'Multiple Choice' : 'Fill in the Blank';
   const count = unitsSelected.size;
-  const summaryText = count
-    ? `You selected ${count} unit${count > 1 ? 's' : ''} in ${modeLabel} mode.`
-    : 'No units selected yet.';
+  const cardCount = [...unitsSelected].reduce(
+    (sum, unit) => sum + (FLASHCARD_UNITS[unit]?.length ?? 0),
+    0,
+  );
 
   return (
-    <div
-      className="fc-controls card is-wizard"
-      role="region"
-      aria-label="Flashcard controls"
-      data-step={step}
+    <StudySetup
+      id="flashcard-setup"
+      step={step}
+      labels={["Choose topics", "Choose a mode"]}
+      title={
+        step === 1
+          ? "What would you like to review?"
+          : "How do you want to learn?"
+      }
+      description={
+        step === 1
+          ? "Choose one topic or mix a few. You can always come back for more."
+          : "Recognize the answer, or challenge yourself to recall it."
+      }
+      onBack={() => setStep(1)}
+      summary={
+        <>
+          <strong>
+            {count
+              ? `${cardCount} cards in your deck`
+              : "Your deck starts here"}
+          </strong>
+          <span>
+            {count
+              ? `${count} topic${count === 1 ? "" : "s"} selected · Progress saves automatically`
+              : "Select a topic to get started."}
+          </span>
+        </>
+      }
+      actions={
+        step === 1 ? (
+          <button
+            id="confirm-units"
+            className="study-primary"
+            type="button"
+            onClick={confirmUnits}
+          >
+            Continue <span aria-hidden="true">→</span>
+          </button>
+        ) : (
+          <>
+            <button
+              id="back-to-units"
+              className="study-back"
+              type="button"
+              onClick={() => setStep(1)}
+            >
+              Back
+            </button>
+            <button
+              id="start-btn-big"
+              className="study-primary"
+              type="button"
+              onClick={onStart}
+            >
+              Start Session <span aria-hidden="true">→</span>
+            </button>
+          </>
+        )
+      }
     >
-      <div className="fc-grid">
-
-        <div className="fc-block" id="block-units" hidden={step !== 1} aria-hidden={step !== 1}>
-          <h3 className="fc-label">Units</h3>
-          <div id="unit-list" className="unit-list is-table" aria-live="polite">
+      {step === 1 ? (
+        <div id="block-units">
+          <SelectionTools
+            selected={count}
+            total={allUnits.length}
+            onSelectAll={() => onUnitsSelectedChange(new Set(allUnits))}
+            onClear={() => onUnitsSelectedChange(new Set())}
+            allId="select-all"
+            clearId="clear-all"
+          />
+          <div
+            id="unit-list"
+            className="study-topics"
+            role="group"
+            aria-label="Flashcard topics"
+          >
             {allUnits.map((unit) => {
-              const checked = unitsSelected.has(unit);
               const cards = FLASHCARD_UNITS[unit] ?? [];
               const progress = unitProgress(answers, unit, cards);
+              const checked = unitsSelected.has(unit);
               return (
                 <label
                   key={unit}
-                  id={`unit-${unit.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
-                  className={checked ? 'chip unit-chip is-active' : 'chip unit-chip'}
+                  id={`unit-${unit.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
+                  className={`study-topic${checked ? " is-active" : ""}`}
                 >
                   <input
+                    className="study-input"
                     type="checkbox"
                     checked={checked}
                     onChange={() => toggleUnit(unit)}
-                    className="sr-only"
                     aria-label={`${unit}, ${cards.length} cards, ${progress.pct}% mastered`}
                   />
-                  <span className="unit-box" aria-hidden="true" />
-                  <span className="unit-name">{unit}</span>
-                  <span className="unit-count" aria-hidden="true" >{cards.length} cards</span>
-                  <span className="unit-bar" aria-hidden="true">
-                    <span className="unit-fill" style={{ width: `${progress.pct}%` }} />
+                  <SelectionMark />
+                  <span className="study-topic-copy">
+                    <span className="unit-name">{unit}</span>
+                    <span className="study-meta">
+                      {cards.length} cards
+                      {progress.pct > 0 && (
+                        <span className="study-mastery">
+                          {" "}
+                          · {progress.pct}% mastered
+                        </span>
+                      )}
+                    </span>
                   </span>
-                  <span className="unit-pct" aria-hidden="true" >{progress.pct}%</span>
                 </label>
               );
             })}
           </div>
-          <p className="unit-total">
-            {unitsSelected.size} unit{unitsSelected.size === 1 ? '' : 's'} ·{' '}
-            {allUnits.reduce((sum, u) => (unitsSelected.has(u) ? sum + (FLASHCARD_UNITS[u]?.length ?? 0) : sum), 0)} cards
-          </p>
-          <div className="fc-actions">
-            <button id="select-all" className="btn btn-ghost" type="button" onClick={selectAll}>
-              Select All
-            </button>
-            <button id="clear-all" className="btn btn-ghost" type="button" onClick={clearAll}>
-              Clear
-            </button>
-            <button id="confirm-units" className="btn btn-primary btn-next" type="button" onClick={confirmUnits}>
-              Continue
-            </button>
-          </div>
         </div>
-
-        <div className="fc-block" id="block-mode" hidden={step !== 2} aria-hidden={step !== 2}>
-          <h3 className="fc-label">Mode</h3>
-          <div className="mode-row" role="group" aria-label="Practice mode">
-            <label className="mode-chip">
-              <input className="sr-only" type="radio" name="mode" value="mc" checked={mode === 'mc'} onChange={() => onModeChange('mc')} />
-              <span>Multiple Choice</span>
+      ) : (
+        <div id="block-mode">
+          <div
+            className="study-modes"
+            role="radiogroup"
+            aria-label="Practice mode"
+          >
+            <label className={`study-mode${mode === "mc" ? " is-active" : ""}`}>
+              <input
+                className="study-input"
+                type="radio"
+                name="mode"
+                value="mc"
+                checked={mode === "mc"}
+                onChange={() => onModeChange("mc")}
+                aria-label="Multiple Choice"
+              />
+              <div className="study-mode-top">
+                <span className="study-mode-kicker">A little guidance</span>
+                <SelectionMark radio />
+              </div>
+              <strong>Multiple Choice</strong>
+              <p>
+                Read the prompt and pick the right answer from a set of options.
+              </p>
+              <span className="study-mode-note">
+                Good for getting familiar with a topic.
+              </span>
             </label>
-            <label className="mode-chip">
-              <input className="sr-only" type="radio" name="mode" value="fitb" checked={mode === 'fitb'} onChange={() => onModeChange('fitb')} />
-              <span>Fill in the Blank</span>
+            <label
+              className={`study-mode${mode === "fitb" ? " is-active" : ""}`}
+            >
+              <input
+                className="study-input"
+                type="radio"
+                name="mode"
+                value="fitb"
+                checked={mode === "fitb"}
+                onChange={() => onModeChange("fitb")}
+                aria-label="Fill in the Blank"
+              />
+              <div className="study-mode-top">
+                <span className="study-mode-kicker">
+                  A little more challenge
+                </span>
+                <SelectionMark radio />
+              </div>
+              <strong>Fill in the Blank</strong>
+              <p>
+                Read the prompt and type the answer from memory. Hints are there
+                if you need them.
+              </p>
+              <span className="study-mode-note">
+                Good for finding out what has stuck.
+              </span>
             </label>
           </div>
-
-          <div className="opt-row">
-            <label className="toggle">
-              <input type="checkbox" id="shuffle" checked={shuffleDeck} onChange={(e) => onShuffleDeckChange(e.target.checked)} />
-              <span>Shuffle deck</span>
-            </label>
-          </div>
-
-          <div className="fc-actions">
-            <button id="back-to-units" className="btn btn-ghost" type="button" onClick={() => setStep(1)}>Back</button>
-            <button id="confirm-mode" className="btn btn-primary btn-next" type="button" onClick={() => setStep(3)}>
-              Continue
-            </button>
-          </div>
+          <label className="study-toggle-row" htmlFor="shuffle">
+            <span>
+              <strong>Shuffle deck</strong>
+              <span>Mix up the order each time you start.</span>
+            </span>
+            <input
+              id="shuffle"
+              type="checkbox"
+              checked={shuffleDeck}
+              onChange={(e) => onShuffleDeckChange(e.target.checked)}
+            />
+          </label>
+          <details className="study-details">
+            <summary>
+              Your selected topics <span>{count}</span>
+            </summary>
+            <ul>
+              {[...unitsSelected].map((unit) => (
+                <li key={unit}>{unit}</li>
+              ))}
+            </ul>
+          </details>
         </div>
-
-        <div className="fc-block" id="block-start" hidden={step !== 3} aria-hidden={step !== 3}>
-          <h3 className="fc-label">Ready to begin?</h3>
-          <div className="start-hero">
-            <p id="start-summary" className="muted">
-              {summaryText}
-            </p>
-            <button id="back-to-mode" className="btn btn-ghost" type="button" onClick={() => setStep(2)}>Back</button>
-            <button id="start-btn-big" className="btn btn-primary btn-giant" type="button" onClick={onStart}>
-              Start Session
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+      )}
+    </StudySetup>
   );
 }

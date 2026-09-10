@@ -48,12 +48,12 @@ export function Practice() {
     <>
       <div className="container">
 
-        <div className="card practice-controls">
-          {!session && banksLoading && <p className="muted center">Loading questions…</p>}
-          {!session && !banksLoading && (
+        {!session && <div className="practice-setup-wrap">
+          {banksLoading && <p className="muted">Loading questions…</p>}
+          {!banksLoading && (
             <PracticeWizard bank={questions} categories={CATEGORIES} onComplete={handleWizardComplete} />
           )}
-        </div>
+        </div>}
 
         {session && (
           <Session

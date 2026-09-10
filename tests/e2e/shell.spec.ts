@@ -147,10 +147,10 @@ test.describe('mobile drawer', () => {
 test.describe('toasts', () => {
   test('shows a toast and it self-removes after ~3.5s', async ({ page }) => {
     await page.goto('/practice');
-    // Step 1 -> Step 2 needs no validation; Step 2 -> Step 3 requires at
+    // Step 1 -> Step 2 needs no validation; Starting a session requires at
     // least one topic selected, which triggers showToast().
     await page.locator('#wiz-next-1').click();
-    await page.locator('#wiz-next-2').click();
+    await page.locator('#start-btn').click();
 
     const toast = page.locator('.toast-container .toast');
     await expect(toast).toBeVisible();

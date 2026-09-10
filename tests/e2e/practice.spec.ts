@@ -24,18 +24,17 @@ async function goToStep2(page: Page, questionCount?: string): Promise<void> {
   await page.locator('#wiz-next-1').waitFor();
   if (questionCount) await page.getByRole('group', { name: 'Questions', exact: true }).getByRole('button', { name: questionCount, exact: true }).click();
   await page.locator('#wiz-next-1').click();
-  await page.locator('#topics-list .topic-btn').first().waitFor();
+  await page.locator('#topics-list .study-topic').first().waitFor();
 }
 
 async function selectAllUnitsAndStart(page: Page, questionCount = '10'): Promise<void> {
   await goToStep2(page, questionCount);
   await page.locator('#topics-select-all').click();
-  await page.locator('#wiz-next-2').click();
   await page.locator('#start-btn').click();
   await expect(page.locator('#stage-qwrap')).toBeVisible();
 }
 
-test('wizard steps forward and back through 1 -> 2 -> 3', async ({ page }) => {
+test('session settings and topics are the only two setup steps', async ({ page }) => {
   await page.goto('/practice');
   const wizard = page.locator('#practice-wizard');
   await page.locator('#wiz-next-1').waitFor();
@@ -50,33 +49,32 @@ test('wizard steps forward and back through 1 -> 2 -> 3', async ({ page }) => {
   await expect(page.locator('#step-1')).toBeVisible();
 
   await page.locator('#wiz-next-1').click();
+  await expect(page.locator('#practice-wizard-heading')).toBeFocused();
   await page.locator('#topics-select-all').click();
-  await page.locator('#wiz-next-2').click();
-  await expect(wizard).toHaveAttribute('data-step', '3');
-  await expect(page.locator('#wiz-summary')).not.toBeEmpty();
-
-  await page.locator('#wiz-back-3').click();
-  await expect(wizard).toHaveAttribute('data-step', '2');
+  await expect(page.locator('.study-summary')).toContainText('6 topics selected');
+  await page.locator('#start-btn').click();
+  await expect(page.locator('#stage-qwrap')).toBeVisible();
+  await expect(wizard).toHaveCount(0);
 });
 
 test('advancing from step 2 with no units selected shows a toast and does not advance', async ({ page }) => {
   await goToStep2(page);
-  await page.locator('#wiz-next-2').click();
+  await page.locator('#start-btn').click();
   await expect(page.locator('.toast-container .toast')).toHaveText('Please select at least one unit.');
   await expect(page.locator('#practice-wizard')).toHaveAttribute('data-step', '2');
 });
 
 test('changing category clears the topic selection', async ({ page }) => {
   await goToStep2(page);
-  const firstChip = page.locator('#topics-list .topic-btn').first();
+  const firstChip = page.locator('#topics-list .study-topic').first();
   await firstChip.click();
   await expect(firstChip).toHaveClass(/is-selected/);
 
   await page.locator('#wiz-back-2').click();
-  await page.locator('.bank-card', { hasText: 'Economics' }).click();
+  await page.locator('.study-bank', { hasText: 'Economics' }).click();
   await page.locator('#wiz-next-1').click();
 
-  const chips = page.locator('#topics-list .topic-btn.is-selected');
+  const chips = page.locator('#topics-list .study-topic.is-selected');
   await expect(chips).toHaveCount(0);
 });
 
@@ -84,7 +82,7 @@ test('changing category updates body[data-cat] (legacy.css hook, I3)', async ({ 
   await page.goto('/practice');
   await page.locator('#wiz-next-1').waitFor();
   await expect(page.locator('body')).toHaveAttribute('data-cat', 'Personal Finance');
-  await page.locator('.bank-card', { hasText: 'Economics' }).click();
+  await page.locator('.study-bank', { hasText: 'Economics' }).click();
   await expect(page.locator('body')).toHaveAttribute('data-cat', 'Economics');
 });
 
@@ -96,7 +94,7 @@ test('clicking a bank card selects it and updates body[data-cat] (I3)', async ({
   await page.locator('#wiz-next-1').waitFor();
   await expect(page.locator('body')).toHaveAttribute('data-cat', 'Personal Finance');
 
-  const econCard = page.locator('.bank-card', { hasText: 'Economics' });
+  const econCard = page.locator('.study-bank', { hasText: 'Economics' });
   await econCard.click();
   await expect(econCard).toHaveClass(/is-selected/);
   await expect(page.locator('body')).toHaveAttribute('data-cat', 'Economics');
@@ -115,9 +113,9 @@ test('topic chips show per-topic question counts', async ({ page }) => {
 
 // §7.4: role="checkbox" now pairs with aria-checked, not the mismatched
 // aria-pressed it shipped with.
-test('.topic-btn pairs role="checkbox" with aria-checked, not aria-pressed', async ({ page }) => {
+test('.study-topic pairs role="checkbox" with aria-checked, not aria-pressed', async ({ page }) => {
   await goToStep2(page);
-  const chip = page.locator('#topics-list .topic-btn').first();
+  const chip = page.locator('#topics-list .study-topic').first();
   await expect(chip).toHaveAttribute('role', 'checkbox');
   await expect(chip).toHaveAttribute('aria-checked', 'false');
   expect(await chip.getAttribute('aria-pressed')).toBeNull();
@@ -132,7 +130,7 @@ test("setup shows only available actions", async ({
 }) => {
   await goToStep2(page);
   await page.locator('#topics-select-all').click();
-  await page.locator('#wiz-next-2').click();
+  await page.locator('#start-btn').click();
   await expect(page.locator('#reset-btn')).toHaveCount(0);
 });
 
@@ -263,5 +261,5 @@ test('adaptive mode is keyboard accessible', async ({ page }) => {
   await expect(toggle).toBeFocused();
   await page.keyboard.press('Space');
   await expect(toggle).not.toBeChecked();
-  await expect(page.locator('#adapt-every-field .pill').first()).toBeDisabled();
+  await expect(page.locator('#adapt-every-field button').first()).toBeDisabled();
 });

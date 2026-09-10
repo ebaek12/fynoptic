@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 for (const width of [1440, 1920, 390, 320]) {
-  for (const [path, panel] of [['/flashcard', '#block-units'], ['/practice', '#step-1']]) {
+  for (const [path, panel] of [['/flashcard', '#flashcard-setup'], ['/practice', '#practice-wizard']]) {
     test(`${path} setup fits and is centered at ${width}px`, async ({ page }, testInfo) => {
       await page.setViewportSize({ width, height: 1000 });
       await page.goto(path!);

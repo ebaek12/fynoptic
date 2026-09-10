@@ -7,7 +7,7 @@ import { test, expect, type Page } from '@playwright/test';
 // track DOM structure that actually changed were updated:
 //   - Unit chips are now a native `<label class="chip unit-chip"><input
 //     type="checkbox" class="sr-only" />…</label>` (was a plain `<button>`)
-//     — `#unit-list .unit-chip` and `.is-active` still resolve the same way,
+//     — `#unit-list .study-topic` and `.is-active` still resolve the same way,
 //     clicking the label still toggles selection.
 //   - Reset Progress no longer runs a native `confirm()` — it opens a Radix
 //     dialog (ResetProgressDialog.tsx) with an explicit Cancel/"Reset
@@ -37,43 +37,45 @@ async function goto(page: Page): Promise<void> {
  */
 async function selectFirstUnitAndStart(page: Page, mode: 'mc' | 'fitb' = 'mc'): Promise<string> {
   await goto(page);
-  const chip = page.locator('#unit-list .unit-chip').first();
+  const chip = page.locator('#unit-list .study-topic').first();
   await chip.click();
   const unitLabel = await chip.locator('.unit-name').textContent();
   await page.locator('#confirm-units').click();
   if (mode === 'fitb') {
-    await page.locator('label.mode-chip', { hasText: 'Fill in the Blank' }).click();
+    await page.locator('label.study-mode', { hasText: 'Fill in the Blank' }).click();
   }
-  await page.locator('#confirm-mode').click();
   await page.locator('#start-btn-big').click();
   await expect(page.locator('#fc-stage')).toBeVisible();
   return unitLabel ?? '';
 }
 
-test('the wizard container carries data-step and steps through 1 -> 2 -> 3', async ({ page }) => {
+test('topics lead directly to mode selection and starting the session', async ({ page }) => {
   await goto(page);
-  const wizard = page.locator('.fc-controls.is-wizard');
+  const wizard = page.locator('#flashcard-setup');
   await expect(wizard).toHaveAttribute('data-step', '1');
 
-  await page.locator('#unit-list .unit-chip').first().click();
+  await page.locator('#unit-list .study-topic').first().click();
   await page.locator('#confirm-units').click();
   await expect(wizard).toHaveAttribute('data-step', '2');
 
-  await page.locator('#confirm-mode').click();
-  await expect(wizard).toHaveAttribute('data-step', '3');
+  await expect(page.locator('#block-units')).toHaveCount(0);
+  await expect(page.locator('#block-mode')).toBeVisible();
+  await expect(page.locator('#flashcard-setup-heading')).toBeFocused();
+  await page.locator('#start-btn-big').click();
+  await expect(page.locator('#fc-stage')).toBeVisible();
 });
 
 test('unit selection: select-all and clear-all toggle every chip', async ({ page }) => {
   await goto(page);
-  const chips = page.locator('#unit-list .unit-chip');
+  const chips = page.locator('#unit-list .study-topic');
   const count = await chips.count();
   expect(count).toBeGreaterThan(1);
 
   await page.locator('#select-all').click();
-  await expect(page.locator('#unit-list .unit-chip.is-active')).toHaveCount(count);
+  await expect(page.locator('#unit-list .study-topic.is-active')).toHaveCount(count);
 
   await page.locator('#clear-all').click();
-  await expect(page.locator('#unit-list .unit-chip.is-active')).toHaveCount(0);
+  await expect(page.locator('#unit-list .study-topic.is-active')).toHaveCount(0);
 });
 
 test('confirm-units without a selection shows a toast and does not advance', async ({ page }) => {
@@ -119,9 +121,8 @@ test('the answer-target toggle is independent per mode, and carries over across 
   // unit picked above is still checked; no need (and no way, without
   // deselecting it) to click it again.
   await expect(page.locator('#block-units')).toBeVisible();
-  await expect(page.locator('#unit-list .unit-chip.is-active')).toHaveCount(1);
+  await expect(page.locator('#unit-list .study-topic.is-active')).toHaveCount(1);
   await page.locator('#confirm-units').click();
-  await page.locator('#confirm-mode').click();
   await page.locator('#start-btn-big').click();
   await expect(page.locator('#fc-stage')).toBeVisible();
   await expect(page.locator('#mc-toggle-answer')).toHaveText(mcLabelAfter ?? '');
@@ -249,15 +250,15 @@ test('ending a session opens the summary modal with the selected units listed', 
 test('setup can go back without losing units or mode', async ({ page }) => {
   await goto(page);
   const unit = page.locator('#unit-list input').first();
-  await page.locator('#unit-list .unit-chip').first().click();
+  await page.locator('#unit-list .study-topic').first().click();
   await page.locator('#confirm-units').click();
   await page.getByLabel('Fill in the Blank', { exact: true }).focus();
   await page.keyboard.press('Space');
-  await page.locator('#confirm-mode').click();
-  await page.locator('#back-to-mode').click();
   await expect(page.getByLabel('Fill in the Blank', { exact: true })).toBeChecked();
   await page.locator('#back-to-units').click();
   await expect(unit).toBeChecked();
+  await page.locator('#confirm-units').click();
+  await expect(page.getByLabel('Fill in the Blank', { exact: true })).toBeChecked();
 });
 
 test('malformed saved progress does not crash the unit picker', async ({ page }) => {

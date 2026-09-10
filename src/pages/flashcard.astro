@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import '../styles/flashcards.css';
+import '../styles/study-setup.css';
 import { Flashcards } from '../components/flashcards/Flashcards';
 ---
 <Base
@@ -16,8 +17,8 @@ import { Flashcards } from '../components/flashcards/Flashcards';
        can't carry this class since it's shared across every page. -->
   <div class="flashcards-shell page-heading">
     <section class="container">
-      <h1>Practice Flashcards</h1>
-      <p class="lead">Pick your units, choose a mode, and start a session. Your progress is saved automatically.</p>
+      <h1>Flashcards</h1>
+      <p class="lead">Get familiar with the terms. Make the knowledge stick.</p>
 
       <!-- <Flashcards client:load /> — see src/components/flashcards/Flashcards.tsx.
            client:load, not client:visible: this is the entire point of the
@@ -27,4 +28,3 @@ import { Flashcards } from '../components/flashcards/Flashcards';
     </section>
   </div>
 </Base>
-
