@@ -369,8 +369,14 @@ for (const viewport of [{ width: 900, height: 700 }, { width: 1366, height: 768 
     const heading = (await page.locator('#rack-heading').boundingBox())!;
     const nav = (await page.locator('header[role="banner"]').boundingBox())!;
     expect(heading.y - nav.y - nav.height).toBeGreaterThanOrEqual(32);
+    // The original runway brings the card into view as the user scrolls.
+    await scrollToTrackFraction(page, 0);
     const card = (await page.locator('[data-rack-card]').boundingBox())!;
+    const gutter = await page.locator('.rack-resources').evaluate((section) =>
+      parseFloat(getComputedStyle(section).paddingRight),
+    );
     expect(card.y + card.height).toBeLessThanOrEqual(viewport.height - 32);
-    expect(card.x + card.width).toBeLessThanOrEqual(viewport.width - 32);
+    expect(card.x).toBeGreaterThanOrEqual(gutter - 1);
+    expect(card.x + card.width).toBeLessThanOrEqual(viewport.width - gutter + 1);
   });
 }

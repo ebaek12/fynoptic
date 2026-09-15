@@ -164,9 +164,6 @@ html body #main #proof-partners-heading {
 .proof-partner-list a { display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; border-radius: 4px; }
 .proof-partner-list a:focus-visible { outline: 2px solid #2440c0; outline-offset: 6px; }
 
-.proof-partner-list a { padding: 10px; box-sizing: border-box; }
-.proof-partner-list img { max-height: 42px; }
-
 html body #main .home-final-cta {
   margin: 0;
   padding: clamp(72px, 8vw, 112px) 0;
@@ -397,4 +394,12 @@ html body.home-page .footer {
     animation: none !important;
     transition: none !important;
   }
+}
+
+/* Keep the original invitation height with the shorter, revised heading. */
+@media (max-width: 419px) {
+  html body #main #final-cta-heading { min-height: 3.24em; }
+}
+@media (max-width: 329px) {
+  html body #main #final-cta-heading { min-height: 4.32em; }
 }

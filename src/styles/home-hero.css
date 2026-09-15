@@ -239,3 +239,15 @@ html body .home-hero .logo-card img { max-width: 100%; }
     width: 100%;
   }
 }
+
+/* Reserve the original introduction's line count as the copy wraps across
+   the single-column and two-column layouts. Copy edits should not shrink the hero. */
+.home-hero-description { --hero-description-lines: 3; min-height: calc(var(--hero-description-lines) * 1.65em); }
+@media (min-width: 901px) and (max-width: 984px) {
+  .home-hero-description { --hero-description-lines: 4; }
+}
+@media (max-width: 900px) { .home-hero-description { --hero-description-lines: 2; } }
+@media (max-width: 764px) { .home-hero-description { --hero-description-lines: 3; } }
+@media (max-width: 549px) { .home-hero-description { --hero-description-lines: 4; } }
+@media (max-width: 389px) { .home-hero-description { --hero-description-lines: 5; } }
+@media (max-width: 334px) { .home-hero-description { --hero-description-lines: 6; } }
