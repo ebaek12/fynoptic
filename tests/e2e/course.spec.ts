@@ -264,3 +264,37 @@ test('prequiz works with a throttled CPU and does not preload lesson videos', as
   await expect(page.locator('.course-quiz-meta')).toContainText('Question 2 of 10');
   expect(requests).toEqual([]);
 });
+
+for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 }]) {
+  for (const quiz of ['pre', 'post'] as const) {
+    test(`${quiz} quiz keeps the scroll position when changing questions at ${viewport.width}px`, async ({ page }) => {
+      await page.setViewportSize(viewport);
+      await seed(page, quiz === 'post' ? lessons : {});
+      const root = page.locator(`#${quiz}-quiz-root`);
+      await expect(root).toBeVisible();
+      await page.evaluate(() => document.fonts.ready);
+      const next = root.getByRole('button', { name: 'Next question' });
+      const previous = root.getByRole('button', { name: 'Previous', exact: true });
+      const changeQuestion = async (button: typeof next, question: number) => {
+        await button.scrollIntoViewIfNeeded();
+        const before = await page.evaluate(() => ({ x: scrollX, y: scrollY, hash: location.hash }));
+        await button.click();
+        await expect(root.locator('.course-quiz-meta')).toContainText(`Question ${question} of`);
+        await expect(page.locator(`#${quiz}-question`)).toBeFocused();
+        // Include the next paint and native scroll anchoring, not just the click handler.
+        await page.waitForTimeout(150);
+        const after = await page.evaluate(() => ({ x: scrollX, y: scrollY, hash: location.hash }));
+        expect(after.hash).toBe(before.hash);
+        expect(Math.abs(after.y - before.y)).toBeLessThanOrEqual(1);
+        expect(after.x).toBe(before.x);
+      };
+      const questionCount = await root.locator('.course-question-jumps button').count();
+      for (let question = 2; question <= questionCount; question++) {
+        await root.locator('input[type="radio"]').first().check();
+        await changeQuestion(next, question);
+      }
+      await changeQuestion(previous, questionCount - 1);
+      await changeQuestion(root.getByRole('button', { name: 'Question 1, answered', exact: true }), 1);
+    });
+  }
+}

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 export interface CourseQuestion {
   stem: string;
@@ -30,11 +30,24 @@ export function CourseQuiz({ id, items, answers, completed, score, diagnostic, o
   const allAnswered = answered === items.length && items.length > 0;
   const choice = answers[index] ?? null;
   const previousIndex = useRef(index);
+  const scrollPosition = useRef<{ left: number; top: number } | null>(null);
+  const changeQuestion = (nextIndex: number) => {
+    if (nextIndex === index) return;
+    scrollPosition.current = { left: window.scrollX, top: window.scrollY };
+    setIndex(nextIndex);
+  };
   const previousCompleted = useRef(completed);
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (previousIndex.current !== index) {
+      // Announce the new question to keyboard and screen-reader users without
+      // moving the viewport away from where they were answering.
       prompt.current?.focus({ preventScroll: true });
-      prompt.current?.scrollIntoView({ behavior: 'instant', block: 'start' });
+      // A shorter question can also move the browser's native scroll anchor.
+      // Restore the click-time position after layout, before the next paint.
+      if (scrollPosition.current) {
+        window.scrollTo({ ...scrollPosition.current, behavior: 'instant' });
+        scrollPosition.current = null;
+      }
       previousIndex.current = index;
     }
   }, [index]);
@@ -85,15 +98,15 @@ export function CourseQuiz({ id, items, answers, completed, score, diagnostic, o
         {completed && question.rationale && <p className="course-explanation">{question.rationale}</p>}
       </div>
       <div className="course-question-nav">
-        <button className="course-button secondary" disabled={index === 0} onClick={() => setIndex(index - 1)}>Previous</button>
+        <button className="course-button secondary" disabled={index === 0} onClick={() => changeQuestion(index - 1)}>Previous</button>
         {index < items.length - 1 ? (
-          <button className="course-button" disabled={!completed && !valid(index)} onClick={() => setIndex(index + 1)}>Next question <span aria-hidden="true">→</span></button>
+          <button className="course-button" disabled={!completed && !valid(index)} onClick={() => changeQuestion(index + 1)}>Next question <span aria-hidden="true">→</span></button>
         ) : !completed ? (
           <button className="course-button" id={`${id}-submit`} disabled={!allAnswered} onClick={onSubmit}>{diagnostic ? 'Finish prequiz' : 'Submit answers'}</button>
         ) : <span className="course-muted">End of review</span>}
       </div>
       <nav className="course-question-jumps" aria-label={diagnostic ? 'Prequiz questions' : 'Final quiz questions'}>
-        {items.map((_, i) => <button key={i} type="button" aria-label={`Question ${i + 1}${valid(i) ? ', answered' : ', unanswered'}`} aria-current={i === index ? 'step' : undefined} data-answered={valid(i)} onClick={() => setIndex(i)}>{i + 1}</button>)}
+        {items.map((_, i) => <button key={i} type="button" aria-label={`Question ${i + 1}${valid(i) ? ', answered' : ', unanswered'}`} aria-current={i === index ? 'step' : undefined} data-answered={valid(i)} onClick={() => changeQuestion(i)}>{i + 1}</button>)}
       </nav>
     </div>
   );

@@ -29,7 +29,8 @@ html body .course-section { padding: 0; margin: 0; }
 .course-page [hidden] { display: none !important; }
 html body #main .course-section h2 { font-size: clamp(28px, 3vw, 38px) !important; line-height: 1.15; margin: 0 0 14px; letter-spacing: -.025em; }
 .course-intro { color: var(--muted-fg); font-size: 16px; line-height: 1.65; max-width: 68ch; margin: 0 0 28px; }
-.course-quiz { padding: 28px; background: var(--surface-1); border: 1px solid var(--db-rule); border-radius: 8px; }
+/* Changing answer text must not make the browser follow a moving scroll anchor. */
+.course-quiz { overflow-anchor: none; padding: 28px; background: var(--surface-1); border: 1px solid var(--db-rule); border-radius: 8px; }
 .course-quiz-meta { display: flex; justify-content: space-between; gap: 12px; color: var(--muted-fg); font-size: 13px; margin-bottom: 12px; }
 .course-question { padding-block: 28px; }
 html body #main .course-question-title { font-size: clamp(21px, 2.3vw, 27px) !important; line-height: 1.4; margin: 0 0 26px; font-weight: 600; letter-spacing: -.015em; }
