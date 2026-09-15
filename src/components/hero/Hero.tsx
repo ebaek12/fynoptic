@@ -9,9 +9,9 @@ export function Hero() {
   return (
     <div className="home-hero-layout">
       <h1 id="hero-heading">
-        Know what to check.
+        Learn the skills to
         <br />
-        Spot the{" "}
+        spot every{" "}
         <span className="hero-word-phrase">
           <RotatingWord
             words={ROTATING_WORDS}
