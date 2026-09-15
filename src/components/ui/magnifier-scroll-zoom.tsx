@@ -223,7 +223,7 @@ export function MagnifierScrollZoom() {
         <div className="magnifier-pin">
           <div className="magnifier-caption">
             <span className="magnifier-eyebrow">
-              The details make a difference.
+              Check before you pay.
             </span>
             <h2>Scroll to look closer.</h2>
           </div>

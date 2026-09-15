@@ -112,8 +112,8 @@ export function Certificate({ postQuizScore, certificate: _certificate, onIssue 
         </div>
         <hr className="cert-hr" />
         <p className="cert-body-text">
-          This certifies that <strong ref={certNameRef} id="cert-name"></strong> has successfully completed{' '}
-          <em>Dark Patterns - Spot Them, Stop Them</em>, including the required Risk Audit and a post-assessment score of{' '}
+          This certifies that <strong ref={certNameRef} id="cert-name"></strong> has completed{' '}
+          <em>Dark Patterns: How to Spot Them</em>, including the required Risk Audit and a post-assessment score of{' '}
           <strong ref={certScoreRef} id="cert-score"></strong>.
         </p>
         <div className="cert-badge-row">

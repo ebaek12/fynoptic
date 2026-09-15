@@ -63,7 +63,7 @@ export function PostQuiz({ state, locked, onAnswerChange, onSubmit, onRetake }: 
     track('post_quiz_submit', { score: pct, pass });
 
     if (pass) {
-      showToast('Assessment passed. Certificate unlocked.', 'success');
+      showToast('Assessment passed. Your certificate is ready.', 'success');
     } else {
       showToast('Score below 80%. You can retake the assessment.', 'error');
     }

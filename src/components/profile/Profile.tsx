@@ -196,7 +196,7 @@ export function Profile() {
         </div>
         <aside className="account-learning" aria-labelledby="learning-heading">
           <h2 id="learning-heading">Your learning</h2>
-          <h3>Dark Patterns: Spot Them, Stop Them</h3>
+          <h3>Dark Patterns: How to Spot Them</h3>
           <p>Recognize deceptive design and learn how to respond.</p>
           <div className="account-progress-meta">
             <span>

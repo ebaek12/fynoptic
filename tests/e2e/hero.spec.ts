@@ -17,7 +17,7 @@ test.describe("homepage hero", () => {
     await page.goto("/");
 
     const heading = page.locator("#hero-heading");
-    await expect(heading).toContainText("Learn the skills to");
+    await expect(heading).toContainText("Know what to check.");
 
     // No promo pill/badge above the headline. The original 21st.dev
     // reference component had an "Anouncing our latest..." pill, but that

@@ -282,10 +282,10 @@ function RackLead() {
         id="rack-heading"
         className="text-[clamp(2.25rem,3.6vw,3.25rem)] font-semibold leading-[1.06] text-foreground [font-family:var(--display-face)]"
       >
-        Get smarter with your money.
+        Courses and study tools.
       </h2>
       <p className="mt-3.5 max-w-[56ch] text-lg text-muted-foreground sm:text-[1.3125rem]">
-        Spot the fees, read the fine print, and know when to walk away. Start with a course or pick something to practice.
+        Take a course, read about a specific issue, or review with flashcards and quizzes.
       </p>
     </div>
   );

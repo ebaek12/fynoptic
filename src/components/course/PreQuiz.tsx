@@ -116,7 +116,7 @@ export function PreQuiz({ state, onAnswerChange, onSubmit }: PreQuizProps) {
   return <>
     <span className="course-eyebrow">Before you start · 10 questions</span>
     <h2 id="pre-title">What would you do?</h2>
-    <p className="course-intro">A few everyday situations to see what you already know. There’s no passing score here, and you can change your answers before you finish.</p>
+    <p className="course-intro">Answer 10 questions before the first lesson. There’s no passing score. You can change your answers before submitting.</p>
     <CourseQuiz id="pre" items={PRE_ITEMS} answers={state.answers} completed={state.completed} score={state.score} diagnostic onAnswerChange={onAnswerChange} onSubmit={submit} />
   </>;
 }

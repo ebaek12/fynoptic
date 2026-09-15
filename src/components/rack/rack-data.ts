@@ -15,7 +15,7 @@ export const RACK_ITEMS: readonly RackItem[] = [
     statSecondary: 'Self-paced',
     accent: '#7C9EFF',
     title: 'Courses',
-    description: 'Learn to spot misleading design, avoid unwanted charges, and push back when a company crosses the line.',
+    description: 'Work through lessons on hidden charges, confusing checkout pages, and cancellation problems.',
     href: '/courses',
   },
   {
@@ -24,7 +24,7 @@ export const RACK_ITEMS: readonly RackItem[] = [
     statSecondary: 'Free to Read',
     accent: '#FF9F6E',
     title: 'Articles',
-    description: 'Get a closer look at subscriptions, credit, scams, and the costs hiding in everyday purchases.',
+    description: 'Read about fees, credit, subscriptions, and what to do when a payment goes wrong.',
     href: '/articles',
   },
   {
@@ -33,7 +33,7 @@ export const RACK_ITEMS: readonly RackItem[] = [
     statSecondary: '12 Units',
     accent: '#6FE0B8',
     title: 'Flashcards',
-    description: 'Get familiar with the financial terms you’ll see on bills, bank statements, and contracts.',
+    description: 'Review the terms used on bills, bank statements, and contracts.',
     href: '/flashcard',
   },
   {
@@ -42,7 +42,7 @@ export const RACK_ITEMS: readonly RackItem[] = [
     statSecondary: '16 Topics',
     accent: '#F17EA0',
     title: 'Practice',
-    description: 'Put your finance and economics knowledge to the test, then work on the topics that trip you up.',
+    description: 'Answer finance and economics questions, check the explanations, and review your mistakes.',
     href: '/practice',
   },
 ] as const;

@@ -56,7 +56,7 @@ export function CourseQuiz({ id, items, answers, completed, score, diagnostic, o
         <div className="course-quiz-result" id={`${id}-result`} ref={result} tabIndex={-1} role="status">
           <span className="course-eyebrow">{diagnostic ? 'Your starting point' : score >= 80 ? 'Assessment passed' : 'Keep going'}</span>
           <h3>{score}% <span>{diagnostic ? 'on your prequiz' : 'on the final quiz'}</span></h3>
-          <p>{diagnostic ? 'This score is just a starting point. Review your answers below, or continue to the first lesson.' : score >= 80 ? 'You’ve completed the course. Your certificate is ready.' : 'You need 80% to pass. Review the explanations, then try again when you’re ready.'}</p>
+          <p>{diagnostic ? 'Review your answers below or continue to the first lesson. This score does not affect your course progress.' : score >= 80 ? 'You’ve completed the course. Your certificate is ready.' : 'You need 80% to pass. Review the explanations, then try again when you’re ready.'}</p>
           {onRetake && score < 80 && <button id="post-retake" className="course-button" onClick={() => { setIndex(0); onRetake(); }}>Try again</button>}
         </div>
       )}

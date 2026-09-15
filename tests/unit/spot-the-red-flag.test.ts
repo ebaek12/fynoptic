@@ -43,12 +43,12 @@ describe("Spot the Red Flag demo", () => {
     expect(container.querySelector('[data-solved="true"]')).toBeNull();
 
     await click(choice("fee"));
-    expect(status()).toContain("The fee is a red flag, too.");
+    expect(status()).toContain("The delivery fee is suspicious, too.");
     expect(status()).toContain("USPS redelivery is free.");
     expect(choice("package").getAttribute("aria-pressed")).toBe("false");
 
     await click(choice("url"));
-    expect(status()).toContain("Exactly. The address gives it away.");
+    expect(status()).toContain("Correct. That isn’t the USPS website.");
     expect(status()).toContain("Open usps.com yourself");
     expect(container.querySelector('[data-solved="true"]')).not.toBeNull();
     expect(choice("url").getAttribute("aria-pressed")).toBe("true");

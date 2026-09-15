@@ -9,9 +9,9 @@ export function Hero() {
   return (
     <div className="home-hero-layout">
       <h1 id="hero-heading">
-        Learn the skills to
+        Know what to check.
         <br />
-        spot every{" "}
+        Spot the{" "}
         <span className="hero-word-phrase">
           <RotatingWord
             words={ROTATING_WORDS}
@@ -24,9 +24,8 @@ export function Hero() {
       <div className="home-hero-details">
         <div className="home-hero-copy">
           <p className="home-hero-description">
-            Hidden fees. Sneaky subscriptions. Offers that don’t add up.
-            Learn what to watch for and what to do about it with free courses,
-            articles, and practice questions.
+            Learn how to check a bill, read subscription terms, and recognize a scam.
+            Our courses, articles, and quizzes are free.
           </p>
           <div className="home-hero-actions">
             <Button asChild size="hero" data-track="cta_click">
@@ -37,7 +36,7 @@ export function Hero() {
             </Button>
           </div>
           <p className="home-hero-note">
-            Free to learn. No account needed to start.
+            No payment or account required.
           </p>
         </div>
 

@@ -48,7 +48,7 @@ test('complete Course One through the real lessons, exercises, audit and final q
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
   await page.goto('/courses');
-  await page.getByRole('link', { name: 'Open course Dark Patterns: Spot Them, Stop Them' }).click();
+  await page.getByRole('link', { name: 'Open course Dark Patterns: How to Spot Them' }).click();
   await expect(page.getByRole('button', { name: /Foundations/ })).toBeDisabled();
   await answerQuiz(page, 'pre', Array(10).fill(0));
   await expect(page.locator('#pre-result')).toContainText('starting point');

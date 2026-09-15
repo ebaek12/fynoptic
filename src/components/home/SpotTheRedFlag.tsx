@@ -12,18 +12,18 @@ type Choice = (typeof choices)[number]["id"];
 
 const feedback = {
   fee: {
-    title: "Good catch. The fee is a red flag, too.",
+    title: "The delivery fee is suspicious, too.",
     copy: "USPS redelivery is free. A tiny charge can be bait for your card details. Now inspect the URL: who does it really belong to?",
     source: "https://faq.usps.com/articles/Knowledge/Scams-Scheme-Alerts",
   },
   url: {
-    title: "Exactly. The address gives it away.",
+    title: "Correct. That isn’t the USPS website.",
     copy: "This domain isn’t usps.com. Adding “USPS” to a web address doesn’t make it official. Open usps.com yourself to check your delivery, instead of following the text.",
     source:
       "https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams",
   },
   package: {
-    title: "A familiar story. Look a little closer.",
+    title: "A package notification isn’t proof of a scam.",
     copy: "A package notification alone doesn’t prove it’s a scam. Scammers borrow everyday situations to sound believable. Inspect the fee and the web address.",
     source:
       "https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams",
@@ -92,15 +92,15 @@ export default function SpotTheRedFlag() {
         <div className="rf-layout">
           <div className="rf-intro">
             <h2 id="red-flag-heading">
-              Think you can
+              What looks
               <br />
-              spot the <span>scam?</span>
+              <span>suspicious?</span>
             </h2>
             <p className="rf-description">
-              Learn to recognize the small things scammers hope you overlook.
+              Read the delivery text below. Which part would make you question it?
             </p>
             <div className="rf-invitation">
-              <span>Try one before you start learning.</span>
+              <span>Choose an answer to see the explanation.</span>
               <svg viewBox="0 0 64 32" fill="none" aria-hidden="true">
                 <path d="M2 6c15 20 38 21 57 10M48 8l12 7-8 13" />
               </svg>

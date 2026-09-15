@@ -3,28 +3,28 @@ import Base from '../layouts/Base.astro';
 import '../styles/courses.css';
 
 const lockedCourses = [
-  ['Subscriptions & Memberships', 'Defense in 4 Steps'],
-  ['Disputes & Refunds', 'From “Stuck” to Credited'],
-  ['Money Skills for Students', 'Campus & App Pitfalls'],
-  ['AI Scams & Deepfakes', 'Spot the Synthetic Tricks Fast'],
-  ['Privacy Permissions', 'Take Back Control of Your Data'],
-  ['Ad Transparency', 'Decode Ads, Influencers, and Algorithms'],
-  ['Chargeback Playbook', 'How to Win When Merchants Push Back'],
+  ['Subscriptions & Memberships', 'Costs, renewals, and cancellations'],
+  ['Disputes & Refunds', 'How to request a refund'],
+  ['Money Skills for Students', 'Spending at school and online'],
+  ['AI Scams & Deepfakes', 'Fake voices, images, and messages'],
+  ['Privacy Permissions', 'What apps can access'],
+  ['Ad Transparency', 'Sponsored posts and targeted ads'],
+  ['Chargebacks', 'How to dispute a card charge'],
 ];
 ---
-<Base title="Courses | Fynoptic" description="Practical lessons on deceptive design, consumer rights, and everyday money decisions." canonical="/courses">
+<Base title="Courses | Fynoptic" description="Free lessons on misleading checkout pages, unwanted charges, and consumer rights." canonical="/courses">
   <section class="course-library page-heading container" aria-labelledby="courses-hero-title">
     <h1 id="courses-hero-title">Courses</h1>
-    <p class="library-intro">Learn to spot the traps behind everyday financial decisions.</p>
+    <p class="library-intro">Learn what to check before you buy, subscribe, or share your details.</p>
     <div id="catalog" class="library-grid">
       <article class="library-card library-card--available" data-course-id="dark-patterns">
         <div class="library-card-top"><span>Course 01</span><span class="library-available">Available now</span></div>
         <h2>Dark Patterns</h2>
-        <p class="library-subtitle">Spot Them, Stop Them</p>
-        <p class="library-description">Recognize deceptive design, practice spotting it, and build your own risk audit.</p>
+        <p class="library-subtitle">How to Spot Them</p>
+        <p class="library-description">Study misleading checkout pages and cancellation screens, then document an example yourself.</p>
         <div class="library-card-bottom">
           <p class="library-format">4 modules · Self-paced</p>
-          <a class="btn btn-primary" href="/courseone" data-track="cta_click" aria-label="Open course Dark Patterns: Spot Them, Stop Them">Open Course <span aria-hidden="true">→</span></a>
+          <a class="btn btn-primary" href="/courseone" data-track="cta_click" aria-label="Open course Dark Patterns: How to Spot Them">Open Course <span aria-hidden="true">→</span></a>
         </div>
       </article>
       {lockedCourses.map(([title, subtitle], index) => (
@@ -33,12 +33,12 @@ const lockedCourses = [
           <h2>{title}</h2>
           <p class="library-subtitle">{subtitle}</p>
           <div class="library-card-bottom" id={`course-lock-${index + 2}`}>
-            <p class="library-lock">Available After Completing Course {index + 1}</p>
-            <p class="library-lock-hint">Course {index + 1} not started</p>
+            <p class="library-lock">Not available yet</p>
+            <p class="library-lock-hint">More courses are in development.</p>
           </div>
         </article>
       ))}
     </div>
-    <p class="library-footnote">Course progress saves on your device. <a href="/articles">Explore the reading library</a> for more on each topic.</p>
+    <p class="library-footnote">Course progress saves on your device. <a href="/articles">Browse the articles</a> for more on each topic.</p>
   </section>
 </Base>
