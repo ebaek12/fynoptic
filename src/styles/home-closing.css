@@ -395,11 +395,3 @@ html body.home-page .footer {
     transition: none !important;
   }
 }
-
-/* Keep the original invitation height with the shorter, revised heading. */
-@media (max-width: 419px) {
-  html body #main #final-cta-heading { min-height: 3.24em; }
-}
-@media (max-width: 329px) {
-  html body #main #final-cta-heading { min-height: 4.32em; }
-}
