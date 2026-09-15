@@ -240,3 +240,20 @@ describe('legacy fallback: DP4 vs ARR6, tie-break to DP4', () => {
     expect(progress.done).toBe(0);
   });
 });
+
+describe('damaged or partial course progress', () => {
+  it('fills missing nested fields and ignores invalid answers without crashing', () => {
+    localStorage.setItem(DP_STATE_KEY, JSON.stringify({ preQuiz: { answers: [2, 'bad', -1] }, m1: { video: true }, m2: null }));
+    const state = loadState();
+    expect(state.preQuiz.answers).toEqual([2, null, null]);
+    expect(state.preQuiz.correctness).toEqual([]);
+    expect(state.m1).toEqual({ video: true, article: false });
+    expect(state.m2).toEqual(defaultState.m2);
+  });
+  it('does not preserve a passing flag or certificate with a failing score', () => {
+    localStorage.setItem(DP_STATE_KEY, JSON.stringify({ postQuiz: { completed: true, pass: true, score: 30 }, certificate: { issued: true, id: 'old' } }));
+    const state = loadState();
+    expect(state.postQuiz.pass).toBe(false);
+    expect(state.certificate.issued).toBe(false);
+  });
+});

@@ -197,7 +197,7 @@ export default function SpotTheRedFlag() {
             <noscript>
               <p className="rf-nojs">
                 The URL is the giveaway: it isn’t usps.com. The fee is another
-                clue—USPS redelivery is free. Check your delivery by opening
+                clue - USPS redelivery is free. Check your delivery by opening
                 usps.com yourself.
               </p>
             </noscript>

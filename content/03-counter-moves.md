@@ -1,34 +1,35 @@
-# Counter-moves that actually work
-You don’t have to argue for hours. Most situations fold when you use the right action at the right moment and keep a paper trail. Start with permission hygiene—turn off marketing, uncheck defaults, ask for confirmations. If you’re canceling, send a concise, dated request through the required channel once, then follow with email. When a refund stalls, quote their policy, attach your proof, give a clear deadline. If it still drags, escalate to the platform or payment rails with the same evidence. That rhythm closes loops without drama.
+# Make the request clear
 
-## Opt-out & permission hygiene
+Once you have spotted the problem, decide what outcome you want. Cancelling a subscription, removing marketing consent, and asking about a charge are different requests. A short, specific message is easier for both you and the recipient to follow.
 
-- How to locate email/ad/consent centers quickly (search terms: “privacy,” “communications,” “data”).
-- The principle of mirrored proof: a screenshot of settings before and after, plus confirmation email.
-- When to create a throwaway email for trials; when to refuse card-up-front trials.
+## Change a setting and check it
 
-## Cancel decisively (the four elements of a request)
+Look for privacy, communications, or billing settings. Change the relevant choice, save it, then reopen the setting to confirm it stayed changed. Keep any confirmation email.
 
-**The 2-sentence template:**
+If several permissions appear together, check each one. Turning off marketing emails does not necessarily change other account settings.
 
-- **Sentence 1:** “I am requesting immediate cancellation of account #ID/email as of YYYY-MM-DD.”
-- **Sentence 2:** “Confirm by reply that no further charges will occur and provide written confirmation.”
+## Ask to cancel
 
-- Why “pause” or “downgrade” isn’t equivalent; how to decline it concisely.
-- Phone-only cancel: how to read a script, ask for a reference number, and send a follow-up email that documents the call.
+Include the account identifier, the action you want, and the date of your request. Avoid sending a password or full payment-card number.
 
-## Refunds, credits, and proration—what to ask for first
+> Please cancel the subscription for [account email]. I am requesting cancellation on [date]. Please confirm when the cancellation takes effect and whether any further charge is scheduled.
 
-- Refund vs store credit; when each is practical; proration cutoffs.
-- “Policy echo” method: quote the merchant’s own policy line and attach your timestamped action.
-- What to do if they cite a renewal lock—the exception angle.
+If support offers a pause and you want to end the subscription, say that directly. Keep the reply or confirmation number. For a phone conversation, write down the date, the representative’s name if available, and what was agreed.
 
-## Escalation ladders that move cases
+## Ask about a refund
 
-- Sequence: merchant channel → platform (app store/marketplace) → payment rails (card/PayPal/BNPL policy) → regulator complaint.
-- Two-paragraph demand note that avoids legalese; firm deadline; clean attachments list.
+Identify the transaction, explain the issue, and state the outcome you are requesting. If a published policy is relevant, quote the specific wording and include the supporting record.
 
-## Proof that sticks
+> I was charged [amount] on [date] for [item or service]. [Brief explanation of the issue.] I am requesting [the outcome]. I have attached [the relevant confirmation or screenshot]. Please let me know the next step.
 
-- The “Four Ps”: page, price, plan, proof (screenshots show the page; the total price; the plan you chose; the proof of your action).
-- How to name files for clarity: YYYYMMDD_platform_action_topic.png.
+A refund, store credit, and a partial adjustment are different outcomes. Read the response before accepting an option. The applicable terms and process can vary by company and payment method.
+
+## Follow up with the same record
+
+If the issue remains unresolved, follow up using the earlier request or reference number. Add new information without making the recipient reconstruct the whole conversation.
+
+If you need another support route, check the platform’s or payment provider’s own instructions. Keep the dates and facts consistent. Do not assume that a particular request is guaranteed to succeed.
+
+## Keep the message useful
+
+Before sending, check that the message identifies the account or transaction, describes what happened, asks for a specific outcome, and includes relevant evidence. A clear request does not need threats, technical language, or a long account of every frustrating click.

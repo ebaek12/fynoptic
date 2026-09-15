@@ -39,7 +39,7 @@ export function FlashcardCard({
         >
           <span className="session-prompt-label">Term</span>
           <span id="term-text" className="session-card-text">
-            {term || "—"}
+            {term || " - "}
           </span>
         </motion.span>
         <motion.span
@@ -52,7 +52,7 @@ export function FlashcardCard({
         >
           <span className="session-prompt-label">Definition</span>
           <span id="def-text" className="session-card-text">
-            {definition || "—"}
+            {definition || " - "}
           </span>
         </motion.span>
       </span>

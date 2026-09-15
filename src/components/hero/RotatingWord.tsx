@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
-import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
+
+import { useEnhancedMotion } from "../../hooks/useEnhancedMotion";
 
 const ROTATE_INTERVAL_MS = 2200;
 const SWAP_TRANSITION = { duration: 0.32, ease: "easeOut" } as const;
@@ -18,8 +20,7 @@ export function RotatingWord({
 }: RotatingWordProps) {
   const [index, setIndex] = useState(0);
   const [mounted, setMounted] = useState(false);
-  const prefersReducedMotion = useReducedMotion();
-  const reduceMotion = mounted && Boolean(prefersReducedMotion);
+  const reduceMotion = !useEnhancedMotion();
 
   useEffect(() => {
     setMounted(true);

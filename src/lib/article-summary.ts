@@ -36,5 +36,5 @@ export function deriveBlurb(html: string): string {
   if (text.length <= BLURB_CHARS) return text;
   const cut = text.slice(0, BLURB_CHARS);
   const lastSpace = cut.lastIndexOf(' ');
-  return `${(lastSpace > 0 ? cut.slice(0, lastSpace) : cut).replace(/[\s.,;:—-]+$/, '')}…`;
+  return `${(lastSpace > 0 ? cut.slice(0, lastSpace) : cut).replace(/[\s.,;: - -]+$/, '')}…`;
 }

@@ -130,3 +130,30 @@ export function renderArticleHtml(md: string): string {
   enhanceArticleDom(scratch);
   return scratch.innerHTML;
 }
+
+/** Course readings have their own heading hierarchy and links that cannot collide across lessons. */
+export function renderCourseArticleHtml(md: string, namespace: string): string {
+  const scratch = document.createElement('div');
+  scratch.innerHTML = renderArticleHtml(md);
+  for (const heading of Array.from(scratch.querySelectorAll('h1, h2, h3'))) {
+    const replacement = document.createElement(`h${Number(heading.tagName.slice(1)) + 2}`);
+    replacement.innerHTML = heading.innerHTML;
+    replacement.className = heading.tagName === 'H1' ? 'course-reading-title' : 'course-reading-heading';
+    if (heading.id) replacement.id = `lesson-${namespace}-${heading.id}`;
+    heading.replaceWith(replacement);
+  }
+  for (const link of scratch.querySelectorAll<HTMLAnchorElement>('a[href^="#"]')) {
+    link.setAttribute('href', `#lesson-${namespace}-${link.getAttribute('href')!.slice(1)}`);
+  }
+  const toc = scratch.querySelector('nav.article-toc');
+  if (toc) {
+    const details = document.createElement('details');
+    details.className = 'course-reading-toc';
+    const summary = document.createElement('summary');
+    summary.textContent = 'In this lesson';
+    details.append(summary, toc);
+    const title = scratch.querySelector('.course-reading-title');
+    if (title) title.after(details); else scratch.prepend(details);
+  }
+  return scratch.innerHTML;
+}

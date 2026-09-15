@@ -103,7 +103,7 @@ function fmtDate(iso: string | null | undefined): string {
         month: "short",
         day: "numeric",
       })
-    : "—";
+    : " - ";
 }
 
 export function Profile() {

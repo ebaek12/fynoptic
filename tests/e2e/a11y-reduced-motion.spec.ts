@@ -28,7 +28,7 @@ import { test, expect } from '@playwright/test';
 // pinned-track markup in case a future change ever renders it under reduced
 // motion.
 const REVEAL_SELECTOR =
-  '.fade-up, .reveal, .reveal-up, .reveal-card, .reveal-section, .reveal-prism, .reveal-cta, .reveal-in, .founder-card, .partner-cell, [role="tab"], #rack-tabpanel, [data-rack-name], [data-rack-panel]';
+  '.fade-up, .reveal, .reveal-up, .reveal-card, .reveal-section, .reveal-prism, .reveal-cta, .reveal-in, .founder-card, .partner-cell, .learning-card, [data-rack-panel]';
 
 const PAGES = ['/', '/about', '/articles', '/courses', '/courseone', '/flashcard', '/practice'];
 

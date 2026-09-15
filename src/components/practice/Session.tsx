@@ -19,7 +19,7 @@ function niceTopic(slug: string) {
   return slug.replace(/[_-]/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 function diffLabel(diff: string | null) {
-  return diff ? diff[0]!.toUpperCase() + diff.slice(1) : "—";
+  return diff ? diff[0]!.toUpperCase() + diff.slice(1) : " - ";
 }
 function cx(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ");

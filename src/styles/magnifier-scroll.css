@@ -186,3 +186,7 @@ html body .header[data-magnifying="true"] {
   position: relative;
   height: min(640px, 85svh);
 }
+
+/* Decorative introduction is opt-in. The complete resource grid is the baseline. */
+.magnifier-transition { display: none; }
+.magnifier-transition[data-animated="true"] { display: block; }

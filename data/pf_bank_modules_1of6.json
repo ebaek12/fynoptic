@@ -2988,7 +2988,7 @@
           "id": "pf-0274",
           "question": "What is an informal “no-action letter” from the SEC?",
           "choices": [
-            "(Not financial—skip.)",
+            "(Not financial - skip.)",
             "SIPC liquidation process.",
             "SEC and SRO rules enforced by FINRA.",
             "Staff statement that it will not recommend enforcement if a practice meets specified criteria."
@@ -3055,7 +3055,7 @@
           "question": "Which agency sets capital and liquidity standards under Basel accords?",
           "choices": [
             "Regulation 14A.",
-            "(Not financial—skip.)",
+            "(Not financial - skip.)",
             "SIPC liquidation process.",
             "Federal Reserve Board (as U.S. Basel supervisor)."
           ],
@@ -3189,9 +3189,9 @@
             "FFIEC’s State Liaison Committee.",
             "SEC Staff.",
             "Dodd-Frank Act (say-on-pay provisions) and SEC proxy rules.",
-            "(Not financial—skip.)"
+            "(Not financial - skip.)"
           ],
-          "answer": "(Not financial—skip.)"
+          "answer": "(Not financial - skip.)"
         },
         {
           "id": "pf-0293",
@@ -3857,9 +3857,9 @@
             "To gauge underlying inflation trends less affected by transitory shocks.",
             "Maximum employment and price stability.",
             "Savings deposits, small time deposits, and retail money market funds.",
-            "Stagflation — high inflation with high unemployment."
+            "Stagflation - high inflation with high unemployment."
           ],
-          "answer": "Stagflation — high inflation with high unemployment."
+          "answer": "Stagflation - high inflation with high unemployment."
         },
         {
           "id": "pf-0330",
@@ -3909,7 +3909,7 @@
           "id": "pf-0334",
           "question": "How can discount window use signal stress?",
           "choices": [
-            "Stagflation — high inflation with high unemployment.",
+            "Stagflation - high inflation with high unemployment.",
             "Due to persistent supply shocks and rising price volatility (MarketWatch).",
             "Availability of stable funding relative to long-term assets over a year.",
             "High usage may indicate liquidity shortages in the banking system."
@@ -3931,7 +3931,7 @@
           "id": "pf-0336",
           "question": "How do overnight reverse repos cap rates?",
           "choices": [
-            "Stagflation — high inflation with high unemployment.",
+            "Stagflation - high inflation with high unemployment.",
             "Savings deposits, small time deposits, and retail money market funds.",
             "Price stability (2% PCE inflation), maximum employment, moderate long-term interest rates.",
             "By offering a floor on short-term rates through safe collateral."
@@ -3997,7 +3997,7 @@
           "id": "pf-0342",
           "question": "How can central banks work around the ZLB?",
           "choices": [
-            "Stagflation — high inflation with high unemployment.",
+            "Stagflation - high inflation with high unemployment.",
             "High usage may indicate liquidity shortages in the banking system.",
             "To avoid policy conflicts and maximize stabilization effects.",
             "With QE, negative rates, or forward guidance."
@@ -4131,7 +4131,7 @@
           "id": "pf-0377",
           "question": "How do central banks anchor expectations?",
           "choices": [
-            "Demand shocks—rate adjustment; supply shocks—careful trade-off due to output consequences.",
+            "Demand shocks - rate adjustment; supply shocks - careful trade-off due to output consequences.",
             "Fixed rates constrain independent monetary policy; floating allows flexibility.",
             "Potential inflationary pressure from tight resource constraints.",
             "Through credible targets, communication, and policy consistency."
@@ -4231,7 +4231,7 @@
           "question": "What is a supply-side shock?",
           "choices": [
             "Unregulated credit creation can undermine policy control of overall liquidity.",
-            "Demand shocks—rate adjustment; supply shocks—careful trade-off due to output consequences.",
+            "Demand shocks - rate adjustment; supply shocks - careful trade-off due to output consequences.",
             "Sudden changes in consumption or investment demand (e.g., fiscal stimulus).",
             "Disruptions to production capacity (e.g., oil embargo, pandemics)."
           ],
@@ -4255,9 +4255,9 @@
             "Unregulated credit creation can undermine policy control of overall liquidity.",
             "Announced slowing of monthly asset purchases (“Taper Tantrum”).",
             "Sudden change in real rates due to shifts in risk premia or neutral rate.",
-            "Demand shocks—rate adjustment; supply shocks—careful trade-off due to output consequences."
+            "Demand shocks - rate adjustment; supply shocks - careful trade-off due to output consequences."
           ],
-          "answer": "Demand shocks—rate adjustment; supply shocks—careful trade-off due to output consequences."
+          "answer": "Demand shocks - rate adjustment; supply shocks - careful trade-off due to output consequences."
         },
         {
           "id": "pf-0389",

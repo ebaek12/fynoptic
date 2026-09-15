@@ -37,6 +37,12 @@ for (const theme of ["light", "dark"]) {
       for (const path of pages) {
         await page.goto(path);
         await page.evaluate(() => document.fonts.ready);
+        if (path === '/courseone') {
+          const placement = await page.locator('.course-back').evaluate(el => el.getBoundingClientRect().top - document.querySelector('.header')!.getBoundingClientRect().bottom);
+          expect(placement).toBeGreaterThanOrEqual(20);
+          await expect(page.locator('.course-outline')).toBeVisible();
+          continue;
+        }
         const isReader = path.startsWith('/articles/');
         const gap = await page.evaluate(
           (selector) =>

@@ -164,11 +164,8 @@ html body #main #proof-partners-heading {
 .proof-partner-list a { display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; border-radius: 4px; }
 .proof-partner-list a:focus-visible { outline: 2px solid #2440c0; outline-offset: 6px; }
 
-/* Give white lettering a readable monochrome treatment on the pale surface. */
-.proof-partner-list .proof-logo-light {
-  filter: brightness(0);
-  opacity: 0.82;
-}
+.proof-partner-list a { padding: 10px; box-sizing: border-box; }
+.proof-partner-list img { max-height: 42px; }
 
 html body #main .home-final-cta {
   margin: 0;

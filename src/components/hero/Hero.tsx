@@ -24,10 +24,9 @@ export function Hero() {
       <div className="home-hero-details">
         <div className="home-hero-copy">
           <p className="home-hero-description">
-            Fynoptic is the ultimate free learning platform for consumer
-            awareness. Build practical money skills with interactive lessons,
-            informative articles, and practice questions you can use in everyday
-            life.
+            Hidden fees. Sneaky subscriptions. Offers that don’t add up.
+            Learn what to watch for and what to do about it with free courses,
+            articles, and practice questions.
           </p>
           <div className="home-hero-actions">
             <Button asChild size="hero" data-track="cta_click">

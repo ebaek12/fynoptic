@@ -151,6 +151,12 @@ test.describe("homepage hero", () => {
       await page.setViewportSize({ width, height: 1000 });
       await page.goto("/");
       await page.evaluate(() => document.fonts.ready);
+      if (width < 900) {
+        await expect(page.locator(".rotating-word-text")).toHaveText("scam");
+        await expect(page.locator(".rotating-word-suffix")).toHaveText(".");
+        await expect(page.locator(".rotating-word-frame")).toHaveCount(0);
+        return;
+      }
       const words = ["scam", "setup", "lie", "con", "trap"];
       const seen = new Set<string>();
       const deadline = Date.now() + 15_000;
@@ -310,26 +316,15 @@ for (const theme of ["light", "dark"]) {
   }
 }
 
-test("company carousel loops without a blank end and pauses for keyboard focus", async ({
-  page,
-}) => {
+test("partner strip displays all six logos without animation", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto("/");
-  await page.evaluate(() => document.fonts.ready);
-  const ticker = page.getByRole("region", { name: "Partner Organizations" });
-  await ticker.focus();
-  await expect(page.locator(".logo-track")).toHaveCSS(
-    "animation-play-state",
-    "paused",
-  );
-  const dimensions = await page
-    .locator(".partner-set")
-    .evaluateAll((sets) =>
-      sets.map((set) => set.getBoundingClientRect().width),
-    );
-  const viewport = await ticker.boundingBox();
-  expect(dimensions[0]).toBeGreaterThanOrEqual(viewport!.width);
-  expect(dimensions[0]).toBeCloseTo(dimensions[1]!, 0);
+  await expect(page.locator(".logo-track")).toHaveCSS("animation-name", "none");
+  await expect(page.locator(".logo-card:visible")).toHaveCount(6);
+  for (const logo of await page.locator(".logo-card:visible").all()) {
+    await logo.scrollIntoViewIfNeeded();
+    await expect(logo).toBeInViewport();
+  }
 });
 
 test("magnifying glass responds to scroll without shifting the heading or illustration", async ({

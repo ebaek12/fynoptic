@@ -1,38 +1,25 @@
-// Faithful port of src/islands/course-one.ts's renderSidebar()
-// (course-one.ts:1262-1278) plus the #progress-sidebar markup
-// (courseone.astro:104-113). `steps`/`currentStepIndex` are now derived
-// values from useCourseState() instead of being recomputed here — this
-// component only renders them.
-import type { ProgressSidebarProps } from './CourseOne';
+import { SECTION_ORDER, type SectionId, type SectionLocks, type StepStatus } from '../../hooks/useCourseState';
+import { COURSE_SECTIONS } from './CourseOne';
 
-export function ProgressSidebar({ steps, currentStepIndex }: ProgressSidebarProps) {
-  const total = steps.length;
-  const doneCount = steps.filter((s) => s.done).length;
-  const fillPct = total > 0 ? Math.round((doneCount / total) * 100) : 0;
-
-  return (
-    <aside id="progress-sidebar" aria-label="Course progress">
-      <div className="ps-card">
-        <div className="ps-head">
-          <strong>Progress</strong>
-          <div className="ps-bar">
-            <span id="ps-fill" style={{ width: `${fillPct}%` }} />
-          </div>
-        </div>
-        <ol id="progress-list" className="ps-list">
-          {steps.map((s, i) => {
-            const className = [i < currentStepIndex ? 'ps-item--done' : '', i === currentStepIndex ? 'ps-item--current' : '', i > currentStepIndex ? 'ps-item--locked' : '']
-              .join(' ')
-              .trim();
-            return (
-              <li key={s.key} className={className || undefined}>
-                <span className="ps-dot" aria-hidden="true" />
-                <a href={s.section}>{s.label}</a>
-              </li>
-            );
-          })}
-        </ol>
-      </div>
-    </aside>
-  );
+export function ProgressSidebar({ steps, locks, active, onNavigate }: {
+  steps: readonly StepStatus[];
+  locks: SectionLocks;
+  active: SectionId;
+  onNavigate(section: SectionId): void;
+}) {
+  const learningSteps = steps.filter(step => step.key !== 'cert');
+  const done = learningSteps.filter(step => step.done).length;
+  return <aside className="course-outline" aria-label="Course progress">
+    <div className="course-outline-heading"><strong>Course One</strong><span>{Math.round(done / learningSteps.length * 100)}% complete</span></div>
+    <progress className="course-meter" max={learningSteps.length} value={done} aria-label="Course progress" />
+    <nav aria-label="Course sections"><ol>
+      {SECTION_ORDER.map((id, index) => <li key={id}>
+        <button type="button" disabled={locks[id].locked} aria-current={active === id ? 'step' : undefined} onClick={() => onNavigate(id)}>
+          <span className="course-outline-number" aria-hidden="true">{locks[id].complete ? '✓' : String(index + 1).padStart(2, '0')}</span>
+          <span>{COURSE_SECTIONS[id]}<small>{id === '#certificate' && !locks[id].locked ? 'Ready to download' : locks[id].complete ? 'Complete' : locks[id].locked ? 'Not started' : 'Ready to continue'}</small></span>
+        </button>
+      </li>)}
+    </ol></nav>
+    <p className="course-save-note">Progress saves in this browser. You can come back whenever you’re ready.</p>
+  </aside>;
 }

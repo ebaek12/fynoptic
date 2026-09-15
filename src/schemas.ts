@@ -8,13 +8,13 @@ import type { IdExerciseItem, PracticeBank, QuizItem } from './types';
 const quizItemSchema = z.object({
   id: z.string(),
   stem: z.string(),
-  options: z.array(z.string()),
-  answer_index: z.number().int(),
+  options: z.array(z.string()).min(2),
+  answer_index: z.number().int().nonnegative(),
   rationale: z.string(),
-});
+}).refine(item => item.answer_index < item.options.length, { message: 'Answer index must refer to an option' });
 
 const quizFileSchema = z.object({
-  items: z.array(quizItemSchema),
+  items: z.array(quizItemSchema).min(1),
 });
 
 export function parseQuiz(data: unknown): QuizItem[] {
@@ -28,14 +28,14 @@ export function parseQuiz(data: unknown): QuizItem[] {
 const idExerciseItemSchema = z.object({
   id: z.string(),
   vignette: z.string(),
-  options: z.array(z.string()),
-  answer_index: z.number().int(),
+  options: z.array(z.string()).min(2),
+  answer_index: z.number().int().nonnegative(),
   countermove: z.string(),
   rationale: z.string(),
-});
+}).refine(item => item.answer_index < item.options.length, { message: 'Answer index must refer to an option' });
 
 const idExerciseFileSchema = z.object({
-  items: z.array(idExerciseItemSchema),
+  items: z.array(idExerciseItemSchema).min(1),
 });
 
 export function parseIdExercise(data: unknown): IdExerciseItem[] {

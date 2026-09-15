@@ -5,7 +5,7 @@ import '../styles/about.css';
 ---
 <Base
   title="About • Fynoptic"
-  description="About Fynoptic — Meet the founders and our partners."
+  description="About Fynoptic - Meet the founders and our partners."
   canonical="/about"
   ogTitle="About • Fynoptic"
   ogDescription="Meet the founders and our partners."
@@ -62,7 +62,7 @@ import '../styles/about.css';
 
       <ul class="partners-grid" role="list" aria-label="Partner logos">
         {PARTNERS.map((partner) => (
-          <li class="partner-cell"><a href={partner.url} target="_blank" rel="noopener noreferrer" aria-label={`${partner.name} — official website (opens in a new tab)`}><img src={`/assets/img/${partner.image}`} alt={partner.name} /><span aria-hidden="true">↗</span></a></li>
+          <li class="partner-cell" data-logo-plate={partner.plate}><a href={partner.url} target="_blank" rel="noopener noreferrer" aria-label={`${partner.name} - official website (opens in a new tab)`}><img src={`/assets/img/${partner.image}`} alt={partner.name} /><span aria-hidden="true">↗</span></a></li>
         ))}
       </ul>
     </div>

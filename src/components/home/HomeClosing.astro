@@ -53,13 +53,8 @@ const metrics = [
         {
           PARTNERS.map((partner) => (
             <li>
-              <a href={partner.url} target="_blank" rel="noopener noreferrer" aria-label={`${partner.name} — official website (opens in a new tab)`}>
+              <a data-logo-plate={partner.plate} href={partner.url} target="_blank" rel="noopener noreferrer" aria-label={`${partner.name} - official website (opens in a new tab)`}>
               <img
-                class:list={{
-                  "proof-logo-light":
-                    partner.image.endsWith("-challenge-logo.webp") ||
-                    partner.image === "gcee-logo.webp",
-                }}
                 src={`/assets/img/${partner.image}`}
                 alt={partner.name}
                 loading="lazy"

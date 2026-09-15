@@ -1,0 +1,54 @@
+.learning-resources {
+  --learning-top: calc(var(--header-h, 58px) + clamp(36px, 5svh, 56px));
+  box-sizing: border-box;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: var(--learning-top) clamp(24px, 5vw, 64px) 64px;
+  color: var(--text-100, #172036);
+}
+.learning-stage { top: var(--learning-top); }
+.learning-lead { margin-bottom: 28px; }
+html body #main .learning-lead h2 {
+  margin: 0;
+  font-family: var(--display-face);
+  font-size: clamp(32px, 3.2vw, 46px);
+  font-weight: 600;
+  line-height: 1.12;
+}
+.learning-lead p {
+  max-width: 68ch;
+  margin: 12px 0 0;
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--muted-fg, #505c71);
+}
+.learning-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.learning-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: clamp(20px, 2.4svh, 28px);
+  border: 1px solid var(--db-rule, #ccd3df);
+  border-radius: 8px;
+  background: var(--surface-1, #fff);
+  color: var(--text-100, #172036);
+  text-decoration: none;
+}
+.learning-card:hover { border-color: var(--db-optic, #2440c0); }
+.learning-card:focus-visible { outline: 3px solid var(--db-optic, #2440c0); outline-offset: 4px; }
+.learning-card-number { position: absolute; top: 24px; right: 24px; color: var(--muted-fg, #505c71); font-size: 14px; }
+html body #main .learning-card h3 { margin: 0 40px 12px 0; font-size: 26px; line-height: 1.2; }
+.learning-card p { margin: 0 0 20px; font-size: 16px; line-height: 1.5; color: var(--muted-fg, #505c71); }
+.learning-card-action { display: flex; justify-content: space-between; gap: 12px; margin-top: auto; font-weight: 600; color: var(--db-optic, #2440c0); }
+
+@media (min-width: 900px) and (min-height: 700px) and (prefers-reduced-motion: no-preference) {
+  .learning-resources[data-scroll-focus="true"] .learning-track::after { content: ""; display: block; height: clamp(480px, 70svh, 760px); }
+  .learning-resources[data-scroll-focus="true"] .learning-stage { position: sticky; }
+  .learning-resources[data-scroll-focus="true"] .learning-card { transform: translateY(var(--card-lift, 0px)); }
+  .learning-card[data-focused="true"] { border-color: var(--db-optic, #2440c0); box-shadow: inset 0 3px 0 var(--db-optic, #2440c0); }
+}
+@media (max-width: 600px) {
+  .learning-resources { padding: 56px 24px; }
+  .learning-grid { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+}

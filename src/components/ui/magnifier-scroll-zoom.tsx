@@ -1,4 +1,5 @@
-import { useEffect, useId, useRef, useState } from "react";
+import { useEffect, useId, useRef } from "react";
+import { useEnhancedMotion } from "../../hooks/useEnhancedMotion";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import RackFocus from "../rack/RackFocus";
@@ -13,10 +14,11 @@ export function MagnifierScrollZoom() {
   const zoomRef = useRef<SVGGElement>(null);
   const portalRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
-  const [introActive, setIntroActive] = useState(true);
+  const enhancedMotion = useEnhancedMotion();
   const id = useId().replace(/:/g, "");
 
   useEffect(() => {
+    if (!enhancedMotion) return;
     const section = sectionRef.current;
     const experience = experienceRef.current;
     const glass = glassRef.current;
@@ -54,11 +56,8 @@ export function MagnifierScrollZoom() {
         const playhead = { progress: 0 };
         let initialRadius = 0;
         let finalScale = 1;
-        let scrollDistance = 1;
-        let previousComplete: boolean | undefined;
         const measure = () => {
           initialRadius = (glass.clientWidth * 138) / 480;
-          scrollDistance = Math.max(1, section.clientHeight - pin.clientHeight);
           finalScale =
             (Math.hypot(pin.clientWidth, pin.clientHeight) / 2 + 16) /
             initialRadius;
@@ -72,10 +71,10 @@ export function MagnifierScrollZoom() {
         const render = () => {
           const progress = playhead.progress;
           const scale = 1 + Math.pow(progress, 2.3) * (finalScale - 1);
-          // Layout bounds can be fractional while scroll positions and GSAP's
-          // playhead are rounded independently. Allow two pixels at the end
-          // so a visually finished lens cannot leave the learning section inert.
-          const complete = progress >= 1 - 2 / scrollDistance;
+          // Use actual scroll position, not the scrub tween: battery-saving
+          // frame throttling must never keep the destination inert. Allow two
+          // pixels for fractional layout bounds at the landing.
+          const complete = section.getBoundingClientRect().bottom <= pin.clientHeight + 2;
           zoom.setAttribute(
             "transform",
             `translate(200 200) scale(${scale}) translate(-200 -200)`,
@@ -95,7 +94,7 @@ export function MagnifierScrollZoom() {
           content.style.transform = complete
             ? "none"
             : `scale(${scale / finalScale})`;
-          content.style.opacity = String(Math.min(1, progress / 0.12));
+          content.style.opacity = complete ? "1" : String(Math.min(1, progress / 0.12));
           // Scale the real navigation around the same viewport centre as the
           // learning section. At the landing it is already in its normal pose.
           if (header && progress > 0 && !complete) {
@@ -112,13 +111,11 @@ export function MagnifierScrollZoom() {
           } else {
             restoreHeader();
           }
-          if (complete !== previousComplete) {
-            previousComplete = complete;
-            setIntroActive(!complete);
-          }
         };
         measure();
         render();
+        // Interaction follows the document position even if the scrub tween is throttled.
+        window.addEventListener("scroll", render, { passive: true });
 
         let landing: ReturnType<typeof createMagnifierLanding> | undefined;
         const dive = gsap.to(playhead, {
@@ -181,6 +178,7 @@ export function MagnifierScrollZoom() {
 
         return () => {
           live = false;
+          window.removeEventListener("scroll", render);
           landing?.destroy();
           resize.disconnect();
           delete section.dataset.animated;
@@ -194,14 +192,13 @@ export function MagnifierScrollZoom() {
           content.style.removeProperty("transform");
           content.style.removeProperty("opacity");
           restoreHeader();
-          setIntroActive(false);
         };
       },
       section,
     );
 
     return () => media.revert();
-  }, []);
+  }, [enhancedMotion]);
 
   return (
     <div ref={experienceRef} className="magnifier-experience">
@@ -213,7 +210,7 @@ export function MagnifierScrollZoom() {
         <div className="magnifier-pin">
           <div className="magnifier-caption">
             <span className="magnifier-eyebrow">
-              A little curiosity changes everything.
+              The details make a difference.
             </span>
             <h2>Scroll to look closer.</h2>
           </div>
@@ -316,7 +313,7 @@ export function MagnifierScrollZoom() {
       <div id="learning" className="magnifier-learning" tabIndex={-1}>
         <div ref={portalRef} className="magnifier-portal">
           <div ref={contentRef} className="magnifier-content">
-            <RackFocus introActive={introActive} />
+            <RackFocus />
           </div>
         </div>
       </div>

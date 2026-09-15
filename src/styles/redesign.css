@@ -319,16 +319,21 @@ html body .auth-link button {
 .logo-card::before { display: none !important; }
 .logo-card img { max-height: 40px !important; opacity: 1 !important; filter: none !important; }
 
-/* The partner marks are not a consistent set: some are white artwork on transparent,
-   some are dark artwork. One plate colour cannot serve both, and recolouring another
-   organisation's mark is not an option. So the plate follows the artwork.
-   Dark artwork -> light plate. Everything else keeps the dark plate above. */
-.logo-card:has(img[src*="invesco"]),
-.logo-card:has(img[src*="emory"]),
-.logo-card:has(img[src$="falcons.png"]),
-html body .partner-cell:has(img[src$="falcons.png"]) {
-  background: #FFFFFF !important;
-  border-color: rgba(15, 23, 42, .14) !important;
+/* Artwork determines its plate in every theme and browser, without filters or :has(). */
+html body [data-logo-plate="dark"] {
+  background: #12171f !important;
+  border: 1px solid #344054 !important;
+  color: #fff;
+}
+html body [data-logo-plate="light"] {
+  background: #fff !important;
+  border: 1px solid #cbd2dc !important;
+  color: #172036;
+}
+html body [data-logo-plate] img {
+  filter: none !important;
+  opacity: 1 !important;
+  object-fit: contain;
 }
 
 /* ---- 7. cards: retire the glass ------------------------------------------ */
@@ -467,23 +472,6 @@ html.no-js :is(.fade-up, .reveal, .reveal-up, .reveal-card, .reveal-section, .re
    can no longer silently un-inset a band. */
 html body .container { padding-inline: var(--gutter) !important; }
 
-/* S6 (Phase 8): RackFocus.tsx (Phase 7) is the one section on the page built
-   with bare Tailwind utilities (`px-4 py-16 sm:px-6 lg:px-8`) instead of
-   `.container`/`.hero-content`'s var(--gutter) rail, and it's the only
-   remaining plain `<section>` element on the homepage — everything else that
-   used to be one (.statement, .why-slab, .final-cta) was deleted in the same
-   phase that added this one. legacy.css's `section { padding: 5rem 0 }`
-   (line ~780) is unlayered while Tailwind's utility classes live inside a
-   cascade layer, so the legacy rule won outright regardless of specificity:
-   horizontal padding collapsed to 0 (flush to the viewport edge below
-   1152px, where `max-w-6xl`'s own `mx-auto` centering has nothing to centre
-   against) and vertical padding came out 80px, not the intended 64px. Pinned
-   onto the same rail as .container/.hero-content instead. */
-section[aria-labelledby="rack-heading"] {
-  max-width: var(--container-max) !important;
-  margin-inline: auto !important;
-  padding: clamp(2.5rem, 5vw, 4rem) var(--gutter) !important;
-}
 
 html body .header .nav {
   padding-block: 10px !important;

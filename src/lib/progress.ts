@@ -75,31 +75,49 @@ export function setCookie(name: string, value: string, days = 180): void {
   }
 }
 
-function parseStoredState(raw: string): Partial<CourseState> | null {
+// Normalize each nested field: old or partially written progress must not crash the course.
+function parseStoredState(raw: string): CourseState | null {
   try {
-    const parsed = JSON.parse(raw) as unknown;
-    return parsed && typeof parsed === 'object' ? (parsed as Partial<CourseState>) : null;
-  } catch {
-    return null;
-  }
+    const parsed: unknown = JSON.parse(raw);
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return null;
+    const source = parsed as Record<string, unknown>;
+    const next = structuredClone(defaultCourseState);
+    for (const section of Object.keys(next) as (keyof CourseState)[]) {
+      const stored = source[section];
+      if (!stored || typeof stored !== 'object' || Array.isArray(stored)) continue;
+      const fields = stored as Record<string, unknown>;
+      const target = next[section] as unknown as Record<string, unknown>;
+      for (const key of Object.keys(target)) {
+        const value = fields[key];
+        if (key === 'answers' && Array.isArray(value)) target[key] = value.map(answer => Number.isInteger(answer) && answer >= 0 ? answer : null);
+        else if (key === 'correctness' && Array.isArray(value)) target[key] = value.map(answer => typeof answer === 'boolean' ? answer : null);
+        else if (typeof target[key] === 'boolean' && typeof value === 'boolean') target[key] = value;
+        else if (key === 'score' && typeof value === 'number' && Number.isFinite(value)) target[key] = Math.max(0, Math.min(100, value));
+        else if (target[key] === null && typeof value === 'string') target[key] = value;
+      }
+    }
+    if (!next.postQuiz.completed || next.postQuiz.score < 80) next.postQuiz.pass = false;
+    if (!next.postQuiz.pass) next.certificate = { issued: false, id: null, date: null };
+    return next;
+  } catch { return null; }
 }
 
 export function loadCourseState(): CourseState {
   const cookie = getCookie(COOKIE_NAME);
   if (cookie) {
     const parsed = parseStoredState(cookie);
-    if (parsed) return { ...defaultCourseState, ...parsed };
+    if (parsed) return parsed;
   }
   try {
     const ls = localStorage.getItem(DP_STATE_KEY);
     if (ls) {
       const parsed = parseStoredState(ls);
-      if (parsed) return { ...defaultCourseState, ...parsed };
+      if (parsed) return parsed;
     }
   } catch {
     // localStorage may be unavailable (private mode); ignore.
   }
-  return { ...defaultCourseState };
+  return structuredClone(defaultCourseState);
 }
 
 export interface ProgressSnapshot {

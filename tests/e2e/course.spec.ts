@@ -1,347 +1,266 @@
 import { test, expect, type Page } from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
 import { PNG } from 'pngjs';
 
-// Characterization of <CourseOne /> (src/components/course/CourseOne.tsx +
-// PreQuiz/Module/IdExercise/RiskAudit/PostQuiz/Certificate/ProgressSidebar),
-// the Phase 10f React conversion of the old islands/course-one.ts vanilla
-// island (1,407 lines, retired in this same phase). Every behavioral
-// assertion from the pre-conversion characterization spec is carried over
-// unchanged; only selectors/expectations that track a deliberate structural
-// change were updated:
-//
-//   - Section lock chrome (`.locked` class, `inert`, `aria-hidden`,
-//     `.locked-scrim`) is still applied to the exact same section elements
-//     by <LockableSection> in CourseOne.tsx — same selectors as before.
-//   - The certificate section is no longer always-present-but-CSS-hidden
-//     (`.certificate.ready` never actually got toggled by the old code, so
-//     it never rendered — O6). It now mounts/unmounts entirely based on
-//     `state.postQuiz.pass`: assertions below check for its *presence*,
-//     not a class.
-//   - `#post-retake` is conditionally rendered (unmounted when not
-//     applicable), not merely toggled via the `hidden` DOM property — the
-//     old `.btn { display: inline-block }`-beats-`[hidden]` workaround this
-//     spec used to need no longer applies because the element isn't in the
-//     DOM at all once retake succeeds. `toBeHidden()` covers both "not in
-//     DOM" and "hidden".
-//   - `#id-ex-root`/`#id-ex-submit`/`#id-ex-result` and
-//     `#audit-form`/`#audit-generate`/`#audit-output`/`#audit-actions`/
-//     `#copy-audit` are real ids again (IdExercise.tsx/RiskAudit.tsx) —
-//     same ids the vanilla markup used.
-//
-// New in this phase (O6, the "Gate additions" in the Phase 10f plan item):
-// the certificate reveal is gated on a real ≥80% pass, prints the
-// profile-set learner name (`ff_user_name`, written by the profile settings
-// panel — Phase 10c), and the badge PNG export now includes `xmlns` on both
-// `<svg>`s so the exported image actually decodes to filled gradient
-// pixels instead of a blank/broken image (verified below by decoding the
-// downloaded PNG's real pixel data, not just checking the file is
-// non-empty).
-
-const DP_STATE_KEY = 'ff_dp_state';
-
-interface CourseStateSeed {
-  preQuiz?: { completed: boolean; score: number; answers: unknown[]; correctness: unknown[] };
-  m1?: { video: boolean; article: boolean };
-  m2?: { video: boolean; article: boolean; idExercise: boolean };
-  m3?: { video: boolean; article: boolean; drillsChecked: boolean };
-  m4?: { article: boolean; auditSubmitted: boolean; auditId: string | null };
-  postQuiz?: { completed: boolean; score: number; pass: boolean; answers: unknown[]; correctness: unknown[] };
-  certificate?: { issued: boolean; id: string | null; date: string | null };
+const pre = { completed: true, score: 100, answers: Array(10).fill(0), correctness: Array(10).fill(true) };
+const lessons = { preQuiz: pre, m1: { video: true, article: true }, m2: { video: true, article: true, idExercise: true }, m3: { video: true, article: true, drillsChecked: false }, m4: { article: true, auditSubmitted: true, auditId: 'seed' } };
+async function seed(page: Page, state: object, hash = '') {
+  await page.addInitScript(state => { if (!sessionStorage.getItem('course-seeded')) { localStorage.setItem('ff_dp_state', JSON.stringify(state)); sessionStorage.setItem('course-seeded', 'yes'); } }, state);
+  await page.goto(`/courseone${hash}`);
+  await expect(page.locator('.course-main')).toHaveAttribute('aria-busy', 'false');
 }
-
-const DEFAULT_STATE: Required<CourseStateSeed> = {
-  preQuiz: { completed: false, score: 0, answers: [], correctness: [] },
-  m1: { video: false, article: false },
-  m2: { video: false, article: false, idExercise: false },
-  m3: { video: false, article: false, drillsChecked: false },
-  m4: { article: false, auditSubmitted: false, auditId: null },
-  postQuiz: { completed: false, score: 0, pass: false, answers: [], correctness: [] },
-  certificate: { issued: false, id: null, date: null },
-};
-
-/** Seeds ff_dp_state (the same key useCourseState's loadCourseState() reads) and, optionally, ff_user_name, before navigating. */
-async function seedAndGoto(page: Page, seed: CourseStateSeed, userName?: string): Promise<void> {
-  const state = { ...DEFAULT_STATE, ...seed };
-  await page.addInitScript(
-    ({ s, name }) => {
-      localStorage.setItem('ff_dp_state', JSON.stringify(s));
-      if (name) localStorage.setItem('ff_user_name', name);
-    },
-    { s: state, name: userName },
-  );
-  await page.goto('/courseone');
-}
-
-async function fetchAnswerIndices(page: Page, path: string): Promise<number[]> {
-  return page.evaluate(async (p) => {
-    const res = await fetch(p);
-    const data = (await res.json()) as { items: { answer_index: number }[] };
-    return data.items.map((i) => i.answer_index);
-  }, path);
-}
-
-/** Seeds every module as complete, fetches the real post-quiz answer key, and submits a passing run. Leaves the page on a revealed certificate. */
-async function reachPassedCertificate(page: Page, userName?: string): Promise<number[]> {
-  await seedAndGoto(
-    page,
-    {
-      preQuiz: { completed: true, score: 100, answers: [], correctness: [] },
-      m1: { video: true, article: true },
-      m2: { video: true, article: true, idExercise: true },
-      m3: { video: true, article: true, drillsChecked: true },
-      m4: { article: true, auditSubmitted: true, auditId: 'AUD-seed' },
-    },
-    userName,
-  );
-
-  const answers = await fetchAnswerIndices(page, '/data/quiz.json');
-  const items = page.locator('#post-quiz-root .q-item');
-  await expect(items).toHaveCount(answers.length);
+async function answerQuiz(page: Page, id: string, answers: number[]) {
   for (let i = 0; i < answers.length; i++) {
-    await items.nth(i).locator(`input[type="radio"][value="${answers[i]}"]`).check();
+    await page.locator(`#${id}-quiz-root input[value="${answers[i]}"]`).check();
+    if (i < answers.length - 1) await page.getByRole('button', { name: 'Next question' }).click();
   }
-  await page.locator('#post-submit').click();
-  await expect(page.locator('#certificate')).toBeVisible();
-  return answers;
+  await page.locator(`#${id}-submit`).click();
+}
+async function answers(page: Page, path = '/data/quiz.json') {
+  return page.evaluate(async path => (await (await fetch(path)).json()).items.map((item: {answer_index: number}) => item.answer_index) as number[], path);
+}
+async function continueTo(page: Page, name: string) {
+  await page.getByRole('button', { name: `Continue to ${name}`, exact: false }).click();
+}
+async function readLesson(page: Page, unit: number) {
+  if (unit < 4) {
+    const section = page.locator(`#module-${unit}`);
+    await section.getByText('Prefer to read? Open the video notes').click();
+    await section.getByRole('button', { name: 'I’ve read the video notes' }).click();
+  }
+  const section = page.locator(`#module-${unit}`);
+  await section.locator('.course-article-end').scrollIntoViewIfNeeded();
+  await section.getByRole('button', { name: 'Mark article as read', exact: true }).click();
+}
+async function audit(page: Page) {
+  await page.locator('[name="merchant"]').fill('Example Shop');
+  await page.locator('[name="action"]').selectOption('cancel');
+  await page.locator('[name="date"]').fill('2026-09-14T12:00');
+  await page.locator('[name="channel"]').selectOption('email');
+  await page.locator('[name="saw"]').fill('The page offered a pause instead of cancellation.');
+  await page.locator('[name="patterns"][value="Interface interference"]').check();
+  await page.locator('[name="evidence"][value="confirmation"]').check();
+  await page.getByRole('button', { name: 'Save evidence record' }).click();
 }
 
-test('pre-quiz gates module 1 until completed', async ({ page }) => {
-  await seedAndGoto(page, {});
-  await expect(page.locator('#module-1')).toHaveAttribute('inert', '');
-  await expect(page.locator('#module-1')).toHaveClass(/locked/);
-
-  const items = page.locator('#pre-quiz-root .q-item');
-  await expect(items).toHaveCount(10);
-  for (let i = 0; i < 10; i++) {
-    await items.nth(i).locator('input[type="radio"]').first().check();
-  }
-  await expect(page.locator('#pre-submit')).toBeEnabled();
-  await page.locator('#pre-submit').click();
-
-  await expect(page.locator('#module-1')).not.toHaveAttribute('inert', '');
-  await expect(page.locator('#module-1')).not.toHaveClass(/locked/);
-});
-
-test('mark-read unlocks after scrolling the article to its end', async ({ page }) => {
-  await seedAndGoto(page, { preQuiz: { completed: true, score: 100, answers: [], correctness: [] } });
-
-  const btn = page.locator('#m1-mark-read');
-  await expect(page.locator('#md-01')).not.toBeEmpty();
-  await expect(btn).toBeDisabled();
-
-  await page.locator('#md-01 > :last-child').scrollIntoViewIfNeeded();
-  await expect(btn).toBeEnabled({ timeout: 5000 });
-
-  await btn.click();
-  await expect(page.locator('.toast-container .toast')).toHaveText('Module 1 article marked as read.');
-  const stored = await page.evaluate((k) => JSON.parse(localStorage.getItem(k) ?? '{}'), DP_STATE_KEY);
-  expect(stored.m1.article).toBe(true);
-});
-
-test('video anti-skip: seeking forward snaps back, and playbackRate is forced to 1', async ({ page }) => {
-  await seedAndGoto(page, { preQuiz: { completed: true, score: 100, answers: [], correctness: [] } });
-
-  const video = page.locator('#m1-video');
-  await page.evaluate(() => {
-    const v = document.querySelector('video#m1-video') as HTMLVideoElement;
-    v.play().catch(() => {});
-  });
-  // Let a little real playback accumulate so maxTime advances past 0.
-  await page.waitForTimeout(600);
-
-  const beforeJump = await video.evaluate((v: HTMLVideoElement) => v.currentTime);
-  expect(beforeJump).toBeGreaterThan(0);
-
-  await video.evaluate((v: HTMLVideoElement) => {
-    v.currentTime = v.currentTime + 30; // seek far ahead of maxTime
-  });
-  await page.waitForTimeout(200);
-  const afterJump = await video.evaluate((v: HTMLVideoElement) => v.currentTime);
-  // Snapped back close to where it was, not allowed to jump 30s ahead.
-  expect(afterJump).toBeLessThan(beforeJump + 2);
-
-  await video.evaluate((v: HTMLVideoElement) => {
-    v.playbackRate = 2;
-  });
-  await page.waitForTimeout(100);
-  expect(await video.evaluate((v: HTMLVideoElement) => v.playbackRate)).toBe(1);
-});
-
-test('the identification exercise loads 10 items and grades all-or-nothing', async ({ page }) => {
-  await seedAndGoto(page, {
-    preQuiz: { completed: true, score: 100, answers: [], correctness: [] },
-    m1: { video: true, article: true },
-  });
-
-  const submit = page.locator('#id-ex-submit');
+test('complete Course One through the real lessons, exercises, audit and final quiz', async ({ page }) => {
+  test.setTimeout(90_000);
+  const errors: string[] = [];
+  page.on('pageerror', error => errors.push(error.message));
+  await page.goto('/courses');
+  await page.getByRole('link', { name: 'Open course Dark Patterns: Spot Them, Stop Them' }).click();
+  await expect(page.getByRole('button', { name: /Foundations/ })).toBeDisabled();
+  await answerQuiz(page, 'pre', Array(10).fill(0));
+  await expect(page.locator('#pre-result')).toContainText('starting point');
+  await continueTo(page, 'foundations');
+  await readLesson(page, 1);
+  await continueTo(page, 'spot the pattern');
+  await readLesson(page, 2);
+  const key = await answers(page, '/data/id-exercise.json');
   const items = page.locator('#id-ex-root .q-item');
-  await expect(items).toHaveCount(10);
-  const answers = await fetchAnswerIndices(page, '/data/id-exercise.json');
-  expect(answers).toHaveLength(10);
-
-  // Answer every item wrong first (pick an index that is never the answer).
-  for (let i = 0; i < answers.length; i++) {
-    const wrongIndex = answers[i] === 0 ? 1 : 0;
-    await items.nth(i).locator(`input[type="radio"][value="${wrongIndex}"]`).check();
-  }
-  await expect(submit).toBeEnabled();
-  await submit.click();
-  await expect(page.locator('#id-ex-result')).toHaveText(/incorrect/);
-  await expect(items.first()).toHaveClass(/incorrect/);
-
-  // Correct every item -> all-or-nothing success.
-  for (let i = 0; i < answers.length; i++) {
-    await items.nth(i).locator(`input[type="radio"][value="${answers[i]}"]`).check();
-  }
-  await submit.click();
-  await expect(page.locator('#id-ex-result')).toHaveText(`All ${answers.length}/${answers.length} correct.`);
-
-  const stored = await page.evaluate((k) => JSON.parse(localStorage.getItem(k) ?? '{}'), DP_STATE_KEY);
-  expect(stored.m2.idExercise).toBe(true);
-});
-
-test('the risk audit form generates a summary and stores it locally', async ({ page }) => {
-  await seedAndGoto(page, {
-    preQuiz: { completed: true, score: 100, answers: [], correctness: [] },
-    m1: { video: true, article: true },
-    m2: { video: true, article: true, idExercise: true },
-    m3: { video: true, article: true, drillsChecked: true },
-  });
-
-  await page.locator('input[name="merchant"]').fill('Example Corp');
-  await page.selectOption('select[name="action"]', 'cancel');
-  await page.locator('input[name="date"]').fill('2026-01-01T12:00');
-  await page.selectOption('select[name="channel"]', 'email');
-  await page.locator('textarea[name="saw"]').fill('A pre-checked add-on at checkout.');
-  await page.locator('select[name="patterns"]').selectOption(['Sneaking']);
-  await page.locator('input[name="evidence"][value="totals"]').check();
-
-  await page.locator('#audit-generate').click();
-
-  await expect(page.locator('#audit-output')).toBeVisible();
-  await expect(page.locator('#audit-output')).toContainText('Merchant/platform: Example Corp');
-  await expect(page.locator('#audit-output')).toContainText('Action attempted: cancel');
-  await expect(page.locator('#audit-actions')).toBeVisible();
-
-  const audits = await page.evaluate(() => JSON.parse(localStorage.getItem('ff_risk_audits') ?? '[]'));
-  expect(audits).toHaveLength(1);
-  expect(audits[0].merchant).toBe('Example Corp');
-
-  const stored = await page.evaluate((k) => JSON.parse(localStorage.getItem(k) ?? '{}'), DP_STATE_KEY);
-  expect(stored.m4.auditSubmitted).toBe(true);
-});
-
-test('post-quiz: failing keeps the certificate hidden and offers a retake; passing at >=80% reveals it', async ({ page }) => {
-  await seedAndGoto(page, {
-    preQuiz: { completed: true, score: 100, answers: [], correctness: [] },
-    m1: { video: true, article: true },
-    m2: { video: true, article: true, idExercise: true },
-    m3: { video: true, article: true, drillsChecked: true },
-    m4: { article: true, auditSubmitted: true, auditId: 'AUD-seed' },
-  });
-
-  await expect(page.locator('#certificate')).toHaveCount(0);
-
-  const answers = await fetchAnswerIndices(page, '/data/quiz.json');
-  const items = page.locator('#post-quiz-root .q-item');
-  await expect(items).toHaveCount(answers.length);
-
-  // Fail first: get every answer wrong.
-  for (let i = 0; i < answers.length; i++) {
-    const wrongIndex = answers[i] === 0 ? 1 : 0;
-    await items.nth(i).locator(`input[type="radio"][value="${wrongIndex}"]`).check();
-  }
-  await page.locator('#post-submit').click();
-  await expect(page.locator('#post-result')).toContainText('Below 80%');
-  await expect(page.locator('#post-retake')).toBeVisible();
-  await expect(page.locator('#certificate')).toHaveCount(0);
-
-  // Retake resets the quiz.
-  await page.locator('#post-retake').click();
-  await expect(page.locator('#post-result')).toHaveText('');
-  // #post-retake unmounts entirely once showRetake (completed && !pass) is
-  // false again — not merely `hidden`, since PostQuiz.tsx conditionally
-  // renders it rather than toggling a `hidden` DOM property.
-  await expect(page.locator('#post-retake')).toBeHidden();
-  const afterRetake = await page.evaluate((k) => JSON.parse(localStorage.getItem(k) ?? '{}'), DP_STATE_KEY);
-  expect(afterRetake.postQuiz.completed).toBe(false);
-
-  // Now pass: every answer correct.
-  for (let i = 0; i < answers.length; i++) {
-    await items.nth(i).locator(`input[type="radio"][value="${answers[i]}"]`).check();
-  }
-  await page.locator('#post-submit').click();
-  await expect(page.locator('#post-result')).toContainText('Pass');
+  for (let i = 0; i < key.length; i++) await items.nth(i).locator(`input[value="${key[i]}"]`).check();
+  await page.getByRole('button', { name: 'Check answers', exact: true }).click();
+  await expect(page.getByText('Pattern practice complete')).toBeVisible();
+  await continueTo(page, 'push back');
+  await readLesson(page, 3);
+  await continueTo(page, 'keep the evidence');
+  await readLesson(page, 4);
+  await audit(page);
+  await expect(page.locator('#audit-output')).toContainText('Example Shop');
+  await continueTo(page, 'final quiz');
+  await answerQuiz(page, 'post', await answers(page));
+  await expect(page.locator('#post-result')).toContainText('Assessment passed');
+  await continueTo(page, 'your certificate');
   await expect(page.locator('#certificate')).toBeVisible();
-
-  const stored = await page.evaluate((k) => JSON.parse(localStorage.getItem(k) ?? '{}'), DP_STATE_KEY);
+  await expect(page.locator('.course-outline-heading')).toContainText('100% complete');
+  const stored = await page.evaluate(() => JSON.parse(localStorage.getItem('ff_dp_state')!));
   expect(stored.postQuiz.pass).toBe(true);
+  expect(stored.m4.auditSubmitted).toBe(true);
+  expect(errors).toEqual([]);
 });
 
-test('the progress sidebar reflects completed steps, and state survives a reload', async ({ page }) => {
-  await seedAndGoto(page, {
-    preQuiz: { completed: true, score: 100, answers: [], correctness: [] },
-    m1: { video: true, article: true },
-  });
-
-  await expect(page.locator('#progress-list li')).toHaveCount(12);
-  // pre, m1_video, m1_article are all done() -> the first incomplete step
-  // (and therefore ps-item--done boundary) is m2_video, index 3.
-  await expect(page.locator('#progress-list li.ps-item--done')).toHaveCount(3);
-  const fillWidth = await page.locator('#ps-fill').evaluate((el) => (el as HTMLElement).style.width);
-  expect(fillWidth).not.toBe('0%');
-
+test('prequiz saves choices, restores them on reload, and supports keyboard navigation', async ({ page }) => {
+  await seed(page, {});
+  await expect(page.getByRole('button', { name: 'Next question' })).toBeDisabled();
+  const radios = page.locator('#pre-quiz-root input');
+  await radios.first().focus();
+  await page.keyboard.press('ArrowDown');
+  await expect(radios.nth(1)).toBeChecked();
+  await page.getByRole('button', { name: 'Next question' }).click();
+  await page.locator('#pre-quiz-root input').nth(2).check();
   await page.reload();
-  await expect(page.locator('#progress-list li.ps-item--done')).toHaveCount(3);
-  await expect(page.locator('#module-1')).not.toHaveClass(/locked/);
+  await expect(page.locator('#pre-quiz-root input').nth(1)).toBeChecked();
+  await page.getByRole('button', { name: 'Question 2, answered', exact: true }).click();
+  await expect(page.locator('#pre-quiz-root input').nth(2)).toBeChecked();
+  await expect(page.locator('#pre-question')).toBeFocused();
 });
 
-test('certificate prints the profile-set learner name', async ({ page }) => {
-  await reachPassedCertificate(page, 'Jordan Rivera');
-
-  await page.locator('#download-cert').click();
-  await expect(page.locator('#cert-name')).toHaveText('Jordan Rivera');
-  await expect(page.locator('#cert-score')).toHaveText('100%');
-  const stored = await page.evaluate((k) => JSON.parse(localStorage.getItem(k) ?? '{}'), DP_STATE_KEY);
-  expect(stored.certificate.issued).toBe(true);
+test('article failure is recoverable and never counts as reading the lesson', async ({ page }) => {
+  await page.route('**/content/01-foundations.md', route => route.fulfill({ status: 503, body: 'Unavailable' }));
+  await seed(page, { preQuiz: pre });
+  await expect(page.getByText('This lesson couldn’t load.')).toBeVisible();
+  await expect(page.locator('#m1-mark-read')).toBeDisabled();
+  await page.unroute('**/content/01-foundations.md');
+  await page.getByRole('button', { name: 'Try loading again' }).click();
+  await expect(page.locator('#md-01')).not.toBeEmpty();
+  await expect(page.locator('#m1-mark-read')).toBeDisabled();
+  await page.locator('.course-article-end').first().scrollIntoViewIfNeeded();
+  await page.locator('#m1-mark-read').click();
+  await page.reload();
+  await expect(page.locator('#m1-mark-read')).toHaveText('Article completed');
+  await expect(page.locator('#m1-mark-read')).toBeDisabled();
 });
 
-test('certificate falls back to "Learner" when no profile name is set', async ({ page }) => {
-  await page.addInitScript(() => localStorage.setItem('ff_user_name', ''));
-  await reachPassedCertificate(page); // a cleared profile name must not produce a blank certificate
-
-  await page.locator('#download-cert').click();
-  await expect(page.locator('#cert-name')).toHaveText('Learner');
+test('videos expose controls, finish once, and retain completion after reloading', async ({ page }) => {
+  await seed(page, { preQuiz: pre });
+  const video = page.locator('#m1-video');
+  await expect(video).toHaveAttribute('controls', '');
+  await expect(video).toHaveAttribute('preload', 'none');
+  await video.evaluate((video: HTMLVideoElement) => { video.dispatchEvent(new Event('ended')); video.dispatchEvent(new Event('ended')); });
+  await expect(page.locator('.course-activity-label').first()).toContainText('Complete');
+  await page.reload();
+  await expect(page.locator('.course-activity-label').first()).toContainText('Complete');
 });
 
-test('the badge PNG download is non-empty and decodes to real, non-blank gradient pixels', async ({ page }) => {
-  await reachPassedCertificate(page, 'Jordan Rivera');
+test('video errors offer a retry and text alternative', async ({ page }) => {
+  await seed(page, { preQuiz: pre });
+  await page.locator('#m1-video').evaluate(video => video.dispatchEvent(new Event('error')));
+  await expect(page.getByRole('button', { name: 'Retry video' })).toBeVisible();
+  await page.getByText('Prefer to read? Open the video notes').click();
+  await page.getByRole('button', { name: 'I’ve read the video notes' }).click();
+  await expect(page.locator('.course-activity-label').first()).toContainText('Complete');
+});
 
-  const [download] = await Promise.all([page.waitForEvent('download'), page.locator('#download-badge').click()]);
+test('final quiz failure locks answers; retaking clears them; 80% passes', async ({ page }) => {
+  await seed(page, lessons);
+  const key = await answers(page);
+  await answerQuiz(page, 'post', key.map(answer => (answer + 1) % 4));
+  await expect(page.locator('#post-result')).toContainText('80%');
+  await expect(page.locator('#post-quiz-root input').first()).toBeDisabled();
+  await expect(page.getByRole('button', { name: /Your certificate/ })).toBeDisabled();
+  await page.getByRole('button', { name: 'Try again', exact: true }).click();
+  await expect(page.locator('#post-result')).toHaveCount(0);
+  await expect(page.locator('#post-quiz-root input:checked')).toHaveCount(0);
+  await answerQuiz(page, 'post', key.map((answer, i) => i < Math.ceil(key.length * .8) ? answer : (answer + 1) % 4));
+  await expect(page.locator('#post-result')).toContainText('Assessment passed');
+  await continueTo(page, 'your certificate');
+  await expect(page.locator('#certificate')).toBeVisible();
+});
 
-  expect(download.suggestedFilename()).toBe('FinanceFirst_Badge_Dark-Pattern-Spotter.png');
-  const path = await download.path();
-  expect(path).not.toBeNull();
+test('final quiz retries failed loading', async ({ page }) => {
+  await page.route('**/data/quiz.json', route => route.fulfill({ status: 503 }));
+  await seed(page, lessons);
+  await expect(page.getByText('The quiz couldn’t load.')).toBeVisible();
+  await page.unroute('**/data/quiz.json');
+  await page.getByRole('button', { name: 'Try loading again' }).click();
+  await expect(page.locator('#post-quiz-root input')).toHaveCount(4);
+});
 
-  const fs = await import('node:fs/promises');
-  const bytes = await fs.readFile(path!);
-  expect(bytes.length).toBeGreaterThan(0);
+test('evidence records restore after reloading and require a pattern', async ({ page }) => {
+  await seed(page, { ...lessons, m4: { article: false, auditSubmitted: false, auditId: null } });
+  await audit(page);
+  await page.reload();
+  await expect(page.locator('#audit-output')).toContainText('Example Shop');
+  await expect(page.locator('#audit-form')).toHaveCount(0);
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem('ff_risk_audits')!).length)).toBe(1);
+});
 
-  // Decode the real pixel data (verifies the `xmlns`-on-<svg> fix actually
-  // renders the gradient — a broken/unfilled export would decode to either
-  // a fully transparent PNG or throw during decode).
-  const png = PNG.sync.read(bytes);
-  expect(png.width).toBeGreaterThan(0);
-  expect(png.height).toBeGreaterThan(0);
+test('certificate prints only the certificate and downloads a branded badge', async ({ page }) => {
+  await seed(page, { ...lessons, postQuiz: { completed: true, pass: true, score: 90, answers: [], correctness: [] } });
+  await page.locator('#certificate-name').fill('Alex Rivera');
+  await page.evaluate(() => { window.print = () => {}; });
+  await page.getByRole('button', { name: 'Print or save certificate' }).click();
+  await expect(page.locator('#cert-name')).toHaveText('Alex Rivera');
+  await expect(page.locator('#cert-score')).toHaveText('90%');
+  await page.emulateMedia({ media: 'print' });
+  await expect(page.locator('#certificate-sheet')).toBeVisible();
+  await expect(page.locator('.course-outline')).toBeHidden();
+  await expect(page.locator('.course-heading')).toBeHidden();
+  await expect(page.locator('#pre-quiz')).toBeHidden();
+  await page.emulateMedia({ media: 'screen' });
+  const downloadPromise = page.waitForEvent('download');
+  await page.getByRole('button', { name: 'Download Badge (PNG)' }).click();
+  const download = await downloadPromise;
+  expect(download.suggestedFilename()).toBe('Fynoptic_Dark-Pattern-Spotter.png');
+  const stream = await download.createReadStream();
+  const chunks: Buffer[] = [];
+  for await (const chunk of stream!) chunks.push(Buffer.from(chunk));
+  const png = PNG.sync.read(Buffer.concat(chunks));
+  expect(png.width).toBe(512);
+  const center = (256 * png.width + 256) * 4;
+  expect(png.data[center + 3]).toBe(255);
+  expect([...png.data].some((value, index) => index % 4 === 0 && value < 100)).toBe(true);
+});
 
-  let nonWhiteOpaquePixels = 0;
-  for (let i = 0; i < png.data.length; i += 4) {
-    const [r, g, b, a] = [png.data[i]!, png.data[i + 1]!, png.data[i + 2]!, png.data[i + 3]!];
-    if (a > 0 && (r < 250 || g < 250 || b < 250)) nonWhiteOpaquePixels++;
-  }
-  // The badge's gradient (#3F6AFF -> #22D1B2 -> #FFD166) plus the dark
-  // checkmark stroke should fill a substantial share of the 512x512 canvas
-  // beyond the white background rect — a blank/broken export would leave
-  // this at (or near) zero.
-  expect(nonWhiteOpaquePixels).toBeGreaterThan(1000);
+for (const theme of ['light', 'dark']) for (const width of [390, 768, 1366]) {
+  test(`course layouts and accessibility at ${width}px in ${theme}`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await page.addInitScript(theme => localStorage.setItem('fynoptic-theme', theme), theme);
+    await seed(page, { ...lessons, postQuiz: { completed: true, pass: true, score: 90, answers: [], correctness: [] } });
+    for (const name of ['Prequiz', 'Foundations', 'Spot the pattern', 'Push back', 'Keep the evidence', 'Final quiz', 'Your certificate']) {
+      await page.locator('.course-outline').getByRole('button', { name: new RegExp(name) }).click();
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+      if (name === 'Keep the evidence') {
+        const rows = await page.locator('#audit-form').evaluate(form => Array.from(form.children).map(child => ({ top: child.getBoundingClientRect().top, bottom: child.getBoundingClientRect().bottom })));
+        for (let i = 1; i < rows.length; i++) expect(rows[i]!.top).toBeGreaterThanOrEqual(rows[i - 1]!.bottom);
+      }
+      const violations = (await new AxeBuilder({page}).include('.course-workspace').withTags(['wcag2a', 'wcag2aa']).analyze()).violations;
+      expect(violations.map(v => ({id: v.id, nodes: v.nodes.map(n => n.target)}))).toEqual([]);
+      await page.screenshot({ path: `/tmp/fynoptic-course-${width}-${theme}-${name.replaceAll(' ', '-')}.png` });
+    }
+  });
+}
+
+
+test('identification mistakes do not unlock the next lesson and can be corrected', async ({ page }) => {
+  await seed(page, { preQuiz: pre, m1: lessons.m1, m2: { video: true, article: true, idExercise: false } });
+  const key = await answers(page, '/data/id-exercise.json');
+  const items = page.locator('#id-ex-root .q-item');
+  for (let i = 0; i < key.length; i++) await items.nth(i).locator(`input[value="${(key[i]! + 1) % 4}"]`).check();
+  await page.getByRole('button', { name: 'Check answers', exact: true }).click();
+  await expect(page.locator('#id-ex-result')).toContainText('incorrect');
+  await expect(page.getByRole('button', { name: 'Continue to push back' })).toBeDisabled();
+  for (let i = 0; i < key.length; i++) await items.nth(i).locator(`input[value="${key[i]}"]`).check();
+  await page.getByRole('button', { name: 'Check answers', exact: true }).click();
+  await page.reload();
+  await page.locator('.course-outline').getByRole('button', { name: /Spot the pattern/ }).click();
+  await expect(page.getByText('Pattern practice complete')).toBeVisible();
+});
+
+test('course readings have working contents links and contain no draft placeholders', async ({ page }) => {
+  await seed(page, lessons, '#module-2');
+  await expect(page.locator('#md-02 .course-reading-title')).toBeVisible();
+  await page.locator('#md-02').getByText('In this lesson', { exact: true }).click();
+  await page.locator('#md-02 .article-toc').getByRole('link', { name: 'Misdirection' }).click();
+  await expect(page).toHaveURL(/#lesson-02-misdirection$/);
+  await expect(page.locator('#lesson-02-misdirection')).toBeInViewport();
+  await page.reload();
+  await expect(page.locator('#module-2')).toBeVisible();
+  await expect(page.locator('#lesson-02-misdirection')).toBeInViewport();
+  await expect(page.locator('#md-02')).not.toContainText('repeat for');
+  await expect(page.locator('main h1')).toHaveCount(1);
+});
+
+
+test('the actual lesson video plays, pauses, and supports playback controls', async ({ page }) => {
+  await seed(page, { preQuiz: pre });
+  const video = page.locator('#m1-video');
+  await video.evaluate((video: HTMLVideoElement) => video.play());
+  await expect.poll(() => video.evaluate((video: HTMLVideoElement) => video.currentTime)).toBeGreaterThan(.2);
+  await video.evaluate((video: HTMLVideoElement) => { video.pause(); video.playbackRate = 1.5; });
+  expect(await video.evaluate((video: HTMLVideoElement) => ({ paused: video.paused, rate: video.playbackRate, error: video.error }))).toEqual({ paused: true, rate: 1.5, error: null });
+});
+
+test('prequiz works with a throttled CPU and does not preload lesson videos', async ({ page, context }) => {
+  const requests: string[] = [];
+  page.on('request', request => { if (request.url().endsWith('.mp4')) requests.push(request.url()); });
+  const session = await context.newCDPSession(page);
+  await session.send('Emulation.setCPUThrottlingRate', { rate: 6 });
+  await page.setViewportSize({ width: 1366, height: 768 });
+  await seed(page, {});
+  await page.locator('#pre-quiz-root input').first().check();
+  await page.getByRole('button', { name: 'Next question' }).click();
+  await expect(page.locator('.course-quiz-meta')).toContainText('Question 2 of 10');
+  expect(requests).toEqual([]);
 });

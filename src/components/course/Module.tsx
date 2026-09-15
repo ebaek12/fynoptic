@@ -1,39 +1,6 @@
-// One component for all 4 course modules, per CourseOne.tsx's `ModuleProps`
-// discriminated union. Replaces src/islands/course-one.ts's loadM1..loadM4
-// (952-1136) minus the identification exercise (IdExercise.tsx, module 2)
-// and the audit form (RiskAudit.tsx, module 4) — both siblings mounted
-// separately by CourseOne.tsx, per its own comments.
-//
-// Unit 4 has no video field in CourseState (m4: { article, auditSubmitted,
-// auditId } — no `video`), because courseone.astro's module-4 section never
-// had a <video> element in the first place (courseone.astro:270-279). The
-// `unit === 4` branch below never renders a video-wrap, never calls
-// useVideoGate, and never destructures `videoDone`/`onVideoDone` off props
-// (TS's discriminated union on `unit` makes reading those a compile error in
-// that branch, not just a runtime omission).
-//
-// Article loading (fetch -> renderArticleHtml -> dangerouslySetInnerHTML
-// once) and "mark as read" unlock-on-scroll-to-bottom
-// (loadMarkdownSmart, course-one.ts:277-357) apply identically to all 4
-// units, so they're one small hook (`useArticleGate`) below instead of
-// repeated per-unit.
-//
-// Idempotent by construction (per the foundation agent's guidance in
-// CourseOne.tsx): the fetch effect is gated on `html !== null` — the real
-// target state — not a separate `loaded` boolean latch, and cancels itself
-// via a `cancelled` flag; the IntersectionObserver effect is a symmetric
-// attach-in-effect/observe-once/disconnect-in-cleanup, safe to run twice
-// under StrictMode's dev-only double-invoke.
-//
-// NOT ported: loadMarkdownSmart's file:// <iframe> fallback
-// (course-one.ts:307-356). It exists only for opening the static HTML
-// directly off disk with fetch() blocked by the browser; this page is
-// always served by Astro (dev server or built output), never file://, so
-// that branch is unreachable here. On a fetch failure we show a plain
-// error message instead and leave "mark as read" disabled.
-import { useEffect, useRef, useState, type RefObject } from 'react';
+import { memo, useEffect, useRef, useState } from 'react';
 import type { ModuleProps } from './CourseOne';
-import { renderArticleHtml } from '../../lib/md-to-html';
+import { renderCourseArticleHtml } from '../../lib/md-to-html';
 import { useVideoGate } from '../../hooks/useVideoGate';
 import { showToast } from '../../lib/toast';
 import { track } from '../../lib/track';
@@ -46,63 +13,34 @@ async function fetchText(path: string): Promise<string> {
 
 /* ─────────────────────────
    Article fetch + scroll-to-end gate (course-one.ts:277-357, minus the
-   file:// iframe fallback — see file header).
+   file:// iframe fallback - see file header).
 ─────────────────────────── */
-function useArticleGate(mdPath: string, locked: boolean): {
-  html: string | null;
-  mountRef: RefObject<HTMLDivElement | null>;
-  scrolledToEnd: boolean;
-} {
+function useArticleGate(mdPath: string, locked: boolean) {
   const [html, setHtml] = useState<string | null>(null);
+  const [failed, setFailed] = useState(false);
   const [scrolledToEnd, setScrolledToEnd] = useState(false);
-  const mountRef = useRef<HTMLDivElement>(null);
-
-  // Fetch: gated on the real target state (`html !== null`), not a boolean
-  // latch — a second StrictMode invoke sees html is still null and starts a
-  // second fetch, but `cancelled` ensures only one of them ever calls
-  // setHtml.
+  const endRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    if (locked || html !== null) return;
+    if (locked || html !== null || failed) return;
     let cancelled = false;
-    fetchText(mdPath)
-      .then((text) => {
-        if (!cancelled) setHtml(renderArticleHtml(text));
-      })
-      .catch(() => {
-        if (!cancelled) setHtml(`<div class="subtle">Couldn't load <code>${mdPath}</code>.</div>`);
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, [locked, html, mdPath]);
-
-  // Unlock "mark as read" once the last rendered element scrolls fully into
-  // view — symmetric observe/disconnect, safe to run twice under StrictMode.
+    fetchText(mdPath).then(text => {
+      if (!text.trim()) throw new Error('Empty lesson');
+      if (!cancelled) setHtml(renderCourseArticleHtml(text, mdPath.split("/").pop()!.slice(0, 2)));
+    }).catch(() => { if (!cancelled) setFailed(true); });
+    return () => { cancelled = true; };
+  }, [locked, html, mdPath, failed]);
   useEffect(() => {
-    if (html === null) return;
-    const mountEl = mountRef.current;
-    if (!mountEl) return;
-    const target = mountEl.lastElementChild ?? mountEl;
-    const io = new IntersectionObserver(
-      (entries) => {
-        if (entries.some((e) => e.isIntersecting)) {
-          setScrolledToEnd(true);
-          io.disconnect();
-        }
-      },
-      { threshold: 1.0 },
-    );
-    io.observe(target);
-    return () => io.disconnect();
+    if (!html || !endRef.current) return;
+    if (!('IntersectionObserver' in window)) { setScrolledToEnd(true); return; }
+    const observer = new IntersectionObserver(entries => {
+      if (entries.some(entry => entry.isIntersecting)) { setScrolledToEnd(true); observer.disconnect(); }
+    });
+    observer.observe(endRef.current);
+    return () => observer.disconnect();
   }, [html]);
-
-  return { html, mountRef, scrolledToEnd };
+  return { html, endRef, scrolledToEnd, failed, retry: () => setFailed(false) };
 }
 
-/* ─────────────────────────
-   Static per-unit content — ported verbatim from courseone.astro's
-   module-1..4 markup (lines 144-279).
-─────────────────────────── */
 interface VideoContent {
   id: string;
   ariaLabel: string;
@@ -127,14 +65,14 @@ interface ModuleContent {
 const MODULE_CONTENT: Record<1 | 2 | 3 | 4, ModuleContent> = {
   1: {
     headingId: 'm1-title',
-    heading: 'Module 1 — Foundations (10–12 minutes)',
-    subtitle: 'Components: 1 short video (2:00), 1 article (~700 words)',
+    heading: 'Why the design matters.',
+    subtitle: 'Start with the video or its notes, then learn a quick way to check the choices a page puts in front of you.',
     video: {
       id: 'm1-video',
-      ariaLabel: 'Video 1 — Why dark patterns exist (2:00)',
+      ariaLabel: 'Video 1 - Why dark patterns exist (2:00)',
       src: '/assets/video/video1.mp4',
       showFallbackText: true,
-      transcriptHeading: 'Video 1 — “Why dark patterns exist” (2:00)',
+      transcriptHeading: 'Video 1 - “Why dark patterns exist” (2:00)',
       transcriptParagraphs: [
         '0:00–0:20: Companies test every click. Small lifts in conversion or retention compound into real money.',
         '0:20–0:40: Dark patterns are design choices that push you toward outcomes you didn’t intend. They cluster in sign-ups, checkouts, and cancellations.',
@@ -143,7 +81,6 @@ const MODULE_CONTENT: Record<1 | 2 | 3 | 4, ModuleContent> = {
         '1:40–2:00: In this course you’ll learn a fast scan method, standard counter-moves, and a lightweight documentation routine.',
       ],
     },
-    articleHeading: 'Article A — “A fast scan method that works”',
     articleWrapperClass: 'content-card mt-1',
     mdMountId: 'md-01',
     markReadId: 'm1-mark-read',
@@ -151,14 +88,14 @@ const MODULE_CONTENT: Record<1 | 2 | 3 | 4, ModuleContent> = {
   },
   2: {
     headingId: 'm2-title',
-    heading: 'Module 2 — Pattern families (25–30 minutes)',
-    subtitle: 'Components: 1 explainer article (~1,100–1,300 words), 1 micro-video (1:30), 1 lightweight identification exercise',
+    heading: 'Put a name to the trick.',
+    subtitle: 'Learn the common patterns, then practice spotting them in everyday situations.',
     video: {
       id: 'm2-video',
-      ariaLabel: 'Micro-video 2 — The eight families in 90 seconds (1:30)',
+      ariaLabel: 'Micro-video 2 - The eight families in 90 seconds (1:30)',
       src: '/assets/video/video2.mp4',
       showFallbackText: false,
-      transcriptHeading: 'Micro-video 2 — “The eight families in 90 seconds” (1:30)',
+      transcriptHeading: 'Micro-video 2 - “The eight families in 90 seconds” (1:30)',
       transcriptParagraphs: [
         'Obstruction (extra steps or narrow windows).',
         'Forced action (bundle unrelated consent).',
@@ -177,14 +114,14 @@ const MODULE_CONTENT: Record<1 | 2 | 3 | 4, ModuleContent> = {
   },
   3: {
     headingId: 'm3-title',
-    heading: 'Module 3 — Counter-moves (20–25 minutes)',
-    subtitle: 'Components: 1 article (~1,200–1,400 words), 1 short “scripts” micro-video (1:40), optional text chat practice (3 prompts)',
+    heading: 'Know your next move.',
+    subtitle: 'Get clear on opting out, cancelling, and asking a company to put things right.',
     video: {
       id: 'm3-video',
-      ariaLabel: 'Micro-video 3 — The three actions that fix most situations (1:40)',
+      ariaLabel: 'Micro-video 3 - The three actions that fix most situations (1:40)',
       src: '/assets/video/video3.mp4',
       showFallbackText: false,
-      transcriptHeading: 'Micro-video 3 — “The three actions that fix most situations” (1:40)',
+      transcriptHeading: 'Micro-video 3 - “The three actions that fix most situations” (1:40)',
       transcriptParagraphs: [
         'Opt-out cleanly (find and uncheck; use site settings; confirm by email).',
         'Cancel decisively (use the required channel once; include the essentials; log proof).',
@@ -198,8 +135,8 @@ const MODULE_CONTENT: Record<1 | 2 | 3 | 4, ModuleContent> = {
   },
   4: {
     headingId: 'm4-title',
-    heading: 'Module 4 — Documentation & evidence (10–12 minutes)',
-    subtitle: 'Components: 1 article (~800–1,000 words), guided form that generates the “Risk Audit” (required for certificate)',
+    heading: 'Keep a useful record.',
+    subtitle: 'Learn what to save, then make a record of a real or example situation. Finish the article and the form to open the final quiz.',
     articleWrapperClass: 'content-card',
     mdMountId: 'md-04',
     markReadId: 'm4-mark-read',
@@ -208,25 +145,44 @@ const MODULE_CONTENT: Record<1 | 2 | 3 | 4, ModuleContent> = {
 };
 
 /* ─────────────────────────
-   Article card — shared by all 4 units.
+   Article card - shared by all 4 units.
 ─────────────────────────── */
+// Keep the reading DOM stable when progress changes, preserving open contents and anchor targets.
+const LessonBody = memo(function LessonBody({ id, html }: { id: string; html: string }) {
+  const ref = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    let live = true;
+    document.fonts.ready.then(() => {
+      if (!live || !location.hash.startsWith('#lesson-')) return;
+      const target = document.getElementById(location.hash.slice(1));
+      if (target && ref.current?.contains(target) && target.getClientRects().length) {
+        target.scrollIntoView({ behavior: 'instant', block: 'start' });
+      }
+    });
+    return () => { live = false; };
+  }, [html]);
+  return <div id={id} ref={ref} className="md" dangerouslySetInnerHTML={{ __html: html }} />;
+});
+
 function ArticleCard({
   unit,
   content,
   mdPath,
   locked,
   onArticleDone,
+  articleDone,
 }: {
   unit: 1 | 2 | 3 | 4;
   content: ModuleContent;
   mdPath: string;
   locked: boolean;
   onArticleDone: () => void;
+  articleDone: boolean;
 }) {
-  const { html, mountRef, scrolledToEnd } = useArticleGate(mdPath, locked);
+  const { html, endRef, scrolledToEnd, failed, retry } = useArticleGate(mdPath, locked);
 
   function handleMarkRead(): void {
-    if (!scrolledToEnd) {
+    if (!html || !scrolledToEnd || articleDone) {
       showToast('Scroll to the end first.', 'error');
       return;
     }
@@ -238,88 +194,41 @@ function ArticleCard({
   return (
     <article className={content.articleWrapperClass}>
       {content.articleHeading && <h3>{content.articleHeading}</h3>}
-      <div id={content.mdMountId} className="md" aria-live="polite" ref={mountRef} dangerouslySetInnerHTML={{ __html: html ?? '' }} />
+      {failed ? <div className="course-load-state" role="alert"><p>This lesson couldn’t load. Check your connection and try again.</p><button className="course-button" onClick={retry}>Try loading again</button></div> : html === null ? <p role="status">Loading lesson…</p> : <>
+        <LessonBody id={content.mdMountId} html={html} />
+        <div ref={endRef} className="course-article-end" aria-hidden="true" />
+      </>}
       <div className="gate">
         <button
           id={content.markReadId}
           className="btn btn-ghost"
           type="button"
-          disabled={!scrolledToEnd}
-          aria-disabled={!scrolledToEnd}
+          disabled={articleDone || !html || !scrolledToEnd}
+          aria-disabled={articleDone || !html || !scrolledToEnd}
           onClick={handleMarkRead}
         >
-          Mark Article as Read
+          {articleDone ? "Article completed" : "Mark article as read"}
         </button>
-        {content.showArticleLocknote && <span className="locknote">Article must be loaded and scrolled.</span>}
+        <span className="locknote">{articleDone ? "Saved to your progress." : "Read to the end to mark this lesson complete."}</span>
       </div>
     </article>
   );
 }
 
 /* ─────────────────────────
-   Video card (units 1-3 only) — course-one.ts:360-463's gateVideo(),
+   Video card (units 1-3 only) - course-one.ts:360-463's gateVideo(),
    encapsulated in useVideoGate; the overlay is now plain conditional JSX.
 ─────────────────────────── */
-function VideoCard({ video, locked, onVideoDone }: { video: VideoContent; locked: boolean; onVideoDone: () => void }) {
+function VideoCard({ video, locked, videoDone, onVideoDone }: { video: VideoContent; locked: boolean; videoDone: boolean; onVideoDone: () => void }) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const { showOverlay, controls, onPlayClick } = useVideoGate(videoRef, onVideoDone, locked);
-
-  return (
-    <div className="video-wrap" style={{ position: 'relative' }}>
-      <video
-        id={video.id}
-        ref={videoRef}
-        controls={controls}
-        preload="metadata"
-        aria-label={video.ariaLabel}
-        controlsList="nodownload noplaybackrate noremoteplayback"
-        disablePictureInPicture
-        style={{ display: 'block', margin: '0 auto', maxWidth: '960px', width: '100%', height: 'auto', objectFit: 'contain' }}
-      >
-        <source src={video.src} type="video/mp4" />
-        {video.showFallbackText && 'Your browser does not support the video tag.'}
-      </video>
-      {showOverlay && (
-        <button
-          type="button"
-          aria-label="Play video"
-          onClick={onPlayClick}
-          style={{
-            position: 'absolute',
-            inset: 0,
-            display: 'grid',
-            placeItems: 'center',
-            border: 0,
-            background: 'linear-gradient(180deg, rgba(0,0,0,.35), rgba(0,0,0,.35))',
-            cursor: 'pointer',
-            borderRadius: '16px',
-            zIndex: 5,
-          }}
-        >
-          <div
-            style={{
-              width: '96px',
-              height: '96px',
-              borderRadius: '50%',
-              background: 'rgba(255,255,255,.9)',
-              boxShadow: '0 8px 40px rgba(0,0,0,.35)',
-              display: 'grid',
-              placeItems: 'center',
-            }}
-          >
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="#111">
-              <path d="M8 5v14l11-7z" />
-            </svg>
-          </div>
-        </button>
-      )}
-    </div>
-  );
+  const { failed, retry } = useVideoGate(videoRef, onVideoDone, locked, videoDone);
+  return <div className="course-video-card">
+    <div className="course-activity-label"><span>Watch the lesson</span><span>{videoDone ? 'Complete' : 'Video or text notes'}</span></div>
+    <video id={video.id} ref={videoRef} src={video.src} poster={video.src.replace("/video/", "/img/").replace(".mp4", "-poster.svg")} controls playsInline preload="none" aria-label={video.ariaLabel} />
+    {failed && <div className="course-load-state" role="alert"><p>The video couldn’t load. Try again, or use the text notes below to complete this part.</p><button className="course-button secondary" onClick={retry}>Retry video</button></div>}
+  </div>;
 }
 
-/* ─────────────────────────
-   Script Drills (unit 3 only) — course-one.ts:1028-1044.
-─────────────────────────── */
 function ScriptDrills({ onDrillsChecked }: { onDrillsChecked?: () => void }) {
   const drillsRef = useRef<HTMLTextAreaElement>(null);
   const [checklist, setChecklist] = useState('');
@@ -342,12 +251,14 @@ function ScriptDrills({ onDrillsChecked }: { onDrillsChecked?: () => void }) {
 
   return (
     <div className="content-card mt-1">
-      <h3>“Script Drills” (optional)</h3>
+      <h3>Try writing the message</h3>
+      <p className="course-muted">Optional practice. These prompts won’t affect your course progress.</p>
       <ol className="md">
         <li>You see a “pause” trap. Draft two sentences rejecting it and asking for a hard cancel.</li>
         <li>You returned an item; merchant says “refund pending.” Draft the exact one-paragraph follow-up quoting policy.</li>
         <li>Agent refuses to email confirmation. Draft the post-call email that documents the call.</li>
       </ol>
+      <label htmlFor="drills">Your draft messages</label>
       <textarea id="drills" ref={drillsRef} rows={6} placeholder="Paste your drafts here…" className="drills-textarea" />
       <div id="drill-checklist" className="drawer subtle">
         {checklist}
@@ -360,19 +271,19 @@ function ScriptDrills({ onDrillsChecked }: { onDrillsChecked?: () => void }) {
 }
 
 /* ─────────────────────────
-   Transcript card — units 1-3 only, identical shape per unit.
+   Transcript card - units 1-3 only, identical shape per unit.
 ─────────────────────────── */
-function TranscriptCard({ video }: { video: VideoContent }) {
+function TranscriptCard({ video, done, onComplete }: { video: VideoContent; done: boolean; onComplete: () => void }) {
   return (
     <div className="transcript content-card mt-1">
-      <h3>{video.transcriptHeading}</h3>
       <details>
-        <summary>View Transcript</summary>
+        <summary>Prefer to read? Open the video notes</summary>
         <div className="md mt-05">
           {video.transcriptParagraphs.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
         </div>
+        <button className="course-button secondary" disabled={done} onClick={onComplete}>{done ? 'Video notes completed' : 'I’ve read the video notes'}</button>
       </details>
     </div>
   );
@@ -383,17 +294,18 @@ export function Module(props: ModuleProps) {
 
   return (
     <>
-      <h2 id={content.headingId}>{content.heading}</h2>
-      <p className="subtle">{content.subtitle}</p>
+      <span className="course-eyebrow">Module {props.unit} of 4</span>
+      <h2 tabIndex={-1} id={content.headingId}>{content.heading}</h2>
+      <p className="course-intro">{content.subtitle}</p>
 
       {props.unit !== 4 && content.video && (
         <>
-          <VideoCard video={content.video} locked={props.locked} onVideoDone={props.onVideoDone} />
-          <TranscriptCard video={content.video} />
+          <VideoCard video={content.video} videoDone={props.videoDone} locked={props.locked} onVideoDone={props.onVideoDone} />
+          <TranscriptCard video={content.video} done={props.videoDone} onComplete={props.onVideoDone} />
         </>
       )}
 
-      <ArticleCard unit={props.unit} content={content} mdPath={props.mdPath} locked={props.locked} onArticleDone={props.onArticleDone} />
+      <ArticleCard articleDone={props.articleDone} unit={props.unit} content={content} mdPath={props.mdPath} locked={props.locked} onArticleDone={props.onArticleDone} />
 
       {props.unit === 3 && <ScriptDrills onDrillsChecked={props.onDrillsChecked} />}
     </>

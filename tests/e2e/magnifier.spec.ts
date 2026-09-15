@@ -13,7 +13,6 @@ async function scrollDive(page: Page, progress: number) {
 
 for (const viewport of [
   { width: 1440, height: 900 },
-  { width: 390, height: 844 },
 ]) {
   test(`magnifier fills the screen, reverses, and releases to learning at ${viewport.width}px`, async ({
     page,
@@ -155,7 +154,7 @@ for (const viewport of [
       await page.evaluate(() => document.documentElement.scrollHeight),
     ).toBe(beforeLanding.documentHeight);
     await expect(
-      page.getByRole("link", { name: "Explore Courses", exact: true }),
+      page.locator('.learning-card[href="/courses"]'),
     ).toBeInViewport();
     expect(
       await courseLink.evaluate((el) => el.getBoundingClientRect().width),
@@ -186,15 +185,10 @@ for (const viewport of [
     // The revealed section is already live at the end, without another scroll
     // to find it or a second copy of the heading/controls being swapped in.
     await expect(page.locator("#rack-heading")).toHaveCount(1);
-    await page
-      .getByRole(viewport.width < 900 ? "tab" : "button", {
-        name: "Practice",
-        exact: true,
-      })
-      .click();
-    await expect(
-      page.getByRole("link", { name: "Explore Practice", exact: true }),
-    ).toBeInViewport();
+    const practice = page.locator('.learning-card[href="/practice"]');
+    await practice.scrollIntoViewIfNeeded();
+    await expect(practice).toBeInViewport();
+    await expect(page.locator('.magnifier-portal')).not.toHaveAttribute('inert');
 
     await scrollDive(page, 0);
     await expect
@@ -212,10 +206,7 @@ for (const viewport of [
     await page.keyboard.press("Enter");
     await expect(page).toHaveURL(/#learning$/);
     await expect(
-      page.getByRole("link", {
-        name: viewport.width < 900 ? "Explore Practice" : "Explore Courses",
-        exact: true,
-      }),
+      page.locator('.learning-card[href="/courses"]'),
     ).toBeInViewport();
     expect(errors).toEqual([]);
   });
@@ -255,7 +246,7 @@ test("reduced motion removes zoom and the long scroll runway, including a live p
     "relative",
   );
   await expect(page.locator("[data-rack-track]")).toHaveCount(0);
-  await expect(page.locator('#learning [role="tab"]')).toHaveCount(4);
+  await expect(page.locator('#learning .learning-card')).toHaveCount(4);
   await expect(page.locator('header[role="banner"]')).not.toHaveAttribute(
     "inert",
   );
@@ -265,7 +256,7 @@ test("reduced motion removes zoom and the long scroll runway, including a live p
   );
   await page.locator("#learning").scrollIntoViewIfNeeded();
   await expect(
-    page.getByRole("link", { name: "Explore Courses", exact: true }),
+    page.locator('.learning-card[href="/courses"]'),
   ).toBeVisible();
 });
 
@@ -285,7 +276,7 @@ test("without JavaScript the illustration and learning content stay in normal fl
       .evaluate((el) => el.clientHeight <= innerHeight),
   ).toBe(true);
   await expect(
-    page.getByRole("link", { name: "Explore Courses", exact: true }),
+    page.locator('.learning-card[href="/courses"]'),
   ).toBeVisible();
   await context.close();
 });
@@ -306,7 +297,7 @@ test("fast wheel momentum lands on Courses briefly, then lets scrolling continue
   expect(await page.evaluate(() => scrollY)).toBe(landingY);
   await expect(experience).toHaveAttribute("data-phase", "complete");
   await expect(
-    page.getByRole("link", { name: "Explore Courses", exact: true }),
+    page.locator('.learning-card[href="/courses"]'),
   ).toBeInViewport();
   await expect(page.locator(".magnifier-content")).toHaveCSS(
     "transform",
@@ -347,57 +338,14 @@ test("the landing yields immediately to reverse scrolling and keyboard navigatio
   await expect(page.locator("footer")).toBeInViewport();
 });
 
-test("a mobile swipe lands on the first learning panel and releases without a scroll lock", async ({
-  browser,
-}) => {
-  const context = await browser.newContext({
-    viewport: { width: 390, height: 844 },
-    isMobile: true,
-    hasTouch: true,
-  });
+test("mobile touch navigation reaches resources without a pinned introduction", async ({ browser }) => {
+  const context = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
   const page = await context.newPage();
   await page.goto(test.info().project.use.baseURL!);
-  const experience = page.locator(".magnifier-experience");
-  await expect(experience).toHaveAttribute("data-animated", "true");
-  await scrollDive(page, 0.9);
-  const cdp = await context.newCDPSession(page);
-  await cdp.send("Input.dispatchTouchEvent", {
-    type: "touchStart",
-    touchPoints: [{ x: 190, y: 720 }],
-  });
-  await cdp.send("Input.dispatchTouchEvent", {
-    type: "touchMove",
-    touchPoints: [{ x: 190, y: 620 }],
-  });
-  await cdp.send("Input.dispatchTouchEvent", {
-    type: "touchMove",
-    touchPoints: [{ x: 190, y: 150 }],
-  });
-  await cdp.send("Input.dispatchTouchEvent", {
-    type: "touchEnd",
-    touchPoints: [],
-  });
-  await expect(experience).toHaveAttribute("data-settling", "true");
-  await expect(experience).toHaveAttribute("data-phase", "complete");
-  await expect(
-    page.getByRole("link", { name: "Explore Courses", exact: true }),
-  ).toBeInViewport();
-  await expect(experience).not.toHaveAttribute("data-settling");
-  const landingY = await page.evaluate(() => scrollY);
-  await cdp.send("Input.dispatchTouchEvent", {
-    type: "touchStart",
-    touchPoints: [{ x: 190, y: 720 }],
-  });
-  await cdp.send("Input.dispatchTouchEvent", {
-    type: "touchMove",
-    touchPoints: [{ x: 190, y: 250 }],
-  });
-  await cdp.send("Input.dispatchTouchEvent", {
-    type: "touchEnd",
-    touchPoints: [],
-  });
-  await expect
-    .poll(() => page.evaluate(() => scrollY))
-    .toBeGreaterThan(landingY + 100);
+  await expect(page.locator('.magnifier-transition')).toBeHidden();
+  const courses = page.locator('.learning-card[href="/courses"]');
+  await courses.scrollIntoViewIfNeeded();
+  await courses.tap();
+  await expect(page).toHaveURL(/\/courses$/);
   await context.close();
 });

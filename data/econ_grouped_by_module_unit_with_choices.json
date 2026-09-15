@@ -658,11 +658,11 @@
           "question": "What is the main limitation of the simple AS\u2013AD framework?",
           "choices": [
             "disinflation",
-            "Lacks microfoundations and dynamics\u2014static depiction only",
+            "Lacks microfoundations and dynamics - static depiction only",
             "aggregate demand curve",
             "money supply curve"
           ],
-          "answer": "Lacks microfoundations and dynamics\u2014static depiction only"
+          "answer": "Lacks microfoundations and dynamics - static depiction only"
         }
       ],
       "hard": [
@@ -683,10 +683,10 @@
           "choices": [
             "money demand curve shifts right",
             "money supply curve shifts right",
-            "No long-run trade-off\u2014unemployment is at the natural rate regardless of inflation",
+            "No long-run trade-off - unemployment is at the natural rate regardless of inflation",
             "Phillips curve shifts right"
           ],
-          "answer": "No long-run trade-off\u2014unemployment is at the natural rate regardless of inflation"
+          "answer": "No long-run trade-off - unemployment is at the natural rate regardless of inflation"
         },
         {
           "id": "econ-1-h-0003",
@@ -750,20 +750,20 @@
             "discretionary policy",
             "inflation",
             "stagflation",
-            "Smaller\u2014Ricardian equivalence, consumers anticipate future deficits"
+            "Smaller - Ricardian equivalence, consumers anticipate future deficits"
           ],
-          "answer": "Smaller\u2014Ricardian equivalence, consumers anticipate future deficits"
+          "answer": "Smaller - Ricardian equivalence, consumers anticipate future deficits"
         },
         {
           "id": "econ-1-h-0009",
           "question": "If the central bank credibly commits to a higher inflation target, what happens to the long-run Phillips curve?",
           "choices": [
-            "No shift; natural rate unchanged\u2014but actual inflation rises",
+            "No shift; natural rate unchanged - but actual inflation rises",
             "expansionary fiscal policy",
             "output gap",
             "money supply curve"
           ],
-          "answer": "No shift; natural rate unchanged\u2014but actual inflation rises"
+          "answer": "No shift; natural rate unchanged - but actual inflation rises"
         },
         {
           "id": "econ-1-h-0010",
@@ -893,9 +893,9 @@
             "automatic stabilizers",
             "contractionary fiscal policy",
             "expansionary monetary policy",
-            "No\u2014only unanticipated policy affects real variables"
+            "No - only unanticipated policy affects real variables"
           ],
-          "answer": "No\u2014only unanticipated policy affects real variables"
+          "answer": "No - only unanticipated policy affects real variables"
         },
         {
           "id": "econ-1-h-0022",
@@ -1912,10 +1912,10 @@
           "choices": [
             "Phillips curve shifts right",
             "aggregate demand curve shifts right",
-            "Lost\u2014must adjust base to maintain the peg",
+            "Lost - must adjust base to maintain the peg",
             "IS curve shifts right"
           ],
-          "answer": "Lost\u2014must adjust base to maintain the peg"
+          "answer": "Lost - must adjust base to maintain the peg"
         },
         {
           "id": "econ-2-h-0027",
@@ -2070,10 +2070,10 @@
           "choices": [
             "IS curve shifts right",
             "long-run aggregate supply (LRAS) shifts right",
-            "A repurchase agreement\u2014Fed lends reserves against government securities collateral",
+            "A repurchase agreement - Fed lends reserves against government securities collateral",
             "money supply curve shifts right"
           ],
-          "answer": "A repurchase agreement\u2014Fed lends reserves against government securities collateral"
+          "answer": "A repurchase agreement - Fed lends reserves against government securities collateral"
         },
         {
           "id": "econ-3-e-0013",
@@ -2622,10 +2622,10 @@
           "choices": [
             "boom",
             "money demand curve",
-            "Corridor inverts or collapses\u2014unusual situation",
+            "Corridor inverts or collapses - unusual situation",
             "long-run aggregate supply (LRAS)"
           ],
-          "answer": "Corridor inverts or collapses\u2014unusual situation"
+          "answer": "Corridor inverts or collapses - unusual situation"
         },
         {
           "id": "econ-3-m-0029",
@@ -2933,9 +2933,9 @@
             "Left",
             "Down",
             "Right",
-            "The supply of reserves\u2014TGA withdrawals add, deposits drain"
+            "The supply of reserves - TGA withdrawals add, deposits drain"
           ],
-          "answer": "The supply of reserves\u2014TGA withdrawals add, deposits drain"
+          "answer": "The supply of reserves - TGA withdrawals add, deposits drain"
         },
         {
           "id": "econ-3-h-0024",
@@ -3575,11 +3575,11 @@
           "question": "What is \u201cbracket creep\u201d?",
           "choices": [
             "LM curve shifts right",
-            "Same as fiscal drag\u2014taxpayers move into higher brackets due to nominal income growth",
+            "Same as fiscal drag - taxpayers move into higher brackets due to nominal income growth",
             "money demand curve shifts right",
             "Phillips curve shifts right"
           ],
-          "answer": "Same as fiscal drag\u2014taxpayers move into higher brackets due to nominal income growth"
+          "answer": "Same as fiscal drag - taxpayers move into higher brackets due to nominal income growth"
         },
         {
           "id": "econ-4-m-0021",
@@ -3621,20 +3621,20 @@
             "IS curve shifts right",
             "money demand curve shifts right",
             "short-run aggregate supply (SRAS) shifts right",
-            "Equivalent to cyclically adjusted balance\u2014balance net of cycle"
+            "Equivalent to cyclically adjusted balance - balance net of cycle"
           ],
-          "answer": "Equivalent to cyclically adjusted balance\u2014balance net of cycle"
+          "answer": "Equivalent to cyclically adjusted balance - balance net of cycle"
         },
         {
           "id": "econ-4-m-0025",
           "question": "What is the impact of spending multipliers in open economies?",
           "choices": [
             "NAIRU",
-            "Smaller\u2014leakage via net imports reduces multiplier",
+            "Smaller - leakage via net imports reduces multiplier",
             "Phillips curve",
             "LM curve"
           ],
-          "answer": "Smaller\u2014leakage via net imports reduces multiplier"
+          "answer": "Smaller - leakage via net imports reduces multiplier"
         },
         {
           "id": "econ-4-m-0026",
@@ -5805,10 +5805,10 @@
           "choices": [
             "IS curve shifts right",
             "short-run aggregate supply (SRAS) shifts right",
-            "Deters entry\u2014incumbent has cost advantage at all Q.",
+            "Deters entry - incumbent has cost advantage at all Q.",
             "long-run aggregate supply (LRAS) shifts right"
           ],
-          "answer": "Deters entry\u2014incumbent has cost advantage at all Q."
+          "answer": "Deters entry - incumbent has cost advantage at all Q."
         },
         {
           "id": "econ-module6marketstructurescosts-h-0022",
@@ -6129,9 +6129,9 @@
             "money demand curve",
             "long-run aggregate supply (LRAS)",
             "LM curve",
-            "None\u2014only average costs rise"
+            "None - only average costs rise"
           ],
-          "answer": "None\u2014only average costs rise"
+          "answer": "None - only average costs rise"
         },
         {
           "id": "econ-module7consumerproducertheory-e-0026",
@@ -7235,11 +7235,11 @@
           "question": "What is the London clearing bank for eurodollars?",
           "choices": [
             "boom",
-            "No single bank\u2014shared by participants; conceptually the London market",
+            "No single bank - shared by participants; conceptually the London market",
             "automatic stabilizers",
             "long-run aggregate supply (LRAS)"
           ],
-          "answer": "No single bank\u2014shared by participants; conceptually the London market"
+          "answer": "No single bank - shared by participants; conceptually the London market"
         },
         {
           "id": "econ-module8financialmarketsinstruments-e-0029",
@@ -7269,10 +7269,10 @@
           "choices": [
             "aggregate demand curve shifts right",
             "money demand curve shifts right",
-            "Planned amortization class (PAC) or companion\u2014structure\u2010dependent",
+            "Planned amortization class (PAC) or companion - structure\u2010dependent",
             "short-run aggregate supply (SRAS) shifts right"
           ],
-          "answer": "Planned amortization class (PAC) or companion\u2014structure\u2010dependent"
+          "answer": "Planned amortization class (PAC) or companion - structure\u2010dependent"
         },
         {
           "id": "econ-module8financialmarketsinstruments-e-0032",
@@ -9222,9 +9222,9 @@
             "expansion",
             "aggregate demand curve",
             "recession",
-            "Typically need data\u2014too long for quiz bowl"
+            "Typically need data - too long for quiz bowl"
           ],
-          "answer": "Typically need data\u2014too long for quiz bowl"
+          "answer": "Typically need data - too long for quiz bowl"
         },
         {
           "id": "econ-module10quantitativedataskills-e-0008",

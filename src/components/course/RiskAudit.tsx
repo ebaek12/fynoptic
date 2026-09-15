@@ -1,30 +1,12 @@
-// React port of src/islands/course-one.ts's #audit-form submit handler
-// (course-one.ts:1065-1126), mounted as a sibling of <Module unit={4}>
-// inside #module-4 (see CourseOne.tsx's RiskAuditProps / RiskAuditPlaceholder
-// call site for the exact contract this component implements).
-//
-// `ff_risk_audits` (Appendix B) is a SEPARATE localStorage key from
-// CourseState — an append-only array of full audit entries. This component
-// owns reading/writing it directly via src/lib/storage.ts's
-// getRiskAudits/appendRiskAudit (following the getCourseProgress/
-// getArticlesRead convention already there), then calls `onSubmit(auditId)`
-// to update the shared CourseState (m4.auditSubmitted/auditId) through the
-// hook. The form itself intentionally does not read `auditSubmitted`/
-// `auditId` on mount — the original never restored a previous audit into
-// the form either; every submit (including a second one) appends a new
-// timestamped entry and is a legitimate action, not a resubmission guard.
-//
-// `#print-audit` (course-one.ts:1135) is dead code (Appendix E: the button
-// it binds to does not exist in the markup) and is not ported.
-import { useState, type FormEvent } from 'react';
-import { appendRiskAudit } from '../../lib/storage';
+import { useEffect, useRef, useState, type SubmitEvent } from 'react';
+import { appendRiskAudit, getRiskAudits, type RiskAuditEntry } from '../../lib/storage';
 import { showToast } from '../../lib/toast';
 import { track } from '../../lib/track';
 import type { RiskAuditProps } from './CourseOne';
 
 function fdStr(fd: FormData, key: string): string {
   const v = fd.get(key);
-  return typeof v === 'string' ? v : '';
+  return typeof v === 'string' ? v.trim() : '';
 }
 
 // Faithful port of course-one.ts:1078-1084's nextStep IIFE.
@@ -36,11 +18,25 @@ function nextStepFor(action: string): string {
   return 'Document and set a follow-up date.';
 }
 
-export function RiskAudit({ onSubmit }: RiskAuditProps) {
-  const [output, setOutput] = useState<string | null>(null);
-  const [actionsVisible, setActionsVisible] = useState(false);
+function auditSummary(entry: Omit<RiskAuditEntry, 'id' | 'dateISO'>): string {
+  return [
+    `Merchant/platform: ${entry.merchant}`, `Action attempted: ${entry.action}`, `Date/time: ${entry.date} via ${entry.channel}`,
+    `What you saw: ${entry.saw}`, `Pattern(s) observed: ${entry.patterns}`, `Evidence captured: ${entry.evidence}`,
+    'Next steps:', `1. ${nextStepFor(entry.action)}`, '2. Keep a copy of the response and follow up if the issue remains unresolved.',
+  ].join('\n');
+}
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>): void {
+export function RiskAudit({ onSubmit, auditId, auditSubmitted }: RiskAuditProps) {
+  const [saved] = useState(() => getRiskAudits().find(entry => entry.id === auditId));
+  const [output, setOutput] = useState<string | null>(() => saved ? auditSummary(saved) : null);
+  const [editing, setEditing] = useState(!saved);
+  const [error, setError] = useState('');
+  const errorRef = useRef<HTMLParagraphElement>(null);
+  const outputRef = useRef<HTMLDivElement>(null);
+  useEffect(() => { if (error) errorRef.current?.focus(); }, [error]);
+  useEffect(() => { if (output && !editing && outputRef.current?.getClientRects().length) outputRef.current.focus({ preventScroll: true }); }, [output, editing]);
+
+  function handleSubmit(e: SubmitEvent<HTMLFormElement>): void {
     e.preventDefault();
     const fd = new FormData(e.currentTarget);
     const merchant = fdStr(fd, 'merchant');
@@ -49,22 +45,14 @@ export function RiskAudit({ onSubmit }: RiskAuditProps) {
     const channel = fdStr(fd, 'channel');
     const saw = fdStr(fd, 'saw');
     const patterns = fd.getAll('patterns').map(String).join(', ');
-    const evidence = fd.getAll('evidence').map(String).join(', ') || '—';
-    const nextStep = nextStepFor(action);
-
-    const lines = [
-      `Merchant/platform: ${merchant}`,
-      `Action attempted: ${action}`,
-      `Date/time: ${date} via ${channel}`,
-      `What you saw: ${saw}`,
-      `Pattern(s) observed: ${patterns}`,
-      `Evidence captured: ${evidence}`,
-      `Next two actions:`,
-      `  1) ${nextStep}`,
-      `  2) If ignored, escalate to platform/payment rails with your proof pack.`,
-    ];
-    setOutput(lines.join('\n'));
-    setActionsVisible(true);
+    const evidence = fd.getAll('evidence').map(String).join(', ') || 'None yet';
+    if (!merchant || !saw || !patterns) {
+      setError('Add the company, describe what happened, and select at least one pattern.');
+      return;
+    }
+    setError('');
+    setOutput(auditSummary({ merchant, action, date, channel, saw, patterns, evidence }));
+    setEditing(false);
 
     const entry = {
       id: `AUD-${Date.now()}`,
@@ -89,15 +77,18 @@ export function RiskAudit({ onSubmit }: RiskAuditProps) {
       await navigator.clipboard.writeText(output ?? '');
       showToast('Copied to clipboard.', 'success');
     } catch {
-      showToast('Copy failed.', 'error');
+      showToast('Copy didn’t work. You can select and copy the summary above.', 'error');
     }
   }
 
   return (
     <div className="content-card mt-1">
-      <h3>Risk Audit (guided form, ~5–7 minutes)</h3>
-      <form id="audit-form" className="audit-form" onSubmit={handleSubmit}>
-        <div className="row-2">
+      <h3>Make your evidence record</h3>
+      <p className="course-muted">Use a real experience or make up an example. This record stays in this browser.</p>
+      {auditSubmitted && !saved && !output && <p>Your earlier record was completed. You can create another copy here.</p>}
+      {error && <p ref={errorRef} tabIndex={-1} role="alert">{error}</p>}
+      {editing && <form id="audit-form" className="audit-form" onSubmit={handleSubmit}>
+        <div className="course-form-pair">
           <label>
             Merchant/platform name
             <input required name="merchant" />
@@ -113,7 +104,7 @@ export function RiskAudit({ onSubmit }: RiskAuditProps) {
             </select>
           </label>
         </div>
-        <div className="row-2">
+        <div className="course-form-pair">
           <label>
             Date/time of action
             <input required name="date" type="datetime-local" />
@@ -133,25 +124,15 @@ export function RiskAudit({ onSubmit }: RiskAuditProps) {
           What you saw (2–3 sentences)
           <textarea required name="saw" rows={3} />
         </label>
-        <label>
-          Pattern(s) observed
-          <select required name="patterns" multiple size={5} aria-describedby="patterns-help">
-            <option>Obstruction</option>
-            <option>Forced action</option>
-            <option>Sneaking</option>
-            <option>Interface interference</option>
-            <option>Confirmshaming</option>
-            <option>Nagging</option>
-            <option>Social proofing</option>
-            <option>Misdirection</option>
-          </select>
-        </label>
-        <div id="patterns-help" className="subtle">
-          Hold <span className="kbd">Ctrl</span>/<span className="kbd">⌘</span> to select multiple.
-        </div>
+        <fieldset>
+          <legend>Patterns observed (choose at least one)</legend>
+          <div className="course-checkbox-grid">
+            {['Obstruction', 'Forced action', 'Sneaking', 'Interface interference', 'Confirmshaming', 'Nagging', 'Social proofing', 'Misdirection'].map(pattern => <label key={pattern}><input type="checkbox" name="patterns" value={pattern} />{pattern}</label>)}
+          </div>
+        </fieldset>
         <fieldset>
           <legend>Evidence captured</legend>
-          <div className="row-3">
+          <div className="course-checkbox-grid">
             <label>
               <input type="checkbox" name="evidence" value="before/after screens" /> before/after screens
             </label>
@@ -171,17 +152,18 @@ export function RiskAudit({ onSubmit }: RiskAuditProps) {
         </fieldset>
         <div className="gate">
           <button id="audit-generate" className="btn btn-primary" type="submit">
-            Generate Risk Audit
+            Save evidence record
           </button>
         </div>
-      </form>
-      <div id="audit-output" className="audit-output" hidden={output === null}>
+      </form>}
+      <div id="audit-output" ref={outputRef} tabIndex={-1} className="audit-output" hidden={output === null}>
         {output}
       </div>
-      <div id="audit-actions" className="gate" hidden={!actionsVisible}>
+      <div id="audit-actions" className="gate" hidden={!output}>
         <button id="copy-audit" className="btn btn-ghost" type="button" onClick={handleCopy}>
           Copy Summary
         </button>
+        {!editing && <button className="course-button secondary" onClick={() => setEditing(true)}>Create another record</button>}
       </div>
     </div>
   );

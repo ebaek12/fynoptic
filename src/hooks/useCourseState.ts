@@ -27,7 +27,7 @@
 // added is therefore never applied in the shipped site today. See the
 // final report for the full trace; `locked` below has no third "peekable"
 // state as a result — only locked/unlocked.
-import { useCallback, useEffect, useMemo } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useSyncExternalStore } from 'react';
 import {
   progressStore,
@@ -67,15 +67,15 @@ export interface StepDef {
 
 export const STEP_DEFS: readonly StepDef[] = [
   { key: 'pre', label: 'Pre-quiz', section: '#pre-quiz' },
-  { key: 'm1_video', label: 'Module 1 — Video', section: '#module-1' },
-  { key: 'm1_article', label: 'Module 1 — Article', section: '#module-1' },
-  { key: 'm2_video', label: 'Module 2 — Video', section: '#module-2' },
-  { key: 'm2_article', label: 'Module 2 — Article', section: '#module-2' },
-  { key: 'm2_id', label: 'Module 2 — ID exercise', section: '#module-2' },
-  { key: 'm3_video', label: 'Module 3 — Video', section: '#module-3' },
-  { key: 'm3_article', label: 'Module 3 — Article', section: '#module-3' },
-  { key: 'm4_article', label: 'Module 4 — Article', section: '#module-4' },
-  { key: 'audit', label: 'Module 4 — Risk Audit', section: '#module-4' },
+  { key: 'm1_video', label: 'Module 1 - Video', section: '#module-1' },
+  { key: 'm1_article', label: 'Module 1 - Article', section: '#module-1' },
+  { key: 'm2_video', label: 'Module 2 - Video', section: '#module-2' },
+  { key: 'm2_article', label: 'Module 2 - Article', section: '#module-2' },
+  { key: 'm2_id', label: 'Module 2 - ID exercise', section: '#module-2' },
+  { key: 'm3_video', label: 'Module 3 - Video', section: '#module-3' },
+  { key: 'm3_article', label: 'Module 3 - Article', section: '#module-3' },
+  { key: 'm4_article', label: 'Module 4 - Article', section: '#module-4' },
+  { key: 'audit', label: 'Module 4 - Risk Audit', section: '#module-4' },
   { key: 'post', label: 'Post-quiz', section: '#post-quiz' },
   { key: 'cert', label: 'Certificate', section: '#certificate' },
 ];
@@ -202,6 +202,7 @@ export interface CourseStateActions {
 
 export interface UseCourseStateResult {
   state: CourseState;
+  hydrated: boolean;
   steps: readonly StepStatus[];
   currentStepIndex: number;
   locks: SectionLocks;
@@ -218,6 +219,7 @@ function applyCourseState(updater: (prev: CourseState) => CourseState): void {
 }
 
 export function useCourseState(): UseCourseStateResult {
+  const [hydrated, setHydrated] = useState(false);
   const snapshot = useSyncExternalStore(progressStore.subscribe, progressStore.get, () => SERVER_PROGRESS_SNAPSHOT);
   const state = snapshot.courseState;
 
@@ -235,6 +237,7 @@ export function useCourseState(): UseCourseStateResult {
   // use instead of a `m1Loaded`-style boolean.
   useEffect(() => {
     refreshProgressSnapshot();
+    setHydrated(true);
   }, []);
 
   const steps = useMemo(() => computeSteps(state), [state]);
@@ -243,6 +246,7 @@ export function useCourseState(): UseCourseStateResult {
 
   const setPreQuizAnswer = useCallback((idx: number, value: number) => {
     applyCourseState((prev) => {
+      if (prev.preQuiz.completed) return prev;
       const answers = [...prev.preQuiz.answers];
       answers[idx] = value;
       return { ...prev, preQuiz: { ...prev.preQuiz, answers } };
@@ -284,6 +288,7 @@ export function useCourseState(): UseCourseStateResult {
 
   const setPostQuizAnswer = useCallback((idx: number, value: number) => {
     applyCourseState((prev) => {
+      if (prev.postQuiz.completed) return prev;
       const answers = [...prev.postQuiz.answers];
       answers[idx] = value;
       return { ...prev, postQuiz: { ...prev.postQuiz, answers } };
@@ -297,6 +302,7 @@ export function useCourseState(): UseCourseStateResult {
   const retakePostQuiz = useCallback(() => {
     applyCourseState((prev) => ({
       ...prev,
+      certificate: { issued: false, id: null, date: null },
       postQuiz: { completed: false, score: 0, pass: false, answers: [], correctness: [] },
     }));
   }, []);
@@ -338,5 +344,5 @@ export function useCourseState(): UseCourseStateResult {
     ],
   );
 
-  return { state, steps, currentStepIndex, locks, actions };
+  return { state, steps, currentStepIndex, locks, actions, hydrated };
 }

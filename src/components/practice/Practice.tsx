@@ -39,10 +39,10 @@ export function Practice() {
         correct: session.correct,
         accuracyPct: computeAccuracyPct(session.correct, session.asked),
         streak: session.streak,
-        difficulty: session.currentDiff ? session.currentDiff[0]!.toUpperCase() + session.currentDiff.slice(1) : '—',
-        topicsLabel: session.topics.map((t) => t.replace(/[_-]/g, ' ')).join(', ') || '—',
+        difficulty: session.currentDiff ? session.currentDiff[0]!.toUpperCase() + session.currentDiff.slice(1) : ' - ',
+        topicsLabel: session.topics.map((t) => t.replace(/[_-]/g, ' ')).join(', ') || ' - ',
       }
-    : { answered: 0, total: 0, correct: 0, accuracyPct: 0, streak: 0, difficulty: '—', topicsLabel: '—' };
+    : { answered: 0, total: 0, correct: 0, accuracyPct: 0, streak: 0, difficulty: ' - ', topicsLabel: ' - ' };
 
   return (
     <>

@@ -1,6 +1,9 @@
 import { useEffect, useId, useRef } from "react";
 
+import { useEnhancedMotion } from "../../hooks/useEnhancedMotion";
+
 export function ScamIllustration() {
+  const enhancedMotion = useEnhancedMotion();
   const id = useId().replace(/:/g, "");
   const messagesId = `${id}-messages`;
   const lensId = `${id}-lens`;
@@ -11,11 +14,10 @@ export function ScamIllustration() {
   const magnifiedMessages = useRef<SVGGElement>(null);
 
   useEffect(() => {
-    const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
     let frame = 0;
     const update = () => {
       frame = 0;
-      const progress = preference.matches
+      const progress = !enhancedMotion
         ? 0
         : Math.min(1, Math.max(0, window.scrollY / (window.innerHeight * 0.7)));
       const x = progress * -24;
@@ -35,16 +37,15 @@ export function ScamIllustration() {
       frame = requestAnimationFrame(update);
     };
     update();
+    if (!enhancedMotion) return;
     window.addEventListener("scroll", schedule, { passive: true });
     window.addEventListener("resize", schedule);
-    preference.addEventListener("change", update);
     return () => {
       window.removeEventListener("scroll", schedule);
       window.removeEventListener("resize", schedule);
-      preference.removeEventListener("change", update);
       cancelAnimationFrame(frame);
     };
-  }, []);
+  }, [enhancedMotion]);
 
   return (
     <svg
