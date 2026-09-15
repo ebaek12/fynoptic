@@ -151,12 +151,6 @@ test.describe("homepage hero", () => {
       await page.setViewportSize({ width, height: 1000 });
       await page.goto("/");
       await page.evaluate(() => document.fonts.ready);
-      if (width < 900) {
-        await expect(page.locator(".rotating-word-text")).toHaveText("scam");
-        await expect(page.locator(".rotating-word-suffix")).toHaveText(".");
-        await expect(page.locator(".rotating-word-frame")).toHaveCount(0);
-        return;
-      }
       const words = ["scam", "setup", "lie", "con", "trap"];
       const seen = new Set<string>();
       const deadline = Date.now() + 15_000;
@@ -316,7 +310,8 @@ for (const theme of ["light", "dark"]) {
   }
 }
 
-test("partner strip displays all six logos without animation", async ({ page }) => {
+test("reduced motion displays all six logos without animation", async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: "reduce" });
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto("/");
   await expect(page.locator(".logo-track")).toHaveCSS("animation-name", "none");

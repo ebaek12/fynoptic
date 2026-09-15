@@ -1,4 +1,4 @@
-import { useEffect, useId, useRef } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { useEnhancedMotion } from "../../hooks/useEnhancedMotion";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -15,6 +15,7 @@ export function MagnifierScrollZoom() {
   const portalRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const enhancedMotion = useEnhancedMotion();
+  const [introActive, setIntroActive] = useState(true);
   const id = useId().replace(/:/g, "");
 
   useEffect(() => {
@@ -56,6 +57,7 @@ export function MagnifierScrollZoom() {
         const playhead = { progress: 0 };
         let initialRadius = 0;
         let finalScale = 1;
+        let previousComplete: boolean | undefined;
         const measure = () => {
           initialRadius = (glass.clientWidth * 138) / 480;
           finalScale =
@@ -87,6 +89,10 @@ export function MagnifierScrollZoom() {
             : progress > 0
               ? "zooming"
               : "before";
+          if (complete !== previousComplete) {
+            previousComplete = complete;
+            setIntroActive(!complete);
+          }
           portal.inert = !complete;
           portal.style.clipPath = complete
             ? "none"
@@ -167,8 +173,15 @@ export function MagnifierScrollZoom() {
             };
           },
         });
-        const resize = new ResizeObserver(measure);
+        const resize = new ResizeObserver(() => {
+          measure();
+          dive.scrollTrigger?.refresh();
+        });
         resize.observe(content);
+        // Hydrating the partner carousel changes the mobile hero's height.
+        // Refresh the scroll bounds so the lens still lands at the right spot.
+        const hero = document.querySelector(".home-hero");
+        if (hero) resize.observe(hero);
 
         // A restored scroll position or late font load must use fresh bounds.
         let live = true;
@@ -313,7 +326,7 @@ export function MagnifierScrollZoom() {
       <div id="learning" className="magnifier-learning" tabIndex={-1}>
         <div ref={portalRef} className="magnifier-portal">
           <div ref={contentRef} className="magnifier-content">
-            <RackFocus />
+            <RackFocus introActive={enhancedMotion && introActive} />
           </div>
         </div>
       </div>

@@ -1,89 +1,584 @@
-import { useEffect, useRef } from 'react';
+import { useCallback, useEffect, useRef, useState, type KeyboardEvent } from 'react';
 import { useEnhancedMotion } from '../../hooks/useEnhancedMotion';
-import { RACK_ITEMS } from './rack-data';
 import '../../styles/learning-resources.css';
+import { cn } from '@/lib/utils';
+import { RACK_ITEMS, type RackItem } from './rack-data';
 
-/** Scroll focus is decorative. Every card remains a native, fully visible link. */
-export function RackFocus() {
-  const sectionRef = useRef<HTMLElement>(null);
-  const trackRef = useRef<HTMLDivElement>(null);
-  const stageRef = useRef<HTMLDivElement>(null);
-  const enhancedMotion = useEnhancedMotion();
+/**
+ * Rack-focus section — spec §6.3. A rack-focus scroll experience: courses →
+ * articles → flashcards → practice, with a continuous focus position driving
+ * blur/opacity/scale/color as the user scrolls, plus dwell plateaus so each
+ * item sits sharp for a while before racking to the next. Verified headlessly
+ * as a standalone prototype earlier in this session; this is the production
+ * port into the real (window-scrolled) document.
+ *
+ * Three render modes:
+ *  1. Rack (default, ≥900px, motion allowed) — the pinned scroll-focus grid.
+ *  2. Reduced-motion — static tablist, nothing blurred/opacity-0, no pin.
+ *  3. Narrow (<900px) — same static tablist; the pin/blur experience doesn't
+ *     work on small screens.
+ *
+ * The heading introduces the panel in normal flow. Only the names and card
+ * pin, once their centre reaches the centre of the space below the nav.
+ */
+
+const NARROW_BREAKPOINT_PX = 900;
+/**
+ * The rack needs vertical room, not just horizontal. The pinned block is
+ * the viewport under the header, and it has to hold the section heading,
+ * four 62px names and the panel. Measured, the four names' last baseline
+ * falls 18px below the pin on a 600px-tall window and clears it with room
+ * to spare at 700 — so under 700 the pin cannot show its own content and
+ * `overflow: hidden` shears the bottom off "Practice" and the card. A
+ * pinned scroll sequence in 540px of usable height is a bad experience
+ * even when it does fit, so short windows take the same static tablist
+ * that narrow ones do.
+ */
+const SHORT_BREAKPOINT_PX = 700;
+
+const PIN_H = 'clamp(400px, 51svh, 460px)';
+const PIN_TOP = `calc((100svh + var(--header-h, 58px) - ${PIN_H}) / 2)`;
+// Keep roughly 240px of scrolling per transition with the shorter panel.
+const STEP = `calc(${PIN_H} * 0.52)`;
+/** 3.4px smeared the defocused names into unreadable ghosts rather than reading as depth-of-field. */
+const NAME_BLUR_CAP_PX = 2.4;
+const PANEL_BLUR_CAP_PX = 4;
+
+function clamp01(n: number): number {
+  return Math.min(1, Math.max(0, n));
+}
+
+/**
+ * Segmented ease with dwell plateaus, within one unit interval's fractional
+ * position `t` (0..1). Holds at 0 through t<=0.30 (dwell on the item this
+ * segment starts from), holds at 1 from t>=0.80 (dwell on the item it's
+ * about to land on), and cubic-eases between — roughly half the segment is
+ * travel, half is settle, so focus is never mid-transition for long.
+ */
+function dwellEase(t: number): number {
+  if (t <= 0.3) return 0;
+  if (t >= 0.8) return 1;
+  const u = (t - 0.3) / 0.5;
+  return u < 0.5 ? 4 * u ** 3 : 1 - (-2 * u + 2) ** 3 / 2;
+}
+
+/** Maps scroll progress p∈[0,1] to a continuous focus position f∈[0, segments]. */
+function focusFromProgress(p: number, segments: number): number {
+  if (segments <= 0) return 0;
+  const scaled = clamp01(p) * segments;
+  const i = Math.min(segments - 1, Math.floor(scaled));
+  const t = scaled - i;
+  return i + dwellEase(t);
+}
+
+/**
+ * Inverse-ish: a scroll progress value that lands focus robustly inside item
+ * i's dwell plateau, for click-to-jump. Nudged slightly off the segment
+ * boundary (rather than sitting exactly on it) so it's still inside the
+ * plateau under real-world floating point / pixel rounding.
+ */
+function progressForItem(i: number, segments: number): number {
+  if (segments <= 0) return 0;
+  if (i <= 0) return 0;
+  if (i >= segments) return 1;
+  return (i + 0.12) / segments;
+}
+
+function readPinTopPx(pin: HTMLDivElement | null): number {
+  return pin ? parseFloat(getComputedStyle(pin).top) || 0 : 0;
+}
+
+/**
+ * Scroll-driven progress for the pinned track, computed from
+ * `getBoundingClientRect` each frame (rAF-throttled) rather than cached
+ * absolute offsets, so it stays correct across resizes/layout shifts —
+ * same approach as Hero.tsx's `useHeroScrollProgress`.
+ *
+ * progress = clamp((scrolledIntoTrack) / (trackHeight - pinnedHeight), 0, 1)
+ * where scrolledIntoTrack = pinTop - rect.top. Progress stays zero while
+ * the panel is travelling upward to its centred sticky position.
+ *
+ * The denominator is the distance the sticky block can actually travel inside
+ * the track — trackHeight minus the sticky block's own height — not
+ * trackHeight minus the viewport. Those are the same number only if the
+ * pinned block fills the viewport, which it never did; using the viewport
+ * made progress saturate before the track ended, leaving dead scroll at the
+ * bottom of the section with focus already parked on the last item.
+ */
+function useTrackProgress(
+  trackRef: React.RefObject<HTMLDivElement | null>,
+  pinRef: React.RefObject<HTMLDivElement | null>,
+  enabled: boolean,
+) {
+  const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    const section = sectionRef.current;
-    const track = trackRef.current;
-    const stage = stageRef.current;
-    if (!enhancedMotion || !section || !track || !stage) return;
-    const cards = Array.from(stage.querySelectorAll<HTMLElement>('.learning-card'));
-    let fits = false;
-    let pinTop = 0;
+    if (!enabled) return;
+    const el = trackRef.current;
+    if (!el) return;
 
-    const render = () => {
-      if (!fits) return;
-      const bounds = track.getBoundingClientRect();
-      if (bounds.bottom < 0 || bounds.top > innerHeight) return;
-      const travel = Math.max(1, track.offsetHeight - stage.offsetHeight);
-      const progress = Math.max(0, Math.min(1, (pinTop - bounds.top) / travel));
-      const position = progress * (cards.length - 1);
-      cards.forEach((card, index) => {
-        const focus = Math.max(0, 1 - Math.abs(position - index));
-        card.style.setProperty('--card-lift', `${-6 * focus}px`);
-        card.dataset.focused = String(Math.round(position) === index);
-      });
+    let raf = 0;
+    const update = () => {
+      raf = 0;
+      const rect = el.getBoundingClientRect();
+      const pinH = pinRef.current?.offsetHeight ?? window.innerHeight;
+      const scrolledIntoTrack = readPinTopPx(pinRef.current) - rect.top;
+      const denom = Math.max(1, rect.height - pinH);
+      setProgress(clamp01(scrolledIntoTrack / denom));
     };
-    const measure = () => {
-      pinTop = parseFloat(getComputedStyle(stage).top) || 0;
-      // Content size, including enlarged text, decides whether pinning is safe.
-      fits = stage.offsetHeight + pinTop + 32 <= innerHeight;
-      section.dataset.scrollFocus = String(fits);
-      if (!fits) cards.forEach(card => {
-        card.style.removeProperty('--card-lift');
-        delete card.dataset.focused;
-      });
-      render();
+    const onScroll = () => {
+      if (raf) return;
+      raf = requestAnimationFrame(update);
     };
 
-    measure();
-    const resize = new ResizeObserver(measure);
-    resize.observe(stage);
-    window.addEventListener('resize', measure);
-    // No animation loop or delayed scrub: throttled frames cannot lock the links.
-    window.addEventListener('scroll', render, { passive: true });
+    update();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
     return () => {
-      resize.disconnect();
-      window.removeEventListener('resize', measure);
-      window.removeEventListener('scroll', render);
-      delete section.dataset.scrollFocus;
-      cards.forEach(card => {
-        card.style.removeProperty('--card-lift');
-        delete card.dataset.focused;
-      });
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+      if (raf) cancelAnimationFrame(raf);
     };
-  }, [enhancedMotion]);
+  }, [enabled, trackRef, pinRef]);
+
+  return progress;
+}
+
+/** True while `ref`'s element is anywhere near the viewport — gates the scroll listener and will-change. */
+function useNearViewport(ref: React.RefObject<HTMLDivElement | null>, enabled: boolean) {
+  const [near, setNear] = useState(false);
+
+  useEffect(() => {
+    if (!enabled) {
+      setNear(false);
+      return;
+    }
+    const el = ref.current;
+    if (!el || !('IntersectionObserver' in window)) {
+      setNear(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        if (entry) setNear(entry.isIntersecting);
+      },
+      { rootMargin: '600px 0px 600px 0px' },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [enabled, ref]);
+
+  return near;
+}
+
+function mixColor(accent: string, focusedAmount: number): string {
+  const pct = Math.round(clamp01(focusedAmount) * 100);
+  return `color-mix(in oklab, ${accent} ${pct}%, var(--muted-foreground, #8a8f98))`;
+}
+
+/**
+ * Panel head: the two-part stat + title that sits above each panel's
+ * description (spec §6.5 S3/S4). `RACK_ITEMS` has no CSS file of its own —
+ * this section is inline Tailwind throughout — so there is no `.rk-phead`
+ * class to retarget; this is that container's real equivalent. The stat's
+ * two halves are discrete spans joined by a separator span carrying
+ * `margin: 0 .5em` (S3), replacing what was a single letter-spaced string.
+ * The border-bottom is the "rule under the panel head" S4 describes;
+ * `paddingTop`/`paddingBottom` are its corrected values (14px bottom, 2px
+ * top) rather than the prototype's too-tight 11px/0.
+ */
+function PanelHead({
+  item,
+  statColor,
+  size = 'lg',
+}: {
+  item: RackItem;
+  statColor: string;
+  size?: 'lg' | 'sm';
+}) {
+  return (
+    <div
+      className="flex flex-col gap-2 border-b border-border"
+      style={{ paddingTop: '2px', paddingBottom: '14px' }}
+    >
+      <span
+        className={cn(
+          'font-medium uppercase tracking-wide [font-family:var(--mono-face)]',
+          size === 'lg' ? 'text-[.95rem]' : 'text-[.95rem] text-muted-foreground',
+        )}
+        style={size === 'lg' ? { color: statColor } : undefined}
+      >
+        {item.statPrimary}
+        <span aria-hidden="true" style={{ margin: '0 .5em' }}>
+          ·
+        </span>
+        {item.statSecondary}
+      </span>
+      <h3
+        className={cn(
+          'font-semibold text-foreground [font-family:var(--display-face)]',
+          size === 'lg' ? 'text-[2.25rem]' : 'text-2xl',
+        )}
+      >
+        {item.title}
+      </h3>
+    </div>
+  );
+}
+
+interface PanelProps {
+  item: RackItem;
+  /** 0 = fully resolved/focused, 1 = fully defocused (mid rack). */
+  d: number;
+}
+
+/**
+ * The panel's *content*. The card shell around it (border, ground, radius)
+ * is a separate, permanently mounted box — see RackTrack.
+ *
+ * This used to be the whole card, and two of them were mounted at once and
+ * cross-dissolved. That produced the section's worst artefact: at the tails
+ * of a transition the arriving panel sat at ~5% opacity under 4.75px of
+ * blur, directly on top of the departing one, so "Articles" rendered as
+ * "Articles" with a smeared "Flashcards" bleeding through it. It read as a
+ * rendering fault, not a transition. Only one panel is mounted now — it
+ * racks out of focus, the content swaps at the midpoint, and it racks back
+ * in — so there is never a frame with two texts stacked on each other, and
+ * the card outline never double-draws or wobbles between two scales.
+ */
+function RackPanel({ item, d }: PanelProps) {
+  const style: React.CSSProperties =
+    d <= 0
+      ? {} // fully resolved: no live filter, static end-state
+      : {
+          filter: `blur(${d * PANEL_BLUR_CAP_PX}px)`,
+          opacity: 1 - d,
+          transform: `scale(${1 - d * 0.02})`,
+        };
 
   return (
-    <section ref={sectionRef} className="learning-resources" aria-labelledby="rack-heading">
-      <div ref={trackRef} className="learning-track">
-        <div ref={stageRef} className="learning-stage">
-          <div className="learning-lead">
-            <h2 id="rack-heading">Get smarter with your money.</h2>
-            <p>Spot the fees, read the fine print, and know when to walk away. Start with a course or pick something to practice.</p>
-          </div>
-          <div className="learning-grid">
-            {RACK_ITEMS.map((item, index) => (
-              <a className="learning-card" href={item.href} key={item.id} data-rack-panel={item.id}>
-                <span className="learning-card-number" aria-hidden="true">0{index + 1}</span>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-                <span className="learning-card-action">Explore {item.title} <span aria-hidden="true">↗</span></span>
-              </a>
-            ))}
-          </div>
+    <div
+      data-rack-panel={item.id}
+      className="flex flex-col justify-center gap-4"
+      style={style}
+    >
+      <PanelHead item={item} statColor={mixColor(item.accent, 1 - d)} />
+      <p className="max-w-[40ch] text-lg text-muted-foreground sm:text-[1.3125rem]">
+        {item.description}
+      </p>
+      <span className="mt-1 inline-flex w-fit items-center gap-1 text-[1.125rem] font-medium text-primary">
+        Explore {item.title}
+      </span>
+    </div>
+  );
+}
+
+/** The section's heading and introduction, before the interactive panel. */
+function RackLead() {
+  return (
+    <div className="pb-6">
+      <h2
+        id="rack-heading"
+        className="text-[clamp(2.25rem,3.6vw,3.25rem)] font-semibold leading-[1.06] text-foreground [font-family:var(--display-face)]"
+      >
+        Get smarter with your money.
+      </h2>
+      <p className="mt-3.5 max-w-[56ch] text-lg text-muted-foreground sm:text-[1.3125rem]">
+        Spot the fees, read the fine print, and know when to walk away. Start with a course or pick something to practice.
+      </p>
+    </div>
+  );
+}
+
+/** The always-mounted, pinned rack experience: 4-name list + up to 2 cross-fading panels + a progress rail. */
+function RackTrack({ items, introActive = false }: { items: readonly RackItem[]; introActive?: boolean }) {
+  const segments = items.length - 1;
+  const trackRef = useRef<HTMLDivElement>(null);
+  const pinRef = useRef<HTMLDivElement>(null);
+  const nameRefs = useRef<Array<HTMLButtonElement | null>>([]);
+  const near = useNearViewport(trackRef, true);
+  const trackProgress = useTrackProgress(trackRef, pinRef, near && !introActive);
+  // During the magnifier introduction this same section is scaled inside
+  // the lens. Its transformed bounds must not advance the course selection.
+  const progress = introActive ? 0 : trackProgress;
+  const focus = focusFromProgress(progress, segments);
+
+  const lowIndex = Math.max(0, Math.min(items.length - 1, Math.floor(focus)));
+  const highIndex = Math.min(items.length - 1, lowIndex + 1);
+  const crossFrac = clamp01(focus - lowIndex);
+
+  // One panel, racked out and back in, rather than two cross-dissolving —
+  // see RackPanel. The swap happens at the midpoint of the travel, where
+  // the content is fully defocused and nothing legible is on screen to
+  // pop. `panelD` runs 0 -> 1 -> 0 across the segment.
+  const pastMidpoint = crossFrac >= 0.5;
+  const panelIndex = pastMidpoint ? highIndex : lowIndex;
+  const panelD = pastMidpoint ? (1 - crossFrac) / 0.5 : crossFrac / 0.5;
+  const panelItem = items[panelIndex];
+
+  const scrollToItem = useCallback(
+    (i: number) => {
+      const el = trackRef.current;
+      if (!el) return;
+      const pinTop = readPinTopPx(pinRef.current);
+      // Document-relative top of the track is scroll-position-invariant:
+      // (current scrollY + current rect.top) is the same value no matter
+      // when it's measured, so this works from any scroll position.
+      const pinStartDoc = window.scrollY + el.getBoundingClientRect().top - pinTop;
+      // Same denominator as useTrackProgress — the sticky block's travel, not
+      // the viewport's. They have to agree or click-to-jump lands off-plateau.
+      const pinH = pinRef.current?.offsetHeight ?? window.innerHeight;
+      const denom = Math.max(1, el.offsetHeight - pinH);
+      const p = progressForItem(i, segments);
+      const targetY = pinStartDoc + p * denom;
+      window.scrollTo({ top: targetY, behavior: 'smooth' });
+      nameRefs.current[i]?.focus();
+    },
+    [segments],
+  );
+
+  function handleKeyDown(event: KeyboardEvent<HTMLButtonElement>, index: number) {
+    const count = items.length;
+    if (event.key === 'ArrowDown' || event.key === 'ArrowRight') {
+      event.preventDefault();
+      scrollToItem((index + 1) % count);
+    } else if (event.key === 'ArrowUp' || event.key === 'ArrowLeft') {
+      event.preventDefault();
+      scrollToItem((index - 1 + count) % count);
+    }
+  }
+
+  return (
+    <>
+    <div
+      data-rack-lead=""
+      className="flex flex-col justify-end"
+      style={{
+        minHeight: `calc(${PIN_TOP} + clamp(40px, 8svh, 96px))`,
+        paddingTop: 'calc(var(--header-h, 58px) + clamp(32px, 5svh, 64px))',
+      }}
+    >
+      <RackLead />
+    </div>
+    <div
+      ref={trackRef}
+      data-rack-track=""
+      className="relative"
+      style={{ height: `calc(${PIN_H} + ${STEP} * ${segments})` }}
+    >
+      <div
+        ref={pinRef}
+        className="sticky flex flex-col overflow-hidden"
+        style={{
+          top: PIN_TOP,
+          height: PIN_H,
+          willChange: near ? 'contents' : undefined,
+        }}
+      >
+        {/* Full container width, not the 980px cap this used to carry. The
+            cap was meant to stop the names and the panel drifting to
+            opposite ends of the screen, but with the panel column allowed to
+            grow (`flex-1`) it did that by leaving a dead ~300px gutter to the
+            right of the card instead — the section's heading ran to the
+            container's right edge and the content under it stopped ~25%
+            short of it. Capping the *panel* (max-w below) does the same job
+            without breaking the section's own rail. */}
+        <div data-rack-stage="" className="flex min-h-0 flex-1 items-center gap-8 lg:gap-12">
+        <div
+          role="group"
+          aria-label="Fynoptic: Courses, Articles, Flashcards, Practice"
+          className="relative flex min-w-0 flex-none flex-col justify-center gap-3 pl-7"
+        >
+          {/* Barrel scale: hairline + one tick per name, fill tracks focus.
+              It used to be a sibling column with `self-stretch`, so it ran
+              the full height of this row (~520px) while the four names
+              occupy ~300px of it — the ticks, spaced evenly down the rail,
+              lined up with nothing at all and the rail read as a stray line
+              in the margin. Living inside the names column, with each tick
+              rendered by its own name row (below), pins tick i to name i's
+              optical centre by construction. */}
+          <span
+            aria-hidden="true"
+            className="pointer-events-none absolute bottom-0 left-[3px] top-0 w-px bg-border"
+          />
+          <span
+            aria-hidden="true"
+            className="pointer-events-none absolute left-[3px] top-0 w-px bg-primary"
+            style={{ height: `${(focus / Math.max(1, segments)) * 100}%` }}
+          />
+          {items.map((item, i) => {
+            const d = Math.min(1, Math.abs(focus - i));
+            const blur = d * NAME_BLUR_CAP_PX;
+            const opacity = 1 - d * 0.5;
+            const scale = 1 - d * 0.05;
+            return (
+              <button
+                key={item.id}
+                type="button"
+                ref={(el) => {
+                  nameRefs.current[i] = el;
+                }}
+                data-rack-name={item.id}
+                onClick={() => scrollToItem(i)}
+                onKeyDown={(event) => handleKeyDown(event, i)}
+                className="relative w-fit cursor-pointer rounded-md px-1 py-1 text-left transition-[filter] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+                style={{
+                  filter: `blur(${blur}px)`,
+                  opacity,
+                  transform: `scale(${scale})`,
+                  transformOrigin: 'left center',
+                  color: mixColor(item.accent, 1 - d),
+                }}
+              >
+                <span
+                  aria-hidden="true"
+                  className="absolute left-[-28px] top-1/2 h-1.5 w-1.5 -translate-y-1/2 rounded-full"
+                  style={{
+                    background: d < 0.5 ? 'currentColor' : 'var(--border, rgba(255,255,255,.14))',
+                  }}
+                />
+                <span className="text-[3.25rem] font-semibold leading-[1.05] [font-family:var(--display-face)] lg:text-[3.875rem]">
+                  {item.title}
+                </span>
+              </button>
+            );
+          })}
         </div>
+
+        {/* The card shell is permanently mounted and never animated: only
+            its contents rack. Fixed height (rather than stretching with the
+            row) so the box doesn't resize under the swap; `max-w` caps the
+            measure without leaving a dead gutter, since `mr-auto` is not
+            used — the column still reaches the container's right edge on
+            narrower screens and the text inside carries its own 40ch. */}
+        <a
+          href={panelItem?.href}
+          data-rack-card=""
+          className="rack-resource-card flex min-w-0 flex-1 flex-col justify-center self-center rounded-lg border border-border bg-card p-6 sm:p-7"
+          style={{
+            height: PIN_H,
+          }}
+        >
+          {panelItem && <RackPanel key={panelItem.id} item={panelItem} d={panelD} />}
+        </a>
+        </div>
+      </div>
+    </div>
+    </>
+  );
+}
+
+function RackTabs({ items }: { items: readonly RackItem[] }) {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const tabRefs = useRef<Array<HTMLButtonElement | null>>([]);
+  const active = items[activeIndex] ?? items[0];
+
+  function select(index: number) {
+    setActiveIndex(index);
+    tabRefs.current[index]?.focus();
+  }
+
+  function handleKeyDown(event: KeyboardEvent<HTMLButtonElement>, index: number) {
+    const count = items.length;
+    if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
+      event.preventDefault();
+      select((index + 1) % count);
+    } else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
+      event.preventDefault();
+      select((index - 1 + count) % count);
+    }
+  }
+
+  if (!active) return null;
+
+  return (
+    <div className="flex flex-col gap-4">
+      <div
+        role="tablist"
+        aria-label="Fynoptic: Courses, Articles, Flashcards, Practice"
+        className="flex flex-wrap gap-2"
+      >
+        {items.map((item, i) => {
+          const isActive = i === activeIndex;
+          return (
+            <button
+              key={item.id}
+              ref={(el) => {
+                tabRefs.current[i] = el;
+              }}
+              type="button"
+              role="tab"
+              id={`rack-tab-${item.id}`}
+              aria-selected={isActive}
+              aria-controls="rack-tabpanel"
+              tabIndex={isActive ? 0 : -1}
+              onClick={() => select(i)}
+              onKeyDown={(event) => handleKeyDown(event, i)}
+              className={cn(
+                'rounded-md px-4 py-2 text-base font-medium transition-colors',
+                isActive
+                  ? 'bg-primary text-primary-foreground'
+                  : 'bg-secondary text-secondary-foreground hover:bg-secondary/80',
+              )}
+            >
+              {item.title}
+            </button>
+          );
+        })}
+      </div>
+
+      <div
+        id="rack-tabpanel"
+        role="tabpanel"
+        aria-labelledby={`rack-tab-${active.id}`}
+        className="flex flex-col gap-3 rounded-lg border border-border bg-card p-6"
+      >
+        <PanelHead item={active} statColor="var(--muted-foreground)" size="sm" />
+        <p className="text-base text-muted-foreground sm:text-lg">{active.description}</p>
+        <a
+          href={active.href}
+          className="mt-1 inline-flex items-center gap-1 text-base font-medium text-primary underline-offset-4 hover:underline"
+        >
+          Explore {active.title}
+        </a>
+      </div>
+    </div>
+  );
+}
+
+/** All destinations remain available without animation or JavaScript. */
+function ResourceGrid() {
+  return (
+    <section className="learning-resources" aria-labelledby="rack-heading">
+      <div className="learning-lead"><RackLead /></div>
+      <div className="learning-grid">
+        {RACK_ITEMS.map((item, index) => (
+          <a className="learning-card" href={item.href} key={item.id} data-rack-panel={item.id}>
+            <span className="learning-card-number" aria-hidden="true">0{index + 1}</span>
+            <h3>{item.title}</h3>
+            <p>{item.description}</p>
+            <span className="learning-card-action">Explore {item.title} <span aria-hidden="true">↗</span></span>
+          </a>
+        ))}
       </div>
     </section>
   );
+}
+
+export function RackFocus({ introActive = false }: { introActive?: boolean }) {
+  const motion = useEnhancedMotion();
+  const useRack = useEnhancedMotion({ minWidth: NARROW_BREAKPOINT_PX, minHeight: SHORT_BREAKPOINT_PX });
+  return useRack ? (
+    <section className="rack-resources" aria-labelledby="rack-heading">
+      <RackTrack items={RACK_ITEMS} introActive={introActive} />
+    </section>
+  ) : motion ? (
+    <section className="rack-static" aria-labelledby="rack-heading">
+      <RackLead />
+      <RackTabs items={RACK_ITEMS} />
+    </section>
+  ) : <ResourceGrid />;
 }
 
 export default RackFocus;
