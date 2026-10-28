@@ -4,14 +4,15 @@
       "easy": [
         {
           "id": "econ-1-e-0001",
-          "question": "What term describes a period of negative real GDP growth for two consecutive quarters?",
+          "question": "Two consecutive quarters of declining real GDP are often used as a rule of thumb for which condition?",
           "choices": [
             "Deflation",
             "Stagflation",
             "Recession",
             "Natural rate of unemployment"
           ],
-          "answer": "Recession"
+          "answer": "Recession",
+          "explanation": "This is a common shortcut, not the NBER\u2019s U.S. recession-dating rule. The NBER considers the depth, spread, and duration of a decline using multiple indicators."
         },
         {
           "id": "econ-1-e-0002",

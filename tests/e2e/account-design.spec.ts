@@ -61,8 +61,8 @@ for (const theme of ["light", "dark"]) {
         path: `/tmp/fynoptic-courses-${theme}-${width}.png`,
         fullPage: true,
       });
-      await expect(page.locator(".library-card")).toHaveCount(8);
-      await expect(page.locator(".library-card--locked")).toHaveCount(7);
+      await expect(page.locator(".library-card")).toHaveCount(13);
+      await expect(page.locator(".library-card--locked")).toHaveCount(12);
       const heights = await page
         .locator(".library-card")
         .evaluateAll((cards) =>

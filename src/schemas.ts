@@ -1,5 +1,5 @@
 // Zod schemas for the JSON files fetched at runtime in the browser
-// (quiz.json, id-exercise.json, and the two practice question banks).
+// (quiz.json, id-exercise.json, and the practice question banks).
 // These are the boundary-validation counterpart to src/types.ts.
 
 import { z } from 'zod';
@@ -47,19 +47,29 @@ export function parseIdExercise(data: unknown): IdExerciseItem[] {
 }
 
 const practiceItemSchema = z.object({
-  id: z.string(),
-  question: z.string(),
-  choices: z.array(z.string()),
-  answer: z.string(),
+  id: z.string().trim().min(1),
+  question: z.string().trim().min(1),
+  choices: z.array(z.string().trim().min(1)).min(2),
+  answer: z.string().trim().min(1),
+  explanation: z.string().trim().min(1).optional(),
+  familyId: z.string().trim().min(1).optional(),
+}).refine(item => new Set(item.choices).size === item.choices.length, {
+  message: 'Answer choices must be distinct',
+}).refine(item => item.choices.includes(item.answer), {
+  message: 'The correct answer must be one of the choices',
 });
 
 // subject -> unit -> difficulty -> items
 const practiceBankFileSchema = z.record(
   z.string(),
-  z.record(z.string(), z.record(z.string(), z.array(practiceItemSchema)))
+  z.record(z.string(), z.object({
+    easy: z.array(practiceItemSchema),
+    medium: z.array(practiceItemSchema),
+    hard: z.array(practiceItemSchema),
+  }))
 );
 
-function parsePracticeBank(data: unknown, filename: string): PracticeBank {
+export function parsePracticeBank(data: unknown, filename: string): PracticeBank {
   const result = practiceBankFileSchema.safeParse(data);
   if (!result.success) {
     throw new Error(`Invalid ${filename}: ${result.error.message}`);

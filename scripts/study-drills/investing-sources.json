@@ -1,0 +1,93 @@
+{
+  "checkedOn": "2026-10-27",
+  "scope": "Principle checks for 85 authored calculation families and 20 deterministic input variants per family. Numerical prices, rates, returns, exchange rates, probabilities, fees, policy terms, and plan terms are hypothetical inputs, not quoted market data, predictions, tax limits, or claims about actual contracts.",
+  "sources": [
+    {
+      "publisher": "U.S. Securities and Exchange Commission / Investor.gov",
+      "title": "How Fees and Expenses Affect Your Investment Portfolio – Investor Bulletin",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated",
+      "principlesChecked": ["Expense ratios represent annual fund operating expenses as a percentage of assets.", "Sales charges, account charges, and ongoing expenses have different calculation bases.", "Fees reduce the amount available to compound."],
+      "topics": ["Fund Fee Drills"]
+    },
+    {
+      "publisher": "U.S. Securities and Exchange Commission / Investor.gov",
+      "title": "Asset Allocation and Diversification",
+      "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+      "principlesChecked": ["Asset allocation divides holdings among asset classes.", "Rebalancing brings portfolio weights back toward a chosen allocation.", "Allocation and diversification do not guarantee returns."],
+      "topics": ["Portfolio Allocation Drills"]
+    },
+    {
+      "publisher": "U.S. Securities and Exchange Commission / Investor.gov",
+      "title": "Compound Interest Calculator",
+      "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+      "principlesChecked": ["A projection depends on starting value, contribution amounts, time, assumed interest rate, and compounding frequency.", "The rate in a projection is an estimate; exercise returns are explicitly hypothetical."],
+      "topics": ["Investment Return Drills", "Retirement Saving Drills"]
+    },
+    {
+      "publisher": "U.S. Securities and Exchange Commission / Investor.gov",
+      "title": "Current Yield",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/current-yield",
+      "principlesChecked": ["Bond current yield uses annual coupon dollars divided by current market price; it is not yield to maturity."],
+      "topics": ["Bond Cash Flow Drills"]
+    },
+    {
+      "publisher": "U.S. Securities and Exchange Commission / Investor.gov",
+      "title": "Corporate Bonds",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products",
+      "principlesChecked": ["Bond coupon payments, face value, maturity, and purchase price are distinct quantities.", "Zero-coupon bonds have a maturity payment rather than periodic coupons.", "Scheduled payments are conditional on the issuer meeting its obligations; exercise prompts state the assumed payment performance."],
+      "topics": ["Bond Cash Flow Drills"]
+    },
+    {
+      "publisher": "Internal Revenue Service",
+      "title": "Matching contributions help you save more for retirement",
+      "url": "https://www.irs.gov/retirement-plans/matching-contributions-help-you-save-more-for-retirement",
+      "principlesChecked": ["Employer matching formulas may match only contributions up to a percentage of eligible pay.", "Matching formula and eligibility depend on plan terms; all exercise plan formulas are hypothetical."],
+      "topics": ["Retirement Saving Drills"]
+    },
+    {
+      "publisher": "Internal Revenue Service",
+      "title": "Retirement topics – Vesting",
+      "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-vesting",
+      "principlesChecked": ["Vesting concerns ownership of retirement-plan benefits.", "Employee and employer portions can have different vesting treatment; the exercise states the ownership percentages and includes associated earnings."],
+      "topics": ["Retirement Saving Drills"]
+    },
+    {
+      "publisher": "Federal Trade Commission",
+      "title": "Getting In and Out of Free Trials, Auto-Renewals, and Negative Option Subscriptions",
+      "url": "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
+      "principlesChecked": ["Promotional periods and renewal charges can differ.", "Cancellation and renewal terms matter to subscription cost; exercise refund and pause rules are explicitly assumed contract terms."],
+      "topics": ["Subscription Value Drills", "Shopping Price Drills"]
+    },
+    {
+      "publisher": "Consumer Financial Protection Bureau",
+      "title": "Problems sending money to another country?",
+      "url": "https://www.consumerfinance.gov/consumer-tools/sending-money/",
+      "principlesChecked": ["Sender fees, exchange rates, and recipient fees can all affect a remittance's total cost and amount received.", "Comparisons must use a consistent sender budget and include stated charges."],
+      "topics": ["Payment and Currency Drills"]
+    },
+    {
+      "publisher": "Consumer Financial Protection Bureau",
+      "title": "What is a grace period for a credit card?",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-grace-period-for-a-credit-card-en-47/",
+      "principlesChecked": ["Interest on new purchases can be avoided under an applicable grace period by paying the full balance on time.", "The interest exercise explicitly assumes an interest-bearing balance with no grace period; reward-card arithmetic explicitly excludes interest."],
+      "topics": ["Payment and Currency Drills"]
+    },
+    {
+      "publisher": "HealthCare.gov / Centers for Medicare & Medicaid Services",
+      "title": "Coinsurance",
+      "url": "https://www.healthcare.gov/glossary/co-insurance/",
+      "principlesChecked": ["Patient coinsurance is applied after the deductible under the described coverage structure.", "Eligible deductible and coinsurance payments count toward the out-of-pocket maximum; premiums are separate."],
+      "topics": ["Consumer Risk Drills"]
+    }
+  ],
+  "authoringConventions": [
+    "Prices and rates in prompts are the complete inputs; no current tax brackets, retirement contribution limits, exchange quotes, product pricing, or market forecasts are required.",
+    "Shopping prompts state the order and base for discounts, taxes, cashback, and shipping thresholds.",
+    "Business prompts distinguish collected cash from invoices and state variable and fixed costs separately.",
+    "All fund fee bases and proration periods are explicit; constant-balance and return-reduction models are labeled as assumptions.",
+    "Bond accrued interest uses the explicitly stated actual-days/365 formula; coupon frequency and principal payment timing are supplied.",
+    "Retirement projections state contribution timing and compounding frequency. Withholding examples are cash-flow assumptions rather than final tax calculations.",
+    "Currency prompts state units per dollar or dollars per unit and identify when fees are deducted.",
+    "Expected-loss and insurance examples use stated hypothetical event probabilities and coverage terms and do not prescribe a personal insurance decision."
+  ]
+}

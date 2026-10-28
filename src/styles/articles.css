@@ -390,6 +390,35 @@ html body.article-reader .reader-body hr {
   text-underline-offset: 4px;
   overflow-wrap: anywhere;
 }
+
+/* Comparison tables in sourced guides remain readable on narrow screens. */
+.article-reader .article-table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  margin-block: 24px;
+}
+.article-reader .article-table-scroll:focus-visible {
+  outline: 2px solid var(--db-optic);
+  outline-offset: 3px;
+}
+.article-reader .article-table-scroll table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+.article-reader .article-table-scroll :is(th, td) {
+  padding: 12px;
+  border: 1px solid var(--db-rule);
+  text-align: left;
+  vertical-align: top;
+  min-width: 8rem;
+}
+html body.article-reader .reader-body p.article-source-note {
+  color: var(--muted-fg);
+  font-size: 0.9375rem !important;
+  line-height: 1.7 !important;
+}
 .reader-end {
   grid-area: end;
   margin-top: 36px;

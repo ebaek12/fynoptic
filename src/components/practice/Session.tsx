@@ -271,7 +271,7 @@ export function Session({
                         {!entry.correct && (
                           <> The answer is {q.choices[q.answerIndex]}.</>
                         )}
-                        {q.explanation && <p>{q.explanation}</p>}
+                        {q.explanation && <p tabIndex={0}>{q.explanation}</p>}
                       </>
                     )}
                   </div>

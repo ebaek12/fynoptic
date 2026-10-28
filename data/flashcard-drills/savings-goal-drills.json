@@ -1,0 +1,2882 @@
+[
+  {
+    "id": "drill-cash-goal-monthly-contribution-01",
+    "kind": "calculation",
+    "term": "$443.75",
+    "definition": "You want $4,200.00 in 8 months and already have $650.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target?",
+    "distractors": [
+      "$525.00",
+      "$606.25",
+      "$3,550.00"
+    ],
+    "explanation": "Still needed = $4,200.00 − $650.00 = $3,550.00. Divide by 8 deposits: $443.75 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 443.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-02",
+    "kind": "calculation",
+    "term": "$418.33",
+    "definition": "You want $4,460.00 in 9 months and already have $695.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target? Round to the nearest cent.",
+    "distractors": [
+      "$495.56",
+      "$572.78",
+      "$3,765.00"
+    ],
+    "explanation": "Still needed = $4,460.00 − $695.00 = $3,765.00. Divide by 9 deposits: $418.33 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 418.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-03",
+    "kind": "calculation",
+    "term": "$398.00",
+    "definition": "You want $4,720.00 in 10 months and already have $740.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target?",
+    "distractors": [
+      "$472.00",
+      "$546.00",
+      "$3,980.00"
+    ],
+    "explanation": "Still needed = $4,720.00 − $740.00 = $3,980.00. Divide by 10 deposits: $398.00 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 398,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-04",
+    "kind": "calculation",
+    "term": "$381.36",
+    "definition": "You want $4,980.00 in 11 months and already have $785.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target? Round to the nearest cent.",
+    "distractors": [
+      "$452.73",
+      "$524.09",
+      "$4,195.00"
+    ],
+    "explanation": "Still needed = $4,980.00 − $785.00 = $4,195.00. Divide by 11 deposits: $381.36 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 381.36,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-05",
+    "kind": "calculation",
+    "term": "$367.50",
+    "definition": "You want $5,240.00 in 12 months and already have $830.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target?",
+    "distractors": [
+      "$436.67",
+      "$505.83",
+      "$4,410.00"
+    ],
+    "explanation": "Still needed = $5,240.00 − $830.00 = $4,410.00. Divide by 12 deposits: $367.50 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 367.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-06",
+    "kind": "calculation",
+    "term": "$355.77",
+    "definition": "You want $5,500.00 in 13 months and already have $875.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target? Round to the nearest cent.",
+    "distractors": [
+      "$423.08",
+      "$490.38",
+      "$4,625.00"
+    ],
+    "explanation": "Still needed = $5,500.00 − $875.00 = $4,625.00. Divide by 13 deposits: $355.77 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 355.77,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-07",
+    "kind": "calculation",
+    "term": "$345.71",
+    "definition": "You want $5,760.00 in 14 months and already have $920.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target? Round to the nearest cent.",
+    "distractors": [
+      "$411.43",
+      "$477.14",
+      "$4,840.00"
+    ],
+    "explanation": "Still needed = $5,760.00 − $920.00 = $4,840.00. Divide by 14 deposits: $345.71 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 345.71,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-08",
+    "kind": "calculation",
+    "term": "$337.00",
+    "definition": "You want $6,020.00 in 15 months and already have $965.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target?",
+    "distractors": [
+      "$401.33",
+      "$465.67",
+      "$5,055.00"
+    ],
+    "explanation": "Still needed = $6,020.00 − $965.00 = $5,055.00. Divide by 15 deposits: $337.00 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 337,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-09",
+    "kind": "calculation",
+    "term": "$329.38",
+    "definition": "You want $6,280.00 in 16 months and already have $1,010.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target? Round to the nearest cent.",
+    "distractors": [
+      "$392.50",
+      "$455.63",
+      "$5,270.00"
+    ],
+    "explanation": "Still needed = $6,280.00 − $1,010.00 = $5,270.00. Divide by 16 deposits: $329.38 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 329.38,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-10",
+    "kind": "calculation",
+    "term": "$685.63",
+    "definition": "You want $6,540.00 in 8 months and already have $1,055.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target? Round to the nearest cent.",
+    "distractors": [
+      "$817.50",
+      "$949.38",
+      "$5,485.00"
+    ],
+    "explanation": "Still needed = $6,540.00 − $1,055.00 = $5,485.00. Divide by 8 deposits: $685.63 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 685.63,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-11",
+    "kind": "calculation",
+    "term": "$633.33",
+    "definition": "You want $6,800.00 in 9 months and already have $1,100.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target? Round to the nearest cent.",
+    "distractors": [
+      "$755.56",
+      "$877.78",
+      "$5,700.00"
+    ],
+    "explanation": "Still needed = $6,800.00 − $1,100.00 = $5,700.00. Divide by 9 deposits: $633.33 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 633.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-12",
+    "kind": "calculation",
+    "term": "$591.50",
+    "definition": "You want $7,060.00 in 10 months and already have $1,145.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target?",
+    "distractors": [
+      "$706.00",
+      "$820.50",
+      "$5,915.00"
+    ],
+    "explanation": "Still needed = $7,060.00 − $1,145.00 = $5,915.00. Divide by 10 deposits: $591.50 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 591.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-13",
+    "kind": "calculation",
+    "term": "$557.27",
+    "definition": "You want $7,320.00 in 11 months and already have $1,190.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target? Round to the nearest cent.",
+    "distractors": [
+      "$665.45",
+      "$773.64",
+      "$6,130.00"
+    ],
+    "explanation": "Still needed = $7,320.00 − $1,190.00 = $6,130.00. Divide by 11 deposits: $557.27 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 557.27,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-14",
+    "kind": "calculation",
+    "term": "$528.75",
+    "definition": "You want $7,580.00 in 12 months and already have $1,235.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target?",
+    "distractors": [
+      "$631.67",
+      "$734.58",
+      "$6,345.00"
+    ],
+    "explanation": "Still needed = $7,580.00 − $1,235.00 = $6,345.00. Divide by 12 deposits: $528.75 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 528.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-15",
+    "kind": "calculation",
+    "term": "$504.62",
+    "definition": "You want $7,840.00 in 13 months and already have $1,280.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target? Round to the nearest cent.",
+    "distractors": [
+      "$603.08",
+      "$701.54",
+      "$6,560.00"
+    ],
+    "explanation": "Still needed = $7,840.00 − $1,280.00 = $6,560.00. Divide by 13 deposits: $504.62 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 504.62,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-16",
+    "kind": "calculation",
+    "term": "$483.93",
+    "definition": "You want $8,100.00 in 14 months and already have $1,325.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target? Round to the nearest cent.",
+    "distractors": [
+      "$578.57",
+      "$673.21",
+      "$6,775.00"
+    ],
+    "explanation": "Still needed = $8,100.00 − $1,325.00 = $6,775.00. Divide by 14 deposits: $483.93 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 483.93,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-17",
+    "kind": "calculation",
+    "term": "$466.00",
+    "definition": "You want $8,360.00 in 15 months and already have $1,370.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target?",
+    "distractors": [
+      "$557.33",
+      "$648.67",
+      "$6,990.00"
+    ],
+    "explanation": "Still needed = $8,360.00 − $1,370.00 = $6,990.00. Divide by 15 deposits: $466.00 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 466,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-18",
+    "kind": "calculation",
+    "term": "$450.31",
+    "definition": "You want $8,620.00 in 16 months and already have $1,415.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target? Round to the nearest cent.",
+    "distractors": [
+      "$538.75",
+      "$627.19",
+      "$7,205.00"
+    ],
+    "explanation": "Still needed = $8,620.00 − $1,415.00 = $7,205.00. Divide by 16 deposits: $450.31 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 450.31,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-19",
+    "kind": "calculation",
+    "term": "$927.50",
+    "definition": "You want $8,880.00 in 8 months and already have $1,460.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target?",
+    "distractors": [
+      "$1,110.00",
+      "$1,292.50",
+      "$7,420.00"
+    ],
+    "explanation": "Still needed = $8,880.00 − $1,460.00 = $7,420.00. Divide by 8 deposits: $927.50 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 927.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-goal-monthly-contribution-20",
+    "kind": "calculation",
+    "term": "$848.33",
+    "definition": "You want $9,140.00 in 9 months and already have $1,505.00. Assuming no interest, fees, or withdrawals, what equal deposit at each month-end reaches the target? Round to the nearest cent.",
+    "distractors": [
+      "$1,015.56",
+      "$1,182.78",
+      "$7,635.00"
+    ],
+    "explanation": "Still needed = $9,140.00 − $1,505.00 = $7,635.00. Divide by 9 deposits: $848.33 each. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 848.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-01",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $4,800.00 and the opening balance is $720.00. You add $240.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "20 months",
+      "23 months",
+      "18 months"
+    ],
+    "explanation": "The gap is $4,080.00. $4,080.00 ÷ $240.00 = 17.000 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-02",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $5,010.00 and the opening balance is $745.00. You add $252.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "20 months",
+      "23 months"
+    ],
+    "explanation": "The gap is $4,265.00. $4,265.00 ÷ $252.00 = 16.925 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-03",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $5,220.00 and the opening balance is $770.00. You add $264.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "20 months",
+      "23 months"
+    ],
+    "explanation": "The gap is $4,450.00. $4,450.00 ÷ $264.00 = 16.856 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-04",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $5,430.00 and the opening balance is $795.00. You add $276.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "20 months",
+      "23 months"
+    ],
+    "explanation": "The gap is $4,635.00. $4,635.00 ÷ $276.00 = 16.793 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-05",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $5,640.00 and the opening balance is $820.00. You add $288.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "20 months",
+      "23 months"
+    ],
+    "explanation": "The gap is $4,820.00. $4,820.00 ÷ $288.00 = 16.736 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-06",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $5,850.00 and the opening balance is $845.00. You add $300.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "20 months",
+      "23 months"
+    ],
+    "explanation": "The gap is $5,005.00. $5,005.00 ÷ $300.00 = 16.683 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-07",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $6,060.00 and the opening balance is $870.00. You add $312.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "20 months",
+      "23 months"
+    ],
+    "explanation": "The gap is $5,190.00. $5,190.00 ÷ $312.00 = 16.635 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-08",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $6,270.00 and the opening balance is $895.00. You add $324.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "20 months",
+      "23 months"
+    ],
+    "explanation": "The gap is $5,375.00. $5,375.00 ÷ $324.00 = 16.590 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-09",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $6,480.00 and the opening balance is $920.00. You add $336.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "20 months",
+      "23 months"
+    ],
+    "explanation": "The gap is $5,560.00. $5,560.00 ÷ $336.00 = 16.548 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-10",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $6,690.00 and the opening balance is $945.00. You add $348.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "20 months",
+      "22 months"
+    ],
+    "explanation": "The gap is $5,745.00. $5,745.00 ÷ $348.00 = 16.509 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-11",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $6,900.00 and the opening balance is $970.00. You add $360.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "20 months",
+      "22 months"
+    ],
+    "explanation": "The gap is $5,930.00. $5,930.00 ÷ $360.00 = 16.472 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-12",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $7,110.00 and the opening balance is $995.00. You add $372.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "20 months",
+      "22 months"
+    ],
+    "explanation": "The gap is $6,115.00. $6,115.00 ÷ $372.00 = 16.438 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-13",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $7,320.00 and the opening balance is $1,020.00. You add $384.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "20 months",
+      "22 months"
+    ],
+    "explanation": "The gap is $6,300.00. $6,300.00 ÷ $384.00 = 16.406 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-14",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $7,530.00 and the opening balance is $1,045.00. You add $396.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "20 months",
+      "22 months"
+    ],
+    "explanation": "The gap is $6,485.00. $6,485.00 ÷ $396.00 = 16.376 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-15",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $7,740.00 and the opening balance is $1,070.00. You add $408.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "19 months",
+      "22 months"
+    ],
+    "explanation": "The gap is $6,670.00. $6,670.00 ÷ $408.00 = 16.348 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-16",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $7,950.00 and the opening balance is $1,095.00. You add $420.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "19 months",
+      "22 months"
+    ],
+    "explanation": "The gap is $6,855.00. $6,855.00 ÷ $420.00 = 16.321 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-17",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $8,160.00 and the opening balance is $1,120.00. You add $432.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "19 months",
+      "22 months"
+    ],
+    "explanation": "The gap is $7,040.00. $7,040.00 ÷ $432.00 = 16.296 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-18",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $8,370.00 and the opening balance is $1,145.00. You add $444.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "19 months",
+      "22 months"
+    ],
+    "explanation": "The gap is $7,225.00. $7,225.00 ÷ $444.00 = 16.273 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-19",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $8,580.00 and the opening balance is $1,170.00. You add $456.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "19 months",
+      "22 months"
+    ],
+    "explanation": "The gap is $7,410.00. $7,410.00 ÷ $456.00 = 16.250 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-whole-months-to-goal-20",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "A savings goal is $8,790.00 and the opening balance is $1,195.00. You add $468.00 at each month-end, earning no interest. What is the minimum whole number of monthly deposits needed to meet or exceed the goal?",
+    "distractors": [
+      "16 months",
+      "19 months",
+      "22 months"
+    ],
+    "explanation": "The gap is $7,595.00. $7,595.00 ÷ $468.00 = 16.229 deposits; round up to 17 whole deposits.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-01",
+    "kind": "calculation",
+    "term": "$3,950.00",
+    "definition": "You choose an emergency-fund target of 3 months of essential expenses only. Essential costs are $1,750.00 monthly; optional costs are $350.00. You already have $1,300.00. How much more is needed?",
+    "distractors": [
+      "$5,000.00",
+      "$5,250.00",
+      "$800.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $1,750.00 × 3 = $5,250.00. Subtract $1,300.00 already saved to get $3,950.00.",
+    "numericAnswer": {
+      "value": 3950,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-02",
+    "kind": "calculation",
+    "term": "$5,925.00",
+    "definition": "You choose an emergency-fund target of 4 months of essential expenses only. Essential costs are $1,820.00 monthly; optional costs are $365.00. You already have $1,355.00. How much more is needed?",
+    "distractors": [
+      "$7,385.00",
+      "$7,280.00",
+      "$830.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $1,820.00 × 4 = $7,280.00. Subtract $1,355.00 already saved to get $5,925.00.",
+    "numericAnswer": {
+      "value": 5925,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-03",
+    "kind": "calculation",
+    "term": "$8,040.00",
+    "definition": "You choose an emergency-fund target of 5 months of essential expenses only. Essential costs are $1,890.00 monthly; optional costs are $380.00. You already have $1,410.00. How much more is needed?",
+    "distractors": [
+      "$9,940.00",
+      "$9,450.00",
+      "$860.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $1,890.00 × 5 = $9,450.00. Subtract $1,410.00 already saved to get $8,040.00.",
+    "numericAnswer": {
+      "value": 8040,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-04",
+    "kind": "calculation",
+    "term": "$10,295.00",
+    "definition": "You choose an emergency-fund target of 6 months of essential expenses only. Essential costs are $1,960.00 monthly; optional costs are $395.00. You already have $1,465.00. How much more is needed?",
+    "distractors": [
+      "$12,665.00",
+      "$11,760.00",
+      "$890.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $1,960.00 × 6 = $11,760.00. Subtract $1,465.00 already saved to get $10,295.00.",
+    "numericAnswer": {
+      "value": 10295,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-05",
+    "kind": "calculation",
+    "term": "$4,570.00",
+    "definition": "You choose an emergency-fund target of 3 months of essential expenses only. Essential costs are $2,030.00 monthly; optional costs are $410.00. You already have $1,520.00. How much more is needed?",
+    "distractors": [
+      "$5,800.00",
+      "$6,090.00",
+      "$920.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $2,030.00 × 3 = $6,090.00. Subtract $1,520.00 already saved to get $4,570.00.",
+    "numericAnswer": {
+      "value": 4570,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-06",
+    "kind": "calculation",
+    "term": "$6,825.00",
+    "definition": "You choose an emergency-fund target of 4 months of essential expenses only. Essential costs are $2,100.00 monthly; optional costs are $425.00. You already have $1,575.00. How much more is needed?",
+    "distractors": [
+      "$8,525.00",
+      "$8,400.00",
+      "$950.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $2,100.00 × 4 = $8,400.00. Subtract $1,575.00 already saved to get $6,825.00.",
+    "numericAnswer": {
+      "value": 6825,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-07",
+    "kind": "calculation",
+    "term": "$9,220.00",
+    "definition": "You choose an emergency-fund target of 5 months of essential expenses only. Essential costs are $2,170.00 monthly; optional costs are $440.00. You already have $1,630.00. How much more is needed?",
+    "distractors": [
+      "$11,420.00",
+      "$10,850.00",
+      "$980.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $2,170.00 × 5 = $10,850.00. Subtract $1,630.00 already saved to get $9,220.00.",
+    "numericAnswer": {
+      "value": 9220,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-08",
+    "kind": "calculation",
+    "term": "$11,755.00",
+    "definition": "You choose an emergency-fund target of 6 months of essential expenses only. Essential costs are $2,240.00 monthly; optional costs are $455.00. You already have $1,685.00. How much more is needed?",
+    "distractors": [
+      "$14,485.00",
+      "$13,440.00",
+      "$1,010.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $2,240.00 × 6 = $13,440.00. Subtract $1,685.00 already saved to get $11,755.00.",
+    "numericAnswer": {
+      "value": 11755,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-09",
+    "kind": "calculation",
+    "term": "$5,190.00",
+    "definition": "You choose an emergency-fund target of 3 months of essential expenses only. Essential costs are $2,310.00 monthly; optional costs are $470.00. You already have $1,740.00. How much more is needed?",
+    "distractors": [
+      "$6,600.00",
+      "$6,930.00",
+      "$1,040.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $2,310.00 × 3 = $6,930.00. Subtract $1,740.00 already saved to get $5,190.00.",
+    "numericAnswer": {
+      "value": 5190,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-10",
+    "kind": "calculation",
+    "term": "$7,725.00",
+    "definition": "You choose an emergency-fund target of 4 months of essential expenses only. Essential costs are $2,380.00 monthly; optional costs are $485.00. You already have $1,795.00. How much more is needed?",
+    "distractors": [
+      "$9,665.00",
+      "$9,520.00",
+      "$1,070.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $2,380.00 × 4 = $9,520.00. Subtract $1,795.00 already saved to get $7,725.00.",
+    "numericAnswer": {
+      "value": 7725,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-11",
+    "kind": "calculation",
+    "term": "$10,400.00",
+    "definition": "You choose an emergency-fund target of 5 months of essential expenses only. Essential costs are $2,450.00 monthly; optional costs are $500.00. You already have $1,850.00. How much more is needed?",
+    "distractors": [
+      "$12,900.00",
+      "$12,250.00",
+      "$1,100.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $2,450.00 × 5 = $12,250.00. Subtract $1,850.00 already saved to get $10,400.00.",
+    "numericAnswer": {
+      "value": 10400,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-12",
+    "kind": "calculation",
+    "term": "$13,215.00",
+    "definition": "You choose an emergency-fund target of 6 months of essential expenses only. Essential costs are $2,520.00 monthly; optional costs are $515.00. You already have $1,905.00. How much more is needed?",
+    "distractors": [
+      "$16,305.00",
+      "$15,120.00",
+      "$1,130.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $2,520.00 × 6 = $15,120.00. Subtract $1,905.00 already saved to get $13,215.00.",
+    "numericAnswer": {
+      "value": 13215,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-13",
+    "kind": "calculation",
+    "term": "$5,810.00",
+    "definition": "You choose an emergency-fund target of 3 months of essential expenses only. Essential costs are $2,590.00 monthly; optional costs are $530.00. You already have $1,960.00. How much more is needed?",
+    "distractors": [
+      "$7,400.00",
+      "$7,770.00",
+      "$1,160.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $2,590.00 × 3 = $7,770.00. Subtract $1,960.00 already saved to get $5,810.00.",
+    "numericAnswer": {
+      "value": 5810,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-14",
+    "kind": "calculation",
+    "term": "$8,625.00",
+    "definition": "You choose an emergency-fund target of 4 months of essential expenses only. Essential costs are $2,660.00 monthly; optional costs are $545.00. You already have $2,015.00. How much more is needed?",
+    "distractors": [
+      "$10,805.00",
+      "$10,640.00",
+      "$1,190.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $2,660.00 × 4 = $10,640.00. Subtract $2,015.00 already saved to get $8,625.00.",
+    "numericAnswer": {
+      "value": 8625,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-15",
+    "kind": "calculation",
+    "term": "$11,580.00",
+    "definition": "You choose an emergency-fund target of 5 months of essential expenses only. Essential costs are $2,730.00 monthly; optional costs are $560.00. You already have $2,070.00. How much more is needed?",
+    "distractors": [
+      "$14,380.00",
+      "$13,650.00",
+      "$1,220.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $2,730.00 × 5 = $13,650.00. Subtract $2,070.00 already saved to get $11,580.00.",
+    "numericAnswer": {
+      "value": 11580,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-16",
+    "kind": "calculation",
+    "term": "$14,675.00",
+    "definition": "You choose an emergency-fund target of 6 months of essential expenses only. Essential costs are $2,800.00 monthly; optional costs are $575.00. You already have $2,125.00. How much more is needed?",
+    "distractors": [
+      "$18,125.00",
+      "$16,800.00",
+      "$1,250.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $2,800.00 × 6 = $16,800.00. Subtract $2,125.00 already saved to get $14,675.00.",
+    "numericAnswer": {
+      "value": 14675,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-17",
+    "kind": "calculation",
+    "term": "$6,430.00",
+    "definition": "You choose an emergency-fund target of 3 months of essential expenses only. Essential costs are $2,870.00 monthly; optional costs are $590.00. You already have $2,180.00. How much more is needed?",
+    "distractors": [
+      "$8,200.00",
+      "$8,610.00",
+      "$1,280.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $2,870.00 × 3 = $8,610.00. Subtract $2,180.00 already saved to get $6,430.00.",
+    "numericAnswer": {
+      "value": 6430,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-18",
+    "kind": "calculation",
+    "term": "$9,525.00",
+    "definition": "You choose an emergency-fund target of 4 months of essential expenses only. Essential costs are $2,940.00 monthly; optional costs are $605.00. You already have $2,235.00. How much more is needed?",
+    "distractors": [
+      "$11,945.00",
+      "$11,760.00",
+      "$1,310.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $2,940.00 × 4 = $11,760.00. Subtract $2,235.00 already saved to get $9,525.00.",
+    "numericAnswer": {
+      "value": 9525,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-19",
+    "kind": "calculation",
+    "term": "$12,760.00",
+    "definition": "You choose an emergency-fund target of 5 months of essential expenses only. Essential costs are $3,010.00 monthly; optional costs are $620.00. You already have $2,290.00. How much more is needed?",
+    "distractors": [
+      "$15,860.00",
+      "$15,050.00",
+      "$1,340.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $3,010.00 × 5 = $15,050.00. Subtract $2,290.00 already saved to get $12,760.00.",
+    "numericAnswer": {
+      "value": 12760,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-emergency-fund-essential-target-20",
+    "kind": "calculation",
+    "term": "$16,135.00",
+    "definition": "You choose an emergency-fund target of 6 months of essential expenses only. Essential costs are $3,080.00 monthly; optional costs are $635.00. You already have $2,345.00. How much more is needed?",
+    "distractors": [
+      "$19,945.00",
+      "$18,480.00",
+      "$1,370.00"
+    ],
+    "explanation": "The chosen target excludes optional spending: $3,080.00 × 6 = $18,480.00. Subtract $2,345.00 already saved to get $16,135.00.",
+    "numericAnswer": {
+      "value": 16135,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-01",
+    "kind": "calculation",
+    "term": "$4,889.98",
+    "definition": "A savings product pays 3.00% annual simple interest, without compounding or fees. What single opening deposit grows to $5,000.00 after exactly 9/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$4,887.50",
+      "$4,854.37",
+      "$3,937.01"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $5,000.00 ÷ [1 + 3/100 × 9/12] = $4,889.98.",
+    "numericAnswer": {
+      "value": 4889.98,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-02",
+    "kind": "calculation",
+    "term": "$5,208.92",
+    "definition": "A savings product pays 3.25% annual simple interest, without compounding or fees. What single opening deposit grows to $5,350.00 after exactly 10/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$5,205.10",
+      "$5,181.60",
+      "$4,037.74"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $5,350.00 ÷ [1 + 3.25/100 × 10/12] = $5,208.92.",
+    "numericAnswer": {
+      "value": 5208.92,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-03",
+    "kind": "calculation",
+    "term": "$5,522.81",
+    "definition": "A savings product pays 3.50% annual simple interest, without compounding or fees. What single opening deposit grows to $5,700.00 after exactly 11/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$5,517.13",
+      "$5,507.25",
+      "$4,115.52"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $5,700.00 ÷ [1 + 3.5/100 × 11/12] = $5,522.81.",
+    "numericAnswer": {
+      "value": 5522.81,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-04",
+    "kind": "calculation",
+    "term": "$5,831.33",
+    "definition": "A savings product pays 3.75% annual simple interest, without compounding or fees. What single opening deposit grows to $6,050.00 after exactly 12/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$5,823.13",
+      "$4,172.41",
+      "$6,276.88"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $6,050.00 ÷ [1 + 3.75/100 × 12/12] = $5,831.33.",
+    "numericAnswer": {
+      "value": 5831.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-05",
+    "kind": "calculation",
+    "term": "$6,134.19",
+    "definition": "A savings product pays 4.00% annual simple interest, without compounding or fees. What single opening deposit grows to $6,400.00 after exactly 13/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$6,122.67",
+      "$6,153.85",
+      "$4,210.53"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $6,400.00 ÷ [1 + 4/100 × 13/12] = $6,134.19.",
+    "numericAnswer": {
+      "value": 6134.19,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-06",
+    "kind": "calculation",
+    "term": "$6,431.12",
+    "definition": "A savings product pays 4.25% annual simple interest, without compounding or fees. What single opening deposit grows to $6,750.00 after exactly 14/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$6,415.31",
+      "$6,474.82",
+      "$4,231.97"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $6,750.00 ÷ [1 + 4.25/100 × 14/12] = $6,431.12.",
+    "numericAnswer": {
+      "value": 6431.12,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-07",
+    "kind": "calculation",
+    "term": "$6,721.89",
+    "definition": "A savings product pays 4.50% annual simple interest, without compounding or fees. What single opening deposit grows to $7,100.00 after exactly 15/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$6,700.63",
+      "$6,794.26",
+      "$4,238.81"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $7,100.00 ÷ [1 + 4.5/100 × 15/12] = $6,721.89.",
+    "numericAnswer": {
+      "value": 6721.89,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-08",
+    "kind": "calculation",
+    "term": "$7,163.46",
+    "definition": "A savings product pays 3.00% annual simple interest, without compounding or fees. What single opening deposit grows to $7,450.00 after exactly 16/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$7,152.00",
+      "$7,233.01",
+      "$5,033.78"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $7,450.00 ÷ [1 + 3/100 × 16/12] = $7,163.46.",
+    "numericAnswer": {
+      "value": 7163.46,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-09",
+    "kind": "calculation",
+    "term": "$7,456.68",
+    "definition": "A savings product pays 3.25% annual simple interest, without compounding or fees. What single opening deposit grows to $7,800.00 after exactly 17/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$7,440.88",
+      "$7,554.48",
+      "$5,024.15"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $7,800.00 ÷ [1 + 3.25/100 × 17/12] = $7,456.68.",
+    "numericAnswer": {
+      "value": 7456.68,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-10",
+    "kind": "calculation",
+    "term": "$7,743.47",
+    "definition": "A savings product pays 3.50% annual simple interest, without compounding or fees. What single opening deposit grows to $8,150.00 after exactly 18/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$7,722.13",
+      "$7,874.40",
+      "$5,000.00"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $8,150.00 ÷ [1 + 3.5/100 × 18/12] = $7,743.47.",
+    "numericAnswer": {
+      "value": 7743.47,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-11",
+    "kind": "calculation",
+    "term": "$8,023.60",
+    "definition": "A savings product pays 3.75% annual simple interest, without compounding or fees. What single opening deposit grows to $8,500.00 after exactly 19/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$7,995.31",
+      "$8,192.77",
+      "$4,963.50"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $8,500.00 ÷ [1 + 3.75/100 × 19/12] = $8,023.60.",
+    "numericAnswer": {
+      "value": 8023.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-12",
+    "kind": "calculation",
+    "term": "$8,296.88",
+    "definition": "A savings product pays 4.00% annual simple interest, without compounding or fees. What single opening deposit grows to $8,850.00 after exactly 20/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$8,260.00",
+      "$8,509.62",
+      "$4,916.67"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $8,850.00 ÷ [1 + 4/100 × 20/12] = $8,296.88.",
+    "numericAnswer": {
+      "value": 8296.88,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-13",
+    "kind": "calculation",
+    "term": "$8,915.81",
+    "definition": "A savings product pays 4.25% annual simple interest, without compounding or fees. What single opening deposit grows to $9,200.00 after exactly 9/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$8,906.75",
+      "$8,824.94",
+      "$6,654.61"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $9,200.00 ÷ [1 + 4.25/100 × 9/12] = $8,915.81.",
+    "numericAnswer": {
+      "value": 8915.81,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-14",
+    "kind": "calculation",
+    "term": "$9,204.82",
+    "definition": "A savings product pays 4.50% annual simple interest, without compounding or fees. What single opening deposit grows to $9,550.00 after exactly 10/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$9,191.88",
+      "$9,138.76",
+      "$6,586.21"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $9,550.00 ÷ [1 + 4.5/100 × 10/12] = $9,204.82.",
+    "numericAnswer": {
+      "value": 9204.82,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-15",
+    "kind": "calculation",
+    "term": "$9,635.04",
+    "definition": "A savings product pays 3.00% annual simple interest, without compounding or fees. What single opening deposit grows to $9,900.00 after exactly 11/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$9,627.75",
+      "$9,611.65",
+      "$7,443.61"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $9,900.00 ÷ [1 + 3/100 × 11/12] = $9,635.04.",
+    "numericAnswer": {
+      "value": 9635.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-16",
+    "kind": "calculation",
+    "term": "$9,927.36",
+    "definition": "A savings product pays 3.25% annual simple interest, without compounding or fees. What single opening deposit grows to $10,250.00 after exactly 12/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$9,916.88",
+      "$7,374.10",
+      "$10,583.13"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $10,250.00 ÷ [1 + 3.25/100 × 12/12] = $9,927.36.",
+    "numericAnswer": {
+      "value": 9927.36,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-17",
+    "kind": "calculation",
+    "term": "$10,212.77",
+    "definition": "A savings product pays 3.50% annual simple interest, without compounding or fees. What single opening deposit grows to $10,600.00 after exactly 13/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$10,198.08",
+      "$10,241.55",
+      "$7,285.22"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $10,600.00 ÷ [1 + 3.5/100 × 13/12] = $10,212.77.",
+    "numericAnswer": {
+      "value": 10212.77,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-18",
+    "kind": "calculation",
+    "term": "$10,491.02",
+    "definition": "A savings product pays 3.75% annual simple interest, without compounding or fees. What single opening deposit grows to $10,950.00 after exactly 14/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$10,470.94",
+      "$10,554.22",
+      "$7,180.33"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $10,950.00 ÷ [1 + 3.75/100 × 14/12] = $10,491.02.",
+    "numericAnswer": {
+      "value": 10491.02,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-19",
+    "kind": "calculation",
+    "term": "$10,761.90",
+    "definition": "A savings product pays 4.00% annual simple interest, without compounding or fees. What single opening deposit grows to $11,300.00 after exactly 15/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$10,735.00",
+      "$10,865.38",
+      "$7,062.50"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $11,300.00 ÷ [1 + 4/100 × 15/12] = $10,761.90.",
+    "numericAnswer": {
+      "value": 10761.9,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-interest-required-deposit-20",
+    "kind": "calculation",
+    "term": "$11,025.24",
+    "definition": "A savings product pays 4.25% annual simple interest, without compounding or fees. What single opening deposit grows to $11,650.00 after exactly 16/12 years, with no other deposits or withdrawals? Round to the nearest cent.",
+    "distractors": [
+      "$10,989.83",
+      "$11,175.06",
+      "$6,934.52"
+    ],
+    "explanation": "With simple interest, target = principal × (1 + rate × years). Principal = $11,650.00 ÷ [1 + 4.25/100 × 16/12] = $11,025.24.",
+    "numericAnswer": {
+      "value": 11025.24,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-01",
+    "kind": "calculation",
+    "term": "$2,491.59",
+    "definition": "Deposit $2,400.00 in an account with a fixed nominal annual interest rate of 3.0%, compounded monthly. With no later transactions or fees, what is the balance after 15 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$2,490.00",
+      "$3,739.12",
+      "$2,406.00"
+    ],
+    "explanation": "Monthly rate is 3/100 ÷ 12. Balance = $2,400.00 × (1 + 3/1200)^15 = $2,491.59.",
+    "numericAnswer": {
+      "value": 2491.59,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-02",
+    "kind": "calculation",
+    "term": "$2,699.48",
+    "definition": "Deposit $2,580.00 in an account with a fixed nominal annual interest rate of 3.4%, compounded monthly. With no later transactions or fees, what is the balance after 16 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$2,696.96",
+      "$4,405.02",
+      "$2,587.31"
+    ],
+    "explanation": "Monthly rate is 3.4/100 ÷ 12. Balance = $2,580.00 × (1 + 3.4/1200)^16 = $2,699.48.",
+    "numericAnswer": {
+      "value": 2699.48,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-03",
+    "kind": "calculation",
+    "term": "$2,912.40",
+    "definition": "Deposit $2,760.00 in an account with a fixed nominal annual interest rate of 3.8%, compounded monthly. With no later transactions or fees, what is the balance after 17 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$2,908.58",
+      "$5,203.12",
+      "$2,768.74"
+    ],
+    "explanation": "Monthly rate is 3.8/100 ÷ 12. Balance = $2,760.00 × (1 + 3.8/1200)^17 = $2,912.40.",
+    "numericAnswer": {
+      "value": 2912.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-04",
+    "kind": "calculation",
+    "term": "$3,130.83",
+    "definition": "Deposit $2,940.00 in an account with a fixed nominal annual interest rate of 4.2%, compounded monthly. With no later transactions or fees, what is the balance after 18 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$3,125.22",
+      "$6,165.47",
+      "$2,950.29"
+    ],
+    "explanation": "Monthly rate is 4.2/100 ÷ 12. Balance = $2,940.00 × (1 + 4.2/1200)^18 = $3,130.83.",
+    "numericAnswer": {
+      "value": 3130.83,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-05",
+    "kind": "calculation",
+    "term": "$3,355.25",
+    "definition": "Deposit $3,120.00 in an account with a fixed nominal annual interest rate of 4.6%, compounded monthly. With no later transactions or fees, what is the balance after 19 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$3,347.24",
+      "$7,332.58",
+      "$3,131.96"
+    ],
+    "explanation": "Monthly rate is 4.6/100 ÷ 12. Balance = $3,120.00 × (1 + 4.6/1200)^19 = $3,355.25.",
+    "numericAnswer": {
+      "value": 3355.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-06",
+    "kind": "calculation",
+    "term": "$3,586.16",
+    "definition": "Deposit $3,300.00 in an account with a fixed nominal annual interest rate of 5.0%, compounded monthly. With no later transactions or fees, what is the balance after 20 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$3,575.00",
+      "$8,755.88",
+      "$3,313.75"
+    ],
+    "explanation": "Monthly rate is 5/100 ÷ 12. Balance = $3,300.00 × (1 + 5/1200)^20 = $3,586.16.",
+    "numericAnswer": {
+      "value": 3586.16,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-07",
+    "kind": "calculation",
+    "term": "$3,667.34",
+    "definition": "Deposit $3,480.00 in an account with a fixed nominal annual interest rate of 3.0%, compounded monthly. With no later transactions or fees, what is the balance after 21 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$3,662.70",
+      "$6,473.83",
+      "$3,488.70"
+    ],
+    "explanation": "Monthly rate is 3/100 ÷ 12. Balance = $3,480.00 × (1 + 3/1200)^21 = $3,667.34.",
+    "numericAnswer": {
+      "value": 3667.34,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-08",
+    "kind": "calculation",
+    "term": "$3,895.06",
+    "definition": "Deposit $3,660.00 in an account with a fixed nominal annual interest rate of 3.4%, compounded monthly. With no later transactions or fees, what is the balance after 22 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$3,888.14",
+      "$7,637.18",
+      "$3,670.37"
+    ],
+    "explanation": "Monthly rate is 3.4/100 ÷ 12. Balance = $3,660.00 × (1 + 3.4/1200)^22 = $3,895.06.",
+    "numericAnswer": {
+      "value": 3895.06,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-09",
+    "kind": "calculation",
+    "term": "$4,129.64",
+    "definition": "Deposit $3,840.00 in an account with a fixed nominal annual interest rate of 3.8%, compounded monthly. With no later transactions or fees, what is the balance after 23 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$4,119.68",
+      "$9,054.62",
+      "$3,852.16"
+    ],
+    "explanation": "Monthly rate is 3.8/100 ÷ 12. Balance = $3,840.00 × (1 + 3.8/1200)^23 = $4,129.64.",
+    "numericAnswer": {
+      "value": 4129.64,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-10",
+    "kind": "calculation",
+    "term": "$4,371.63",
+    "definition": "Deposit $4,020.00 in an account with a fixed nominal annual interest rate of 4.2%, compounded monthly. With no later transactions or fees, what is the balance after 24 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$4,357.68",
+      "$10,790.74",
+      "$4,034.07"
+    ],
+    "explanation": "Monthly rate is 4.2/100 ÷ 12. Balance = $4,020.00 × (1 + 4.2/1200)^24 = $4,371.63.",
+    "numericAnswer": {
+      "value": 4371.63,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-11",
+    "kind": "calculation",
+    "term": "$4,621.57",
+    "definition": "Deposit $4,200.00 in an account with a fixed nominal annual interest rate of 4.6%, compounded monthly. With no later transactions or fees, what is the balance after 25 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$4,602.50",
+      "$12,928.30",
+      "$4,216.10"
+    ],
+    "explanation": "Monthly rate is 4.6/100 ÷ 12. Balance = $4,200.00 × (1 + 4.6/1200)^25 = $4,621.57.",
+    "numericAnswer": {
+      "value": 4621.57,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-12",
+    "kind": "calculation",
+    "term": "$4,880.06",
+    "definition": "Deposit $4,380.00 in an account with a fixed nominal annual interest rate of 5.0%, compounded monthly. With no later transactions or fees, what is the balance after 26 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$4,854.50",
+      "$15,573.85",
+      "$4,398.25"
+    ],
+    "explanation": "Monthly rate is 5/100 ÷ 12. Balance = $4,380.00 × (1 + 5/1200)^26 = $4,880.06.",
+    "numericAnswer": {
+      "value": 4880.06,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-13",
+    "kind": "calculation",
+    "term": "$4,878.02",
+    "definition": "Deposit $4,560.00 in an account with a fixed nominal annual interest rate of 3.0%, compounded monthly. With no later transactions or fees, what is the balance after 27 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$4,867.80",
+      "$10,129.08",
+      "$4,571.40"
+    ],
+    "explanation": "Monthly rate is 3/100 ÷ 12. Balance = $4,560.00 × (1 + 3/1200)^27 = $4,878.02.",
+    "numericAnswer": {
+      "value": 4878.02,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-14",
+    "kind": "calculation",
+    "term": "$5,130.78",
+    "definition": "Deposit $4,740.00 in an account with a fixed nominal annual interest rate of 3.4%, compounded monthly. With no later transactions or fees, what is the balance after 28 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$5,116.04",
+      "$12,087.97",
+      "$4,753.43"
+    ],
+    "explanation": "Monthly rate is 3.4/100 ÷ 12. Balance = $4,740.00 × (1 + 3.4/1200)^28 = $5,130.78.",
+    "numericAnswer": {
+      "value": 5130.78,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-15",
+    "kind": "calculation",
+    "term": "$5,392.43",
+    "definition": "Deposit $4,920.00 in an account with a fixed nominal annual interest rate of 3.8%, compounded monthly. With no later transactions or fees, what is the balance after 29 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$5,371.82",
+      "$14,510.70",
+      "$4,935.58"
+    ],
+    "explanation": "Monthly rate is 3.8/100 ÷ 12. Balance = $4,920.00 × (1 + 3.8/1200)^29 = $5,392.43.",
+    "numericAnswer": {
+      "value": 5392.43,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-16",
+    "kind": "calculation",
+    "term": "$5,663.59",
+    "definition": "Deposit $5,100.00 in an account with a fixed nominal annual interest rate of 4.2%, compounded monthly. With no later transactions or fees, what is the balance after 30 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$5,635.50",
+      "$17,522.73",
+      "$5,117.85"
+    ],
+    "explanation": "Monthly rate is 4.2/100 ÷ 12. Balance = $5,100.00 × (1 + 4.2/1200)^30 = $5,663.59.",
+    "numericAnswer": {
+      "value": 5663.59,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-17",
+    "kind": "calculation",
+    "term": "$5,944.89",
+    "definition": "Deposit $5,280.00 in an account with a fixed nominal annual interest rate of 4.6%, compounded monthly. With no later transactions or fees, what is the balance after 31 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$5,907.44",
+      "$21,287.08",
+      "$5,300.24"
+    ],
+    "explanation": "Monthly rate is 4.6/100 ÷ 12. Balance = $5,280.00 × (1 + 4.6/1200)^31 = $5,944.89.",
+    "numericAnswer": {
+      "value": 5944.89,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-18",
+    "kind": "calculation",
+    "term": "$6,237.04",
+    "definition": "Deposit $5,460.00 in an account with a fixed nominal annual interest rate of 5.0%, compounded monthly. With no later transactions or fees, what is the balance after 32 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$6,188.00",
+      "$26,016.58",
+      "$5,482.75"
+    ],
+    "explanation": "Monthly rate is 5/100 ÷ 12. Balance = $5,460.00 × (1 + 5/1200)^32 = $6,237.04.",
+    "numericAnswer": {
+      "value": 6237.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-19",
+    "kind": "calculation",
+    "term": "$6,124.40",
+    "definition": "Deposit $5,640.00 in an account with a fixed nominal annual interest rate of 3.0%, compounded monthly. With no later transactions or fees, what is the balance after 33 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$6,105.30",
+      "$14,959.17",
+      "$5,654.10"
+    ],
+    "explanation": "Monthly rate is 3/100 ÷ 12. Balance = $5,640.00 × (1 + 3/1200)^33 = $6,124.40.",
+    "numericAnswer": {
+      "value": 6124.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-monthly-compound-savings-20",
+    "kind": "calculation",
+    "term": "$6,407.68",
+    "definition": "Deposit $5,820.00 in an account with a fixed nominal annual interest rate of 3.4%, compounded monthly. With no later transactions or fees, what is the balance after 34 months? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$6,380.66",
+      "$18,139.33",
+      "$5,836.49"
+    ],
+    "explanation": "Monthly rate is 3.4/100 ÷ 12. Balance = $5,820.00 × (1 + 3.4/1200)^34 = $6,407.68.",
+    "numericAnswer": {
+      "value": 6407.68,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-01",
+    "kind": "calculation",
+    "term": "$362.22",
+    "definition": "Starting from zero, you want $9,000.00 after 24 months. The account pays a nominal 3.6% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$375.00",
+      "$361.14",
+      "$242.36"
+    ],
+    "explanation": "r = 3.6/1200 and n = 24. The factor is [(1 + 3.6/1200)^24 − 1]/(3.6/1200) = 24.846506. Deposit = $9,000.00 ÷ factor = $362.22.",
+    "numericAnswer": {
+      "value": 362.22,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-02",
+    "kind": "calculation",
+    "term": "$368.12",
+    "definition": "Starting from zero, you want $9,600.00 after 25 months. The account pays a nominal 4.2% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$384.00",
+      "$366.83",
+      "$224.37"
+    ],
+    "explanation": "r = 4.2/1200 and n = 25. The factor is [(1 + 4.2/1200)^25 − 1]/(4.2/1200) = 26.078725. Deposit = $9,600.00 ÷ factor = $368.12.",
+    "numericAnswer": {
+      "value": 368.12,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-03",
+    "kind": "calculation",
+    "term": "$373.04",
+    "definition": "Starting from zero, you want $10,200.00 after 26 months. The account pays a nominal 4.8% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$392.31",
+      "$371.56",
+      "$205.39"
+    ],
+    "explanation": "r = 4.8/1200 and n = 26. The factor is [(1 + 4.8/1200)^26 − 1]/(4.8/1200) = 27.342574. Deposit = $10,200.00 ÷ factor = $373.04.",
+    "numericAnswer": {
+      "value": 373.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-04",
+    "kind": "calculation",
+    "term": "$377.09",
+    "definition": "Starting from zero, you want $10,800.00 after 27 months. The account pays a nominal 5.4% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$400.00",
+      "$375.40",
+      "$185.90"
+    ],
+    "explanation": "r = 5.4/1200 and n = 27. The factor is [(1 + 5.4/1200)^27 − 1]/(5.4/1200) = 28.640364. Deposit = $10,800.00 ÷ factor = $377.09.",
+    "numericAnswer": {
+      "value": 377.09,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-05",
+    "kind": "calculation",
+    "term": "$380.32",
+    "definition": "Starting from zero, you want $11,400.00 after 28 months. The account pays a nominal 6.0% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$407.14",
+      "$378.43",
+      "$166.36"
+    ],
+    "explanation": "r = 6/1200 and n = 28. The factor is [(1 + 6/1200)^28 − 1]/(6/1200) = 29.974522. Deposit = $11,400.00 ÷ factor = $380.32.",
+    "numericAnswer": {
+      "value": 380.32,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-06",
+    "kind": "calculation",
+    "term": "$396.67",
+    "definition": "Starting from zero, you want $12,000.00 after 29 months. The account pays a nominal 3.6% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$413.79",
+      "$395.49",
+      "$241.49"
+    ],
+    "explanation": "r = 3.6/1200 and n = 29. The factor is [(1 + 3.6/1200)^29 − 1]/(3.6/1200) = 30.251537. Deposit = $12,000.00 ÷ factor = $396.67.",
+    "numericAnswer": {
+      "value": 396.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-07",
+    "kind": "calculation",
+    "term": "$399.07",
+    "definition": "Starting from zero, you want $12,600.00 after 30 months. The account pays a nominal 4.2% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$420.00",
+      "$397.68",
+      "$217.26"
+    ],
+    "explanation": "r = 4.2/1200 and n = 30. The factor is [(1 + 4.2/1200)^30 − 1]/(4.2/1200) = 31.573432. Deposit = $12,600.00 ÷ factor = $399.07.",
+    "numericAnswer": {
+      "value": 399.07,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-08",
+    "kind": "calculation",
+    "term": "$400.80",
+    "definition": "Starting from zero, you want $13,200.00 after 31 months. The account pays a nominal 4.8% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$425.81",
+      "$399.21",
+      "$193.31"
+    ],
+    "explanation": "r = 4.8/1200 and n = 31. The factor is [(1 + 4.8/1200)^31 − 1]/(4.8/1200) = 32.933978. Deposit = $13,200.00 ÷ factor = $400.80.",
+    "numericAnswer": {
+      "value": 400.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-09",
+    "kind": "calculation",
+    "term": "$401.91",
+    "definition": "Starting from zero, you want $13,800.00 after 32 months. The account pays a nominal 5.4% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$431.25",
+      "$400.11",
+      "$170.08"
+    ],
+    "explanation": "r = 5.4/1200 and n = 32. The factor is [(1 + 5.4/1200)^32 − 1]/(5.4/1200) = 34.335801. Deposit = $13,800.00 ÷ factor = $401.91.",
+    "numericAnswer": {
+      "value": 401.91,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-10",
+    "kind": "calculation",
+    "term": "$402.44",
+    "definition": "Starting from zero, you want $14,400.00 after 33 months. The account pays a nominal 6.0% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$436.36",
+      "$400.44",
+      "$147.93"
+    ],
+    "explanation": "r = 6/1200 and n = 33. The factor is [(1 + 6/1200)^33 − 1]/(6/1200) = 35.781667. Deposit = $14,400.00 ÷ factor = $402.44.",
+    "numericAnswer": {
+      "value": 402.44,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-11",
+    "kind": "calculation",
+    "term": "$419.72",
+    "definition": "Starting from zero, you want $15,000.00 after 34 months. The account pays a nominal 3.6% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$441.18",
+      "$418.46",
+      "$231.92"
+    ],
+    "explanation": "r = 3.6/1200 and n = 34. The factor is [(1 + 3.6/1200)^34 − 1]/(3.6/1200) = 35.738131. Deposit = $15,000.00 ÷ factor = $419.72.",
+    "numericAnswer": {
+      "value": 419.72,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-12",
+    "kind": "calculation",
+    "term": "$419.75",
+    "definition": "Starting from zero, you want $15,600.00 after 35 months. The account pays a nominal 4.2% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$445.71",
+      "$418.29",
+      "$203.44"
+    ],
+    "explanation": "r = 4.2/1200 and n = 35. The factor is [(1 + 4.2/1200)^35 − 1]/(4.2/1200) = 37.164971. Deposit = $15,600.00 ÷ factor = $419.75.",
+    "numericAnswer": {
+      "value": 419.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-13",
+    "kind": "calculation",
+    "term": "$419.28",
+    "definition": "Starting from zero, you want $16,200.00 after 36 months. The account pays a nominal 4.8% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$450.00",
+      "$417.60",
+      "$176.42"
+    ],
+    "explanation": "r = 4.8/1200 and n = 36. The factor is [(1 + 4.8/1200)^36 − 1]/(4.8/1200) = 38.638108. Deposit = $16,200.00 ÷ factor = $419.28.",
+    "numericAnswer": {
+      "value": 419.28,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-14",
+    "kind": "calculation",
+    "term": "$418.32",
+    "definition": "Starting from zero, you want $16,800.00 after 37 months. The account pays a nominal 5.4% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$454.05",
+      "$416.45",
+      "$151.20"
+    ],
+    "explanation": "r = 5.4/1200 and n = 37. The factor is [(1 + 5.4/1200)^37 − 1]/(5.4/1200) = 40.160544. Deposit = $16,800.00 ÷ factor = $418.32.",
+    "numericAnswer": {
+      "value": 418.32,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-15",
+    "kind": "calculation",
+    "term": "$416.91",
+    "definition": "Starting from zero, you want $17,400.00 after 38 months. The account pays a nominal 6.0% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$457.89",
+      "$414.84",
+      "$128.03"
+    ],
+    "explanation": "r = 6/1200 and n = 38. The factor is [(1 + 6/1200)^38 − 1]/(6/1200) = 41.735449. Deposit = $17,400.00 ÷ factor = $416.91.",
+    "numericAnswer": {
+      "value": 416.91,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-16",
+    "kind": "calculation",
+    "term": "$435.76",
+    "definition": "Starting from zero, you want $18,000.00 after 39 months. The account pays a nominal 3.6% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$461.54",
+      "$434.45",
+      "$218.02"
+    ],
+    "explanation": "r = 3.6/1200 and n = 39. The factor is [(1 + 3.6/1200)^39 − 1]/(3.6/1200) = 41.307519. Deposit = $18,000.00 ÷ factor = $435.76.",
+    "numericAnswer": {
+      "value": 435.76,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-17",
+    "kind": "calculation",
+    "term": "$434.02",
+    "definition": "Starting from zero, you want $18,600.00 after 40 months. The account pays a nominal 4.2% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$465.00",
+      "$432.51",
+      "$186.69"
+    ],
+    "explanation": "r = 4.2/1200 and n = 40. The factor is [(1 + 4.2/1200)^40 − 1]/(4.2/1200) = 42.855049. Deposit = $18,600.00 ÷ factor = $434.02.",
+    "numericAnswer": {
+      "value": 434.02,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-18",
+    "kind": "calculation",
+    "term": "$431.88",
+    "definition": "Starting from zero, you want $19,200.00 after 41 months. The account pays a nominal 4.8% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$468.29",
+      "$430.16",
+      "$157.91"
+    ],
+    "explanation": "r = 4.8/1200 and n = 41. The factor is [(1 + 4.8/1200)^41 − 1]/(4.8/1200) = 44.457238. Deposit = $19,200.00 ÷ factor = $431.88.",
+    "numericAnswer": {
+      "value": 431.88,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-19",
+    "kind": "calculation",
+    "term": "$429.34",
+    "definition": "Starting from zero, you want $19,800.00 after 42 months. The account pays a nominal 5.4% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$471.43",
+      "$427.41",
+      "$131.91"
+    ],
+    "explanation": "r = 5.4/1200 and n = 42. The factor is [(1 + 5.4/1200)^42 − 1]/(5.4/1200) = 46.117528. Deposit = $19,800.00 ÷ factor = $429.34.",
+    "numericAnswer": {
+      "value": 429.34,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-annuity-savings-deposit-20",
+    "kind": "calculation",
+    "term": "$426.43",
+    "definition": "Starting from zero, you want $20,400.00 after 43 months. The account pays a nominal 6.0% annual rate compounded monthly, with no fees. What equal month-end deposit is required? Use the ordinary-annuity factor [(1 + r)^n − 1]/r, where r is the monthly rate; keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$474.42",
+      "$424.30",
+      "$108.80"
+    ],
+    "explanation": "r = 6/1200 and n = 43. The factor is [(1 + 6/1200)^43 − 1]/(6/1200) = 47.839572. Deposit = $20,400.00 ÷ factor = $426.43.",
+    "numericAnswer": {
+      "value": 426.43,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-01",
+    "kind": "calculation",
+    "term": "$1,035.00",
+    "definition": "A savings challenge starts with a $75.00 deposit in month 1. Each later monthly deposit is exactly $10.00 larger than the previous one. With no interest, what total is deposited over 9 months?",
+    "distractors": [
+      "$675.00",
+      "$1,395.00",
+      "$765.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $75.00 to $155.00. Total = 9 × [$75.00 + $155.00] ÷ 2 = $1,035.00.",
+    "numericAnswer": {
+      "value": 1035,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-02",
+    "kind": "calculation",
+    "term": "$1,295.00",
+    "definition": "A savings challenge starts with a $80.00 deposit in month 1. Each later monthly deposit is exactly $11.00 larger than the previous one. With no interest, what total is deposited over 10 months?",
+    "distractors": [
+      "$800.00",
+      "$1,790.00",
+      "$910.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $80.00 to $179.00. Total = 10 × [$80.00 + $179.00] ÷ 2 = $1,295.00.",
+    "numericAnswer": {
+      "value": 1295,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-03",
+    "kind": "calculation",
+    "term": "$1,595.00",
+    "definition": "A savings challenge starts with a $85.00 deposit in month 1. Each later monthly deposit is exactly $12.00 larger than the previous one. With no interest, what total is deposited over 11 months?",
+    "distractors": [
+      "$935.00",
+      "$2,255.00",
+      "$1,067.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $85.00 to $205.00. Total = 11 × [$85.00 + $205.00] ÷ 2 = $1,595.00.",
+    "numericAnswer": {
+      "value": 1595,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-04",
+    "kind": "calculation",
+    "term": "$1,938.00",
+    "definition": "A savings challenge starts with a $90.00 deposit in month 1. Each later monthly deposit is exactly $13.00 larger than the previous one. With no interest, what total is deposited over 12 months?",
+    "distractors": [
+      "$1,080.00",
+      "$2,796.00",
+      "$1,236.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $90.00 to $233.00. Total = 12 × [$90.00 + $233.00] ÷ 2 = $1,938.00.",
+    "numericAnswer": {
+      "value": 1938,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-05",
+    "kind": "calculation",
+    "term": "$2,327.00",
+    "definition": "A savings challenge starts with a $95.00 deposit in month 1. Each later monthly deposit is exactly $14.00 larger than the previous one. With no interest, what total is deposited over 13 months?",
+    "distractors": [
+      "$1,235.00",
+      "$3,419.00",
+      "$1,417.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $95.00 to $263.00. Total = 13 × [$95.00 + $263.00] ÷ 2 = $2,327.00.",
+    "numericAnswer": {
+      "value": 2327,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-06",
+    "kind": "calculation",
+    "term": "$1,440.00",
+    "definition": "A savings challenge starts with a $100.00 deposit in month 1. Each later monthly deposit is exactly $15.00 larger than the previous one. With no interest, what total is deposited over 9 months?",
+    "distractors": [
+      "$900.00",
+      "$1,980.00",
+      "$1,035.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $100.00 to $220.00. Total = 9 × [$100.00 + $220.00] ÷ 2 = $1,440.00.",
+    "numericAnswer": {
+      "value": 1440,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-07",
+    "kind": "calculation",
+    "term": "$1,500.00",
+    "definition": "A savings challenge starts with a $105.00 deposit in month 1. Each later monthly deposit is exactly $10.00 larger than the previous one. With no interest, what total is deposited over 10 months?",
+    "distractors": [
+      "$1,050.00",
+      "$1,950.00",
+      "$1,150.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $105.00 to $195.00. Total = 10 × [$105.00 + $195.00] ÷ 2 = $1,500.00.",
+    "numericAnswer": {
+      "value": 1500,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-08",
+    "kind": "calculation",
+    "term": "$1,815.00",
+    "definition": "A savings challenge starts with a $110.00 deposit in month 1. Each later monthly deposit is exactly $11.00 larger than the previous one. With no interest, what total is deposited over 11 months?",
+    "distractors": [
+      "$1,210.00",
+      "$2,420.00",
+      "$1,331.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $110.00 to $220.00. Total = 11 × [$110.00 + $220.00] ÷ 2 = $1,815.00.",
+    "numericAnswer": {
+      "value": 1815,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-09",
+    "kind": "calculation",
+    "term": "$2,172.00",
+    "definition": "A savings challenge starts with a $115.00 deposit in month 1. Each later monthly deposit is exactly $12.00 larger than the previous one. With no interest, what total is deposited over 12 months?",
+    "distractors": [
+      "$1,380.00",
+      "$2,964.00",
+      "$1,524.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $115.00 to $247.00. Total = 12 × [$115.00 + $247.00] ÷ 2 = $2,172.00.",
+    "numericAnswer": {
+      "value": 2172,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-10",
+    "kind": "calculation",
+    "term": "$2,574.00",
+    "definition": "A savings challenge starts with a $120.00 deposit in month 1. Each later monthly deposit is exactly $13.00 larger than the previous one. With no interest, what total is deposited over 13 months?",
+    "distractors": [
+      "$1,560.00",
+      "$3,588.00",
+      "$1,729.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $120.00 to $276.00. Total = 13 × [$120.00 + $276.00] ÷ 2 = $2,574.00.",
+    "numericAnswer": {
+      "value": 2574,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-11",
+    "kind": "calculation",
+    "term": "$1,629.00",
+    "definition": "A savings challenge starts with a $125.00 deposit in month 1. Each later monthly deposit is exactly $14.00 larger than the previous one. With no interest, what total is deposited over 9 months?",
+    "distractors": [
+      "$1,125.00",
+      "$2,133.00",
+      "$1,251.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $125.00 to $237.00. Total = 9 × [$125.00 + $237.00] ÷ 2 = $1,629.00.",
+    "numericAnswer": {
+      "value": 1629,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-12",
+    "kind": "calculation",
+    "term": "$1,975.00",
+    "definition": "A savings challenge starts with a $130.00 deposit in month 1. Each later monthly deposit is exactly $15.00 larger than the previous one. With no interest, what total is deposited over 10 months?",
+    "distractors": [
+      "$1,300.00",
+      "$2,650.00",
+      "$1,450.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $130.00 to $265.00. Total = 10 × [$130.00 + $265.00] ÷ 2 = $1,975.00.",
+    "numericAnswer": {
+      "value": 1975,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-13",
+    "kind": "calculation",
+    "term": "$2,035.00",
+    "definition": "A savings challenge starts with a $135.00 deposit in month 1. Each later monthly deposit is exactly $10.00 larger than the previous one. With no interest, what total is deposited over 11 months?",
+    "distractors": [
+      "$1,485.00",
+      "$2,585.00",
+      "$1,595.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $135.00 to $235.00. Total = 11 × [$135.00 + $235.00] ÷ 2 = $2,035.00.",
+    "numericAnswer": {
+      "value": 2035,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-14",
+    "kind": "calculation",
+    "term": "$2,406.00",
+    "definition": "A savings challenge starts with a $140.00 deposit in month 1. Each later monthly deposit is exactly $11.00 larger than the previous one. With no interest, what total is deposited over 12 months?",
+    "distractors": [
+      "$1,680.00",
+      "$3,132.00",
+      "$1,812.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $140.00 to $261.00. Total = 12 × [$140.00 + $261.00] ÷ 2 = $2,406.00.",
+    "numericAnswer": {
+      "value": 2406,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-15",
+    "kind": "calculation",
+    "term": "$2,821.00",
+    "definition": "A savings challenge starts with a $145.00 deposit in month 1. Each later monthly deposit is exactly $12.00 larger than the previous one. With no interest, what total is deposited over 13 months?",
+    "distractors": [
+      "$1,885.00",
+      "$3,757.00",
+      "$2,041.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $145.00 to $289.00. Total = 13 × [$145.00 + $289.00] ÷ 2 = $2,821.00.",
+    "numericAnswer": {
+      "value": 2821,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-16",
+    "kind": "calculation",
+    "term": "$1,818.00",
+    "definition": "A savings challenge starts with a $150.00 deposit in month 1. Each later monthly deposit is exactly $13.00 larger than the previous one. With no interest, what total is deposited over 9 months?",
+    "distractors": [
+      "$1,350.00",
+      "$2,286.00",
+      "$1,467.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $150.00 to $254.00. Total = 9 × [$150.00 + $254.00] ÷ 2 = $1,818.00.",
+    "numericAnswer": {
+      "value": 1818,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-17",
+    "kind": "calculation",
+    "term": "$2,180.00",
+    "definition": "A savings challenge starts with a $155.00 deposit in month 1. Each later monthly deposit is exactly $14.00 larger than the previous one. With no interest, what total is deposited over 10 months?",
+    "distractors": [
+      "$1,550.00",
+      "$2,810.00",
+      "$1,690.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $155.00 to $281.00. Total = 10 × [$155.00 + $281.00] ÷ 2 = $2,180.00.",
+    "numericAnswer": {
+      "value": 2180,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-18",
+    "kind": "calculation",
+    "term": "$2,585.00",
+    "definition": "A savings challenge starts with a $160.00 deposit in month 1. Each later monthly deposit is exactly $15.00 larger than the previous one. With no interest, what total is deposited over 11 months?",
+    "distractors": [
+      "$1,760.00",
+      "$3,410.00",
+      "$1,925.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $160.00 to $310.00. Total = 11 × [$160.00 + $310.00] ÷ 2 = $2,585.00.",
+    "numericAnswer": {
+      "value": 2585,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-19",
+    "kind": "calculation",
+    "term": "$2,640.00",
+    "definition": "A savings challenge starts with a $165.00 deposit in month 1. Each later monthly deposit is exactly $10.00 larger than the previous one. With no interest, what total is deposited over 12 months?",
+    "distractors": [
+      "$1,980.00",
+      "$3,300.00",
+      "$2,100.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $165.00 to $275.00. Total = 12 × [$165.00 + $275.00] ÷ 2 = $2,640.00.",
+    "numericAnswer": {
+      "value": 2640,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-step-up-savings-plan-20",
+    "kind": "calculation",
+    "term": "$3,068.00",
+    "definition": "A savings challenge starts with a $170.00 deposit in month 1. Each later monthly deposit is exactly $11.00 larger than the previous one. With no interest, what total is deposited over 13 months?",
+    "distractors": [
+      "$2,210.00",
+      "$3,926.00",
+      "$2,353.00"
+    ],
+    "explanation": "Deposits form an arithmetic sequence from $170.00 to $302.00. Total = 13 × [$170.00 + $302.00] ÷ 2 = $3,068.00.",
+    "numericAnswer": {
+      "value": 3068,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-01",
+    "kind": "calculation",
+    "term": "$215.23",
+    "definition": "A purchase costs $6,000.00 today and its price is assumed to rise 3.0% each year, compounded annually for 2 years. You already have $1,200.00 in a no-interest account. What equal month-end deposit over 24 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$200.00",
+      "$215.00",
+      "$265.23"
+    ],
+    "explanation": "Projected price = $6,000.00 × (1 + 3/100)^2 = $6,365.40. Monthly saving = (projected price − $1,200.00) ÷ 24 = $215.23.",
+    "numericAnswer": {
+      "value": 215.23,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-02",
+    "kind": "calculation",
+    "term": "$163.86",
+    "definition": "A purchase costs $6,400.00 today and its price is assumed to rise 4.0% each year, compounded annually for 3 years. You already have $1,300.00 in a no-interest account. What equal month-end deposit over 36 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$141.67",
+      "$163.00",
+      "$199.98"
+    ],
+    "explanation": "Projected price = $6,400.00 × (1 + 4/100)^3 = $7,199.13. Monthly saving = (projected price − $1,300.00) ÷ 36 = $163.86.",
+    "numericAnswer": {
+      "value": 163.86,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-03",
+    "kind": "calculation",
+    "term": "$143.03",
+    "definition": "A purchase costs $6,800.00 today and its price is assumed to rise 5.0% each year, compounded annually for 4 years. You already have $1,400.00 in a no-interest account. What equal month-end deposit over 48 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$112.50",
+      "$140.83",
+      "$172.20"
+    ],
+    "explanation": "Projected price = $6,800.00 × (1 + 5/100)^4 = $8,265.44. Monthly saving = (projected price − $1,400.00) ÷ 48 = $143.03.",
+    "numericAnswer": {
+      "value": 143.03,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-04",
+    "kind": "calculation",
+    "term": "$135.59",
+    "definition": "A purchase costs $7,200.00 today and its price is assumed to rise 6.0% each year, compounded annually for 5 years. You already have $1,500.00 in a no-interest account. What equal month-end deposit over 60 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$95.00",
+      "$131.00",
+      "$160.59"
+    ],
+    "explanation": "Projected price = $7,200.00 × (1 + 6/100)^5 = $9,635.22. Monthly saving = (projected price − $1,500.00) ÷ 60 = $135.59.",
+    "numericAnswer": {
+      "value": 135.59,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-05",
+    "kind": "calculation",
+    "term": "$269.29",
+    "definition": "A purchase costs $7,600.00 today and its price is assumed to rise 3.0% each year, compounded annually for 2 years. You already have $1,600.00 in a no-interest account. What equal month-end deposit over 24 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$250.00",
+      "$269.00",
+      "$335.95"
+    ],
+    "explanation": "Projected price = $7,600.00 × (1 + 3/100)^2 = $8,062.84. Monthly saving = (projected price − $1,600.00) ÷ 24 = $269.29.",
+    "numericAnswer": {
+      "value": 269.29,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-06",
+    "kind": "calculation",
+    "term": "$202.75",
+    "definition": "A purchase costs $8,000.00 today and its price is assumed to rise 4.0% each year, compounded annually for 3 years. You already have $1,700.00 in a no-interest account. What equal month-end deposit over 36 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$175.00",
+      "$201.67",
+      "$249.97"
+    ],
+    "explanation": "Projected price = $8,000.00 × (1 + 4/100)^3 = $8,998.91. Monthly saving = (projected price − $1,700.00) ÷ 36 = $202.75.",
+    "numericAnswer": {
+      "value": 202.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-07",
+    "kind": "calculation",
+    "term": "$175.21",
+    "definition": "A purchase costs $8,400.00 today and its price is assumed to rise 5.0% each year, compounded annually for 4 years. You already have $1,800.00 in a no-interest account. What equal month-end deposit over 48 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$137.50",
+      "$172.50",
+      "$212.71"
+    ],
+    "explanation": "Projected price = $8,400.00 × (1 + 5/100)^4 = $10,210.25. Monthly saving = (projected price − $1,800.00) ÷ 48 = $175.21.",
+    "numericAnswer": {
+      "value": 175.21,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-08",
+    "kind": "calculation",
+    "term": "$164.61",
+    "definition": "A purchase costs $8,800.00 today and its price is assumed to rise 6.0% each year, compounded annually for 5 years. You already have $1,900.00 in a no-interest account. What equal month-end deposit over 60 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$115.00",
+      "$159.00",
+      "$196.27"
+    ],
+    "explanation": "Projected price = $8,800.00 × (1 + 6/100)^5 = $11,776.39. Monthly saving = (projected price − $1,900.00) ÷ 60 = $164.61.",
+    "numericAnswer": {
+      "value": 164.61,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-09",
+    "kind": "calculation",
+    "term": "$323.35",
+    "definition": "A purchase costs $9,200.00 today and its price is assumed to rise 3.0% each year, compounded annually for 2 years. You already have $2,000.00 in a no-interest account. What equal month-end deposit over 24 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$300.00",
+      "$323.00",
+      "$406.68"
+    ],
+    "explanation": "Projected price = $9,200.00 × (1 + 3/100)^2 = $9,760.28. Monthly saving = (projected price − $2,000.00) ÷ 24 = $323.35.",
+    "numericAnswer": {
+      "value": 323.35,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-10",
+    "kind": "calculation",
+    "term": "$241.63",
+    "definition": "A purchase costs $9,600.00 today and its price is assumed to rise 4.0% each year, compounded annually for 3 years. You already have $2,100.00 in a no-interest account. What equal month-end deposit over 36 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$208.33",
+      "$240.33",
+      "$299.96"
+    ],
+    "explanation": "Projected price = $9,600.00 × (1 + 4/100)^3 = $10,798.69. Monthly saving = (projected price − $2,100.00) ÷ 36 = $241.63.",
+    "numericAnswer": {
+      "value": 241.63,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-11",
+    "kind": "calculation",
+    "term": "$207.40",
+    "definition": "A purchase costs $10,000.00 today and its price is assumed to rise 5.0% each year, compounded annually for 4 years. You already have $2,200.00 in a no-interest account. What equal month-end deposit over 48 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$162.50",
+      "$204.17",
+      "$253.23"
+    ],
+    "explanation": "Projected price = $10,000.00 × (1 + 5/100)^4 = $12,155.06. Monthly saving = (projected price − $2,200.00) ÷ 48 = $207.40.",
+    "numericAnswer": {
+      "value": 207.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-12",
+    "kind": "calculation",
+    "term": "$193.63",
+    "definition": "A purchase costs $10,400.00 today and its price is assumed to rise 6.0% each year, compounded annually for 5 years. You already have $2,300.00 in a no-interest account. What equal month-end deposit over 60 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$135.00",
+      "$187.00",
+      "$231.96"
+    ],
+    "explanation": "Projected price = $10,400.00 × (1 + 6/100)^5 = $13,917.55. Monthly saving = (projected price − $2,300.00) ÷ 60 = $193.63.",
+    "numericAnswer": {
+      "value": 193.63,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-13",
+    "kind": "calculation",
+    "term": "$377.41",
+    "definition": "A purchase costs $10,800.00 today and its price is assumed to rise 3.0% each year, compounded annually for 2 years. You already have $2,400.00 in a no-interest account. What equal month-end deposit over 24 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$350.00",
+      "$377.00",
+      "$477.41"
+    ],
+    "explanation": "Projected price = $10,800.00 × (1 + 3/100)^2 = $11,457.72. Monthly saving = (projected price − $2,400.00) ÷ 24 = $377.41.",
+    "numericAnswer": {
+      "value": 377.41,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-14",
+    "kind": "calculation",
+    "term": "$280.51",
+    "definition": "A purchase costs $11,200.00 today and its price is assumed to rise 4.0% each year, compounded annually for 3 years. You already have $2,500.00 in a no-interest account. What equal month-end deposit over 36 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$241.67",
+      "$279.00",
+      "$349.96"
+    ],
+    "explanation": "Projected price = $11,200.00 × (1 + 4/100)^3 = $12,598.48. Monthly saving = (projected price − $2,500.00) ÷ 36 = $280.51.",
+    "numericAnswer": {
+      "value": 280.51,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-15",
+    "kind": "calculation",
+    "term": "$239.58",
+    "definition": "A purchase costs $11,600.00 today and its price is assumed to rise 5.0% each year, compounded annually for 4 years. You already have $2,600.00 in a no-interest account. What equal month-end deposit over 48 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$187.50",
+      "$235.83",
+      "$293.75"
+    ],
+    "explanation": "Projected price = $11,600.00 × (1 + 5/100)^4 = $14,099.87. Monthly saving = (projected price − $2,600.00) ÷ 48 = $239.58.",
+    "numericAnswer": {
+      "value": 239.58,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-16",
+    "kind": "calculation",
+    "term": "$222.65",
+    "definition": "A purchase costs $12,000.00 today and its price is assumed to rise 6.0% each year, compounded annually for 5 years. You already have $2,700.00 in a no-interest account. What equal month-end deposit over 60 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$155.00",
+      "$215.00",
+      "$267.65"
+    ],
+    "explanation": "Projected price = $12,000.00 × (1 + 6/100)^5 = $16,058.71. Monthly saving = (projected price − $2,700.00) ÷ 60 = $222.65.",
+    "numericAnswer": {
+      "value": 222.65,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-17",
+    "kind": "calculation",
+    "term": "$431.47",
+    "definition": "A purchase costs $12,400.00 today and its price is assumed to rise 3.0% each year, compounded annually for 2 years. You already have $2,800.00 in a no-interest account. What equal month-end deposit over 24 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$400.00",
+      "$431.00",
+      "$548.13"
+    ],
+    "explanation": "Projected price = $12,400.00 × (1 + 3/100)^2 = $13,155.16. Monthly saving = (projected price − $2,800.00) ÷ 24 = $431.47.",
+    "numericAnswer": {
+      "value": 431.47,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-18",
+    "kind": "calculation",
+    "term": "$319.40",
+    "definition": "A purchase costs $12,800.00 today and its price is assumed to rise 4.0% each year, compounded annually for 3 years. You already have $2,900.00 in a no-interest account. What equal month-end deposit over 36 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$275.00",
+      "$317.67",
+      "$399.95"
+    ],
+    "explanation": "Projected price = $12,800.00 × (1 + 4/100)^3 = $14,398.26. Monthly saving = (projected price − $2,900.00) ÷ 36 = $319.40.",
+    "numericAnswer": {
+      "value": 319.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-19",
+    "kind": "calculation",
+    "term": "$271.76",
+    "definition": "A purchase costs $13,200.00 today and its price is assumed to rise 5.0% each year, compounded annually for 4 years. You already have $3,000.00 in a no-interest account. What equal month-end deposit over 48 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$212.50",
+      "$267.50",
+      "$334.26"
+    ],
+    "explanation": "Projected price = $13,200.00 × (1 + 5/100)^4 = $16,044.68. Monthly saving = (projected price − $3,000.00) ÷ 48 = $271.76.",
+    "numericAnswer": {
+      "value": 271.76,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-inflating-savings-goal-20",
+    "kind": "calculation",
+    "term": "$251.66",
+    "definition": "A purchase costs $13,600.00 today and its price is assumed to rise 6.0% each year, compounded annually for 5 years. You already have $3,100.00 in a no-interest account. What equal month-end deposit over 60 months funds the projected purchase price? Round to the nearest cent.",
+    "distractors": [
+      "$175.00",
+      "$243.00",
+      "$303.33"
+    ],
+    "explanation": "Projected price = $13,600.00 × (1 + 6/100)^5 = $18,199.87. Monthly saving = (projected price − $3,100.00) ÷ 60 = $251.66.",
+    "numericAnswer": {
+      "value": 251.66,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-01",
+    "kind": "calculation",
+    "term": "$2,880.00",
+    "definition": "A no-interest reserve starts at $2,300.00. You make 3 monthly deposits of $160.00, then withdraw $700.00 for a repair, and then make 5 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$2,080.00",
+      "$3,580.00",
+      "$2,400.00"
+    ],
+    "explanation": "There are 8 deposits in total. Balance = $2,300.00 + 8 × $160.00 − $700.00 = $2,880.00.",
+    "numericAnswer": {
+      "value": 2880,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-02",
+    "kind": "calculation",
+    "term": "$3,395.00",
+    "definition": "A no-interest reserve starts at $2,440.00. You make 4 monthly deposits of $169.00, then withdraw $735.00 for a repair, and then make 6 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$2,381.00",
+      "$4,130.00",
+      "$2,719.00"
+    ],
+    "explanation": "There are 10 deposits in total. Balance = $2,440.00 + 10 × $169.00 − $735.00 = $3,395.00.",
+    "numericAnswer": {
+      "value": 3395,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-03",
+    "kind": "calculation",
+    "term": "$3,946.00",
+    "definition": "A no-interest reserve starts at $2,580.00. You make 5 monthly deposits of $178.00, then withdraw $770.00 for a repair, and then make 7 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$2,700.00",
+      "$4,716.00",
+      "$3,056.00"
+    ],
+    "explanation": "There are 12 deposits in total. Balance = $2,580.00 + 12 × $178.00 − $770.00 = $3,946.00.",
+    "numericAnswer": {
+      "value": 3946,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-04",
+    "kind": "calculation",
+    "term": "$3,972.00",
+    "definition": "A no-interest reserve starts at $2,720.00. You make 6 monthly deposits of $187.00, then withdraw $805.00 for a repair, and then make 5 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$3,037.00",
+      "$4,777.00",
+      "$2,850.00"
+    ],
+    "explanation": "There are 11 deposits in total. Balance = $2,720.00 + 11 × $187.00 − $805.00 = $3,972.00.",
+    "numericAnswer": {
+      "value": 3972,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-05",
+    "kind": "calculation",
+    "term": "$3,784.00",
+    "definition": "A no-interest reserve starts at $2,860.00. You make 3 monthly deposits of $196.00, then withdraw $840.00 for a repair, and then make 6 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$2,608.00",
+      "$4,624.00",
+      "$3,196.00"
+    ],
+    "explanation": "There are 9 deposits in total. Balance = $2,860.00 + 9 × $196.00 − $840.00 = $3,784.00.",
+    "numericAnswer": {
+      "value": 3784,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-06",
+    "kind": "calculation",
+    "term": "$4,380.00",
+    "definition": "A no-interest reserve starts at $3,000.00. You make 4 monthly deposits of $205.00, then withdraw $875.00 for a repair, and then make 7 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$2,945.00",
+      "$5,255.00",
+      "$3,560.00"
+    ],
+    "explanation": "There are 11 deposits in total. Balance = $3,000.00 + 11 × $205.00 − $875.00 = $4,380.00.",
+    "numericAnswer": {
+      "value": 4380,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-07",
+    "kind": "calculation",
+    "term": "$4,370.00",
+    "definition": "A no-interest reserve starts at $3,140.00. You make 5 monthly deposits of $214.00, then withdraw $910.00 for a repair, and then make 5 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$3,300.00",
+      "$5,280.00",
+      "$6,190.00"
+    ],
+    "explanation": "There are 10 deposits in total. Balance = $3,140.00 + 10 × $214.00 − $910.00 = $4,370.00.",
+    "numericAnswer": {
+      "value": 4370,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-08",
+    "kind": "calculation",
+    "term": "$5,011.00",
+    "definition": "A no-interest reserve starts at $3,280.00. You make 6 monthly deposits of $223.00, then withdraw $945.00 for a repair, and then make 6 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$3,673.00",
+      "$5,956.00",
+      "$6,901.00"
+    ],
+    "explanation": "There are 12 deposits in total. Balance = $3,280.00 + 12 × $223.00 − $945.00 = $5,011.00.",
+    "numericAnswer": {
+      "value": 5011,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-09",
+    "kind": "calculation",
+    "term": "$4,760.00",
+    "definition": "A no-interest reserve starts at $3,420.00. You make 3 monthly deposits of $232.00, then withdraw $980.00 for a repair, and then make 7 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$3,136.00",
+      "$5,740.00",
+      "$4,064.00"
+    ],
+    "explanation": "There are 10 deposits in total. Balance = $3,420.00 + 10 × $232.00 − $980.00 = $4,760.00.",
+    "numericAnswer": {
+      "value": 4760,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-10",
+    "kind": "calculation",
+    "term": "$4,714.00",
+    "definition": "A no-interest reserve starts at $3,560.00. You make 4 monthly deposits of $241.00, then withdraw $1,015.00 for a repair, and then make 5 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$3,509.00",
+      "$5,729.00",
+      "$3,750.00"
+    ],
+    "explanation": "There are 9 deposits in total. Balance = $3,560.00 + 9 × $241.00 − $1,015.00 = $4,714.00.",
+    "numericAnswer": {
+      "value": 4714,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-11",
+    "kind": "calculation",
+    "term": "$5,400.00",
+    "definition": "A no-interest reserve starts at $3,700.00. You make 5 monthly deposits of $250.00, then withdraw $1,050.00 for a repair, and then make 6 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$3,900.00",
+      "$6,450.00",
+      "$4,150.00"
+    ],
+    "explanation": "There are 11 deposits in total. Balance = $3,700.00 + 11 × $250.00 − $1,050.00 = $5,400.00.",
+    "numericAnswer": {
+      "value": 5400,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-12",
+    "kind": "calculation",
+    "term": "$6,122.00",
+    "definition": "A no-interest reserve starts at $3,840.00. You make 6 monthly deposits of $259.00, then withdraw $1,085.00 for a repair, and then make 7 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$4,309.00",
+      "$7,207.00",
+      "$4,568.00"
+    ],
+    "explanation": "There are 13 deposits in total. Balance = $3,840.00 + 13 × $259.00 − $1,085.00 = $6,122.00.",
+    "numericAnswer": {
+      "value": 6122,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-13",
+    "kind": "calculation",
+    "term": "$5,004.00",
+    "definition": "A no-interest reserve starts at $3,980.00. You make 3 monthly deposits of $268.00, then withdraw $1,120.00 for a repair, and then make 5 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$3,664.00",
+      "$6,124.00",
+      "$4,200.00"
+    ],
+    "explanation": "There are 8 deposits in total. Balance = $3,980.00 + 8 × $268.00 − $1,120.00 = $5,004.00.",
+    "numericAnswer": {
+      "value": 5004,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-14",
+    "kind": "calculation",
+    "term": "$5,735.00",
+    "definition": "A no-interest reserve starts at $4,120.00. You make 4 monthly deposits of $277.00, then withdraw $1,155.00 for a repair, and then make 6 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$4,073.00",
+      "$6,890.00",
+      "$4,627.00"
+    ],
+    "explanation": "There are 10 deposits in total. Balance = $4,120.00 + 10 × $277.00 − $1,155.00 = $5,735.00.",
+    "numericAnswer": {
+      "value": 5735,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-15",
+    "kind": "calculation",
+    "term": "$6,502.00",
+    "definition": "A no-interest reserve starts at $4,260.00. You make 5 monthly deposits of $286.00, then withdraw $1,190.00 for a repair, and then make 7 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$4,500.00",
+      "$7,692.00",
+      "$5,072.00"
+    ],
+    "explanation": "There are 12 deposits in total. Balance = $4,260.00 + 12 × $286.00 − $1,190.00 = $6,502.00.",
+    "numericAnswer": {
+      "value": 6502,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-16",
+    "kind": "calculation",
+    "term": "$6,420.00",
+    "definition": "A no-interest reserve starts at $4,400.00. You make 6 monthly deposits of $295.00, then withdraw $1,225.00 for a repair, and then make 5 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$4,945.00",
+      "$7,645.00",
+      "$4,650.00"
+    ],
+    "explanation": "There are 11 deposits in total. Balance = $4,400.00 + 11 × $295.00 − $1,225.00 = $6,420.00.",
+    "numericAnswer": {
+      "value": 6420,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-17",
+    "kind": "calculation",
+    "term": "$6,016.00",
+    "definition": "A no-interest reserve starts at $4,540.00. You make 3 monthly deposits of $304.00, then withdraw $1,260.00 for a repair, and then make 6 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$4,192.00",
+      "$7,276.00",
+      "$5,104.00"
+    ],
+    "explanation": "There are 9 deposits in total. Balance = $4,540.00 + 9 × $304.00 − $1,260.00 = $6,016.00.",
+    "numericAnswer": {
+      "value": 6016,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-18",
+    "kind": "calculation",
+    "term": "$6,828.00",
+    "definition": "A no-interest reserve starts at $4,680.00. You make 4 monthly deposits of $313.00, then withdraw $1,295.00 for a repair, and then make 7 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$4,637.00",
+      "$8,123.00",
+      "$5,576.00"
+    ],
+    "explanation": "There are 11 deposits in total. Balance = $4,680.00 + 11 × $313.00 − $1,295.00 = $6,828.00.",
+    "numericAnswer": {
+      "value": 6828,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-19",
+    "kind": "calculation",
+    "term": "$6,710.00",
+    "definition": "A no-interest reserve starts at $4,820.00. You make 5 monthly deposits of $322.00, then withdraw $1,330.00 for a repair, and then make 5 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$5,100.00",
+      "$8,040.00",
+      "$9,370.00"
+    ],
+    "explanation": "There are 10 deposits in total. Balance = $4,820.00 + 10 × $322.00 − $1,330.00 = $6,710.00.",
+    "numericAnswer": {
+      "value": 6710,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-fund-withdrawal-recovery-20",
+    "kind": "calculation",
+    "term": "$7,567.00",
+    "definition": "A no-interest reserve starts at $4,960.00. You make 6 monthly deposits of $331.00, then withdraw $1,365.00 for a repair, and then make 6 more deposits of the same size. With no fees or other transactions, what is the final reserve balance?",
+    "distractors": [
+      "$5,581.00",
+      "$8,932.00",
+      "$10,297.00"
+    ],
+    "explanation": "There are 12 deposits in total. Balance = $4,960.00 + 12 × $331.00 − $1,365.00 = $7,567.00.",
+    "numericAnswer": {
+      "value": 7567,
+      "unit": "USD"
+    }
+  }
+]

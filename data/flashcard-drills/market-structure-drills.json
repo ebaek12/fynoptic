@@ -1,0 +1,2562 @@
+[
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-01",
+    "kind": "calculation",
+    "term": "24.00 units",
+    "definition": "A single-price monopolist faces P = 120 − 2Q and constant marginal cost of $24.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit?",
+    "distractors": [
+      "48.00 units",
+      "30.00 units",
+      "36.00 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 120 − 4Q. Set MR = MC: Q = (120 − 24)/4 = 24.00 units.",
+    "numericAnswer": {
+      "value": 24,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-02",
+    "kind": "calculation",
+    "term": "16.67 units",
+    "definition": "A single-price monopolist faces P = 125 − 3Q and constant marginal cost of $25.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit? Round to 2 decimal places.",
+    "distractors": [
+      "33.33 units",
+      "20.83 units",
+      "25.00 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 125 − 6Q. Set MR = MC: Q = (125 − 25)/6 = 16.67 units.",
+    "numericAnswer": {
+      "value": 16.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-03",
+    "kind": "calculation",
+    "term": "13.00 units",
+    "definition": "A single-price monopolist faces P = 130 − 4Q and constant marginal cost of $26.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit?",
+    "distractors": [
+      "26.00 units",
+      "16.25 units",
+      "19.50 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 130 − 8Q. Set MR = MC: Q = (130 − 26)/8 = 13.00 units.",
+    "numericAnswer": {
+      "value": 13,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-04",
+    "kind": "calculation",
+    "term": "27.00 units",
+    "definition": "A single-price monopolist faces P = 135 − 2Q and constant marginal cost of $27.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit?",
+    "distractors": [
+      "54.00 units",
+      "33.75 units",
+      "40.50 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 135 − 4Q. Set MR = MC: Q = (135 − 27)/4 = 27.00 units.",
+    "numericAnswer": {
+      "value": 27,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-05",
+    "kind": "calculation",
+    "term": "18.67 units",
+    "definition": "A single-price monopolist faces P = 140 − 3Q and constant marginal cost of $28.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit? Round to 2 decimal places.",
+    "distractors": [
+      "37.33 units",
+      "23.33 units",
+      "28.00 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 140 − 6Q. Set MR = MC: Q = (140 − 28)/6 = 18.67 units.",
+    "numericAnswer": {
+      "value": 18.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-06",
+    "kind": "calculation",
+    "term": "14.50 units",
+    "definition": "A single-price monopolist faces P = 145 − 4Q and constant marginal cost of $29.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit?",
+    "distractors": [
+      "29.00 units",
+      "18.13 units",
+      "21.75 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 145 − 8Q. Set MR = MC: Q = (145 − 29)/8 = 14.50 units.",
+    "numericAnswer": {
+      "value": 14.5,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-07",
+    "kind": "calculation",
+    "term": "30.00 units",
+    "definition": "A single-price monopolist faces P = 150 − 2Q and constant marginal cost of $30.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit?",
+    "distractors": [
+      "60.00 units",
+      "37.50 units",
+      "45.00 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 150 − 4Q. Set MR = MC: Q = (150 − 30)/4 = 30.00 units.",
+    "numericAnswer": {
+      "value": 30,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-08",
+    "kind": "calculation",
+    "term": "20.67 units",
+    "definition": "A single-price monopolist faces P = 155 − 3Q and constant marginal cost of $31.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit? Round to 2 decimal places.",
+    "distractors": [
+      "41.33 units",
+      "25.83 units",
+      "31.00 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 155 − 6Q. Set MR = MC: Q = (155 − 31)/6 = 20.67 units.",
+    "numericAnswer": {
+      "value": 20.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-09",
+    "kind": "calculation",
+    "term": "16.00 units",
+    "definition": "A single-price monopolist faces P = 160 − 4Q and constant marginal cost of $32.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit?",
+    "distractors": [
+      "32.00 units",
+      "20.00 units",
+      "24.00 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 160 − 8Q. Set MR = MC: Q = (160 − 32)/8 = 16.00 units.",
+    "numericAnswer": {
+      "value": 16,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-10",
+    "kind": "calculation",
+    "term": "33.00 units",
+    "definition": "A single-price monopolist faces P = 165 − 2Q and constant marginal cost of $33.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit?",
+    "distractors": [
+      "66.00 units",
+      "41.25 units",
+      "49.50 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 165 − 4Q. Set MR = MC: Q = (165 − 33)/4 = 33.00 units.",
+    "numericAnswer": {
+      "value": 33,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-11",
+    "kind": "calculation",
+    "term": "22.67 units",
+    "definition": "A single-price monopolist faces P = 170 − 3Q and constant marginal cost of $34.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit? Round to 2 decimal places.",
+    "distractors": [
+      "45.33 units",
+      "28.33 units",
+      "34.00 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 170 − 6Q. Set MR = MC: Q = (170 − 34)/6 = 22.67 units.",
+    "numericAnswer": {
+      "value": 22.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-12",
+    "kind": "calculation",
+    "term": "17.50 units",
+    "definition": "A single-price monopolist faces P = 175 − 4Q and constant marginal cost of $35.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit?",
+    "distractors": [
+      "35.00 units",
+      "21.88 units",
+      "26.25 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 175 − 8Q. Set MR = MC: Q = (175 − 35)/8 = 17.50 units.",
+    "numericAnswer": {
+      "value": 17.5,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-13",
+    "kind": "calculation",
+    "term": "36.00 units",
+    "definition": "A single-price monopolist faces P = 180 − 2Q and constant marginal cost of $36.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit?",
+    "distractors": [
+      "72.00 units",
+      "45.00 units",
+      "54.00 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 180 − 4Q. Set MR = MC: Q = (180 − 36)/4 = 36.00 units.",
+    "numericAnswer": {
+      "value": 36,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-14",
+    "kind": "calculation",
+    "term": "24.67 units",
+    "definition": "A single-price monopolist faces P = 185 − 3Q and constant marginal cost of $37.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit? Round to 2 decimal places.",
+    "distractors": [
+      "49.33 units",
+      "30.83 units",
+      "37.00 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 185 − 6Q. Set MR = MC: Q = (185 − 37)/6 = 24.67 units.",
+    "numericAnswer": {
+      "value": 24.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-15",
+    "kind": "calculation",
+    "term": "19.00 units",
+    "definition": "A single-price monopolist faces P = 190 − 4Q and constant marginal cost of $38.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit?",
+    "distractors": [
+      "38.00 units",
+      "23.75 units",
+      "28.50 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 190 − 8Q. Set MR = MC: Q = (190 − 38)/8 = 19.00 units.",
+    "numericAnswer": {
+      "value": 19,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-16",
+    "kind": "calculation",
+    "term": "39.00 units",
+    "definition": "A single-price monopolist faces P = 195 − 2Q and constant marginal cost of $39.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit?",
+    "distractors": [
+      "78.00 units",
+      "48.75 units",
+      "58.50 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 195 − 4Q. Set MR = MC: Q = (195 − 39)/4 = 39.00 units.",
+    "numericAnswer": {
+      "value": 39,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-17",
+    "kind": "calculation",
+    "term": "26.67 units",
+    "definition": "A single-price monopolist faces P = 200 − 3Q and constant marginal cost of $40.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit? Round to 2 decimal places.",
+    "distractors": [
+      "53.33 units",
+      "33.33 units",
+      "40.00 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 200 − 6Q. Set MR = MC: Q = (200 − 40)/6 = 26.67 units.",
+    "numericAnswer": {
+      "value": 26.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-18",
+    "kind": "calculation",
+    "term": "20.50 units",
+    "definition": "A single-price monopolist faces P = 205 − 4Q and constant marginal cost of $41.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit?",
+    "distractors": [
+      "41.00 units",
+      "25.63 units",
+      "30.75 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 205 − 8Q. Set MR = MC: Q = (205 − 41)/8 = 20.50 units.",
+    "numericAnswer": {
+      "value": 20.5,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-19",
+    "kind": "calculation",
+    "term": "42.00 units",
+    "definition": "A single-price monopolist faces P = 210 − 2Q and constant marginal cost of $42.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit?",
+    "distractors": [
+      "84.00 units",
+      "52.50 units",
+      "63.00 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 210 − 4Q. Set MR = MC: Q = (210 − 42)/4 = 42.00 units.",
+    "numericAnswer": {
+      "value": 42,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-monopoly-output-20",
+    "kind": "calculation",
+    "term": "28.67 units",
+    "definition": "A single-price monopolist faces P = 215 − 3Q and constant marginal cost of $43.00. Fixed cost is zero. Allowing fractional output, what quantity maximizes profit? Round to 2 decimal places.",
+    "distractors": [
+      "57.33 units",
+      "35.83 units",
+      "43.00 units"
+    ],
+    "explanation": "For linear inverse demand, MR = 215 − 6Q. Set MR = MC: Q = (215 − 43)/6 = 28.67 units.",
+    "numericAnswer": {
+      "value": 28.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-01",
+    "kind": "calculation",
+    "term": "$800.00",
+    "definition": "Demand is P = 100 − 1Q, and constant marginal cost is $20.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss?",
+    "distractors": [
+      "$1,600.00",
+      "$3,200.00",
+      "$1,200.00"
+    ],
+    "explanation": "Efficient Q = (100 − 20)/1 = 80.00; monopoly Q = (100 − 20)/2 = 40.00 and P = $60.00. DWL = ½ × (80.00 − 40.00) × (60.00 − 20) = $800.00.",
+    "numericAnswer": {
+      "value": 800,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-02",
+    "kind": "calculation",
+    "term": "$430.56",
+    "definition": "Demand is P = 104 − 2Q, and constant marginal cost is $21.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss? Round to the nearest cent.",
+    "distractors": [
+      "$861.13",
+      "$1,722.25",
+      "$648.44"
+    ],
+    "explanation": "Efficient Q = (104 − 21)/2 = 41.50; monopoly Q = (104 − 21)/4 = 20.75 and P = $62.50. DWL = ½ × (41.50 − 20.75) × (62.50 − 21) = $430.56.",
+    "numericAnswer": {
+      "value": 430.56,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-03",
+    "kind": "calculation",
+    "term": "$308.17",
+    "definition": "Demand is P = 108 − 3Q, and constant marginal cost is $22.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss? Round to the nearest cent.",
+    "distractors": [
+      "$616.33",
+      "$1,232.67",
+      "$465.83"
+    ],
+    "explanation": "Efficient Q = (108 − 22)/3 = 28.67; monopoly Q = (108 − 22)/6 = 14.33 and P = $65.00. DWL = ½ × (28.67 − 14.33) × (65.00 − 22) = $308.17.",
+    "numericAnswer": {
+      "value": 308.17,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-04",
+    "kind": "calculation",
+    "term": "$990.13",
+    "definition": "Demand is P = 112 − 1Q, and constant marginal cost is $23.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss? Round to the nearest cent.",
+    "distractors": [
+      "$1,980.25",
+      "$3,960.50",
+      "$1,501.88"
+    ],
+    "explanation": "Efficient Q = (112 − 23)/1 = 89.00; monopoly Q = (112 − 23)/2 = 44.50 and P = $67.50. DWL = ½ × (89.00 − 44.50) × (67.50 − 23) = $990.13.",
+    "numericAnswer": {
+      "value": 990.13,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-05",
+    "kind": "calculation",
+    "term": "$529.00",
+    "definition": "Demand is P = 116 − 2Q, and constant marginal cost is $24.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss?",
+    "distractors": [
+      "$1,058.00",
+      "$2,116.00",
+      "$805.00"
+    ],
+    "explanation": "Efficient Q = (116 − 24)/2 = 46.00; monopoly Q = (116 − 24)/4 = 23.00 and P = $70.00. DWL = ½ × (46.00 − 23.00) × (70.00 − 24) = $529.00.",
+    "numericAnswer": {
+      "value": 529,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-06",
+    "kind": "calculation",
+    "term": "$376.04",
+    "definition": "Demand is P = 120 − 3Q, and constant marginal cost is $25.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss? Round to the nearest cent.",
+    "distractors": [
+      "$752.08",
+      "$1,504.17",
+      "$573.96"
+    ],
+    "explanation": "Efficient Q = (120 − 25)/3 = 31.67; monopoly Q = (120 − 25)/6 = 15.83 and P = $72.50. DWL = ½ × (31.67 − 15.83) × (72.50 − 25) = $376.04.",
+    "numericAnswer": {
+      "value": 376.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-07",
+    "kind": "calculation",
+    "term": "$1,200.50",
+    "definition": "Demand is P = 124 − 1Q, and constant marginal cost is $26.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss?",
+    "distractors": [
+      "$2,401.00",
+      "$4,802.00",
+      "$1,837.50"
+    ],
+    "explanation": "Efficient Q = (124 − 26)/1 = 98.00; monopoly Q = (124 − 26)/2 = 49.00 and P = $75.00. DWL = ½ × (98.00 − 49.00) × (75.00 − 26) = $1,200.50.",
+    "numericAnswer": {
+      "value": 1200.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-08",
+    "kind": "calculation",
+    "term": "$637.56",
+    "definition": "Demand is P = 128 − 2Q, and constant marginal cost is $27.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss? Round to the nearest cent.",
+    "distractors": [
+      "$1,275.13",
+      "$2,550.25",
+      "$978.44"
+    ],
+    "explanation": "Efficient Q = (128 − 27)/2 = 50.50; monopoly Q = (128 − 27)/4 = 25.25 and P = $77.50. DWL = ½ × (50.50 − 25.25) × (77.50 − 27) = $637.56.",
+    "numericAnswer": {
+      "value": 637.56,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-09",
+    "kind": "calculation",
+    "term": "$450.67",
+    "definition": "Demand is P = 132 − 3Q, and constant marginal cost is $28.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss? Round to the nearest cent.",
+    "distractors": [
+      "$901.33",
+      "$1,802.67",
+      "$693.33"
+    ],
+    "explanation": "Efficient Q = (132 − 28)/3 = 34.67; monopoly Q = (132 − 28)/6 = 17.33 and P = $80.00. DWL = ½ × (34.67 − 17.33) × (80.00 − 28) = $450.67.",
+    "numericAnswer": {
+      "value": 450.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-10",
+    "kind": "calculation",
+    "term": "$1,431.13",
+    "definition": "Demand is P = 136 − 1Q, and constant marginal cost is $29.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss? Round to the nearest cent.",
+    "distractors": [
+      "$2,862.25",
+      "$5,724.50",
+      "$2,206.88"
+    ],
+    "explanation": "Efficient Q = (136 − 29)/1 = 107.00; monopoly Q = (136 − 29)/2 = 53.50 and P = $82.50. DWL = ½ × (107.00 − 53.50) × (82.50 − 29) = $1,431.13.",
+    "numericAnswer": {
+      "value": 1431.13,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-11",
+    "kind": "calculation",
+    "term": "$756.25",
+    "definition": "Demand is P = 140 − 2Q, and constant marginal cost is $30.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss?",
+    "distractors": [
+      "$1,512.50",
+      "$3,025.00",
+      "$1,168.75"
+    ],
+    "explanation": "Efficient Q = (140 − 30)/2 = 55.00; monopoly Q = (140 − 30)/4 = 27.50 and P = $85.00. DWL = ½ × (55.00 − 27.50) × (85.00 − 30) = $756.25.",
+    "numericAnswer": {
+      "value": 756.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-12",
+    "kind": "calculation",
+    "term": "$532.04",
+    "definition": "Demand is P = 144 − 3Q, and constant marginal cost is $31.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss? Round to the nearest cent.",
+    "distractors": [
+      "$1,064.08",
+      "$2,128.17",
+      "$823.96"
+    ],
+    "explanation": "Efficient Q = (144 − 31)/3 = 37.67; monopoly Q = (144 − 31)/6 = 18.83 and P = $87.50. DWL = ½ × (37.67 − 18.83) × (87.50 − 31) = $532.04.",
+    "numericAnswer": {
+      "value": 532.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-13",
+    "kind": "calculation",
+    "term": "$1,682.00",
+    "definition": "Demand is P = 148 − 1Q, and constant marginal cost is $32.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss?",
+    "distractors": [
+      "$3,364.00",
+      "$6,728.00",
+      "$2,610.00"
+    ],
+    "explanation": "Efficient Q = (148 − 32)/1 = 116.00; monopoly Q = (148 − 32)/2 = 58.00 and P = $90.00. DWL = ½ × (116.00 − 58.00) × (90.00 − 32) = $1,682.00.",
+    "numericAnswer": {
+      "value": 1682,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-14",
+    "kind": "calculation",
+    "term": "$885.06",
+    "definition": "Demand is P = 152 − 2Q, and constant marginal cost is $33.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss? Round to the nearest cent.",
+    "distractors": [
+      "$1,770.13",
+      "$3,540.25",
+      "$1,375.94"
+    ],
+    "explanation": "Efficient Q = (152 − 33)/2 = 59.50; monopoly Q = (152 − 33)/4 = 29.75 and P = $92.50. DWL = ½ × (59.50 − 29.75) × (92.50 − 33) = $885.06.",
+    "numericAnswer": {
+      "value": 885.06,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-15",
+    "kind": "calculation",
+    "term": "$620.17",
+    "definition": "Demand is P = 156 − 3Q, and constant marginal cost is $34.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss? Round to the nearest cent.",
+    "distractors": [
+      "$1,240.33",
+      "$2,480.67",
+      "$965.83"
+    ],
+    "explanation": "Efficient Q = (156 − 34)/3 = 40.67; monopoly Q = (156 − 34)/6 = 20.33 and P = $95.00. DWL = ½ × (40.67 − 20.33) × (95.00 − 34) = $620.17.",
+    "numericAnswer": {
+      "value": 620.17,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-16",
+    "kind": "calculation",
+    "term": "$1,953.13",
+    "definition": "Demand is P = 160 − 1Q, and constant marginal cost is $35.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss? Round to the nearest cent.",
+    "distractors": [
+      "$3,906.25",
+      "$7,812.50",
+      "$3,046.88"
+    ],
+    "explanation": "Efficient Q = (160 − 35)/1 = 125.00; monopoly Q = (160 − 35)/2 = 62.50 and P = $97.50. DWL = ½ × (125.00 − 62.50) × (97.50 − 35) = $1,953.13.",
+    "numericAnswer": {
+      "value": 1953.13,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-17",
+    "kind": "calculation",
+    "term": "$1,024.00",
+    "definition": "Demand is P = 164 − 2Q, and constant marginal cost is $36.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss?",
+    "distractors": [
+      "$2,048.00",
+      "$4,096.00",
+      "$1,600.00"
+    ],
+    "explanation": "Efficient Q = (164 − 36)/2 = 64.00; monopoly Q = (164 − 36)/4 = 32.00 and P = $100.00. DWL = ½ × (64.00 − 32.00) × (100.00 − 36) = $1,024.00.",
+    "numericAnswer": {
+      "value": 1024,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-18",
+    "kind": "calculation",
+    "term": "$715.04",
+    "definition": "Demand is P = 168 − 3Q, and constant marginal cost is $37.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss? Round to the nearest cent.",
+    "distractors": [
+      "$1,430.08",
+      "$2,860.17",
+      "$1,118.96"
+    ],
+    "explanation": "Efficient Q = (168 − 37)/3 = 43.67; monopoly Q = (168 − 37)/6 = 21.83 and P = $102.50. DWL = ½ × (43.67 − 21.83) × (102.50 − 37) = $715.04.",
+    "numericAnswer": {
+      "value": 715.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-19",
+    "kind": "calculation",
+    "term": "$2,244.50",
+    "definition": "Demand is P = 172 − 1Q, and constant marginal cost is $38.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss?",
+    "distractors": [
+      "$4,489.00",
+      "$8,978.00",
+      "$3,517.50"
+    ],
+    "explanation": "Efficient Q = (172 − 38)/1 = 134.00; monopoly Q = (172 − 38)/2 = 67.00 and P = $105.00. DWL = ½ × (134.00 − 67.00) × (105.00 − 38) = $2,244.50.",
+    "numericAnswer": {
+      "value": 2244.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-monopoly-deadweight-loss-20",
+    "kind": "calculation",
+    "term": "$1,173.06",
+    "definition": "Demand is P = 176 − 2Q, and constant marginal cost is $39.00. Compare an unregulated single-price monopoly with the efficient competitive output. With no externalities, what is monopoly's deadweight loss? Round to the nearest cent.",
+    "distractors": [
+      "$2,346.13",
+      "$4,692.25",
+      "$1,840.94"
+    ],
+    "explanation": "Efficient Q = (176 − 39)/2 = 68.50; monopoly Q = (176 − 39)/4 = 34.25 and P = $107.50. DWL = ½ × (68.50 − 34.25) × (107.50 − 39) = $1,173.06.",
+    "numericAnswer": {
+      "value": 1173.06,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-01",
+    "kind": "calculation",
+    "term": "3,000 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 40%, 30%, 20%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "1,600 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 40² + 30² + 20² + 10² = 3,000 HHI points.",
+    "numericAnswer": {
+      "value": 3000,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-02",
+    "kind": "calculation",
+    "term": "3,042 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 41%, 30%, 19%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "1,681 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 41² + 30² + 19² + 10² = 3,042 HHI points.",
+    "numericAnswer": {
+      "value": 3042,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-03",
+    "kind": "calculation",
+    "term": "3,066 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 42%, 29%, 19%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "1,764 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 42² + 29² + 19² + 10² = 3,066 HHI points.",
+    "numericAnswer": {
+      "value": 3066,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-04",
+    "kind": "calculation",
+    "term": "3,114 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 43%, 29%, 18%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "1,849 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 43² + 29² + 18² + 10² = 3,114 HHI points.",
+    "numericAnswer": {
+      "value": 3114,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-05",
+    "kind": "calculation",
+    "term": "3,144 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 44%, 28%, 18%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "1,936 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 44² + 28² + 18² + 10² = 3,144 HHI points.",
+    "numericAnswer": {
+      "value": 3144,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-06",
+    "kind": "calculation",
+    "term": "3,198 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 45%, 28%, 17%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "2,025 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 45² + 28² + 17² + 10² = 3,198 HHI points.",
+    "numericAnswer": {
+      "value": 3198,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-07",
+    "kind": "calculation",
+    "term": "3,234 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 46%, 27%, 17%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "2,116 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 46² + 27² + 17² + 10² = 3,234 HHI points.",
+    "numericAnswer": {
+      "value": 3234,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-08",
+    "kind": "calculation",
+    "term": "3,294 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 47%, 27%, 16%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "2,209 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 47² + 27² + 16² + 10² = 3,294 HHI points.",
+    "numericAnswer": {
+      "value": 3294,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-09",
+    "kind": "calculation",
+    "term": "3,336 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 48%, 26%, 16%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "2,304 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 48² + 26² + 16² + 10² = 3,336 HHI points.",
+    "numericAnswer": {
+      "value": 3336,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-10",
+    "kind": "calculation",
+    "term": "3,402 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 49%, 26%, 15%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "2,401 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 49² + 26² + 15² + 10² = 3,402 HHI points.",
+    "numericAnswer": {
+      "value": 3402,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-11",
+    "kind": "calculation",
+    "term": "3,450 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 50%, 25%, 15%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "2,500 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 50² + 25² + 15² + 10² = 3,450 HHI points.",
+    "numericAnswer": {
+      "value": 3450,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-12",
+    "kind": "calculation",
+    "term": "3,522 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 51%, 25%, 14%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "2,601 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 51² + 25² + 14² + 10² = 3,522 HHI points.",
+    "numericAnswer": {
+      "value": 3522,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-13",
+    "kind": "calculation",
+    "term": "3,576 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 52%, 24%, 14%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "2,704 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 52² + 24² + 14² + 10² = 3,576 HHI points.",
+    "numericAnswer": {
+      "value": 3576,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-14",
+    "kind": "calculation",
+    "term": "3,654 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 53%, 24%, 13%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "2,809 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 53² + 24² + 13² + 10² = 3,654 HHI points.",
+    "numericAnswer": {
+      "value": 3654,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-15",
+    "kind": "calculation",
+    "term": "3,714 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 54%, 23%, 13%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "2,916 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 54² + 23² + 13² + 10² = 3,714 HHI points.",
+    "numericAnswer": {
+      "value": 3714,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-16",
+    "kind": "calculation",
+    "term": "3,798 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 55%, 23%, 12%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "3,025 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 55² + 23² + 12² + 10² = 3,798 HHI points.",
+    "numericAnswer": {
+      "value": 3798,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-17",
+    "kind": "calculation",
+    "term": "3,864 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 56%, 22%, 12%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "3,136 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 56² + 22² + 12² + 10² = 3,864 HHI points.",
+    "numericAnswer": {
+      "value": 3864,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-18",
+    "kind": "calculation",
+    "term": "3,954 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 57%, 22%, 11%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "3,249 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 57² + 22² + 11² + 10² = 3,954 HHI points.",
+    "numericAnswer": {
+      "value": 3954,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-19",
+    "kind": "calculation",
+    "term": "4,026 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 58%, 21%, 11%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "3,364 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 58² + 21² + 11² + 10² = 4,026 HHI points.",
+    "numericAnswer": {
+      "value": 4026,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-herfindahl-market-shares-20",
+    "kind": "calculation",
+    "term": "4,122 HHI points",
+    "definition": "Four firms have all market sales, with percentage shares 59%, 21%, 10%, 10%. What is the Herfindahl–Hirschman Index on the 0-to-10,000 scale?",
+    "distractors": [
+      "100 HHI points",
+      "0 HHI points",
+      "3,481 HHI points"
+    ],
+    "explanation": "Square each percentage share and sum: 59² + 21² + 10² + 10² = 4,122 HHI points.",
+    "numericAnswer": {
+      "value": 4122,
+      "unit": "HHI points"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-01",
+    "kind": "calculation",
+    "term": "85.31%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 220, 170, 130, 90, 65, 40. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "30.77%",
+      "94.41%",
+      "0.85%"
+    ],
+    "explanation": "The four largest firms sell 220 + 170 + 130 + 90 = 610 million out of 715 million. CR4 = 610/715 × 100 = 85.31%.",
+    "numericAnswer": {
+      "value": 85.31,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-02",
+    "kind": "calculation",
+    "term": "85.46%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 229, 177, 135, 94, 67, 41. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "30.82%",
+      "94.48%",
+      "0.85%"
+    ],
+    "explanation": "The four largest firms sell 229 + 177 + 135 + 94 = 635 million out of 743 million. CR4 = 635/743 × 100 = 85.46%.",
+    "numericAnswer": {
+      "value": 85.46,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-03",
+    "kind": "calculation",
+    "term": "85.60%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 238, 184, 140, 98, 69, 42. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "30.87%",
+      "94.55%",
+      "0.86%"
+    ],
+    "explanation": "The four largest firms sell 238 + 184 + 140 + 98 = 660 million out of 771 million. CR4 = 660/771 × 100 = 85.60%.",
+    "numericAnswer": {
+      "value": 85.6,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-04",
+    "kind": "calculation",
+    "term": "85.73%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 247, 191, 145, 102, 71, 43. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "30.91%",
+      "94.62%",
+      "0.86%"
+    ],
+    "explanation": "The four largest firms sell 247 + 191 + 145 + 102 = 685 million out of 799 million. CR4 = 685/799 × 100 = 85.73%.",
+    "numericAnswer": {
+      "value": 85.73,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-05",
+    "kind": "calculation",
+    "term": "85.85%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 256, 198, 150, 106, 73, 44. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "30.96%",
+      "94.68%",
+      "0.86%"
+    ],
+    "explanation": "The four largest firms sell 256 + 198 + 150 + 106 = 710 million out of 827 million. CR4 = 710/827 × 100 = 85.85%.",
+    "numericAnswer": {
+      "value": 85.85,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-06",
+    "kind": "calculation",
+    "term": "85.96%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 265, 205, 155, 110, 75, 45. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "30.99%",
+      "94.74%",
+      "0.86%"
+    ],
+    "explanation": "The four largest firms sell 265 + 205 + 155 + 110 = 735 million out of 855 million. CR4 = 735/855 × 100 = 85.96%.",
+    "numericAnswer": {
+      "value": 85.96,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-07",
+    "kind": "calculation",
+    "term": "86.07%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 274, 212, 160, 114, 77, 46. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "31.03%",
+      "94.79%",
+      "0.86%"
+    ],
+    "explanation": "The four largest firms sell 274 + 212 + 160 + 114 = 760 million out of 883 million. CR4 = 760/883 × 100 = 86.07%.",
+    "numericAnswer": {
+      "value": 86.07,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-08",
+    "kind": "calculation",
+    "term": "86.17%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 283, 219, 165, 118, 79, 47. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "31.06%",
+      "94.84%",
+      "0.86%"
+    ],
+    "explanation": "The four largest firms sell 283 + 219 + 165 + 118 = 785 million out of 911 million. CR4 = 785/911 × 100 = 86.17%.",
+    "numericAnswer": {
+      "value": 86.17,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-09",
+    "kind": "calculation",
+    "term": "86.26%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 292, 226, 170, 122, 81, 48. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "31.10%",
+      "94.89%",
+      "0.86%"
+    ],
+    "explanation": "The four largest firms sell 292 + 226 + 170 + 122 = 810 million out of 939 million. CR4 = 810/939 × 100 = 86.26%.",
+    "numericAnswer": {
+      "value": 86.26,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-10",
+    "kind": "calculation",
+    "term": "86.35%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 301, 233, 175, 126, 83, 49. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "31.13%",
+      "94.93%",
+      "0.86%"
+    ],
+    "explanation": "The four largest firms sell 301 + 233 + 175 + 126 = 835 million out of 967 million. CR4 = 835/967 × 100 = 86.35%.",
+    "numericAnswer": {
+      "value": 86.35,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-11",
+    "kind": "calculation",
+    "term": "86.43%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 310, 240, 180, 130, 85, 50. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "31.16%",
+      "94.97%",
+      "0.86%"
+    ],
+    "explanation": "The four largest firms sell 310 + 240 + 180 + 130 = 860 million out of 995 million. CR4 = 860/995 × 100 = 86.43%.",
+    "numericAnswer": {
+      "value": 86.43,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-12",
+    "kind": "calculation",
+    "term": "86.51%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 319, 247, 185, 134, 87, 51. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "31.18%",
+      "95.01%",
+      "0.87%"
+    ],
+    "explanation": "The four largest firms sell 319 + 247 + 185 + 134 = 885 million out of 1023 million. CR4 = 885/1023 × 100 = 86.51%.",
+    "numericAnswer": {
+      "value": 86.51,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-13",
+    "kind": "calculation",
+    "term": "86.58%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 328, 254, 190, 138, 89, 52. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "31.21%",
+      "95.05%",
+      "0.87%"
+    ],
+    "explanation": "The four largest firms sell 328 + 254 + 190 + 138 = 910 million out of 1051 million. CR4 = 910/1051 × 100 = 86.58%.",
+    "numericAnswer": {
+      "value": 86.58,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-14",
+    "kind": "calculation",
+    "term": "86.65%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 337, 261, 195, 142, 91, 53. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "31.23%",
+      "95.09%",
+      "0.87%"
+    ],
+    "explanation": "The four largest firms sell 337 + 261 + 195 + 142 = 935 million out of 1079 million. CR4 = 935/1079 × 100 = 86.65%.",
+    "numericAnswer": {
+      "value": 86.65,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-15",
+    "kind": "calculation",
+    "term": "86.72%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 346, 268, 200, 146, 93, 54. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "31.26%",
+      "95.12%",
+      "0.87%"
+    ],
+    "explanation": "The four largest firms sell 346 + 268 + 200 + 146 = 960 million out of 1107 million. CR4 = 960/1107 × 100 = 86.72%.",
+    "numericAnswer": {
+      "value": 86.72,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-16",
+    "kind": "calculation",
+    "term": "86.78%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 355, 275, 205, 150, 95, 55. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "31.28%",
+      "95.15%",
+      "0.87%"
+    ],
+    "explanation": "The four largest firms sell 355 + 275 + 205 + 150 = 985 million out of 1135 million. CR4 = 985/1135 × 100 = 86.78%.",
+    "numericAnswer": {
+      "value": 86.78,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-17",
+    "kind": "calculation",
+    "term": "86.84%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 364, 282, 210, 154, 97, 56. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "31.30%",
+      "95.18%",
+      "0.87%"
+    ],
+    "explanation": "The four largest firms sell 364 + 282 + 210 + 154 = 1010 million out of 1163 million. CR4 = 1010/1163 × 100 = 86.84%.",
+    "numericAnswer": {
+      "value": 86.84,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-18",
+    "kind": "calculation",
+    "term": "86.90%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 373, 289, 215, 158, 99, 57. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "31.32%",
+      "95.21%",
+      "0.87%"
+    ],
+    "explanation": "The four largest firms sell 373 + 289 + 215 + 158 = 1035 million out of 1191 million. CR4 = 1035/1191 × 100 = 86.90%.",
+    "numericAnswer": {
+      "value": 86.9,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-19",
+    "kind": "calculation",
+    "term": "86.96%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 382, 296, 220, 162, 101, 58. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "31.34%",
+      "95.24%",
+      "0.87%"
+    ],
+    "explanation": "The four largest firms sell 382 + 296 + 220 + 162 = 1060 million out of 1219 million. CR4 = 1060/1219 × 100 = 86.96%.",
+    "numericAnswer": {
+      "value": 86.96,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-four-firm-concentration-20",
+    "kind": "calculation",
+    "term": "87.01%",
+    "definition": "The only six firms in a market have annual sales, in millions of dollars, of 391, 303, 225, 166, 103, 59. What is the four-firm concentration ratio? Round to 2 decimal places.",
+    "distractors": [
+      "31.36%",
+      "95.27%",
+      "0.87%"
+    ],
+    "explanation": "The four largest firms sell 391 + 303 + 225 + 166 = 1085 million out of 1247 million. CR4 = 1085/1247 × 100 = 87.01%.",
+    "numericAnswer": {
+      "value": 87.01,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-01",
+    "kind": "calculation",
+    "term": "55.56%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 1.80 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "180.00%",
+      "125.00%",
+      "44.44%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/1.80 = 55.56%.",
+    "numericAnswer": {
+      "value": 55.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-02",
+    "kind": "calculation",
+    "term": "51.28%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 1.95 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "195.00%",
+      "105.26%",
+      "48.72%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/1.95 = 51.28%.",
+    "numericAnswer": {
+      "value": 51.28,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-03",
+    "kind": "calculation",
+    "term": "47.62%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 2.10 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "210.00%",
+      "90.91%",
+      "52.38%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/2.10 = 47.62%.",
+    "numericAnswer": {
+      "value": 47.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-04",
+    "kind": "calculation",
+    "term": "44.44%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 2.25 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "225.00%",
+      "80.00%",
+      "55.56%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/2.25 = 44.44%.",
+    "numericAnswer": {
+      "value": 44.44,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-05",
+    "kind": "calculation",
+    "term": "41.67%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 2.40 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "240.00%",
+      "71.43%",
+      "58.33%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/2.40 = 41.67%.",
+    "numericAnswer": {
+      "value": 41.67,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-06",
+    "kind": "calculation",
+    "term": "39.22%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 2.55 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "255.00%",
+      "64.52%",
+      "60.78%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/2.55 = 39.22%.",
+    "numericAnswer": {
+      "value": 39.22,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-07",
+    "kind": "calculation",
+    "term": "37.04%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 2.70 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "270.00%",
+      "58.82%",
+      "62.96%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/2.70 = 37.04%.",
+    "numericAnswer": {
+      "value": 37.04,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-08",
+    "kind": "calculation",
+    "term": "35.09%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 2.85 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "285.00%",
+      "54.05%",
+      "64.91%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/2.85 = 35.09%.",
+    "numericAnswer": {
+      "value": 35.09,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-09",
+    "kind": "calculation",
+    "term": "33.33%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 3.00 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "300.00%",
+      "50.00%",
+      "66.67%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/3.00 = 33.33%.",
+    "numericAnswer": {
+      "value": 33.33,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-10",
+    "kind": "calculation",
+    "term": "31.75%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 3.15 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "315.00%",
+      "46.51%",
+      "68.25%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/3.15 = 31.75%.",
+    "numericAnswer": {
+      "value": 31.75,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-11",
+    "kind": "calculation",
+    "term": "30.30%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 3.30 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "330.00%",
+      "43.48%",
+      "69.70%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/3.30 = 30.30%.",
+    "numericAnswer": {
+      "value": 30.3,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-12",
+    "kind": "calculation",
+    "term": "28.99%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 3.45 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "345.00%",
+      "40.82%",
+      "71.01%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/3.45 = 28.99%.",
+    "numericAnswer": {
+      "value": 28.99,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-13",
+    "kind": "calculation",
+    "term": "27.78%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 3.60 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "360.00%",
+      "38.46%",
+      "72.22%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/3.60 = 27.78%.",
+    "numericAnswer": {
+      "value": 27.78,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-14",
+    "kind": "calculation",
+    "term": "26.67%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 3.75 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "375.00%",
+      "36.36%",
+      "73.33%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/3.75 = 26.67%.",
+    "numericAnswer": {
+      "value": 26.67,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-15",
+    "kind": "calculation",
+    "term": "25.64%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 3.90 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "390.00%",
+      "34.48%",
+      "74.36%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/3.90 = 25.64%.",
+    "numericAnswer": {
+      "value": 25.64,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-16",
+    "kind": "calculation",
+    "term": "24.69%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 4.05 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "405.00%",
+      "32.79%",
+      "75.31%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/4.05 = 24.69%.",
+    "numericAnswer": {
+      "value": 24.69,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-17",
+    "kind": "calculation",
+    "term": "23.81%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 4.20 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "420.00%",
+      "31.25%",
+      "76.19%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/4.20 = 23.81%.",
+    "numericAnswer": {
+      "value": 23.81,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-18",
+    "kind": "calculation",
+    "term": "22.99%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 4.35 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "435.00%",
+      "29.85%",
+      "77.01%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/4.35 = 22.99%.",
+    "numericAnswer": {
+      "value": 22.99,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-19",
+    "kind": "calculation",
+    "term": "22.22%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 4.50 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "450.00%",
+      "28.57%",
+      "77.78%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/4.50 = 22.22%.",
+    "numericAnswer": {
+      "value": 22.22,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-20",
+    "kind": "calculation",
+    "term": "21.51%",
+    "definition": "A profit-maximizing single-price monopolist faces a demand elasticity with absolute value 4.65 at an interior optimum. Under the Lerner rule, what is (price − marginal cost) as a percentage of price? Round to 2 decimal places.",
+    "distractors": [
+      "465.00%",
+      "27.40%",
+      "78.49%"
+    ],
+    "explanation": "The Lerner rule is (P − MC)/P = 1/|elasticity|. Thus the share of price is 100/4.65 = 21.51%.",
+    "numericAnswer": {
+      "value": 21.51,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-01",
+    "kind": "calculation",
+    "term": "40.00 units",
+    "definition": "In a symmetric Cournot market, 2 identical firms simultaneously choose quantities. Inverse demand is P = 140 − 2Q, and every firm has constant marginal cost $20.00 and no fixed cost. What is total equilibrium output?",
+    "distractors": [
+      "20.00 units",
+      "60.00 units",
+      "30.00 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 2(140 − 20)/[2(2 + 1)] = 40.00 units.",
+    "numericAnswer": {
+      "value": 40,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-02",
+    "kind": "calculation",
+    "term": "31.25 units",
+    "definition": "In a symmetric Cournot market, 3 identical firms simultaneously choose quantities. Inverse demand is P = 147 − 3Q, and every firm has constant marginal cost $22.00 and no fixed cost. What is total equilibrium output?",
+    "distractors": [
+      "10.42 units",
+      "41.67 units",
+      "20.83 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 3(147 − 22)/[3(3 + 1)] = 31.25 units.",
+    "numericAnswer": {
+      "value": 31.25,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-03",
+    "kind": "calculation",
+    "term": "26.00 units",
+    "definition": "In a symmetric Cournot market, 4 identical firms simultaneously choose quantities. Inverse demand is P = 154 − 4Q, and every firm has constant marginal cost $24.00 and no fixed cost. What is total equilibrium output?",
+    "distractors": [
+      "6.50 units",
+      "32.50 units",
+      "16.25 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 4(154 − 24)/[4(4 + 1)] = 26.00 units.",
+    "numericAnswer": {
+      "value": 26,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-04",
+    "kind": "calculation",
+    "term": "56.25 units",
+    "definition": "In a symmetric Cournot market, 5 identical firms simultaneously choose quantities. Inverse demand is P = 161 − 2Q, and every firm has constant marginal cost $26.00 and no fixed cost. What is total equilibrium output?",
+    "distractors": [
+      "11.25 units",
+      "67.50 units",
+      "33.75 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 5(161 − 26)/[2(5 + 1)] = 56.25 units.",
+    "numericAnswer": {
+      "value": 56.25,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-05",
+    "kind": "calculation",
+    "term": "31.11 units",
+    "definition": "In a symmetric Cournot market, 2 identical firms simultaneously choose quantities. Inverse demand is P = 168 − 3Q, and every firm has constant marginal cost $28.00 and no fixed cost. What is total equilibrium output? Round to 2 decimal places.",
+    "distractors": [
+      "15.56 units",
+      "46.67 units",
+      "23.33 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 2(168 − 28)/[3(2 + 1)] = 31.11 units.",
+    "numericAnswer": {
+      "value": 31.11,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-06",
+    "kind": "calculation",
+    "term": "27.19 units",
+    "definition": "In a symmetric Cournot market, 3 identical firms simultaneously choose quantities. Inverse demand is P = 175 − 4Q, and every firm has constant marginal cost $30.00 and no fixed cost. What is total equilibrium output? Round to 2 decimal places.",
+    "distractors": [
+      "9.06 units",
+      "36.25 units",
+      "18.13 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 3(175 − 30)/[4(3 + 1)] = 27.19 units.",
+    "numericAnswer": {
+      "value": 27.19,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-07",
+    "kind": "calculation",
+    "term": "60.00 units",
+    "definition": "In a symmetric Cournot market, 4 identical firms simultaneously choose quantities. Inverse demand is P = 182 − 2Q, and every firm has constant marginal cost $32.00 and no fixed cost. What is total equilibrium output?",
+    "distractors": [
+      "15.00 units",
+      "75.00 units",
+      "37.50 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 4(182 − 32)/[2(4 + 1)] = 60.00 units.",
+    "numericAnswer": {
+      "value": 60,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-08",
+    "kind": "calculation",
+    "term": "43.06 units",
+    "definition": "In a symmetric Cournot market, 5 identical firms simultaneously choose quantities. Inverse demand is P = 189 − 3Q, and every firm has constant marginal cost $34.00 and no fixed cost. What is total equilibrium output? Round to 2 decimal places.",
+    "distractors": [
+      "8.61 units",
+      "51.67 units",
+      "25.83 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 5(189 − 34)/[3(5 + 1)] = 43.06 units.",
+    "numericAnswer": {
+      "value": 43.06,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-09",
+    "kind": "calculation",
+    "term": "26.67 units",
+    "definition": "In a symmetric Cournot market, 2 identical firms simultaneously choose quantities. Inverse demand is P = 196 − 4Q, and every firm has constant marginal cost $36.00 and no fixed cost. What is total equilibrium output? Round to 2 decimal places.",
+    "distractors": [
+      "13.33 units",
+      "40.00 units",
+      "20.00 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 2(196 − 36)/[4(2 + 1)] = 26.67 units.",
+    "numericAnswer": {
+      "value": 26.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-10",
+    "kind": "calculation",
+    "term": "61.88 units",
+    "definition": "In a symmetric Cournot market, 3 identical firms simultaneously choose quantities. Inverse demand is P = 203 − 2Q, and every firm has constant marginal cost $38.00 and no fixed cost. What is total equilibrium output? Round to 2 decimal places.",
+    "distractors": [
+      "20.63 units",
+      "82.50 units",
+      "41.25 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 3(203 − 38)/[2(3 + 1)] = 61.88 units.",
+    "numericAnswer": {
+      "value": 61.88,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-11",
+    "kind": "calculation",
+    "term": "45.33 units",
+    "definition": "In a symmetric Cournot market, 4 identical firms simultaneously choose quantities. Inverse demand is P = 210 − 3Q, and every firm has constant marginal cost $40.00 and no fixed cost. What is total equilibrium output? Round to 2 decimal places.",
+    "distractors": [
+      "11.33 units",
+      "56.67 units",
+      "28.33 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 4(210 − 40)/[3(4 + 1)] = 45.33 units.",
+    "numericAnswer": {
+      "value": 45.33,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-12",
+    "kind": "calculation",
+    "term": "36.46 units",
+    "definition": "In a symmetric Cournot market, 5 identical firms simultaneously choose quantities. Inverse demand is P = 217 − 4Q, and every firm has constant marginal cost $42.00 and no fixed cost. What is total equilibrium output? Round to 2 decimal places.",
+    "distractors": [
+      "7.29 units",
+      "43.75 units",
+      "21.88 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 5(217 − 42)/[4(5 + 1)] = 36.46 units.",
+    "numericAnswer": {
+      "value": 36.46,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-13",
+    "kind": "calculation",
+    "term": "60.00 units",
+    "definition": "In a symmetric Cournot market, 2 identical firms simultaneously choose quantities. Inverse demand is P = 224 − 2Q, and every firm has constant marginal cost $44.00 and no fixed cost. What is total equilibrium output?",
+    "distractors": [
+      "30.00 units",
+      "90.00 units",
+      "45.00 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 2(224 − 44)/[2(2 + 1)] = 60.00 units.",
+    "numericAnswer": {
+      "value": 60,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-14",
+    "kind": "calculation",
+    "term": "46.25 units",
+    "definition": "In a symmetric Cournot market, 3 identical firms simultaneously choose quantities. Inverse demand is P = 231 − 3Q, and every firm has constant marginal cost $46.00 and no fixed cost. What is total equilibrium output?",
+    "distractors": [
+      "15.42 units",
+      "61.67 units",
+      "30.83 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 3(231 − 46)/[3(3 + 1)] = 46.25 units.",
+    "numericAnswer": {
+      "value": 46.25,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-15",
+    "kind": "calculation",
+    "term": "38.00 units",
+    "definition": "In a symmetric Cournot market, 4 identical firms simultaneously choose quantities. Inverse demand is P = 238 − 4Q, and every firm has constant marginal cost $48.00 and no fixed cost. What is total equilibrium output?",
+    "distractors": [
+      "9.50 units",
+      "47.50 units",
+      "23.75 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 4(238 − 48)/[4(4 + 1)] = 38.00 units.",
+    "numericAnswer": {
+      "value": 38,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-16",
+    "kind": "calculation",
+    "term": "81.25 units",
+    "definition": "In a symmetric Cournot market, 5 identical firms simultaneously choose quantities. Inverse demand is P = 245 − 2Q, and every firm has constant marginal cost $50.00 and no fixed cost. What is total equilibrium output?",
+    "distractors": [
+      "16.25 units",
+      "97.50 units",
+      "48.75 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 5(245 − 50)/[2(5 + 1)] = 81.25 units.",
+    "numericAnswer": {
+      "value": 81.25,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-17",
+    "kind": "calculation",
+    "term": "44.44 units",
+    "definition": "In a symmetric Cournot market, 2 identical firms simultaneously choose quantities. Inverse demand is P = 252 − 3Q, and every firm has constant marginal cost $52.00 and no fixed cost. What is total equilibrium output? Round to 2 decimal places.",
+    "distractors": [
+      "22.22 units",
+      "66.67 units",
+      "33.33 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 2(252 − 52)/[3(2 + 1)] = 44.44 units.",
+    "numericAnswer": {
+      "value": 44.44,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-18",
+    "kind": "calculation",
+    "term": "38.44 units",
+    "definition": "In a symmetric Cournot market, 3 identical firms simultaneously choose quantities. Inverse demand is P = 259 − 4Q, and every firm has constant marginal cost $54.00 and no fixed cost. What is total equilibrium output? Round to 2 decimal places.",
+    "distractors": [
+      "12.81 units",
+      "51.25 units",
+      "25.63 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 3(259 − 54)/[4(3 + 1)] = 38.44 units.",
+    "numericAnswer": {
+      "value": 38.44,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-19",
+    "kind": "calculation",
+    "term": "84.00 units",
+    "definition": "In a symmetric Cournot market, 4 identical firms simultaneously choose quantities. Inverse demand is P = 266 − 2Q, and every firm has constant marginal cost $56.00 and no fixed cost. What is total equilibrium output?",
+    "distractors": [
+      "21.00 units",
+      "105.00 units",
+      "52.50 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 4(266 − 56)/[2(4 + 1)] = 84.00 units.",
+    "numericAnswer": {
+      "value": 84,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-20",
+    "kind": "calculation",
+    "term": "59.72 units",
+    "definition": "In a symmetric Cournot market, 5 identical firms simultaneously choose quantities. Inverse demand is P = 273 − 3Q, and every firm has constant marginal cost $58.00 and no fixed cost. What is total equilibrium output? Round to 2 decimal places.",
+    "distractors": [
+      "11.94 units",
+      "71.67 units",
+      "35.83 units"
+    ],
+    "explanation": "Symmetric Cournot output is Q = n(a − c)/[b(n + 1)] = 5(273 − 58)/[3(5 + 1)] = 59.72 units.",
+    "numericAnswer": {
+      "value": 59.72,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-01",
+    "kind": "calculation",
+    "term": "$855.00",
+    "definition": "If a firm cuts price, its profit is $1,800.00 when its rival keeps price unchanged and $450.00 when the rival also cuts. The rival keeps price unchanged with probability 30%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,125.00",
+      "$540.00",
+      "$1,395.00"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (30/100) × $1,800.00 + (70/100) × $450.00 = $855.00.",
+    "numericAnswer": {
+      "value": 855,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-02",
+    "kind": "calculation",
+    "term": "$929.40",
+    "definition": "If a firm cuts price, its profit is $1,895.00 when its rival keeps price unchanged and $475.00 when the rival also cuts. The rival keeps price unchanged with probability 32%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,185.00",
+      "$606.40",
+      "$1,440.60"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (32/100) × $1,895.00 + (68/100) × $475.00 = $929.40.",
+    "numericAnswer": {
+      "value": 929.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-03",
+    "kind": "calculation",
+    "term": "$1,006.60",
+    "definition": "If a firm cuts price, its profit is $1,990.00 when its rival keeps price unchanged and $500.00 when the rival also cuts. The rival keeps price unchanged with probability 34%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,245.00",
+      "$676.60",
+      "$1,483.40"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (34/100) × $1,990.00 + (66/100) × $500.00 = $1,006.60.",
+    "numericAnswer": {
+      "value": 1006.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-04",
+    "kind": "calculation",
+    "term": "$1,086.60",
+    "definition": "If a firm cuts price, its profit is $2,085.00 when its rival keeps price unchanged and $525.00 when the rival also cuts. The rival keeps price unchanged with probability 36%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,305.00",
+      "$750.60",
+      "$1,523.40"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (36/100) × $2,085.00 + (64/100) × $525.00 = $1,086.60.",
+    "numericAnswer": {
+      "value": 1086.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-05",
+    "kind": "calculation",
+    "term": "$1,169.40",
+    "definition": "If a firm cuts price, its profit is $2,180.00 when its rival keeps price unchanged and $550.00 when the rival also cuts. The rival keeps price unchanged with probability 38%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,365.00",
+      "$828.40",
+      "$1,560.60"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (38/100) × $2,180.00 + (62/100) × $550.00 = $1,169.40.",
+    "numericAnswer": {
+      "value": 1169.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-06",
+    "kind": "calculation",
+    "term": "$1,255.00",
+    "definition": "If a firm cuts price, its profit is $2,275.00 when its rival keeps price unchanged and $575.00 when the rival also cuts. The rival keeps price unchanged with probability 40%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,425.00",
+      "$910.00",
+      "$1,595.00"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (40/100) × $2,275.00 + (60/100) × $575.00 = $1,255.00.",
+    "numericAnswer": {
+      "value": 1255,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-07",
+    "kind": "calculation",
+    "term": "$1,343.40",
+    "definition": "If a firm cuts price, its profit is $2,370.00 when its rival keeps price unchanged and $600.00 when the rival also cuts. The rival keeps price unchanged with probability 42%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,485.00",
+      "$995.40",
+      "$1,626.60"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (42/100) × $2,370.00 + (58/100) × $600.00 = $1,343.40.",
+    "numericAnswer": {
+      "value": 1343.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-08",
+    "kind": "calculation",
+    "term": "$1,434.60",
+    "definition": "If a firm cuts price, its profit is $2,465.00 when its rival keeps price unchanged and $625.00 when the rival also cuts. The rival keeps price unchanged with probability 44%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,545.00",
+      "$1,084.60",
+      "$1,655.40"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (44/100) × $2,465.00 + (56/100) × $625.00 = $1,434.60.",
+    "numericAnswer": {
+      "value": 1434.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-09",
+    "kind": "calculation",
+    "term": "$1,528.60",
+    "definition": "If a firm cuts price, its profit is $2,560.00 when its rival keeps price unchanged and $650.00 when the rival also cuts. The rival keeps price unchanged with probability 46%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,605.00",
+      "$1,177.60",
+      "$1,681.40"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (46/100) × $2,560.00 + (54/100) × $650.00 = $1,528.60.",
+    "numericAnswer": {
+      "value": 1528.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-10",
+    "kind": "calculation",
+    "term": "$1,625.40",
+    "definition": "If a firm cuts price, its profit is $2,655.00 when its rival keeps price unchanged and $675.00 when the rival also cuts. The rival keeps price unchanged with probability 48%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,665.00",
+      "$1,274.40",
+      "$1,704.60"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (48/100) × $2,655.00 + (52/100) × $675.00 = $1,625.40.",
+    "numericAnswer": {
+      "value": 1625.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-11",
+    "kind": "calculation",
+    "term": "$1,725.00",
+    "definition": "If a firm cuts price, its profit is $2,750.00 when its rival keeps price unchanged and $700.00 when the rival also cuts. The rival keeps price unchanged with probability 50%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,375.00",
+      "$3,450.00",
+      "$2,050.00"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (50/100) × $2,750.00 + (50/100) × $700.00 = $1,725.00.",
+    "numericAnswer": {
+      "value": 1725,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-12",
+    "kind": "calculation",
+    "term": "$1,827.40",
+    "definition": "If a firm cuts price, its profit is $2,845.00 when its rival keeps price unchanged and $725.00 when the rival also cuts. The rival keeps price unchanged with probability 52%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,785.00",
+      "$1,479.40",
+      "$1,742.60"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (52/100) × $2,845.00 + (48/100) × $725.00 = $1,827.40.",
+    "numericAnswer": {
+      "value": 1827.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-13",
+    "kind": "calculation",
+    "term": "$1,932.60",
+    "definition": "If a firm cuts price, its profit is $2,940.00 when its rival keeps price unchanged and $750.00 when the rival also cuts. The rival keeps price unchanged with probability 54%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,845.00",
+      "$1,587.60",
+      "$1,757.40"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (54/100) × $2,940.00 + (46/100) × $750.00 = $1,932.60.",
+    "numericAnswer": {
+      "value": 1932.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-14",
+    "kind": "calculation",
+    "term": "$2,040.60",
+    "definition": "If a firm cuts price, its profit is $3,035.00 when its rival keeps price unchanged and $775.00 when the rival also cuts. The rival keeps price unchanged with probability 56%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,905.00",
+      "$1,699.60",
+      "$1,769.40"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (56/100) × $3,035.00 + (44/100) × $775.00 = $2,040.60.",
+    "numericAnswer": {
+      "value": 2040.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-15",
+    "kind": "calculation",
+    "term": "$2,151.40",
+    "definition": "If a firm cuts price, its profit is $3,130.00 when its rival keeps price unchanged and $800.00 when the rival also cuts. The rival keeps price unchanged with probability 58%. What is expected profit from cutting price?",
+    "distractors": [
+      "$1,965.00",
+      "$1,815.40",
+      "$1,778.60"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (58/100) × $3,130.00 + (42/100) × $800.00 = $2,151.40.",
+    "numericAnswer": {
+      "value": 2151.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-16",
+    "kind": "calculation",
+    "term": "$2,265.00",
+    "definition": "If a firm cuts price, its profit is $3,225.00 when its rival keeps price unchanged and $825.00 when the rival also cuts. The rival keeps price unchanged with probability 60%. What is expected profit from cutting price?",
+    "distractors": [
+      "$2,025.00",
+      "$1,935.00",
+      "$1,785.00"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (60/100) × $3,225.00 + (40/100) × $825.00 = $2,265.00.",
+    "numericAnswer": {
+      "value": 2265,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-17",
+    "kind": "calculation",
+    "term": "$2,381.40",
+    "definition": "If a firm cuts price, its profit is $3,320.00 when its rival keeps price unchanged and $850.00 when the rival also cuts. The rival keeps price unchanged with probability 62%. What is expected profit from cutting price?",
+    "distractors": [
+      "$2,085.00",
+      "$2,058.40",
+      "$1,788.60"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (62/100) × $3,320.00 + (38/100) × $850.00 = $2,381.40.",
+    "numericAnswer": {
+      "value": 2381.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-18",
+    "kind": "calculation",
+    "term": "$2,500.60",
+    "definition": "If a firm cuts price, its profit is $3,415.00 when its rival keeps price unchanged and $875.00 when the rival also cuts. The rival keeps price unchanged with probability 64%. What is expected profit from cutting price?",
+    "distractors": [
+      "$2,145.00",
+      "$2,185.60",
+      "$1,789.40"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (64/100) × $3,415.00 + (36/100) × $875.00 = $2,500.60.",
+    "numericAnswer": {
+      "value": 2500.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-19",
+    "kind": "calculation",
+    "term": "$2,622.60",
+    "definition": "If a firm cuts price, its profit is $3,510.00 when its rival keeps price unchanged and $900.00 when the rival also cuts. The rival keeps price unchanged with probability 66%. What is expected profit from cutting price?",
+    "distractors": [
+      "$2,205.00",
+      "$2,316.60",
+      "$1,787.40"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (66/100) × $3,510.00 + (34/100) × $900.00 = $2,622.60.",
+    "numericAnswer": {
+      "value": 2622.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-strategic-expected-profit-20",
+    "kind": "calculation",
+    "term": "$2,747.40",
+    "definition": "If a firm cuts price, its profit is $3,605.00 when its rival keeps price unchanged and $925.00 when the rival also cuts. The rival keeps price unchanged with probability 68%. What is expected profit from cutting price?",
+    "distractors": [
+      "$2,265.00",
+      "$2,451.40",
+      "$1,782.60"
+    ],
+    "explanation": "Weight each mutually exclusive outcome by its probability: (68/100) × $3,605.00 + (32/100) × $925.00 = $2,747.40.",
+    "numericAnswer": {
+      "value": 2747.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-01",
+    "kind": "calculation",
+    "term": "$690.00",
+    "definition": "A seller has 30 customers willing to pay $48.00 and 55 additional customers willing to pay only $25.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $25.00?",
+    "distractors": [
+      "$2,815.00",
+      "$2,125.00",
+      "$1,955.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 30 × ($48.00 − $25.00) = $690.00.",
+    "numericAnswer": {
+      "value": 690,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-02",
+    "kind": "calculation",
+    "term": "$713.00",
+    "definition": "A seller has 31 customers willing to pay $49.00 and 57 additional customers willing to pay only $26.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $26.00?",
+    "distractors": [
+      "$3,001.00",
+      "$2,288.00",
+      "$2,024.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 31 × ($49.00 − $26.00) = $713.00.",
+    "numericAnswer": {
+      "value": 713,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-03",
+    "kind": "calculation",
+    "term": "$736.00",
+    "definition": "A seller has 32 customers willing to pay $50.00 and 59 additional customers willing to pay only $27.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $27.00?",
+    "distractors": [
+      "$3,193.00",
+      "$2,457.00",
+      "$2,093.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 32 × ($50.00 − $27.00) = $736.00.",
+    "numericAnswer": {
+      "value": 736,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-04",
+    "kind": "calculation",
+    "term": "$759.00",
+    "definition": "A seller has 33 customers willing to pay $51.00 and 61 additional customers willing to pay only $28.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $28.00?",
+    "distractors": [
+      "$3,391.00",
+      "$2,632.00",
+      "$2,162.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 33 × ($51.00 − $28.00) = $759.00.",
+    "numericAnswer": {
+      "value": 759,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-05",
+    "kind": "calculation",
+    "term": "$782.00",
+    "definition": "A seller has 34 customers willing to pay $52.00 and 63 additional customers willing to pay only $29.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $29.00?",
+    "distractors": [
+      "$3,595.00",
+      "$2,813.00",
+      "$2,231.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 34 × ($52.00 − $29.00) = $782.00.",
+    "numericAnswer": {
+      "value": 782,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-06",
+    "kind": "calculation",
+    "term": "$980.00",
+    "definition": "A seller has 35 customers willing to pay $53.00 and 65 additional customers willing to pay only $25.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $25.00?",
+    "distractors": [
+      "$3,480.00",
+      "$2,500.00",
+      "$2,800.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 35 × ($53.00 − $25.00) = $980.00.",
+    "numericAnswer": {
+      "value": 980,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-07",
+    "kind": "calculation",
+    "term": "$1,008.00",
+    "definition": "A seller has 36 customers willing to pay $54.00 and 67 additional customers willing to pay only $26.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $26.00?",
+    "distractors": [
+      "$3,686.00",
+      "$2,678.00",
+      "$2,884.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 36 × ($54.00 − $26.00) = $1,008.00.",
+    "numericAnswer": {
+      "value": 1008,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-08",
+    "kind": "calculation",
+    "term": "$1,036.00",
+    "definition": "A seller has 37 customers willing to pay $55.00 and 69 additional customers willing to pay only $27.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $27.00?",
+    "distractors": [
+      "$3,898.00",
+      "$2,862.00",
+      "$2,968.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 37 × ($55.00 − $27.00) = $1,036.00.",
+    "numericAnswer": {
+      "value": 1036,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-09",
+    "kind": "calculation",
+    "term": "$1,064.00",
+    "definition": "A seller has 38 customers willing to pay $56.00 and 71 additional customers willing to pay only $28.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $28.00?",
+    "distractors": [
+      "$4,116.00",
+      "$3,052.00",
+      "$1,988.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 38 × ($56.00 − $28.00) = $1,064.00.",
+    "numericAnswer": {
+      "value": 1064,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-10",
+    "kind": "calculation",
+    "term": "$1,092.00",
+    "definition": "A seller has 39 customers willing to pay $57.00 and 73 additional customers willing to pay only $29.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $29.00?",
+    "distractors": [
+      "$4,340.00",
+      "$3,248.00",
+      "$3,136.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 39 × ($57.00 − $29.00) = $1,092.00.",
+    "numericAnswer": {
+      "value": 1092,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-11",
+    "kind": "calculation",
+    "term": "$1,320.00",
+    "definition": "A seller has 40 customers willing to pay $58.00 and 75 additional customers willing to pay only $25.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $25.00?",
+    "distractors": [
+      "$4,195.00",
+      "$2,875.00",
+      "$3,795.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 40 × ($58.00 − $25.00) = $1,320.00.",
+    "numericAnswer": {
+      "value": 1320,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-12",
+    "kind": "calculation",
+    "term": "$1,353.00",
+    "definition": "A seller has 41 customers willing to pay $59.00 and 77 additional customers willing to pay only $26.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $26.00?",
+    "distractors": [
+      "$4,421.00",
+      "$3,068.00",
+      "$3,894.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 41 × ($59.00 − $26.00) = $1,353.00.",
+    "numericAnswer": {
+      "value": 1353,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-13",
+    "kind": "calculation",
+    "term": "$1,386.00",
+    "definition": "A seller has 42 customers willing to pay $60.00 and 79 additional customers willing to pay only $27.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $27.00?",
+    "distractors": [
+      "$4,653.00",
+      "$3,267.00",
+      "$3,993.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 42 × ($60.00 − $27.00) = $1,386.00.",
+    "numericAnswer": {
+      "value": 1386,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-14",
+    "kind": "calculation",
+    "term": "$1,419.00",
+    "definition": "A seller has 43 customers willing to pay $61.00 and 81 additional customers willing to pay only $28.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $28.00?",
+    "distractors": [
+      "$4,891.00",
+      "$3,472.00",
+      "$4,092.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 43 × ($61.00 − $28.00) = $1,419.00.",
+    "numericAnswer": {
+      "value": 1419,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-15",
+    "kind": "calculation",
+    "term": "$1,452.00",
+    "definition": "A seller has 44 customers willing to pay $62.00 and 83 additional customers willing to pay only $29.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $29.00?",
+    "distractors": [
+      "$5,135.00",
+      "$3,683.00",
+      "$4,191.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 44 × ($62.00 − $29.00) = $1,452.00.",
+    "numericAnswer": {
+      "value": 1452,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-16",
+    "kind": "calculation",
+    "term": "$1,710.00",
+    "definition": "A seller has 45 customers willing to pay $63.00 and 85 additional customers willing to pay only $25.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $25.00?",
+    "distractors": [
+      "$4,960.00",
+      "$3,250.00",
+      "$4,940.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 45 × ($63.00 − $25.00) = $1,710.00.",
+    "numericAnswer": {
+      "value": 1710,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-17",
+    "kind": "calculation",
+    "term": "$1,748.00",
+    "definition": "A seller has 46 customers willing to pay $64.00 and 87 additional customers willing to pay only $26.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $26.00?",
+    "distractors": [
+      "$5,206.00",
+      "$3,458.00",
+      "$5,054.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 46 × ($64.00 − $26.00) = $1,748.00.",
+    "numericAnswer": {
+      "value": 1748,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-18",
+    "kind": "calculation",
+    "term": "$1,786.00",
+    "definition": "A seller has 47 customers willing to pay $65.00 and 89 additional customers willing to pay only $27.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $27.00?",
+    "distractors": [
+      "$5,458.00",
+      "$3,672.00",
+      "$5,168.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 47 × ($65.00 − $27.00) = $1,786.00.",
+    "numericAnswer": {
+      "value": 1786,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-19",
+    "kind": "calculation",
+    "term": "$1,824.00",
+    "definition": "A seller has 48 customers willing to pay $66.00 and 91 additional customers willing to pay only $28.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $28.00?",
+    "distractors": [
+      "$5,716.00",
+      "$3,892.00",
+      "$5,282.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 48 × ($66.00 − $28.00) = $1,824.00.",
+    "numericAnswer": {
+      "value": 1824,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-20",
+    "kind": "calculation",
+    "term": "$1,862.00",
+    "definition": "A seller has 49 customers willing to pay $67.00 and 93 additional customers willing to pay only $29.00, each for one unit. With enforceable segment prices and no resale, how much more revenue does charging each group its willingness to pay generate than a uniform price of $29.00?",
+    "distractors": [
+      "$5,980.00",
+      "$4,118.00",
+      "$5,396.00"
+    ],
+    "explanation": "Only the high-value group's payment changes. Extra revenue = 49 × ($67.00 − $29.00) = $1,862.00.",
+    "numericAnswer": {
+      "value": 1862,
+      "unit": "USD"
+    }
+  }
+]

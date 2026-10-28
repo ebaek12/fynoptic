@@ -1,0 +1,2562 @@
+[
+  {
+    "id": "drill-invest-semiannual-coupon-payment-01",
+    "kind": "calculation",
+    "term": "$80.00",
+    "definition": "A fixed-rate bond holding has total face value of $5,000.00 and a 3.2% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$160.00",
+      "$13.33",
+      "$320.00"
+    ],
+    "explanation": "Annual coupon = $5,000.00 × 3.2% = $160.00. One of two equal payments = $160.00 ÷ 2 = $80.00.",
+    "numericAnswer": {
+      "value": 80,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-02",
+    "kind": "calculation",
+    "term": "$99.00",
+    "definition": "A fixed-rate bond holding has total face value of $6,000.00 and a 3.3% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$198.00",
+      "$16.50",
+      "$396.00"
+    ],
+    "explanation": "Annual coupon = $6,000.00 × 3.3% = $198.00. One of two equal payments = $198.00 ÷ 2 = $99.00.",
+    "numericAnswer": {
+      "value": 99,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-03",
+    "kind": "calculation",
+    "term": "$119.00",
+    "definition": "A fixed-rate bond holding has total face value of $7,000.00 and a 3.4% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$238.00",
+      "$19.83",
+      "$476.00"
+    ],
+    "explanation": "Annual coupon = $7,000.00 × 3.4% = $238.00. One of two equal payments = $238.00 ÷ 2 = $119.00.",
+    "numericAnswer": {
+      "value": 119,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-04",
+    "kind": "calculation",
+    "term": "$140.00",
+    "definition": "A fixed-rate bond holding has total face value of $8,000.00 and a 3.5% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$280.00",
+      "$23.33",
+      "$560.00"
+    ],
+    "explanation": "Annual coupon = $8,000.00 × 3.5% = $280.00. One of two equal payments = $280.00 ÷ 2 = $140.00.",
+    "numericAnswer": {
+      "value": 140,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-05",
+    "kind": "calculation",
+    "term": "$162.00",
+    "definition": "A fixed-rate bond holding has total face value of $9,000.00 and a 3.6% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$324.00",
+      "$27.00",
+      "$648.00"
+    ],
+    "explanation": "Annual coupon = $9,000.00 × 3.6% = $324.00. One of two equal payments = $324.00 ÷ 2 = $162.00.",
+    "numericAnswer": {
+      "value": 162,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-06",
+    "kind": "calculation",
+    "term": "$185.00",
+    "definition": "A fixed-rate bond holding has total face value of $10,000.00 and a 3.7% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$370.00",
+      "$30.83",
+      "$740.00"
+    ],
+    "explanation": "Annual coupon = $10,000.00 × 3.7% = $370.00. One of two equal payments = $370.00 ÷ 2 = $185.00.",
+    "numericAnswer": {
+      "value": 185,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-07",
+    "kind": "calculation",
+    "term": "$209.00",
+    "definition": "A fixed-rate bond holding has total face value of $11,000.00 and a 3.8% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$418.00",
+      "$34.83",
+      "$836.00"
+    ],
+    "explanation": "Annual coupon = $11,000.00 × 3.8% = $418.00. One of two equal payments = $418.00 ÷ 2 = $209.00.",
+    "numericAnswer": {
+      "value": 209,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-08",
+    "kind": "calculation",
+    "term": "$234.00",
+    "definition": "A fixed-rate bond holding has total face value of $12,000.00 and a 3.9% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$468.00",
+      "$39.00",
+      "$936.00"
+    ],
+    "explanation": "Annual coupon = $12,000.00 × 3.9% = $468.00. One of two equal payments = $468.00 ÷ 2 = $234.00.",
+    "numericAnswer": {
+      "value": 234,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-09",
+    "kind": "calculation",
+    "term": "$260.00",
+    "definition": "A fixed-rate bond holding has total face value of $13,000.00 and a 4.0% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$520.00",
+      "$43.33",
+      "$1,040.00"
+    ],
+    "explanation": "Annual coupon = $13,000.00 × 4.0% = $520.00. One of two equal payments = $520.00 ÷ 2 = $260.00.",
+    "numericAnswer": {
+      "value": 260,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-10",
+    "kind": "calculation",
+    "term": "$287.00",
+    "definition": "A fixed-rate bond holding has total face value of $14,000.00 and a 4.1% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$574.00",
+      "$47.83",
+      "$1,148.00"
+    ],
+    "explanation": "Annual coupon = $14,000.00 × 4.1% = $574.00. One of two equal payments = $574.00 ÷ 2 = $287.00.",
+    "numericAnswer": {
+      "value": 287,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-11",
+    "kind": "calculation",
+    "term": "$315.00",
+    "definition": "A fixed-rate bond holding has total face value of $15,000.00 and a 4.2% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$630.00",
+      "$52.50",
+      "$1,260.00"
+    ],
+    "explanation": "Annual coupon = $15,000.00 × 4.2% = $630.00. One of two equal payments = $630.00 ÷ 2 = $315.00.",
+    "numericAnswer": {
+      "value": 315,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-12",
+    "kind": "calculation",
+    "term": "$344.00",
+    "definition": "A fixed-rate bond holding has total face value of $16,000.00 and a 4.3% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$688.00",
+      "$57.33",
+      "$1,376.00"
+    ],
+    "explanation": "Annual coupon = $16,000.00 × 4.3% = $688.00. One of two equal payments = $688.00 ÷ 2 = $344.00.",
+    "numericAnswer": {
+      "value": 344,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-13",
+    "kind": "calculation",
+    "term": "$374.00",
+    "definition": "A fixed-rate bond holding has total face value of $17,000.00 and a 4.4% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$748.00",
+      "$62.33",
+      "$1,496.00"
+    ],
+    "explanation": "Annual coupon = $17,000.00 × 4.4% = $748.00. One of two equal payments = $748.00 ÷ 2 = $374.00.",
+    "numericAnswer": {
+      "value": 374,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-14",
+    "kind": "calculation",
+    "term": "$405.00",
+    "definition": "A fixed-rate bond holding has total face value of $18,000.00 and a 4.5% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$810.00",
+      "$67.50",
+      "$1,620.00"
+    ],
+    "explanation": "Annual coupon = $18,000.00 × 4.5% = $810.00. One of two equal payments = $810.00 ÷ 2 = $405.00.",
+    "numericAnswer": {
+      "value": 405,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-15",
+    "kind": "calculation",
+    "term": "$437.00",
+    "definition": "A fixed-rate bond holding has total face value of $19,000.00 and a 4.6% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$874.00",
+      "$72.83",
+      "$1,748.00"
+    ],
+    "explanation": "Annual coupon = $19,000.00 × 4.6% = $874.00. One of two equal payments = $874.00 ÷ 2 = $437.00.",
+    "numericAnswer": {
+      "value": 437,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-16",
+    "kind": "calculation",
+    "term": "$470.00",
+    "definition": "A fixed-rate bond holding has total face value of $20,000.00 and a 4.7% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$940.00",
+      "$78.33",
+      "$1,880.00"
+    ],
+    "explanation": "Annual coupon = $20,000.00 × 4.7% = $940.00. One of two equal payments = $940.00 ÷ 2 = $470.00.",
+    "numericAnswer": {
+      "value": 470,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-17",
+    "kind": "calculation",
+    "term": "$504.00",
+    "definition": "A fixed-rate bond holding has total face value of $21,000.00 and a 4.8% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$1,008.00",
+      "$84.00",
+      "$2,016.00"
+    ],
+    "explanation": "Annual coupon = $21,000.00 × 4.8% = $1,008.00. One of two equal payments = $1,008.00 ÷ 2 = $504.00.",
+    "numericAnswer": {
+      "value": 504,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-18",
+    "kind": "calculation",
+    "term": "$539.00",
+    "definition": "A fixed-rate bond holding has total face value of $22,000.00 and a 4.9% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$1,078.00",
+      "$89.83",
+      "$2,156.00"
+    ],
+    "explanation": "Annual coupon = $22,000.00 × 4.9% = $1,078.00. One of two equal payments = $1,078.00 ÷ 2 = $539.00.",
+    "numericAnswer": {
+      "value": 539,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-19",
+    "kind": "calculation",
+    "term": "$575.00",
+    "definition": "A fixed-rate bond holding has total face value of $23,000.00 and a 5.0% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$1,150.00",
+      "$95.83",
+      "$2,300.00"
+    ],
+    "explanation": "Annual coupon = $23,000.00 × 5.0% = $1,150.00. One of two equal payments = $1,150.00 ÷ 2 = $575.00.",
+    "numericAnswer": {
+      "value": 575,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-semiannual-coupon-payment-20",
+    "kind": "calculation",
+    "term": "$612.00",
+    "definition": "A fixed-rate bond holding has total face value of $24,000.00 and a 5.1% annual coupon rate. It pays two equal coupons per year. Assuming the issuer makes the scheduled payment, how much is one semiannual coupon?",
+    "distractors": [
+      "$1,224.00",
+      "$102.00",
+      "$2,448.00"
+    ],
+    "explanation": "Annual coupon = $24,000.00 × 5.1% = $1,224.00. One of two equal payments = $1,224.00 ÷ 2 = $612.00.",
+    "numericAnswer": {
+      "value": 612,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-01",
+    "kind": "calculation",
+    "term": "4.49%",
+    "definition": "A bond has $1,000.00 face value, a 4.0% annual coupon rate, and a current market price of $890.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "4.00%",
+      "12.36%",
+      "16.85%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 4.0% = $40.00. Current yield = $40.00 ÷ $890.00 × 100 = 4.49%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 4.49,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-02",
+    "kind": "calculation",
+    "term": "4.55%",
+    "definition": "A bond has $1,000.00 face value, a 4.1% annual coupon rate, and a current market price of $901.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "4.10%",
+      "10.99%",
+      "15.54%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 4.1% = $41.00. Current yield = $41.00 ÷ $901.00 × 100 = 4.55%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 4.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-03",
+    "kind": "calculation",
+    "term": "4.61%",
+    "definition": "A bond has $1,000.00 face value, a 4.2% annual coupon rate, and a current market price of $912.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "4.20%",
+      "9.65%",
+      "14.25%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 4.2% = $42.00. Current yield = $42.00 ÷ $912.00 × 100 = 4.61%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 4.61,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-04",
+    "kind": "calculation",
+    "term": "4.66%",
+    "definition": "A bond has $1,000.00 face value, a 4.3% annual coupon rate, and a current market price of $923.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "4.30%",
+      "8.34%",
+      "13.00%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 4.3% = $43.00. Current yield = $43.00 ÷ $923.00 × 100 = 4.66%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 4.66,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-05",
+    "kind": "calculation",
+    "term": "4.71%",
+    "definition": "A bond has $1,000.00 face value, a 4.4% annual coupon rate, and a current market price of $934.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "4.40%",
+      "7.07%",
+      "11.78%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 4.4% = $44.00. Current yield = $44.00 ÷ $934.00 × 100 = 4.71%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 4.71,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-06",
+    "kind": "calculation",
+    "term": "4.76%",
+    "definition": "A bond has $1,000.00 face value, a 4.5% annual coupon rate, and a current market price of $945.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "4.50%",
+      "5.82%",
+      "10.58%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 4.5% = $45.00. Current yield = $45.00 ÷ $945.00 × 100 = 4.76%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 4.76,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-07",
+    "kind": "calculation",
+    "term": "4.81%",
+    "definition": "A bond has $1,000.00 face value, a 4.6% annual coupon rate, and a current market price of $956.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "4.60%",
+      "9.41%",
+      "4.40%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 4.6% = $46.00. Current yield = $46.00 ÷ $956.00 × 100 = 4.81%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 4.81,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-08",
+    "kind": "calculation",
+    "term": "4.86%",
+    "definition": "A bond has $1,000.00 face value, a 4.7% annual coupon rate, and a current market price of $967.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "4.70%",
+      "3.41%",
+      "8.27%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 4.7% = $47.00. Current yield = $47.00 ÷ $967.00 × 100 = 4.86%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 4.86,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-09",
+    "kind": "calculation",
+    "term": "4.91%",
+    "definition": "A bond has $1,000.00 face value, a 4.8% annual coupon rate, and a current market price of $978.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "4.80%",
+      "2.25%",
+      "7.16%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 4.8% = $48.00. Current yield = $48.00 ÷ $978.00 × 100 = 4.91%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 4.91,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-10",
+    "kind": "calculation",
+    "term": "4.95%",
+    "definition": "A bond has $1,000.00 face value, a 4.9% annual coupon rate, and a current market price of $989.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "4.90%",
+      "1.11%",
+      "6.07%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 4.9% = $49.00. Current yield = $49.00 ÷ $989.00 × 100 = 4.95%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 4.95,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-11",
+    "kind": "calculation",
+    "term": "5.00%",
+    "definition": "A bond has $1,000.00 face value, a 5.0% annual coupon rate, and a current market price of $1,000.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price?",
+    "distractors": [
+      "0.00%",
+      "2.50%",
+      "10.00%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 5.0% = $50.00. Current yield = $50.00 ÷ $1,000.00 × 100 = 5.00%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 5,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-12",
+    "kind": "calculation",
+    "term": "5.04%",
+    "definition": "A bond has $1,000.00 face value, a 5.1% annual coupon rate, and a current market price of $1,011.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "5.10%",
+      "-1.09%",
+      "3.96%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 5.1% = $51.00. Current yield = $51.00 ÷ $1,011.00 × 100 = 5.04%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 5.04,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-13",
+    "kind": "calculation",
+    "term": "5.09%",
+    "definition": "A bond has $1,000.00 face value, a 5.2% annual coupon rate, and a current market price of $1,022.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "5.20%",
+      "-2.15%",
+      "2.94%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 5.2% = $52.00. Current yield = $52.00 ÷ $1,022.00 × 100 = 5.09%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 5.09,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-14",
+    "kind": "calculation",
+    "term": "5.13%",
+    "definition": "A bond has $1,000.00 face value, a 5.3% annual coupon rate, and a current market price of $1,033.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "5.30%",
+      "-3.19%",
+      "1.94%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 5.3% = $53.00. Current yield = $53.00 ÷ $1,033.00 × 100 = 5.13%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 5.13,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-15",
+    "kind": "calculation",
+    "term": "5.17%",
+    "definition": "A bond has $1,000.00 face value, a 5.4% annual coupon rate, and a current market price of $1,044.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "5.40%",
+      "-4.21%",
+      "0.96%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 5.4% = $54.00. Current yield = $54.00 ÷ $1,044.00 × 100 = 5.17%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 5.17,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-16",
+    "kind": "calculation",
+    "term": "5.21%",
+    "definition": "A bond has $1,000.00 face value, a 5.5% annual coupon rate, and a current market price of $1,055.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "5.50%",
+      "-5.21%",
+      "0.00%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 5.5% = $55.00. Current yield = $55.00 ÷ $1,055.00 × 100 = 5.21%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 5.21,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-17",
+    "kind": "calculation",
+    "term": "5.25%",
+    "definition": "A bond has $1,000.00 face value, a 5.6% annual coupon rate, and a current market price of $1,066.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "5.60%",
+      "-6.19%",
+      "-0.94%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 5.6% = $56.00. Current yield = $56.00 ÷ $1,066.00 × 100 = 5.25%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 5.25,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-18",
+    "kind": "calculation",
+    "term": "5.29%",
+    "definition": "A bond has $1,000.00 face value, a 5.7% annual coupon rate, and a current market price of $1,077.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "5.70%",
+      "-7.15%",
+      "-1.86%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 5.7% = $57.00. Current yield = $57.00 ÷ $1,077.00 × 100 = 5.29%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 5.29,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-19",
+    "kind": "calculation",
+    "term": "5.33%",
+    "definition": "A bond has $1,000.00 face value, a 5.8% annual coupon rate, and a current market price of $1,088.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "5.80%",
+      "-8.09%",
+      "-2.76%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 5.8% = $58.00. Current yield = $58.00 ÷ $1,088.00 × 100 = 5.33%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 5.33,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-current-yield-20",
+    "kind": "calculation",
+    "term": "5.37%",
+    "definition": "A bond has $1,000.00 face value, a 5.9% annual coupon rate, and a current market price of $1,099.00 excluding accrued interest. What is its current yield, defined as annual coupon dollars divided by market price? Round to 2 decimal places.",
+    "distractors": [
+      "5.90%",
+      "-9.01%",
+      "-3.64%"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 5.9% = $59.00. Current yield = $59.00 ÷ $1,099.00 × 100 = 5.37%. This is not yield to maturity.",
+    "numericAnswer": {
+      "value": 5.37,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-01",
+    "kind": "calculation",
+    "term": "$4,838.56",
+    "definition": "A bond holding with face value $5,000.00 is quoted at 96.50% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 22 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$4,825.00",
+      "$4,811.44",
+      "$5,050.00"
+    ],
+    "explanation": "Clean price = $5,000.00 × 96.50/100 = $4,825.00. Accrued interest = $5,000.00 × 4.5% × 22/365 = $13.56. Total = $4,825.00 + accrued interest = $4,838.56.",
+    "numericAnswer": {
+      "value": 4838.56,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-02",
+    "kind": "calculation",
+    "term": "$5,819.71",
+    "definition": "A bond holding with face value $6,000.00 is quoted at 96.65% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 28 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$5,799.00",
+      "$5,778.29",
+      "$6,069.00"
+    ],
+    "explanation": "Clean price = $6,000.00 × 96.65/100 = $5,799.00. Accrued interest = $6,000.00 × 4.5% × 28/365 = $20.71. Total = $5,799.00 + accrued interest = $5,819.71.",
+    "numericAnswer": {
+      "value": 5819.71,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-03",
+    "kind": "calculation",
+    "term": "$6,805.34",
+    "definition": "A bond holding with face value $7,000.00 is quoted at 96.80% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 34 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$6,776.00",
+      "$6,746.66",
+      "$7,091.00"
+    ],
+    "explanation": "Clean price = $7,000.00 × 96.80/100 = $6,776.00. Accrued interest = $7,000.00 × 4.5% × 34/365 = $29.34. Total = $6,776.00 + accrued interest = $6,805.34.",
+    "numericAnswer": {
+      "value": 6805.34,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-04",
+    "kind": "calculation",
+    "term": "$7,795.45",
+    "definition": "A bond holding with face value $8,000.00 is quoted at 96.95% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 40 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$7,756.00",
+      "$7,716.55",
+      "$8,116.00"
+    ],
+    "explanation": "Clean price = $8,000.00 × 96.95/100 = $7,756.00. Accrued interest = $8,000.00 × 4.5% × 40/365 = $39.45. Total = $7,756.00 + accrued interest = $7,795.45.",
+    "numericAnswer": {
+      "value": 7795.45,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-05",
+    "kind": "calculation",
+    "term": "$8,790.04",
+    "definition": "A bond holding with face value $9,000.00 is quoted at 97.10% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 46 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$8,739.00",
+      "$8,687.96",
+      "$9,144.00"
+    ],
+    "explanation": "Clean price = $9,000.00 × 97.10/100 = $8,739.00. Accrued interest = $9,000.00 × 4.5% × 46/365 = $51.04. Total = $8,739.00 + accrued interest = $8,790.04.",
+    "numericAnswer": {
+      "value": 8790.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-06",
+    "kind": "calculation",
+    "term": "$9,789.11",
+    "definition": "A bond holding with face value $10,000.00 is quoted at 97.25% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 52 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$9,725.00",
+      "$9,660.89",
+      "$10,175.00"
+    ],
+    "explanation": "Clean price = $10,000.00 × 97.25/100 = $9,725.00. Accrued interest = $10,000.00 × 4.5% × 52/365 = $64.11. Total = $9,725.00 + accrued interest = $9,789.11.",
+    "numericAnswer": {
+      "value": 9789.11,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-07",
+    "kind": "calculation",
+    "term": "$10,792.66",
+    "definition": "A bond holding with face value $11,000.00 is quoted at 97.40% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 58 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$10,714.00",
+      "$10,635.34",
+      "$11,209.00"
+    ],
+    "explanation": "Clean price = $11,000.00 × 97.40/100 = $10,714.00. Accrued interest = $11,000.00 × 4.5% × 58/365 = $78.66. Total = $10,714.00 + accrued interest = $10,792.66.",
+    "numericAnswer": {
+      "value": 10792.66,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-08",
+    "kind": "calculation",
+    "term": "$11,800.68",
+    "definition": "A bond holding with face value $12,000.00 is quoted at 97.55% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 64 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$11,706.00",
+      "$11,611.32",
+      "$12,246.00"
+    ],
+    "explanation": "Clean price = $12,000.00 × 97.55/100 = $11,706.00. Accrued interest = $12,000.00 × 4.5% × 64/365 = $94.68. Total = $11,706.00 + accrued interest = $11,800.68.",
+    "numericAnswer": {
+      "value": 11800.68,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-09",
+    "kind": "calculation",
+    "term": "$12,813.19",
+    "definition": "A bond holding with face value $13,000.00 is quoted at 97.70% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 70 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$12,701.00",
+      "$12,588.81",
+      "$13,286.00"
+    ],
+    "explanation": "Clean price = $13,000.00 × 97.70/100 = $12,701.00. Accrued interest = $13,000.00 × 4.5% × 70/365 = $112.19. Total = $12,701.00 + accrued interest = $12,813.19.",
+    "numericAnswer": {
+      "value": 12813.19,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-10",
+    "kind": "calculation",
+    "term": "$13,830.18",
+    "definition": "A bond holding with face value $14,000.00 is quoted at 97.85% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 76 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$13,699.00",
+      "$13,567.82",
+      "$14,329.00"
+    ],
+    "explanation": "Clean price = $14,000.00 × 97.85/100 = $13,699.00. Accrued interest = $14,000.00 × 4.5% × 76/365 = $131.18. Total = $13,699.00 + accrued interest = $13,830.18.",
+    "numericAnswer": {
+      "value": 13830.18,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-11",
+    "kind": "calculation",
+    "term": "$14,851.64",
+    "definition": "A bond holding with face value $15,000.00 is quoted at 98.00% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 82 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$14,700.00",
+      "$14,548.36",
+      "$15,375.00"
+    ],
+    "explanation": "Clean price = $15,000.00 × 98.00/100 = $14,700.00. Accrued interest = $15,000.00 × 4.5% × 82/365 = $151.64. Total = $14,700.00 + accrued interest = $14,851.64.",
+    "numericAnswer": {
+      "value": 14851.64,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-12",
+    "kind": "calculation",
+    "term": "$15,877.59",
+    "definition": "A bond holding with face value $16,000.00 is quoted at 98.15% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 88 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$15,704.00",
+      "$15,530.41",
+      "$16,424.00"
+    ],
+    "explanation": "Clean price = $16,000.00 × 98.15/100 = $15,704.00. Accrued interest = $16,000.00 × 4.5% × 88/365 = $173.59. Total = $15,704.00 + accrued interest = $15,877.59.",
+    "numericAnswer": {
+      "value": 15877.59,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-13",
+    "kind": "calculation",
+    "term": "$16,908.01",
+    "definition": "A bond holding with face value $17,000.00 is quoted at 98.30% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 94 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$16,711.00",
+      "$16,513.99",
+      "$17,476.00"
+    ],
+    "explanation": "Clean price = $17,000.00 × 98.30/100 = $16,711.00. Accrued interest = $17,000.00 × 4.5% × 94/365 = $197.01. Total = $16,711.00 + accrued interest = $16,908.01.",
+    "numericAnswer": {
+      "value": 16908.01,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-14",
+    "kind": "calculation",
+    "term": "$17,942.92",
+    "definition": "A bond holding with face value $18,000.00 is quoted at 98.45% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 100 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$17,721.00",
+      "$17,499.08",
+      "$18,531.00"
+    ],
+    "explanation": "Clean price = $18,000.00 × 98.45/100 = $17,721.00. Accrued interest = $18,000.00 × 4.5% × 100/365 = $221.92. Total = $17,721.00 + accrued interest = $17,942.92.",
+    "numericAnswer": {
+      "value": 17942.92,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-15",
+    "kind": "calculation",
+    "term": "$18,982.30",
+    "definition": "A bond holding with face value $19,000.00 is quoted at 98.60% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 106 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$18,734.00",
+      "$18,485.70",
+      "$19,589.00"
+    ],
+    "explanation": "Clean price = $19,000.00 × 98.60/100 = $18,734.00. Accrued interest = $19,000.00 × 4.5% × 106/365 = $248.30. Total = $18,734.00 + accrued interest = $18,982.30.",
+    "numericAnswer": {
+      "value": 18982.3,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-16",
+    "kind": "calculation",
+    "term": "$20,026.16",
+    "definition": "A bond holding with face value $20,000.00 is quoted at 98.75% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 112 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$19,750.00",
+      "$19,473.84",
+      "$20,650.00"
+    ],
+    "explanation": "Clean price = $20,000.00 × 98.75/100 = $19,750.00. Accrued interest = $20,000.00 × 4.5% × 112/365 = $276.16. Total = $19,750.00 + accrued interest = $20,026.16.",
+    "numericAnswer": {
+      "value": 20026.16,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-17",
+    "kind": "calculation",
+    "term": "$21,074.51",
+    "definition": "A bond holding with face value $21,000.00 is quoted at 98.90% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 118 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$20,769.00",
+      "$20,463.49",
+      "$21,714.00"
+    ],
+    "explanation": "Clean price = $21,000.00 × 98.90/100 = $20,769.00. Accrued interest = $21,000.00 × 4.5% × 118/365 = $305.51. Total = $20,769.00 + accrued interest = $21,074.51.",
+    "numericAnswer": {
+      "value": 21074.51,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-18",
+    "kind": "calculation",
+    "term": "$22,127.33",
+    "definition": "A bond holding with face value $22,000.00 is quoted at 99.05% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 124 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$21,791.00",
+      "$21,454.67",
+      "$22,781.00"
+    ],
+    "explanation": "Clean price = $22,000.00 × 99.05/100 = $21,791.00. Accrued interest = $22,000.00 × 4.5% × 124/365 = $336.33. Total = $21,791.00 + accrued interest = $22,127.33.",
+    "numericAnswer": {
+      "value": 22127.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-19",
+    "kind": "calculation",
+    "term": "$23,184.63",
+    "definition": "A bond holding with face value $23,000.00 is quoted at 99.20% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 130 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$22,816.00",
+      "$22,447.37",
+      "$23,851.00"
+    ],
+    "explanation": "Clean price = $23,000.00 × 99.20/100 = $22,816.00. Accrued interest = $23,000.00 × 4.5% × 130/365 = $368.63. Total = $22,816.00 + accrued interest = $23,184.63.",
+    "numericAnswer": {
+      "value": 23184.63,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-clean-price-accrued-total-20",
+    "kind": "calculation",
+    "term": "$24,246.41",
+    "definition": "A bond holding with face value $24,000.00 is quoted at 99.35% of face value, excluding accrued interest. Its annual coupon rate is 4.5%, and 136 accrual days have passed since the last coupon. For this problem use annual coupon × actual days/365. With no fees, what total does the buyer pay including accrued interest? Round to the nearest cent.",
+    "distractors": [
+      "$23,844.00",
+      "$23,441.59",
+      "$24,924.00"
+    ],
+    "explanation": "Clean price = $24,000.00 × 99.35/100 = $23,844.00. Accrued interest = $24,000.00 × 4.5% × 136/365 = $402.41. Total = $23,844.00 + accrued interest = $24,246.41.",
+    "numericAnswer": {
+      "value": 24246.41,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-01",
+    "kind": "calculation",
+    "term": "$3,045.00",
+    "definition": "An investor bought a bond holding for $2,910.00. Its face value is $3,000.00 and annual coupon is 3.0%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$3,000.00",
+      "$2,955.00",
+      "$3,090.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $3,000.00 + ($3,000.00 × 3.0% ÷ 2) = $3,045.00.",
+    "numericAnswer": {
+      "value": 3045,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-02",
+    "kind": "calculation",
+    "term": "$4,062.00",
+    "definition": "An investor bought a bond holding for $3,880.00. Its face value is $4,000.00 and annual coupon is 3.1%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$4,000.00",
+      "$3,942.00",
+      "$4,124.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $4,000.00 + ($4,000.00 × 3.1% ÷ 2) = $4,062.00.",
+    "numericAnswer": {
+      "value": 4062,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-03",
+    "kind": "calculation",
+    "term": "$5,080.00",
+    "definition": "An investor bought a bond holding for $4,850.00. Its face value is $5,000.00 and annual coupon is 3.2%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$5,000.00",
+      "$4,930.00",
+      "$5,160.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $5,000.00 + ($5,000.00 × 3.2% ÷ 2) = $5,080.00.",
+    "numericAnswer": {
+      "value": 5080,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-04",
+    "kind": "calculation",
+    "term": "$6,099.00",
+    "definition": "An investor bought a bond holding for $5,820.00. Its face value is $6,000.00 and annual coupon is 3.3%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$6,000.00",
+      "$5,919.00",
+      "$6,198.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $6,000.00 + ($6,000.00 × 3.3% ÷ 2) = $6,099.00.",
+    "numericAnswer": {
+      "value": 6099,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-05",
+    "kind": "calculation",
+    "term": "$7,119.00",
+    "definition": "An investor bought a bond holding for $6,790.00. Its face value is $7,000.00 and annual coupon is 3.4%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$7,000.00",
+      "$6,909.00",
+      "$7,238.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $7,000.00 + ($7,000.00 × 3.4% ÷ 2) = $7,119.00.",
+    "numericAnswer": {
+      "value": 7119,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-06",
+    "kind": "calculation",
+    "term": "$8,140.00",
+    "definition": "An investor bought a bond holding for $7,760.00. Its face value is $8,000.00 and annual coupon is 3.5%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$8,000.00",
+      "$7,900.00",
+      "$8,280.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $8,000.00 + ($8,000.00 × 3.5% ÷ 2) = $8,140.00.",
+    "numericAnswer": {
+      "value": 8140,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-07",
+    "kind": "calculation",
+    "term": "$9,162.00",
+    "definition": "An investor bought a bond holding for $8,730.00. Its face value is $9,000.00 and annual coupon is 3.6%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$9,000.00",
+      "$8,892.00",
+      "$9,324.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $9,000.00 + ($9,000.00 × 3.6% ÷ 2) = $9,162.00.",
+    "numericAnswer": {
+      "value": 9162,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-08",
+    "kind": "calculation",
+    "term": "$10,185.00",
+    "definition": "An investor bought a bond holding for $9,700.00. Its face value is $10,000.00 and annual coupon is 3.7%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$10,000.00",
+      "$9,885.00",
+      "$10,370.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $10,000.00 + ($10,000.00 × 3.7% ÷ 2) = $10,185.00.",
+    "numericAnswer": {
+      "value": 10185,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-09",
+    "kind": "calculation",
+    "term": "$11,209.00",
+    "definition": "An investor bought a bond holding for $10,670.00. Its face value is $11,000.00 and annual coupon is 3.8%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$11,000.00",
+      "$10,879.00",
+      "$11,418.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $11,000.00 + ($11,000.00 × 3.8% ÷ 2) = $11,209.00.",
+    "numericAnswer": {
+      "value": 11209,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-10",
+    "kind": "calculation",
+    "term": "$12,234.00",
+    "definition": "An investor bought a bond holding for $11,640.00. Its face value is $12,000.00 and annual coupon is 3.9%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$12,000.00",
+      "$11,874.00",
+      "$12,468.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $12,000.00 + ($12,000.00 × 3.9% ÷ 2) = $12,234.00.",
+    "numericAnswer": {
+      "value": 12234,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-11",
+    "kind": "calculation",
+    "term": "$13,260.00",
+    "definition": "An investor bought a bond holding for $12,610.00. Its face value is $13,000.00 and annual coupon is 4.0%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$13,000.00",
+      "$12,870.00",
+      "$13,520.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $13,000.00 + ($13,000.00 × 4.0% ÷ 2) = $13,260.00.",
+    "numericAnswer": {
+      "value": 13260,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-12",
+    "kind": "calculation",
+    "term": "$14,287.00",
+    "definition": "An investor bought a bond holding for $13,580.00. Its face value is $14,000.00 and annual coupon is 4.1%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$14,000.00",
+      "$13,867.00",
+      "$14,574.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $14,000.00 + ($14,000.00 × 4.1% ÷ 2) = $14,287.00.",
+    "numericAnswer": {
+      "value": 14287,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-13",
+    "kind": "calculation",
+    "term": "$15,315.00",
+    "definition": "An investor bought a bond holding for $14,550.00. Its face value is $15,000.00 and annual coupon is 4.2%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$15,000.00",
+      "$14,865.00",
+      "$15,630.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $15,000.00 + ($15,000.00 × 4.2% ÷ 2) = $15,315.00.",
+    "numericAnswer": {
+      "value": 15315,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-14",
+    "kind": "calculation",
+    "term": "$16,344.00",
+    "definition": "An investor bought a bond holding for $15,520.00. Its face value is $16,000.00 and annual coupon is 4.3%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$16,000.00",
+      "$15,864.00",
+      "$16,688.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $16,000.00 + ($16,000.00 × 4.3% ÷ 2) = $16,344.00.",
+    "numericAnswer": {
+      "value": 16344,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-15",
+    "kind": "calculation",
+    "term": "$17,374.00",
+    "definition": "An investor bought a bond holding for $16,490.00. Its face value is $17,000.00 and annual coupon is 4.4%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$17,000.00",
+      "$16,864.00",
+      "$17,748.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $17,000.00 + ($17,000.00 × 4.4% ÷ 2) = $17,374.00.",
+    "numericAnswer": {
+      "value": 17374,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-16",
+    "kind": "calculation",
+    "term": "$18,405.00",
+    "definition": "An investor bought a bond holding for $17,460.00. Its face value is $18,000.00 and annual coupon is 4.5%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$18,000.00",
+      "$17,865.00",
+      "$18,810.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $18,000.00 + ($18,000.00 × 4.5% ÷ 2) = $18,405.00.",
+    "numericAnswer": {
+      "value": 18405,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-17",
+    "kind": "calculation",
+    "term": "$19,437.00",
+    "definition": "An investor bought a bond holding for $18,430.00. Its face value is $19,000.00 and annual coupon is 4.6%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$19,000.00",
+      "$18,867.00",
+      "$19,874.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $19,000.00 + ($19,000.00 × 4.6% ÷ 2) = $19,437.00.",
+    "numericAnswer": {
+      "value": 19437,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-18",
+    "kind": "calculation",
+    "term": "$20,470.00",
+    "definition": "An investor bought a bond holding for $19,400.00. Its face value is $20,000.00 and annual coupon is 4.7%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$20,000.00",
+      "$19,870.00",
+      "$20,940.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $20,000.00 + ($20,000.00 × 4.7% ÷ 2) = $20,470.00.",
+    "numericAnswer": {
+      "value": 20470,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-19",
+    "kind": "calculation",
+    "term": "$21,504.00",
+    "definition": "An investor bought a bond holding for $20,370.00. Its face value is $21,000.00 and annual coupon is 4.8%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$21,000.00",
+      "$20,874.00",
+      "$22,008.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $21,000.00 + ($21,000.00 × 4.8% ÷ 2) = $21,504.00.",
+    "numericAnswer": {
+      "value": 21504,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-maturity-final-cash-flow-20",
+    "kind": "calculation",
+    "term": "$22,539.00",
+    "definition": "An investor bought a bond holding for $21,340.00. Its face value is $22,000.00 and annual coupon is 4.9%, paid in two equal installments. On its scheduled maturity date, principal and the final semiannual coupon are due together. Assuming no default, fees, or taxes, how much cash is received on that date?",
+    "distractors": [
+      "$22,000.00",
+      "$21,879.00",
+      "$23,078.00"
+    ],
+    "explanation": "Maturity pays face value, regardless of the purchase price, plus the final coupon. Cash = $22,000.00 + ($22,000.00 × 4.9% ÷ 2) = $22,539.00.",
+    "numericAnswer": {
+      "value": 22539,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-01",
+    "kind": "calculation",
+    "term": "$901.94",
+    "definition": "A zero-coupon bond is assumed to pay $1,000.00 at maturity in exactly 3 years and nothing beforehand. Using a required annual effective yield of 3.5%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$904.98",
+      "$1,108.72",
+      "$895.00"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $1,000.00 ÷ (1 + 3.5/100)^3 = $901.94.",
+    "numericAnswer": {
+      "value": 901.94,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-02",
+    "kind": "calculation",
+    "term": "$1,085.10",
+    "definition": "A zero-coupon bond is assumed to pay $1,250.00 at maturity in exactly 4 years and nothing beforehand. Using a required annual effective yield of 3.6%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,092.66",
+      "$1,439.96",
+      "$1,070.00"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $1,250.00 ÷ (1 + 3.6/100)^4 = $1,085.10.",
+    "numericAnswer": {
+      "value": 1085.1,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-03",
+    "kind": "calculation",
+    "term": "$1,250.83",
+    "definition": "A zero-coupon bond is assumed to pay $1,500.00 at maturity in exactly 5 years and nothing beforehand. Using a required annual effective yield of 3.7%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,265.82",
+      "$1,798.81",
+      "$1,222.50"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $1,500.00 ÷ (1 + 3.7/100)^5 = $1,250.83.",
+    "numericAnswer": {
+      "value": 1250.83,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-04",
+    "kind": "calculation",
+    "term": "$1,399.12",
+    "definition": "A zero-coupon bond is assumed to pay $1,750.00 at maturity in exactly 6 years and nothing beforehand. Using a required annual effective yield of 3.8%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,425.08",
+      "$2,188.88",
+      "$1,351.00"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $1,750.00 ÷ (1 + 3.8/100)^6 = $1,399.12.",
+    "numericAnswer": {
+      "value": 1399.12,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-05",
+    "kind": "calculation",
+    "term": "$1,530.10",
+    "definition": "A zero-coupon bond is assumed to pay $2,000.00 at maturity in exactly 7 years and nothing beforehand. Using a required annual effective yield of 3.9%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,571.09",
+      "$2,614.20",
+      "$1,454.00"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $2,000.00 ÷ (1 + 3.9/100)^7 = $1,530.10.",
+    "numericAnswer": {
+      "value": 1530.1,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-06",
+    "kind": "calculation",
+    "term": "$1,644.05",
+    "definition": "A zero-coupon bond is assumed to pay $2,250.00 at maturity in exactly 8 years and nothing beforehand. Using a required annual effective yield of 4.0%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,704.55",
+      "$3,079.28",
+      "$1,530.00"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $2,250.00 ÷ (1 + 4.0/100)^8 = $1,644.05.",
+    "numericAnswer": {
+      "value": 1644.05,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-07",
+    "kind": "calculation",
+    "term": "$1,741.34",
+    "definition": "A zero-coupon bond is assumed to pay $2,500.00 at maturity in exactly 9 years and nothing beforehand. Using a required annual effective yield of 4.1%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,826.15",
+      "$3,589.19",
+      "$1,577.50"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $2,500.00 ÷ (1 + 4.1/100)^9 = $1,741.34.",
+    "numericAnswer": {
+      "value": 1741.34,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-08",
+    "kind": "calculation",
+    "term": "$2,430.69",
+    "definition": "A zero-coupon bond is assumed to pay $2,750.00 at maturity in exactly 3 years and nothing beforehand. Using a required annual effective yield of 4.2%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,442.27",
+      "$3,111.26",
+      "$2,403.50"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $2,750.00 ÷ (1 + 4.2/100)^3 = $2,430.69.",
+    "numericAnswer": {
+      "value": 2430.69,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-09",
+    "kind": "calculation",
+    "term": "$2,535.04",
+    "definition": "A zero-coupon bond is assumed to pay $3,000.00 at maturity in exactly 4 years and nothing beforehand. Using a required annual effective yield of 4.3%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,559.73",
+      "$3,550.25",
+      "$2,484.00"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $3,000.00 ÷ (1 + 4.3/100)^4 = $2,535.04.",
+    "numericAnswer": {
+      "value": 2535.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-10",
+    "kind": "calculation",
+    "term": "$2,620.48",
+    "definition": "A zero-coupon bond is assumed to pay $3,250.00 at maturity in exactly 5 years and nothing beforehand. Using a required annual effective yield of 4.4%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,663.93",
+      "$4,030.75",
+      "$2,535.00"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $3,250.00 ÷ (1 + 4.4/100)^5 = $2,620.48.",
+    "numericAnswer": {
+      "value": 2620.48,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-11",
+    "kind": "calculation",
+    "term": "$2,687.64",
+    "definition": "A zero-coupon bond is assumed to pay $3,500.00 at maturity in exactly 6 years and nothing beforehand. Using a required annual effective yield of 4.5%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,755.91",
+      "$4,557.91",
+      "$2,555.00"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $3,500.00 ÷ (1 + 4.5/100)^6 = $2,687.64.",
+    "numericAnswer": {
+      "value": 2687.64,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-12",
+    "kind": "calculation",
+    "term": "$2,737.22",
+    "definition": "A zero-coupon bond is assumed to pay $3,750.00 at maturity in exactly 7 years and nothing beforehand. Using a required annual effective yield of 4.6%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,836.61",
+      "$5,137.51",
+      "$2,542.50"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $3,750.00 ÷ (1 + 4.6/100)^7 = $2,737.22.",
+    "numericAnswer": {
+      "value": 2737.22,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-13",
+    "kind": "calculation",
+    "term": "$2,770.04",
+    "definition": "A zero-coupon bond is assumed to pay $4,000.00 at maturity in exactly 8 years and nothing beforehand. Using a required annual effective yield of 4.7%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,906.98",
+      "$5,776.08",
+      "$2,496.00"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $4,000.00 ÷ (1 + 4.7/100)^8 = $2,770.04.",
+    "numericAnswer": {
+      "value": 2770.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-14",
+    "kind": "calculation",
+    "term": "$2,787.00",
+    "definition": "A zero-coupon bond is assumed to pay $4,250.00 at maturity in exactly 9 years and nothing beforehand. Using a required annual effective yield of 4.8%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,967.88",
+      "$6,480.98",
+      "$2,414.00"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $4,250.00 ÷ (1 + 4.8/100)^9 = $2,787.00.",
+    "numericAnswer": {
+      "value": 2787,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-15",
+    "kind": "calculation",
+    "term": "$3,898.40",
+    "definition": "A zero-coupon bond is assumed to pay $4,500.00 at maturity in exactly 3 years and nothing beforehand. Using a required annual effective yield of 4.9%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$3,923.28",
+      "$5,194.44",
+      "$3,838.50"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $4,500.00 ÷ (1 + 4.9/100)^3 = $3,898.40.",
+    "numericAnswer": {
+      "value": 3898.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-16",
+    "kind": "calculation",
+    "term": "$3,907.84",
+    "definition": "A zero-coupon bond is assumed to pay $4,750.00 at maturity in exactly 4 years and nothing beforehand. Using a required annual effective yield of 5.0%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$3,958.33",
+      "$5,773.65",
+      "$3,800.00"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $4,750.00 ÷ (1 + 5.0/100)^4 = $3,907.84.",
+    "numericAnswer": {
+      "value": 3907.84,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-17",
+    "kind": "calculation",
+    "term": "$3,899.03",
+    "definition": "A zero-coupon bond is assumed to pay $5,000.00 at maturity in exactly 5 years and nothing beforehand. Using a required annual effective yield of 5.1%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$3,984.06",
+      "$6,411.85",
+      "$3,725.00"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $5,000.00 ÷ (1 + 5.1/100)^5 = $3,899.03.",
+    "numericAnswer": {
+      "value": 3899.03,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-18",
+    "kind": "calculation",
+    "term": "$3,873.15",
+    "definition": "A zero-coupon bond is assumed to pay $5,250.00 at maturity in exactly 6 years and nothing beforehand. Using a required annual effective yield of 5.2%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$4,001.52",
+      "$7,116.29",
+      "$3,612.00"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $5,250.00 ÷ (1 + 5.2/100)^6 = $3,873.15.",
+    "numericAnswer": {
+      "value": 3873.15,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-19",
+    "kind": "calculation",
+    "term": "$3,831.46",
+    "definition": "A zero-coupon bond is assumed to pay $5,500.00 at maturity in exactly 7 years and nothing beforehand. Using a required annual effective yield of 5.3%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$4,011.67",
+      "$7,895.17",
+      "$3,459.50"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $5,500.00 ÷ (1 + 5.3/100)^7 = $3,831.46.",
+    "numericAnswer": {
+      "value": 3831.46,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-zero-coupon-present-value-20",
+    "kind": "calculation",
+    "term": "$3,775.23",
+    "definition": "A zero-coupon bond is assumed to pay $5,750.00 at maturity in exactly 8 years and nothing beforehand. Using a required annual effective yield of 5.4%, annual compounding, and no fees or taxes, what is its present value? Round to the nearest cent.",
+    "distractors": [
+      "$4,015.36",
+      "$8,757.75",
+      "$3,266.00"
+    ],
+    "explanation": "Discount the sole maturity payment: present value = $5,750.00 ÷ (1 + 5.4/100)^8 = $3,775.23.",
+    "numericAnswer": {
+      "value": 3775.23,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-01",
+    "kind": "calculation",
+    "term": "$959.53",
+    "definition": "Immediately after a coupon date, a bond has 3 years remaining, $1,000.00 face value, and a 4.0% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 5.5%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,000.00",
+      "$1,120.00",
+      "$953.81"
+    ],
+    "explanation": "Annual coupon = $1,000.00 × 4.0% = $40.00. Price = $40.00 × [1 − (1 + 0.0550)^(−3)]/0.0550 + $1,000.00/(1 + 0.0550)^3 = $959.53.",
+    "numericAnswer": {
+      "value": 959.53,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-02",
+    "kind": "calculation",
+    "term": "$1,042.30",
+    "definition": "Immediately after a coupon date, a bond has 4 years remaining, $1,100.00 face value, and a 4.1% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 5.6%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,100.00",
+      "$1,280.40",
+      "$1,029.65"
+    ],
+    "explanation": "Annual coupon = $1,100.00 × 4.1% = $45.10. Price = $45.10 × [1 − (1 + 0.0560)^(−4)]/0.0560 + $1,100.00/(1 + 0.0560)^4 = $1,042.30.",
+    "numericAnswer": {
+      "value": 1042.3,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-03",
+    "kind": "calculation",
+    "term": "$1,123.55",
+    "definition": "Immediately after a coupon date, a bond has 5 years remaining, $1,200.00 face value, and a 4.2% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 5.7%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,200.00",
+      "$1,452.00",
+      "$1,100.50"
+    ],
+    "explanation": "Annual coupon = $1,200.00 × 4.2% = $50.40. Price = $50.40 × [1 − (1 + 0.0570)^(−5)]/0.0570 + $1,200.00/(1 + 0.0570)^5 = $1,123.55.",
+    "numericAnswer": {
+      "value": 1123.55,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-04",
+    "kind": "calculation",
+    "term": "$1,203.51",
+    "definition": "Immediately after a coupon date, a bond has 6 years remaining, $1,300.00 face value, and a 4.3% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 5.8%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,300.00",
+      "$1,635.40",
+      "$1,166.03"
+    ],
+    "explanation": "Annual coupon = $1,300.00 × 4.3% = $55.90. Price = $55.90 × [1 − (1 + 0.0580)^(−6)]/0.0580 + $1,300.00/(1 + 0.0580)^6 = $1,203.51.",
+    "numericAnswer": {
+      "value": 1203.51,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-05",
+    "kind": "calculation",
+    "term": "$1,282.35",
+    "definition": "Immediately after a coupon date, a bond has 7 years remaining, $1,400.00 face value, and a 4.4% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 5.9%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,400.00",
+      "$1,831.20",
+      "$1,225.93"
+    ],
+    "explanation": "Annual coupon = $1,400.00 × 4.4% = $61.60. Price = $61.60 × [1 − (1 + 0.0590)^(−7)]/0.0590 + $1,400.00/(1 + 0.0590)^7 = $1,282.35.",
+    "numericAnswer": {
+      "value": 1282.35,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-06",
+    "kind": "calculation",
+    "term": "$1,439.86",
+    "definition": "Immediately after a coupon date, a bond has 3 years remaining, $1,500.00 face value, and a 4.5% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 6.0%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,500.00",
+      "$1,702.50",
+      "$1,429.45"
+    ],
+    "explanation": "Annual coupon = $1,500.00 × 4.5% = $67.50. Price = $67.50 × [1 − (1 + 0.0600)^(−3)]/0.0600 + $1,500.00/(1 + 0.0600)^3 = $1,439.86.",
+    "numericAnswer": {
+      "value": 1439.86,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-07",
+    "kind": "calculation",
+    "term": "$1,517.03",
+    "definition": "Immediately after a coupon date, a bond has 4 years remaining, $1,600.00 face value, and a 4.6% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 6.1%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,600.00",
+      "$1,894.40",
+      "$1,494.89"
+    ],
+    "explanation": "Annual coupon = $1,600.00 × 4.6% = $73.60. Price = $73.60 × [1 − (1 + 0.0610)^(−4)]/0.0610 + $1,600.00/(1 + 0.0610)^4 = $1,517.03.",
+    "numericAnswer": {
+      "value": 1517.03,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-08",
+    "kind": "calculation",
+    "term": "$1,593.17",
+    "definition": "Immediately after a coupon date, a bond has 5 years remaining, $1,700.00 face value, and a 4.7% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 6.2%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,700.00",
+      "$2,099.50",
+      "$1,554.15"
+    ],
+    "explanation": "Annual coupon = $1,700.00 × 4.7% = $79.90. Price = $79.90 × [1 − (1 + 0.0620)^(−5)]/0.0620 + $1,700.00/(1 + 0.0620)^5 = $1,593.17.",
+    "numericAnswer": {
+      "value": 1593.17,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-09",
+    "kind": "calculation",
+    "term": "$1,668.47",
+    "definition": "Immediately after a coupon date, a bond has 6 years remaining, $1,800.00 face value, and a 4.8% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 6.3%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,800.00",
+      "$2,318.40",
+      "$1,606.90"
+    ],
+    "explanation": "Annual coupon = $1,800.00 × 4.8% = $86.40. Price = $86.40 × [1 − (1 + 0.0630)^(−6)]/0.0630 + $1,800.00/(1 + 0.0630)^6 = $1,668.47.",
+    "numericAnswer": {
+      "value": 1668.47,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-10",
+    "kind": "calculation",
+    "term": "$1,743.14",
+    "definition": "Immediately after a coupon date, a bond has 7 years remaining, $1,900.00 face value, and a 4.9% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 6.4%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$1,900.00",
+      "$2,551.70",
+      "$1,652.87"
+    ],
+    "explanation": "Annual coupon = $1,900.00 × 4.9% = $93.10. Price = $93.10 × [1 − (1 + 0.0640)^(−7)]/0.0640 + $1,900.00/(1 + 0.0640)^7 = $1,743.14.",
+    "numericAnswer": {
+      "value": 1743.14,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-11",
+    "kind": "calculation",
+    "term": "$1,920.55",
+    "definition": "Immediately after a coupon date, a bond has 3 years remaining, $2,000.00 face value, and a 5.0% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 6.5%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,000.00",
+      "$2,300.00",
+      "$1,904.05"
+    ],
+    "explanation": "Annual coupon = $2,000.00 × 5.0% = $100.00. Price = $100.00 × [1 − (1 + 0.0650)^(−3)]/0.0650 + $2,000.00/(1 + 0.0650)^3 = $1,920.55.",
+    "numericAnswer": {
+      "value": 1920.55,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-12",
+    "kind": "calculation",
+    "term": "$1,992.33",
+    "definition": "Immediately after a coupon date, a bond has 4 years remaining, $2,100.00 face value, and a 5.1% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 6.6%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,100.00",
+      "$2,528.40",
+      "$1,958.02"
+    ],
+    "explanation": "Annual coupon = $2,100.00 × 5.1% = $107.10. Price = $107.10 × [1 − (1 + 0.0660)^(−4)]/0.0660 + $2,100.00/(1 + 0.0660)^4 = $1,992.33.",
+    "numericAnswer": {
+      "value": 1992.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-13",
+    "kind": "calculation",
+    "term": "$2,063.60",
+    "definition": "Immediately after a coupon date, a bond has 5 years remaining, $2,200.00 face value, and a 5.2% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 6.7%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,200.00",
+      "$2,772.00",
+      "$2,004.34"
+    ],
+    "explanation": "Annual coupon = $2,200.00 × 5.2% = $114.40. Price = $114.40 × [1 − (1 + 0.0670)^(−5)]/0.0670 + $2,200.00/(1 + 0.0670)^5 = $2,063.60.",
+    "numericAnswer": {
+      "value": 2063.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-14",
+    "kind": "calculation",
+    "term": "$2,134.53",
+    "definition": "Immediately after a coupon date, a bond has 6 years remaining, $2,300.00 face value, and a 5.3% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 6.8%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,300.00",
+      "$3,031.40",
+      "$2,042.75"
+    ],
+    "explanation": "Annual coupon = $2,300.00 × 5.3% = $121.90. Price = $121.90 × [1 − (1 + 0.0680)^(−6)]/0.0680 + $2,300.00/(1 + 0.0680)^6 = $2,134.53.",
+    "numericAnswer": {
+      "value": 2134.53,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-15",
+    "kind": "calculation",
+    "term": "$2,205.31",
+    "definition": "Immediately after a coupon date, a bond has 7 years remaining, $2,400.00 face value, and a 5.4% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 6.9%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,400.00",
+      "$3,307.20",
+      "$2,073.08"
+    ],
+    "explanation": "Annual coupon = $2,400.00 × 5.4% = $129.60. Price = $129.60 × [1 − (1 + 0.0690)^(−7)]/0.0690 + $2,400.00/(1 + 0.0690)^7 = $2,205.31.",
+    "numericAnswer": {
+      "value": 2205.31,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-16",
+    "kind": "calculation",
+    "term": "$2,401.59",
+    "definition": "Immediately after a coupon date, a bond has 3 years remaining, $2,500.00 face value, and a 5.5% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 7.0%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,500.00",
+      "$2,912.50",
+      "$2,377.47"
+    ],
+    "explanation": "Annual coupon = $2,500.00 × 5.5% = $137.50. Price = $137.50 × [1 − (1 + 0.0700)^(−3)]/0.0700 + $2,500.00/(1 + 0.0700)^3 = $2,401.59.",
+    "numericAnswer": {
+      "value": 2401.59,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-17",
+    "kind": "calculation",
+    "term": "$2,468.20",
+    "definition": "Immediately after a coupon date, a bond has 4 years remaining, $2,600.00 face value, and a 5.6% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 7.1%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,600.00",
+      "$3,182.40",
+      "$2,418.78"
+    ],
+    "explanation": "Annual coupon = $2,600.00 × 5.6% = $145.60. Price = $145.60 × [1 − (1 + 0.0710)^(−4)]/0.0710 + $2,600.00/(1 + 0.0710)^4 = $2,468.20.",
+    "numericAnswer": {
+      "value": 2468.2,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-18",
+    "kind": "calculation",
+    "term": "$2,534.83",
+    "definition": "Immediately after a coupon date, a bond has 5 years remaining, $2,700.00 face value, and a 5.7% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 7.2%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,700.00",
+      "$3,469.50",
+      "$2,450.72"
+    ],
+    "explanation": "Annual coupon = $2,700.00 × 5.7% = $153.90. Price = $153.90 × [1 − (1 + 0.0720)^(−5)]/0.0720 + $2,700.00/(1 + 0.0720)^5 = $2,534.83.",
+    "numericAnswer": {
+      "value": 2534.83,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-19",
+    "kind": "calculation",
+    "term": "$2,601.65",
+    "definition": "Immediately after a coupon date, a bond has 6 years remaining, $2,800.00 face value, and a 5.8% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 7.3%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,800.00",
+      "$3,774.40",
+      "$2,473.15"
+    ],
+    "explanation": "Annual coupon = $2,800.00 × 5.8% = $162.40. Price = $162.40 × [1 − (1 + 0.0730)^(−6)]/0.0730 + $2,800.00/(1 + 0.0730)^6 = $2,601.65.",
+    "numericAnswer": {
+      "value": 2601.65,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-coupon-bond-discounted-price-20",
+    "kind": "calculation",
+    "term": "$2,668.80",
+    "definition": "Immediately after a coupon date, a bond has 7 years remaining, $2,900.00 face value, and a 5.9% annual coupon paid once each year. Assume every coupon and principal are paid on schedule. Discount all payments at an annual effective yield of 7.4%; ignore fees and tax. What is the bond's present value? Round to the nearest cent.",
+    "distractors": [
+      "$2,900.00",
+      "$4,097.70",
+      "$2,486.05"
+    ],
+    "explanation": "Annual coupon = $2,900.00 × 5.9% = $171.10. Price = $171.10 × [1 − (1 + 0.0740)^(−7)]/0.0740 + $2,900.00/(1 + 0.0740)^7 = $2,668.80.",
+    "numericAnswer": {
+      "value": 2668.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-01",
+    "kind": "calculation",
+    "term": "5.82%",
+    "definition": "A bond is bought for $950.00 clean price plus $12.00 accrued interest. During the holding period it pays $40.00 in coupons, then sells for $970.00 clean price plus $8.00 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "6.32%",
+      "5.89%",
+      "1.66%"
+    ],
+    "explanation": "Initial payment = $950.00 + $12.00 = $962.00. Cash received = $970.00 + $8.00 + $40.00 = $1,018.00. Return = ($1,018.00 − $962.00)/$962.00 × 100 = 5.82%.",
+    "numericAnswer": {
+      "value": 5.82,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-02",
+    "kind": "calculation",
+    "term": "5.93%",
+    "definition": "A bond is bought for $953.00 clean price plus $12.50 accrued interest. During the holding period it pays $41.00 in coupons, then sells for $973.50 clean price plus $8.30 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "6.45%",
+      "6.01%",
+      "1.69%"
+    ],
+    "explanation": "Initial payment = $953.00 + $12.50 = $965.50. Cash received = $973.50 + $8.30 + $41.00 = $1,022.80. Return = ($1,022.80 − $965.50)/$965.50 × 100 = 5.93%.",
+    "numericAnswer": {
+      "value": 5.93,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-03",
+    "kind": "calculation",
+    "term": "6.05%",
+    "definition": "A bond is bought for $956.00 clean price plus $13.00 accrued interest. During the holding period it pays $42.00 in coupons, then sells for $977.00 clean price plus $8.60 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "6.59%",
+      "6.13%",
+      "1.71%"
+    ],
+    "explanation": "Initial payment = $956.00 + $13.00 = $969.00. Cash received = $977.00 + $8.60 + $42.00 = $1,027.60. Return = ($1,027.60 − $969.00)/$969.00 × 100 = 6.05%.",
+    "numericAnswer": {
+      "value": 6.05,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-04",
+    "kind": "calculation",
+    "term": "6.16%",
+    "definition": "A bond is bought for $959.00 clean price plus $13.50 accrued interest. During the holding period it pays $43.00 in coupons, then sells for $980.50 clean price plus $8.90 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "6.73%",
+      "6.25%",
+      "1.74%"
+    ],
+    "explanation": "Initial payment = $959.00 + $13.50 = $972.50. Cash received = $980.50 + $8.90 + $43.00 = $1,032.40. Return = ($1,032.40 − $972.50)/$972.50 × 100 = 6.16%.",
+    "numericAnswer": {
+      "value": 6.16,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-05",
+    "kind": "calculation",
+    "term": "6.27%",
+    "definition": "A bond is bought for $962.00 clean price plus $14.00 accrued interest. During the holding period it pays $44.00 in coupons, then sells for $984.00 clean price plus $9.20 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "6.86%",
+      "6.36%",
+      "1.76%"
+    ],
+    "explanation": "Initial payment = $962.00 + $14.00 = $976.00. Cash received = $984.00 + $9.20 + $44.00 = $1,037.20. Return = ($1,037.20 − $976.00)/$976.00 × 100 = 6.27%.",
+    "numericAnswer": {
+      "value": 6.27,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-06",
+    "kind": "calculation",
+    "term": "6.38%",
+    "definition": "A bond is bought for $965.00 clean price plus $14.50 accrued interest. During the holding period it pays $45.00 in coupons, then sells for $987.50 clean price plus $9.50 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "6.99%",
+      "6.48%",
+      "1.79%"
+    ],
+    "explanation": "Initial payment = $965.00 + $14.50 = $979.50. Cash received = $987.50 + $9.50 + $45.00 = $1,042.00. Return = ($1,042.00 − $979.50)/$979.50 × 100 = 6.38%.",
+    "numericAnswer": {
+      "value": 6.38,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-07",
+    "kind": "calculation",
+    "term": "6.49%",
+    "definition": "A bond is bought for $968.00 clean price plus $15.00 accrued interest. During the holding period it pays $46.00 in coupons, then sells for $991.00 clean price plus $9.80 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "7.13%",
+      "6.59%",
+      "1.81%"
+    ],
+    "explanation": "Initial payment = $968.00 + $15.00 = $983.00. Cash received = $991.00 + $9.80 + $46.00 = $1,046.80. Return = ($1,046.80 − $983.00)/$983.00 × 100 = 6.49%.",
+    "numericAnswer": {
+      "value": 6.49,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-08",
+    "kind": "calculation",
+    "term": "6.60%",
+    "definition": "A bond is bought for $971.00 clean price plus $15.50 accrued interest. During the holding period it pays $47.00 in coupons, then sells for $994.50 clean price plus $10.10 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "7.26%",
+      "6.70%",
+      "1.83%"
+    ],
+    "explanation": "Initial payment = $971.00 + $15.50 = $986.50. Cash received = $994.50 + $10.10 + $47.00 = $1,051.60. Return = ($1,051.60 − $986.50)/$986.50 × 100 = 6.60%.",
+    "numericAnswer": {
+      "value": 6.6,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-09",
+    "kind": "calculation",
+    "term": "6.71%",
+    "definition": "A bond is bought for $974.00 clean price plus $16.00 accrued interest. During the holding period it pays $48.00 in coupons, then sells for $998.00 clean price plus $10.40 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "7.39%",
+      "6.82%",
+      "1.86%"
+    ],
+    "explanation": "Initial payment = $974.00 + $16.00 = $990.00. Cash received = $998.00 + $10.40 + $48.00 = $1,056.40. Return = ($1,056.40 − $990.00)/$990.00 × 100 = 6.71%.",
+    "numericAnswer": {
+      "value": 6.71,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-10",
+    "kind": "calculation",
+    "term": "6.81%",
+    "definition": "A bond is bought for $977.00 clean price plus $16.50 accrued interest. During the holding period it pays $49.00 in coupons, then sells for $1,001.50 clean price plus $10.70 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "7.52%",
+      "6.93%",
+      "1.88%"
+    ],
+    "explanation": "Initial payment = $977.00 + $16.50 = $993.50. Cash received = $1,001.50 + $10.70 + $49.00 = $1,061.20. Return = ($1,061.20 − $993.50)/$993.50 × 100 = 6.81%.",
+    "numericAnswer": {
+      "value": 6.81,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-11",
+    "kind": "calculation",
+    "term": "6.92%",
+    "definition": "A bond is bought for $980.00 clean price plus $17.00 accrued interest. During the holding period it pays $50.00 in coupons, then sells for $1,005.00 clean price plus $11.00 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "7.65%",
+      "7.04%",
+      "1.91%"
+    ],
+    "explanation": "Initial payment = $980.00 + $17.00 = $997.00. Cash received = $1,005.00 + $11.00 + $50.00 = $1,066.00. Return = ($1,066.00 − $997.00)/$997.00 × 100 = 6.92%.",
+    "numericAnswer": {
+      "value": 6.92,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-12",
+    "kind": "calculation",
+    "term": "7.03%",
+    "definition": "A bond is bought for $983.00 clean price plus $17.50 accrued interest. During the holding period it pays $51.00 in coupons, then sells for $1,008.50 clean price plus $11.30 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "7.78%",
+      "7.15%",
+      "1.93%"
+    ],
+    "explanation": "Initial payment = $983.00 + $17.50 = $1,000.50. Cash received = $1,008.50 + $11.30 + $51.00 = $1,070.80. Return = ($1,070.80 − $1,000.50)/$1,000.50 × 100 = 7.03%.",
+    "numericAnswer": {
+      "value": 7.03,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-13",
+    "kind": "calculation",
+    "term": "7.13%",
+    "definition": "A bond is bought for $986.00 clean price plus $18.00 accrued interest. During the holding period it pays $52.00 in coupons, then sells for $1,012.00 clean price plus $11.60 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "7.91%",
+      "7.26%",
+      "1.95%"
+    ],
+    "explanation": "Initial payment = $986.00 + $18.00 = $1,004.00. Cash received = $1,012.00 + $11.60 + $52.00 = $1,075.60. Return = ($1,075.60 − $1,004.00)/$1,004.00 × 100 = 7.13%.",
+    "numericAnswer": {
+      "value": 7.13,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-14",
+    "kind": "calculation",
+    "term": "7.24%",
+    "definition": "A bond is bought for $989.00 clean price plus $18.50 accrued interest. During the holding period it pays $53.00 in coupons, then sells for $1,015.50 clean price plus $11.90 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "8.04%",
+      "7.37%",
+      "1.98%"
+    ],
+    "explanation": "Initial payment = $989.00 + $18.50 = $1,007.50. Cash received = $1,015.50 + $11.90 + $53.00 = $1,080.40. Return = ($1,080.40 − $1,007.50)/$1,007.50 × 100 = 7.24%.",
+    "numericAnswer": {
+      "value": 7.24,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-15",
+    "kind": "calculation",
+    "term": "7.34%",
+    "definition": "A bond is bought for $992.00 clean price plus $19.00 accrued interest. During the holding period it pays $54.00 in coupons, then sells for $1,019.00 clean price plus $12.20 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "8.17%",
+      "7.48%",
+      "2.00%"
+    ],
+    "explanation": "Initial payment = $992.00 + $19.00 = $1,011.00. Cash received = $1,019.00 + $12.20 + $54.00 = $1,085.20. Return = ($1,085.20 − $1,011.00)/$1,011.00 × 100 = 7.34%.",
+    "numericAnswer": {
+      "value": 7.34,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-16",
+    "kind": "calculation",
+    "term": "7.44%",
+    "definition": "A bond is bought for $995.00 clean price plus $19.50 accrued interest. During the holding period it pays $55.00 in coupons, then sells for $1,022.50 clean price plus $12.50 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "8.29%",
+      "7.59%",
+      "2.02%"
+    ],
+    "explanation": "Initial payment = $995.00 + $19.50 = $1,014.50. Cash received = $1,022.50 + $12.50 + $55.00 = $1,090.00. Return = ($1,090.00 − $1,014.50)/$1,014.50 × 100 = 7.44%.",
+    "numericAnswer": {
+      "value": 7.44,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-17",
+    "kind": "calculation",
+    "term": "7.54%",
+    "definition": "A bond is bought for $998.00 clean price plus $20.00 accrued interest. During the holding period it pays $56.00 in coupons, then sells for $1,026.00 clean price plus $12.80 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "8.42%",
+      "7.70%",
+      "2.04%"
+    ],
+    "explanation": "Initial payment = $998.00 + $20.00 = $1,018.00. Cash received = $1,026.00 + $12.80 + $56.00 = $1,094.80. Return = ($1,094.80 − $1,018.00)/$1,018.00 × 100 = 7.54%.",
+    "numericAnswer": {
+      "value": 7.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-18",
+    "kind": "calculation",
+    "term": "7.65%",
+    "definition": "A bond is bought for $1,001.00 clean price plus $20.50 accrued interest. During the holding period it pays $57.00 in coupons, then sells for $1,029.50 clean price plus $13.10 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "8.54%",
+      "7.80%",
+      "2.07%"
+    ],
+    "explanation": "Initial payment = $1,001.00 + $20.50 = $1,021.50. Cash received = $1,029.50 + $13.10 + $57.00 = $1,099.60. Return = ($1,099.60 − $1,021.50)/$1,021.50 × 100 = 7.65%.",
+    "numericAnswer": {
+      "value": 7.65,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-19",
+    "kind": "calculation",
+    "term": "7.75%",
+    "definition": "A bond is bought for $1,004.00 clean price plus $21.00 accrued interest. During the holding period it pays $58.00 in coupons, then sells for $1,033.00 clean price plus $13.40 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "8.67%",
+      "7.91%",
+      "2.09%"
+    ],
+    "explanation": "Initial payment = $1,004.00 + $21.00 = $1,025.00. Cash received = $1,033.00 + $13.40 + $58.00 = $1,104.40. Return = ($1,104.40 − $1,025.00)/$1,025.00 × 100 = 7.75%.",
+    "numericAnswer": {
+      "value": 7.75,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-sale-return-accrual-20",
+    "kind": "calculation",
+    "term": "7.85%",
+    "definition": "A bond is bought for $1,007.00 clean price plus $21.50 accrued interest. During the holding period it pays $59.00 in coupons, then sells for $1,036.50 clean price plus $13.70 accrued interest. With no fees or taxes, what is the holding-period return on the total purchase payment? Round to 2 decimal places.",
+    "distractors": [
+      "8.79%",
+      "8.01%",
+      "2.11%"
+    ],
+    "explanation": "Initial payment = $1,007.00 + $21.50 = $1,028.50. Cash received = $1,036.50 + $13.70 + $59.00 = $1,109.20. Return = ($1,109.20 − $1,028.50)/$1,028.50 × 100 = 7.85%.",
+    "numericAnswer": {
+      "value": 7.85,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-01",
+    "kind": "calculation",
+    "term": "$4,360.00",
+    "definition": "A bond ladder holds $4,000.00 face value at a 3.0% annual coupon maturing at this year-end and $6,000.00 face value at 4.0% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$10,360.00",
+      "$360.00",
+      "$4,120.00"
+    ],
+    "explanation": "This year's cash includes maturing principal $4,000.00 plus coupons $4,000.00 × 3.0% and $6,000.00 × 4.0%. Total = $4,360.00; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 4360,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-02",
+    "kind": "calculation",
+    "term": "$4,916.25",
+    "definition": "A bond ladder holds $4,500.00 face value at a 3.1% annual coupon maturing at this year-end and $6,750.00 face value at 4.1% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$11,666.25",
+      "$416.25",
+      "$4,639.50"
+    ],
+    "explanation": "This year's cash includes maturing principal $4,500.00 plus coupons $4,500.00 × 3.1% and $6,750.00 × 4.1%. Total = $4,916.25; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 4916.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-03",
+    "kind": "calculation",
+    "term": "$5,475.00",
+    "definition": "A bond ladder holds $5,000.00 face value at a 3.2% annual coupon maturing at this year-end and $7,500.00 face value at 4.2% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$12,975.00",
+      "$475.00",
+      "$5,160.00"
+    ],
+    "explanation": "This year's cash includes maturing principal $5,000.00 plus coupons $5,000.00 × 3.2% and $7,500.00 × 4.2%. Total = $5,475.00; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 5475,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-04",
+    "kind": "calculation",
+    "term": "$6,036.25",
+    "definition": "A bond ladder holds $5,500.00 face value at a 3.3% annual coupon maturing at this year-end and $8,250.00 face value at 4.3% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$14,286.25",
+      "$536.25",
+      "$5,681.50"
+    ],
+    "explanation": "This year's cash includes maturing principal $5,500.00 plus coupons $5,500.00 × 3.3% and $8,250.00 × 4.3%. Total = $6,036.25; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 6036.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-05",
+    "kind": "calculation",
+    "term": "$6,600.00",
+    "definition": "A bond ladder holds $6,000.00 face value at a 3.4% annual coupon maturing at this year-end and $9,000.00 face value at 4.4% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$15,600.00",
+      "$600.00",
+      "$6,204.00"
+    ],
+    "explanation": "This year's cash includes maturing principal $6,000.00 plus coupons $6,000.00 × 3.4% and $9,000.00 × 4.4%. Total = $6,600.00; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 6600,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-06",
+    "kind": "calculation",
+    "term": "$7,166.25",
+    "definition": "A bond ladder holds $6,500.00 face value at a 3.5% annual coupon maturing at this year-end and $9,750.00 face value at 4.5% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$16,916.25",
+      "$666.25",
+      "$6,727.50"
+    ],
+    "explanation": "This year's cash includes maturing principal $6,500.00 plus coupons $6,500.00 × 3.5% and $9,750.00 × 4.5%. Total = $7,166.25; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 7166.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-07",
+    "kind": "calculation",
+    "term": "$7,735.00",
+    "definition": "A bond ladder holds $7,000.00 face value at a 3.6% annual coupon maturing at this year-end and $10,500.00 face value at 4.6% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$18,235.00",
+      "$735.00",
+      "$7,252.00"
+    ],
+    "explanation": "This year's cash includes maturing principal $7,000.00 plus coupons $7,000.00 × 3.6% and $10,500.00 × 4.6%. Total = $7,735.00; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 7735,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-08",
+    "kind": "calculation",
+    "term": "$8,227.50",
+    "definition": "A bond ladder holds $7,500.00 face value at a 3.7% annual coupon maturing at this year-end and $11,250.00 face value at 4.0% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$19,477.50",
+      "$727.50",
+      "$7,777.50"
+    ],
+    "explanation": "This year's cash includes maturing principal $7,500.00 plus coupons $7,500.00 × 3.7% and $11,250.00 × 4.0%. Total = $8,227.50; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 8227.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-09",
+    "kind": "calculation",
+    "term": "$8,796.00",
+    "definition": "A bond ladder holds $8,000.00 face value at a 3.8% annual coupon maturing at this year-end and $12,000.00 face value at 4.1% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$20,796.00",
+      "$796.00",
+      "$8,304.00"
+    ],
+    "explanation": "This year's cash includes maturing principal $8,000.00 plus coupons $8,000.00 × 3.8% and $12,000.00 × 4.1%. Total = $8,796.00; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 8796,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-10",
+    "kind": "calculation",
+    "term": "$9,367.00",
+    "definition": "A bond ladder holds $8,500.00 face value at a 3.9% annual coupon maturing at this year-end and $12,750.00 face value at 4.2% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$22,117.00",
+      "$867.00",
+      "$8,831.50"
+    ],
+    "explanation": "This year's cash includes maturing principal $8,500.00 plus coupons $8,500.00 × 3.9% and $12,750.00 × 4.2%. Total = $9,367.00; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 9367,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-11",
+    "kind": "calculation",
+    "term": "$9,940.50",
+    "definition": "A bond ladder holds $9,000.00 face value at a 4.0% annual coupon maturing at this year-end and $13,500.00 face value at 4.3% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$23,440.50",
+      "$940.50",
+      "$9,360.00"
+    ],
+    "explanation": "This year's cash includes maturing principal $9,000.00 plus coupons $9,000.00 × 4.0% and $13,500.00 × 4.3%. Total = $9,940.50; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 9940.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-12",
+    "kind": "calculation",
+    "term": "$10,516.50",
+    "definition": "A bond ladder holds $9,500.00 face value at a 4.1% annual coupon maturing at this year-end and $14,250.00 face value at 4.4% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$24,766.50",
+      "$1,016.50",
+      "$9,889.50"
+    ],
+    "explanation": "This year's cash includes maturing principal $9,500.00 plus coupons $9,500.00 × 4.1% and $14,250.00 × 4.4%. Total = $10,516.50; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 10516.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-13",
+    "kind": "calculation",
+    "term": "$11,095.00",
+    "definition": "A bond ladder holds $10,000.00 face value at a 4.2% annual coupon maturing at this year-end and $15,000.00 face value at 4.5% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$26,095.00",
+      "$1,095.00",
+      "$10,420.00"
+    ],
+    "explanation": "This year's cash includes maturing principal $10,000.00 plus coupons $10,000.00 × 4.2% and $15,000.00 × 4.5%. Total = $11,095.00; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 11095,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-14",
+    "kind": "calculation",
+    "term": "$11,676.00",
+    "definition": "A bond ladder holds $10,500.00 face value at a 4.3% annual coupon maturing at this year-end and $15,750.00 face value at 4.6% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$27,426.00",
+      "$1,176.00",
+      "$10,951.50"
+    ],
+    "explanation": "This year's cash includes maturing principal $10,500.00 plus coupons $10,500.00 × 4.3% and $15,750.00 × 4.6%. Total = $11,676.00; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 11676,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-15",
+    "kind": "calculation",
+    "term": "$12,144.00",
+    "definition": "A bond ladder holds $11,000.00 face value at a 4.4% annual coupon maturing at this year-end and $16,500.00 face value at 4.0% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$28,644.00",
+      "$1,144.00",
+      "$11,484.00"
+    ],
+    "explanation": "This year's cash includes maturing principal $11,000.00 plus coupons $11,000.00 × 4.4% and $16,500.00 × 4.0%. Total = $12,144.00; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 12144,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-16",
+    "kind": "calculation",
+    "term": "$12,724.75",
+    "definition": "A bond ladder holds $11,500.00 face value at a 4.5% annual coupon maturing at this year-end and $17,250.00 face value at 4.1% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$29,974.75",
+      "$1,224.75",
+      "$12,017.50"
+    ],
+    "explanation": "This year's cash includes maturing principal $11,500.00 plus coupons $11,500.00 × 4.5% and $17,250.00 × 4.1%. Total = $12,724.75; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 12724.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-17",
+    "kind": "calculation",
+    "term": "$13,308.00",
+    "definition": "A bond ladder holds $12,000.00 face value at a 4.6% annual coupon maturing at this year-end and $18,000.00 face value at 4.2% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$31,308.00",
+      "$1,308.00",
+      "$12,552.00"
+    ],
+    "explanation": "This year's cash includes maturing principal $12,000.00 plus coupons $12,000.00 × 4.6% and $18,000.00 × 4.2%. Total = $13,308.00; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 13308,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-18",
+    "kind": "calculation",
+    "term": "$13,893.75",
+    "definition": "A bond ladder holds $12,500.00 face value at a 4.7% annual coupon maturing at this year-end and $18,750.00 face value at 4.3% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$32,643.75",
+      "$1,393.75",
+      "$13,087.50"
+    ],
+    "explanation": "This year's cash includes maturing principal $12,500.00 plus coupons $12,500.00 × 4.7% and $18,750.00 × 4.3%. Total = $13,893.75; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 13893.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-19",
+    "kind": "calculation",
+    "term": "$14,482.00",
+    "definition": "A bond ladder holds $13,000.00 face value at a 4.8% annual coupon maturing at this year-end and $19,500.00 face value at 4.4% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$33,982.00",
+      "$1,482.00",
+      "$13,624.00"
+    ],
+    "explanation": "This year's cash includes maturing principal $13,000.00 plus coupons $13,000.00 × 4.8% and $19,500.00 × 4.4%. Total = $14,482.00; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 14482,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-bond-ladder-year-cash-flow-20",
+    "kind": "calculation",
+    "term": "$15,072.75",
+    "definition": "A bond ladder holds $13,500.00 face value at a 4.9% annual coupon maturing at this year-end and $20,250.00 face value at 4.5% maturing next year. Both pay one full annual coupon this year. Assume all scheduled payments occur, with no reinvestment, trades, fees, or taxes. How much cash does the ladder pay during this year?",
+    "distractors": [
+      "$35,322.75",
+      "$1,572.75",
+      "$14,161.50"
+    ],
+    "explanation": "This year's cash includes maturing principal $13,500.00 plus coupons $13,500.00 × 4.9% and $20,250.00 × 4.5%. Total = $15,072.75; the later bond's principal is not paid this year.",
+    "numericAnswer": {
+      "value": 15072.75,
+      "unit": "USD"
+    }
+  }
+]

@@ -1,0 +1,3872 @@
+{
+  "addedOn": "2026-10-27",
+  "description": "200 consumer finance guides, with original introductions and attributed public-domain U.S. government educational material.",
+  "articles": [
+    {
+      "id": "investment-fees-what-small-percentages-cost-over-time",
+      "title": "Investment Fees: What Small Percentages Cost Over Time",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated",
+          "title": "How Fees and Expenses Affect Your Investment Portfolio – Investor Bulletin",
+          "date": "July 23, 2025",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2193
+    },
+    {
+      "id": "mutual-fund-and-etf-fees-reading-the-full-price-tag",
+      "title": "Mutual Fund and ETF Fees: Reading the Full Price Tag",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/mutual-fund-and-etf-fees-and-expenses-investor-bulletin",
+          "title": "Mutual Fund and ETF Fees and Expenses – Investor Bulletin",
+          "date": "July 23, 2025",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2862
+    },
+    {
+      "id": "brokerage-account-fees-beyond-the-trading-commission",
+      "title": "Brokerage Account Fees Beyond the Trading Commission",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-82",
+          "title": "Investor Bulletin: Brokers' Miscellaneous Fees",
+          "date": "Dec. 15, 2014",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1051
+    },
+    {
+      "id": "wrap-fee-programs-what-the-bundle-really-covers",
+      "title": "Wrap Fee Programs: What the Bundle Really Covers",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-40",
+          "title": "Investor Bulletin: Investment Adviser Sponsored Wrap Fee Programs",
+          "date": "Dec. 7, 2017",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1445
+    },
+    {
+      "id": "subscription-fees-for-investment-advice",
+      "title": "Subscription Fees for Investment Advice",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/subscription-based-advisory-fees",
+          "title": "Subscription-based Advisory Fees: Investor Bulletin",
+          "date": "Sept. 6, 2023",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1555
+    },
+    {
+      "id": "cash-sweep-programs-where-your-uninvested-money-goes",
+      "title": "Cash Sweep Programs: Where Your Uninvested Money Goes",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/cash-sweep-programs-uninvested-cash-your-investment-accounts-investor-bulletin",
+          "title": "Cash Sweep Programs for Uninvested Cash in Your Investment Accounts – Investor Bulletin",
+          "date": "May 14, 2025",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1705
+    },
+    {
+      "id": "brokered-cds-deposit-insurance-liquidity-and-call-risk",
+      "title": "Brokered CDs: Deposit Insurance, Liquidity, and Call Risk",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/brokered-cds-investor-bulletin",
+          "title": "Brokered CDs: Investor Bulletin",
+          "date": "Nov. 30, 2023",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2271
+    },
+    {
+      "id": "stocks-ownership-returns-and-shareholder-rights",
+      "title": "Stocks: Ownership, Returns, and Shareholder Rights",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+          "title": "Stocks - FAQs",
+          "date": "",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1341
+    },
+    {
+      "id": "investment-asset-custody-who-holds-your-securities",
+      "title": "Investment Asset Custody: Who Holds Your Securities",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-73",
+          "title": "Investor Bulletin: Custody of Your Investment Assets",
+          "date": "March 4, 2013",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1316
+    },
+    {
+      "id": "opening-a-brokerage-account-choices-that-matter",
+      "title": "Opening a Brokerage Account: Choices That Matter",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-43",
+          "title": "Investor Bulletin: How to Open a Brokerage Account",
+          "date": "June 10, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2093
+    },
+    {
+      "id": "moving-investments-to-a-new-brokerage",
+      "title": "Moving Investments to a New Brokerage",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-79",
+          "title": "Investor Bulletin: Transferring Your Investment Account",
+          "date": "June 27, 2014",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2190
+    },
+    {
+      "id": "securing-your-online-investment-accounts",
+      "title": "Securing Your Online Investment Accounts",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-2",
+          "title": "Protecting Your Online Investment Accounts from Fraud – Investor Bulletin",
+          "date": "April 23, 2026",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2404
+    },
+    {
+      "id": "identity-theft-in-an-investment-account",
+      "title": "Identity Theft in an Investment Account",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-alert-identity-theft-data-breaches-and-your-investment-accounts",
+          "title": "Identity Theft, Data Breaches and Your Investment Accounts – Investor Alert",
+          "date": "April 23, 2026",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2163
+    },
+    {
+      "id": "phishing-smishing-and-vishing-protecting-financial-accounts",
+      "title": "Phishing, Smishing, and Vishing: Protecting Financial Accounts",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/dont-get-ished-tips-protect-your-investment-and-financial-accounts-phishing-smishing-and-vishing",
+          "title": "Don’t get “-ished” – Tips to Protect Your Investment and Financial Accounts from Phishing, Smishing, and Vishing Scams – Investor Alert",
+          "date": "April 23, 2026",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1562
+    },
+    {
+      "id": "fake-investment-professionals-and-cloned-firms",
+      "title": "Fake Investment Professionals and Cloned Firms",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/beware-fraudsters-impersonating-investment-professionals-and-firms-investor-alert",
+          "title": "Beware of Fraudsters Impersonating Investment Professionals and Firms – Investor Alert",
+          "date": "Dec. 11, 2024",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1266
+    },
+    {
+      "id": "robo-advisers-automation-fees-and-the-limits-of-a-questionnaire",
+      "title": "Robo-Advisers: Automation, Fees, and the Limits of a Questionnaire",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-45",
+          "title": "Investor Bulletin: Robo-Advisers",
+          "date": "Feb. 23, 2017",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2229
+    },
+    {
+      "id": "checking-an-investment-professionals-background",
+      "title": "Checking an Investment Professional's Background",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/how-use-investment-professional-search-tool-investorgov",
+          "title": "How to Use the Investment Professional Search Tool on Investor.gov",
+          "date": "Aug. 6, 2020",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1496
+    },
+    {
+      "id": "choosing-an-investment-professional",
+      "title": "Choosing an Investment Professional",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-0",
+          "title": "Investor Bulletin: How to Select an Investment Professional",
+          "date": "July 1, 2019",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1121
+    },
+    {
+      "id": "opening-an-investment-advisory-account",
+      "title": "Opening an Investment Advisory Account",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-44",
+          "title": "Investor Bulletin: Opening an Investment Advisory Account",
+          "date": "Jun. 24, 2020",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1355
+    },
+    {
+      "id": "form-crs-comparing-financial-firms-and-their-conflicts",
+      "title": "Form CRS: Comparing Financial Firms and Their Conflicts",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/relationship-summaries-form-crs-or-form-adv-part-3-investor-bulletin",
+          "title": "Relationship Summaries (Form CRS or Form ADV Part 3): Investor Bulletin",
+          "date": "Aug. 6, 2020",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1118
+    },
+    {
+      "id": "form-adv-reading-an-investment-advisers-brochure",
+      "title": "Form ADV: Reading an Investment Adviser's Brochure",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-71",
+          "title": "Investor Bulletin: Form ADV – Investment Adviser Brochure and Brochure Supplement",
+          "date": "August 27, 2020",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2111
+    },
+    {
+      "id": "investment-adviser-advertisements-reading-the-fine-print",
+      "title": "Investment Adviser Advertisements: Reading the Fine Print",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investment",
+          "title": "Investment Adviser Advertisements",
+          "date": "Nov. 8, 2022",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1034
+    },
+    {
+      "id": "investment-performance-claims-questions-behind-the-numbers",
+      "title": "Investment Performance Claims: Questions Behind the Numbers",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-47",
+          "title": "Investor Bulletin: Performance Claims",
+          "date": "Sept. 15, 2022",
+          "agency": "SEC"
+        }
+      ],
+      "words": 982
+    },
+    {
+      "id": "excessive-trading-when-your-brokers-activity-costs-you",
+      "title": "Excessive Trading: When Your Broker's Activity Costs You",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-42",
+          "title": "Investor Alert: Excessive Trading at Investors’ Expense",
+          "date": "Jan. 9, 2017",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1101
+    },
+    {
+      "id": "brokerage-arbitration-understanding-the-dispute-process",
+      "title": "Brokerage Arbitration: Understanding the Dispute Process",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/broker-dealercustomer-arbitration-investor-bulletin",
+          "title": "Broker-Dealer/Customer Arbitration: Investor Bulletin",
+          "date": "June 14, 2022",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2814
+    },
+    {
+      "id": "recovering-money-after-investment-fraud",
+      "title": "Recovering Money After Investment Fraud",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-bulletin-how-victims-securities-law-violations-may-recover-money-1",
+          "title": "Investor Bulletin: How Victims of Securities Law Violations May Recover Money",
+          "date": "Aug. 14, 2024",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1641
+    },
+    {
+      "id": "court-appointed-receivers-recovering-assets-after-fraud",
+      "title": "Court-Appointed Receivers: Recovering Assets After Fraud",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-87",
+          "title": "Investor Bulletin: 10 Things to Know About Receivers",
+          "date": "Aug. 27, 2015",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1088
+    },
+    {
+      "id": "lost-and-stolen-stock-certificates",
+      "title": "Lost and Stolen Stock Certificates",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-75",
+          "title": "Updated Investor Bulletin: Lost and Stolen Securities",
+          "date": "March 6, 2025",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1163
+    },
+    {
+      "id": "trade-confirmations-checking-what-your-broker-executed",
+      "title": "Trade Confirmations: Checking What Your Broker Executed",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-62",
+          "title": "Investor Bulletin: How to Read Confirmation Statements",
+          "date": "Sept. 27, 2012",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1531
+    },
+    {
+      "id": "reading-a-companys-10-k-and-10-q",
+      "title": "Reading a Company's 10-K and 10-Q",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/how-read",
+          "title": "How to Read a 10-K/10-Q",
+          "date": "Jan. 25, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2222
+    },
+    {
+      "id": "reading-an-8-k-material-changes-between-annual-reports",
+      "title": "Reading an 8-K: Material Changes Between Annual Reports",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/how-read-8",
+          "title": "How to Read an 8-K",
+          "date": "Jan. 26, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2643
+    },
+    {
+      "id": "reading-a-mutual-fund-or-etf-shareholder-report",
+      "title": "Reading a Mutual Fund or ETF Shareholder Report",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-investor-bulletin-how-read-mutual-fund-or-etf-shareholder-report",
+          "title": "Updated Investor Bulletin: How to Read a Mutual Fund or ETF Shareholder Report",
+          "date": "Jan. 19, 2024",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2552
+    },
+    {
+      "id": "fund-prospectuses-objectives-strategies-and-risks",
+      "title": "Fund Prospectuses: Objectives, Strategies, and Risks",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/how-read-2",
+          "title": "How to Read a Mutual Fund Prospectus (Part 1 of 3: Investment Objective, Strategies, and Risks)",
+          "date": "June 13, 2016",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1083
+    },
+    {
+      "id": "fund-prospectuses-fees-and-performance-tables",
+      "title": "Fund Prospectuses: Fees and Performance Tables",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/how-read-0",
+          "title": "How to Read a Mutual Fund Prospectus (Part 2 of 3: Fee Table and Performance)",
+          "date": "June 13, 2016",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1130
+    },
+    {
+      "id": "fund-prospectuses-management-and-shareholder-rules",
+      "title": "Fund Prospectuses: Management and Shareholder Rules",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/how-read-1",
+          "title": "How to Read a Mutual Fund Prospectus (Part 3 of 3: Management, Shareholder Information, and Statement of Additional Information)",
+          "date": "June 13, 2016",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1172
+    },
+    {
+      "id": "mutual-fund-share-classes-same-portfolio-different-costs",
+      "title": "Mutual Fund Share Classes: Same Portfolio, Different Costs",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-61",
+          "title": "Updated Investor Bulletin: Mutual Fund Classes",
+          "date": "February 24, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1954
+    },
+    {
+      "id": "index-funds-tracking-a-market-has-tradeoffs",
+      "title": "Index Funds: Tracking a Market Has Tradeoffs",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-26",
+          "title": "Investor Bulletin: Index Funds",
+          "date": "Aug. 6, 2018",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1037
+    },
+    {
+      "id": "smart-beta-and-quant-funds-looking-past-the-label",
+      "title": "Smart Beta and Quant Funds: Looking Past the Label",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-25",
+          "title": "Investor Bulletin: Smart Beta, Quant Funds and other Non- Traditional Index Funds",
+          "date": "Aug. 6, 2018",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1207
+    },
+    {
+      "id": "alternative-mutual-funds-complexity-fees-and-risk",
+      "title": "Alternative Mutual Funds: Complexity, Fees, and Risk",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-57",
+          "title": "Investor Bulletin: Alternative Mutual Funds",
+          "date": "Feb. 3, 2017",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1099
+    },
+    {
+      "id": "mutual-funds-and-etfs-comparing-how-they-work",
+      "title": "Mutual Funds and ETFs: Comparing How They Work",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/characteristics-mutual-funds-exchange-traded-funds",
+          "title": "Characteristics of Mutual Funds and Exchange-Traded Funds (ETFs) – Investor Bulletin",
+          "date": "April 29, 2025",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1755
+    },
+    {
+      "id": "etf-trading-prices-spreads-and-hidden-friction",
+      "title": "ETF Trading: Prices, Spreads, and Hidden Friction",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24",
+          "title": "Updated Investor Bulletin: Exchange-Traded Funds (ETFs)",
+          "date": "Feb. 23, 2023",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1993
+    },
+    {
+      "id": "when-a-mutual-fund-converts-to-an-etf",
+      "title": "When a Mutual Fund Converts to an ETF",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+          "title": "Investor Bulletin: Mutual Fund Conversion to Exchange-Traded Fund (ETF)",
+          "date": "April 2, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1486
+    },
+    {
+      "id": "fund-liquidation-what-happens-when-a-fund-closes",
+      "title": "Fund Liquidation: What Happens When a Fund Closes",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-96",
+          "title": "Investor Bulletin: Fund Liquidation",
+          "date": "Dec. 17, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1011
+    },
+    {
+      "id": "fund-distributions-income-is-not-always-investment-profit",
+      "title": "Fund Distributions: Income Is Not Always Investment Profit",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/fund-distributions-investor-bulletin",
+          "title": "Fund Distributions – Investor Bulletin",
+          "date": "Aug. 19, 2026",
+          "agency": "SEC"
+        }
+      ],
+      "words": 951
+    },
+    {
+      "id": "target-date-funds-checking-the-glide-path",
+      "title": "Target Date Funds: Checking the Glide Path",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/target-date-funds-investor-bulletin",
+          "title": "Target Date Funds – Investor Bulletin",
+          "date": "March 25, 2025",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1707
+    },
+    {
+      "id": "money-market-funds-cash-like-does-not-mean-insured",
+      "title": "Money Market Funds: Cash-Like Does Not Mean Insured",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-12",
+          "title": "Money Market Funds: Investor Bulletin",
+          "date": "Nov. 4, 2024",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1644
+    },
+    {
+      "id": "closed-end-funds-discounts-premiums-and-leverage",
+      "title": "Closed-End Funds: Discounts, Premiums, and Leverage",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-bulletin-publicly-traded-closed-end-funds",
+          "title": "Investor Bulletin: Publicly Traded Closed-End Funds",
+          "date": "Sept. 25, 2020",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1691
+    },
+    {
+      "id": "interval-funds-why-withdrawals-can-be-limited",
+      "title": "Interval Funds: Why Withdrawals Can Be Limited",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/closed-end-funds/interval-funds",
+          "title": "Interval Funds",
+          "date": "",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1297
+    },
+    {
+      "id": "public-business-development-companies-lending-risks-for-investors",
+      "title": "Public Business Development Companies: Lending Risks for Investors",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/publicly-traded-business-development-companies-bdcs-investor-bulletin",
+          "title": "Publicly Traded Business Development Companies (BDCs): Investor Bulletin",
+          "date": "Dec. 13, 2024",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2200
+    },
+    {
+      "id": "nontraded-business-development-companies-fees-and-exit-limits",
+      "title": "Nontraded Business Development Companies: Fees and Exit Limits",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-bulletin-non-publicly-traded-business-development-companies-bdcs",
+          "title": "Non-Publicly Traded Business Development Companies (BDCs): Investor Bulletin",
+          "date": "Dec. 13, 2024",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1616
+    },
+    {
+      "id": "nontraded-reits-income-promises-and-illiquid-shares",
+      "title": "Nontraded REITs: Income Promises and Illiquid Shares",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-89",
+          "title": "Investor Bulletin: Non-traded REITs",
+          "date": "Aug. 31, 2015",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1669
+    },
+    {
+      "id": "publicly-traded-reits-owning-real-estate-through-shares",
+      "title": "Publicly Traded REITs: Owning Real Estate Through Shares",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-65",
+          "title": "Investor Bulletin: Publicly Traded REITs",
+          "date": "Aug. 30, 2016",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1753
+    },
+    {
+      "id": "international-investing-currency-disclosure-and-market-risks",
+      "title": "International Investing: Currency, Disclosure, and Market Risks",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/international-investing",
+          "title": "International Investing",
+          "date": "Dec. 8, 2016",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2735
+    },
+    {
+      "id": "american-depositary-receipts-foreign-shares-in-a-u-s-account",
+      "title": "American Depositary Receipts: Foreign Shares in a U.S. Account",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-88",
+          "title": "Investor Bulletin: American Depositary Receipts",
+          "date": "Aug. 17, 2012",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1473
+    },
+    {
+      "id": "vie-structures-what-some-overseas-stock-listings-really-represent",
+      "title": "VIE Structures: What Some Overseas Stock Listings Really Represent",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-bulletin-us-listed-companies-operating-chinese-businesses-through-vie-structure",
+          "title": "Investor Bulletin: U.S.-Listed Companies Operating Chinese Businesses Through a VIE Structure",
+          "date": "Sept. 20, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2099
+    },
+    {
+      "id": "foreign-company-trading-prohibitions-what-investors-should-check",
+      "title": "Foreign-Company Trading Prohibitions: What Investors Should Check",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/trading-prohibitions-foreign-companies-under-hfcaa-updated-investor-bulletin",
+          "title": "Trading Prohibitions on Foreign Companies Under the HFCAA: Updated Investor Bulletin",
+          "date": "Jan. 9, 2023",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1156
+    },
+    {
+      "id": "corporate-bonds-lending-to-a-company",
+      "title": "Corporate Bonds: Lending to a Company",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are",
+          "title": "What Are Corporate Bonds?",
+          "date": "June 4, 2013",
+          "agency": "SEC"
+        }
+      ],
+      "words": 3089
+    },
+    {
+      "id": "high-yield-bonds-the-risk-behind-a-larger-coupon",
+      "title": "High-Yield Bonds: The Risk Behind a Larger Coupon",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are-0",
+          "title": "What Are High-yield Corporate Bonds?",
+          "date": "June 4, 2013",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1549
+    },
+    {
+      "id": "bond-prices-and-interest-rates-why-they-move-in-opposite-directions",
+      "title": "Bond Prices and Interest Rates: Why They Move in Opposite Directions",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-86",
+          "title": "Investor Bulletin: Fixed Income Investments — When Interest Rates Go Up, Prices of Fixed-Rate Bonds Fall",
+          "date": "June 26, 2013",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1460
+    },
+    {
+      "id": "credit-ratings-what-they-tell-you-and-what-they-miss",
+      "title": "Credit Ratings: What They Tell You and What They Miss",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-8",
+          "title": "Updated Investor Bulletin: The ABCs of Credit Ratings",
+          "date": "Oct. 12, 2017",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1824
+    },
+    {
+      "id": "municipal-bonds-a-consumers-starting-point",
+      "title": "Municipal Bonds: A Consumer's Starting Point",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-37",
+          "title": "Investor Bulletin: Municipal Bonds – An Overview",
+          "date": "April 28, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1500
+    },
+    {
+      "id": "municipal-bond-credit-risk-who-will-repay-you",
+      "title": "Municipal Bond Credit Risk: Who Will Repay You",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-66",
+          "title": "INVESTOR BULLETIN Municipal Bonds: Understanding Credit Risk",
+          "date": "April 28, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1538
+    },
+    {
+      "id": "buying-and-selling-municipal-bonds-understanding-the-market",
+      "title": "Buying and Selling Municipal Bonds: Understanding the Market",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-36",
+          "title": "Investor Bulletin: The Municipal Securities Market",
+          "date": "April 28, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1226
+    },
+    {
+      "id": "municipal-bonds-in-a-diversified-portfolio",
+      "title": "Municipal Bonds in a Diversified Portfolio",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-35",
+          "title": "Investor Bulletin: Municipal Bonds – Asset Allocation, Diversification, and Risk",
+          "date": "April 28, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1441
+    },
+    {
+      "id": "master-limited-partnerships-income-structure-and-tax-complexity",
+      "title": "Master Limited Partnerships: Income, Structure, and Tax Complexity",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-7",
+          "title": "Updated Investor Bulletin: Master Limited Partnerships – An Introduction",
+          "date": "Nov. 3, 2017",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1359
+    },
+    {
+      "id": "structured-notes-reading-the-payoff-formula",
+      "title": "Structured Notes: Reading the Payoff Formula",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-76",
+          "title": "Investor Bulletin: Structured Notes",
+          "date": "Jan. 12, 2015",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2066
+    },
+    {
+      "id": "exchange-traded-notes-why-they-differ-from-etfs",
+      "title": "Exchange-Traded Notes: Why They Differ from ETFs",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-50",
+          "title": "Investor Bulletin: Exchange Traded Notes (ETNs)",
+          "date": "Dec. 1, 2015",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1470
+    },
+    {
+      "id": "leveraged-and-inverse-etfs-the-daily-reset-problem",
+      "title": "Leveraged and Inverse ETFs: The Daily Reset Problem",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/sec",
+          "title": "Updated Investor Bulletin: Leveraged and Inverse ETFs",
+          "date": "Aug. 29, 2023",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2133
+    },
+    {
+      "id": "margin-accounts-borrowing-to-invest",
+      "title": "Margin Accounts: Borrowing to Invest",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29",
+          "title": "Investor Bulletin: Understanding Margin Accounts",
+          "date": "June 10, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2750
+    },
+    {
+      "id": "margin-interest-the-cost-of-borrowing-against-investments",
+      "title": "Margin Interest: The Cost of Borrowing Against Investments",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-bulletin-interested-margin-understand-interest",
+          "title": "Investor Bulletin: Interested in Margin? Understand Interest.",
+          "date": "April 7, 2022",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1145
+    },
+    {
+      "id": "cash-brokerage-accounts-settlement-and-payment-rules",
+      "title": "Cash Brokerage Accounts: Settlement and Payment Rules",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-9",
+          "title": "Trading in Cash Accounts – Investor Bulletin",
+          "date": "August 7, 2026",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1005
+    },
+    {
+      "id": "options-contracts-understanding-rights-obligations-and-losses",
+      "title": "Options Contracts: Understanding Rights, Obligations, and Losses",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63",
+          "title": "An Introduction to Options – Investor Bulletin",
+          "date": "July 16, 2026",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2275
+    },
+    {
+      "id": "market-and-limit-orders-controlling-how-a-trade-executes",
+      "title": "Market and Limit Orders: Controlling How a Trade Executes",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-14",
+          "title": "Understanding Order Types – Investor Bulletin",
+          "date": "August 18, 2026",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1081
+    },
+    {
+      "id": "stop-orders-why-a-trigger-price-is-not-a-guarantee",
+      "title": "Stop Orders: Why a Trigger Price Is Not a Guarantee",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-15",
+          "title": "Stop, Stop-Limit, and Trailing Stop Orders – Investor Bulletin",
+          "date": "August 18, 2026",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1240
+    },
+    {
+      "id": "extended-hours-trading-thin-markets-and-wider-spreads",
+      "title": "Extended-Hours Trading: Thin Markets and Wider Spreads",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-42",
+          "title": "Extended-Hours Trading: Investor Bulletin",
+          "date": "June 6, 2022",
+          "agency": "SEC"
+        }
+      ],
+      "words": 972
+    },
+    {
+      "id": "trading-suspensions-when-you-cannot-sell-a-stock",
+      "title": "Trading Suspensions: When You Cannot Sell a Stock",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-4",
+          "title": "Investor Bulletin: Trading Suspensions",
+          "date": "Dec. 14, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1813
+    },
+    {
+      "id": "public-company-bankruptcy-what-happens-to-shareholders",
+      "title": "Public-Company Bankruptcy: What Happens to Shareholders",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-84",
+          "title": "Investor Bulletin: Bankruptcy for a Public Company",
+          "date": "March 31, 2015",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1182
+    },
+    {
+      "id": "initial-public-offerings-looking-beyond-opening-day-hype",
+      "title": "Initial Public Offerings: Looking Beyond Opening-Day Hype",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-17",
+          "title": "Updated Investor Bulletin: Investing in an IPO",
+          "date": "Oct. 14, 2022",
+          "agency": "SEC"
+        }
+      ],
+      "words": 3789
+    },
+    {
+      "id": "spacs-redemption-rights-dilution-and-sponsor-incentives",
+      "title": "SPACs: Redemption Rights, Dilution, and Sponsor Incentives",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-you",
+          "title": "What You Need to Know About SPACs – Updated Investor Bulletin",
+          "date": "Aug. 21, 2024",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2810
+    },
+    {
+      "id": "investment-crowdfunding-limits-disclosure-and-illiquidity",
+      "title": "Investment Crowdfunding: Limits, Disclosure, and Illiquidity",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-11",
+          "title": "Updated Investor Bulletin: Regulation Crowdfunding for Investors",
+          "date": "Oct. 14, 2022",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2801
+    },
+    {
+      "id": "crowdfunding-safes-an-investment-that-is-not-yet-stock",
+      "title": "Crowdfunding SAFEs: An Investment That Is Not Yet Stock",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-52",
+          "title": "Investor Bulletin: Be Cautious of SAFEs in Crowdfunding",
+          "date": "May 9, 2017",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1459
+    },
+    {
+      "id": "private-placements-what-less-disclosure-means-for-you",
+      "title": "Private Placements: What Less Disclosure Means for You",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-31",
+          "title": "Private Placements under Regulation D – Updated Investor Bulletin",
+          "date": "September 21, 2026",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2682
+    },
+    {
+      "id": "regulation-a-offerings-understanding-a-smaller-public-offering",
+      "title": "Regulation A Offerings: Understanding a Smaller Public Offering",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-1",
+          "title": "Regulation A – Updated Investor Bulletin",
+          "date": "April 14, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1446
+    },
+    {
+      "id": "accredited-investor-status-eligibility-is-not-a-safety-rating",
+      "title": "Accredited Investor Status: Eligibility Is Not a Safety Rating",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-3",
+          "title": "Accredited Investors – Updated Investor Bulletin",
+          "date": "April 14, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1163
+    },
+    {
+      "id": "private-equity-funds-fees-conflicts-and-long-holding-periods",
+      "title": "Private Equity Funds: Fees, Conflicts, and Long Holding Periods",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/private-investment-funds/private-equity",
+          "title": "Private Equity Funds",
+          "date": "",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1033
+    },
+    {
+      "id": "indexed-annuities-caps-participation-rates-and-surrender-charges",
+      "title": "Indexed Annuities: Caps, Participation Rates, and Surrender Charges",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-investor-bulletin-indexed-annuities",
+          "title": "Updated Investor Bulletin: Indexed Annuities",
+          "date": "July 31, 2020",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1874
+    },
+    {
+      "id": "variable-annuities-insurance-costs-inside-an-investment",
+      "title": "Variable Annuities: Insurance Costs Inside an Investment",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/annuities/variable-annuities",
+          "title": "Variable Annuities",
+          "date": "",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2383
+    },
+    {
+      "id": "annuity-buyout-offers-what-you-give-up-for-cash",
+      "title": "Annuity Buyout Offers: What You Give Up for Cash",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-21",
+          "title": "Investor Bulletin: Annuities - Should You Accept a Buyout Offer?",
+          "date": "August 13, 2026",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1201
+    },
+    {
+      "id": "variable-life-insurance-premiums-investment-risk-and-lapse",
+      "title": "Variable Life Insurance: Premiums, Investment Risk, and Lapse",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/variable-life",
+          "title": "Variable Life Insurance",
+          "date": "",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2412
+    },
+    {
+      "id": "life-settlements-selling-a-life-insurance-policy",
+      "title": "Life Settlements: Selling a Life Insurance Policy",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/life",
+          "title": "Life Settlements",
+          "date": "Jan. 20, 2011",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1103
+    },
+    {
+      "id": "able-accounts-saving-for-disability-related-expenses",
+      "title": "ABLE Accounts: Saving for Disability-Related Expenses",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-6",
+          "title": "An Introduction to ABLE Accounts – Investor Bulletin",
+          "date": "Jan. 14, 2026",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2265
+    },
+    {
+      "id": "529-plans-education-savings-and-their-tradeoffs",
+      "title": "529 Plans: Education Savings and Their Tradeoffs",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/introduction-529-plans-investor-bulletin",
+          "title": "An Introduction to 529 Plans - Investor Bulletin",
+          "date": "Jan. 28, 2026",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2216
+    },
+    {
+      "id": "health-savings-accounts-comparing-cash-and-investment-options",
+      "title": "Health Savings Accounts: Comparing Cash and Investment Options",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/health-savings-accounts-hsas-investor-bulletin",
+          "title": "Health Savings Accounts (HSAs) – Investor Bulletin",
+          "date": "Dec. 9, 2025",
+          "agency": "SEC"
+        },
+        {
+          "url": "https://www.irs.gov/newsroom/treasury-irs-provide-guidance-on-new-tax-benefits-for-health-savings-account-participants-under-the-one-big-beautiful-bill",
+          "title": "Treasury, IRS provide guidance on new tax benefits for health savings account participants",
+          "date": "December 9, 2025",
+          "agency": "Internal Revenue Service"
+        },
+        {
+          "url": "https://www.irs.gov/publications/p969",
+          "title": "Publication 969: Health Savings Accounts and Other Tax-Favored Health Plans",
+          "date": "2025 publication; reviewed October 27, 2026",
+          "agency": "Internal Revenue Service"
+        }
+      ],
+      "words": 1437
+    },
+    {
+      "id": "fractional-shares-small-purchases-different-trading-rules",
+      "title": "Fractional Shares: Small Purchases, Different Trading Rules",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/fractional-share-investing-buying-slice-instead-whole-share",
+          "title": "Fractional Share Investing – Buying a Slice Instead of the Whole Share",
+          "date": "Nov. 9, 2020",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1177
+    },
+    {
+      "id": "preparing-your-finances-for-diminished-capacity",
+      "title": "Preparing Your Finances for Diminished Capacity",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-83",
+          "title": "Investor Bulletin and Consumer Advisory: Planning for Diminished Capacity and Illness",
+          "date": "July 8, 2026",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2374
+    },
+    {
+      "id": "investing-after-military-service-protecting-retirement-savings",
+      "title": "Investing After Military Service: Protecting Retirement Savings",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-bulletin-investing-throughout-and-beyond-your-military-service",
+          "title": "Investor Bulletin: Investing Throughout and Beyond Your Military Service",
+          "date": "Jan. 15, 2021",
+          "agency": "SEC"
+        },
+        {
+          "url": "https://militarypay.defense.gov/BlendedRetirement/tsp/index/",
+          "title": "Blended Retirement System: Thrift Savings Plan",
+          "date": "Reviewed October 27, 2026",
+          "agency": "U.S. Department of Defense"
+        },
+        {
+          "url": "https://www.irs.gov/publications/p721",
+          "title": "Publication 721: Tax Guide to U.S. Civil Service Retirement Benefits",
+          "date": "2025 publication; reviewed October 27, 2026",
+          "agency": "Internal Revenue Service"
+        }
+      ],
+      "words": 1800
+    },
+    {
+      "id": "protecting-a-thrift-savings-plan-account-from-fraud",
+      "title": "Protecting a Thrift Savings Plan Account from Fraud",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/protect-your-tsp-account",
+          "title": "Protect Your Thrift Savings Plan (TSP) Account From Fraud -- Investor Alert",
+          "date": "Sept. 26, 2024",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1041
+    },
+    {
+      "id": "microcap-stocks-researching-companies-with-limited-information",
+      "title": "Microcap Stocks: Researching Companies with Limited Information",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-32",
+          "title": "Investor Bulletin: Microcap Stock Basics (Part 2 of 3: Research)",
+          "date": "Oct. 14, 2016",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1068
+    },
+    {
+      "id": "pre-ipo-scams-the-risk-of-promised-early-access",
+      "title": "Pre-IPO Scams: The Risk of Promised Early Access",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-48",
+          "title": "Pre-IPO Investment Scams – Investor Alert",
+          "date": "June 7, 2024",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1217
+    },
+    {
+      "id": "social-media-stock-tips-how-manipulation-reaches-your-feed",
+      "title": "Social Media Stock Tips: How Manipulation Reaches Your Feed",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/social-media-stock-scams",
+          "title": "Social Media and Stock Tip Scams – Investor Alert",
+          "date": "Feb. 6, 2026",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1273
+    },
+    {
+      "id": "investment-group-chats-fake-experts-and-manufactured-consensus",
+      "title": "Investment Group Chats: Fake Experts and Manufactured Consensus",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/gateway-to-investment-scams",
+          "title": "Group Chats as a Gateway to Investment Scams -- Investor Alert",
+          "date": "Dec. 22, 2025",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1217
+    },
+    {
+      "id": "binary-options-websites-recognizing-manipulated-trading-platforms",
+      "title": "Binary Options Websites: Recognizing Manipulated Trading Platforms",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-4",
+          "title": "Investor Alert: Binary Options Websites may be Used for Fraudulent Schemes",
+          "date": "Nov. 10, 2016",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1266
+    },
+    {
+      "id": "esg-funds-reading-beyond-the-sustainability-label",
+      "title": "ESG Funds: Reading Beyond the Sustainability Label",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-1",
+          "title": "Environmental, Social and Governance (ESG) Funds – Investor Bulletin",
+          "date": "Feb. 26, 2021",
+          "agency": "SEC"
+        }
+      ],
+      "words": 2109
+    },
+    {
+      "id": "affinity-fraud-scams-inside-communities-you-trust",
+      "title": "Affinity Fraud: Scams Inside Communities You Trust",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-60",
+          "title": "Investor Alert: Affinity Fraud",
+          "date": "June 18, 2014",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1715
+    },
+    {
+      "id": "advance-fee-investment-fraud-paying-to-unlock-money",
+      "title": "Advance-Fee Investment Fraud: Paying to Unlock Money",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/updated-2",
+          "title": "Updated Investor Alert: Be on the Lookout for Advance Fee Fraud",
+          "date": "Sept. 22, 2016",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1625
+    },
+    {
+      "id": "prime-bank-schemes-the-fiction-of-secret-trading-programs",
+      "title": "Prime Bank Schemes: The Fiction of Secret Trading Programs",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-57",
+          "title": "Investor Alert: “Prime Bank” Investments Are Scams",
+          "date": "Feb. 5, 2015",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1054
+    },
+    {
+      "id": "pyramid-schemes-disguised-as-multilevel-marketing",
+      "title": "Pyramid Schemes Disguised as Multilevel Marketing",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-30",
+          "title": "Investor Alert: Beware of Pyramid Schemes Posing as Multi-Level Marketing Programs",
+          "date": "Oct. 17, 2013",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1184
+    },
+    {
+      "id": "paid-to-click-schemes-when-online-tasks-become-an-investment-trap",
+      "title": "Paid-to-Click Schemes: When Online Tasks Become an Investment Trap",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-21",
+          "title": "Investor Alert: Beware of Paid-To-Click (PTC) Scams",
+          "date": "Nov. 7, 2017",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1057
+    },
+    {
+      "id": "trading-seminar-scams-the-cost-of-promised-expertise",
+      "title": "Trading Seminar Scams: The Cost of Promised Expertise",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-49",
+          "title": "Investor Alert: Investment Seminars – Trading Seminar Scams",
+          "date": "Oct. 25, 2011",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1051
+    },
+    {
+      "id": "investment-newsletters-research-advertising-or-fraud",
+      "title": "Investment Newsletters: Research, Advertising, or Fraud",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-38",
+          "title": "Investor Alert: Investment Newsletters Used as Tools for Fraud",
+          "date": "June 2, 2014",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1045
+    },
+    {
+      "id": "investment-radio-shows-checking-the-person-behind-the-microphone",
+      "title": "Investment Radio Shows: Checking the Person Behind the Microphone",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-43",
+          "title": "Investor Alert: Investment-Related Radio Programs Used to Defraud",
+          "date": "Sept. 23, 2015",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1586
+    },
+    {
+      "id": "fake-insider-filings-why-an-sec-filing-is-not-proof-of-a-deal",
+      "title": "Fake Insider Filings: Why an SEC Filing Is Not Proof of a Deal",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-5",
+          "title": "Investment Scams Involving Fake Form 4 Filings: Updated Investor Alert",
+          "date": "March 15, 2024",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1358
+    },
+    {
+      "id": "initial-exchange-offerings-checking-a-trading-platforms-promises",
+      "title": "Initial Exchange Offerings: Checking a Trading Platform's Promises",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/initial",
+          "title": "Initial Exchange Offerings (IEOs) – Investor Alert",
+          "date": "Jan. 14, 2020",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1218
+    },
+    {
+      "id": "unregistered-offerings-ten-warning-signs-of-investment-fraud",
+      "title": "Unregistered Offerings: Ten Warning Signs of Investment Fraud",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-36",
+          "title": "Investor Alert: 10 Red Flags That an Unregistered Offering May Be a Scam",
+          "date": "Aug. 4, 2014",
+          "agency": "SEC"
+        },
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-3",
+          "title": "Accredited Investors – Updated Investor Bulletin",
+          "date": "April 14, 2021",
+          "agency": "U.S. Securities and Exchange Commission"
+        }
+      ],
+      "words": 1665
+    },
+    {
+      "id": "invented-financial-credentials-how-to-verify-an-expert",
+      "title": "Invented Financial Credentials: How to Verify an Expert",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-55",
+          "title": "Investor Alert: Beware of False or Exaggerated Credentials",
+          "date": "June 3, 2015",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1229
+    },
+    {
+      "id": "false-claims-of-sec-registration",
+      "title": "False Claims of SEC Registration",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-40",
+          "title": "Investor Alert: Beware of False Claims of SEC Registration",
+          "date": "March 20, 2014",
+          "agency": "SEC"
+        }
+      ],
+      "words": 992
+    },
+    {
+      "id": "crypto-custody-who-controls-the-keys",
+      "title": "Crypto Custody: Who Controls the Keys",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/crypto-asset-custody-basics-retail-investors-investor-bulletin-0",
+          "title": "Crypto Asset Custody Basics for Retail Investors – Investor Bulletin",
+          "date": "Dec. 12, 2025",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1625
+    },
+    {
+      "id": "crypto-interest-accounts-yield-without-bank-deposit-protection",
+      "title": "Crypto Interest Accounts: Yield Without Bank-Deposit Protection",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-bulletin-crypto-asset-interest-bearing-accounts",
+          "title": "Investor Bulletin: Crypto Asset Interest-bearing Accounts",
+          "date": "Feb. 14, 2022",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1049
+    },
+    {
+      "id": "crypto-proof-of-reserves-why-it-is-not-a-financial-audit",
+      "title": "Crypto Proof of Reserves: Why It Is Not a Financial Audit",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investors",
+          "title": "Investors in the Crypto Asset Markets Should Exercise Caution With Alternatives to Financial Statement Audits: Investor Bulletin",
+          "date": "July 27, 2023",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1320
+    },
+    {
+      "id": "bitcoin-and-ether-exchange-traded-products-costs-and-exposure",
+      "title": "Bitcoin and Ether Exchange-Traded Products: Costs and Exposure",
+      "sources": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/ETPBulletinSeptember2024",
+          "title": "Exchange-Traded Products (ETPs) Providing Exposure to Bitcoin and Ether – Investor Bulletin",
+          "date": "Sept. 9, 2024",
+          "agency": "SEC"
+        }
+      ],
+      "words": 1377
+    },
+    {
+      "id": "helping-adult-relatives-without-derailing-your-own-finances",
+      "title": "Helping Adult Relatives Without Derailing Your Own Finances",
+      "sources": [
+        {
+          "url": "https://www.fdic.gov/consumer-resource-center/2023-12/older-adults-helping-relatives-through-financial-support",
+          "title": "Older Adults Helping Relatives Through Financial Support",
+          "date": "2023-12",
+          "agency": "FDIC"
+        }
+      ],
+      "words": 1288
+    },
+    {
+      "id": "fake-banks-checking-whether-a-financial-institution-exists",
+      "title": "Fake Banks: Checking Whether a Financial Institution Exists",
+      "sources": [
+        {
+          "url": "https://www.fdic.gov/consumer-resource-center/2023-10/scammers-and-fake-banks",
+          "title": "Scammers and Fake Banks",
+          "date": "2023-10",
+          "agency": "FDIC"
+        }
+      ],
+      "words": 1038
+    },
+    {
+      "id": "a-first-credit-card-decisions-for-young-adults",
+      "title": "A First Credit Card: Decisions for Young Adults",
+      "sources": [
+        {
+          "url": "https://www.fdic.gov/consumer-resource-center/2023-08/credit-cards-young-adults",
+          "title": "Credit Cards for Young Adults",
+          "date": "2023-08",
+          "agency": "FDIC"
+        }
+      ],
+      "words": 1146
+    },
+    {
+      "id": "your-first-job-setting-up-pay-banking-and-a-spending-plan",
+      "title": "Your First Job: Setting Up Pay, Banking, and a Spending Plan",
+      "sources": [
+        {
+          "url": "https://www.fdic.gov/consumer-resource-center/2023-04/your-first-job",
+          "title": "Your First Job?",
+          "date": "2023-04",
+          "agency": "FDIC"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-can-i-do-if-my-bank-charged-me-a-fee-for-overdrawing-my-account-en-1037/",
+          "title": "What can I do if my bank charged me a fee for overdrawing my account?",
+          "date": "Reviewed October 27, 2026",
+          "agency": "Consumer Financial Protection Bureau"
+        }
+      ],
+      "words": 1113
+    },
+    {
+      "id": "military-relocation-managing-money-during-a-move",
+      "title": "Military Relocation: Managing Money During a Move",
+      "sources": [
+        {
+          "url": "https://www.fdic.gov/consumer-resource-center/2022-11/servicemembers-move",
+          "title": "Servicemembers on the Move",
+          "date": "2022-11",
+          "agency": "FDIC"
+        }
+      ],
+      "words": 1329
+    },
+    {
+      "id": "financial-privacy-notices-understanding-your-opt-out-choices",
+      "title": "Financial Privacy Notices: Understanding Your Opt-Out Choices",
+      "sources": [
+        {
+          "url": "https://www.fdic.gov/consumer-resource-center/2022-09/would-you-some-financial-privacy",
+          "title": "Would You Like Some Financial Privacy?",
+          "date": "2022-09",
+          "agency": "FDIC"
+        }
+      ],
+      "words": 1106
+    },
+    {
+      "id": "small-business-borrowing-preparing-before-you-apply",
+      "title": "Small-Business Borrowing: Preparing Before You Apply",
+      "sources": [
+        {
+          "url": "https://www.fdic.gov/consumer-resource-center/2022-05/your-small-business-deserves-big-support",
+          "title": "Your Small Business Deserves Big Support",
+          "date": "2022-05",
+          "agency": "FDIC"
+        }
+      ],
+      "words": 1107
+    },
+    {
+      "id": "business-bank-deposits-ownership-and-insurance-coverage",
+      "title": "Business Bank Deposits: Ownership and Insurance Coverage",
+      "sources": [
+        {
+          "url": "https://www.fdic.gov/consumer-resource-center/2024-05/your-business-your-deposits",
+          "title": "Your Business, Your Deposits",
+          "date": "2024-05",
+          "agency": "FDIC"
+        }
+      ],
+      "words": 1049
+    },
+    {
+      "id": "when-your-bank-branch-closes-or-relocates",
+      "title": "When Your Bank Branch Closes or Relocates",
+      "sources": [
+        {
+          "url": "https://www.fdic.gov/consumer-resource-center/2024-07/your-bank-branch-relocating-or-closing",
+          "title": "Is Your Bank Branch Relocating or Closing?",
+          "date": "2024-07",
+          "agency": "FDIC"
+        }
+      ],
+      "words": 1201
+    },
+    {
+      "id": "travel-money-planning-payments-before-you-leave",
+      "title": "Travel Money: Planning Payments Before You Leave",
+      "sources": [
+        {
+          "url": "https://www.fdic.gov/consumer-resource-center/2024-04/travel-tips-bon-voyage",
+          "title": "Travel Tips: Bon Voyage",
+          "date": "2024-04",
+          "agency": "FDIC"
+        }
+      ],
+      "words": 1629
+    },
+    {
+      "id": "switching-banks-without-losing-track-of-payments",
+      "title": "Switching Banks Without Losing Track of Payments",
+      "sources": [
+        {
+          "url": "https://www.fdic.gov/consumer-resource-center/2024-03/thinking-about-moving-another-bank",
+          "title": "Thinking About Moving to Another Bank?",
+          "date": "2024-03",
+          "agency": "FDIC"
+        }
+      ],
+      "words": 1040
+    },
+    {
+      "id": "banking-through-social-media-finding-the-real-support-team",
+      "title": "Banking Through Social Media: Finding the Real Support Team",
+      "sources": [
+        {
+          "url": "https://www.fdic.gov/consumer-resource-center/2024-10/your-bank-and-social-media",
+          "title": "Your Bank and Social Media",
+          "date": "2024-10",
+          "agency": "FDIC"
+        }
+      ],
+      "words": 1111
+    },
+    {
+      "id": "selling-structured-settlement-payments-what-a-lump-sum-costs",
+      "title": "Selling Structured Settlement Payments: What a Lump Sum Costs",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-know-before-giving-up-my-monthly-disability-personal-injury-or-structured-settlement-payments-in-exchange-for-a-one-time-lump-sum-payment-en-2025/",
+          "title": "What should I know before giving up my monthly disability, personal injury, or structured settlement payments in exchange for a one-time lump sum payment?",
+          "date": "2024-04-22",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1110
+    },
+    {
+      "id": "medical-credit-cards-moving-a-healthcare-bill-into-financing",
+      "title": "Medical Credit Cards: Moving a Healthcare Bill into Financing",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-know-about-medical-credit-cards-and-payment-plans-for-medical-bills-en-1827/",
+          "title": "What should I know about medical credit cards and payment plans for medical bills?",
+          "date": "2023-05-08",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 2088
+    },
+    {
+      "id": "disaster-scams-fraud-during-recovery-and-rebuilding",
+      "title": "Disaster Scams: Fraud During Recovery and Rebuilding",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-avoid-scams-and-fraud-after-a-disaster-en-1529/",
+          "title": "How do I avoid scams and fraud after a disaster?",
+          "date": "2025-09-05",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1347
+    },
+    {
+      "id": "protecting-your-finances-and-property-after-a-disaster",
+      "title": "Protecting Your Finances and Property After a Disaster",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-after-a-disaster-to-protect-my-finances-and-property-en-1513/",
+          "title": "What should I do after a disaster to protect my finances and property?",
+          "date": "2024-06-27",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1653
+    },
+    {
+      "id": "financial-disaster-preparation-documents-cash-and-contacts",
+      "title": "Financial Disaster Preparation: Documents, Cash, and Contacts",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/disasters-and-emergencies/get-prepared-before-disaster-emergency-strikes/",
+          "title": "Get prepared before a disaster or emergency strikes",
+          "date": "",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1266
+    },
+    {
+      "id": "credit-counseling-comparing-different-kinds-of-debt-help",
+      "title": "Credit Counseling: Comparing Different Kinds of Debt Help",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-credit-counseling-and-debt-settlement-debt-consolidation-or-credit-repair-en-1449/",
+          "title": "What is the difference between credit counseling and debt settlement, debt consolidation, or credit repair?",
+          "date": "2024-05-15",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1672
+    },
+    {
+      "id": "credit-discrimination-recognizing-and-documenting-unequal-treatment",
+      "title": "Credit Discrimination: Recognizing and Documenting Unequal Treatment",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-do-i-do-if-i-think-a-lender-discriminated-against-me-en-1171/",
+          "title": "What do I do if I think a lender discriminated against me?",
+          "date": "2023-10-12",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1194
+    },
+    {
+      "id": "student-loan-consolidation-and-refinancing-different-decisions",
+      "title": "Student Loan Consolidation and Refinancing: Different Decisions",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/should-i-consolidate-refinance-student-loans-en-561/",
+          "title": "Should I consolidate or refinance my student loans?",
+          "date": "2024-12-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://studentaid.gov/articles/faqs-idr-plan/",
+          "title": "Top FAQs About Income-Driven Repayment Plans",
+          "date": "Reviewed October 27, 2026",
+          "agency": "Federal Student Aid, U.S. Department of Education"
+        }
+      ],
+      "words": 1547
+    },
+    {
+      "id": "building-a-college-funding-plan-before-borrowing",
+      "title": "Building a College Funding Plan Before Borrowing",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-the-different-ways-to-pay-for-college-or-graduate-school-en-545/",
+          "title": "What are the different ways to pay for college or graduate school?",
+          "date": "2024-05-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://studentaid.gov/articles/faqs-idr-plan/",
+          "title": "Top FAQs About Income-Driven Repayment Plans",
+          "date": "Reviewed October 27, 2026",
+          "agency": "Federal Student Aid, U.S. Department of Education"
+        },
+        {
+          "url": "https://fsapartners.ed.gov/sites/default/files/2026-05/FrequentlyAskedQuestionsLoanLimits.pdf",
+          "title": "Frequently Asked Questions: Loan Limits",
+          "date": "May 20, 2026",
+          "agency": "Federal Student Aid, U.S. Department of Education"
+        }
+      ],
+      "words": 1186
+    },
+    {
+      "id": "social-security-claiming-age-understanding-the-tradeoffs",
+      "title": "Social Security Claiming Age: Understanding the Tradeoffs",
+      "sources": [
+        {
+          "url": "https://www.ssa.gov/benefits/retirement/planner/1960.html",
+          "title": "Retirement benefits for people born in 1960 or later",
+          "date": "",
+          "agency": "SSA"
+        },
+        {
+          "url": "https://www.ssa.gov/benefits/retirement/planner/delayret.html",
+          "title": "Delayed retirement credits",
+          "date": "",
+          "agency": "SSA"
+        },
+        {
+          "url": "https://www.ssa.gov/benefits/retirement/planner/whileworking.html",
+          "title": "Receiving benefits while working",
+          "date": "",
+          "agency": "SSA"
+        },
+        {
+          "url": "https://www.ssa.gov/survivor/amount",
+          "title": "What you could get from survivor benefits",
+          "date": "",
+          "agency": "SSA"
+        }
+      ],
+      "words": 1259
+    },
+    {
+      "id": "the-servicemembers-civil-relief-act-financial-protections-during-service",
+      "title": "The Servicemembers Civil Relief Act: Financial Protections During Service",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/military-financial-lifecycle/the-servicemembers-civil-relief-act-scra/",
+          "title": "Servicemembers Civil Relief Act (SCRA)",
+          "date": "",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1376
+    },
+    {
+      "id": "flood-and-disaster-risk-questions-before-buying-a-home",
+      "title": "Flood and Disaster Risk: Questions Before Buying a Home",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-questions-should-i-ask-about-flood-and-disaster-risk-when-buying-a-house-en-2147/",
+          "title": "What questions should I ask about flood and disaster risk when buying a house?",
+          "date": "2024-05-22",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1020
+    },
+    {
+      "id": "requesting-a-loan-estimate",
+      "title": "Requesting a Loan Estimate: What a Lender Needs from You",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-loan-estimate-en-1995/",
+          "title": "What is a Loan Estimate?",
+          "date": "2024-08-09",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-information-do-i-have-to-provide-a-lender-in-order-to-receive-a-loan-estimate-en-1987/",
+          "title": "What information do I have to provide a lender in order to receive a Loan Estimate?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/my-loan-officer-says-that-i-cant-apply-for-a-mortgage-loan-and-receive-a-loan-estimate-until-i-can-provide-a-copy-of-a-signed-purchase-contract-is-that-correct-en-1985/",
+          "title": "My loan officer says that I can't apply for a mortgage loan and receive a Loan Estimate until I can provide a copy of a signed purchase contract, is that correct?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-much-does-it-cost-to-receive-a-loan-estimate-en-2003/",
+          "title": "How much does it cost to receive a Loan Estimate?",
+          "date": "2024-08-09",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-a-lender-make-me-provide-documents-like-my-w-2-or-pay-stub-in-order-to-give-me-a-loan-estimate-en-147/",
+          "title": "Can a lender make me provide documents like my W-2 or pay stub in order to give me a Loan Estimate?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1719
+    },
+    {
+      "id": "mortgage-total-cost-disclosures",
+      "title": "Mortgage Cost Disclosures: Looking Beyond the Monthly Payment",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-total-interest-percentage-tip-on-a-mortgage-en-2001/",
+          "title": "What is the Total Interest Percentage (TIP) on a mortgage?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-does-total-of-payments-mean-when-getting-a-mortgage-en-1925/",
+          "title": "What does “total of payments” mean when getting a mortgage?",
+          "date": "2024-08-09",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-does-amount-financed-mean-when-getting-a-mortgage-loan-en-1923/",
+          "title": "What does “amount financed” mean when getting a mortgage loan?",
+          "date": "2024-08-09",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-finance-charge-on-a-mortgage-en-1921/",
+          "title": "What is the finance charge on a mortgage?",
+          "date": "2024-08-09",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-mortgage-lenders-calculate-monthly-payments-en-1965/",
+          "title": "How do mortgage lenders calculate monthly payments?",
+          "date": "2024-12-11",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1536
+    },
+    {
+      "id": "revised-mortgage-estimates",
+      "title": "Revised Mortgage Estimates: When the Price Changes Before Closing",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-received-a-revised-loan-estimate-from-my-lender-showing-a-higher-interest-rate-and-increased-closing-costs-what-does-this-mean-en-1991/",
+          "title": "I received a revised Loan Estimate from my lender showing a higher interest rate and increased closing costs. What does this mean?",
+          "date": "2024-08-09",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-my-final-mortgage-costs-increase-from-what-was-on-my-loan-estimate-en-172/",
+          "title": "Can my final mortgage costs increase from what was on my Loan Estimate?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/my-loan-officer-said-that-i-need-to-express-my-intent-to-proceed-in-order-for-my-mortgage-loan-application-to-move-forward-what-does-that-mean-en-1989/",
+          "title": "My loan officer said that I need to express my —Intent to Proceed— in order for my mortgage loan application to move forward. What does that mean?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1530
+    },
+    {
+      "id": "closing-disclosure-review-window",
+      "title": "The Closing Disclosure: Using Your Review Window",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-closing-disclosure-en-1983/",
+          "title": "What is a Closing Disclosure?",
+          "date": "2023-05-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-do-not-get-a-closing-disclosure-three-days-before-my-mortgage-closing-en-1911/",
+          "title": "What should I do if I do not get a Closing Disclosure three days before my mortgage closing?",
+          "date": "2024-08-09",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/when-do-i-get-a-closing-disclosure-en-179/",
+          "title": "When do I get a Closing Disclosure?",
+          "date": "2024-08-08",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-documents-should-i-receive-before-closing-on-a-mortgage-loan-en-181/",
+          "title": "What documents should I receive before closing on a mortgage loan?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1553
+    },
+    {
+      "id": "mortgage-terms-change-at-closing",
+      "title": "When Mortgage Terms Change at the Closing Table",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/my-rate-or-the-fees-changed-between-my-loan-estimate-and-my-closing-disclosure-what-do-i-do-en-184/",
+          "title": "What do I do if the rate or fees are different on my Closing Disclosure than they were on my Loan Estimate?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-do-i-do-if-the-terms-of-my-mortgage-loan-at-closing-are-not-what-i-was-promised-beforehand-en-183/",
+          "title": "What do I do if the terms of my mortgage loan at closing are not what I was promised beforehand?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/at-the-mortgage-loan-closing-do-i-have-to-sign-if-i-dont-like-the-terms-en-185/",
+          "title": "At the mortgage loan closing, do I have to sign if I don't like the terms?",
+          "date": "2025-01-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-find-an-error-in-one-of-my-mortgage-closing-documents-en-1917/",
+          "title": "What should I do if I find an error in one of my mortgage closing documents?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1786
+    },
+    {
+      "id": "mortgage-closing-process",
+      "title": "Mortgage Closing: The People, Paperwork, and Money",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/im-about-to-close-on-a-real-estate-purchase-transaction-with-a-mortgage-what-can-expect-in-the-mortgage-closing-process-en-1905/",
+          "title": "I'm about to close on a real estate purchase transaction with a mortgage. What can I expect in the mortgage closing process?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/who-should-i-expect-to-see-at-my-mortgage-closing-en-1903/",
+          "title": "Who should I expect to see at my mortgage closing?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-before-during-and-after-the-mortgage-closing-process-en-1907/",
+          "title": "What should I do before, during, and after the mortgage closing process?",
+          "date": "2024-06-27",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1847
+    },
+    {
+      "id": "mortgage-lenders-and-brokers",
+      "title": "Mortgage Lenders and Brokers: Comparing Offers and Incentives",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-find-the-best-loan-available-when-im-shopping-for-a-home-mortgage-loan-en-137/",
+          "title": "How do I find the best loan available when I'm shopping for a home mortgage loan?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-does-a-mortgage-loan-officer-or-broker-get-paid-en-132/",
+          "title": "How does a mortgage loan officer or broker get paid?",
+          "date": "2025-01-07",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-mortgage-lender-and-a-mortgage-broker-en-130/",
+          "title": "What is the difference between a mortgage lender and a mortgage broker?",
+          "date": "2024-12-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/is-there-any-way-i-can-check-to-see-if-the-company-or-person-i-contact-is-permitted-to-make-or-broker-mortgage-loans-en-133/",
+          "title": "Is there any way I can check to see if the company or person I contact is permitted to make or broker mortgage loans?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/is-there-any-way-i-can-see-if-there-have-been-disciplinary-actions-against-my-broker-en-134/",
+          "title": "Is there any way I can see if there have been disciplinary actions against my broker?",
+          "date": "2024-12-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-exactly-happens-when-a-mortgage-lender-checks-my-credit-en-2005/",
+          "title": "What happens when a mortgage lender checks my credit?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1579
+    },
+    {
+      "id": "mortgage-preapproval-and-application",
+      "title": "Mortgage Preapproval: What It Proves and What Comes Next",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/whats-the-difference-between-a-prequalification-letter-and-a-preapproval-letter-en-127/",
+          "title": "What’s the difference between a prequalification letter and a preapproval letter?",
+          "date": "2023-12-05",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-do-i-have-to-do-to-apply-for-a-mortgage-loan-en-144/",
+          "title": "What do I have to do to apply for a mortgage loan?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-applied-for-a-mortgage-loan-and-my-lender-denied-my-application-what-can-i-do-en-170/",
+          "title": "I applied for a mortgage loan and my lender denied my application. What can I do?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/",
+          "title": "What is a debt-to-income ratio?",
+          "date": "2023-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-ability-to-repay-rule-en-1787/",
+          "title": "What is the ability-to-repay rule?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1346
+    },
+    {
+      "id": "homeownership-affordability",
+      "title": "Homeownership Affordability: Costs Beyond Principal and Interest",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-can-i-figure-out-if-i-can-afford-to-buy-a-home-and-take-out-a-mortgage-en-118/",
+          "title": "How can I figure out if I can afford to buy a home and take out a mortgage?",
+          "date": "2024-06-27",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-some-of-the-financial-considerations-of-buying-a-home-en-119/",
+          "title": "What are some of the financial considerations of buying a home?",
+          "date": "2024-06-27",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/on-a-mortgage-whats-the-difference-between-my-principal-and-interest-payment-and-my-total-monthly-payment-en-1941/",
+          "title": "On a mortgage, what’s the difference between my principal and interest payment and my total monthly payment?",
+          "date": "2023-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/are-condoco-op-fees-or-homeowners-association-dues-included-in-my-monthly-mortgage-payment-en-1945/",
+          "title": "Are condo/co-op fees or homeowners' association dues included in my monthly mortgage payment?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1570
+    },
+    {
+      "id": "down-payments-and-piggyback-loans",
+      "title": "Down Payments and Piggyback Loans: Funding the Purchase Gap",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/where-can-i-get-money-for-a-down-payment-on-a-home-en-123/",
+          "title": "Where can I get money for a down payment on a home?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-kind-of-down-payment-do-i-need-how-does-the-amount-of-down-payment-i-make-affect-the-terms-of-my-mortgage-loan-en-120/",
+          "title": "What kind of down payment do I need? How does the amount of down payment I make affect the terms of my mortgage loan?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-loan-to-value-ratio-and-how-does-it-relate-to-my-costs-en-121/",
+          "title": "What is a loan-to-value ratio and how does it relate to my costs?",
+          "date": "2025-01-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-piggyback-second-mortgage-en-1955/",
+          "title": "What is a “piggyback” second mortgage?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1459
+    },
+    {
+      "id": "private-mortgage-insurance-removal",
+      "title": "Private Mortgage Insurance: What It Covers and When It Can End",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-private-mortgage-insurance-en-122/",
+          "title": "What is private mortgage insurance?",
+          "date": "2023-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/when-can-i-remove-private-mortgage-insurance-pmi-from-my-loan-en-202/",
+          "title": "When can I remove private mortgage insurance (PMI) from my loan?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-mortgage-insurance-and-how-does-it-work-en-1953/",
+          "title": "What is mortgage insurance and how does it work?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 2152
+    },
+    {
+      "id": "mortgage-escrow-account-problems",
+      "title": "Mortgage Escrow Accounts: Following the Tax and Insurance Money",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-an-escrow-or-impound-account-en-140/",
+          "title": "What is an escrow or impound account?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/is-there-a-limit-on-how-much-my-mortgage-lender-can-make-me-pay-each-month-for-insurance-and-taxes-the-escrow-en-200/",
+          "title": "Is there a limit on how much my mortgage lender can make me pay into an escrow account for interest and taxes?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-im-having-problems-with-my-escrow-or-impound-account-en-2082/",
+          "title": "What should I do if I’m having problems with my escrow or impound account?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-get-tax-bill-from-city-county-saying-mortgage-servicer-did-not-pay-my-taxes-en-218/",
+          "title": "What should I do if I get a tax bill from the city or county saying that my mortgage servicer did not pay my taxes?",
+          "date": "2024-09-05",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1745
+    },
+    {
+      "id": "adjustable-rate-mortgage-mechanics",
+      "title": "Adjustable-Rate Mortgages: Indexes, Margins, and Payment Changes",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-fixed-rate-and-adjustable-rate-mortgage-arm-loan-en-100/",
+          "title": "What is the difference between a fixed-rate and adjustable-rate mortgage (ARM) loan?",
+          "date": "2025-01-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/for-an-adjustable-rate-mortgage-arm-what-are-the-index-and-margin-and-how-do-they-work-en-1949/",
+          "title": "For an adjustable-rate mortgage (ARM), what are the index and margin, and how do they work?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-rate-caps-with-an-adjustable-rate-mortgage-arm-and-how-do-they-work-en-1951/",
+          "title": "What are rate caps with an adjustable-rate mortgage (ARM), and how do they work?",
+          "date": "2025-01-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/if-i-am-considering-an-adjustable-rate-mortgage-arm-what-should-i-look-out-for-in-the-fine-print-en-1947/",
+          "title": "If I am considering an adjustable-rate mortgage (ARM), what should I look out for in the fine print?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-received-notice-of-an-upcoming-rate-change-on-my-adjustable-rate-mortgage-arm-why-did-i-receive-this-and-what-should-i-do-now-en-1843/",
+          "title": "I received notice of an upcoming rate change on my adjustable-rate mortgage (ARM). Why did I receive this and what should I do now?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 2250
+    },
+    {
+      "id": "mortgage-payment-risk-features",
+      "title": "Mortgage Payment Features That Can Hide Future Risk",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-negative-amortization-en-103/",
+          "title": "What is negative amortization?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-an-option-or-payment-option-arm-en-102/",
+          "title": "What is an option or payment-option ARM?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-an-interest-only-loan-en-101/",
+          "title": "What is an \"interest-only\" loan?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-balloon-payment-when-is-one-allowed-en-104/",
+          "title": "What is a balloon payment? When is one allowed?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-demand-feature-what-does-it-mean-if-the-demand-feature-is-checked-off-on-my-closing-disclosure-en-1997/",
+          "title": "What is a demand feature? What does it mean if the demand feature is checked off on my Closing Disclosure?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1549
+    },
+    {
+      "id": "paying-off-a-mortgage-early",
+      "title": "Paying Off a Mortgage: Principal, Payoff Quotes, and Lien Releases",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-does-paying-down-a-mortgage-work-en-1943/",
+          "title": "How does paying down a mortgage work?",
+          "date": "2024-05-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-payoff-amount-and-is-it-the-same-as-my-current-balance-en-205/",
+          "title": "What is a payoff amount and is it the same as my current balance?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/after-i-have-paid-off-my-mortgage-how-do-i-check-if-my-lien-was-released-en-206/",
+          "title": "After I have paid off my mortgage, how do I check if my lien was released?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-prepayment-penalty-en-1957/",
+          "title": "What is a prepayment penalty?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-paid-off-my-mortgage-but-it-is-still-listed-on-my-credit-report-as-outstanding-what-can-i-do-en-222/",
+          "title": "I paid off my mortgage but it is still listed on my credit report as outstanding. What can I do?",
+          "date": "2020-09-01",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1187
+    },
+    {
+      "id": "comparing-mortgage-loan-programs",
+      "title": "Mortgage Loan Programs: Conventional, FHA, VA, and USDA",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-conventional-loan-en-117/",
+          "title": "What is a conventional loan?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-jumbo-loan-en-116/",
+          "title": "What is a jumbo loan?",
+          "date": "2024-01-12",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-conforming-loan-en-115/",
+          "title": "What is a conforming loan?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-can-i-find-the-loan-limit-for-a-conforming-loan-in-my-county-en-1961/",
+          "title": "How can I find the loan limit for a conforming loan in my county?",
+          "date": "2024-01-12",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-the-fha-loan-limits-for-my-county-en-1963/",
+          "title": "What are the FHA loan limits for my county?",
+          "date": "2025-01-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-an-fha-loan-en-112/",
+          "title": "What is an FHA loan?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-usda-rural-housing-service-loan-en-114/",
+          "title": "What is a USDA Rural Housing Service loan?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-va-loan-en-113/",
+          "title": "What is a VA loan?",
+          "date": "2023-08-28",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1637
+    },
+    {
+      "id": "home-equity-loans-and-credit-lines",
+      "title": "Home Equity Loans and HELOCs: Borrowing Against Your Home",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-home-equity-line-of-credit-heloc-en-107/",
+          "title": "What is a home equity line of credit (HELOC)?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-home-equity-loan-en-106/",
+          "title": "What is a home equity loan?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-home-equity-loan-and-a-home-equity-line-of-credit-heloc-en-247/",
+          "title": "What is the difference between a Home Equity Loan and a Home Equity Line of Credit (HELOC)?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-fees-can-my-lender-charge-if-i-take-out-a-heloc-en-249/",
+          "title": "What fees can my lender charge if I take out a HELOC?",
+          "date": "2024-06-27",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-wanted-to-take-out-a-home-equity-line-of-credit-but-my-lender-told-me-the-terms-have-changed-what-can-i-do-en-250/",
+          "title": "I wanted to take out a Home Equity Line of Credit but my lender told me the terms have changed. What can I do?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1675
+    },
+    {
+      "id": "mortgage-refinance-cancellation-rights",
+      "title": "Mortgage Refinancing: Understanding the Right of Rescission",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-i-change-my-mind-after-i-sign-the-loan-closing-documents-for-my-second-mortgage-or-refinance-what-is-the-right-of-rescission-en-186/",
+          "title": "Can I change my mind after I sign the loan closing documents for my second mortgage or refinance? What is the \"right of rescission?\"",
+          "date": "2024-08-08",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-long-do-i-have-to-rescind-when-does-the-right-of-rescission-start-en-187/",
+          "title": "How long do I have to rescind? When does the right of rescission start?",
+          "date": "2023-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-i-ever-waive-my-right-to-rescind-on-my-mortgage-loan-en-188/",
+          "title": "Can I ever waive my right to rescind on my mortgage loan?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/my-lender-or-broker-never-provided-me-with-the-notice-of-a-right-to-rescind-for-a-mortgage-loan-what-can-i-do-en-189/",
+          "title": "My lender or broker never provided me with the notice of a right to rescind for a mortgage loan. What can I do?",
+          "date": "2024-08-08",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/are-there-situations-where-i-would-not-have-a-right-of-rescission-en-190/",
+          "title": "Are there situations where I would not have a right of rescission?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1528
+    },
+    {
+      "id": "home-appraisal-results",
+      "title": "Home Appraisals: Low Values, Different Estimates, and Your Documents",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-appraisals-and-why-do-i-need-to-look-at-them-en-167/",
+          "title": "What are appraisals and why do I need to look at them?",
+          "date": "2020-09-04",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/my-appraisal-is-less-than-the-sale-price-what-does-that-mean-for-me-en-2007/",
+          "title": "My appraisal is less than the sale price. What does that mean for me?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/why-did-i-receive-different-valuations-during-the-mortgage-loan-application-process-en-1875/",
+          "title": "Why did I receive different valuations during the mortgage loan application process?",
+          "date": "2024-06-27",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/do-i-have-the-right-to-receive-a-copy-of-my-home-appraisal-en-192/",
+          "title": "Do I have the right to receive a copy of my home appraisal?",
+          "date": "2020-09-09",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-was-told-im-buying-a-home-that-was-flipped-and-that-i-have-to-get-a-second-appraisal-how-does-that-work-en-1799/",
+          "title": "I was told I'm buying a home that was flipped and that I have to get a second appraisal. How does that work?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1389
+    },
+    {
+      "id": "mortgage-closing-cost-components",
+      "title": "Mortgage Closing Costs: Separating Fees, Prepayments, and Deposits",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-costs-come-with-taking-out-a-mortgage-en-153/",
+          "title": "What costs come with taking out a mortgage?",
+          "date": "2025-01-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-mortgage-origination-services-what-is-an-origination-fee-en-155/",
+          "title": "What are mortgage origination services? What is an origination fee?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-prepaid-interest-charges-en-161/",
+          "title": "What are prepaid interest charges?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-an-initial-escrow-deposit-en-160/",
+          "title": "What is an initial escrow deposit?",
+          "date": "2024-08-08",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-government-recording-charges-for-a-mortgage-en-159/",
+          "title": "What are government recording charges for a mortgage?",
+          "date": "2024-08-08",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-required-mortgage-closing-services-can-i-shop-for-en-154/",
+          "title": "What required mortgage closing services can I shop for?",
+          "date": "2024-08-08",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1771
+    },
+    {
+      "id": "force-placed-homeowners-insurance",
+      "title": "Force-Placed Homeowners Insurance: Responding to a Coverage Notice",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-can-i-do-if-my-mortgage-lender-servicer-is-charging-me-for-force-placed-homeowners-insurance-en-219/",
+          "title": "What can I do if my mortgage lender or servicer is charging me for force-placed homeowner's insurance?",
+          "date": "2020-09-04",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-homeowners-insurance-why-is-homeowners-insurance-required-en-162/",
+          "title": "What is homeowner's insurance? Why is homeowner's insurance required?",
+          "date": "2024-08-08",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/why-did-my-monthly-mortgage-payment-go-up-or-change-en-213/",
+          "title": "Why did my monthly mortgage payment go up or change?",
+          "date": "2025-01-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-manage-my-monthly-mortgage-payment-en-195/",
+          "title": "How do I manage my monthly mortgage payment?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1713
+    },
+    {
+      "id": "mortgage-servicing-transfers",
+      "title": "Mortgage Servicing Transfers: When Your Payment Address Changes",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-the-company-that-i-send-my-mortgage-payments-to-changes-en-215/",
+          "title": "What happens if the company that I send my mortgage payments to changes?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-can-i-tell-who-owns-my-mortgage-en-214/",
+          "title": "How can I tell who owns my mortgage?",
+          "date": "2020-09-09",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-mortgage-is-sold-is-my-loan-safe-en-199/",
+          "title": "What happens if my mortgage is sold? Is my loan safe?",
+          "date": "2025-01-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/whats-the-difference-between-a-mortgage-lender-and-a-mortgage-servicer-en-198/",
+          "title": "What's the difference between a mortgage lender and a mortgage servicer?",
+          "date": "2024-12-11",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1295
+    },
+    {
+      "id": "inheriting-a-mortgaged-home",
+      "title": "Inheriting a Mortgaged Home: Getting Information and Taking Next Steps",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-get-mortgage-information-about-a-home-i-inherited-en-217/",
+          "title": "How do I get mortgage information about a home I inherited?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-recently-inherited-a-house-the-mortgage-lender-said-its-required-to-determine-my-ability-to-repay-before-it-will-let-me-take-over-the-mortgage-loan-is-this-true-en-1939/",
+          "title": "I recently inherited a house. The mortgage lender said it's required to determine my \"ability to repay\" before it will let me take over the mortgage loan. Is this true?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-revocable-living-trust-en-1775/",
+          "title": "What is a revocable living trust?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1288
+    },
+    {
+      "id": "mortgage-error-information-requests",
+      "title": "Mortgage Errors: Sending a Written Dispute or Information Request",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-an-error-request-information-about-my-mortgage-en-1855/",
+          "title": "How do I dispute an error or request information about my mortgage?",
+          "date": "2020-09-09",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-qualified-written-request-qwr-en-207/",
+          "title": "What is a Qualified Written Request (QWR)?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-i-send-a-qualified-written-request-qwr-error-dispute-or-information-request-to-my-mortgage-servicer-no-matter-what-kind-of-mortgage-i-have-en-208/",
+          "title": "Can I send a Qualified Written Request (QWR), error dispute, or information request to my mortgage servicer no matter what kind of mortgage I have?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/my-mortgage-servicer-has-not-responded-to-a-notice-of-error-or-information-request-that-i-sent-what-can-i-do-en-211/",
+          "title": "My mortgage servicer has not responded to a notice of error or information request that I sent. What can I do?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1362
+    },
+    {
+      "id": "mortgage-hardship-application",
+      "title": "Mortgage Hardship Applications: Documents, Decisions, and Appeals",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-got-a-letter-from-my-mortgage-servicer-about-my-application-for-help-to-prevent-foreclosure-of-my-mortgage-can-you-help-me-understand-some-of-the-terms-en-1807/",
+          "title": "I got a letter from my mortgage servicer about my application for help to prevent foreclosure of my mortgage. Can you help me understand some of the terms?",
+          "date": "2024-03-04",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-after-i-complete-an-application-to-determine-my-options-to-avoid-foreclosure-en-1851/",
+          "title": "What happens after I complete an application to determine my options to avoid foreclosure?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-applied-for-a-loan-modification-or-other-options-to-avoid-foreclosure-but-was-denied-help-my-lender-said-i-didnt-meet-the-qualifications-for-help-can-i-appeal-en-1841/",
+          "title": "I applied for a loan modification or other options to avoid foreclosure, but was denied help. My lender said I didn't meet the qualifications for help. Can I appeal?",
+          "date": "2024-03-04",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/does-my-mortgage-servicer-have-to-help-me-avoid-foreclosure-en-1803/",
+          "title": "Does my mortgage servicer have to help me avoid foreclosure?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1771
+    },
+    {
+      "id": "mortgage-forbearance-and-modification",
+      "title": "Mortgage Forbearance, Repayment Plans, and Loan Modifications",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-mortgage-forbearance-en-289/",
+          "title": "What is mortgage forbearance?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-repayment-plan-on-a-mortgage-en-280/",
+          "title": "What is a repayment plan on a mortgage?",
+          "date": "2025-01-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-mortgage-loan-modification-en-269/",
+          "title": "What is a mortgage loan modification?",
+          "date": "2020-09-04",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/my-servicer-offered-me-a-shared-appreciation-mortgage-as-a-means-of-modification-what-does-that-mean-en-270/",
+          "title": "My servicer offered me a shared appreciation mortgage as a means of modification. What does that mean?",
+          "date": "2020-09-09",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/if-i-cant-pay-my-mortgage-loan-what-are-my-options-en-268/",
+          "title": "If I can’t pay my mortgage loan, what are my options?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1917
+    },
+    {
+      "id": "short-sales-and-deeds-in-lieu",
+      "title": "Short Sales and Deeds in Lieu: Leaving a Home with Mortgage Debt",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-short-sale-en-290/",
+          "title": "What is a short sale?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-deed-in-lieu-of-foreclosure-en-291/",
+          "title": "What is a deed-in-lieu of foreclosure?",
+          "date": "2025-01-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-does-foreclosure-work-en-287/",
+          "title": "How does foreclosure work?",
+          "date": "2024-04-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/if-i-lose-my-home-to-foreclosure-can-i-ever-buy-a-home-again-what-impact-will-a-foreclosure-have-on-my-credit-report-en-326/",
+          "title": "If I lose my home to foreclosure, can I ever buy a home again? What impact will a foreclosure have on my credit report?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1426
+    },
+    {
+      "id": "renting-a-home-in-foreclosure",
+      "title": "When Your Rental Home Enters Foreclosure",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-the-house-or-apartment-im-renting-goes-into-foreclosure-en-1545/",
+          "title": "What should I do if the house or apartment I’m renting goes into foreclosure?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-long-after-foreclosure-starts-will-i-have-to-leave-my-home-en-1853/",
+          "title": "How long after foreclosure starts will I have to leave my home?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-find-an-attorney-in-my-state-en-1549/",
+          "title": "How do I find an attorney in my state?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1705
+    },
+    {
+      "id": "disaster-rebuilding-contractors",
+      "title": "Rebuilding After a Disaster: Contractors and Insurance Payments",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-can-i-find-and-work-with-contractors-to-rebuild-after-a-disaster-en-1517/",
+          "title": "How can I find and work with contractors to rebuild after a disaster?",
+          "date": "2024-06-27",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-home-insurance-companies-pay-out-claims-en-1523/",
+          "title": "How do home insurance companies pay out claims?",
+          "date": "2024-05-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-do-i-do-if-my-house-was-damaged-or-destroyed-or-if-im-unable-to-make-my-payment-after-a-disaster-en-1521/",
+          "title": "What do I do if my house was damaged or destroyed, or if I’m unable to make my payment after a disaster?",
+          "date": "2024-06-27",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1923
+    },
+    {
+      "id": "second-mortgages-and-lien-priority",
+      "title": "Second Mortgages: Understanding Another Claim on Your Home",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-second-mortgage-loan-or-junior-lien-en-105/",
+          "title": "What is a second mortgage loan or \"junior-lien\"?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-other-types-of-loans-are-similar-to-a-heloc-en-253/",
+          "title": "What other types of loans are similar to a HELOC?",
+          "date": "2024-06-27",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/does-a-heloc-affect-my-ability-to-refinance-my-first-mortgage-loan-en-252/",
+          "title": "Does a HELOC affect my ability to refinance my first mortgage loan?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/my-mortgage-closing-forms-mention-a-security-interest-what-is-a-security-interest-en-1999/",
+          "title": "My mortgage closing forms mention a \"security interest.\" What is a security interest?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-home-equity-loan-and-a-home-equity-line-of-credit-heloc-en-247/",
+          "title": "What is the difference between a Home Equity Loan and a Home Equity Line of Credit (HELOC)?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1447
+    },
+    {
+      "id": "reverse-mortgage-eligibility-and-costs",
+      "title": "Reverse Mortgages: Eligibility, Costs, and Counseling",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-reverse-mortgage-en-224/",
+          "title": "What is a reverse mortgage?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-anyone-take-out-a-reverse-mortgage-loan-en-227/",
+          "title": "Can anyone take out a reverse mortgage loan?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-much-does-a-reverse-mortgage-loan-cost-en-237/",
+          "title": "How much does a reverse mortgage loan cost?",
+          "date": "2024-05-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-think-about-before-applying-for-reverse-mortgage-en-228/",
+          "title": "What should I think about before applying for a reverse mortgage loan and what should I ask a reverse mortgage counselor?",
+          "date": "2022-07-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/are-there-different-types-of-reverse-mortgages-en-226/",
+          "title": "Are there different types of reverse mortgages?",
+          "date": "2022-07-11",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 2267
+    },
+    {
+      "id": "reverse-mortgage-ongoing-responsibilities",
+      "title": "Living with a Reverse Mortgage: Occupancy and Ongoing Costs",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-my-responsibilities-as-a-reverse-mortgage-loan-borrower-en-235/",
+          "title": "What are my responsibilities as a reverse mortgage loan borrower?",
+          "date": "2024-08-09",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/does-having-a-reverse-mortgage-impact-who-can-live-in-my-home-en-1213/",
+          "title": "Does having a reverse mortgage impact who can live in my home?",
+          "date": "2025-01-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-i-have-to-move-out-of-my-home-into-a-nursing-home-or-assisted-living-and-i-have-a-reverse-mortgage-en-243/",
+          "title": "What happens if I have a reverse mortgage and I have to move out of my home, such as moving into a nursing home or to live with family?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-have-a-reverse-mortgage-and-i-cant-pay-my-property-taxes-or-insurance-en-1509/",
+          "title": "What should I do if I have a reverse mortgage loan and I can’t pay my property taxes or homeowners insurance?",
+          "date": "2022-07-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/when-do-i-have-to-pay-back-a-reverse-mortgage-loan-en-236/",
+          "title": "When do I have to pay back a reverse mortgage loan?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 2130
+    },
+    {
+      "id": "reverse-mortgages-and-heirs",
+      "title": "Reverse Mortgages After a Borrower's Death: Choices for Heirs",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-my-reverse-mortgage-when-i-die-en-2096/",
+          "title": "What happens to my reverse mortgage when I die?",
+          "date": "2025-01-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/with-a-reverse-mortgage-loan-can-my-heirs-keep-or-sell-my-home-after-i-die-en-242/",
+          "title": "With a reverse mortgage loan, can my heirs keep or sell my home after I die?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-reverse-mortgage-loan-balance-grows-larger-than-the-value-of-my-home-en-1217/",
+          "title": "What happens if my reverse mortgage loan balance grows larger than the value of my home?",
+          "date": "2022-07-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-i-have-reverse-mortgage-and-i-want-sell-my-home-en-2095/",
+          "title": "What happens if I have a reverse mortgage and I want to sell my home?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1874
+    },
+    {
+      "id": "mortgage-applications-family-and-income",
+      "title": "Mortgage Applications: Family Status, Age, and Sources of Income",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/does-my-spouse-have-to-co-sign-my-mortgage-loan-en-359/",
+          "title": "Does my spouse have to co-sign my mortgage loan?",
+          "date": "2024-12-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-two-unmarried-people-apply-jointly-for-a-mortgage-or-a-home-equity-loan-en-357/",
+          "title": "Can two unmarried people apply jointly for a mortgage or a home equity loan?",
+          "date": "2024-06-27",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-a-lender-ask-about-your-children-or-dependents-when-applying-for-a-mortgage-or-home-equity-loan-en-355/",
+          "title": "Can a lender ask about your children or dependents when applying for a mortgage or home equity loan?",
+          "date": "2024-12-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-a-lender-or-broker-ask-me-about-the-alimony-child-support-or-separate-maintenance-payments-that-i-receive-en-353/",
+          "title": "Can a lender or broker ask me about the alimony, child support, or separate maintenance payments that I receive?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-a-lender-or-broker-consider-my-sex-or-marital-status-when-deciding-whether-to-give-me-a-mortgage-or-home-equity-loan-en-350/",
+          "title": "Can a lender or broker consider my sex or marital status when deciding whether to give me a mortgage or home equity loan?",
+          "date": "2024-02-02",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/if-i-am-married-can-a-lender-or-broker-turn-down-my-application-for-a-mortgage-or-home-equity-loan-in-my-own-name-en-351/",
+          "title": "If I am married, can a lender or broker turn down my application for a mortgage or home equity loan in my own name?",
+          "date": "2024-11-08",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-a-lender-or-broker-consider-whether-i-receive-income-from-a-public-assistance-program-when-deciding-whether-to-give-me-a-mortgage-or-home-equity-loan-en-347/",
+          "title": "Can a lender or broker consider whether I receive income from a public assistance program when deciding whether to give me a mortgage or home equity loan?",
+          "date": "2024-09-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-a-lender-consider-your-age-when-deciding-whether-to-give-you-a-mortgage-or-home-equity-loan-en-346/",
+          "title": "Can a lender consider your age when deciding whether to give you a mortgage or home equity loan?",
+          "date": "2024-12-11",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-can-i-do-if-i-think-a-mortgage-lender-discriminated-against-me-en-342/",
+          "title": "What can I do if I think a mortgage lender discriminated against me?",
+          "date": "2023-10-12",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 2045
+    },
+    {
+      "id": "checking-account-denials-and-second-chances",
+      "title": "Denied a Checking Account: Reports and Second-Chance Options",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/why-was-i-denied-a-checking-account-en-1113/",
+          "title": "Why was I denied a checking account?",
+          "date": "2024-12-18",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-second-chance-bank-account-and-who-is-it-for-en-2153/",
+          "title": "What is a second-chance bank account and who is it for?",
+          "date": "2024-09-13",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-low-risk-bank-account-and-who-is-it-for-en-2152/",
+          "title": "What is a low-risk bank account and who is it for?",
+          "date": "2024-09-13",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1460
+    },
+    {
+      "id": "checking-account-report-errors",
+      "title": "Checking Account Reports: Finding and Disputing Errors",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-get-a-copy-of-my-checking-account-consumer-report-en-2035/",
+          "title": "How do I get a copy of my checking account consumer report?",
+          "date": "2025-09-05",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-an-error-on-my-checking-account-consumer-report-en-2029/",
+          "title": "How do I dispute an error on my checking account consumer report?",
+          "date": "2025-09-05",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1039
+    },
+    {
+      "id": "financial-powers-of-attorney",
+      "title": "Financial Powers of Attorney: Authority, Duties, and Bank Access",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-power-of-attorney-poa-en-1149/",
+          "title": "What is a power of attorney (POA)?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-fiduciary-en-1769/",
+          "title": "What is a fiduciary?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/my-family-member-signed-a-power-of-attorney-poa-but-when-i-took-it-to-the-bankcredit-union-i-was-told-the-poa-has-to-be-on-the-bankcredit-unions-form-what-can-i-do-en-1151/",
+          "title": "My family member signed a power of attorney (POA) but when I took it to the bank/credit union, I was told the POA has to be on the bank/credit union's form. What can I do?",
+          "date": "2024-08-30",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-went-to-my-bank-or-credit-union-and-was-told-that-money-had-been-taken-out-of-my-account-using-a-power-of-attorney-poa-i-never-signed-what-can-i-do-en-1153/",
+          "title": "I went to my bank or credit union and was told that money had been taken out of my account using a power of attorney (POA) I never signed. What can I do?",
+          "date": "2024-08-22",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-can-i-find-an-attorney-who-specializes-in-elder-law-en-1159/",
+          "title": "How can I find an attorney who specializes in elder law?",
+          "date": "2024-08-30",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1598
+    },
+    {
+      "id": "helping-with-bills-without-sharing-ownership",
+      "title": "Helping Someone Pay Bills Without Sharing All Their Money",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-would-like-to-be-able-to-have-my-friend-or-family-member-help-with-my-bill-paying-and-banking-what-are-my-options-en-1145/",
+          "title": "Can a family member or friend help me with bill paying and banking?",
+          "date": "2023-06-27",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/a-financial-planner-offered-to-help-with-my-bill-paying-and-banking-but-said-the-only-way-she-or-he-could-help-is-if-i-opened-a-joint-account-with-both-of-our-names-on-it-is-this-true-en-1147/",
+          "title": "A financial planner offered to help with my bill paying and banking, but said the only way she or he could help is if I opened a joint account with both of our names on it. Is this true?",
+          "date": "2024-04-15",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/a-joint-checking-account-owner-took-all-the-money-out-and-then-closed-the-account-without-my-agreement-can-they-do-that-en-1099/",
+          "title": "A joint checking account owner took all the money out and then closed the account without my agreement. Can they do that?",
+          "date": "2024-12-18",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-i-remove-my-spouse-from-our-joint-checking-account-en-1097/",
+          "title": "Can I remove my spouse from our joint checking account?",
+          "date": "2024-12-18",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-i-have-a-joint-bank-account-with-someone-who-died-en-1101/",
+          "title": "What happens if I have a joint bank account with someone who died?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1504
+    },
+    {
+      "id": "international-remittance-pricing",
+      "title": "International Money Transfers: Comparing the Amount That Arrives",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-remittance-transfer-and-what-are-my-rights-en-1161/",
+          "title": "What is a remittance transfer and what are my rights?",
+          "date": "2024-10-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-sent-money-to-someone-in-a-foreign-country-but-the-amount-received-was-less-than-what-i-sent-what-can-i-do-en-1745/",
+          "title": "I sent money to someone in a foreign country, but the amount received was less than what I sent. What can I do?",
+          "date": "2024-10-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/if-i-want-to-use-my-bank-or-credit-union-to-send-money-to-someone-in-another-country-do-i-have-any-federal-protection-en-1733/",
+          "title": "If I want to use my bank or credit union to send money to someone in another country, do I have any federal protection?",
+          "date": "2024-10-03",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1507
+    },
+    {
+      "id": "international-transfer-errors-and-cancellation",
+      "title": "International Transfer Errors: Cancellations and Corrections",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-notify-the-remittance-transfer-provider-about-a-mistake-with-my-money-transfer-en-1753/",
+          "title": "How do I notify the remittance transfer provider about a mistake with my money transfer?",
+          "date": "2024-10-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-sent-money-to-someone-and-they-couldnt-get-the-money-because-the-information-didnt-match-what-i-provided-what-can-i-do-en-1739/",
+          "title": "I sent money to someone and they couldn't get the money because the information didn't match what I provided. What can I do?",
+          "date": "2024-10-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-i-cancel-an-international-money-transfer-en-1737/",
+          "title": "Can I cancel an international money transfer?",
+          "date": "2024-10-03",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1267
+    },
+    {
+      "id": "bank-and-payment-app-outages",
+      "title": "Bank and Payment App Outages: Keeping Access to Your Money",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-bank-or-credit-union-has-an-outage-and-i-cant-access-my-account-en-2143/",
+          "title": "What happens if my bank or credit union has an outage and I can’t access my account?",
+          "date": "2023-12-21",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-payment-app-has-an-outage-and-i-cant-access-my-account-en-2145/",
+          "title": "What happens if my payment app has an outage and I can’t access my account?",
+          "date": "2023-12-21",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-credit-card-company-has-an-outage-and-i-cant-access-my-account-en-2144/",
+          "title": "What happens if my credit card company has an outage and I can’t access my account?",
+          "date": "2023-12-21",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+          "title": "FDIC: Understanding deposit insurance",
+          "date": "",
+          "agency": "FDIC"
+        }
+      ],
+      "words": 1411
+    },
+    {
+      "id": "payroll-cards-and-wage-access",
+      "title": "Payroll Cards: Receiving Wages Without Losing Track of Fees",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-payroll-card-en-401/",
+          "title": "What is a payroll card?",
+          "date": "2024-02-06",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/are-there-fees-to-use-a-payroll-card-en-403/",
+          "title": "Are there fees to use a payroll card?",
+          "date": "2024-10-31",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/if-my-employer-offers-me-a-payroll-card-do-i-have-to-accept-it-en-407/",
+          "title": "If my employer offers me a payroll card, do I have to accept it?",
+          "date": "2024-10-31",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/why-do-i-need-to-register-my-prepaid-card-en-439/",
+          "title": "Why do I need to register my prepaid card?",
+          "date": "2024-02-06",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1323
+    },
+    {
+      "id": "registering-and-replacing-prepaid-cards",
+      "title": "Prepaid Card Registration: Protecting the Balance and Replacing the Card",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/why-do-i-need-to-register-my-prepaid-card-en-439/",
+          "title": "Why do I need to register my prepaid card?",
+          "date": "2024-02-06",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-long-after-buying-a-prepaid-card-do-i-have-to-wait-until-i-can-start-using-it-en-445/",
+          "title": "How long after buying a prepaid card do I have to wait until I can start using it?",
+          "date": "2024-09-06",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/why-am-i-being-asked-for-personal-information-to-activate-or-register-a-prepaid-card-en-443/",
+          "title": "Why am I being asked for personal information to activate or register a prepaid card?",
+          "date": "2024-02-06",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/is-the-money-on-my-prepaid-card-fdic-insured-en-529/",
+          "title": "Is the money on my prepaid card FDIC-insured?",
+          "date": "2023-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/if-my-prepaid-card-expires-do-i-lose-my-money-en-423/",
+          "title": "If my prepaid card expires, do I lose my money?",
+          "date": "2024-09-06",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-my-prepaid-card-or-pin-is-lost-or-stolen-or-i-see-unauthorized-charges-en-425/",
+          "title": "What should I do if my prepaid card or PIN is lost or stolen or I see unauthorized charges?",
+          "date": "2024-02-06",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1456
+    },
+    {
+      "id": "certificate-of-deposit-renewals",
+      "title": "CD Renewals: What Happens When the Term Ends",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-certificate-of-deposit-cd-en-917/",
+          "title": "What is a certificate of deposit (CD)?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-certificate-of-deposit-cd-rollover-or-renewal-en-923/",
+          "title": "What is a certificate of deposit (CD) rollover or renewal?",
+          "date": "2024-08-30",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/the-interest-rate-offered-for-cds-certificates-of-deposit-is-low-is-there-anything-i-can-do-about-that-en-921/",
+          "title": "The interest rate offered for CDs (certificates of deposit) is low. Is there anything I can do about that?",
+          "date": "2024-01-31",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/should-i-get-a-checking-account-that-pays-interest-en-925/",
+          "title": "Should I get a checking account that pays interest?",
+          "date": "2024-09-05",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-money-market-account-en-1007/",
+          "title": "What is a money market account?",
+          "date": "2026-08-28",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1467
+    },
+    {
+      "id": "student-loan-payment-allocation",
+      "title": "Student Loan Payments: Where the Money Goes",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-is-my-student-loan-payment-applied-to-my-account-en-605/",
+          "title": "How is my student loan payment applied to my account?",
+          "date": "2024-04-15",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-i-make-additional-payments-on-my-student-loan-en-607/",
+          "title": "Can I make additional payments on my student loan?",
+          "date": "2024-04-15",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-i-pay-off-my-student-loan-in-full-at-any-time-en-609/",
+          "title": "Can I pay off my student loan in full at any time?",
+          "date": "2024-04-15",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-find-out-information-about-my-student-loans-en-613/",
+          "title": "How do I find out information about my student loans?",
+          "date": "2024-12-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/when-and-how-do-i-start-paying-my-student-loans-en-585/",
+          "title": "When and how do I start paying my student loans?",
+          "date": "2024-03-27",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://edfinancial.studentaid.gov/billing-and-statements",
+          "title": "Edfinancial: Billing, statements, and paid-ahead status",
+          "date": "",
+          "agency": "Edfinancial"
+        },
+        {
+          "url": "https://edfinancial.studentaid.gov/how-payments-are-applied",
+          "title": "Edfinancial: How payments are applied",
+          "date": "",
+          "agency": "Edfinancial"
+        },
+        {
+          "url": "https://studentaid.gov/articles/prepare-for-payments/",
+          "title": "Federal Student Aid: How to prepare for student loan payments",
+          "date": "",
+          "agency": "Federal Student Aid"
+        }
+      ],
+      "words": 1470
+    },
+    {
+      "id": "private-student-loan-cosigners",
+      "title": "Private Student Loan Co-Signers: Release, Default, and Responsibility",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-co-signer-for-a-student-loan-en-565/",
+          "title": "What is a co-signer for a student loan?",
+          "date": "2024-09-06",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/if-i-co-signed-for-a-private-student-loan-can-i-be-released-from-the-loan-en-619/",
+          "title": "If I co-signed for a private student loan, can I be released from the loan?",
+          "date": "2024-09-24",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/if-i-co-signed-for-a-student-loan-and-it-has-gone-into-default-what-happens-en-671/",
+          "title": "If I co-signed for a student loan and it has gone into default, what happens?",
+          "date": "2024-03-27",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-i-default-on-a-private-student-loan-en-673/",
+          "title": "What happens if I default on a private student loan?",
+          "date": "2024-03-27",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/if-i-co-sign-for-my-grandchilds-student-loan-can-the-lender-garnish-my-social-security-check-if-they-dont-repay-the-loan-en-1707/",
+          "title": "If I co-sign for my grandchild's student loan, can the lender garnish my Social Security check if they don't repay the loan?",
+          "date": "2024-03-27",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1236
+    },
+    {
+      "id": "student-loan-relief-scams",
+      "title": "Student Loan Relief Scams: Checking Promises Before Paying",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-the-signs-of-a-student-loan-scam-en-2100/",
+          "title": "What are the signs of a student loan scam?",
+          "date": "2023-05-22",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/where-can-i-file-a-financial-aid-or-student-loan-complaint-en-2088/",
+          "title": "Where can I file a financial aid or student loan complaint?",
+          "date": "2024-04-15",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-student-loan-servicer-en-583/",
+          "title": "What is a student loan servicer?",
+          "date": "2024-05-14",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1293
+    },
+    {
+      "id": "working-with-a-financial-aid-office",
+      "title": "Working with a College Financial Aid Office",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-does-a-schools-financial-aid-office-do-en-543/",
+          "title": "What does a school’s financial aid office do?",
+          "date": "2024-05-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/consumer-tools/student-loans/applying-for-financial-aid/",
+          "title": "Applying for financial aid",
+          "date": "",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/who-can-i-talk-to-about-student-loans-en-575/",
+          "title": "Who can I talk to about my options for taking out student loans?",
+          "date": "2024-05-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://fsapartners.ed.gov/sites/default/files/2026-05/FrequentlyAskedQuestionsLoanLimits.pdf",
+          "title": "Federal Student Aid: Loan limits effective July 1, 2026",
+          "date": "2026-05",
+          "agency": "Federal Student Aid"
+        }
+      ],
+      "words": 1606
+    },
+    {
+      "id": "student-loans-when-school-closes",
+      "title": "When a College Closes: Student Loans and Your Records",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/my-school-closed-and-now-i-cant-graduate-what-happens-en-1889/",
+          "title": "My school closed and now I can’t graduate. What happens to my student loans?",
+          "date": "2024-05-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-find-out-information-about-my-student-loans-en-613/",
+          "title": "How do I find out information about my student loans?",
+          "date": "2024-12-03",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/where-can-i-file-a-financial-aid-or-student-loan-complaint-en-2088/",
+          "title": "Where can I file a financial aid or student loan complaint?",
+          "date": "2024-04-15",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-student-loan-servicer-en-583/",
+          "title": "What is a student loan servicer?",
+          "date": "2024-05-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://studentaid.gov/manage-loans/forgiveness-cancellation/closed-school",
+          "title": "Federal Student Aid: Closed school discharge",
+          "date": "",
+          "agency": "Federal Student Aid"
+        }
+      ],
+      "words": 1183
+    },
+    {
+      "id": "federal-and-private-student-loans",
+      "title": "Federal and Private Student Loans: Comparing the Basic Obligations",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/should-i-choose-federal-student-loans-or-private-student-loans-en-567/",
+          "title": "What student loan option is best for me: federal student loans or private student loans?",
+          "date": "2024-05-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-much-should-i-borrow-in-student-loans-en-579/",
+          "title": "How much should I borrow in student loans?",
+          "date": "2024-05-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-federal-direct-loan-en-1553/",
+          "title": "What is a federal Direct Loan?",
+          "date": "2023-09-12",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-subsidized-loan-en-573/",
+          "title": "What is a subsidized loan?",
+          "date": "2023-09-12",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-does-interest-accrue-while-i-am-in-school-en-593/",
+          "title": "How does interest accrue while I am in school?",
+          "date": "2024-05-14",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://fsapartners.ed.gov/sites/default/files/2026-05/FrequentlyAskedQuestionsLoanLimits.pdf",
+          "title": "Federal Student Aid: Loan limits effective July 1, 2026",
+          "date": "2026-05",
+          "agency": "Federal Student Aid"
+        },
+        {
+          "url": "https://studentaid.gov/understand-aid/types/loans/interest-rates",
+          "title": "Federal Student Aid: Interest rates and fees",
+          "date": "",
+          "agency": "Federal Student Aid"
+        }
+      ],
+      "words": 1422
+    },
+    {
+      "id": "military-auto-loans-and-deployment",
+      "title": "Military Deployment: Managing an Auto Loan or Lease",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-am-in-the-military-and-have-an-auto-lease-if-i-am-ordered-to-move-overseas-or-deploy-can-i-cancel-or-terminate-my-auto-lease-without-paying-early-termination-charges-or-a-penalty-en-889/",
+          "title": "I am in the military and may be stationed overseas. How can I handle my auto lease or auto loan?",
+          "date": "2023-05-31",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/im-in-the-military-and-having-trouble-paying-my-auto-loan-what-should-i-know-about-auto-repossession-and-protections-under-the-servicemembers-civil-relief-act-scra-en-873/",
+          "title": "I’m in the military and having trouble paying my auto loan. What should I know about auto repossession and protections under the Servicemembers Civil Relief Act (SCRA)?",
+          "date": "2023-05-31",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/where-can-a-member-of-the-military-or-a-spousedependent-of-a-servicemember-go-for-emergency-funding-or-financial-assistance-en-897/",
+          "title": "Where can a member of the military or a spouse/dependent of a servicemember go for emergency funding or financial assistance?",
+          "date": "2023-05-31",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1510
+    },
+    {
+      "id": "credit-card-grace-period-and-interest",
+      "title": "Credit Card Grace Periods: Why Interest Can Appear After a Payment",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-does-my-credit-card-company-calculate-the-amount-of-interest-i-owe-en-51/",
+          "title": "How does my credit card company calculate the amount of interest I owe?",
+          "date": "2024-01-22",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-grace-period-for-a-credit-card-en-47/",
+          "title": "What is a grace period for a credit card?",
+          "date": "2024-09-23",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/if-i-pay-off-my-credit-card-balance-when-it-is-due-is-the-company-allowed-to-charge-me-interest-for-that-month-en-48/",
+          "title": "If I pay off my credit card balance when it is due, is the company allowed to charge me interest for that month?",
+          "date": "2023-10-19",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-daily-periodic-rate-on-a-credit-card-en-46/",
+          "title": "What is a \"daily periodic rate\" on a credit card?",
+          "date": "2024-09-23",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/my-bill-shows-different-aprs-and-shows-how-much-of-the-balance-is-subject-to-each-interest-rate-i-cannot-figure-out-how-this-is-calculated-how-does-that-work-en-39/",
+          "title": "My bill shows different APRs and shows how much of the balance is subject to each interest rate. I cannot figure out how this is calculated. How does that work?",
+          "date": "2024-01-22",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-fixed-apr-and-a-variable-apr-en-45/",
+          "title": "What is the difference between a fixed APR and a variable APR?",
+          "date": "2020-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-card-interest-rate-what-does-apr-mean-en-44/",
+          "title": "What is a credit card interest rate? What does APR mean?",
+          "date": "2023-08-28",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1586
+    },
+    {
+      "id": "credit-card-rate-and-term-changes",
+      "title": "Credit Card Rate Changes: Reading the Notice Before It Takes Effect",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/when-can-my-credit-card-company-increase-my-interest-rate-what-can-i-do-to-get-the-rate-back-down-en-69/",
+          "title": "When can my credit card company increase my interest rate?",
+          "date": "2022-09-22",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-my-credit-card-company-change-the-terms-of-my-account-en-70/",
+          "title": "Can my credit card company change the terms of my account?",
+          "date": "2024-01-22",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/when-does-a-credit-card-company-decide-what-interest-rate-to-offer-me-on-a-credit-card-en-9/",
+          "title": "When does a credit card company decide what interest rate to offer me on a credit card?",
+          "date": "2020-08-28",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/why-did-i-get-a-low-credit-limit-on-a-credit-card-en-11/",
+          "title": "Why did I get a low credit limit on a credit card?",
+          "date": "2024-03-29",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1553
+    },
+    {
+      "id": "credit-applications-household-income",
+      "title": "Applying for Credit with Household Income",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/i-am-a-stay-at-home-spouse-or-partner-without-a-separate-income-i-share-income-and-expenses-with-my-spouse-or-partner-can-i-still-get-a-credit-card-in-my-own-name-en-18/",
+          "title": "I am a stay-at-home spouse or partner without a separate income. I share income and expenses with my spouse or partner. Can I still get a credit card in my own name?",
+          "date": "2024-01-22",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-information-is-a-card-issuer-not-allowed-to-base-decisions-on-when-i-apply-for-credit-en-19/",
+          "title": "What information is a card issuer not allowed to base decisions on when I apply for credit?",
+          "date": "2023-10-12",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-a-card-issuer-consider-my-age-when-deciding-whether-to-issue-a-credit-card-to-me-en-20/",
+          "title": "Can a credit card company consider my age when deciding to lend me a card?",
+          "date": "2023-06-27",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-the-card-issuer-request-information-about-my-income-my-age-and-my-social-security-number-when-i-apply-for-a-credit-card-en-14/",
+          "title": "Can the card issuer request information about my income, my age, and my Social Security Number when I apply for a credit card?",
+          "date": "2024-01-22",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/am-i-responsible-for-charges-on-a-joint-credit-card-en-88/",
+          "title": "Am I responsible for charges on a joint credit card account if I didn’t make them?",
+          "date": "2024-01-22",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1419
+    },
+    {
+      "id": "auto-loan-interest-and-early-payments",
+      "title": "Auto Loan Interest: Simple Interest, Precomputed Charges, and Early Payments",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/whats-the-difference-between-a-simple-interest-rate-and-precomputed-interest-on-an-auto-loan-en-841/",
+          "title": "What's the difference between a simple interest rate and precomputed interest on an auto loan?",
+          "date": "2024-01-30",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/is-it-better-to-pay-off-the-interest-or-principal-on-my-auto-loan-en-845/",
+          "title": "Is it better to pay off the interest or principal on my auto loan?",
+          "date": "2024-01-30",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-amortization-and-how-could-it-affect-my-auto-loan-en-771/",
+          "title": "What is amortization and how could it affect my auto loan?",
+          "date": "2024-09-24",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/can-i-prepay-my-loan-at-any-time-without-penalty-en-843/",
+          "title": "Can I prepay my loan at any time without penalty?",
+          "date": "2024-01-30",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/when-are-late-fees-charged-on-a-car-loan-en-839/",
+          "title": "When are late fees charged on a car loan?",
+          "date": "2023-09-12",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1506
+    },
+    {
+      "id": "trade-in-negative-equity",
+      "title": "Trading In a Car You Still Owe On: Understanding Negative Equity",
+      "sources": [
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/should-i-trade-in-my-car-if-its-not-paid-off-en-2045/",
+          "title": "Should I trade in my car if it’s not paid off?",
+          "date": "2023-09-12",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-loan-to-value-ratio-in-an-auto-loan-en-769/",
+          "title": "What is a loan-to-value ratio in an auto loan?",
+          "date": "2024-03-07",
+          "agency": "CFPB"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-does-a-down-payment-affect-my-auto-loan-en-773/",
+          "title": "How does a down payment affect my auto loan?",
+          "date": "2024-09-24",
+          "agency": "CFPB"
+        }
+      ],
+      "words": 1590
+    }
+  ]
+}

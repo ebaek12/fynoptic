@@ -1,0 +1,2882 @@
+[
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-01",
+    "kind": "calculation",
+    "term": "$13,160.00",
+    "definition": "A $28,000.00 portfolio has a target allocation of 45.0% stocks, 8.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$12,600.00",
+      "$15,400.00",
+      "$2,240.00"
+    ],
+    "explanation": "Bond percentage = 100% − 45% − 8% = 47%. Bond target = $28,000.00 × 47/100 = $13,160.00.",
+    "numericAnswer": {
+      "value": 13160,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-02",
+    "kind": "calculation",
+    "term": "$13,680.00",
+    "definition": "A $30,400.00 portfolio has a target allocation of 46.0% stocks, 9.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$13,984.00",
+      "$16,416.00",
+      "$2,736.00"
+    ],
+    "explanation": "Bond percentage = 100% − 46% − 9% = 45%. Bond target = $30,400.00 × 45/100 = $13,680.00.",
+    "numericAnswer": {
+      "value": 13680,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-03",
+    "kind": "calculation",
+    "term": "$14,104.00",
+    "definition": "A $32,800.00 portfolio has a target allocation of 47.0% stocks, 10.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$15,416.00",
+      "$17,384.00",
+      "$3,280.00"
+    ],
+    "explanation": "Bond percentage = 100% − 47% − 10% = 43%. Bond target = $32,800.00 × 43/100 = $14,104.00.",
+    "numericAnswer": {
+      "value": 14104,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-04",
+    "kind": "calculation",
+    "term": "$14,432.00",
+    "definition": "A $35,200.00 portfolio has a target allocation of 48.0% stocks, 11.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$16,896.00",
+      "$18,304.00",
+      "$3,872.00"
+    ],
+    "explanation": "Bond percentage = 100% − 48% − 11% = 41%. Bond target = $35,200.00 × 41/100 = $14,432.00.",
+    "numericAnswer": {
+      "value": 14432,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-05",
+    "kind": "calculation",
+    "term": "$14,664.00",
+    "definition": "A $37,600.00 portfolio has a target allocation of 49.0% stocks, 12.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$18,424.00",
+      "$19,176.00",
+      "$4,512.00"
+    ],
+    "explanation": "Bond percentage = 100% − 49% − 12% = 39%. Bond target = $37,600.00 × 39/100 = $14,664.00.",
+    "numericAnswer": {
+      "value": 14664,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-06",
+    "kind": "calculation",
+    "term": "$16,800.00",
+    "definition": "A $40,000.00 portfolio has a target allocation of 50.0% stocks, 8.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$20,000.00",
+      "$3,200.00",
+      "$36,800.00"
+    ],
+    "explanation": "Bond percentage = 100% − 50% − 8% = 42%. Bond target = $40,000.00 × 42/100 = $16,800.00.",
+    "numericAnswer": {
+      "value": 16800,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-07",
+    "kind": "calculation",
+    "term": "$16,960.00",
+    "definition": "A $42,400.00 portfolio has a target allocation of 51.0% stocks, 9.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$21,624.00",
+      "$20,776.00",
+      "$3,816.00"
+    ],
+    "explanation": "Bond percentage = 100% − 51% − 9% = 40%. Bond target = $42,400.00 × 40/100 = $16,960.00.",
+    "numericAnswer": {
+      "value": 16960,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-08",
+    "kind": "calculation",
+    "term": "$17,024.00",
+    "definition": "A $44,800.00 portfolio has a target allocation of 52.0% stocks, 10.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$23,296.00",
+      "$21,504.00",
+      "$4,480.00"
+    ],
+    "explanation": "Bond percentage = 100% − 52% − 10% = 38%. Bond target = $44,800.00 × 38/100 = $17,024.00.",
+    "numericAnswer": {
+      "value": 17024,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-09",
+    "kind": "calculation",
+    "term": "$16,992.00",
+    "definition": "A $47,200.00 portfolio has a target allocation of 53.0% stocks, 11.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$25,016.00",
+      "$22,184.00",
+      "$5,192.00"
+    ],
+    "explanation": "Bond percentage = 100% − 53% − 11% = 36%. Bond target = $47,200.00 × 36/100 = $16,992.00.",
+    "numericAnswer": {
+      "value": 16992,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-10",
+    "kind": "calculation",
+    "term": "$16,864.00",
+    "definition": "A $49,600.00 portfolio has a target allocation of 54.0% stocks, 12.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$26,784.00",
+      "$22,816.00",
+      "$5,952.00"
+    ],
+    "explanation": "Bond percentage = 100% − 54% − 12% = 34%. Bond target = $49,600.00 × 34/100 = $16,864.00.",
+    "numericAnswer": {
+      "value": 16864,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-11",
+    "kind": "calculation",
+    "term": "$19,240.00",
+    "definition": "A $52,000.00 portfolio has a target allocation of 55.0% stocks, 8.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$28,600.00",
+      "$23,400.00",
+      "$4,160.00"
+    ],
+    "explanation": "Bond percentage = 100% − 55% − 8% = 37%. Bond target = $52,000.00 × 37/100 = $19,240.00.",
+    "numericAnswer": {
+      "value": 19240,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-12",
+    "kind": "calculation",
+    "term": "$25,024.00",
+    "definition": "A $54,400.00 portfolio has a target allocation of 45.0% stocks, 9.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$24,480.00",
+      "$29,920.00",
+      "$4,896.00"
+    ],
+    "explanation": "Bond percentage = 100% − 45% − 9% = 46%. Bond target = $54,400.00 × 46/100 = $25,024.00.",
+    "numericAnswer": {
+      "value": 25024,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-13",
+    "kind": "calculation",
+    "term": "$24,992.00",
+    "definition": "A $56,800.00 portfolio has a target allocation of 46.0% stocks, 10.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$26,128.00",
+      "$30,672.00",
+      "$5,680.00"
+    ],
+    "explanation": "Bond percentage = 100% − 46% − 10% = 44%. Bond target = $56,800.00 × 44/100 = $24,992.00.",
+    "numericAnswer": {
+      "value": 24992,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-14",
+    "kind": "calculation",
+    "term": "$24,864.00",
+    "definition": "A $59,200.00 portfolio has a target allocation of 47.0% stocks, 11.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$27,824.00",
+      "$31,376.00",
+      "$6,512.00"
+    ],
+    "explanation": "Bond percentage = 100% − 47% − 11% = 42%. Bond target = $59,200.00 × 42/100 = $24,864.00.",
+    "numericAnswer": {
+      "value": 24864,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-15",
+    "kind": "calculation",
+    "term": "$24,640.00",
+    "definition": "A $61,600.00 portfolio has a target allocation of 48.0% stocks, 12.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$29,568.00",
+      "$32,032.00",
+      "$7,392.00"
+    ],
+    "explanation": "Bond percentage = 100% − 48% − 12% = 40%. Bond target = $61,600.00 × 40/100 = $24,640.00.",
+    "numericAnswer": {
+      "value": 24640,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-16",
+    "kind": "calculation",
+    "term": "$27,520.00",
+    "definition": "A $64,000.00 portfolio has a target allocation of 49.0% stocks, 8.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$31,360.00",
+      "$32,640.00",
+      "$5,120.00"
+    ],
+    "explanation": "Bond percentage = 100% − 49% − 8% = 43%. Bond target = $64,000.00 × 43/100 = $27,520.00.",
+    "numericAnswer": {
+      "value": 27520,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-17",
+    "kind": "calculation",
+    "term": "$27,224.00",
+    "definition": "A $66,400.00 portfolio has a target allocation of 50.0% stocks, 9.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$33,200.00",
+      "$5,976.00",
+      "$60,424.00"
+    ],
+    "explanation": "Bond percentage = 100% − 50% − 9% = 41%. Bond target = $66,400.00 × 41/100 = $27,224.00.",
+    "numericAnswer": {
+      "value": 27224,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-18",
+    "kind": "calculation",
+    "term": "$26,832.00",
+    "definition": "A $68,800.00 portfolio has a target allocation of 51.0% stocks, 10.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$35,088.00",
+      "$33,712.00",
+      "$6,880.00"
+    ],
+    "explanation": "Bond percentage = 100% − 51% − 10% = 39%. Bond target = $68,800.00 × 39/100 = $26,832.00.",
+    "numericAnswer": {
+      "value": 26832,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-19",
+    "kind": "calculation",
+    "term": "$26,344.00",
+    "definition": "A $71,200.00 portfolio has a target allocation of 52.0% stocks, 11.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$37,024.00",
+      "$34,176.00",
+      "$7,832.00"
+    ],
+    "explanation": "Bond percentage = 100% − 52% − 11% = 37%. Bond target = $71,200.00 × 37/100 = $26,344.00.",
+    "numericAnswer": {
+      "value": 26344,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-target-allocation-dollar-holding-20",
+    "kind": "calculation",
+    "term": "$25,760.00",
+    "definition": "A $73,600.00 portfolio has a target allocation of 53.0% stocks, 12.0% cash, and the remainder bonds. What dollar value should bonds have at the target?",
+    "distractors": [
+      "$39,008.00",
+      "$34,592.00",
+      "$8,832.00"
+    ],
+    "explanation": "Bond percentage = 100% − 53% − 12% = 35%. Bond target = $73,600.00 × 35/100 = $25,760.00.",
+    "numericAnswer": {
+      "value": 25760,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-01",
+    "kind": "calculation",
+    "term": "$8,500.00",
+    "definition": "A portfolio holds $36,000.00 in stocks and $14,000.00 in bonds. The desired stock weight is 55.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$19,800.00",
+      "$27,500.00",
+      "$12,100.00"
+    ],
+    "explanation": "Total value = $36,000.00 + $14,000.00 = $50,000.00. Target stocks = $50,000.00 × 55% = $27,500.00. Sell $36,000.00 − $27,500.00 = $8,500.00.",
+    "numericAnswer": {
+      "value": 8500,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-02",
+    "kind": "calculation",
+    "term": "$8,244.00",
+    "definition": "A portfolio holds $37,700.00 in stocks and $14,900.00 in bonds. The desired stock weight is 56.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$21,112.00",
+      "$29,456.00",
+      "$12,768.00"
+    ],
+    "explanation": "Total value = $37,700.00 + $14,900.00 = $52,600.00. Target stocks = $52,600.00 × 56% = $29,456.00. Sell $37,700.00 − $29,456.00 = $8,244.00.",
+    "numericAnswer": {
+      "value": 8244,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-03",
+    "kind": "calculation",
+    "term": "$7,936.00",
+    "definition": "A portfolio holds $39,400.00 in stocks and $15,800.00 in bonds. The desired stock weight is 57.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$22,458.00",
+      "$31,464.00",
+      "$13,452.00"
+    ],
+    "explanation": "Total value = $39,400.00 + $15,800.00 = $55,200.00. Target stocks = $55,200.00 × 57% = $31,464.00. Sell $39,400.00 − $31,464.00 = $7,936.00.",
+    "numericAnswer": {
+      "value": 7936,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-04",
+    "kind": "calculation",
+    "term": "$7,576.00",
+    "definition": "A portfolio holds $41,100.00 in stocks and $16,700.00 in bonds. The desired stock weight is 58.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$23,838.00",
+      "$33,524.00",
+      "$14,152.00"
+    ],
+    "explanation": "Total value = $41,100.00 + $16,700.00 = $57,800.00. Target stocks = $57,800.00 × 58% = $33,524.00. Sell $41,100.00 − $33,524.00 = $7,576.00.",
+    "numericAnswer": {
+      "value": 7576,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-05",
+    "kind": "calculation",
+    "term": "$7,164.00",
+    "definition": "A portfolio holds $42,800.00 in stocks and $17,600.00 in bonds. The desired stock weight is 59.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$25,252.00",
+      "$35,636.00",
+      "$14,868.00"
+    ],
+    "explanation": "Total value = $42,800.00 + $17,600.00 = $60,400.00. Target stocks = $60,400.00 × 59% = $35,636.00. Sell $42,800.00 − $35,636.00 = $7,164.00.",
+    "numericAnswer": {
+      "value": 7164,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-06",
+    "kind": "calculation",
+    "term": "$6,700.00",
+    "definition": "A portfolio holds $44,500.00 in stocks and $18,500.00 in bonds. The desired stock weight is 60.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$26,700.00",
+      "$37,800.00",
+      "$15,600.00"
+    ],
+    "explanation": "Total value = $44,500.00 + $18,500.00 = $63,000.00. Target stocks = $63,000.00 × 60% = $37,800.00. Sell $44,500.00 − $37,800.00 = $6,700.00.",
+    "numericAnswer": {
+      "value": 6700,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-07",
+    "kind": "calculation",
+    "term": "$10,120.00",
+    "definition": "A portfolio holds $46,200.00 in stocks and $19,400.00 in bonds. The desired stock weight is 55.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$25,410.00",
+      "$36,080.00",
+      "$14,740.00"
+    ],
+    "explanation": "Total value = $46,200.00 + $19,400.00 = $65,600.00. Target stocks = $65,600.00 × 55% = $36,080.00. Sell $46,200.00 − $36,080.00 = $10,120.00.",
+    "numericAnswer": {
+      "value": 10120,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-08",
+    "kind": "calculation",
+    "term": "$9,708.00",
+    "definition": "A portfolio holds $47,900.00 in stocks and $20,300.00 in bonds. The desired stock weight is 56.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$26,824.00",
+      "$38,192.00",
+      "$15,456.00"
+    ],
+    "explanation": "Total value = $47,900.00 + $20,300.00 = $68,200.00. Target stocks = $68,200.00 × 56% = $38,192.00. Sell $47,900.00 − $38,192.00 = $9,708.00.",
+    "numericAnswer": {
+      "value": 9708,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-09",
+    "kind": "calculation",
+    "term": "$9,244.00",
+    "definition": "A portfolio holds $49,600.00 in stocks and $21,200.00 in bonds. The desired stock weight is 57.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$28,272.00",
+      "$40,356.00",
+      "$16,188.00"
+    ],
+    "explanation": "Total value = $49,600.00 + $21,200.00 = $70,800.00. Target stocks = $70,800.00 × 57% = $40,356.00. Sell $49,600.00 − $40,356.00 = $9,244.00.",
+    "numericAnswer": {
+      "value": 9244,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-10",
+    "kind": "calculation",
+    "term": "$8,728.00",
+    "definition": "A portfolio holds $51,300.00 in stocks and $22,100.00 in bonds. The desired stock weight is 58.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$29,754.00",
+      "$42,572.00",
+      "$16,936.00"
+    ],
+    "explanation": "Total value = $51,300.00 + $22,100.00 = $73,400.00. Target stocks = $73,400.00 × 58% = $42,572.00. Sell $51,300.00 − $42,572.00 = $8,728.00.",
+    "numericAnswer": {
+      "value": 8728,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-11",
+    "kind": "calculation",
+    "term": "$8,160.00",
+    "definition": "A portfolio holds $53,000.00 in stocks and $23,000.00 in bonds. The desired stock weight is 59.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$31,270.00",
+      "$44,840.00",
+      "$17,700.00"
+    ],
+    "explanation": "Total value = $53,000.00 + $23,000.00 = $76,000.00. Target stocks = $76,000.00 × 59% = $44,840.00. Sell $53,000.00 − $44,840.00 = $8,160.00.",
+    "numericAnswer": {
+      "value": 8160,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-12",
+    "kind": "calculation",
+    "term": "$7,540.00",
+    "definition": "A portfolio holds $54,700.00 in stocks and $23,900.00 in bonds. The desired stock weight is 60.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$32,820.00",
+      "$47,160.00",
+      "$18,480.00"
+    ],
+    "explanation": "Total value = $54,700.00 + $23,900.00 = $78,600.00. Target stocks = $78,600.00 × 60% = $47,160.00. Sell $54,700.00 − $47,160.00 = $7,540.00.",
+    "numericAnswer": {
+      "value": 7540,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-13",
+    "kind": "calculation",
+    "term": "$11,740.00",
+    "definition": "A portfolio holds $56,400.00 in stocks and $24,800.00 in bonds. The desired stock weight is 55.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$31,020.00",
+      "$44,660.00",
+      "$17,380.00"
+    ],
+    "explanation": "Total value = $56,400.00 + $24,800.00 = $81,200.00. Target stocks = $81,200.00 × 55% = $44,660.00. Sell $56,400.00 − $44,660.00 = $11,740.00.",
+    "numericAnswer": {
+      "value": 11740,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-14",
+    "kind": "calculation",
+    "term": "$11,172.00",
+    "definition": "A portfolio holds $58,100.00 in stocks and $25,700.00 in bonds. The desired stock weight is 56.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$32,536.00",
+      "$46,928.00",
+      "$18,144.00"
+    ],
+    "explanation": "Total value = $58,100.00 + $25,700.00 = $83,800.00. Target stocks = $83,800.00 × 56% = $46,928.00. Sell $58,100.00 − $46,928.00 = $11,172.00.",
+    "numericAnswer": {
+      "value": 11172,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-15",
+    "kind": "calculation",
+    "term": "$10,552.00",
+    "definition": "A portfolio holds $59,800.00 in stocks and $26,600.00 in bonds. The desired stock weight is 57.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$34,086.00",
+      "$49,248.00",
+      "$18,924.00"
+    ],
+    "explanation": "Total value = $59,800.00 + $26,600.00 = $86,400.00. Target stocks = $86,400.00 × 57% = $49,248.00. Sell $59,800.00 − $49,248.00 = $10,552.00.",
+    "numericAnswer": {
+      "value": 10552,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-16",
+    "kind": "calculation",
+    "term": "$9,880.00",
+    "definition": "A portfolio holds $61,500.00 in stocks and $27,500.00 in bonds. The desired stock weight is 58.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$35,670.00",
+      "$51,620.00",
+      "$19,720.00"
+    ],
+    "explanation": "Total value = $61,500.00 + $27,500.00 = $89,000.00. Target stocks = $89,000.00 × 58% = $51,620.00. Sell $61,500.00 − $51,620.00 = $9,880.00.",
+    "numericAnswer": {
+      "value": 9880,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-17",
+    "kind": "calculation",
+    "term": "$9,156.00",
+    "definition": "A portfolio holds $63,200.00 in stocks and $28,400.00 in bonds. The desired stock weight is 59.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$37,288.00",
+      "$54,044.00",
+      "$20,532.00"
+    ],
+    "explanation": "Total value = $63,200.00 + $28,400.00 = $91,600.00. Target stocks = $91,600.00 × 59% = $54,044.00. Sell $63,200.00 − $54,044.00 = $9,156.00.",
+    "numericAnswer": {
+      "value": 9156,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-18",
+    "kind": "calculation",
+    "term": "$8,380.00",
+    "definition": "A portfolio holds $64,900.00 in stocks and $29,300.00 in bonds. The desired stock weight is 60.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$38,940.00",
+      "$56,520.00",
+      "$21,360.00"
+    ],
+    "explanation": "Total value = $64,900.00 + $29,300.00 = $94,200.00. Target stocks = $94,200.00 × 60% = $56,520.00. Sell $64,900.00 − $56,520.00 = $8,380.00.",
+    "numericAnswer": {
+      "value": 8380,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-19",
+    "kind": "calculation",
+    "term": "$13,360.00",
+    "definition": "A portfolio holds $66,600.00 in stocks and $30,200.00 in bonds. The desired stock weight is 55.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$36,630.00",
+      "$53,240.00",
+      "$20,020.00"
+    ],
+    "explanation": "Total value = $66,600.00 + $30,200.00 = $96,800.00. Target stocks = $96,800.00 × 55% = $53,240.00. Sell $66,600.00 − $53,240.00 = $13,360.00.",
+    "numericAnswer": {
+      "value": 13360,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-by-selling-overweight-20",
+    "kind": "calculation",
+    "term": "$12,636.00",
+    "definition": "A portfolio holds $68,300.00 in stocks and $31,100.00 in bonds. The desired stock weight is 56.0%. With prices unchanged, no taxes or fees, and no money added or removed, how much stock must be sold and moved to bonds to reach the target?",
+    "distractors": [
+      "$38,248.00",
+      "$55,664.00",
+      "$20,832.00"
+    ],
+    "explanation": "Total value = $68,300.00 + $31,100.00 = $99,400.00. Target stocks = $99,400.00 × 56% = $55,664.00. Sell $68,300.00 − $55,664.00 = $12,636.00.",
+    "numericAnswer": {
+      "value": 12636,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-01",
+    "kind": "calculation",
+    "term": "$5,000.00",
+    "definition": "A portfolio has $39,000.00 in stocks and $21,000.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$3,000.00",
+      "-$5,400.00",
+      "$37,500.00"
+    ],
+    "explanation": "With stocks fixed, required total = $39,000.00 ÷ 0.60 = $65,000.00. New bond contribution = $65,000.00 − $39,000.00 − $21,000.00 = $5,000.00.",
+    "numericAnswer": {
+      "value": 5000,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-02",
+    "kind": "calculation",
+    "term": "$5,700.00",
+    "definition": "A portfolio has $41,100.00 in stocks and $21,700.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$3,420.00",
+      "-$5,260.00",
+      "$39,950.00"
+    ],
+    "explanation": "With stocks fixed, required total = $41,100.00 ÷ 0.60 = $68,500.00. New bond contribution = $68,500.00 − $41,100.00 − $21,700.00 = $5,700.00.",
+    "numericAnswer": {
+      "value": 5700,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-03",
+    "kind": "calculation",
+    "term": "$6,400.00",
+    "definition": "A portfolio has $43,200.00 in stocks and $22,400.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$3,840.00",
+      "-$5,120.00",
+      "$42,400.00"
+    ],
+    "explanation": "With stocks fixed, required total = $43,200.00 ÷ 0.60 = $72,000.00. New bond contribution = $72,000.00 − $43,200.00 − $22,400.00 = $6,400.00.",
+    "numericAnswer": {
+      "value": 6400,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-04",
+    "kind": "calculation",
+    "term": "$7,100.00",
+    "definition": "A portfolio has $45,300.00 in stocks and $23,100.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$4,260.00",
+      "-$4,980.00",
+      "$44,850.00"
+    ],
+    "explanation": "With stocks fixed, required total = $45,300.00 ÷ 0.60 = $75,500.00. New bond contribution = $75,500.00 − $45,300.00 − $23,100.00 = $7,100.00.",
+    "numericAnswer": {
+      "value": 7100,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-05",
+    "kind": "calculation",
+    "term": "$7,800.00",
+    "definition": "A portfolio has $47,400.00 in stocks and $23,800.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$4,680.00",
+      "-$4,840.00",
+      "$47,300.00"
+    ],
+    "explanation": "With stocks fixed, required total = $47,400.00 ÷ 0.60 = $79,000.00. New bond contribution = $79,000.00 − $47,400.00 − $23,800.00 = $7,800.00.",
+    "numericAnswer": {
+      "value": 7800,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-06",
+    "kind": "calculation",
+    "term": "$8,500.00",
+    "definition": "A portfolio has $49,500.00 in stocks and $24,500.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$5,100.00",
+      "-$4,700.00",
+      "$49,750.00"
+    ],
+    "explanation": "With stocks fixed, required total = $49,500.00 ÷ 0.60 = $82,500.00. New bond contribution = $82,500.00 − $49,500.00 − $24,500.00 = $8,500.00.",
+    "numericAnswer": {
+      "value": 8500,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-07",
+    "kind": "calculation",
+    "term": "$9,200.00",
+    "definition": "A portfolio has $51,600.00 in stocks and $25,200.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$5,520.00",
+      "-$4,560.00",
+      "$52,200.00"
+    ],
+    "explanation": "With stocks fixed, required total = $51,600.00 ÷ 0.60 = $86,000.00. New bond contribution = $86,000.00 − $51,600.00 − $25,200.00 = $9,200.00.",
+    "numericAnswer": {
+      "value": 9200,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-08",
+    "kind": "calculation",
+    "term": "$9,900.00",
+    "definition": "A portfolio has $53,700.00 in stocks and $25,900.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$5,940.00",
+      "-$4,420.00",
+      "$54,650.00"
+    ],
+    "explanation": "With stocks fixed, required total = $53,700.00 ÷ 0.60 = $89,500.00. New bond contribution = $89,500.00 − $53,700.00 − $25,900.00 = $9,900.00.",
+    "numericAnswer": {
+      "value": 9900,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-09",
+    "kind": "calculation",
+    "term": "$10,600.00",
+    "definition": "A portfolio has $55,800.00 in stocks and $26,600.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$6,360.00",
+      "-$4,280.00",
+      "$57,100.00"
+    ],
+    "explanation": "With stocks fixed, required total = $55,800.00 ÷ 0.60 = $93,000.00. New bond contribution = $93,000.00 − $55,800.00 − $26,600.00 = $10,600.00.",
+    "numericAnswer": {
+      "value": 10600,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-10",
+    "kind": "calculation",
+    "term": "$11,300.00",
+    "definition": "A portfolio has $57,900.00 in stocks and $27,300.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$6,780.00",
+      "-$4,140.00",
+      "$59,550.00"
+    ],
+    "explanation": "With stocks fixed, required total = $57,900.00 ÷ 0.60 = $96,500.00. New bond contribution = $96,500.00 − $57,900.00 − $27,300.00 = $11,300.00.",
+    "numericAnswer": {
+      "value": 11300,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-11",
+    "kind": "calculation",
+    "term": "$12,000.00",
+    "definition": "A portfolio has $60,000.00 in stocks and $28,000.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$7,200.00",
+      "-$4,000.00",
+      "$62,000.00"
+    ],
+    "explanation": "With stocks fixed, required total = $60,000.00 ÷ 0.60 = $100,000.00. New bond contribution = $100,000.00 − $60,000.00 − $28,000.00 = $12,000.00.",
+    "numericAnswer": {
+      "value": 12000,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-12",
+    "kind": "calculation",
+    "term": "$12,700.00",
+    "definition": "A portfolio has $62,100.00 in stocks and $28,700.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$7,620.00",
+      "-$3,860.00",
+      "$64,450.00"
+    ],
+    "explanation": "With stocks fixed, required total = $62,100.00 ÷ 0.60 = $103,500.00. New bond contribution = $103,500.00 − $62,100.00 − $28,700.00 = $12,700.00.",
+    "numericAnswer": {
+      "value": 12700,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-13",
+    "kind": "calculation",
+    "term": "$13,400.00",
+    "definition": "A portfolio has $64,200.00 in stocks and $29,400.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$8,040.00",
+      "-$3,720.00",
+      "$66,900.00"
+    ],
+    "explanation": "With stocks fixed, required total = $64,200.00 ÷ 0.60 = $107,000.00. New bond contribution = $107,000.00 − $64,200.00 − $29,400.00 = $13,400.00.",
+    "numericAnswer": {
+      "value": 13400,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-14",
+    "kind": "calculation",
+    "term": "$14,100.00",
+    "definition": "A portfolio has $66,300.00 in stocks and $30,100.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$8,460.00",
+      "-$3,580.00",
+      "$69,350.00"
+    ],
+    "explanation": "With stocks fixed, required total = $66,300.00 ÷ 0.60 = $110,500.00. New bond contribution = $110,500.00 − $66,300.00 − $30,100.00 = $14,100.00.",
+    "numericAnswer": {
+      "value": 14100,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-15",
+    "kind": "calculation",
+    "term": "$14,800.00",
+    "definition": "A portfolio has $68,400.00 in stocks and $30,800.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$8,880.00",
+      "-$3,440.00",
+      "$71,800.00"
+    ],
+    "explanation": "With stocks fixed, required total = $68,400.00 ÷ 0.60 = $114,000.00. New bond contribution = $114,000.00 − $68,400.00 − $30,800.00 = $14,800.00.",
+    "numericAnswer": {
+      "value": 14800,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-16",
+    "kind": "calculation",
+    "term": "$15,500.00",
+    "definition": "A portfolio has $70,500.00 in stocks and $31,500.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$9,300.00",
+      "-$3,300.00",
+      "$74,250.00"
+    ],
+    "explanation": "With stocks fixed, required total = $70,500.00 ÷ 0.60 = $117,500.00. New bond contribution = $117,500.00 − $70,500.00 − $31,500.00 = $15,500.00.",
+    "numericAnswer": {
+      "value": 15500,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-17",
+    "kind": "calculation",
+    "term": "$16,200.00",
+    "definition": "A portfolio has $72,600.00 in stocks and $32,200.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$9,720.00",
+      "-$3,160.00",
+      "$76,700.00"
+    ],
+    "explanation": "With stocks fixed, required total = $72,600.00 ÷ 0.60 = $121,000.00. New bond contribution = $121,000.00 − $72,600.00 − $32,200.00 = $16,200.00.",
+    "numericAnswer": {
+      "value": 16200,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-18",
+    "kind": "calculation",
+    "term": "$16,900.00",
+    "definition": "A portfolio has $74,700.00 in stocks and $32,900.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$10,140.00",
+      "-$3,020.00",
+      "$79,150.00"
+    ],
+    "explanation": "With stocks fixed, required total = $74,700.00 ÷ 0.60 = $124,500.00. New bond contribution = $124,500.00 − $74,700.00 − $32,900.00 = $16,900.00.",
+    "numericAnswer": {
+      "value": 16900,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-19",
+    "kind": "calculation",
+    "term": "$17,600.00",
+    "definition": "A portfolio has $76,800.00 in stocks and $33,600.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$10,560.00",
+      "-$2,880.00",
+      "$81,600.00"
+    ],
+    "explanation": "With stocks fixed, required total = $76,800.00 ÷ 0.60 = $128,000.00. New bond contribution = $128,000.00 − $76,800.00 − $33,600.00 = $17,600.00.",
+    "numericAnswer": {
+      "value": 17600,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-rebalance-with-new-money-only-20",
+    "kind": "calculation",
+    "term": "$18,300.00",
+    "definition": "A portfolio has $78,900.00 in stocks and $34,300.00 in bonds. An investor wants stocks to be exactly 60% by adding new cash only to bonds. Assume unchanged prices and no fees. How much new cash is required?",
+    "distractors": [
+      "$10,980.00",
+      "-$2,740.00",
+      "$84,050.00"
+    ],
+    "explanation": "With stocks fixed, required total = $78,900.00 ÷ 0.60 = $131,500.00. New bond contribution = $131,500.00 − $78,900.00 − $34,300.00 = $18,300.00.",
+    "numericAnswer": {
+      "value": 18300,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-01",
+    "kind": "calculation",
+    "term": "60.52%",
+    "definition": "A portfolio begins with $19,000.00 in stocks and $13,000.00 in bonds. Over one stated period, stocks return 7.0% and bonds return 2.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "59.38%",
+      "63.53%",
+      "66.38%"
+    ],
+    "explanation": "Ending stocks = $19,000.00 × (1 + 7/100) = $20,330.00. Ending bonds = $13,000.00 × (1 + 2/100) = $13,260.00. Stock weight = $20,330.00 ÷ $33,590.00 × 100 = 60.52%.",
+    "numericAnswer": {
+      "value": 60.52,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-02",
+    "kind": "calculation",
+    "term": "60.96%",
+    "definition": "A portfolio begins with $20,100.00 in stocks and $13,500.00 in bonds. Over one stated period, stocks return 8.0% and bonds return 3.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "59.82%",
+      "64.61%",
+      "67.82%"
+    ],
+    "explanation": "Ending stocks = $20,100.00 × (1 + 8/100) = $21,708.00. Ending bonds = $13,500.00 × (1 + 3/100) = $13,905.00. Stock weight = $21,708.00 ÷ $35,613.00 × 100 = 60.96%.",
+    "numericAnswer": {
+      "value": 60.96,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-03",
+    "kind": "calculation",
+    "term": "61.35%",
+    "definition": "A portfolio begins with $21,200.00 in stocks and $14,000.00 in bonds. Over one stated period, stocks return 9.0% and bonds return 4.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "60.23%",
+      "65.65%",
+      "69.23%"
+    ],
+    "explanation": "Ending stocks = $21,200.00 × (1 + 9/100) = $23,108.00. Ending bonds = $14,000.00 × (1 + 4/100) = $14,560.00. Stock weight = $23,108.00 ÷ $37,668.00 × 100 = 61.35%.",
+    "numericAnswer": {
+      "value": 61.35,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-04",
+    "kind": "calculation",
+    "term": "61.70%",
+    "definition": "A portfolio begins with $22,300.00 in stocks and $14,500.00 in bonds. Over one stated period, stocks return 10.0% and bonds return 5.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "60.60%",
+      "66.66%",
+      "70.60%"
+    ],
+    "explanation": "Ending stocks = $22,300.00 × (1 + 10/100) = $24,530.00. Ending bonds = $14,500.00 × (1 + 5/100) = $15,225.00. Stock weight = $24,530.00 ÷ $39,755.00 × 100 = 61.70%.",
+    "numericAnswer": {
+      "value": 61.7,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-05",
+    "kind": "calculation",
+    "term": "62.93%",
+    "definition": "A portfolio begins with $23,400.00 in stocks and $15,000.00 in bonds. Over one stated period, stocks return 11.0% and bonds return 2.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "60.94%",
+      "67.64%",
+      "71.94%"
+    ],
+    "explanation": "Ending stocks = $23,400.00 × (1 + 11/100) = $25,974.00. Ending bonds = $15,000.00 × (1 + 2/100) = $15,300.00. Stock weight = $25,974.00 ÷ $41,274.00 × 100 = 62.93%.",
+    "numericAnswer": {
+      "value": 62.93,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-06",
+    "kind": "calculation",
+    "term": "63.22%",
+    "definition": "A portfolio begins with $24,500.00 in stocks and $15,500.00 in bonds. Over one stated period, stocks return 12.0% and bonds return 3.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "61.25%",
+      "68.60%",
+      "73.25%"
+    ],
+    "explanation": "Ending stocks = $24,500.00 × (1 + 12/100) = $27,440.00. Ending bonds = $15,500.00 × (1 + 3/100) = $15,965.00. Stock weight = $27,440.00 ÷ $43,405.00 × 100 = 63.22%.",
+    "numericAnswer": {
+      "value": 63.22,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-07",
+    "kind": "calculation",
+    "term": "63.48%",
+    "definition": "A portfolio begins with $25,600.00 in stocks and $16,000.00 in bonds. Over one stated period, stocks return 13.0% and bonds return 4.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "61.54%",
+      "69.54%",
+      "74.54%"
+    ],
+    "explanation": "Ending stocks = $25,600.00 × (1 + 13/100) = $28,928.00. Ending bonds = $16,000.00 × (1 + 4/100) = $16,640.00. Stock weight = $28,928.00 ÷ $45,568.00 × 100 = 63.48%.",
+    "numericAnswer": {
+      "value": 63.48,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-08",
+    "kind": "calculation",
+    "term": "63.73%",
+    "definition": "A portfolio begins with $26,700.00 in stocks and $16,500.00 in bonds. Over one stated period, stocks return 14.0% and bonds return 5.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "61.81%",
+      "70.46%",
+      "75.81%"
+    ],
+    "explanation": "Ending stocks = $26,700.00 × (1 + 14/100) = $30,438.00. Ending bonds = $16,500.00 × (1 + 5/100) = $17,325.00. Stock weight = $30,438.00 ÷ $47,763.00 × 100 = 63.73%.",
+    "numericAnswer": {
+      "value": 63.73,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-09",
+    "kind": "calculation",
+    "term": "64.83%",
+    "definition": "A portfolio begins with $27,800.00 in stocks and $17,000.00 in bonds. Over one stated period, stocks return 15.0% and bonds return 2.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "62.05%",
+      "71.36%",
+      "77.05%"
+    ],
+    "explanation": "Ending stocks = $27,800.00 × (1 + 15/100) = $31,970.00. Ending bonds = $17,000.00 × (1 + 2/100) = $17,340.00. Stock weight = $31,970.00 ÷ $49,310.00 × 100 = 64.83%.",
+    "numericAnswer": {
+      "value": 64.83,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-10",
+    "kind": "calculation",
+    "term": "65.03%",
+    "definition": "A portfolio begins with $28,900.00 in stocks and $17,500.00 in bonds. Over one stated period, stocks return 16.0% and bonds return 3.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "62.28%",
+      "72.25%",
+      "78.28%"
+    ],
+    "explanation": "Ending stocks = $28,900.00 × (1 + 16/100) = $33,524.00. Ending bonds = $17,500.00 × (1 + 3/100) = $18,025.00. Stock weight = $33,524.00 ÷ $51,549.00 × 100 = 65.03%.",
+    "numericAnswer": {
+      "value": 65.03,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-11",
+    "kind": "calculation",
+    "term": "65.22%",
+    "definition": "A portfolio begins with $30,000.00 in stocks and $18,000.00 in bonds. Over one stated period, stocks return 17.0% and bonds return 4.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "62.50%",
+      "73.13%",
+      "79.50%"
+    ],
+    "explanation": "Ending stocks = $30,000.00 × (1 + 17/100) = $35,100.00. Ending bonds = $18,000.00 × (1 + 4/100) = $18,720.00. Stock weight = $35,100.00 ÷ $53,820.00 × 100 = 65.22%.",
+    "numericAnswer": {
+      "value": 65.22,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-12",
+    "kind": "calculation",
+    "term": "65.39%",
+    "definition": "A portfolio begins with $31,100.00 in stocks and $18,500.00 in bonds. Over one stated period, stocks return 18.0% and bonds return 5.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "62.70%",
+      "73.99%",
+      "80.70%"
+    ],
+    "explanation": "Ending stocks = $31,100.00 × (1 + 18/100) = $36,698.00. Ending bonds = $18,500.00 × (1 + 5/100) = $19,425.00. Stock weight = $36,698.00 ÷ $56,123.00 × 100 = 65.39%.",
+    "numericAnswer": {
+      "value": 65.39,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-13",
+    "kind": "calculation",
+    "term": "66.41%",
+    "definition": "A portfolio begins with $32,200.00 in stocks and $19,000.00 in bonds. Over one stated period, stocks return 19.0% and bonds return 2.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "62.89%",
+      "74.84%",
+      "81.89%"
+    ],
+    "explanation": "Ending stocks = $32,200.00 × (1 + 19/100) = $38,318.00. Ending bonds = $19,000.00 × (1 + 2/100) = $19,380.00. Stock weight = $38,318.00 ÷ $57,698.00 × 100 = 66.41%.",
+    "numericAnswer": {
+      "value": 66.41,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-14",
+    "kind": "calculation",
+    "term": "66.55%",
+    "definition": "A portfolio begins with $33,300.00 in stocks and $19,500.00 in bonds. Over one stated period, stocks return 20.0% and bonds return 3.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "63.07%",
+      "75.68%",
+      "83.07%"
+    ],
+    "explanation": "Ending stocks = $33,300.00 × (1 + 20/100) = $39,960.00. Ending bonds = $19,500.00 × (1 + 3/100) = $20,085.00. Stock weight = $39,960.00 ÷ $60,045.00 × 100 = 66.55%.",
+    "numericAnswer": {
+      "value": 66.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-15",
+    "kind": "calculation",
+    "term": "66.68%",
+    "definition": "A portfolio begins with $34,400.00 in stocks and $20,000.00 in bonds. Over one stated period, stocks return 21.0% and bonds return 4.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "63.24%",
+      "76.51%",
+      "84.24%"
+    ],
+    "explanation": "Ending stocks = $34,400.00 × (1 + 21/100) = $41,624.00. Ending bonds = $20,000.00 × (1 + 4/100) = $20,800.00. Stock weight = $41,624.00 ÷ $62,424.00 × 100 = 66.68%.",
+    "numericAnswer": {
+      "value": 66.68,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-16",
+    "kind": "calculation",
+    "term": "66.80%",
+    "definition": "A portfolio begins with $35,500.00 in stocks and $20,500.00 in bonds. Over one stated period, stocks return 22.0% and bonds return 5.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "63.39%",
+      "77.34%",
+      "85.39%"
+    ],
+    "explanation": "Ending stocks = $35,500.00 × (1 + 22/100) = $43,310.00. Ending bonds = $20,500.00 × (1 + 5/100) = $21,525.00. Stock weight = $43,310.00 ÷ $64,835.00 × 100 = 66.80%.",
+    "numericAnswer": {
+      "value": 66.8,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-17",
+    "kind": "calculation",
+    "term": "67.76%",
+    "definition": "A portfolio begins with $36,600.00 in stocks and $21,000.00 in bonds. Over one stated period, stocks return 23.0% and bonds return 2.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "63.54%",
+      "78.16%",
+      "86.54%"
+    ],
+    "explanation": "Ending stocks = $36,600.00 × (1 + 23/100) = $45,018.00. Ending bonds = $21,000.00 × (1 + 2/100) = $21,420.00. Stock weight = $45,018.00 ÷ $66,438.00 × 100 = 67.76%.",
+    "numericAnswer": {
+      "value": 67.76,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-18",
+    "kind": "calculation",
+    "term": "67.86%",
+    "definition": "A portfolio begins with $37,700.00 in stocks and $21,500.00 in bonds. Over one stated period, stocks return 24.0% and bonds return 3.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "63.68%",
+      "78.97%",
+      "87.68%"
+    ],
+    "explanation": "Ending stocks = $37,700.00 × (1 + 24/100) = $46,748.00. Ending bonds = $21,500.00 × (1 + 3/100) = $22,145.00. Stock weight = $46,748.00 ÷ $68,893.00 × 100 = 67.86%.",
+    "numericAnswer": {
+      "value": 67.86,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-19",
+    "kind": "calculation",
+    "term": "67.95%",
+    "definition": "A portfolio begins with $38,800.00 in stocks and $22,000.00 in bonds. Over one stated period, stocks return 25.0% and bonds return 4.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "63.82%",
+      "79.77%",
+      "88.82%"
+    ],
+    "explanation": "Ending stocks = $38,800.00 × (1 + 25/100) = $48,500.00. Ending bonds = $22,000.00 × (1 + 4/100) = $22,880.00. Stock weight = $48,500.00 ÷ $71,380.00 × 100 = 67.95%.",
+    "numericAnswer": {
+      "value": 67.95,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-allocation-drift-after-returns-20",
+    "kind": "calculation",
+    "term": "68.03%",
+    "definition": "A portfolio begins with $39,900.00 in stocks and $22,500.00 in bonds. Over one stated period, stocks return 26.0% and bonds return 5.0%, with distributions reinvested. There are no contributions, withdrawals, fees, or taxes. What percentage of ending value is in stocks? Round to 2 decimal places.",
+    "distractors": [
+      "63.94%",
+      "80.57%",
+      "89.94%"
+    ],
+    "explanation": "Ending stocks = $39,900.00 × (1 + 26/100) = $50,274.00. Ending bonds = $22,500.00 × (1 + 5/100) = $23,625.00. Stock weight = $50,274.00 ÷ $73,899.00 × 100 = 68.03%.",
+    "numericAnswer": {
+      "value": 68.03,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-01",
+    "kind": "calculation",
+    "term": "-1.75%",
+    "definition": "At the start of a period, a portfolio is 35.0% stocks, 40.0% bonds, and 25.0% cash. Their total returns are -8.0%, 2.0%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return?",
+    "distractors": [
+      "-1.67%",
+      "-5.00%",
+      "-2.80%"
+    ],
+    "explanation": "Use beginning weights: return = (35 × -8 + 40 × 2 + 25 × 1)/100 = -1.75%.",
+    "numericAnswer": {
+      "value": -1.75,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-02",
+    "kind": "calculation",
+    "term": "-1.41%",
+    "definition": "At the start of a period, a portfolio is 36.0% stocks, 39.0% bonds, and 25.0% cash. Their total returns are -7.0%, 2.2%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "-1.27%",
+      "-3.80%",
+      "-2.52%"
+    ],
+    "explanation": "Use beginning weights: return = (36 × -7 + 39 × 2.2 + 25 × 1)/100 = -1.41%.",
+    "numericAnswer": {
+      "value": -1.41,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-03",
+    "kind": "calculation",
+    "term": "-1.06%",
+    "definition": "At the start of a period, a portfolio is 37.0% stocks, 38.0% bonds, and 25.0% cash. Their total returns are -6.0%, 2.4%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "-0.87%",
+      "-2.60%",
+      "-2.22%"
+    ],
+    "explanation": "Use beginning weights: return = (37 × -6 + 38 × 2.4 + 25 × 1)/100 = -1.06%.",
+    "numericAnswer": {
+      "value": -1.06,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-04",
+    "kind": "calculation",
+    "term": "-0.69%",
+    "definition": "At the start of a period, a portfolio is 38.0% stocks, 37.0% bonds, and 25.0% cash. Their total returns are -5.0%, 2.6%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "-0.47%",
+      "-1.40%",
+      "-1.90%"
+    ],
+    "explanation": "Use beginning weights: return = (38 × -5 + 37 × 2.6 + 25 × 1)/100 = -0.69%.",
+    "numericAnswer": {
+      "value": -0.69,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-05",
+    "kind": "calculation",
+    "term": "-0.30%",
+    "definition": "At the start of a period, a portfolio is 39.0% stocks, 36.0% bonds, and 25.0% cash. Their total returns are -4.0%, 2.8%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "-0.07%",
+      "-0.20%",
+      "-1.56%"
+    ],
+    "explanation": "Use beginning weights: return = (39 × -4 + 36 × 2.8 + 25 × 1)/100 = -0.30%.",
+    "numericAnswer": {
+      "value": -0.3,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-06",
+    "kind": "calculation",
+    "term": "-0.25%",
+    "definition": "At the start of a period, a portfolio is 40.0% stocks, 35.0% bonds, and 25.0% cash. Their total returns are -3.0%, 2.0%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return?",
+    "distractors": [
+      "0.00%",
+      "-1.20%",
+      "0.70%"
+    ],
+    "explanation": "Use beginning weights: return = (40 × -3 + 35 × 2 + 25 × 1)/100 = -0.25%.",
+    "numericAnswer": {
+      "value": -0.25,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-07",
+    "kind": "calculation",
+    "term": "0.18%",
+    "definition": "At the start of a period, a portfolio is 41.0% stocks, 34.0% bonds, and 25.0% cash. Their total returns are -2.0%, 2.2%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "0.40%",
+      "1.20%",
+      "-0.82%"
+    ],
+    "explanation": "Use beginning weights: return = (41 × -2 + 34 × 2.2 + 25 × 1)/100 = 0.18%.",
+    "numericAnswer": {
+      "value": 0.18,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-08",
+    "kind": "calculation",
+    "term": "0.62%",
+    "definition": "At the start of a period, a portfolio is 42.0% stocks, 33.0% bonds, and 25.0% cash. Their total returns are -1.0%, 2.4%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "0.80%",
+      "2.40%",
+      "-0.42%"
+    ],
+    "explanation": "Use beginning weights: return = (42 × -1 + 33 × 2.4 + 25 × 1)/100 = 0.62%.",
+    "numericAnswer": {
+      "value": 0.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-09",
+    "kind": "calculation",
+    "term": "1.08%",
+    "definition": "At the start of a period, a portfolio is 43.0% stocks, 32.0% bonds, and 25.0% cash. Their total returns are 0.0%, 2.6%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "1.20%",
+      "3.60%",
+      "0.00%"
+    ],
+    "explanation": "Use beginning weights: return = (43 × 0 + 32 × 2.6 + 25 × 1)/100 = 1.08%.",
+    "numericAnswer": {
+      "value": 1.08,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-10",
+    "kind": "calculation",
+    "term": "1.56%",
+    "definition": "At the start of a period, a portfolio is 44.0% stocks, 31.0% bonds, and 25.0% cash. Their total returns are 1.0%, 2.8%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "1.60%",
+      "4.80%",
+      "0.44%"
+    ],
+    "explanation": "Use beginning weights: return = (44 × 1 + 31 × 2.8 + 25 × 1)/100 = 1.56%.",
+    "numericAnswer": {
+      "value": 1.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-11",
+    "kind": "calculation",
+    "term": "1.85%",
+    "definition": "At the start of a period, a portfolio is 45.0% stocks, 40.0% bonds, and 15.0% cash. Their total returns are 2.0%, 2.0%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return?",
+    "distractors": [
+      "1.67%",
+      "5.00%",
+      "0.90%"
+    ],
+    "explanation": "Use beginning weights: return = (45 × 2 + 40 × 2 + 15 × 1)/100 = 1.85%.",
+    "numericAnswer": {
+      "value": 1.85,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-12",
+    "kind": "calculation",
+    "term": "2.39%",
+    "definition": "At the start of a period, a portfolio is 46.0% stocks, 39.0% bonds, and 15.0% cash. Their total returns are 3.0%, 2.2%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "2.07%",
+      "6.20%",
+      "1.38%"
+    ],
+    "explanation": "Use beginning weights: return = (46 × 3 + 39 × 2.2 + 15 × 1)/100 = 2.39%.",
+    "numericAnswer": {
+      "value": 2.39,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-13",
+    "kind": "calculation",
+    "term": "2.94%",
+    "definition": "At the start of a period, a portfolio is 47.0% stocks, 38.0% bonds, and 15.0% cash. Their total returns are 4.0%, 2.4%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "2.47%",
+      "7.40%",
+      "1.88%"
+    ],
+    "explanation": "Use beginning weights: return = (47 × 4 + 38 × 2.4 + 15 × 1)/100 = 2.94%.",
+    "numericAnswer": {
+      "value": 2.94,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-14",
+    "kind": "calculation",
+    "term": "3.51%",
+    "definition": "At the start of a period, a portfolio is 48.0% stocks, 37.0% bonds, and 15.0% cash. Their total returns are 5.0%, 2.6%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "2.87%",
+      "8.60%",
+      "2.40%"
+    ],
+    "explanation": "Use beginning weights: return = (48 × 5 + 37 × 2.6 + 15 × 1)/100 = 3.51%.",
+    "numericAnswer": {
+      "value": 3.51,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-15",
+    "kind": "calculation",
+    "term": "4.10%",
+    "definition": "At the start of a period, a portfolio is 49.0% stocks, 36.0% bonds, and 15.0% cash. Their total returns are 6.0%, 2.8%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "3.27%",
+      "9.80%",
+      "2.94%"
+    ],
+    "explanation": "Use beginning weights: return = (49 × 6 + 36 × 2.8 + 15 × 1)/100 = 4.10%.",
+    "numericAnswer": {
+      "value": 4.1,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-16",
+    "kind": "calculation",
+    "term": "4.35%",
+    "definition": "At the start of a period, a portfolio is 50.0% stocks, 35.0% bonds, and 15.0% cash. Their total returns are 7.0%, 2.0%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return?",
+    "distractors": [
+      "3.33%",
+      "10.00%",
+      "3.50%"
+    ],
+    "explanation": "Use beginning weights: return = (50 × 7 + 35 × 2 + 15 × 1)/100 = 4.35%.",
+    "numericAnswer": {
+      "value": 4.35,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-17",
+    "kind": "calculation",
+    "term": "4.98%",
+    "definition": "At the start of a period, a portfolio is 51.0% stocks, 34.0% bonds, and 15.0% cash. Their total returns are 8.0%, 2.2%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "3.73%",
+      "11.20%",
+      "4.08%"
+    ],
+    "explanation": "Use beginning weights: return = (51 × 8 + 34 × 2.2 + 15 × 1)/100 = 4.98%.",
+    "numericAnswer": {
+      "value": 4.98,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-18",
+    "kind": "calculation",
+    "term": "5.62%",
+    "definition": "At the start of a period, a portfolio is 52.0% stocks, 33.0% bonds, and 15.0% cash. Their total returns are 9.0%, 2.4%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "4.13%",
+      "12.40%",
+      "4.68%"
+    ],
+    "explanation": "Use beginning weights: return = (52 × 9 + 33 × 2.4 + 15 × 1)/100 = 5.62%.",
+    "numericAnswer": {
+      "value": 5.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-19",
+    "kind": "calculation",
+    "term": "6.28%",
+    "definition": "At the start of a period, a portfolio is 53.0% stocks, 32.0% bonds, and 15.0% cash. Their total returns are 10.0%, 2.6%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "4.53%",
+      "13.60%",
+      "5.30%"
+    ],
+    "explanation": "Use beginning weights: return = (53 × 10 + 32 × 2.6 + 15 × 1)/100 = 6.28%.",
+    "numericAnswer": {
+      "value": 6.28,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-weighted-portfolio-period-return-20",
+    "kind": "calculation",
+    "term": "6.96%",
+    "definition": "At the start of a period, a portfolio is 54.0% stocks, 31.0% bonds, and 15.0% cash. Their total returns are 11.0%, 2.8%, and 1.0%, respectively. With no rebalancing, fees, taxes, or outside cash flows, what is the portfolio's period return? Round to 2 decimal places.",
+    "distractors": [
+      "4.93%",
+      "14.80%",
+      "5.94%"
+    ],
+    "explanation": "Use beginning weights: return = (54 × 11 + 31 × 2.8 + 15 × 1)/100 = 6.96%.",
+    "numericAnswer": {
+      "value": 6.96,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-01",
+    "kind": "calculation",
+    "term": "$1,090.00",
+    "definition": "An investor owns $600.00 of Company X directly, $8,000.00 of Fund A that holds 3.0% in Company X, and $5,000.00 of Fund B that holds 5.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$600.00",
+      "$490.00",
+      "$13,600.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $600.00 + $8,000.00 × 3% + $5,000.00 × 5% = $1,090.00.",
+    "numericAnswer": {
+      "value": 1090,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-02",
+    "kind": "calculation",
+    "term": "$1,334.00",
+    "definition": "An investor owns $680.00 of Company X directly, $8,400.00 of Fund A that holds 4.0% in Company X, and $5,300.00 of Fund B that holds 6.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$680.00",
+      "$654.00",
+      "$14,380.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $680.00 + $8,400.00 × 4% + $5,300.00 × 6% = $1,334.00.",
+    "numericAnswer": {
+      "value": 1334,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-03",
+    "kind": "calculation",
+    "term": "$1,592.00",
+    "definition": "An investor owns $760.00 of Company X directly, $8,800.00 of Fund A that holds 5.0% in Company X, and $5,600.00 of Fund B that holds 7.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$760.00",
+      "$832.00",
+      "$15,160.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $760.00 + $8,800.00 × 5% + $5,600.00 × 7% = $1,592.00.",
+    "numericAnswer": {
+      "value": 1592,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-04",
+    "kind": "calculation",
+    "term": "$1,864.00",
+    "definition": "An investor owns $840.00 of Company X directly, $9,200.00 of Fund A that holds 6.0% in Company X, and $5,900.00 of Fund B that holds 8.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$840.00",
+      "$1,024.00",
+      "$15,940.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $840.00 + $9,200.00 × 6% + $5,900.00 × 8% = $1,864.00.",
+    "numericAnswer": {
+      "value": 1864,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-05",
+    "kind": "calculation",
+    "term": "$1,902.00",
+    "definition": "An investor owns $920.00 of Company X directly, $9,600.00 of Fund A that holds 7.0% in Company X, and $6,200.00 of Fund B that holds 5.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$920.00",
+      "$982.00",
+      "$16,720.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $920.00 + $9,600.00 × 7% + $6,200.00 × 5% = $1,902.00.",
+    "numericAnswer": {
+      "value": 1902,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-06",
+    "kind": "calculation",
+    "term": "$1,690.00",
+    "definition": "An investor owns $1,000.00 of Company X directly, $10,000.00 of Fund A that holds 3.0% in Company X, and $6,500.00 of Fund B that holds 6.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$1,000.00",
+      "$690.00",
+      "$17,500.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $1,000.00 + $10,000.00 × 3% + $6,500.00 × 6% = $1,690.00.",
+    "numericAnswer": {
+      "value": 1690,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-07",
+    "kind": "calculation",
+    "term": "$1,972.00",
+    "definition": "An investor owns $1,080.00 of Company X directly, $10,400.00 of Fund A that holds 4.0% in Company X, and $6,800.00 of Fund B that holds 7.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$1,080.00",
+      "$892.00",
+      "$18,280.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $1,080.00 + $10,400.00 × 4% + $6,800.00 × 7% = $1,972.00.",
+    "numericAnswer": {
+      "value": 1972,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-08",
+    "kind": "calculation",
+    "term": "$2,268.00",
+    "definition": "An investor owns $1,160.00 of Company X directly, $10,800.00 of Fund A that holds 5.0% in Company X, and $7,100.00 of Fund B that holds 8.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$1,160.00",
+      "$1,108.00",
+      "$19,060.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $1,160.00 + $10,800.00 × 5% + $7,100.00 × 8% = $2,268.00.",
+    "numericAnswer": {
+      "value": 2268,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-09",
+    "kind": "calculation",
+    "term": "$2,282.00",
+    "definition": "An investor owns $1,240.00 of Company X directly, $11,200.00 of Fund A that holds 6.0% in Company X, and $7,400.00 of Fund B that holds 5.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$1,240.00",
+      "$1,042.00",
+      "$19,840.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $1,240.00 + $11,200.00 × 6% + $7,400.00 × 5% = $2,282.00.",
+    "numericAnswer": {
+      "value": 2282,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-10",
+    "kind": "calculation",
+    "term": "$2,594.00",
+    "definition": "An investor owns $1,320.00 of Company X directly, $11,600.00 of Fund A that holds 7.0% in Company X, and $7,700.00 of Fund B that holds 6.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$1,320.00",
+      "$1,274.00",
+      "$20,620.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $1,320.00 + $11,600.00 × 7% + $7,700.00 × 6% = $2,594.00.",
+    "numericAnswer": {
+      "value": 2594,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-11",
+    "kind": "calculation",
+    "term": "$2,320.00",
+    "definition": "An investor owns $1,400.00 of Company X directly, $12,000.00 of Fund A that holds 3.0% in Company X, and $8,000.00 of Fund B that holds 7.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$1,400.00",
+      "$920.00",
+      "$21,400.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $1,400.00 + $12,000.00 × 3% + $8,000.00 × 7% = $2,320.00.",
+    "numericAnswer": {
+      "value": 2320,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-12",
+    "kind": "calculation",
+    "term": "$2,640.00",
+    "definition": "An investor owns $1,480.00 of Company X directly, $12,400.00 of Fund A that holds 4.0% in Company X, and $8,300.00 of Fund B that holds 8.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$1,480.00",
+      "$1,160.00",
+      "$22,180.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $1,480.00 + $12,400.00 × 4% + $8,300.00 × 8% = $2,640.00.",
+    "numericAnswer": {
+      "value": 2640,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-13",
+    "kind": "calculation",
+    "term": "$2,630.00",
+    "definition": "An investor owns $1,560.00 of Company X directly, $12,800.00 of Fund A that holds 5.0% in Company X, and $8,600.00 of Fund B that holds 5.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$1,560.00",
+      "$1,070.00",
+      "$22,960.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $1,560.00 + $12,800.00 × 5% + $8,600.00 × 5% = $2,630.00.",
+    "numericAnswer": {
+      "value": 2630,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-14",
+    "kind": "calculation",
+    "term": "$2,966.00",
+    "definition": "An investor owns $1,640.00 of Company X directly, $13,200.00 of Fund A that holds 6.0% in Company X, and $8,900.00 of Fund B that holds 6.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$1,640.00",
+      "$1,326.00",
+      "$23,740.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $1,640.00 + $13,200.00 × 6% + $8,900.00 × 6% = $2,966.00.",
+    "numericAnswer": {
+      "value": 2966,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-15",
+    "kind": "calculation",
+    "term": "$3,316.00",
+    "definition": "An investor owns $1,720.00 of Company X directly, $13,600.00 of Fund A that holds 7.0% in Company X, and $9,200.00 of Fund B that holds 7.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$1,720.00",
+      "$1,596.00",
+      "$24,520.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $1,720.00 + $13,600.00 × 7% + $9,200.00 × 7% = $3,316.00.",
+    "numericAnswer": {
+      "value": 3316,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-16",
+    "kind": "calculation",
+    "term": "$2,980.00",
+    "definition": "An investor owns $1,800.00 of Company X directly, $14,000.00 of Fund A that holds 3.0% in Company X, and $9,500.00 of Fund B that holds 8.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$1,800.00",
+      "$1,180.00",
+      "$25,300.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $1,800.00 + $14,000.00 × 3% + $9,500.00 × 8% = $2,980.00.",
+    "numericAnswer": {
+      "value": 2980,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-17",
+    "kind": "calculation",
+    "term": "$2,946.00",
+    "definition": "An investor owns $1,880.00 of Company X directly, $14,400.00 of Fund A that holds 4.0% in Company X, and $9,800.00 of Fund B that holds 5.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$1,880.00",
+      "$1,066.00",
+      "$26,080.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $1,880.00 + $14,400.00 × 4% + $9,800.00 × 5% = $2,946.00.",
+    "numericAnswer": {
+      "value": 2946,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-18",
+    "kind": "calculation",
+    "term": "$3,306.00",
+    "definition": "An investor owns $1,960.00 of Company X directly, $14,800.00 of Fund A that holds 5.0% in Company X, and $10,100.00 of Fund B that holds 6.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$1,960.00",
+      "$1,346.00",
+      "$26,860.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $1,960.00 + $14,800.00 × 5% + $10,100.00 × 6% = $3,306.00.",
+    "numericAnswer": {
+      "value": 3306,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-19",
+    "kind": "calculation",
+    "term": "$3,680.00",
+    "definition": "An investor owns $2,040.00 of Company X directly, $15,200.00 of Fund A that holds 6.0% in Company X, and $10,400.00 of Fund B that holds 7.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$2,040.00",
+      "$1,640.00",
+      "$27,640.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $2,040.00 + $15,200.00 × 6% + $10,400.00 × 7% = $3,680.00.",
+    "numericAnswer": {
+      "value": 3680,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fund-look-through-stock-exposure-20",
+    "kind": "calculation",
+    "term": "$4,068.00",
+    "definition": "An investor owns $2,120.00 of Company X directly, $15,600.00 of Fund A that holds 7.0% in Company X, and $10,700.00 of Fund B that holds 8.0% in Company X. Assume these are the only exposures and holdings values are current. What is the total dollar exposure to Company X?",
+    "distractors": [
+      "$2,120.00",
+      "$1,948.00",
+      "$28,420.00"
+    ],
+    "explanation": "Look-through exposure = direct holding + each fund value × its Company X weight = $2,120.00 + $15,600.00 × 7% + $10,700.00 × 8% = $4,068.00.",
+    "numericAnswer": {
+      "value": 4068,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-01",
+    "kind": "calculation",
+    "term": "$12,400.00",
+    "definition": "A $80,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $14,000.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$9,100.00",
+      "$8,400.00",
+      "$4,000.00"
+    ],
+    "explanation": "Current stocks = $80,000.00 × 65% = $52,000.00. After withdrawal, total = $66,000.00 and target stocks = $66,000.00 × 60% = $39,600.00. Stock sale = $52,000.00 − $39,600.00 = $12,400.00.",
+    "numericAnswer": {
+      "value": 12400,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-02",
+    "kind": "calculation",
+    "term": "$13,020.00",
+    "definition": "A $84,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $14,700.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$9,555.00",
+      "$8,820.00",
+      "$4,200.00"
+    ],
+    "explanation": "Current stocks = $84,000.00 × 65% = $54,600.00. After withdrawal, total = $69,300.00 and target stocks = $69,300.00 × 60% = $41,580.00. Stock sale = $54,600.00 − $41,580.00 = $13,020.00.",
+    "numericAnswer": {
+      "value": 13020,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-03",
+    "kind": "calculation",
+    "term": "$13,640.00",
+    "definition": "A $88,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $15,400.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$10,010.00",
+      "$9,240.00",
+      "$4,400.00"
+    ],
+    "explanation": "Current stocks = $88,000.00 × 65% = $57,200.00. After withdrawal, total = $72,600.00 and target stocks = $72,600.00 × 60% = $43,560.00. Stock sale = $57,200.00 − $43,560.00 = $13,640.00.",
+    "numericAnswer": {
+      "value": 13640,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-04",
+    "kind": "calculation",
+    "term": "$14,260.00",
+    "definition": "A $92,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $16,100.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$10,465.00",
+      "$9,660.00",
+      "$4,600.00"
+    ],
+    "explanation": "Current stocks = $92,000.00 × 65% = $59,800.00. After withdrawal, total = $75,900.00 and target stocks = $75,900.00 × 60% = $45,540.00. Stock sale = $59,800.00 − $45,540.00 = $14,260.00.",
+    "numericAnswer": {
+      "value": 14260,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-05",
+    "kind": "calculation",
+    "term": "$14,880.00",
+    "definition": "A $96,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $16,800.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$10,920.00",
+      "$10,080.00",
+      "$4,800.00"
+    ],
+    "explanation": "Current stocks = $96,000.00 × 65% = $62,400.00. After withdrawal, total = $79,200.00 and target stocks = $79,200.00 × 60% = $47,520.00. Stock sale = $62,400.00 − $47,520.00 = $14,880.00.",
+    "numericAnswer": {
+      "value": 14880,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-06",
+    "kind": "calculation",
+    "term": "$15,500.00",
+    "definition": "A $100,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $17,500.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$11,375.00",
+      "$10,500.00",
+      "$5,000.00"
+    ],
+    "explanation": "Current stocks = $100,000.00 × 65% = $65,000.00. After withdrawal, total = $82,500.00 and target stocks = $82,500.00 × 60% = $49,500.00. Stock sale = $65,000.00 − $49,500.00 = $15,500.00.",
+    "numericAnswer": {
+      "value": 15500,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-07",
+    "kind": "calculation",
+    "term": "$16,120.00",
+    "definition": "A $104,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $18,200.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$11,830.00",
+      "$10,920.00",
+      "$5,200.00"
+    ],
+    "explanation": "Current stocks = $104,000.00 × 65% = $67,600.00. After withdrawal, total = $85,800.00 and target stocks = $85,800.00 × 60% = $51,480.00. Stock sale = $67,600.00 − $51,480.00 = $16,120.00.",
+    "numericAnswer": {
+      "value": 16120,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-08",
+    "kind": "calculation",
+    "term": "$16,740.00",
+    "definition": "A $108,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $18,900.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$12,285.00",
+      "$11,340.00",
+      "$5,400.00"
+    ],
+    "explanation": "Current stocks = $108,000.00 × 65% = $70,200.00. After withdrawal, total = $89,100.00 and target stocks = $89,100.00 × 60% = $53,460.00. Stock sale = $70,200.00 − $53,460.00 = $16,740.00.",
+    "numericAnswer": {
+      "value": 16740,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-09",
+    "kind": "calculation",
+    "term": "$17,360.00",
+    "definition": "A $112,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $19,600.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$12,740.00",
+      "$11,760.00",
+      "$5,600.00"
+    ],
+    "explanation": "Current stocks = $112,000.00 × 65% = $72,800.00. After withdrawal, total = $92,400.00 and target stocks = $92,400.00 × 60% = $55,440.00. Stock sale = $72,800.00 − $55,440.00 = $17,360.00.",
+    "numericAnswer": {
+      "value": 17360,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-10",
+    "kind": "calculation",
+    "term": "$17,980.00",
+    "definition": "A $116,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $20,300.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$13,195.00",
+      "$12,180.00",
+      "$5,800.00"
+    ],
+    "explanation": "Current stocks = $116,000.00 × 65% = $75,400.00. After withdrawal, total = $95,700.00 and target stocks = $95,700.00 × 60% = $57,420.00. Stock sale = $75,400.00 − $57,420.00 = $17,980.00.",
+    "numericAnswer": {
+      "value": 17980,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-11",
+    "kind": "calculation",
+    "term": "$18,600.00",
+    "definition": "A $120,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $21,000.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$13,650.00",
+      "$12,600.00",
+      "$6,000.00"
+    ],
+    "explanation": "Current stocks = $120,000.00 × 65% = $78,000.00. After withdrawal, total = $99,000.00 and target stocks = $99,000.00 × 60% = $59,400.00. Stock sale = $78,000.00 − $59,400.00 = $18,600.00.",
+    "numericAnswer": {
+      "value": 18600,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-12",
+    "kind": "calculation",
+    "term": "$19,220.00",
+    "definition": "A $124,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $21,700.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$14,105.00",
+      "$13,020.00",
+      "$6,200.00"
+    ],
+    "explanation": "Current stocks = $124,000.00 × 65% = $80,600.00. After withdrawal, total = $102,300.00 and target stocks = $102,300.00 × 60% = $61,380.00. Stock sale = $80,600.00 − $61,380.00 = $19,220.00.",
+    "numericAnswer": {
+      "value": 19220,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-13",
+    "kind": "calculation",
+    "term": "$19,840.00",
+    "definition": "A $128,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $22,400.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$14,560.00",
+      "$13,440.00",
+      "$6,400.00"
+    ],
+    "explanation": "Current stocks = $128,000.00 × 65% = $83,200.00. After withdrawal, total = $105,600.00 and target stocks = $105,600.00 × 60% = $63,360.00. Stock sale = $83,200.00 − $63,360.00 = $19,840.00.",
+    "numericAnswer": {
+      "value": 19840,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-14",
+    "kind": "calculation",
+    "term": "$20,460.00",
+    "definition": "A $132,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $23,100.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$15,015.00",
+      "$13,860.00",
+      "$6,600.00"
+    ],
+    "explanation": "Current stocks = $132,000.00 × 65% = $85,800.00. After withdrawal, total = $108,900.00 and target stocks = $108,900.00 × 60% = $65,340.00. Stock sale = $85,800.00 − $65,340.00 = $20,460.00.",
+    "numericAnswer": {
+      "value": 20460,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-15",
+    "kind": "calculation",
+    "term": "$21,080.00",
+    "definition": "A $136,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $23,800.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$15,470.00",
+      "$14,280.00",
+      "$6,800.00"
+    ],
+    "explanation": "Current stocks = $136,000.00 × 65% = $88,400.00. After withdrawal, total = $112,200.00 and target stocks = $112,200.00 × 60% = $67,320.00. Stock sale = $88,400.00 − $67,320.00 = $21,080.00.",
+    "numericAnswer": {
+      "value": 21080,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-16",
+    "kind": "calculation",
+    "term": "$21,700.00",
+    "definition": "A $140,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $24,500.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$15,925.00",
+      "$14,700.00",
+      "$7,000.00"
+    ],
+    "explanation": "Current stocks = $140,000.00 × 65% = $91,000.00. After withdrawal, total = $115,500.00 and target stocks = $115,500.00 × 60% = $69,300.00. Stock sale = $91,000.00 − $69,300.00 = $21,700.00.",
+    "numericAnswer": {
+      "value": 21700,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-17",
+    "kind": "calculation",
+    "term": "$22,320.00",
+    "definition": "A $144,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $25,200.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$16,380.00",
+      "$15,120.00",
+      "$7,200.00"
+    ],
+    "explanation": "Current stocks = $144,000.00 × 65% = $93,600.00. After withdrawal, total = $118,800.00 and target stocks = $118,800.00 × 60% = $71,280.00. Stock sale = $93,600.00 − $71,280.00 = $22,320.00.",
+    "numericAnswer": {
+      "value": 22320,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-18",
+    "kind": "calculation",
+    "term": "$22,940.00",
+    "definition": "A $148,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $25,900.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$16,835.00",
+      "$15,540.00",
+      "$7,400.00"
+    ],
+    "explanation": "Current stocks = $148,000.00 × 65% = $96,200.00. After withdrawal, total = $122,100.00 and target stocks = $122,100.00 × 60% = $73,260.00. Stock sale = $96,200.00 − $73,260.00 = $22,940.00.",
+    "numericAnswer": {
+      "value": 22940,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-19",
+    "kind": "calculation",
+    "term": "$23,560.00",
+    "definition": "A $152,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $26,600.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$17,290.00",
+      "$15,960.00",
+      "$7,600.00"
+    ],
+    "explanation": "Current stocks = $152,000.00 × 65% = $98,800.00. After withdrawal, total = $125,400.00 and target stocks = $125,400.00 × 60% = $75,240.00. Stock sale = $98,800.00 − $75,240.00 = $23,560.00.",
+    "numericAnswer": {
+      "value": 23560,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-withdrawal-and-target-allocation-20",
+    "kind": "calculation",
+    "term": "$24,180.00",
+    "definition": "A $156,000.00 portfolio is 65% stocks and 35% bonds. An investor withdraws $27,300.00 and wants the remaining portfolio to be 60% stocks. Assume unchanged prices, no tax or fees, and the withdrawal is funded by selling both assets in the necessary amounts. How much stock should be sold?",
+    "distractors": [
+      "$17,745.00",
+      "$16,380.00",
+      "$7,800.00"
+    ],
+    "explanation": "Current stocks = $156,000.00 × 65% = $101,400.00. After withdrawal, total = $128,700.00 and target stocks = $128,700.00 × 60% = $77,220.00. Stock sale = $101,400.00 − $77,220.00 = $24,180.00.",
+    "numericAnswer": {
+      "value": 24180,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-01",
+    "kind": "calculation",
+    "term": "$84.00",
+    "definition": "An investor earmarks 35.0% of $7,200.00 for an ETF priced at $87.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$2,520.00",
+      "$4,764.00",
+      "-$3.00"
+    ],
+    "explanation": "ETF budget = $7,200.00 × 35% = $2,520.00. Whole shares = floor($2,520.00 ÷ $87.00) = 28. Unspent earmarked cash = $2,520.00 − 28 × $87.00 = $84.00.",
+    "numericAnswer": {
+      "value": 84,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-02",
+    "kind": "calculation",
+    "term": "$10.80",
+    "definition": "An investor earmarks 36.0% of $7,530.00 for an ETF priced at $90.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$2,710.80",
+      "$4,830.00",
+      "-$79.20"
+    ],
+    "explanation": "ETF budget = $7,530.00 × 36% = $2,710.80. Whole shares = floor($2,710.80 ÷ $90.00) = 30. Unspent earmarked cash = $2,710.80 − 30 × $90.00 = $10.80.",
+    "numericAnswer": {
+      "value": 10.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-03",
+    "kind": "calculation",
+    "term": "$25.20",
+    "definition": "An investor earmarks 37.0% of $7,860.00 for an ETF priced at $93.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$2,908.20",
+      "$4,977.00",
+      "-$67.80"
+    ],
+    "explanation": "ETF budget = $7,860.00 × 37% = $2,908.20. Whole shares = floor($2,908.20 ÷ $93.00) = 31. Unspent earmarked cash = $2,908.20 − 31 × $93.00 = $25.20.",
+    "numericAnswer": {
+      "value": 25.2,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-04",
+    "kind": "calculation",
+    "term": "$40.20",
+    "definition": "An investor earmarks 38.0% of $8,190.00 for an ETF priced at $96.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$3,112.20",
+      "$5,118.00",
+      "-$55.80"
+    ],
+    "explanation": "ETF budget = $8,190.00 × 38% = $3,112.20. Whole shares = floor($3,112.20 ÷ $96.00) = 32. Unspent earmarked cash = $3,112.20 − 32 × $96.00 = $40.20.",
+    "numericAnswer": {
+      "value": 40.2,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-05",
+    "kind": "calculation",
+    "term": "$55.80",
+    "definition": "An investor earmarks 39.0% of $8,520.00 for an ETF priced at $99.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$3,322.80",
+      "$5,253.00",
+      "-$43.20"
+    ],
+    "explanation": "ETF budget = $8,520.00 × 39% = $3,322.80. Whole shares = floor($3,322.80 ÷ $99.00) = 33. Unspent earmarked cash = $3,322.80 − 33 × $99.00 = $55.80.",
+    "numericAnswer": {
+      "value": 55.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-06",
+    "kind": "calculation",
+    "term": "$72.00",
+    "definition": "An investor earmarks 40.0% of $8,850.00 for an ETF priced at $102.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$3,540.00",
+      "$5,382.00",
+      "-$30.00"
+    ],
+    "explanation": "ETF budget = $8,850.00 × 40% = $3,540.00. Whole shares = floor($3,540.00 ÷ $102.00) = 34. Unspent earmarked cash = $3,540.00 − 34 × $102.00 = $72.00.",
+    "numericAnswer": {
+      "value": 72,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-07",
+    "kind": "calculation",
+    "term": "$88.80",
+    "definition": "An investor earmarks 41.0% of $9,180.00 for an ETF priced at $105.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$3,763.80",
+      "$5,505.00",
+      "-$16.20"
+    ],
+    "explanation": "ETF budget = $9,180.00 × 41% = $3,763.80. Whole shares = floor($3,763.80 ÷ $105.00) = 35. Unspent earmarked cash = $3,763.80 − 35 × $105.00 = $88.80.",
+    "numericAnswer": {
+      "value": 88.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-08",
+    "kind": "calculation",
+    "term": "$106.20",
+    "definition": "An investor earmarks 42.0% of $9,510.00 for an ETF priced at $108.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$3,994.20",
+      "$5,622.00",
+      "-$1.80"
+    ],
+    "explanation": "ETF budget = $9,510.00 × 42% = $3,994.20. Whole shares = floor($3,994.20 ÷ $108.00) = 36. Unspent earmarked cash = $3,994.20 − 36 × $108.00 = $106.20.",
+    "numericAnswer": {
+      "value": 106.2,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-09",
+    "kind": "calculation",
+    "term": "$13.20",
+    "definition": "An investor earmarks 43.0% of $9,840.00 for an ETF priced at $111.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$4,231.20",
+      "$5,622.00",
+      "-$97.80"
+    ],
+    "explanation": "ETF budget = $9,840.00 × 43% = $4,231.20. Whole shares = floor($4,231.20 ÷ $111.00) = 38. Unspent earmarked cash = $4,231.20 − 38 × $111.00 = $13.20.",
+    "numericAnswer": {
+      "value": 13.2,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-10",
+    "kind": "calculation",
+    "term": "$28.80",
+    "definition": "An investor earmarks 44.0% of $10,170.00 for an ETF priced at $114.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$4,474.80",
+      "$5,724.00",
+      "-$85.20"
+    ],
+    "explanation": "ETF budget = $10,170.00 × 44% = $4,474.80. Whole shares = floor($4,474.80 ÷ $114.00) = 39. Unspent earmarked cash = $4,474.80 − 39 × $114.00 = $28.80.",
+    "numericAnswer": {
+      "value": 28.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-11",
+    "kind": "calculation",
+    "term": "$45.00",
+    "definition": "An investor earmarks 45.0% of $10,500.00 for an ETF priced at $117.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$4,725.00",
+      "$5,820.00",
+      "-$72.00"
+    ],
+    "explanation": "ETF budget = $10,500.00 × 45% = $4,725.00. Whole shares = floor($4,725.00 ÷ $117.00) = 40. Unspent earmarked cash = $4,725.00 − 40 × $117.00 = $45.00.",
+    "numericAnswer": {
+      "value": 45,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-12",
+    "kind": "calculation",
+    "term": "$70.50",
+    "definition": "An investor earmarks 35.0% of $10,830.00 for an ETF priced at $120.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$3,790.50",
+      "$7,110.00",
+      "-$49.50"
+    ],
+    "explanation": "ETF budget = $10,830.00 × 35% = $3,790.50. Whole shares = floor($3,790.50 ÷ $120.00) = 31. Unspent earmarked cash = $3,790.50 − 31 × $120.00 = $70.50.",
+    "numericAnswer": {
+      "value": 70.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-13",
+    "kind": "calculation",
+    "term": "$81.60",
+    "definition": "An investor earmarks 36.0% of $11,160.00 for an ETF priced at $123.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$4,017.60",
+      "$7,224.00",
+      "-$41.40"
+    ],
+    "explanation": "ETF budget = $11,160.00 × 36% = $4,017.60. Whole shares = floor($4,017.60 ÷ $123.00) = 32. Unspent earmarked cash = $4,017.60 − 32 × $123.00 = $81.60.",
+    "numericAnswer": {
+      "value": 81.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-14",
+    "kind": "calculation",
+    "term": "$93.30",
+    "definition": "An investor earmarks 37.0% of $11,490.00 for an ETF priced at $126.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$4,251.30",
+      "$7,332.00",
+      "-$32.70"
+    ],
+    "explanation": "ETF budget = $11,490.00 × 37% = $4,251.30. Whole shares = floor($4,251.30 ÷ $126.00) = 33. Unspent earmarked cash = $4,251.30 − 33 × $126.00 = $93.30.",
+    "numericAnswer": {
+      "value": 93.3,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-15",
+    "kind": "calculation",
+    "term": "$105.60",
+    "definition": "An investor earmarks 38.0% of $11,820.00 for an ETF priced at $129.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$4,491.60",
+      "$7,434.00",
+      "-$23.40"
+    ],
+    "explanation": "ETF budget = $11,820.00 × 38% = $4,491.60. Whole shares = floor($4,491.60 ÷ $129.00) = 34. Unspent earmarked cash = $4,491.60 − 34 × $129.00 = $105.60.",
+    "numericAnswer": {
+      "value": 105.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-16",
+    "kind": "calculation",
+    "term": "$118.50",
+    "definition": "An investor earmarks 39.0% of $12,150.00 for an ETF priced at $132.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$4,738.50",
+      "$7,530.00",
+      "-$13.50"
+    ],
+    "explanation": "ETF budget = $12,150.00 × 39% = $4,738.50. Whole shares = floor($4,738.50 ÷ $132.00) = 35. Unspent earmarked cash = $4,738.50 − 35 × $132.00 = $118.50.",
+    "numericAnswer": {
+      "value": 118.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-17",
+    "kind": "calculation",
+    "term": "$132.00",
+    "definition": "An investor earmarks 40.0% of $12,480.00 for an ETF priced at $135.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$4,992.00",
+      "$7,620.00",
+      "-$3.00"
+    ],
+    "explanation": "ETF budget = $12,480.00 × 40% = $4,992.00. Whole shares = floor($4,992.00 ÷ $135.00) = 36. Unspent earmarked cash = $4,992.00 − 36 × $135.00 = $132.00.",
+    "numericAnswer": {
+      "value": 132,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-18",
+    "kind": "calculation",
+    "term": "$8.10",
+    "definition": "An investor earmarks 41.0% of $12,810.00 for an ETF priced at $138.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$5,252.10",
+      "$7,566.00",
+      "-$129.90"
+    ],
+    "explanation": "ETF budget = $12,810.00 × 41% = $5,252.10. Whole shares = floor($5,252.10 ÷ $138.00) = 38. Unspent earmarked cash = $5,252.10 − 38 × $138.00 = $8.10.",
+    "numericAnswer": {
+      "value": 8.1,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-19",
+    "kind": "calculation",
+    "term": "$19.80",
+    "definition": "An investor earmarks 42.0% of $13,140.00 for an ETF priced at $141.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$5,518.80",
+      "$7,641.00",
+      "-$121.20"
+    ],
+    "explanation": "ETF budget = $13,140.00 × 42% = $5,518.80. Whole shares = floor($5,518.80 ÷ $141.00) = 39. Unspent earmarked cash = $5,518.80 − 39 × $141.00 = $19.80.",
+    "numericAnswer": {
+      "value": 19.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-whole-share-allocation-cash-remainder-20",
+    "kind": "calculation",
+    "term": "$32.10",
+    "definition": "An investor earmarks 43.0% of $13,470.00 for an ETF priced at $144.00 per share. Fractional shares are unavailable and commissions are zero. After buying the maximum whole shares within that earmarked budget, how much of that budget remains as cash?",
+    "distractors": [
+      "$5,792.10",
+      "$7,710.00",
+      "-$111.90"
+    ],
+    "explanation": "ETF budget = $13,470.00 × 43% = $5,792.10. Whole shares = floor($5,792.10 ÷ $144.00) = 40. Unspent earmarked cash = $5,792.10 − 40 × $144.00 = $32.10.",
+    "numericAnswer": {
+      "value": 32.1,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-01",
+    "kind": "calculation",
+    "term": "6.56%",
+    "definition": "A two-asset model uses weight 35.0% in A and 65.0% in B. Their annual return standard deviations are 14.0% and 6.0%; correlation is 0.1. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "8.80%",
+      "43.04%",
+      "6.26%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.35² × 14.0² + 0.65² × 6.0² + 2 × 0.35 × 0.65 × 14.0 × 6.0 × 0.1 = 43.0420. Its square root is 6.56%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 6.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-02",
+    "kind": "calculation",
+    "term": "7.09%",
+    "definition": "A two-asset model uses weight 36.0% in A and 64.0% in B. Their annual return standard deviations are 14.4% and 6.1%; correlation is 0.2. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "9.09%",
+      "50.21%",
+      "6.49%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.36² × 14.4² + 0.64² × 6.1² + 2 × 0.36 × 0.64 × 14.4 × 6.1 × 0.2 = 50.2104. Its square root is 7.09%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 7.09,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-03",
+    "kind": "calculation",
+    "term": "7.62%",
+    "definition": "A two-asset model uses weight 37.0% in A and 63.0% in B. Their annual return standard deviations are 14.8% and 6.2%; correlation is 0.3. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "9.38%",
+      "58.08%",
+      "6.73%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.37² × 14.8² + 0.63² × 6.2² + 2 × 0.37 × 0.63 × 14.8 × 6.2 × 0.3 = 58.0770. Its square root is 7.62%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 7.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-04",
+    "kind": "calculation",
+    "term": "8.17%",
+    "definition": "A two-asset model uses weight 38.0% in A and 62.0% in B. Their annual return standard deviations are 15.2% and 6.3%; correlation is 0.4. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "9.68%",
+      "66.67%",
+      "6.97%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.38² × 15.2² + 0.62² × 6.3² + 2 × 0.38 × 0.62 × 15.2 × 6.3 × 0.4 = 66.6679. Its square root is 8.17%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 8.17,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-05",
+    "kind": "calculation",
+    "term": "7.55%",
+    "definition": "A two-asset model uses weight 39.0% in A and 61.0% in B. Their annual return standard deviations are 15.6% and 6.4%; correlation is 0.1. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "9.99%",
+      "57.01%",
+      "7.23%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.39² × 15.6² + 0.61² × 6.4² + 2 × 0.39 × 0.61 × 15.6 × 6.4 × 0.1 = 57.0067. Its square root is 7.55%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 7.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-06",
+    "kind": "calculation",
+    "term": "8.13%",
+    "definition": "A two-asset model uses weight 40.0% in A and 60.0% in B. Their annual return standard deviations are 16.0% and 6.5%; correlation is 0.2. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "10.30%",
+      "66.15%",
+      "7.49%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.40² × 16.0² + 0.60² × 6.5² + 2 × 0.40 × 0.60 × 16.0 × 6.5 × 0.2 = 66.1540. Its square root is 8.13%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 8.13,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-07",
+    "kind": "calculation",
+    "term": "8.72%",
+    "definition": "A two-asset model uses weight 41.0% in A and 59.0% in B. Their annual return standard deviations are 16.4% and 6.6%; correlation is 0.3. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "10.62%",
+      "76.09%",
+      "7.77%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.41² × 16.4² + 0.59² × 6.6² + 2 × 0.41 × 0.59 × 16.4 × 6.6 × 0.3 = 76.0854. Its square root is 8.72%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 8.72,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-08",
+    "kind": "calculation",
+    "term": "9.32%",
+    "definition": "A two-asset model uses weight 42.0% in A and 58.0% in B. Their annual return standard deviations are 16.8% and 6.7%; correlation is 0.4. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "10.94%",
+      "86.82%",
+      "8.06%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.42² × 16.8² + 0.58² × 6.7² + 2 × 0.42 × 0.58 × 16.8 × 6.7 × 0.4 = 86.8238. Its square root is 9.32%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 9.32,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-09",
+    "kind": "calculation",
+    "term": "8.69%",
+    "definition": "A two-asset model uses weight 43.0% in A and 57.0% in B. Their annual return standard deviations are 17.2% and 6.8%; correlation is 0.1. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "11.27%",
+      "75.46%",
+      "8.35%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.43² × 17.2² + 0.57² × 6.8² + 2 × 0.43 × 0.57 × 17.2 × 6.8 × 0.1 = 75.4576. Its square root is 8.69%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 8.69,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-10",
+    "kind": "calculation",
+    "term": "9.32%",
+    "definition": "A two-asset model uses weight 44.0% in A and 56.0% in B. Their annual return standard deviations are 17.6% and 6.9%; correlation is 0.2. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "11.61%",
+      "86.87%",
+      "8.65%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.44² × 17.6² + 0.56² × 6.9² + 2 × 0.44 × 0.56 × 17.6 × 6.9 × 0.2 = 86.8692. Its square root is 9.32%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 9.32,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-11",
+    "kind": "calculation",
+    "term": "9.96%",
+    "definition": "A two-asset model uses weight 45.0% in A and 55.0% in B. Their annual return standard deviations are 18.0% and 7.0%; correlation is 0.3. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "11.95%",
+      "99.14%",
+      "8.97%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.45² × 18.0² + 0.55² × 7.0² + 2 × 0.45 × 0.55 × 18.0 × 7.0 × 0.3 = 99.1435. Its square root is 9.96%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 9.96,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-12",
+    "kind": "calculation",
+    "term": "10.60%",
+    "definition": "A two-asset model uses weight 46.0% in A and 54.0% in B. Their annual return standard deviations are 18.4% and 7.1%; correlation is 0.4. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "12.30%",
+      "112.30%",
+      "9.29%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.46² × 18.4² + 0.54² × 7.1² + 2 × 0.46 × 0.54 × 18.4 × 7.1 × 0.4 = 112.2996. Its square root is 10.60%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 10.6,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-13",
+    "kind": "calculation",
+    "term": "9.97%",
+    "definition": "A two-asset model uses weight 47.0% in A and 53.0% in B. Their annual return standard deviations are 18.8% and 7.2%; correlation is 0.1. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "12.65%",
+      "99.38%",
+      "9.62%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.47² × 18.8² + 0.53² × 7.2² + 2 × 0.47 × 0.53 × 18.8 × 7.2 × 0.1 = 99.3804. Its square root is 9.97%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 9.97,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-14",
+    "kind": "calculation",
+    "term": "10.65%",
+    "definition": "A two-asset model uses weight 48.0% in A and 52.0% in B. Their annual return standard deviations are 19.2% and 7.3%; correlation is 0.2. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "13.01%",
+      "113.34%",
+      "9.97%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.48² × 19.2² + 0.52² × 7.3² + 2 × 0.48 × 0.52 × 19.2 × 7.3 × 0.2 = 113.3378. Its square root is 10.65%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 10.65,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-15",
+    "kind": "calculation",
+    "term": "11.32%",
+    "definition": "A two-asset model uses weight 49.0% in A and 51.0% in B. Their annual return standard deviations are 19.6% and 7.4%; correlation is 0.3. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "13.38%",
+      "128.23%",
+      "10.32%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.49² × 19.6² + 0.51² × 7.4² + 2 × 0.49 × 0.51 × 19.6 × 7.4 × 0.3 = 128.2272. Its square root is 11.32%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 11.32,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-16",
+    "kind": "calculation",
+    "term": "12.00%",
+    "definition": "A two-asset model uses weight 50.0% in A and 50.0% in B. Their annual return standard deviations are 20.0% and 7.5%; correlation is 0.4. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "13.75%",
+      "144.06%",
+      "10.68%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.50² × 20.0² + 0.50² × 7.5² + 2 × 0.50 × 0.50 × 20.0 × 7.5 × 0.4 = 144.0625. Its square root is 12.00%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 12,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-17",
+    "kind": "calculation",
+    "term": "11.40%",
+    "definition": "A two-asset model uses weight 51.0% in A and 49.0% in B. Their annual return standard deviations are 20.4% and 7.6%; correlation is 0.1. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "14.13%",
+      "129.86%",
+      "11.05%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.51² × 20.4² + 0.49² × 7.6² + 2 × 0.51 × 0.49 × 20.4 × 7.6 × 0.1 = 129.8603. Its square root is 11.40%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 11.4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-18",
+    "kind": "calculation",
+    "term": "12.11%",
+    "definition": "A two-asset model uses weight 52.0% in A and 48.0% in B. Their annual return standard deviations are 20.8% and 7.7%; correlation is 0.2. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "14.51%",
+      "146.64%",
+      "11.43%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.52² × 20.8² + 0.48² × 7.7² + 2 × 0.52 × 0.48 × 20.8 × 7.7 × 0.2 = 146.6366. Its square root is 12.11%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 12.11,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-19",
+    "kind": "calculation",
+    "term": "12.82%",
+    "definition": "A two-asset model uses weight 53.0% in A and 47.0% in B. Their annual return standard deviations are 21.2% and 7.8%; correlation is 0.3. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "14.90%",
+      "164.40%",
+      "11.82%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.53² × 21.2² + 0.47² × 7.8² + 2 × 0.53 × 0.47 × 21.2 × 7.8 × 0.3 = 164.4020. Its square root is 12.82%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 12.82,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-two-asset-portfolio-volatility-20",
+    "kind": "calculation",
+    "term": "13.53%",
+    "definition": "A two-asset model uses weight 54.0% in A and 46.0% in B. Their annual return standard deviations are 21.6% and 7.9%; correlation is 0.4. Using portfolio variance = wA²σA² + wB²σB² + 2wAwBσAσBρ, what is modeled annual portfolio standard deviation? Round to 2 decimal places.",
+    "distractors": [
+      "15.30%",
+      "183.16%",
+      "12.22%"
+    ],
+    "explanation": "Using standard deviations in percentage units, variance = 0.54² × 21.6² + 0.46² × 7.9² + 2 × 0.54 × 0.46 × 21.6 × 7.9 × 0.4 = 183.1644. Its square root is 13.53%. This is a model based on assumed inputs.",
+    "numericAnswer": {
+      "value": 13.53,
+      "unit": "%"
+    }
+  }
+]

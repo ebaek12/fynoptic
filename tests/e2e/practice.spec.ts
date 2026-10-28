@@ -178,17 +178,17 @@ test("clicking a bank card selects it and updates body[data-cat] (I3)", async ({
   await expect(page.locator("body")).toHaveAttribute("data-cat", "Economics");
 });
 
-// Each topic chip gains a trailing count (§7.4). Personal Finance's 6 topics
-// sum to 390 questions across its three difficulty buckets (§7.1) — summing
+// Each topic chip gains a trailing count. Personal Finance's 36 topics
+// sum to 4,290 questions across its three difficulty buckets — summing
 // the rendered counts is a stronger check than just "some number renders".
 test("topic chips show per-topic question counts", async ({ page }) => {
   await goToStep2(page);
   const counts = await page
     .locator("#topics-list .topic-btn-count")
     .allTextContents();
-  expect(counts).toHaveLength(6); // Personal Finance is the default category
+  expect(counts).toHaveLength(36); // Personal Finance is the default category
   const sum = counts.reduce((total, c) => total + Number(c), 0);
-  expect(sum).toBe(390);
+  expect(sum).toBe(4290);
 });
 
 // §7.4: role="checkbox" now pairs with aria-checked, not the mismatched

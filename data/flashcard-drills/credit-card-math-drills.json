@@ -1,0 +1,2882 @@
+[
+  {
+    "id": "drill-cash-card-monthly-interest-model-01",
+    "kind": "calculation",
+    "term": "$11.25",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $900.00 balance times a 15.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest?",
+    "distractors": [
+      "$135.00",
+      "$0.37",
+      "$911.25"
+    ],
+    "explanation": "Monthly interest = $900.00 × (15/100 ÷ 12) = $11.25.",
+    "numericAnswer": {
+      "value": 11.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-02",
+    "kind": "calculation",
+    "term": "$13.47",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $1,010.00 balance times a 16.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest? Round to the nearest cent.",
+    "distractors": [
+      "$161.60",
+      "$0.44",
+      "$1,023.47"
+    ],
+    "explanation": "Monthly interest = $1,010.00 × (16/100 ÷ 12) = $13.47.",
+    "numericAnswer": {
+      "value": 13.47,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-03",
+    "kind": "calculation",
+    "term": "$15.87",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $1,120.00 balance times a 17.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest? Round to the nearest cent.",
+    "distractors": [
+      "$190.40",
+      "$0.52",
+      "$1,135.87"
+    ],
+    "explanation": "Monthly interest = $1,120.00 × (17/100 ÷ 12) = $15.87.",
+    "numericAnswer": {
+      "value": 15.87,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-04",
+    "kind": "calculation",
+    "term": "$18.45",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $1,230.00 balance times a 18.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest?",
+    "distractors": [
+      "$221.40",
+      "$0.61",
+      "$1,248.45"
+    ],
+    "explanation": "Monthly interest = $1,230.00 × (18/100 ÷ 12) = $18.45.",
+    "numericAnswer": {
+      "value": 18.45,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-05",
+    "kind": "calculation",
+    "term": "$21.22",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $1,340.00 balance times a 19.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest? Round to the nearest cent.",
+    "distractors": [
+      "$254.60",
+      "$0.70",
+      "$1,361.22"
+    ],
+    "explanation": "Monthly interest = $1,340.00 × (19/100 ÷ 12) = $21.22.",
+    "numericAnswer": {
+      "value": 21.22,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-06",
+    "kind": "calculation",
+    "term": "$24.17",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $1,450.00 balance times a 20.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest? Round to the nearest cent.",
+    "distractors": [
+      "$290.00",
+      "$0.79",
+      "$1,474.17"
+    ],
+    "explanation": "Monthly interest = $1,450.00 × (20/100 ÷ 12) = $24.17.",
+    "numericAnswer": {
+      "value": 24.17,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-07",
+    "kind": "calculation",
+    "term": "$27.30",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $1,560.00 balance times a 21.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest?",
+    "distractors": [
+      "$327.60",
+      "$0.90",
+      "$1,587.30"
+    ],
+    "explanation": "Monthly interest = $1,560.00 × (21/100 ÷ 12) = $27.30.",
+    "numericAnswer": {
+      "value": 27.3,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-08",
+    "kind": "calculation",
+    "term": "$30.62",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $1,670.00 balance times a 22.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest? Round to the nearest cent.",
+    "distractors": [
+      "$367.40",
+      "$1.01",
+      "$1,700.62"
+    ],
+    "explanation": "Monthly interest = $1,670.00 × (22/100 ÷ 12) = $30.62.",
+    "numericAnswer": {
+      "value": 30.62,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-09",
+    "kind": "calculation",
+    "term": "$34.12",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $1,780.00 balance times a 23.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest? Round to the nearest cent.",
+    "distractors": [
+      "$409.40",
+      "$1.12",
+      "$1,814.12"
+    ],
+    "explanation": "Monthly interest = $1,780.00 × (23/100 ÷ 12) = $34.12.",
+    "numericAnswer": {
+      "value": 34.12,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-10",
+    "kind": "calculation",
+    "term": "$37.80",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $1,890.00 balance times a 24.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest?",
+    "distractors": [
+      "$453.60",
+      "$1.24",
+      "$1,927.80"
+    ],
+    "explanation": "Monthly interest = $1,890.00 × (24/100 ÷ 12) = $37.80.",
+    "numericAnswer": {
+      "value": 37.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-11",
+    "kind": "calculation",
+    "term": "$25.00",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $2,000.00 balance times a 15.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest?",
+    "distractors": [
+      "$300.00",
+      "$0.82",
+      "$2,025.00"
+    ],
+    "explanation": "Monthly interest = $2,000.00 × (15/100 ÷ 12) = $25.00.",
+    "numericAnswer": {
+      "value": 25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-12",
+    "kind": "calculation",
+    "term": "$28.13",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $2,110.00 balance times a 16.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest? Round to the nearest cent.",
+    "distractors": [
+      "$337.60",
+      "$0.92",
+      "$2,138.13"
+    ],
+    "explanation": "Monthly interest = $2,110.00 × (16/100 ÷ 12) = $28.13.",
+    "numericAnswer": {
+      "value": 28.13,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-13",
+    "kind": "calculation",
+    "term": "$31.45",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $2,220.00 balance times a 17.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest?",
+    "distractors": [
+      "$377.40",
+      "$1.03",
+      "$2,251.45"
+    ],
+    "explanation": "Monthly interest = $2,220.00 × (17/100 ÷ 12) = $31.45.",
+    "numericAnswer": {
+      "value": 31.45,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-14",
+    "kind": "calculation",
+    "term": "$34.95",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $2,330.00 balance times a 18.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest?",
+    "distractors": [
+      "$419.40",
+      "$1.15",
+      "$2,364.95"
+    ],
+    "explanation": "Monthly interest = $2,330.00 × (18/100 ÷ 12) = $34.95.",
+    "numericAnswer": {
+      "value": 34.95,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-15",
+    "kind": "calculation",
+    "term": "$38.63",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $2,440.00 balance times a 19.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest? Round to the nearest cent.",
+    "distractors": [
+      "$463.60",
+      "$1.27",
+      "$2,478.63"
+    ],
+    "explanation": "Monthly interest = $2,440.00 × (19/100 ÷ 12) = $38.63.",
+    "numericAnswer": {
+      "value": 38.63,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-16",
+    "kind": "calculation",
+    "term": "$42.50",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $2,550.00 balance times a 20.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest?",
+    "distractors": [
+      "$510.00",
+      "$1.40",
+      "$2,592.50"
+    ],
+    "explanation": "Monthly interest = $2,550.00 × (20/100 ÷ 12) = $42.50.",
+    "numericAnswer": {
+      "value": 42.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-17",
+    "kind": "calculation",
+    "term": "$46.55",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $2,660.00 balance times a 21.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest?",
+    "distractors": [
+      "$558.60",
+      "$1.53",
+      "$2,706.55"
+    ],
+    "explanation": "Monthly interest = $2,660.00 × (21/100 ÷ 12) = $46.55.",
+    "numericAnswer": {
+      "value": 46.55,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-18",
+    "kind": "calculation",
+    "term": "$50.78",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $2,770.00 balance times a 22.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest? Round to the nearest cent.",
+    "distractors": [
+      "$609.40",
+      "$1.67",
+      "$2,820.78"
+    ],
+    "explanation": "Monthly interest = $2,770.00 × (22/100 ÷ 12) = $50.78.",
+    "numericAnswer": {
+      "value": 50.78,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-19",
+    "kind": "calculation",
+    "term": "$55.20",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $2,880.00 balance times a 23.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest?",
+    "distractors": [
+      "$662.40",
+      "$1.81",
+      "$2,935.20"
+    ],
+    "explanation": "Monthly interest = $2,880.00 × (23/100 ÷ 12) = $55.20.",
+    "numericAnswer": {
+      "value": 55.2,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-monthly-interest-model-20",
+    "kind": "calculation",
+    "term": "$59.80",
+    "definition": "For this simplified card exercise, monthly interest equals an unchanged $2,990.00 balance times a 24.0% APR divided by 12. There is no grace period, compounding within the month, or fee. What is one month's interest?",
+    "distractors": [
+      "$717.60",
+      "$1.97",
+      "$3,049.80"
+    ],
+    "explanation": "Monthly interest = $2,990.00 × (24/100 ÷ 12) = $59.80.",
+    "numericAnswer": {
+      "value": 59.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-01",
+    "kind": "calculation",
+    "term": "$15.04",
+    "definition": "In a 30-day card cycle, the balance is $1,200.00 for 8 days and, after a payment, $950.00 for the remaining 22 days. Interest equals average daily balance × (18.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$17.75",
+      "$14.05",
+      "$15.90"
+    ],
+    "explanation": "Average daily balance = ($1,200.00 × 8 + $950.00 × 22) ÷ 30 = $1,016.67. Interest = that unrounded average × 18/100 ÷ 365 × 30 = $15.04.",
+    "numericAnswer": {
+      "value": 15.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-02",
+    "kind": "calculation",
+    "term": "$17.07",
+    "definition": "In a 30-day card cycle, the balance is $1,275.00 for 9 days and, after a payment, $1,015.00 for the remaining 21 days. Interest equals average daily balance × (19.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$19.91",
+      "$15.85",
+      "$17.88"
+    ],
+    "explanation": "Average daily balance = ($1,275.00 × 9 + $1,015.00 × 21) ÷ 30 = $1,093.00. Interest = that unrounded average × 19/100 ÷ 365 × 30 = $17.07.",
+    "numericAnswer": {
+      "value": 17.07,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-03",
+    "kind": "calculation",
+    "term": "$19.23",
+    "definition": "In a 30-day card cycle, the balance is $1,350.00 for 10 days and, after a payment, $1,080.00 for the remaining 20 days. Interest equals average daily balance × (20.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$22.19",
+      "$17.75",
+      "$19.97"
+    ],
+    "explanation": "Average daily balance = ($1,350.00 × 10 + $1,080.00 × 20) ÷ 30 = $1,170.00. Interest = that unrounded average × 20/100 ÷ 365 × 30 = $19.23.",
+    "numericAnswer": {
+      "value": 19.23,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-04",
+    "kind": "calculation",
+    "term": "$21.54",
+    "definition": "In a 30-day card cycle, the balance is $1,425.00 for 11 days and, after a payment, $1,145.00 for the remaining 19 days. Interest equals average daily balance × (21.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$24.60",
+      "$19.76",
+      "$22.18"
+    ],
+    "explanation": "Average daily balance = ($1,425.00 × 11 + $1,145.00 × 19) ÷ 30 = $1,247.67. Interest = that unrounded average × 21/100 ÷ 365 × 30 = $21.54.",
+    "numericAnswer": {
+      "value": 21.54,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-05",
+    "kind": "calculation",
+    "term": "$23.98",
+    "definition": "In a 30-day card cycle, the balance is $1,500.00 for 12 days and, after a payment, $1,210.00 for the remaining 18 days. Interest equals average daily balance × (22.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$27.12",
+      "$21.88",
+      "$24.50"
+    ],
+    "explanation": "Average daily balance = ($1,500.00 × 12 + $1,210.00 × 18) ÷ 30 = $1,326.00. Interest = that unrounded average × 22/100 ÷ 365 × 30 = $23.98.",
+    "numericAnswer": {
+      "value": 23.98,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-06",
+    "kind": "calculation",
+    "term": "$26.56",
+    "definition": "In a 30-day card cycle, the balance is $1,575.00 for 13 days and, after a payment, $1,275.00 for the remaining 17 days. Interest equals average daily balance × (23.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$29.77",
+      "$24.10",
+      "$26.94"
+    ],
+    "explanation": "Average daily balance = ($1,575.00 × 13 + $1,275.00 × 17) ÷ 30 = $1,405.00. Interest = that unrounded average × 23/100 ÷ 365 × 30 = $26.56.",
+    "numericAnswer": {
+      "value": 26.56,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-07",
+    "kind": "calculation",
+    "term": "$29.29",
+    "definition": "In a 30-day card cycle, the balance is $1,650.00 for 14 days and, after a payment, $1,340.00 for the remaining 16 days. Interest equals average daily balance × (24.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$32.55",
+      "$26.43",
+      "$29.49"
+    ],
+    "explanation": "Average daily balance = ($1,650.00 × 14 + $1,340.00 × 16) ÷ 30 = $1,484.67. Interest = that unrounded average × 24/100 ÷ 365 × 30 = $29.29.",
+    "numericAnswer": {
+      "value": 29.29,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-08",
+    "kind": "calculation",
+    "term": "$23.15",
+    "definition": "In a 30-day card cycle, the balance is $1,725.00 for 15 days and, after a payment, $1,405.00 for the remaining 15 days. Interest equals average daily balance × (18.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$25.52",
+      "$20.79",
+      "$23.48"
+    ],
+    "explanation": "Average daily balance = ($1,725.00 × 15 + $1,405.00 × 15) ÷ 30 = $1,565.00. Interest = that unrounded average × 18/100 ÷ 365 × 30 = $23.15.",
+    "numericAnswer": {
+      "value": 23.15,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-09",
+    "kind": "calculation",
+    "term": "$25.70",
+    "definition": "In a 30-day card cycle, the balance is $1,800.00 for 16 days and, after a payment, $1,470.00 for the remaining 14 days. Interest equals average daily balance × (19.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$28.11",
+      "$22.96",
+      "$25.53"
+    ],
+    "explanation": "Average daily balance = ($1,800.00 × 16 + $1,470.00 × 14) ÷ 30 = $1,646.00. Interest = that unrounded average × 19/100 ÷ 365 × 30 = $25.70.",
+    "numericAnswer": {
+      "value": 25.7,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-10",
+    "kind": "calculation",
+    "term": "$28.40",
+    "definition": "In a 30-day card cycle, the balance is $1,875.00 for 17 days and, after a payment, $1,535.00 for the remaining 13 days. Interest equals average daily balance × (20.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest?",
+    "distractors": [
+      "$30.82",
+      "$25.23",
+      "$28.03"
+    ],
+    "explanation": "Average daily balance = ($1,875.00 × 17 + $1,535.00 × 13) ÷ 30 = $1,727.67. Interest = that unrounded average × 20/100 ÷ 365 × 30 = $28.40.",
+    "numericAnswer": {
+      "value": 28.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-11",
+    "kind": "calculation",
+    "term": "$31.24",
+    "definition": "In a 30-day card cycle, the balance is $1,950.00 for 18 days and, after a payment, $1,600.00 for the remaining 12 days. Interest equals average daily balance × (21.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$33.66",
+      "$27.62",
+      "$30.64"
+    ],
+    "explanation": "Average daily balance = ($1,950.00 × 18 + $1,600.00 × 12) ÷ 30 = $1,810.00. Interest = that unrounded average × 21/100 ÷ 365 × 30 = $31.24.",
+    "numericAnswer": {
+      "value": 31.24,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-12",
+    "kind": "calculation",
+    "term": "$34.23",
+    "definition": "In a 30-day card cycle, the balance is $2,025.00 for 19 days and, after a payment, $1,665.00 for the remaining 11 days. Interest equals average daily balance × (22.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$36.62",
+      "$30.11",
+      "$33.36"
+    ],
+    "explanation": "Average daily balance = ($2,025.00 × 19 + $1,665.00 × 11) ÷ 30 = $1,893.00. Interest = that unrounded average × 22/100 ÷ 365 × 30 = $34.23.",
+    "numericAnswer": {
+      "value": 34.23,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-13",
+    "kind": "calculation",
+    "term": "$34.57",
+    "definition": "In a 30-day card cycle, the balance is $2,100.00 for 8 days and, after a payment, $1,730.00 for the remaining 22 days. Interest equals average daily balance × (23.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$39.70",
+      "$32.70",
+      "$36.20"
+    ],
+    "explanation": "Average daily balance = ($2,100.00 × 8 + $1,730.00 × 22) ÷ 30 = $1,828.67. Interest = that unrounded average × 23/100 ÷ 365 × 30 = $34.57.",
+    "numericAnswer": {
+      "value": 34.57,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-14",
+    "kind": "calculation",
+    "term": "$37.66",
+    "definition": "In a 30-day card cycle, the balance is $2,175.00 for 9 days and, after a payment, $1,795.00 for the remaining 21 days. Interest equals average daily balance × (24.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$42.90",
+      "$35.41",
+      "$39.16"
+    ],
+    "explanation": "Average daily balance = ($2,175.00 × 9 + $1,795.00 × 21) ÷ 30 = $1,909.00. Interest = that unrounded average × 24/100 ÷ 365 × 30 = $37.66.",
+    "numericAnswer": {
+      "value": 37.66,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-15",
+    "kind": "calculation",
+    "term": "$29.44",
+    "definition": "In a 30-day card cycle, the balance is $2,250.00 for 10 days and, after a payment, $1,860.00 for the remaining 20 days. Interest equals average daily balance × (18.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$33.29",
+      "$27.52",
+      "$30.40"
+    ],
+    "explanation": "Average daily balance = ($2,250.00 × 10 + $1,860.00 × 20) ÷ 30 = $1,990.00. Interest = that unrounded average × 18/100 ÷ 365 × 30 = $29.44.",
+    "numericAnswer": {
+      "value": 29.44,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-16",
+    "kind": "calculation",
+    "term": "$32.35",
+    "definition": "In a 30-day card cycle, the balance is $2,325.00 for 11 days and, after a payment, $1,925.00 for the remaining 19 days. Interest equals average daily balance × (19.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$36.31",
+      "$30.06",
+      "$33.18"
+    ],
+    "explanation": "Average daily balance = ($2,325.00 × 11 + $1,925.00 × 19) ÷ 30 = $2,071.67. Interest = that unrounded average × 19/100 ÷ 365 × 30 = $32.35.",
+    "numericAnswer": {
+      "value": 32.35,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-17",
+    "kind": "calculation",
+    "term": "$35.41",
+    "definition": "In a 30-day card cycle, the balance is $2,400.00 for 12 days and, after a payment, $1,990.00 for the remaining 18 days. Interest equals average daily balance × (20.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$39.45",
+      "$32.71",
+      "$36.08"
+    ],
+    "explanation": "Average daily balance = ($2,400.00 × 12 + $1,990.00 × 18) ÷ 30 = $2,154.00. Interest = that unrounded average × 20/100 ÷ 365 × 30 = $35.41.",
+    "numericAnswer": {
+      "value": 35.41,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-18",
+    "kind": "calculation",
+    "term": "$38.61",
+    "definition": "In a 30-day card cycle, the balance is $2,475.00 for 13 days and, after a payment, $2,055.00 for the remaining 17 days. Interest equals average daily balance × (21.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$42.72",
+      "$35.47",
+      "$39.09"
+    ],
+    "explanation": "Average daily balance = ($2,475.00 × 13 + $2,055.00 × 17) ÷ 30 = $2,237.00. Interest = that unrounded average × 21/100 ÷ 365 × 30 = $38.61.",
+    "numericAnswer": {
+      "value": 38.61,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-19",
+    "kind": "calculation",
+    "term": "$41.96",
+    "definition": "In a 30-day card cycle, the balance is $2,550.00 for 14 days and, after a payment, $2,120.00 for the remaining 16 days. Interest equals average daily balance × (22.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$46.11",
+      "$38.33",
+      "$42.22"
+    ],
+    "explanation": "Average daily balance = ($2,550.00 × 14 + $2,120.00 × 16) ÷ 30 = $2,320.67. Interest = that unrounded average × 22/100 ÷ 365 × 30 = $41.96.",
+    "numericAnswer": {
+      "value": 41.96,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-average-daily-balance-20",
+    "kind": "calculation",
+    "term": "$45.46",
+    "definition": "In a 30-day card cycle, the balance is $2,625.00 for 15 days and, after a payment, $2,185.00 for the remaining 15 days. Interest equals average daily balance × (23.0% APR ÷ 365) × 30. There is no grace period or daily compounding. What is the cycle's interest? Round to the nearest cent.",
+    "distractors": [
+      "$49.62",
+      "$41.31",
+      "$46.10"
+    ],
+    "explanation": "Average daily balance = ($2,625.00 × 15 + $2,185.00 × 15) ÷ 30 = $2,405.00. Interest = that unrounded average × 23/100 ÷ 365 × 30 = $45.46.",
+    "numericAnswer": {
+      "value": 45.46,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-01",
+    "kind": "calculation",
+    "term": "$30.00",
+    "definition": "A hypothetical card's minimum is the larger of $30.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $600.00, interest is $14.00, and fees are $5.00; the total owed exceeds either minimum. What payment is required?",
+    "distractors": [
+      "$9.00",
+      "$23.00",
+      "$9.29"
+    ],
+    "explanation": "Formula amount = $600.00 × 1.5% + $14.00 + $5.00 = $28.00. The larger of $30.00 and $28.00 is $30.00.",
+    "numericAnswer": {
+      "value": 30,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-02",
+    "kind": "calculation",
+    "term": "$33.03",
+    "definition": "A hypothetical card's minimum is the larger of $31.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $735.00, interest is $16.00, and fees are $6.00; the total owed exceeds either minimum. What payment is required? Round to the nearest cent.",
+    "distractors": [
+      "$11.03",
+      "$27.03",
+      "$11.36"
+    ],
+    "explanation": "Formula amount = $735.00 × 1.5% + $16.00 + $6.00 = $33.03. The larger of $31.00 and $33.03 is $33.03.",
+    "numericAnswer": {
+      "value": 33.03,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-03",
+    "kind": "calculation",
+    "term": "$38.05",
+    "definition": "A hypothetical card's minimum is the larger of $32.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $870.00, interest is $18.00, and fees are $7.00; the total owed exceeds either minimum. What payment is required?",
+    "distractors": [
+      "$13.05",
+      "$31.05",
+      "$13.43"
+    ],
+    "explanation": "Formula amount = $870.00 × 1.5% + $18.00 + $7.00 = $38.05. The larger of $32.00 and $38.05 is $38.05.",
+    "numericAnswer": {
+      "value": 38.05,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-04",
+    "kind": "calculation",
+    "term": "$43.08",
+    "definition": "A hypothetical card's minimum is the larger of $30.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $1,005.00, interest is $20.00, and fees are $8.00; the total owed exceeds either minimum. What payment is required? Round to the nearest cent.",
+    "distractors": [
+      "$15.08",
+      "$35.08",
+      "$15.50"
+    ],
+    "explanation": "Formula amount = $1,005.00 × 1.5% + $20.00 + $8.00 = $43.08. The larger of $30.00 and $43.08 is $43.08.",
+    "numericAnswer": {
+      "value": 43.08,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-05",
+    "kind": "calculation",
+    "term": "$44.10",
+    "definition": "A hypothetical card's minimum is the larger of $31.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $1,140.00, interest is $22.00, and fees are $5.00; the total owed exceeds either minimum. What payment is required?",
+    "distractors": [
+      "$17.10",
+      "$39.10",
+      "$17.51"
+    ],
+    "explanation": "Formula amount = $1,140.00 × 1.5% + $22.00 + $5.00 = $44.10. The larger of $31.00 and $44.10 is $44.10.",
+    "numericAnswer": {
+      "value": 44.1,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-06",
+    "kind": "calculation",
+    "term": "$49.13",
+    "definition": "A hypothetical card's minimum is the larger of $32.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $1,275.00, interest is $24.00, and fees are $6.00; the total owed exceeds either minimum. What payment is required? Round to the nearest cent.",
+    "distractors": [
+      "$19.13",
+      "$43.13",
+      "$19.58"
+    ],
+    "explanation": "Formula amount = $1,275.00 × 1.5% + $24.00 + $6.00 = $49.13. The larger of $32.00 and $49.13 is $49.13.",
+    "numericAnswer": {
+      "value": 49.13,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-07",
+    "kind": "calculation",
+    "term": "$54.15",
+    "definition": "A hypothetical card's minimum is the larger of $30.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $1,410.00, interest is $26.00, and fees are $7.00; the total owed exceeds either minimum. What payment is required?",
+    "distractors": [
+      "$21.15",
+      "$47.15",
+      "$21.65"
+    ],
+    "explanation": "Formula amount = $1,410.00 × 1.5% + $26.00 + $7.00 = $54.15. The larger of $30.00 and $54.15 is $54.15.",
+    "numericAnswer": {
+      "value": 54.15,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-08",
+    "kind": "calculation",
+    "term": "$59.18",
+    "definition": "A hypothetical card's minimum is the larger of $31.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $1,545.00, interest is $28.00, and fees are $8.00; the total owed exceeds either minimum. What payment is required? Round to the nearest cent.",
+    "distractors": [
+      "$23.18",
+      "$51.18",
+      "$23.72"
+    ],
+    "explanation": "Formula amount = $1,545.00 × 1.5% + $28.00 + $8.00 = $59.18. The larger of $31.00 and $59.18 is $59.18.",
+    "numericAnswer": {
+      "value": 59.18,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-09",
+    "kind": "calculation",
+    "term": "$60.20",
+    "definition": "A hypothetical card's minimum is the larger of $32.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $1,680.00, interest is $30.00, and fees are $5.00; the total owed exceeds either minimum. What payment is required?",
+    "distractors": [
+      "$25.20",
+      "$55.20",
+      "$25.73"
+    ],
+    "explanation": "Formula amount = $1,680.00 × 1.5% + $30.00 + $5.00 = $60.20. The larger of $32.00 and $60.20 is $60.20.",
+    "numericAnswer": {
+      "value": 60.2,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-10",
+    "kind": "calculation",
+    "term": "$65.23",
+    "definition": "A hypothetical card's minimum is the larger of $30.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $1,815.00, interest is $32.00, and fees are $6.00; the total owed exceeds either minimum. What payment is required? Round to the nearest cent.",
+    "distractors": [
+      "$27.23",
+      "$59.23",
+      "$27.80"
+    ],
+    "explanation": "Formula amount = $1,815.00 × 1.5% + $32.00 + $6.00 = $65.23. The larger of $30.00 and $65.23 is $65.23.",
+    "numericAnswer": {
+      "value": 65.23,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-11",
+    "kind": "calculation",
+    "term": "$70.25",
+    "definition": "A hypothetical card's minimum is the larger of $31.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $1,950.00, interest is $34.00, and fees are $7.00; the total owed exceeds either minimum. What payment is required?",
+    "distractors": [
+      "$29.25",
+      "$63.25",
+      "$29.87"
+    ],
+    "explanation": "Formula amount = $1,950.00 × 1.5% + $34.00 + $7.00 = $70.25. The larger of $31.00 and $70.25 is $70.25.",
+    "numericAnswer": {
+      "value": 70.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-12",
+    "kind": "calculation",
+    "term": "$75.28",
+    "definition": "A hypothetical card's minimum is the larger of $32.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $2,085.00, interest is $36.00, and fees are $8.00; the total owed exceeds either minimum. What payment is required? Round to the nearest cent.",
+    "distractors": [
+      "$31.28",
+      "$67.28",
+      "$31.94"
+    ],
+    "explanation": "Formula amount = $2,085.00 × 1.5% + $36.00 + $8.00 = $75.28. The larger of $32.00 and $75.28 is $75.28.",
+    "numericAnswer": {
+      "value": 75.28,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-13",
+    "kind": "calculation",
+    "term": "$76.30",
+    "definition": "A hypothetical card's minimum is the larger of $30.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $2,220.00, interest is $38.00, and fees are $5.00; the total owed exceeds either minimum. What payment is required?",
+    "distractors": [
+      "$33.30",
+      "$71.30",
+      "$33.95"
+    ],
+    "explanation": "Formula amount = $2,220.00 × 1.5% + $38.00 + $5.00 = $76.30. The larger of $30.00 and $76.30 is $76.30.",
+    "numericAnswer": {
+      "value": 76.3,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-14",
+    "kind": "calculation",
+    "term": "$81.33",
+    "definition": "A hypothetical card's minimum is the larger of $31.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $2,355.00, interest is $40.00, and fees are $6.00; the total owed exceeds either minimum. What payment is required? Round to the nearest cent.",
+    "distractors": [
+      "$35.33",
+      "$75.33",
+      "$36.02"
+    ],
+    "explanation": "Formula amount = $2,355.00 × 1.5% + $40.00 + $6.00 = $81.33. The larger of $31.00 and $81.33 is $81.33.",
+    "numericAnswer": {
+      "value": 81.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-15",
+    "kind": "calculation",
+    "term": "$86.35",
+    "definition": "A hypothetical card's minimum is the larger of $32.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $2,490.00, interest is $42.00, and fees are $7.00; the total owed exceeds either minimum. What payment is required?",
+    "distractors": [
+      "$37.35",
+      "$79.35",
+      "$38.09"
+    ],
+    "explanation": "Formula amount = $2,490.00 × 1.5% + $42.00 + $7.00 = $86.35. The larger of $32.00 and $86.35 is $86.35.",
+    "numericAnswer": {
+      "value": 86.35,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-16",
+    "kind": "calculation",
+    "term": "$91.38",
+    "definition": "A hypothetical card's minimum is the larger of $30.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $2,625.00, interest is $44.00, and fees are $8.00; the total owed exceeds either minimum. What payment is required? Round to the nearest cent.",
+    "distractors": [
+      "$39.38",
+      "$83.38",
+      "$40.16"
+    ],
+    "explanation": "Formula amount = $2,625.00 × 1.5% + $44.00 + $8.00 = $91.38. The larger of $30.00 and $91.38 is $91.38.",
+    "numericAnswer": {
+      "value": 91.38,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-17",
+    "kind": "calculation",
+    "term": "$92.40",
+    "definition": "A hypothetical card's minimum is the larger of $31.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $2,760.00, interest is $46.00, and fees are $5.00; the total owed exceeds either minimum. What payment is required?",
+    "distractors": [
+      "$41.40",
+      "$87.40",
+      "$42.17"
+    ],
+    "explanation": "Formula amount = $2,760.00 × 1.5% + $46.00 + $5.00 = $92.40. The larger of $31.00 and $92.40 is $92.40.",
+    "numericAnswer": {
+      "value": 92.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-18",
+    "kind": "calculation",
+    "term": "$97.43",
+    "definition": "A hypothetical card's minimum is the larger of $32.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $2,895.00, interest is $48.00, and fees are $6.00; the total owed exceeds either minimum. What payment is required? Round to the nearest cent.",
+    "distractors": [
+      "$43.43",
+      "$91.43",
+      "$44.24"
+    ],
+    "explanation": "Formula amount = $2,895.00 × 1.5% + $48.00 + $6.00 = $97.43. The larger of $32.00 and $97.43 is $97.43.",
+    "numericAnswer": {
+      "value": 97.43,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-19",
+    "kind": "calculation",
+    "term": "$102.45",
+    "definition": "A hypothetical card's minimum is the larger of $30.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $3,030.00, interest is $50.00, and fees are $7.00; the total owed exceeds either minimum. What payment is required?",
+    "distractors": [
+      "$45.45",
+      "$95.45",
+      "$46.31"
+    ],
+    "explanation": "Formula amount = $3,030.00 × 1.5% + $50.00 + $7.00 = $102.45. The larger of $30.00 and $102.45 is $102.45.",
+    "numericAnswer": {
+      "value": 102.45,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-minimum-payment-rule-20",
+    "kind": "calculation",
+    "term": "$107.48",
+    "definition": "A hypothetical card's minimum is the larger of $31.00 or the sum of 1.5% of principal, this month's interest, and fees. Principal is $3,165.00, interest is $52.00, and fees are $8.00; the total owed exceeds either minimum. What payment is required? Round to the nearest cent.",
+    "distractors": [
+      "$47.48",
+      "$99.48",
+      "$48.38"
+    ],
+    "explanation": "Formula amount = $3,165.00 × 1.5% + $52.00 + $8.00 = $107.48. The larger of $31.00 and $107.48 is $107.48.",
+    "numericAnswer": {
+      "value": 107.48,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-01",
+    "kind": "calculation",
+    "term": "$180.25",
+    "definition": "You transfer $2,100.00 to a card with 0% interest for exactly 12 payment periods. A 3.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion?",
+    "distractors": [
+      "$175.00",
+      "$5.25",
+      "$2,163.00"
+    ],
+    "explanation": "Fee = $2,100.00 × 3.0% = $63.00. Divide the total $2,163.00 by 12 periods: $180.25 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 180.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-02",
+    "kind": "calculation",
+    "term": "$180.00",
+    "definition": "You transfer $2,250.00 to a card with 0% interest for exactly 13 payment periods. A 4.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion?",
+    "distractors": [
+      "$173.08",
+      "$6.92",
+      "$2,340.00"
+    ],
+    "explanation": "Fee = $2,250.00 × 4.0% = $90.00. Divide the total $2,340.00 by 13 periods: $180.00 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 180,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-03",
+    "kind": "calculation",
+    "term": "$180.00",
+    "definition": "You transfer $2,400.00 to a card with 0% interest for exactly 14 payment periods. A 5.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion?",
+    "distractors": [
+      "$171.43",
+      "$8.57",
+      "$2,520.00"
+    ],
+    "explanation": "Fee = $2,400.00 × 5.0% = $120.00. Divide the total $2,520.00 by 14 periods: $180.00 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 180,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-04",
+    "kind": "calculation",
+    "term": "$175.10",
+    "definition": "You transfer $2,550.00 to a card with 0% interest for exactly 15 payment periods. A 3.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion?",
+    "distractors": [
+      "$170.00",
+      "$5.10",
+      "$2,626.50"
+    ],
+    "explanation": "Fee = $2,550.00 × 3.0% = $76.50. Divide the total $2,626.50 by 15 periods: $175.10 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 175.1,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-05",
+    "kind": "calculation",
+    "term": "$175.50",
+    "definition": "You transfer $2,700.00 to a card with 0% interest for exactly 16 payment periods. A 4.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion?",
+    "distractors": [
+      "$168.75",
+      "$6.75",
+      "$2,808.00"
+    ],
+    "explanation": "Fee = $2,700.00 × 4.0% = $108.00. Divide the total $2,808.00 by 16 periods: $175.50 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 175.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-06",
+    "kind": "calculation",
+    "term": "$176.03",
+    "definition": "You transfer $2,850.00 to a card with 0% interest for exactly 17 payment periods. A 5.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion? Round to the nearest cent.",
+    "distractors": [
+      "$167.65",
+      "$8.38",
+      "$2,992.50"
+    ],
+    "explanation": "Fee = $2,850.00 × 5.0% = $142.50. Divide the total $2,992.50 by 17 periods: $176.03 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 176.03,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-07",
+    "kind": "calculation",
+    "term": "$171.67",
+    "definition": "You transfer $3,000.00 to a card with 0% interest for exactly 18 payment periods. A 3.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion? Round to the nearest cent.",
+    "distractors": [
+      "$166.67",
+      "$5.00",
+      "$3,090.00"
+    ],
+    "explanation": "Fee = $3,000.00 × 3.0% = $90.00. Divide the total $3,090.00 by 18 periods: $171.67 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 171.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-08",
+    "kind": "calculation",
+    "term": "$273.00",
+    "definition": "You transfer $3,150.00 to a card with 0% interest for exactly 12 payment periods. A 4.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion?",
+    "distractors": [
+      "$262.50",
+      "$10.50",
+      "$3,276.00"
+    ],
+    "explanation": "Fee = $3,150.00 × 4.0% = $126.00. Divide the total $3,276.00 by 12 periods: $273.00 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 273,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-09",
+    "kind": "calculation",
+    "term": "$266.54",
+    "definition": "You transfer $3,300.00 to a card with 0% interest for exactly 13 payment periods. A 5.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion? Round to the nearest cent.",
+    "distractors": [
+      "$253.85",
+      "$12.69",
+      "$3,465.00"
+    ],
+    "explanation": "Fee = $3,300.00 × 5.0% = $165.00. Divide the total $3,465.00 by 13 periods: $266.54 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 266.54,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-10",
+    "kind": "calculation",
+    "term": "$253.82",
+    "definition": "You transfer $3,450.00 to a card with 0% interest for exactly 14 payment periods. A 3.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion? Round to the nearest cent.",
+    "distractors": [
+      "$246.43",
+      "$7.39",
+      "$3,553.50"
+    ],
+    "explanation": "Fee = $3,450.00 × 3.0% = $103.50. Divide the total $3,553.50 by 14 periods: $253.82 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 253.82,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-11",
+    "kind": "calculation",
+    "term": "$249.60",
+    "definition": "You transfer $3,600.00 to a card with 0% interest for exactly 15 payment periods. A 4.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion?",
+    "distractors": [
+      "$240.00",
+      "$9.60",
+      "$3,744.00"
+    ],
+    "explanation": "Fee = $3,600.00 × 4.0% = $144.00. Divide the total $3,744.00 by 15 periods: $249.60 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 249.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-12",
+    "kind": "calculation",
+    "term": "$246.09",
+    "definition": "You transfer $3,750.00 to a card with 0% interest for exactly 16 payment periods. A 5.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion? Round to the nearest cent.",
+    "distractors": [
+      "$234.38",
+      "$11.72",
+      "$3,937.50"
+    ],
+    "explanation": "Fee = $3,750.00 × 5.0% = $187.50. Divide the total $3,937.50 by 16 periods: $246.09 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 246.09,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-13",
+    "kind": "calculation",
+    "term": "$236.29",
+    "definition": "You transfer $3,900.00 to a card with 0% interest for exactly 17 payment periods. A 3.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion? Round to the nearest cent.",
+    "distractors": [
+      "$229.41",
+      "$6.88",
+      "$4,017.00"
+    ],
+    "explanation": "Fee = $3,900.00 × 3.0% = $117.00. Divide the total $4,017.00 by 17 periods: $236.29 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 236.29,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-14",
+    "kind": "calculation",
+    "term": "$234.00",
+    "definition": "You transfer $4,050.00 to a card with 0% interest for exactly 18 payment periods. A 4.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion?",
+    "distractors": [
+      "$225.00",
+      "$9.00",
+      "$4,212.00"
+    ],
+    "explanation": "Fee = $4,050.00 × 4.0% = $162.00. Divide the total $4,212.00 by 18 periods: $234.00 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 234,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-15",
+    "kind": "calculation",
+    "term": "$367.50",
+    "definition": "You transfer $4,200.00 to a card with 0% interest for exactly 12 payment periods. A 5.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion?",
+    "distractors": [
+      "$350.00",
+      "$17.50",
+      "$4,410.00"
+    ],
+    "explanation": "Fee = $4,200.00 × 5.0% = $210.00. Divide the total $4,410.00 by 12 periods: $367.50 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 367.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-16",
+    "kind": "calculation",
+    "term": "$344.65",
+    "definition": "You transfer $4,350.00 to a card with 0% interest for exactly 13 payment periods. A 3.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion? Round to the nearest cent.",
+    "distractors": [
+      "$334.62",
+      "$10.04",
+      "$4,480.50"
+    ],
+    "explanation": "Fee = $4,350.00 × 3.0% = $130.50. Divide the total $4,480.50 by 13 periods: $344.65 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 344.65,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-17",
+    "kind": "calculation",
+    "term": "$334.29",
+    "definition": "You transfer $4,500.00 to a card with 0% interest for exactly 14 payment periods. A 4.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion? Round to the nearest cent.",
+    "distractors": [
+      "$321.43",
+      "$12.86",
+      "$4,680.00"
+    ],
+    "explanation": "Fee = $4,500.00 × 4.0% = $180.00. Divide the total $4,680.00 by 14 periods: $334.29 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 334.29,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-18",
+    "kind": "calculation",
+    "term": "$325.50",
+    "definition": "You transfer $4,650.00 to a card with 0% interest for exactly 15 payment periods. A 5.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion?",
+    "distractors": [
+      "$310.00",
+      "$15.50",
+      "$4,882.50"
+    ],
+    "explanation": "Fee = $4,650.00 × 5.0% = $232.50. Divide the total $4,882.50 by 15 periods: $325.50 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 325.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-19",
+    "kind": "calculation",
+    "term": "$309.00",
+    "definition": "You transfer $4,800.00 to a card with 0% interest for exactly 16 payment periods. A 3.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion?",
+    "distractors": [
+      "$300.00",
+      "$9.00",
+      "$4,944.00"
+    ],
+    "explanation": "Fee = $4,800.00 × 3.0% = $144.00. Divide the total $4,944.00 by 16 periods: $309.00 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 309,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-zero-apr-transfer-payoff-20",
+    "kind": "calculation",
+    "term": "$302.82",
+    "definition": "You transfer $4,950.00 to a card with 0% interest for exactly 17 payment periods. A 4.0% transfer fee is added immediately to the balance. With no new purchases or other fees, what equal payment each period clears the full balance within the promotion? Round to the nearest cent.",
+    "distractors": [
+      "$291.18",
+      "$11.65",
+      "$5,148.00"
+    ],
+    "explanation": "Fee = $4,950.00 × 4.0% = $198.00. Divide the total $5,148.00 by 17 periods: $302.82 per payment. Carry full precision before rounding.",
+    "numericAnswer": {
+      "value": 302.82,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-01",
+    "kind": "calculation",
+    "term": "$26.33",
+    "definition": "A card carries $1,400.00 in purchases at 17.0% APR and $300.00 in cash advances at 26.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$24.08",
+      "$36.83",
+      "$19.83"
+    ],
+    "explanation": "Purchase interest = $1,400.00 × 17/1200 = $19.83. Advance interest = $300.00 × 26/1200 = $6.50. Add unrounded amounts for $26.33.",
+    "numericAnswer": {
+      "value": 26.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-02",
+    "kind": "calculation",
+    "term": "$29.51",
+    "definition": "A card carries $1,480.00 in purchases at 18.0% APR and $325.00 in cash advances at 27.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$27.08",
+      "$40.61",
+      "$22.20"
+    ],
+    "explanation": "Purchase interest = $1,480.00 × 18/1200 = $22.20. Advance interest = $325.00 × 27/1200 = $7.31. Add unrounded amounts for $29.51.",
+    "numericAnswer": {
+      "value": 29.51,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-03",
+    "kind": "calculation",
+    "term": "$32.87",
+    "definition": "A card carries $1,560.00 in purchases at 19.0% APR and $350.00 in cash advances at 28.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$30.24",
+      "$44.57",
+      "$24.70"
+    ],
+    "explanation": "Purchase interest = $1,560.00 × 19/1200 = $24.70. Advance interest = $350.00 × 28/1200 = $8.17. Add unrounded amounts for $32.87.",
+    "numericAnswer": {
+      "value": 32.87,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-04",
+    "kind": "calculation",
+    "term": "$36.40",
+    "definition": "A card carries $1,640.00 in purchases at 20.0% APR and $375.00 in cash advances at 29.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$33.58",
+      "$48.70",
+      "$27.33"
+    ],
+    "explanation": "Purchase interest = $1,640.00 × 20/1200 = $27.33. Advance interest = $375.00 × 29/1200 = $9.06. Add unrounded amounts for $36.40.",
+    "numericAnswer": {
+      "value": 36.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-05",
+    "kind": "calculation",
+    "term": "$38.77",
+    "definition": "A card carries $1,720.00 in purchases at 21.0% APR and $400.00 in cash advances at 26.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$37.10",
+      "$45.93",
+      "$30.10"
+    ],
+    "explanation": "Purchase interest = $1,720.00 × 21/1200 = $30.10. Advance interest = $400.00 × 26/1200 = $8.67. Add unrounded amounts for $38.77.",
+    "numericAnswer": {
+      "value": 38.77,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-06",
+    "kind": "calculation",
+    "term": "$35.06",
+    "definition": "A card carries $1,800.00 in purchases at 17.0% APR and $425.00 in cash advances at 27.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$31.52",
+      "$50.06",
+      "$25.50"
+    ],
+    "explanation": "Purchase interest = $1,800.00 × 17/1200 = $25.50. Advance interest = $425.00 × 27/1200 = $9.56. Add unrounded amounts for $35.06.",
+    "numericAnswer": {
+      "value": 35.06,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-07",
+    "kind": "calculation",
+    "term": "$38.70",
+    "definition": "A card carries $1,880.00 in purchases at 18.0% APR and $450.00 in cash advances at 28.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest?",
+    "distractors": [
+      "$34.95",
+      "$54.37",
+      "$28.20"
+    ],
+    "explanation": "Purchase interest = $1,880.00 × 18/1200 = $28.20. Advance interest = $450.00 × 28/1200 = $10.50. Add unrounded amounts for $38.70.",
+    "numericAnswer": {
+      "value": 38.7,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-08",
+    "kind": "calculation",
+    "term": "$42.51",
+    "definition": "A card carries $1,960.00 in purchases at 19.0% APR and $475.00 in cash advances at 29.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$38.55",
+      "$58.85",
+      "$31.03"
+    ],
+    "explanation": "Purchase interest = $1,960.00 × 19/1200 = $31.03. Advance interest = $475.00 × 29/1200 = $11.48. Add unrounded amounts for $42.51.",
+    "numericAnswer": {
+      "value": 42.51,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-09",
+    "kind": "calculation",
+    "term": "$44.83",
+    "definition": "A card carries $2,040.00 in purchases at 20.0% APR and $500.00 in cash advances at 26.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$42.33",
+      "$55.03",
+      "$34.00"
+    ],
+    "explanation": "Purchase interest = $2,040.00 × 20/1200 = $34.00. Advance interest = $500.00 × 26/1200 = $10.83. Add unrounded amounts for $44.83.",
+    "numericAnswer": {
+      "value": 44.83,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-10",
+    "kind": "calculation",
+    "term": "$48.91",
+    "definition": "A card carries $2,120.00 in purchases at 21.0% APR and $525.00 in cash advances at 27.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$46.29",
+      "$59.51",
+      "$37.10"
+    ],
+    "explanation": "Purchase interest = $2,120.00 × 21/1200 = $37.10. Advance interest = $525.00 × 27/1200 = $11.81. Add unrounded amounts for $48.91.",
+    "numericAnswer": {
+      "value": 48.91,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-11",
+    "kind": "calculation",
+    "term": "$44.00",
+    "definition": "A card carries $2,200.00 in purchases at 17.0% APR and $550.00 in cash advances at 28.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest?",
+    "distractors": [
+      "$38.96",
+      "$64.17",
+      "$31.17"
+    ],
+    "explanation": "Purchase interest = $2,200.00 × 17/1200 = $31.17. Advance interest = $550.00 × 28/1200 = $12.83. Add unrounded amounts for $44.00.",
+    "numericAnswer": {
+      "value": 44,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-12",
+    "kind": "calculation",
+    "term": "$48.10",
+    "definition": "A card carries $2,280.00 in purchases at 18.0% APR and $575.00 in cash advances at 29.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$42.83",
+      "$69.00",
+      "$34.20"
+    ],
+    "explanation": "Purchase interest = $2,280.00 × 18/1200 = $34.20. Advance interest = $575.00 × 29/1200 = $13.90. Add unrounded amounts for $48.10.",
+    "numericAnswer": {
+      "value": 48.1,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-13",
+    "kind": "calculation",
+    "term": "$50.37",
+    "definition": "A card carries $2,360.00 in purchases at 19.0% APR and $600.00 in cash advances at 26.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$46.87",
+      "$64.13",
+      "$37.37"
+    ],
+    "explanation": "Purchase interest = $2,360.00 × 19/1200 = $37.37. Advance interest = $600.00 × 26/1200 = $13.00. Add unrounded amounts for $50.37.",
+    "numericAnswer": {
+      "value": 50.37,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-14",
+    "kind": "calculation",
+    "term": "$54.73",
+    "definition": "A card carries $2,440.00 in purchases at 20.0% APR and $625.00 in cash advances at 27.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$51.08",
+      "$68.96",
+      "$40.67"
+    ],
+    "explanation": "Purchase interest = $2,440.00 × 20/1200 = $40.67. Advance interest = $625.00 × 27/1200 = $14.06. Add unrounded amounts for $54.73.",
+    "numericAnswer": {
+      "value": 54.73,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-15",
+    "kind": "calculation",
+    "term": "$59.27",
+    "definition": "A card carries $2,520.00 in purchases at 21.0% APR and $650.00 in cash advances at 28.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$55.48",
+      "$73.97",
+      "$44.10"
+    ],
+    "explanation": "Purchase interest = $2,520.00 × 21/1200 = $44.10. Advance interest = $650.00 × 28/1200 = $15.17. Add unrounded amounts for $59.27.",
+    "numericAnswer": {
+      "value": 59.27,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-16",
+    "kind": "calculation",
+    "term": "$53.15",
+    "definition": "A card carries $2,600.00 in purchases at 17.0% APR and $675.00 in cash advances at 29.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$46.40",
+      "$79.15",
+      "$36.83"
+    ],
+    "explanation": "Purchase interest = $2,600.00 × 17/1200 = $36.83. Advance interest = $675.00 × 29/1200 = $16.31. Add unrounded amounts for $53.15.",
+    "numericAnswer": {
+      "value": 53.15,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-17",
+    "kind": "calculation",
+    "term": "$55.37",
+    "definition": "A card carries $2,680.00 in purchases at 18.0% APR and $700.00 in cash advances at 26.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$50.70",
+      "$73.23",
+      "$40.20"
+    ],
+    "explanation": "Purchase interest = $2,680.00 × 18/1200 = $40.20. Advance interest = $700.00 × 26/1200 = $15.17. Add unrounded amounts for $55.37.",
+    "numericAnswer": {
+      "value": 55.37,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-18",
+    "kind": "calculation",
+    "term": "$60.01",
+    "definition": "A card carries $2,760.00 in purchases at 19.0% APR and $725.00 in cash advances at 27.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$55.18",
+      "$78.41",
+      "$43.70"
+    ],
+    "explanation": "Purchase interest = $2,760.00 × 19/1200 = $43.70. Advance interest = $725.00 × 27/1200 = $16.31. Add unrounded amounts for $60.01.",
+    "numericAnswer": {
+      "value": 60.01,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-19",
+    "kind": "calculation",
+    "term": "$64.83",
+    "definition": "A card carries $2,840.00 in purchases at 20.0% APR and $750.00 in cash advances at 28.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$59.83",
+      "$83.77",
+      "$47.33"
+    ],
+    "explanation": "Purchase interest = $2,840.00 × 20/1200 = $47.33. Advance interest = $750.00 × 28/1200 = $17.50. Add unrounded amounts for $64.83.",
+    "numericAnswer": {
+      "value": 64.83,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-two-card-balance-interest-20",
+    "kind": "calculation",
+    "term": "$69.83",
+    "definition": "A card carries $2,920.00 in purchases at 21.0% APR and $775.00 in cash advances at 29.0% APR. Assume both balances remain constant for one month, each uses APR/12, and there are no fees, grace periods, or intra-month compounding. What is total interest? Round to the nearest cent.",
+    "distractors": [
+      "$64.66",
+      "$89.30",
+      "$51.10"
+    ],
+    "explanation": "Purchase interest = $2,920.00 × 21/1200 = $51.10. Advance interest = $775.00 × 29/1200 = $18.73. Add unrounded amounts for $69.83.",
+    "numericAnswer": {
+      "value": 69.83,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-01",
+    "kind": "calculation",
+    "term": "$58.00",
+    "definition": "A card earns 3.0% cash back on $2,500.00 of eligible category spending and 1.0% on $5,800.00 of other spending during a year. It charges a $75.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$174.00",
+      "$133.00",
+      "$8.00"
+    ],
+    "explanation": "Rewards = $2,500.00 × 3.0% + $5,800.00 × 1.0% = $133.00. Subtract $75.00 to get $58.00.",
+    "numericAnswer": {
+      "value": 58,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-02",
+    "kind": "calculation",
+    "term": "$86.80",
+    "definition": "A card earns 4.0% cash back on $2,660.00 of eligible category spending and 1.0% on $6,040.00 of other spending during a year. It charges a $80.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$268.00",
+      "$166.80",
+      "$7.00"
+    ],
+    "explanation": "Rewards = $2,660.00 × 4.0% + $6,040.00 × 1.0% = $166.80. Subtract $80.00 to get $86.80.",
+    "numericAnswer": {
+      "value": 86.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-03",
+    "kind": "calculation",
+    "term": "$118.80",
+    "definition": "A card earns 5.0% cash back on $2,820.00 of eligible category spending and 1.0% on $6,280.00 of other spending during a year. It charges a $85.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$370.00",
+      "$203.80",
+      "$6.00"
+    ],
+    "explanation": "Rewards = $2,820.00 × 5.0% + $6,280.00 × 1.0% = $203.80. Subtract $85.00 to get $118.80.",
+    "numericAnswer": {
+      "value": 118.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-04",
+    "kind": "calculation",
+    "term": "$64.60",
+    "definition": "A card earns 3.0% cash back on $2,980.00 of eligible category spending and 1.0% on $6,520.00 of other spending during a year. It charges a $90.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$195.00",
+      "$154.60",
+      "$5.00"
+    ],
+    "explanation": "Rewards = $2,980.00 × 3.0% + $6,520.00 × 1.0% = $154.60. Subtract $90.00 to get $64.60.",
+    "numericAnswer": {
+      "value": 64.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-05",
+    "kind": "calculation",
+    "term": "$98.20",
+    "definition": "A card earns 4.0% cash back on $3,140.00 of eligible category spending and 1.0% on $6,760.00 of other spending during a year. It charges a $95.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$301.00",
+      "$193.20",
+      "$4.00"
+    ],
+    "explanation": "Rewards = $3,140.00 × 4.0% + $6,760.00 × 1.0% = $193.20. Subtract $95.00 to get $98.20.",
+    "numericAnswer": {
+      "value": 98.2,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-06",
+    "kind": "calculation",
+    "term": "$135.00",
+    "definition": "A card earns 5.0% cash back on $3,300.00 of eligible category spending and 1.0% on $7,000.00 of other spending during a year. It charges a $100.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$415.00",
+      "$235.00",
+      "$3.00"
+    ],
+    "explanation": "Rewards = $3,300.00 × 5.0% + $7,000.00 × 1.0% = $235.00. Subtract $100.00 to get $135.00.",
+    "numericAnswer": {
+      "value": 135,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-07",
+    "kind": "calculation",
+    "term": "$71.20",
+    "definition": "A card earns 3.0% cash back on $3,460.00 of eligible category spending and 1.0% on $7,240.00 of other spending during a year. It charges a $105.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$216.00",
+      "$176.20",
+      "$2.00"
+    ],
+    "explanation": "Rewards = $3,460.00 × 3.0% + $7,240.00 × 1.0% = $176.20. Subtract $105.00 to get $71.20.",
+    "numericAnswer": {
+      "value": 71.2,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-08",
+    "kind": "calculation",
+    "term": "$109.60",
+    "definition": "A card earns 4.0% cash back on $3,620.00 of eligible category spending and 1.0% on $7,480.00 of other spending during a year. It charges a $110.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$334.00",
+      "$219.60",
+      "$1.00"
+    ],
+    "explanation": "Rewards = $3,620.00 × 4.0% + $7,480.00 × 1.0% = $219.60. Subtract $110.00 to get $109.60.",
+    "numericAnswer": {
+      "value": 109.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-09",
+    "kind": "calculation",
+    "term": "$151.20",
+    "definition": "A card earns 5.0% cash back on $3,780.00 of eligible category spending and 1.0% on $7,720.00 of other spending during a year. It charges a $115.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$460.00",
+      "$266.20",
+      "$0.00"
+    ],
+    "explanation": "Rewards = $3,780.00 × 5.0% + $7,720.00 × 1.0% = $266.20. Subtract $115.00 to get $151.20.",
+    "numericAnswer": {
+      "value": 151.2,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-10",
+    "kind": "calculation",
+    "term": "$77.80",
+    "definition": "A card earns 3.0% cash back on $3,940.00 of eligible category spending and 1.0% on $7,960.00 of other spending during a year. It charges a $120.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$237.00",
+      "$197.80",
+      "-$1.00"
+    ],
+    "explanation": "Rewards = $3,940.00 × 3.0% + $7,960.00 × 1.0% = $197.80. Subtract $120.00 to get $77.80.",
+    "numericAnswer": {
+      "value": 77.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-11",
+    "kind": "calculation",
+    "term": "$121.00",
+    "definition": "A card earns 4.0% cash back on $4,100.00 of eligible category spending and 1.0% on $8,200.00 of other spending during a year. It charges a $125.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$367.00",
+      "$246.00",
+      "-$2.00"
+    ],
+    "explanation": "Rewards = $4,100.00 × 4.0% + $8,200.00 × 1.0% = $246.00. Subtract $125.00 to get $121.00.",
+    "numericAnswer": {
+      "value": 121,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-12",
+    "kind": "calculation",
+    "term": "$167.40",
+    "definition": "A card earns 5.0% cash back on $4,260.00 of eligible category spending and 1.0% on $8,440.00 of other spending during a year. It charges a $130.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$505.00",
+      "$297.40",
+      "-$3.00"
+    ],
+    "explanation": "Rewards = $4,260.00 × 5.0% + $8,440.00 × 1.0% = $297.40. Subtract $130.00 to get $167.40.",
+    "numericAnswer": {
+      "value": 167.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-13",
+    "kind": "calculation",
+    "term": "$84.40",
+    "definition": "A card earns 3.0% cash back on $4,420.00 of eligible category spending and 1.0% on $8,680.00 of other spending during a year. It charges a $135.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$258.00",
+      "$219.40",
+      "-$4.00"
+    ],
+    "explanation": "Rewards = $4,420.00 × 3.0% + $8,680.00 × 1.0% = $219.40. Subtract $135.00 to get $84.40.",
+    "numericAnswer": {
+      "value": 84.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-14",
+    "kind": "calculation",
+    "term": "$132.40",
+    "definition": "A card earns 4.0% cash back on $4,580.00 of eligible category spending and 1.0% on $8,920.00 of other spending during a year. It charges a $140.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$400.00",
+      "$272.40",
+      "-$5.00"
+    ],
+    "explanation": "Rewards = $4,580.00 × 4.0% + $8,920.00 × 1.0% = $272.40. Subtract $140.00 to get $132.40.",
+    "numericAnswer": {
+      "value": 132.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-15",
+    "kind": "calculation",
+    "term": "$183.60",
+    "definition": "A card earns 5.0% cash back on $4,740.00 of eligible category spending and 1.0% on $9,160.00 of other spending during a year. It charges a $145.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$550.00",
+      "$328.60",
+      "-$6.00"
+    ],
+    "explanation": "Rewards = $4,740.00 × 5.0% + $9,160.00 × 1.0% = $328.60. Subtract $145.00 to get $183.60.",
+    "numericAnswer": {
+      "value": 183.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-16",
+    "kind": "calculation",
+    "term": "$91.00",
+    "definition": "A card earns 3.0% cash back on $4,900.00 of eligible category spending and 1.0% on $9,400.00 of other spending during a year. It charges a $150.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$279.00",
+      "$241.00",
+      "-$7.00"
+    ],
+    "explanation": "Rewards = $4,900.00 × 3.0% + $9,400.00 × 1.0% = $241.00. Subtract $150.00 to get $91.00.",
+    "numericAnswer": {
+      "value": 91,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-17",
+    "kind": "calculation",
+    "term": "$143.80",
+    "definition": "A card earns 4.0% cash back on $5,060.00 of eligible category spending and 1.0% on $9,640.00 of other spending during a year. It charges a $155.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$433.00",
+      "$298.80",
+      "-$8.00"
+    ],
+    "explanation": "Rewards = $5,060.00 × 4.0% + $9,640.00 × 1.0% = $298.80. Subtract $155.00 to get $143.80.",
+    "numericAnswer": {
+      "value": 143.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-18",
+    "kind": "calculation",
+    "term": "$199.80",
+    "definition": "A card earns 5.0% cash back on $5,220.00 of eligible category spending and 1.0% on $9,880.00 of other spending during a year. It charges a $160.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$595.00",
+      "$359.80",
+      "-$9.00"
+    ],
+    "explanation": "Rewards = $5,220.00 × 5.0% + $9,880.00 × 1.0% = $359.80. Subtract $160.00 to get $199.80.",
+    "numericAnswer": {
+      "value": 199.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-19",
+    "kind": "calculation",
+    "term": "$97.60",
+    "definition": "A card earns 3.0% cash back on $5,380.00 of eligible category spending and 1.0% on $10,120.00 of other spending during a year. It charges a $165.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$300.00",
+      "$262.60",
+      "-$10.00"
+    ],
+    "explanation": "Rewards = $5,380.00 × 3.0% + $10,120.00 × 1.0% = $262.60. Subtract $165.00 to get $97.60.",
+    "numericAnswer": {
+      "value": 97.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-tiered-rewards-after-annual-fee-20",
+    "kind": "calculation",
+    "term": "$155.20",
+    "definition": "A card earns 4.0% cash back on $5,540.00 of eligible category spending and 1.0% on $10,360.00 of other spending during a year. It charges a $170.00 annual fee. All balances are paid without interest; there are no caps or other rewards. What is net cash-back value after the fee?",
+    "distractors": [
+      "$466.00",
+      "$325.20",
+      "-$11.00"
+    ],
+    "explanation": "Rewards = $5,540.00 × 4.0% + $10,360.00 × 1.0% = $325.20. Subtract $170.00 to get $155.20.",
+    "numericAnswer": {
+      "value": 155.2,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-01",
+    "kind": "calculation",
+    "term": "$843.00",
+    "definition": "A card begins the cycle owing $780.00. It adds $340.00 in purchases and $18.00 in interest, receives a $250.00 payment, and posts a $45.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$933.00",
+      "$825.00",
+      "$1,343.00"
+    ],
+    "explanation": "Ending debt = $780.00 + $340.00 + $18.00 − $250.00 − $45.00 = $843.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 843,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-02",
+    "kind": "calculation",
+    "term": "$904.00",
+    "definition": "A card begins the cycle owing $840.00. It adds $357.00 in purchases and $19.00 in interest, receives a $265.00 payment, and posts a $47.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$998.00",
+      "$885.00",
+      "$1,434.00"
+    ],
+    "explanation": "Ending debt = $840.00 + $357.00 + $19.00 − $265.00 − $47.00 = $904.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 904,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-03",
+    "kind": "calculation",
+    "term": "$965.00",
+    "definition": "A card begins the cycle owing $900.00. It adds $374.00 in purchases and $20.00 in interest, receives a $280.00 payment, and posts a $49.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,063.00",
+      "$945.00",
+      "$1,525.00"
+    ],
+    "explanation": "Ending debt = $900.00 + $374.00 + $20.00 − $280.00 − $49.00 = $965.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 965,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-04",
+    "kind": "calculation",
+    "term": "$1,026.00",
+    "definition": "A card begins the cycle owing $960.00. It adds $391.00 in purchases and $21.00 in interest, receives a $295.00 payment, and posts a $51.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,128.00",
+      "$1,005.00",
+      "$1,616.00"
+    ],
+    "explanation": "Ending debt = $960.00 + $391.00 + $21.00 − $295.00 − $51.00 = $1,026.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1026,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-05",
+    "kind": "calculation",
+    "term": "$1,087.00",
+    "definition": "A card begins the cycle owing $1,020.00. It adds $408.00 in purchases and $22.00 in interest, receives a $310.00 payment, and posts a $53.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,193.00",
+      "$1,065.00",
+      "$1,707.00"
+    ],
+    "explanation": "Ending debt = $1,020.00 + $408.00 + $22.00 − $310.00 − $53.00 = $1,087.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1087,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-06",
+    "kind": "calculation",
+    "term": "$1,148.00",
+    "definition": "A card begins the cycle owing $1,080.00. It adds $425.00 in purchases and $23.00 in interest, receives a $325.00 payment, and posts a $55.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,258.00",
+      "$1,125.00",
+      "$1,798.00"
+    ],
+    "explanation": "Ending debt = $1,080.00 + $425.00 + $23.00 − $325.00 − $55.00 = $1,148.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1148,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-07",
+    "kind": "calculation",
+    "term": "$1,209.00",
+    "definition": "A card begins the cycle owing $1,140.00. It adds $442.00 in purchases and $24.00 in interest, receives a $340.00 payment, and posts a $57.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,323.00",
+      "$1,185.00",
+      "$1,889.00"
+    ],
+    "explanation": "Ending debt = $1,140.00 + $442.00 + $24.00 − $340.00 − $57.00 = $1,209.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1209,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-08",
+    "kind": "calculation",
+    "term": "$1,270.00",
+    "definition": "A card begins the cycle owing $1,200.00. It adds $459.00 in purchases and $25.00 in interest, receives a $355.00 payment, and posts a $59.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,388.00",
+      "$1,245.00",
+      "$1,980.00"
+    ],
+    "explanation": "Ending debt = $1,200.00 + $459.00 + $25.00 − $355.00 − $59.00 = $1,270.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1270,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-09",
+    "kind": "calculation",
+    "term": "$1,331.00",
+    "definition": "A card begins the cycle owing $1,260.00. It adds $476.00 in purchases and $26.00 in interest, receives a $370.00 payment, and posts a $61.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,453.00",
+      "$1,305.00",
+      "$2,071.00"
+    ],
+    "explanation": "Ending debt = $1,260.00 + $476.00 + $26.00 − $370.00 − $61.00 = $1,331.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1331,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-10",
+    "kind": "calculation",
+    "term": "$1,392.00",
+    "definition": "A card begins the cycle owing $1,320.00. It adds $493.00 in purchases and $27.00 in interest, receives a $385.00 payment, and posts a $63.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,518.00",
+      "$1,365.00",
+      "$2,162.00"
+    ],
+    "explanation": "Ending debt = $1,320.00 + $493.00 + $27.00 − $385.00 − $63.00 = $1,392.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1392,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-11",
+    "kind": "calculation",
+    "term": "$1,453.00",
+    "definition": "A card begins the cycle owing $1,380.00. It adds $510.00 in purchases and $28.00 in interest, receives a $400.00 payment, and posts a $65.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,583.00",
+      "$1,425.00",
+      "$2,253.00"
+    ],
+    "explanation": "Ending debt = $1,380.00 + $510.00 + $28.00 − $400.00 − $65.00 = $1,453.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1453,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-12",
+    "kind": "calculation",
+    "term": "$1,514.00",
+    "definition": "A card begins the cycle owing $1,440.00. It adds $527.00 in purchases and $29.00 in interest, receives a $415.00 payment, and posts a $67.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,648.00",
+      "$1,485.00",
+      "$2,344.00"
+    ],
+    "explanation": "Ending debt = $1,440.00 + $527.00 + $29.00 − $415.00 − $67.00 = $1,514.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1514,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-13",
+    "kind": "calculation",
+    "term": "$1,575.00",
+    "definition": "A card begins the cycle owing $1,500.00. It adds $544.00 in purchases and $30.00 in interest, receives a $430.00 payment, and posts a $69.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,713.00",
+      "$1,545.00",
+      "$2,435.00"
+    ],
+    "explanation": "Ending debt = $1,500.00 + $544.00 + $30.00 − $430.00 − $69.00 = $1,575.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1575,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-14",
+    "kind": "calculation",
+    "term": "$1,636.00",
+    "definition": "A card begins the cycle owing $1,560.00. It adds $561.00 in purchases and $31.00 in interest, receives a $445.00 payment, and posts a $71.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,778.00",
+      "$1,605.00",
+      "$2,526.00"
+    ],
+    "explanation": "Ending debt = $1,560.00 + $561.00 + $31.00 − $445.00 − $71.00 = $1,636.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1636,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-15",
+    "kind": "calculation",
+    "term": "$1,697.00",
+    "definition": "A card begins the cycle owing $1,620.00. It adds $578.00 in purchases and $32.00 in interest, receives a $460.00 payment, and posts a $73.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,843.00",
+      "$1,665.00",
+      "$2,617.00"
+    ],
+    "explanation": "Ending debt = $1,620.00 + $578.00 + $32.00 − $460.00 − $73.00 = $1,697.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1697,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-16",
+    "kind": "calculation",
+    "term": "$1,758.00",
+    "definition": "A card begins the cycle owing $1,680.00. It adds $595.00 in purchases and $33.00 in interest, receives a $475.00 payment, and posts a $75.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,908.00",
+      "$1,725.00",
+      "$2,708.00"
+    ],
+    "explanation": "Ending debt = $1,680.00 + $595.00 + $33.00 − $475.00 − $75.00 = $1,758.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1758,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-17",
+    "kind": "calculation",
+    "term": "$1,819.00",
+    "definition": "A card begins the cycle owing $1,740.00. It adds $612.00 in purchases and $34.00 in interest, receives a $490.00 payment, and posts a $77.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$1,973.00",
+      "$1,785.00",
+      "$2,799.00"
+    ],
+    "explanation": "Ending debt = $1,740.00 + $612.00 + $34.00 − $490.00 − $77.00 = $1,819.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1819,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-18",
+    "kind": "calculation",
+    "term": "$1,880.00",
+    "definition": "A card begins the cycle owing $1,800.00. It adds $629.00 in purchases and $35.00 in interest, receives a $505.00 payment, and posts a $79.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$2,038.00",
+      "$1,845.00",
+      "$2,890.00"
+    ],
+    "explanation": "Ending debt = $1,800.00 + $629.00 + $35.00 − $505.00 − $79.00 = $1,880.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1880,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-19",
+    "kind": "calculation",
+    "term": "$1,941.00",
+    "definition": "A card begins the cycle owing $1,860.00. It adds $646.00 in purchases and $36.00 in interest, receives a $520.00 payment, and posts a $81.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$2,103.00",
+      "$1,905.00",
+      "$2,981.00"
+    ],
+    "explanation": "Ending debt = $1,860.00 + $646.00 + $36.00 − $520.00 − $81.00 = $1,941.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 1941,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-card-statement-balance-rollforward-20",
+    "kind": "calculation",
+    "term": "$2,002.00",
+    "definition": "A card begins the cycle owing $1,920.00. It adds $663.00 in purchases and $37.00 in interest, receives a $535.00 payment, and posts a $83.00 merchant refund. No other items apply. What is the ending balance owed?",
+    "distractors": [
+      "$2,168.00",
+      "$1,965.00",
+      "$3,072.00"
+    ],
+    "explanation": "Ending debt = $1,920.00 + $663.00 + $37.00 − $535.00 − $83.00 = $2,002.00. Both the payment and refund reduce debt.",
+    "numericAnswer": {
+      "value": 2002,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-01",
+    "kind": "calculation",
+    "term": "$1,300.00",
+    "definition": "A card has a $4,000.00 limit and a $2,100.00 reported balance. You choose a utilization target of exactly 20.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$420.00",
+      "$800.00",
+      "$1,680.00"
+    ],
+    "explanation": "Target balance = $4,000.00 × 20.0% = $800.00. Required payment = $2,100.00 − $800.00 = $1,300.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 1300,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-02",
+    "kind": "calculation",
+    "term": "$1,377.50",
+    "definition": "A card has a $4,250.00 limit and a $2,270.00 reported balance. You choose a utilization target of exactly 21.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$476.70",
+      "$892.50",
+      "$1,793.30"
+    ],
+    "explanation": "Target balance = $4,250.00 × 21.0% = $892.50. Required payment = $2,270.00 − $892.50 = $1,377.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 1377.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-03",
+    "kind": "calculation",
+    "term": "$1,450.00",
+    "definition": "A card has a $4,500.00 limit and a $2,440.00 reported balance. You choose a utilization target of exactly 22.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$536.80",
+      "$990.00",
+      "$1,903.20"
+    ],
+    "explanation": "Target balance = $4,500.00 × 22.0% = $990.00. Required payment = $2,440.00 − $990.00 = $1,450.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 1450,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-04",
+    "kind": "calculation",
+    "term": "$1,517.50",
+    "definition": "A card has a $4,750.00 limit and a $2,610.00 reported balance. You choose a utilization target of exactly 23.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$600.30",
+      "$1,092.50",
+      "$2,009.70"
+    ],
+    "explanation": "Target balance = $4,750.00 × 23.0% = $1,092.50. Required payment = $2,610.00 − $1,092.50 = $1,517.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 1517.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-05",
+    "kind": "calculation",
+    "term": "$1,580.00",
+    "definition": "A card has a $5,000.00 limit and a $2,780.00 reported balance. You choose a utilization target of exactly 24.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$667.20",
+      "$1,200.00",
+      "$2,112.80"
+    ],
+    "explanation": "Target balance = $5,000.00 × 24.0% = $1,200.00. Required payment = $2,780.00 − $1,200.00 = $1,580.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 1580,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-06",
+    "kind": "calculation",
+    "term": "$1,637.50",
+    "definition": "A card has a $5,250.00 limit and a $2,950.00 reported balance. You choose a utilization target of exactly 25.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$737.50",
+      "$1,312.50",
+      "$2,212.50"
+    ],
+    "explanation": "Target balance = $5,250.00 × 25.0% = $1,312.50. Required payment = $2,950.00 − $1,312.50 = $1,637.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 1637.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-07",
+    "kind": "calculation",
+    "term": "$2,020.00",
+    "definition": "A card has a $5,500.00 limit and a $3,120.00 reported balance. You choose a utilization target of exactly 20.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$624.00",
+      "$1,100.00",
+      "$2,496.00"
+    ],
+    "explanation": "Target balance = $5,500.00 × 20.0% = $1,100.00. Required payment = $3,120.00 − $1,100.00 = $2,020.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2020,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-08",
+    "kind": "calculation",
+    "term": "$2,082.50",
+    "definition": "A card has a $5,750.00 limit and a $3,290.00 reported balance. You choose a utilization target of exactly 21.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$690.90",
+      "$1,207.50",
+      "$2,599.10"
+    ],
+    "explanation": "Target balance = $5,750.00 × 21.0% = $1,207.50. Required payment = $3,290.00 − $1,207.50 = $2,082.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2082.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-09",
+    "kind": "calculation",
+    "term": "$2,140.00",
+    "definition": "A card has a $6,000.00 limit and a $3,460.00 reported balance. You choose a utilization target of exactly 22.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$761.20",
+      "$1,320.00",
+      "$2,698.80"
+    ],
+    "explanation": "Target balance = $6,000.00 × 22.0% = $1,320.00. Required payment = $3,460.00 − $1,320.00 = $2,140.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2140,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-10",
+    "kind": "calculation",
+    "term": "$2,192.50",
+    "definition": "A card has a $6,250.00 limit and a $3,630.00 reported balance. You choose a utilization target of exactly 23.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$834.90",
+      "$1,437.50",
+      "$2,795.10"
+    ],
+    "explanation": "Target balance = $6,250.00 × 23.0% = $1,437.50. Required payment = $3,630.00 − $1,437.50 = $2,192.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2192.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-11",
+    "kind": "calculation",
+    "term": "$2,240.00",
+    "definition": "A card has a $6,500.00 limit and a $3,800.00 reported balance. You choose a utilization target of exactly 24.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$912.00",
+      "$1,560.00",
+      "$2,888.00"
+    ],
+    "explanation": "Target balance = $6,500.00 × 24.0% = $1,560.00. Required payment = $3,800.00 − $1,560.00 = $2,240.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2240,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-12",
+    "kind": "calculation",
+    "term": "$2,282.50",
+    "definition": "A card has a $6,750.00 limit and a $3,970.00 reported balance. You choose a utilization target of exactly 25.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$992.50",
+      "$1,687.50",
+      "$2,977.50"
+    ],
+    "explanation": "Target balance = $6,750.00 × 25.0% = $1,687.50. Required payment = $3,970.00 − $1,687.50 = $2,282.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2282.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-13",
+    "kind": "calculation",
+    "term": "$2,740.00",
+    "definition": "A card has a $7,000.00 limit and a $4,140.00 reported balance. You choose a utilization target of exactly 20.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$828.00",
+      "$1,400.00",
+      "$3,312.00"
+    ],
+    "explanation": "Target balance = $7,000.00 × 20.0% = $1,400.00. Required payment = $4,140.00 − $1,400.00 = $2,740.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2740,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-14",
+    "kind": "calculation",
+    "term": "$2,787.50",
+    "definition": "A card has a $7,250.00 limit and a $4,310.00 reported balance. You choose a utilization target of exactly 21.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$905.10",
+      "$1,522.50",
+      "$3,404.90"
+    ],
+    "explanation": "Target balance = $7,250.00 × 21.0% = $1,522.50. Required payment = $4,310.00 − $1,522.50 = $2,787.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2787.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-15",
+    "kind": "calculation",
+    "term": "$2,830.00",
+    "definition": "A card has a $7,500.00 limit and a $4,480.00 reported balance. You choose a utilization target of exactly 22.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$985.60",
+      "$1,650.00",
+      "$3,494.40"
+    ],
+    "explanation": "Target balance = $7,500.00 × 22.0% = $1,650.00. Required payment = $4,480.00 − $1,650.00 = $2,830.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2830,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-16",
+    "kind": "calculation",
+    "term": "$2,867.50",
+    "definition": "A card has a $7,750.00 limit and a $4,650.00 reported balance. You choose a utilization target of exactly 23.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$1,069.50",
+      "$1,782.50",
+      "$3,580.50"
+    ],
+    "explanation": "Target balance = $7,750.00 × 23.0% = $1,782.50. Required payment = $4,650.00 − $1,782.50 = $2,867.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2867.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-17",
+    "kind": "calculation",
+    "term": "$2,900.00",
+    "definition": "A card has a $8,000.00 limit and a $4,820.00 reported balance. You choose a utilization target of exactly 24.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$1,156.80",
+      "$1,920.00",
+      "$3,663.20"
+    ],
+    "explanation": "Target balance = $8,000.00 × 24.0% = $1,920.00. Required payment = $4,820.00 − $1,920.00 = $2,900.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2900,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-18",
+    "kind": "calculation",
+    "term": "$2,927.50",
+    "definition": "A card has a $8,250.00 limit and a $4,990.00 reported balance. You choose a utilization target of exactly 25.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$1,247.50",
+      "$2,062.50",
+      "$3,742.50"
+    ],
+    "explanation": "Target balance = $8,250.00 × 25.0% = $2,062.50. Required payment = $4,990.00 − $2,062.50 = $2,927.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2927.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-19",
+    "kind": "calculation",
+    "term": "$3,460.00",
+    "definition": "A card has a $8,500.00 limit and a $5,160.00 reported balance. You choose a utilization target of exactly 20.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$1,032.00",
+      "$1,700.00",
+      "$4,128.00"
+    ],
+    "explanation": "Target balance = $8,500.00 × 20.0% = $1,700.00. Required payment = $5,160.00 − $1,700.00 = $3,460.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 3460,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-20",
+    "kind": "calculation",
+    "term": "$3,492.50",
+    "definition": "A card has a $8,750.00 limit and a $5,330.00 reported balance. You choose a utilization target of exactly 21.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$1,119.30",
+      "$1,837.50",
+      "$4,210.70"
+    ],
+    "explanation": "Target balance = $8,750.00 × 21.0% = $1,837.50. Required payment = $5,330.00 − $1,837.50 = $3,492.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 3492.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-01",
+    "kind": "calculation",
+    "term": "$137.67",
+    "definition": "Compare keeping a constant $2,800.00 principal at 19.0% APR for 5 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 3.0% is paid upfront. There are no other costs. How much financing cost does transferring save? Round to the nearest cent.",
+    "distractors": [
+      "$221.67",
+      "$84.00",
+      "$305.67"
+    ],
+    "explanation": "Current-card cost = $2,800.00 × 19/100 × 5/12 = $221.67. Transfer cost = $2,800.00 × 3.0% = $84.00. Savings = $221.67 − $84.00 = $137.67.",
+    "numericAnswer": {
+      "value": 137.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-02",
+    "kind": "calculation",
+    "term": "$178.80",
+    "definition": "Compare keeping a constant $2,980.00 principal at 20.0% APR for 6 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 4.0% is paid upfront. There are no other costs. How much financing cost does transferring save?",
+    "distractors": [
+      "$298.00",
+      "$119.20",
+      "$417.20"
+    ],
+    "explanation": "Current-card cost = $2,980.00 × 20/100 × 6/12 = $298.00. Transfer cost = $2,980.00 × 4.0% = $119.20. Savings = $298.00 − $119.20 = $178.80.",
+    "numericAnswer": {
+      "value": 178.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-03",
+    "kind": "calculation",
+    "term": "$292.30",
+    "definition": "Compare keeping a constant $3,160.00 principal at 21.0% APR for 7 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 3.0% is paid upfront. There are no other costs. How much financing cost does transferring save?",
+    "distractors": [
+      "$387.10",
+      "$94.80",
+      "$481.90"
+    ],
+    "explanation": "Current-card cost = $3,160.00 × 21/100 × 7/12 = $387.10. Transfer cost = $3,160.00 × 3.0% = $94.80. Savings = $387.10 − $94.80 = $292.30.",
+    "numericAnswer": {
+      "value": 292.3,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-04",
+    "kind": "calculation",
+    "term": "$356.27",
+    "definition": "Compare keeping a constant $3,340.00 principal at 22.0% APR for 8 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 4.0% is paid upfront. There are no other costs. How much financing cost does transferring save? Round to the nearest cent.",
+    "distractors": [
+      "$489.87",
+      "$133.60",
+      "$623.47"
+    ],
+    "explanation": "Current-card cost = $3,340.00 × 22/100 × 8/12 = $489.87. Transfer cost = $3,340.00 × 4.0% = $133.60. Savings = $489.87 − $133.60 = $356.27.",
+    "numericAnswer": {
+      "value": 356.27,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-05",
+    "kind": "calculation",
+    "term": "$501.60",
+    "definition": "Compare keeping a constant $3,520.00 principal at 23.0% APR for 9 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 3.0% is paid upfront. There are no other costs. How much financing cost does transferring save?",
+    "distractors": [
+      "$607.20",
+      "$105.60",
+      "$712.80"
+    ],
+    "explanation": "Current-card cost = $3,520.00 × 23/100 × 9/12 = $607.20. Transfer cost = $3,520.00 × 3.0% = $105.60. Savings = $607.20 − $105.60 = $501.60.",
+    "numericAnswer": {
+      "value": 501.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-06",
+    "kind": "calculation",
+    "term": "$222.00",
+    "definition": "Compare keeping a constant $3,700.00 principal at 24.0% APR for 5 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 4.0% is paid upfront. There are no other costs. How much financing cost does transferring save?",
+    "distractors": [
+      "$370.00",
+      "$148.00",
+      "$518.00"
+    ],
+    "explanation": "Current-card cost = $3,700.00 × 24/100 × 5/12 = $370.00. Transfer cost = $3,700.00 × 4.0% = $148.00. Savings = $370.00 − $148.00 = $222.00.",
+    "numericAnswer": {
+      "value": 222,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-07",
+    "kind": "calculation",
+    "term": "$368.60",
+    "definition": "Compare keeping a constant $3,880.00 principal at 25.0% APR for 6 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 3.0% is paid upfront. There are no other costs. How much financing cost does transferring save?",
+    "distractors": [
+      "$485.00",
+      "$116.40",
+      "$601.40"
+    ],
+    "explanation": "Current-card cost = $3,880.00 × 25/100 × 6/12 = $485.00. Transfer cost = $3,880.00 × 3.0% = $116.40. Savings = $485.00 − $116.40 = $368.60.",
+    "numericAnswer": {
+      "value": 368.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-08",
+    "kind": "calculation",
+    "term": "$287.58",
+    "definition": "Compare keeping a constant $4,060.00 principal at 19.0% APR for 7 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 4.0% is paid upfront. There are no other costs. How much financing cost does transferring save? Round to the nearest cent.",
+    "distractors": [
+      "$449.98",
+      "$162.40",
+      "$612.38"
+    ],
+    "explanation": "Current-card cost = $4,060.00 × 19/100 × 7/12 = $449.98. Transfer cost = $4,060.00 × 4.0% = $162.40. Savings = $449.98 − $162.40 = $287.58.",
+    "numericAnswer": {
+      "value": 287.58,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-09",
+    "kind": "calculation",
+    "term": "$438.13",
+    "definition": "Compare keeping a constant $4,240.00 principal at 20.0% APR for 8 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 3.0% is paid upfront. There are no other costs. How much financing cost does transferring save? Round to the nearest cent.",
+    "distractors": [
+      "$565.33",
+      "$127.20",
+      "$692.53"
+    ],
+    "explanation": "Current-card cost = $4,240.00 × 20/100 × 8/12 = $565.33. Transfer cost = $4,240.00 × 3.0% = $127.20. Savings = $565.33 − $127.20 = $438.13.",
+    "numericAnswer": {
+      "value": 438.13,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-10",
+    "kind": "calculation",
+    "term": "$519.35",
+    "definition": "Compare keeping a constant $4,420.00 principal at 21.0% APR for 9 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 4.0% is paid upfront. There are no other costs. How much financing cost does transferring save?",
+    "distractors": [
+      "$696.15",
+      "$176.80",
+      "$872.95"
+    ],
+    "explanation": "Current-card cost = $4,420.00 × 21/100 × 9/12 = $696.15. Transfer cost = $4,420.00 × 4.0% = $176.80. Savings = $696.15 − $176.80 = $519.35.",
+    "numericAnswer": {
+      "value": 519.35,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-11",
+    "kind": "calculation",
+    "term": "$283.67",
+    "definition": "Compare keeping a constant $4,600.00 principal at 22.0% APR for 5 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 3.0% is paid upfront. There are no other costs. How much financing cost does transferring save? Round to the nearest cent.",
+    "distractors": [
+      "$421.67",
+      "$138.00",
+      "$559.67"
+    ],
+    "explanation": "Current-card cost = $4,600.00 × 22/100 × 5/12 = $421.67. Transfer cost = $4,600.00 × 3.0% = $138.00. Savings = $421.67 − $138.00 = $283.67.",
+    "numericAnswer": {
+      "value": 283.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-12",
+    "kind": "calculation",
+    "term": "$358.50",
+    "definition": "Compare keeping a constant $4,780.00 principal at 23.0% APR for 6 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 4.0% is paid upfront. There are no other costs. How much financing cost does transferring save?",
+    "distractors": [
+      "$549.70",
+      "$191.20",
+      "$740.90"
+    ],
+    "explanation": "Current-card cost = $4,780.00 × 23/100 × 6/12 = $549.70. Transfer cost = $4,780.00 × 4.0% = $191.20. Savings = $549.70 − $191.20 = $358.50.",
+    "numericAnswer": {
+      "value": 358.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-13",
+    "kind": "calculation",
+    "term": "$545.60",
+    "definition": "Compare keeping a constant $4,960.00 principal at 24.0% APR for 7 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 3.0% is paid upfront. There are no other costs. How much financing cost does transferring save?",
+    "distractors": [
+      "$694.40",
+      "$148.80",
+      "$843.20"
+    ],
+    "explanation": "Current-card cost = $4,960.00 × 24/100 × 7/12 = $694.40. Transfer cost = $4,960.00 × 3.0% = $148.80. Savings = $694.40 − $148.80 = $545.60.",
+    "numericAnswer": {
+      "value": 545.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-14",
+    "kind": "calculation",
+    "term": "$651.07",
+    "definition": "Compare keeping a constant $5,140.00 principal at 25.0% APR for 8 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 4.0% is paid upfront. There are no other costs. How much financing cost does transferring save? Round to the nearest cent.",
+    "distractors": [
+      "$856.67",
+      "$205.60",
+      "$1,062.27"
+    ],
+    "explanation": "Current-card cost = $5,140.00 × 25/100 × 8/12 = $856.67. Transfer cost = $5,140.00 × 4.0% = $205.60. Savings = $856.67 − $205.60 = $651.07.",
+    "numericAnswer": {
+      "value": 651.07,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-15",
+    "kind": "calculation",
+    "term": "$598.50",
+    "definition": "Compare keeping a constant $5,320.00 principal at 19.0% APR for 9 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 3.0% is paid upfront. There are no other costs. How much financing cost does transferring save?",
+    "distractors": [
+      "$758.10",
+      "$159.60",
+      "$917.70"
+    ],
+    "explanation": "Current-card cost = $5,320.00 × 19/100 × 9/12 = $758.10. Transfer cost = $5,320.00 × 3.0% = $159.60. Savings = $758.10 − $159.60 = $598.50.",
+    "numericAnswer": {
+      "value": 598.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-16",
+    "kind": "calculation",
+    "term": "$238.33",
+    "definition": "Compare keeping a constant $5,500.00 principal at 20.0% APR for 5 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 4.0% is paid upfront. There are no other costs. How much financing cost does transferring save? Round to the nearest cent.",
+    "distractors": [
+      "$458.33",
+      "$220.00",
+      "$678.33"
+    ],
+    "explanation": "Current-card cost = $5,500.00 × 20/100 × 5/12 = $458.33. Transfer cost = $5,500.00 × 4.0% = $220.00. Savings = $458.33 − $220.00 = $238.33.",
+    "numericAnswer": {
+      "value": 238.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-17",
+    "kind": "calculation",
+    "term": "$426.00",
+    "definition": "Compare keeping a constant $5,680.00 principal at 21.0% APR for 6 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 3.0% is paid upfront. There are no other costs. How much financing cost does transferring save?",
+    "distractors": [
+      "$596.40",
+      "$170.40",
+      "$766.80"
+    ],
+    "explanation": "Current-card cost = $5,680.00 × 21/100 × 6/12 = $596.40. Transfer cost = $5,680.00 × 3.0% = $170.40. Savings = $596.40 − $170.40 = $426.00.",
+    "numericAnswer": {
+      "value": 426,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-18",
+    "kind": "calculation",
+    "term": "$517.63",
+    "definition": "Compare keeping a constant $5,860.00 principal at 22.0% APR for 7 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 4.0% is paid upfront. There are no other costs. How much financing cost does transferring save? Round to the nearest cent.",
+    "distractors": [
+      "$752.03",
+      "$234.40",
+      "$986.43"
+    ],
+    "explanation": "Current-card cost = $5,860.00 × 22/100 × 7/12 = $752.03. Transfer cost = $5,860.00 × 4.0% = $234.40. Savings = $752.03 − $234.40 = $517.63.",
+    "numericAnswer": {
+      "value": 517.63,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-19",
+    "kind": "calculation",
+    "term": "$744.93",
+    "definition": "Compare keeping a constant $6,040.00 principal at 23.0% APR for 8 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 3.0% is paid upfront. There are no other costs. How much financing cost does transferring save? Round to the nearest cent.",
+    "distractors": [
+      "$926.13",
+      "$181.20",
+      "$1,107.33"
+    ],
+    "explanation": "Current-card cost = $6,040.00 × 23/100 × 8/12 = $926.13. Transfer cost = $6,040.00 × 3.0% = $181.20. Savings = $926.13 − $181.20 = $744.93.",
+    "numericAnswer": {
+      "value": 744.93,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-balance-transfer-interest-savings-20",
+    "kind": "calculation",
+    "term": "$870.80",
+    "definition": "Compare keeping a constant $6,220.00 principal at 24.0% APR for 9 months with transferring it to a 0% offer covering those months. In this simplified comparison, current-card interest is paid separately each month so principal stays fixed; the transfer fee of 4.0% is paid upfront. There are no other costs. How much financing cost does transferring save?",
+    "distractors": [
+      "$1,119.60",
+      "$248.80",
+      "$1,368.40"
+    ],
+    "explanation": "Current-card cost = $6,220.00 × 24/100 × 9/12 = $1,119.60. Transfer cost = $6,220.00 × 4.0% = $248.80. Savings = $1,119.60 − $248.80 = $870.80.",
+    "numericAnswer": {
+      "value": 870.8,
+      "unit": "USD"
+    }
+  }
+]

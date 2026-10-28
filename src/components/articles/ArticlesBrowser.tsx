@@ -1,6 +1,6 @@
 // Converts src/islands/articles-browser.ts to React, replacing it wholesale.
 //
-// Hard constraint: all 244 cards are server-rendered by articles.astro today,
+// Hard constraint: all catalog cards are server-rendered by articles.astro,
 // and the only thing the old script did to them was toggle `hidden` and
 // reorder existing nodes. That's what keeps the article grid fully readable
 // with JavaScript disabled. This component preserves that exactly — it
@@ -14,7 +14,7 @@
 // reading it once is simpler than re-serializing the same data as a prop.
 //
 // client:load, not client:visible: the grid must be paged down to 12 cards
-// immediately on load, before the user has any chance to see all 244
+// immediately on load, before the user has any chance to see all cards
 // unpaginated. Deferring hydration until this component scrolls into view
 // (it renders nothing, so it never would) would leave the page unpaginated
 // indefinitely.
@@ -70,6 +70,7 @@ function isSortKey(v: string): v is SortKey {
 export function ArticlesBrowser(): null {
   const gridElRef = useRef<HTMLElement | null>(null);
   const cardElsRef = useRef<HTMLElement[]>([]);
+  const renderedOrderRef = useRef<Entry[] | null>(null);
   const justLoadedMoreRef = useRef(false);
   const searchTrackPendingRef = useRef(false);
 
@@ -233,7 +234,7 @@ export function ArticlesBrowser(): null {
   // article in a new tab and switching back; `storage` covers a second tab
   // marking something read while this one is open. All three funnel into the
   // same re-read, and setEntries bails out when nothing actually changed so a
-  // tab switch doesn't churn the 244-card DOM sync effect below.
+  // tab switch doesn't churn the catalog DOM sync effect below.
   useEffect(() => {
     const sync = (): void => {
       const readIds = new Set(getArticlesRead());
@@ -321,9 +322,16 @@ export function ArticlesBrowser(): null {
     if (!grid || entries.length === 0) return;
     const els = cardElsRef.current;
 
-    for (const e of matching) {
-      const el = els[e.id];
-      if (el) grid.appendChild(el);
+    // Loading another page does not change the sort/filter order. Moving
+    // every card again is unnecessary work as the library grows.
+    if (renderedOrderRef.current !== matching) {
+      const fragment = document.createDocumentFragment();
+      for (const e of matching) {
+        const el = els[e.id];
+        if (el) fragment.appendChild(el);
+      }
+      grid.appendChild(fragment);
+      renderedOrderRef.current = matching;
     }
 
     const shown = new Set(matching.slice(0, visible).map((e) => e.id));

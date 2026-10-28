@@ -42,7 +42,8 @@ test("topic selection waits for its controls to finish loading", async ({ page }
     await expect(setup).not.toHaveAttribute("inert");
     await topic.click();
     await expect(topic.locator("input")).toBeChecked();
-    await expect(page.locator(".study-tools")).toContainText("1 of 12 topics selected");
+    const topicCount = await page.locator("#unit-list .study-topic").count();
+    await expect(page.locator(".study-tools")).toContainText(`1 of ${topicCount} topics selected`);
     await page.locator("#confirm-units").click();
     await page.locator("#start-btn-big").click();
     await expect(page.locator("#fc-stage")).toBeVisible();

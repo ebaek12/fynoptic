@@ -1,0 +1,2562 @@
+[
+  {
+    "id": "drill-cash-full-monthly-home-payment-01",
+    "kind": "calculation",
+    "term": "$1,785.00",
+    "definition": "Mortgage principal and interest cost $1,350.00 per month. Property taxes are $3,300.00 per year, homeowners insurance is $1,080.00 per year, and HOA dues are $70.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$5,800.00",
+      "$1,715.00",
+      "$483.33"
+    ],
+    "explanation": "Monthly housing = $1,350.00 + $3,300.00 ÷ 12 + $1,080.00 ÷ 12 + $70.00 = $1,785.00.",
+    "numericAnswer": {
+      "value": 1785,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-02",
+    "kind": "calculation",
+    "term": "$1,874.00",
+    "definition": "Mortgage principal and interest cost $1,415.00 per month. Property taxes are $3,480.00 per year, homeowners insurance is $1,128.00 per year, and HOA dues are $75.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$6,098.00",
+      "$1,799.00",
+      "$508.17"
+    ],
+    "explanation": "Monthly housing = $1,415.00 + $3,480.00 ÷ 12 + $1,128.00 ÷ 12 + $75.00 = $1,874.00.",
+    "numericAnswer": {
+      "value": 1874,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-03",
+    "kind": "calculation",
+    "term": "$1,963.00",
+    "definition": "Mortgage principal and interest cost $1,480.00 per month. Property taxes are $3,660.00 per year, homeowners insurance is $1,176.00 per year, and HOA dues are $80.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$6,396.00",
+      "$1,883.00",
+      "$533.00"
+    ],
+    "explanation": "Monthly housing = $1,480.00 + $3,660.00 ÷ 12 + $1,176.00 ÷ 12 + $80.00 = $1,963.00.",
+    "numericAnswer": {
+      "value": 1963,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-04",
+    "kind": "calculation",
+    "term": "$2,052.00",
+    "definition": "Mortgage principal and interest cost $1,545.00 per month. Property taxes are $3,840.00 per year, homeowners insurance is $1,224.00 per year, and HOA dues are $85.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$6,694.00",
+      "$1,967.00",
+      "$557.83"
+    ],
+    "explanation": "Monthly housing = $1,545.00 + $3,840.00 ÷ 12 + $1,224.00 ÷ 12 + $85.00 = $2,052.00.",
+    "numericAnswer": {
+      "value": 2052,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-05",
+    "kind": "calculation",
+    "term": "$2,141.00",
+    "definition": "Mortgage principal and interest cost $1,610.00 per month. Property taxes are $4,020.00 per year, homeowners insurance is $1,272.00 per year, and HOA dues are $90.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$6,992.00",
+      "$2,051.00",
+      "$582.67"
+    ],
+    "explanation": "Monthly housing = $1,610.00 + $4,020.00 ÷ 12 + $1,272.00 ÷ 12 + $90.00 = $2,141.00.",
+    "numericAnswer": {
+      "value": 2141,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-06",
+    "kind": "calculation",
+    "term": "$2,230.00",
+    "definition": "Mortgage principal and interest cost $1,675.00 per month. Property taxes are $4,200.00 per year, homeowners insurance is $1,320.00 per year, and HOA dues are $95.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$7,290.00",
+      "$2,135.00",
+      "$607.50"
+    ],
+    "explanation": "Monthly housing = $1,675.00 + $4,200.00 ÷ 12 + $1,320.00 ÷ 12 + $95.00 = $2,230.00.",
+    "numericAnswer": {
+      "value": 2230,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-07",
+    "kind": "calculation",
+    "term": "$2,319.00",
+    "definition": "Mortgage principal and interest cost $1,740.00 per month. Property taxes are $4,380.00 per year, homeowners insurance is $1,368.00 per year, and HOA dues are $100.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$7,588.00",
+      "$2,219.00",
+      "$632.33"
+    ],
+    "explanation": "Monthly housing = $1,740.00 + $4,380.00 ÷ 12 + $1,368.00 ÷ 12 + $100.00 = $2,319.00.",
+    "numericAnswer": {
+      "value": 2319,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-08",
+    "kind": "calculation",
+    "term": "$2,408.00",
+    "definition": "Mortgage principal and interest cost $1,805.00 per month. Property taxes are $4,560.00 per year, homeowners insurance is $1,416.00 per year, and HOA dues are $105.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$7,886.00",
+      "$2,303.00",
+      "$657.17"
+    ],
+    "explanation": "Monthly housing = $1,805.00 + $4,560.00 ÷ 12 + $1,416.00 ÷ 12 + $105.00 = $2,408.00.",
+    "numericAnswer": {
+      "value": 2408,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-09",
+    "kind": "calculation",
+    "term": "$2,497.00",
+    "definition": "Mortgage principal and interest cost $1,870.00 per month. Property taxes are $4,740.00 per year, homeowners insurance is $1,464.00 per year, and HOA dues are $110.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$8,184.00",
+      "$2,387.00",
+      "$682.00"
+    ],
+    "explanation": "Monthly housing = $1,870.00 + $4,740.00 ÷ 12 + $1,464.00 ÷ 12 + $110.00 = $2,497.00.",
+    "numericAnswer": {
+      "value": 2497,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-10",
+    "kind": "calculation",
+    "term": "$2,586.00",
+    "definition": "Mortgage principal and interest cost $1,935.00 per month. Property taxes are $4,920.00 per year, homeowners insurance is $1,512.00 per year, and HOA dues are $115.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$8,482.00",
+      "$2,471.00",
+      "$706.83"
+    ],
+    "explanation": "Monthly housing = $1,935.00 + $4,920.00 ÷ 12 + $1,512.00 ÷ 12 + $115.00 = $2,586.00.",
+    "numericAnswer": {
+      "value": 2586,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-11",
+    "kind": "calculation",
+    "term": "$2,675.00",
+    "definition": "Mortgage principal and interest cost $2,000.00 per month. Property taxes are $5,100.00 per year, homeowners insurance is $1,560.00 per year, and HOA dues are $120.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$8,780.00",
+      "$2,555.00",
+      "$731.67"
+    ],
+    "explanation": "Monthly housing = $2,000.00 + $5,100.00 ÷ 12 + $1,560.00 ÷ 12 + $120.00 = $2,675.00.",
+    "numericAnswer": {
+      "value": 2675,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-12",
+    "kind": "calculation",
+    "term": "$2,764.00",
+    "definition": "Mortgage principal and interest cost $2,065.00 per month. Property taxes are $5,280.00 per year, homeowners insurance is $1,608.00 per year, and HOA dues are $125.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$9,078.00",
+      "$2,639.00",
+      "$756.50"
+    ],
+    "explanation": "Monthly housing = $2,065.00 + $5,280.00 ÷ 12 + $1,608.00 ÷ 12 + $125.00 = $2,764.00.",
+    "numericAnswer": {
+      "value": 2764,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-13",
+    "kind": "calculation",
+    "term": "$2,853.00",
+    "definition": "Mortgage principal and interest cost $2,130.00 per month. Property taxes are $5,460.00 per year, homeowners insurance is $1,656.00 per year, and HOA dues are $130.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$9,376.00",
+      "$2,723.00",
+      "$781.33"
+    ],
+    "explanation": "Monthly housing = $2,130.00 + $5,460.00 ÷ 12 + $1,656.00 ÷ 12 + $130.00 = $2,853.00.",
+    "numericAnswer": {
+      "value": 2853,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-14",
+    "kind": "calculation",
+    "term": "$2,942.00",
+    "definition": "Mortgage principal and interest cost $2,195.00 per month. Property taxes are $5,640.00 per year, homeowners insurance is $1,704.00 per year, and HOA dues are $135.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$9,674.00",
+      "$2,807.00",
+      "$806.17"
+    ],
+    "explanation": "Monthly housing = $2,195.00 + $5,640.00 ÷ 12 + $1,704.00 ÷ 12 + $135.00 = $2,942.00.",
+    "numericAnswer": {
+      "value": 2942,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-15",
+    "kind": "calculation",
+    "term": "$3,031.00",
+    "definition": "Mortgage principal and interest cost $2,260.00 per month. Property taxes are $5,820.00 per year, homeowners insurance is $1,752.00 per year, and HOA dues are $140.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$9,972.00",
+      "$2,891.00",
+      "$831.00"
+    ],
+    "explanation": "Monthly housing = $2,260.00 + $5,820.00 ÷ 12 + $1,752.00 ÷ 12 + $140.00 = $3,031.00.",
+    "numericAnswer": {
+      "value": 3031,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-16",
+    "kind": "calculation",
+    "term": "$3,120.00",
+    "definition": "Mortgage principal and interest cost $2,325.00 per month. Property taxes are $6,000.00 per year, homeowners insurance is $1,800.00 per year, and HOA dues are $145.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$10,270.00",
+      "$2,975.00",
+      "$855.83"
+    ],
+    "explanation": "Monthly housing = $2,325.00 + $6,000.00 ÷ 12 + $1,800.00 ÷ 12 + $145.00 = $3,120.00.",
+    "numericAnswer": {
+      "value": 3120,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-17",
+    "kind": "calculation",
+    "term": "$3,209.00",
+    "definition": "Mortgage principal and interest cost $2,390.00 per month. Property taxes are $6,180.00 per year, homeowners insurance is $1,848.00 per year, and HOA dues are $150.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$10,568.00",
+      "$3,059.00",
+      "$880.67"
+    ],
+    "explanation": "Monthly housing = $2,390.00 + $6,180.00 ÷ 12 + $1,848.00 ÷ 12 + $150.00 = $3,209.00.",
+    "numericAnswer": {
+      "value": 3209,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-18",
+    "kind": "calculation",
+    "term": "$3,298.00",
+    "definition": "Mortgage principal and interest cost $2,455.00 per month. Property taxes are $6,360.00 per year, homeowners insurance is $1,896.00 per year, and HOA dues are $155.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$10,866.00",
+      "$3,143.00",
+      "$905.50"
+    ],
+    "explanation": "Monthly housing = $2,455.00 + $6,360.00 ÷ 12 + $1,896.00 ÷ 12 + $155.00 = $3,298.00.",
+    "numericAnswer": {
+      "value": 3298,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-19",
+    "kind": "calculation",
+    "term": "$3,387.00",
+    "definition": "Mortgage principal and interest cost $2,520.00 per month. Property taxes are $6,540.00 per year, homeowners insurance is $1,944.00 per year, and HOA dues are $160.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$11,164.00",
+      "$3,227.00",
+      "$930.33"
+    ],
+    "explanation": "Monthly housing = $2,520.00 + $6,540.00 ÷ 12 + $1,944.00 ÷ 12 + $160.00 = $3,387.00.",
+    "numericAnswer": {
+      "value": 3387,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-full-monthly-home-payment-20",
+    "kind": "calculation",
+    "term": "$3,476.00",
+    "definition": "Mortgage principal and interest cost $2,585.00 per month. Property taxes are $6,720.00 per year, homeowners insurance is $1,992.00 per year, and HOA dues are $165.00 per month. Assume taxes and insurance are budgeted evenly over 12 months, with no other housing charges. What is the full monthly amount?",
+    "distractors": [
+      "$11,462.00",
+      "$3,311.00",
+      "$955.17"
+    ],
+    "explanation": "Monthly housing = $2,585.00 + $6,720.00 ÷ 12 + $1,992.00 ÷ 12 + $165.00 = $3,476.00.",
+    "numericAnswer": {
+      "value": 3476,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-01",
+    "kind": "calculation",
+    "term": "$26,600.00",
+    "definition": "A home costs $240,000.00 with a 10.0% down payment. Additional closing charges are $5,200.00 and prepaid costs are $1,600.00. An already-paid $3,000.00 earnest deposit is credited toward the down payment, and a $1,200.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$30,800.00",
+      "$29,600.00",
+      "$32,600.00"
+    ],
+    "explanation": "Cash due = $240,000.00 × 10.0% + $5,200.00 + $1,600.00 − $3,000.00 − $1,200.00 = $26,600.00.",
+    "numericAnswer": {
+      "value": 26600,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-02",
+    "kind": "calculation",
+    "term": "$30,460.00",
+    "definition": "A home costs $252,000.00 with a 11.0% down payment. Additional closing charges are $5,470.00 and prepaid costs are $1,680.00. An already-paid $3,150.00 earnest deposit is credited toward the down payment, and a $1,260.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$34,870.00",
+      "$33,610.00",
+      "$36,760.00"
+    ],
+    "explanation": "Cash due = $252,000.00 × 11.0% + $5,470.00 + $1,680.00 − $3,150.00 − $1,260.00 = $30,460.00.",
+    "numericAnswer": {
+      "value": 30460,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-03",
+    "kind": "calculation",
+    "term": "$34,560.00",
+    "definition": "A home costs $264,000.00 with a 12.0% down payment. Additional closing charges are $5,740.00 and prepaid costs are $1,760.00. An already-paid $3,300.00 earnest deposit is credited toward the down payment, and a $1,320.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$39,180.00",
+      "$37,860.00",
+      "$41,160.00"
+    ],
+    "explanation": "Cash due = $264,000.00 × 12.0% + $5,740.00 + $1,760.00 − $3,300.00 − $1,320.00 = $34,560.00.",
+    "numericAnswer": {
+      "value": 34560,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-04",
+    "kind": "calculation",
+    "term": "$38,900.00",
+    "definition": "A home costs $276,000.00 with a 13.0% down payment. Additional closing charges are $6,010.00 and prepaid costs are $1,840.00. An already-paid $3,450.00 earnest deposit is credited toward the down payment, and a $1,380.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$43,730.00",
+      "$42,350.00",
+      "$45,800.00"
+    ],
+    "explanation": "Cash due = $276,000.00 × 13.0% + $6,010.00 + $1,840.00 − $3,450.00 − $1,380.00 = $38,900.00.",
+    "numericAnswer": {
+      "value": 38900,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-05",
+    "kind": "calculation",
+    "term": "$43,480.00",
+    "definition": "A home costs $288,000.00 with a 14.0% down payment. Additional closing charges are $6,280.00 and prepaid costs are $1,920.00. An already-paid $3,600.00 earnest deposit is credited toward the down payment, and a $1,440.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$48,520.00",
+      "$47,080.00",
+      "$50,680.00"
+    ],
+    "explanation": "Cash due = $288,000.00 × 14.0% + $6,280.00 + $1,920.00 − $3,600.00 − $1,440.00 = $43,480.00.",
+    "numericAnswer": {
+      "value": 43480,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-06",
+    "kind": "calculation",
+    "term": "$48,300.00",
+    "definition": "A home costs $300,000.00 with a 15.0% down payment. Additional closing charges are $6,550.00 and prepaid costs are $2,000.00. An already-paid $3,750.00 earnest deposit is credited toward the down payment, and a $1,500.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$53,550.00",
+      "$52,050.00",
+      "$55,800.00"
+    ],
+    "explanation": "Cash due = $300,000.00 × 15.0% + $6,550.00 + $2,000.00 − $3,750.00 − $1,500.00 = $48,300.00.",
+    "numericAnswer": {
+      "value": 48300,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-07",
+    "kind": "calculation",
+    "term": "$34,640.00",
+    "definition": "A home costs $312,000.00 with a 10.0% down payment. Additional closing charges are $6,820.00 and prepaid costs are $2,080.00. An already-paid $3,900.00 earnest deposit is credited toward the down payment, and a $1,560.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$40,100.00",
+      "$38,540.00",
+      "$42,440.00"
+    ],
+    "explanation": "Cash due = $312,000.00 × 10.0% + $6,820.00 + $2,080.00 − $3,900.00 − $1,560.00 = $34,640.00.",
+    "numericAnswer": {
+      "value": 34640,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-08",
+    "kind": "calculation",
+    "term": "$39,220.00",
+    "definition": "A home costs $324,000.00 with a 11.0% down payment. Additional closing charges are $7,090.00 and prepaid costs are $2,160.00. An already-paid $4,050.00 earnest deposit is credited toward the down payment, and a $1,620.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$44,890.00",
+      "$43,270.00",
+      "$47,320.00"
+    ],
+    "explanation": "Cash due = $324,000.00 × 11.0% + $7,090.00 + $2,160.00 − $4,050.00 − $1,620.00 = $39,220.00.",
+    "numericAnswer": {
+      "value": 39220,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-09",
+    "kind": "calculation",
+    "term": "$44,040.00",
+    "definition": "A home costs $336,000.00 with a 12.0% down payment. Additional closing charges are $7,360.00 and prepaid costs are $2,240.00. An already-paid $4,200.00 earnest deposit is credited toward the down payment, and a $1,680.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$49,920.00",
+      "$48,240.00",
+      "$52,440.00"
+    ],
+    "explanation": "Cash due = $336,000.00 × 12.0% + $7,360.00 + $2,240.00 − $4,200.00 − $1,680.00 = $44,040.00.",
+    "numericAnswer": {
+      "value": 44040,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-10",
+    "kind": "calculation",
+    "term": "$49,100.00",
+    "definition": "A home costs $348,000.00 with a 13.0% down payment. Additional closing charges are $7,630.00 and prepaid costs are $2,320.00. An already-paid $4,350.00 earnest deposit is credited toward the down payment, and a $1,740.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$55,190.00",
+      "$53,450.00",
+      "$57,800.00"
+    ],
+    "explanation": "Cash due = $348,000.00 × 13.0% + $7,630.00 + $2,320.00 − $4,350.00 − $1,740.00 = $49,100.00.",
+    "numericAnswer": {
+      "value": 49100,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-11",
+    "kind": "calculation",
+    "term": "$54,400.00",
+    "definition": "A home costs $360,000.00 with a 14.0% down payment. Additional closing charges are $7,900.00 and prepaid costs are $2,400.00. An already-paid $4,500.00 earnest deposit is credited toward the down payment, and a $1,800.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$60,700.00",
+      "$58,900.00",
+      "$63,400.00"
+    ],
+    "explanation": "Cash due = $360,000.00 × 14.0% + $7,900.00 + $2,400.00 − $4,500.00 − $1,800.00 = $54,400.00.",
+    "numericAnswer": {
+      "value": 54400,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-12",
+    "kind": "calculation",
+    "term": "$59,940.00",
+    "definition": "A home costs $372,000.00 with a 15.0% down payment. Additional closing charges are $8,170.00 and prepaid costs are $2,480.00. An already-paid $4,650.00 earnest deposit is credited toward the down payment, and a $1,860.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$66,450.00",
+      "$64,590.00",
+      "$69,240.00"
+    ],
+    "explanation": "Cash due = $372,000.00 × 15.0% + $8,170.00 + $2,480.00 − $4,650.00 − $1,860.00 = $59,940.00.",
+    "numericAnswer": {
+      "value": 59940,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-13",
+    "kind": "calculation",
+    "term": "$42,680.00",
+    "definition": "A home costs $384,000.00 with a 10.0% down payment. Additional closing charges are $8,440.00 and prepaid costs are $2,560.00. An already-paid $4,800.00 earnest deposit is credited toward the down payment, and a $1,920.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$49,400.00",
+      "$47,480.00",
+      "$52,280.00"
+    ],
+    "explanation": "Cash due = $384,000.00 × 10.0% + $8,440.00 + $2,560.00 − $4,800.00 − $1,920.00 = $42,680.00.",
+    "numericAnswer": {
+      "value": 42680,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-14",
+    "kind": "calculation",
+    "term": "$47,980.00",
+    "definition": "A home costs $396,000.00 with a 11.0% down payment. Additional closing charges are $8,710.00 and prepaid costs are $2,640.00. An already-paid $4,950.00 earnest deposit is credited toward the down payment, and a $1,980.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$54,910.00",
+      "$52,930.00",
+      "$57,880.00"
+    ],
+    "explanation": "Cash due = $396,000.00 × 11.0% + $8,710.00 + $2,640.00 − $4,950.00 − $1,980.00 = $47,980.00.",
+    "numericAnswer": {
+      "value": 47980,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-15",
+    "kind": "calculation",
+    "term": "$53,520.00",
+    "definition": "A home costs $408,000.00 with a 12.0% down payment. Additional closing charges are $8,980.00 and prepaid costs are $2,720.00. An already-paid $5,100.00 earnest deposit is credited toward the down payment, and a $2,040.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$60,660.00",
+      "$58,620.00",
+      "$63,720.00"
+    ],
+    "explanation": "Cash due = $408,000.00 × 12.0% + $8,980.00 + $2,720.00 − $5,100.00 − $2,040.00 = $53,520.00.",
+    "numericAnswer": {
+      "value": 53520,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-16",
+    "kind": "calculation",
+    "term": "$59,300.00",
+    "definition": "A home costs $420,000.00 with a 13.0% down payment. Additional closing charges are $9,250.00 and prepaid costs are $2,800.00. An already-paid $5,250.00 earnest deposit is credited toward the down payment, and a $2,100.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$66,650.00",
+      "$64,550.00",
+      "$69,800.00"
+    ],
+    "explanation": "Cash due = $420,000.00 × 13.0% + $9,250.00 + $2,800.00 − $5,250.00 − $2,100.00 = $59,300.00.",
+    "numericAnswer": {
+      "value": 59300,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-17",
+    "kind": "calculation",
+    "term": "$65,320.00",
+    "definition": "A home costs $432,000.00 with a 14.0% down payment. Additional closing charges are $9,520.00 and prepaid costs are $2,880.00. An already-paid $5,400.00 earnest deposit is credited toward the down payment, and a $2,160.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$72,880.00",
+      "$70,720.00",
+      "$76,120.00"
+    ],
+    "explanation": "Cash due = $432,000.00 × 14.0% + $9,520.00 + $2,880.00 − $5,400.00 − $2,160.00 = $65,320.00.",
+    "numericAnswer": {
+      "value": 65320,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-18",
+    "kind": "calculation",
+    "term": "$71,580.00",
+    "definition": "A home costs $444,000.00 with a 15.0% down payment. Additional closing charges are $9,790.00 and prepaid costs are $2,960.00. An already-paid $5,550.00 earnest deposit is credited toward the down payment, and a $2,220.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$79,350.00",
+      "$77,130.00",
+      "$82,680.00"
+    ],
+    "explanation": "Cash due = $444,000.00 × 15.0% + $9,790.00 + $2,960.00 − $5,550.00 − $2,220.00 = $71,580.00.",
+    "numericAnswer": {
+      "value": 71580,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-19",
+    "kind": "calculation",
+    "term": "$50,720.00",
+    "definition": "A home costs $456,000.00 with a 10.0% down payment. Additional closing charges are $10,060.00 and prepaid costs are $3,040.00. An already-paid $5,700.00 earnest deposit is credited toward the down payment, and a $2,280.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$58,700.00",
+      "$56,420.00",
+      "$62,120.00"
+    ],
+    "explanation": "Cash due = $456,000.00 × 10.0% + $10,060.00 + $3,040.00 − $5,700.00 − $2,280.00 = $50,720.00.",
+    "numericAnswer": {
+      "value": 50720,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-cash-to-close-credit-20",
+    "kind": "calculation",
+    "term": "$56,740.00",
+    "definition": "A home costs $468,000.00 with a 11.0% down payment. Additional closing charges are $10,330.00 and prepaid costs are $3,120.00. An already-paid $5,850.00 earnest deposit is credited toward the down payment, and a $2,340.00 seller credit covers part of closing charges. What additional cash is due at closing?",
+    "distractors": [
+      "$64,930.00",
+      "$62,590.00",
+      "$68,440.00"
+    ],
+    "explanation": "Cash due = $468,000.00 × 11.0% + $10,330.00 + $3,120.00 − $5,850.00 − $2,340.00 = $56,740.00.",
+    "numericAnswer": {
+      "value": 56740,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-01",
+    "kind": "calculation",
+    "term": "$215,384.62",
+    "definition": "You have $34,000.00 of cash and will keep $6,000.00 untouched. A purchase requires 10.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$261,538.46",
+      "$280,000.00",
+      "$933,333.33"
+    ],
+    "explanation": "Available purchase cash = $34,000.00 − $6,000.00 = $28,000.00. Required cash is 13% of price. Maximum price = $28,000.00 ÷ (13/100) = $215,384.62.",
+    "numericAnswer": {
+      "value": 215384.62,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-02",
+    "kind": "calculation",
+    "term": "$213,214.29",
+    "definition": "You have $36,200.00 of cash and will keep $6,350.00 untouched. A purchase requires 11.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$258,571.43",
+      "$271,363.64",
+      "$995,000.00"
+    ],
+    "explanation": "Available purchase cash = $36,200.00 − $6,350.00 = $29,850.00. Required cash is 14% of price. Maximum price = $29,850.00 ÷ (14/100) = $213,214.29.",
+    "numericAnswer": {
+      "value": 213214.29,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-03",
+    "kind": "calculation",
+    "term": "$211,333.33",
+    "definition": "You have $38,400.00 of cash and will keep $6,700.00 untouched. A purchase requires 12.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$256,000.00",
+      "$264,166.67",
+      "$1,056,666.67"
+    ],
+    "explanation": "Available purchase cash = $38,400.00 − $6,700.00 = $31,700.00. Required cash is 15% of price. Maximum price = $31,700.00 ÷ (15/100) = $211,333.33.",
+    "numericAnswer": {
+      "value": 211333.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-04",
+    "kind": "calculation",
+    "term": "$209,687.50",
+    "definition": "You have $40,600.00 of cash and will keep $7,050.00 untouched. A purchase requires 13.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support?",
+    "distractors": [
+      "$253,750.00",
+      "$258,076.92",
+      "$1,118,333.33"
+    ],
+    "explanation": "Available purchase cash = $40,600.00 − $7,050.00 = $33,550.00. Required cash is 16% of price. Maximum price = $33,550.00 ÷ (16/100) = $209,687.50.",
+    "numericAnswer": {
+      "value": 209687.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-05",
+    "kind": "calculation",
+    "term": "$208,235.29",
+    "definition": "You have $42,800.00 of cash and will keep $7,400.00 untouched. A purchase requires 14.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$251,764.71",
+      "$252,857.14",
+      "$1,180,000.00"
+    ],
+    "explanation": "Available purchase cash = $42,800.00 − $7,400.00 = $35,400.00. Required cash is 17% of price. Maximum price = $35,400.00 ÷ (17/100) = $208,235.29.",
+    "numericAnswer": {
+      "value": 208235.29,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-06",
+    "kind": "calculation",
+    "term": "$286,538.46",
+    "definition": "You have $45,000.00 of cash and will keep $7,750.00 untouched. A purchase requires 10.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$346,153.85",
+      "$372,500.00",
+      "$1,241,666.67"
+    ],
+    "explanation": "Available purchase cash = $45,000.00 − $7,750.00 = $37,250.00. Required cash is 13% of price. Maximum price = $37,250.00 ÷ (13/100) = $286,538.46.",
+    "numericAnswer": {
+      "value": 286538.46,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-07",
+    "kind": "calculation",
+    "term": "$279,285.71",
+    "definition": "You have $47,200.00 of cash and will keep $8,100.00 untouched. A purchase requires 11.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$337,142.86",
+      "$355,454.55",
+      "$1,303,333.33"
+    ],
+    "explanation": "Available purchase cash = $47,200.00 − $8,100.00 = $39,100.00. Required cash is 14% of price. Maximum price = $39,100.00 ÷ (14/100) = $279,285.71.",
+    "numericAnswer": {
+      "value": 279285.71,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-08",
+    "kind": "calculation",
+    "term": "$273,000.00",
+    "definition": "You have $49,400.00 of cash and will keep $8,450.00 untouched. A purchase requires 12.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support?",
+    "distractors": [
+      "$329,333.33",
+      "$341,250.00",
+      "$1,365,000.00"
+    ],
+    "explanation": "Available purchase cash = $49,400.00 − $8,450.00 = $40,950.00. Required cash is 15% of price. Maximum price = $40,950.00 ÷ (15/100) = $273,000.00.",
+    "numericAnswer": {
+      "value": 273000,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-09",
+    "kind": "calculation",
+    "term": "$267,500.00",
+    "definition": "You have $51,600.00 of cash and will keep $8,800.00 untouched. A purchase requires 13.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support?",
+    "distractors": [
+      "$322,500.00",
+      "$329,230.77",
+      "$1,426,666.67"
+    ],
+    "explanation": "Available purchase cash = $51,600.00 − $8,800.00 = $42,800.00. Required cash is 16% of price. Maximum price = $42,800.00 ÷ (16/100) = $267,500.00.",
+    "numericAnswer": {
+      "value": 267500,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-10",
+    "kind": "calculation",
+    "term": "$262,647.06",
+    "definition": "You have $53,800.00 of cash and will keep $9,150.00 untouched. A purchase requires 14.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$316,470.59",
+      "$318,928.57",
+      "$1,488,333.33"
+    ],
+    "explanation": "Available purchase cash = $53,800.00 − $9,150.00 = $44,650.00. Required cash is 17% of price. Maximum price = $44,650.00 ÷ (17/100) = $262,647.06.",
+    "numericAnswer": {
+      "value": 262647.06,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-11",
+    "kind": "calculation",
+    "term": "$357,692.31",
+    "definition": "You have $56,000.00 of cash and will keep $9,500.00 untouched. A purchase requires 10.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$430,769.23",
+      "$465,000.00",
+      "$1,550,000.00"
+    ],
+    "explanation": "Available purchase cash = $56,000.00 − $9,500.00 = $46,500.00. Required cash is 13% of price. Maximum price = $46,500.00 ÷ (13/100) = $357,692.31.",
+    "numericAnswer": {
+      "value": 357692.31,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-12",
+    "kind": "calculation",
+    "term": "$345,357.14",
+    "definition": "You have $58,200.00 of cash and will keep $9,850.00 untouched. A purchase requires 11.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$415,714.29",
+      "$439,545.45",
+      "$1,611,666.67"
+    ],
+    "explanation": "Available purchase cash = $58,200.00 − $9,850.00 = $48,350.00. Required cash is 14% of price. Maximum price = $48,350.00 ÷ (14/100) = $345,357.14.",
+    "numericAnswer": {
+      "value": 345357.14,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-13",
+    "kind": "calculation",
+    "term": "$334,666.67",
+    "definition": "You have $60,400.00 of cash and will keep $10,200.00 untouched. A purchase requires 12.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$402,666.67",
+      "$418,333.33",
+      "$1,673,333.33"
+    ],
+    "explanation": "Available purchase cash = $60,400.00 − $10,200.00 = $50,200.00. Required cash is 15% of price. Maximum price = $50,200.00 ÷ (15/100) = $334,666.67.",
+    "numericAnswer": {
+      "value": 334666.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-14",
+    "kind": "calculation",
+    "term": "$325,312.50",
+    "definition": "You have $62,600.00 of cash and will keep $10,550.00 untouched. A purchase requires 13.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support?",
+    "distractors": [
+      "$391,250.00",
+      "$400,384.62",
+      "$1,735,000.00"
+    ],
+    "explanation": "Available purchase cash = $62,600.00 − $10,550.00 = $52,050.00. Required cash is 16% of price. Maximum price = $52,050.00 ÷ (16/100) = $325,312.50.",
+    "numericAnswer": {
+      "value": 325312.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-15",
+    "kind": "calculation",
+    "term": "$317,058.82",
+    "definition": "You have $64,800.00 of cash and will keep $10,900.00 untouched. A purchase requires 14.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$381,176.47",
+      "$385,000.00",
+      "$1,796,666.67"
+    ],
+    "explanation": "Available purchase cash = $64,800.00 − $10,900.00 = $53,900.00. Required cash is 17% of price. Maximum price = $53,900.00 ÷ (17/100) = $317,058.82.",
+    "numericAnswer": {
+      "value": 317058.82,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-16",
+    "kind": "calculation",
+    "term": "$428,846.15",
+    "definition": "You have $67,000.00 of cash and will keep $11,250.00 untouched. A purchase requires 10.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$515,384.62",
+      "$557,500.00",
+      "$1,858,333.33"
+    ],
+    "explanation": "Available purchase cash = $67,000.00 − $11,250.00 = $55,750.00. Required cash is 13% of price. Maximum price = $55,750.00 ÷ (13/100) = $428,846.15.",
+    "numericAnswer": {
+      "value": 428846.15,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-17",
+    "kind": "calculation",
+    "term": "$411,428.57",
+    "definition": "You have $69,200.00 of cash and will keep $11,600.00 untouched. A purchase requires 11.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$494,285.71",
+      "$523,636.36",
+      "$1,920,000.00"
+    ],
+    "explanation": "Available purchase cash = $69,200.00 − $11,600.00 = $57,600.00. Required cash is 14% of price. Maximum price = $57,600.00 ÷ (14/100) = $411,428.57.",
+    "numericAnswer": {
+      "value": 411428.57,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-18",
+    "kind": "calculation",
+    "term": "$396,333.33",
+    "definition": "You have $71,400.00 of cash and will keep $11,950.00 untouched. A purchase requires 12.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$476,000.00",
+      "$495,416.67",
+      "$1,981,666.67"
+    ],
+    "explanation": "Available purchase cash = $71,400.00 − $11,950.00 = $59,450.00. Required cash is 15% of price. Maximum price = $59,450.00 ÷ (15/100) = $396,333.33.",
+    "numericAnswer": {
+      "value": 396333.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-19",
+    "kind": "calculation",
+    "term": "$383,125.00",
+    "definition": "You have $73,600.00 of cash and will keep $12,300.00 untouched. A purchase requires 13.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support?",
+    "distractors": [
+      "$460,000.00",
+      "$471,538.46",
+      "$2,043,333.33"
+    ],
+    "explanation": "Available purchase cash = $73,600.00 − $12,300.00 = $61,300.00. Required cash is 16% of price. Maximum price = $61,300.00 ÷ (16/100) = $383,125.00.",
+    "numericAnswer": {
+      "value": 383125,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-price-cash-constraint-20",
+    "kind": "calculation",
+    "term": "$371,470.59",
+    "definition": "You have $75,800.00 of cash and will keep $12,650.00 untouched. A purchase requires 14.0% of its price as down payment plus 3.0% of its price for all closing costs. Ignore loan-income constraints and other costs. What is the highest home price these cash funds support? Round to the nearest cent.",
+    "distractors": [
+      "$445,882.35",
+      "$451,071.43",
+      "$2,105,000.00"
+    ],
+    "explanation": "Available purchase cash = $75,800.00 − $12,650.00 = $63,150.00. Required cash is 17% of price. Maximum price = $63,150.00 ÷ (17/100) = $371,470.59.",
+    "numericAnswer": {
+      "value": 371470.59,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-01",
+    "kind": "calculation",
+    "term": "$1,206.67",
+    "definition": "A 12-month lease lists rent of $1,300.00 per month but waives rent for exactly 1 full months. A nonrefundable $180.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,191.67",
+      "$1,315.00",
+      "$1,434.55"
+    ],
+    "explanation": "Total cost = 11 paid months × $1,300.00 + $180.00 = $14,480.00. Divide by all 12 lease months: $1,206.67.",
+    "numericAnswer": {
+      "value": 1206.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-02",
+    "kind": "calculation",
+    "term": "$1,165.54",
+    "definition": "A 13-month lease lists rent of $1,360.00 per month but waives rent for exactly 2 full months. A nonrefundable $192.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,150.77",
+      "$1,374.77",
+      "$1,624.73"
+    ],
+    "explanation": "Total cost = 11 paid months × $1,360.00 + $192.00 = $15,152.00. Divide by all 13 lease months: $1,165.54.",
+    "numericAnswer": {
+      "value": 1165.54,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-03",
+    "kind": "calculation",
+    "term": "$1,333.14",
+    "definition": "A 14-month lease lists rent of $1,420.00 per month but waives rent for exactly 1 full months. A nonrefundable $204.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,318.57",
+      "$1,434.57",
+      "$1,544.92"
+    ],
+    "explanation": "Total cost = 13 paid months × $1,420.00 + $204.00 = $18,664.00. Divide by all 14 lease months: $1,333.14.",
+    "numericAnswer": {
+      "value": 1333.14,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-04",
+    "kind": "calculation",
+    "term": "$1,297.07",
+    "definition": "A 15-month lease lists rent of $1,480.00 per month but waives rent for exactly 2 full months. A nonrefundable $216.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,282.67",
+      "$1,494.40",
+      "$1,724.31"
+    ],
+    "explanation": "Total cost = 13 paid months × $1,480.00 + $216.00 = $19,456.00. Divide by all 15 lease months: $1,297.07.",
+    "numericAnswer": {
+      "value": 1297.07,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-05",
+    "kind": "calculation",
+    "term": "$1,430.67",
+    "definition": "A 12-month lease lists rent of $1,540.00 per month but waives rent for exactly 1 full months. A nonrefundable $228.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,411.67",
+      "$1,559.00",
+      "$1,700.73"
+    ],
+    "explanation": "Total cost = 11 paid months × $1,540.00 + $228.00 = $17,168.00. Divide by all 12 lease months: $1,430.67.",
+    "numericAnswer": {
+      "value": 1430.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-06",
+    "kind": "calculation",
+    "term": "$1,372.31",
+    "definition": "A 13-month lease lists rent of $1,600.00 per month but waives rent for exactly 2 full months. A nonrefundable $240.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,353.85",
+      "$1,618.46",
+      "$1,912.73"
+    ],
+    "explanation": "Total cost = 11 paid months × $1,600.00 + $240.00 = $17,840.00. Divide by all 13 lease months: $1,372.31.",
+    "numericAnswer": {
+      "value": 1372.31,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-07",
+    "kind": "calculation",
+    "term": "$1,559.43",
+    "definition": "A 14-month lease lists rent of $1,660.00 per month but waives rent for exactly 1 full months. A nonrefundable $252.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,541.43",
+      "$1,678.00",
+      "$1,807.08"
+    ],
+    "explanation": "Total cost = 13 paid months × $1,660.00 + $252.00 = $21,832.00. Divide by all 14 lease months: $1,559.43.",
+    "numericAnswer": {
+      "value": 1559.43,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-08",
+    "kind": "calculation",
+    "term": "$1,508.27",
+    "definition": "A 15-month lease lists rent of $1,720.00 per month but waives rent for exactly 2 full months. A nonrefundable $264.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,490.67",
+      "$1,737.60",
+      "$2,004.92"
+    ],
+    "explanation": "Total cost = 13 paid months × $1,720.00 + $264.00 = $22,624.00. Divide by all 15 lease months: $1,508.27.",
+    "numericAnswer": {
+      "value": 1508.27,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-09",
+    "kind": "calculation",
+    "term": "$1,654.67",
+    "definition": "A 12-month lease lists rent of $1,780.00 per month but waives rent for exactly 1 full months. A nonrefundable $276.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,631.67",
+      "$1,803.00",
+      "$1,966.91"
+    ],
+    "explanation": "Total cost = 11 paid months × $1,780.00 + $276.00 = $19,856.00. Divide by all 12 lease months: $1,654.67.",
+    "numericAnswer": {
+      "value": 1654.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-10",
+    "kind": "calculation",
+    "term": "$1,579.08",
+    "definition": "A 13-month lease lists rent of $1,840.00 per month but waives rent for exactly 2 full months. A nonrefundable $288.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,556.92",
+      "$1,862.15",
+      "$2,200.73"
+    ],
+    "explanation": "Total cost = 11 paid months × $1,840.00 + $288.00 = $20,528.00. Divide by all 13 lease months: $1,579.08.",
+    "numericAnswer": {
+      "value": 1579.08,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-11",
+    "kind": "calculation",
+    "term": "$1,785.71",
+    "definition": "A 14-month lease lists rent of $1,900.00 per month but waives rent for exactly 1 full months. A nonrefundable $300.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,764.29",
+      "$1,921.43",
+      "$2,069.23"
+    ],
+    "explanation": "Total cost = 13 paid months × $1,900.00 + $300.00 = $25,000.00. Divide by all 14 lease months: $1,785.71.",
+    "numericAnswer": {
+      "value": 1785.71,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-12",
+    "kind": "calculation",
+    "term": "$1,719.47",
+    "definition": "A 15-month lease lists rent of $1,960.00 per month but waives rent for exactly 2 full months. A nonrefundable $312.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,698.67",
+      "$1,980.80",
+      "$2,285.54"
+    ],
+    "explanation": "Total cost = 13 paid months × $1,960.00 + $312.00 = $25,792.00. Divide by all 15 lease months: $1,719.47.",
+    "numericAnswer": {
+      "value": 1719.47,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-13",
+    "kind": "calculation",
+    "term": "$1,878.67",
+    "definition": "A 12-month lease lists rent of $2,020.00 per month but waives rent for exactly 1 full months. A nonrefundable $324.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,851.67",
+      "$2,047.00",
+      "$2,233.09"
+    ],
+    "explanation": "Total cost = 11 paid months × $2,020.00 + $324.00 = $22,544.00. Divide by all 12 lease months: $1,878.67.",
+    "numericAnswer": {
+      "value": 1878.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-14",
+    "kind": "calculation",
+    "term": "$1,785.85",
+    "definition": "A 13-month lease lists rent of $2,080.00 per month but waives rent for exactly 2 full months. A nonrefundable $336.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,760.00",
+      "$2,105.85",
+      "$2,488.73"
+    ],
+    "explanation": "Total cost = 11 paid months × $2,080.00 + $336.00 = $23,216.00. Divide by all 13 lease months: $1,785.85.",
+    "numericAnswer": {
+      "value": 1785.85,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-15",
+    "kind": "calculation",
+    "term": "$2,012.00",
+    "definition": "A 14-month lease lists rent of $2,140.00 per month but waives rent for exactly 1 full months. A nonrefundable $348.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease?",
+    "distractors": [
+      "$1,987.14",
+      "$2,164.86",
+      "$2,331.38"
+    ],
+    "explanation": "Total cost = 13 paid months × $2,140.00 + $348.00 = $28,168.00. Divide by all 14 lease months: $2,012.00.",
+    "numericAnswer": {
+      "value": 2012,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-16",
+    "kind": "calculation",
+    "term": "$1,930.67",
+    "definition": "A 15-month lease lists rent of $2,200.00 per month but waives rent for exactly 2 full months. A nonrefundable $360.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,906.67",
+      "$2,224.00",
+      "$2,566.15"
+    ],
+    "explanation": "Total cost = 13 paid months × $2,200.00 + $360.00 = $28,960.00. Divide by all 15 lease months: $1,930.67.",
+    "numericAnswer": {
+      "value": 1930.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-17",
+    "kind": "calculation",
+    "term": "$2,102.67",
+    "definition": "A 12-month lease lists rent of $2,260.00 per month but waives rent for exactly 1 full months. A nonrefundable $372.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$2,071.67",
+      "$2,291.00",
+      "$2,499.27"
+    ],
+    "explanation": "Total cost = 11 paid months × $2,260.00 + $372.00 = $25,232.00. Divide by all 12 lease months: $2,102.67.",
+    "numericAnswer": {
+      "value": 2102.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-18",
+    "kind": "calculation",
+    "term": "$1,992.62",
+    "definition": "A 13-month lease lists rent of $2,320.00 per month but waives rent for exactly 2 full months. A nonrefundable $384.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$1,963.08",
+      "$2,349.54",
+      "$2,776.73"
+    ],
+    "explanation": "Total cost = 11 paid months × $2,320.00 + $384.00 = $25,904.00. Divide by all 13 lease months: $1,992.62.",
+    "numericAnswer": {
+      "value": 1992.62,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-19",
+    "kind": "calculation",
+    "term": "$2,238.29",
+    "definition": "A 14-month lease lists rent of $2,380.00 per month but waives rent for exactly 1 full months. A nonrefundable $396.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$2,210.00",
+      "$2,408.29",
+      "$2,593.54"
+    ],
+    "explanation": "Total cost = 13 paid months × $2,380.00 + $396.00 = $31,336.00. Divide by all 14 lease months: $2,238.29.",
+    "numericAnswer": {
+      "value": 2238.29,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-rent-concession-effective-monthly-20",
+    "kind": "calculation",
+    "term": "$2,141.87",
+    "definition": "A 15-month lease lists rent of $2,440.00 per month but waives rent for exactly 2 full months. A nonrefundable $408.00 lease fee is paid once. There are no other costs. What is the effective average monthly cost over the whole lease? Round to the nearest cent.",
+    "distractors": [
+      "$2,114.67",
+      "$2,467.20",
+      "$2,846.77"
+    ],
+    "explanation": "Total cost = 13 paid months × $2,440.00 + $408.00 = $32,128.00. Divide by all 15 lease months: $2,141.87.",
+    "numericAnswer": {
+      "value": 2141.87,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-01",
+    "kind": "calculation",
+    "term": "$25.71",
+    "definition": "Three roommates split a $180.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 10 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$60.00",
+      "$20.00",
+      "$77.14"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 10 = 70. The third roommate pays $180.00 × 10 ÷ 70 = $25.71.",
+    "numericAnswer": {
+      "value": 25.71,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-02",
+    "kind": "calculation",
+    "term": "$29.75",
+    "definition": "Three roommates split a $192.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 11 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$64.00",
+      "$70.40",
+      "$23.47"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 11 = 71. The third roommate pays $192.00 × 11 ÷ 71 = $29.75.",
+    "numericAnswer": {
+      "value": 29.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-03",
+    "kind": "calculation",
+    "term": "$34.00",
+    "definition": "Three roommates split a $204.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 12 days. Under this agreed rule, what is the third roommate's share?",
+    "distractors": [
+      "$68.00",
+      "$81.60",
+      "$27.20"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 12 = 72. The third roommate pays $204.00 × 12 ÷ 72 = $34.00.",
+    "numericAnswer": {
+      "value": 34,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-04",
+    "kind": "calculation",
+    "term": "$38.47",
+    "definition": "Three roommates split a $216.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 13 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$72.00",
+      "$93.60",
+      "$31.20"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 13 = 73. The third roommate pays $216.00 × 13 ÷ 73 = $38.47.",
+    "numericAnswer": {
+      "value": 38.47,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-05",
+    "kind": "calculation",
+    "term": "$43.14",
+    "definition": "Three roommates split a $228.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 14 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$76.00",
+      "$106.40",
+      "$35.47"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 14 = 74. The third roommate pays $228.00 × 14 ÷ 74 = $43.14.",
+    "numericAnswer": {
+      "value": 43.14,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-06",
+    "kind": "calculation",
+    "term": "$48.00",
+    "definition": "Three roommates split a $240.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 15 days. Under this agreed rule, what is the third roommate's share?",
+    "distractors": [
+      "$80.00",
+      "$120.00",
+      "$40.00"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 15 = 75. The third roommate pays $240.00 × 15 ÷ 75 = $48.00.",
+    "numericAnswer": {
+      "value": 48,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-07",
+    "kind": "calculation",
+    "term": "$53.05",
+    "definition": "Three roommates split a $252.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 16 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$84.00",
+      "$134.40",
+      "$44.80"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 16 = 76. The third roommate pays $252.00 × 16 ÷ 76 = $53.05.",
+    "numericAnswer": {
+      "value": 53.05,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-08",
+    "kind": "calculation",
+    "term": "$58.29",
+    "definition": "Three roommates split a $264.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 17 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$88.00",
+      "$149.60",
+      "$49.87"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 17 = 77. The third roommate pays $264.00 × 17 ÷ 77 = $58.29.",
+    "numericAnswer": {
+      "value": 58.29,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-09",
+    "kind": "calculation",
+    "term": "$63.69",
+    "definition": "Three roommates split a $276.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 18 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$92.00",
+      "$165.60",
+      "$55.20"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 18 = 78. The third roommate pays $276.00 × 18 ÷ 78 = $63.69.",
+    "numericAnswer": {
+      "value": 63.69,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-10",
+    "kind": "calculation",
+    "term": "$69.27",
+    "definition": "Three roommates split a $288.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 19 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$96.00",
+      "$182.40",
+      "$60.80"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 19 = 79. The third roommate pays $288.00 × 19 ÷ 79 = $69.27.",
+    "numericAnswer": {
+      "value": 69.27,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-11",
+    "kind": "calculation",
+    "term": "$75.00",
+    "definition": "Three roommates split a $300.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 20 days. Under this agreed rule, what is the third roommate's share?",
+    "distractors": [
+      "$100.00",
+      "$200.00",
+      "$66.67"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 20 = 80. The third roommate pays $300.00 × 20 ÷ 80 = $75.00.",
+    "numericAnswer": {
+      "value": 75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-12",
+    "kind": "calculation",
+    "term": "$80.89",
+    "definition": "Three roommates split a $312.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 21 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$104.00",
+      "$218.40",
+      "$72.80"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 21 = 81. The third roommate pays $312.00 × 21 ÷ 81 = $80.89.",
+    "numericAnswer": {
+      "value": 80.89,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-13",
+    "kind": "calculation",
+    "term": "$86.93",
+    "definition": "Three roommates split a $324.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 22 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$108.00",
+      "$237.60",
+      "$79.20"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 22 = 82. The third roommate pays $324.00 × 22 ÷ 82 = $86.93.",
+    "numericAnswer": {
+      "value": 86.93,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-14",
+    "kind": "calculation",
+    "term": "$93.11",
+    "definition": "Three roommates split a $336.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 23 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$112.00",
+      "$257.60",
+      "$85.87"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 23 = 83. The third roommate pays $336.00 × 23 ÷ 83 = $93.11.",
+    "numericAnswer": {
+      "value": 93.11,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-15",
+    "kind": "calculation",
+    "term": "$99.43",
+    "definition": "Three roommates split a $348.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 24 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$116.00",
+      "$278.40",
+      "$92.80"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 24 = 84. The third roommate pays $348.00 × 24 ÷ 84 = $99.43.",
+    "numericAnswer": {
+      "value": 99.43,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-16",
+    "kind": "calculation",
+    "term": "$105.88",
+    "definition": "Three roommates split a $360.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 25 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$120.00",
+      "$300.00",
+      "$100.00"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 25 = 85. The third roommate pays $360.00 × 25 ÷ 85 = $105.88.",
+    "numericAnswer": {
+      "value": 105.88,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-17",
+    "kind": "calculation",
+    "term": "$112.47",
+    "definition": "Three roommates split a $372.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 26 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$124.00",
+      "$322.40",
+      "$107.47"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 26 = 86. The third roommate pays $372.00 × 26 ÷ 86 = $112.47.",
+    "numericAnswer": {
+      "value": 112.47,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-18",
+    "kind": "calculation",
+    "term": "$119.17",
+    "definition": "Three roommates split a $384.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 27 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$128.00",
+      "$345.60",
+      "$115.20"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 27 = 87. The third roommate pays $384.00 × 27 ÷ 87 = $119.17.",
+    "numericAnswer": {
+      "value": 119.17,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-19",
+    "kind": "calculation",
+    "term": "$126.00",
+    "definition": "Three roommates split a $396.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 28 days. Under this agreed rule, what is the third roommate's share?",
+    "distractors": [
+      "$132.00",
+      "$369.60",
+      "$123.20"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 28 = 88. The third roommate pays $396.00 × 28 ÷ 88 = $126.00.",
+    "numericAnswer": {
+      "value": 126,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-roommate-prorated-utilities-20",
+    "kind": "calculation",
+    "term": "$132.94",
+    "definition": "Three roommates split a $408.00 utility bill by person-days of occupancy. Two each lived there all 30 days, while the third lived there for 29 days. Under this agreed rule, what is the third roommate's share? Round to the nearest cent.",
+    "distractors": [
+      "$136.00",
+      "$394.40",
+      "$131.47"
+    ],
+    "explanation": "Total person-days = 30 + 30 + 29 = 89. The third roommate pays $408.00 × 29 ÷ 89 = $132.94.",
+    "numericAnswer": {
+      "value": 132.94,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-01",
+    "kind": "calculation",
+    "term": "73.08%",
+    "definition": "A property is currently appraised at $260,000.00, was purchased for $248,000.00, and has a $190,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "76.61%",
+      "26.92%",
+      "136.84%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $190,000.00 ÷ $260,000.00 × 100 = 73.08%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 73.08,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-02",
+    "kind": "calculation",
+    "term": "72.55%",
+    "definition": "A property is currently appraised at $275,000.00, was purchased for $262,600.00, and has a $199,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "75.97%",
+      "27.45%",
+      "137.84%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $199,500.00 ÷ $275,000.00 × 100 = 72.55%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 72.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-03",
+    "kind": "calculation",
+    "term": "72.07%",
+    "definition": "A property is currently appraised at $290,000.00, was purchased for $277,200.00, and has a $209,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "75.40%",
+      "27.93%",
+      "138.76%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $209,000.00 ÷ $290,000.00 × 100 = 72.07%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 72.07,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-04",
+    "kind": "calculation",
+    "term": "71.64%",
+    "definition": "A property is currently appraised at $305,000.00, was purchased for $291,800.00, and has a $218,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "74.88%",
+      "28.36%",
+      "139.59%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $218,500.00 ÷ $305,000.00 × 100 = 71.64%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 71.64,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-05",
+    "kind": "calculation",
+    "term": "71.25%",
+    "definition": "A property is currently appraised at $320,000.00, was purchased for $306,400.00, and has a $228,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV?",
+    "distractors": [
+      "74.41%",
+      "28.75%",
+      "140.35%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $228,000.00 ÷ $320,000.00 × 100 = 71.25%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 71.25,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-06",
+    "kind": "calculation",
+    "term": "70.90%",
+    "definition": "A property is currently appraised at $335,000.00, was purchased for $321,000.00, and has a $237,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "73.99%",
+      "29.10%",
+      "141.05%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $237,500.00 ÷ $335,000.00 × 100 = 70.90%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 70.9,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-07",
+    "kind": "calculation",
+    "term": "70.57%",
+    "definition": "A property is currently appraised at $350,000.00, was purchased for $335,600.00, and has a $247,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "73.60%",
+      "29.43%",
+      "141.70%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $247,000.00 ÷ $350,000.00 × 100 = 70.57%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 70.57,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-08",
+    "kind": "calculation",
+    "term": "70.27%",
+    "definition": "A property is currently appraised at $365,000.00, was purchased for $350,200.00, and has a $256,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "73.24%",
+      "29.73%",
+      "142.30%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $256,500.00 ÷ $365,000.00 × 100 = 70.27%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 70.27,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-09",
+    "kind": "calculation",
+    "term": "70.00%",
+    "definition": "A property is currently appraised at $380,000.00, was purchased for $364,800.00, and has a $266,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV?",
+    "distractors": [
+      "72.92%",
+      "30.00%",
+      "142.86%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $266,000.00 ÷ $380,000.00 × 100 = 70.00%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 70,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-10",
+    "kind": "calculation",
+    "term": "69.75%",
+    "definition": "A property is currently appraised at $395,000.00, was purchased for $379,400.00, and has a $275,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "72.61%",
+      "30.25%",
+      "143.38%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $275,500.00 ÷ $395,000.00 × 100 = 69.75%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 69.75,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-11",
+    "kind": "calculation",
+    "term": "69.51%",
+    "definition": "A property is currently appraised at $410,000.00, was purchased for $394,000.00, and has a $285,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "72.34%",
+      "30.49%",
+      "143.86%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $285,000.00 ÷ $410,000.00 × 100 = 69.51%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 69.51,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-12",
+    "kind": "calculation",
+    "term": "69.29%",
+    "definition": "A property is currently appraised at $425,000.00, was purchased for $408,600.00, and has a $294,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "72.08%",
+      "30.71%",
+      "144.31%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $294,500.00 ÷ $425,000.00 × 100 = 69.29%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 69.29,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-13",
+    "kind": "calculation",
+    "term": "69.09%",
+    "definition": "A property is currently appraised at $440,000.00, was purchased for $423,200.00, and has a $304,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "71.83%",
+      "30.91%",
+      "144.74%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $304,000.00 ÷ $440,000.00 × 100 = 69.09%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 69.09,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-14",
+    "kind": "calculation",
+    "term": "68.90%",
+    "definition": "A property is currently appraised at $455,000.00, was purchased for $437,800.00, and has a $313,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "71.61%",
+      "31.10%",
+      "145.14%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $313,500.00 ÷ $455,000.00 × 100 = 68.90%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 68.9,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-15",
+    "kind": "calculation",
+    "term": "68.72%",
+    "definition": "A property is currently appraised at $470,000.00, was purchased for $452,400.00, and has a $323,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "71.40%",
+      "31.28%",
+      "145.51%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $323,000.00 ÷ $470,000.00 × 100 = 68.72%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 68.72,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-16",
+    "kind": "calculation",
+    "term": "68.56%",
+    "definition": "A property is currently appraised at $485,000.00, was purchased for $467,000.00, and has a $332,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "71.20%",
+      "31.44%",
+      "145.86%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $332,500.00 ÷ $485,000.00 × 100 = 68.56%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 68.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-17",
+    "kind": "calculation",
+    "term": "68.40%",
+    "definition": "A property is currently appraised at $500,000.00, was purchased for $481,600.00, and has a $342,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV?",
+    "distractors": [
+      "71.01%",
+      "31.60%",
+      "146.20%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $342,000.00 ÷ $500,000.00 × 100 = 68.40%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 68.4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-18",
+    "kind": "calculation",
+    "term": "68.25%",
+    "definition": "A property is currently appraised at $515,000.00, was purchased for $496,200.00, and has a $351,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "70.84%",
+      "31.75%",
+      "146.51%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $351,500.00 ÷ $515,000.00 × 100 = 68.25%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 68.25,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-19",
+    "kind": "calculation",
+    "term": "68.11%",
+    "definition": "A property is currently appraised at $530,000.00, was purchased for $510,800.00, and has a $361,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "70.67%",
+      "31.89%",
+      "146.81%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $361,000.00 ÷ $530,000.00 × 100 = 68.11%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 68.11,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-20",
+    "kind": "calculation",
+    "term": "67.98%",
+    "definition": "A property is currently appraised at $545,000.00, was purchased for $525,400.00, and has a $370,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "70.52%",
+      "32.02%",
+      "147.10%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $370,500.00 ÷ $545,000.00 × 100 = 67.98%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 67.98,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-01",
+    "kind": "calculation",
+    "term": "$92,250.00",
+    "definition": "A home sells for $285,000.00. Selling commission is 5.0% of sale price, other seller costs are $3,500.00, and the mortgage payoff is $175,000.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$110,000.00",
+      "$95,750.00",
+      "$106,500.00"
+    ],
+    "explanation": "Net cash = $285,000.00 − $14,250.00 commission − $3,500.00 other costs − $175,000.00 payoff = $92,250.00.",
+    "numericAnswer": {
+      "value": 92250,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-02",
+    "kind": "calculation",
+    "term": "$96,420.00",
+    "definition": "A home sells for $298,000.00. Selling commission is 5.5% of sale price, other seller costs are $3,690.00, and the mortgage payoff is $181,500.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$116,500.00",
+      "$100,110.00",
+      "$112,810.00"
+    ],
+    "explanation": "Net cash = $298,000.00 − $16,390.00 commission − $3,690.00 other costs − $181,500.00 payoff = $96,420.00.",
+    "numericAnswer": {
+      "value": 96420,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-03",
+    "kind": "calculation",
+    "term": "$100,460.00",
+    "definition": "A home sells for $311,000.00. Selling commission is 6.0% of sale price, other seller costs are $3,880.00, and the mortgage payoff is $188,000.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$123,000.00",
+      "$104,340.00",
+      "$119,120.00"
+    ],
+    "explanation": "Net cash = $311,000.00 − $18,660.00 commission − $3,880.00 other costs − $188,000.00 payoff = $100,460.00.",
+    "numericAnswer": {
+      "value": 100460,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-04",
+    "kind": "calculation",
+    "term": "$109,230.00",
+    "definition": "A home sells for $324,000.00. Selling commission is 5.0% of sale price, other seller costs are $4,070.00, and the mortgage payoff is $194,500.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$129,500.00",
+      "$113,300.00",
+      "$125,430.00"
+    ],
+    "explanation": "Net cash = $324,000.00 − $16,200.00 commission − $4,070.00 other costs − $194,500.00 payoff = $109,230.00.",
+    "numericAnswer": {
+      "value": 109230,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-05",
+    "kind": "calculation",
+    "term": "$113,205.00",
+    "definition": "A home sells for $337,000.00. Selling commission is 5.5% of sale price, other seller costs are $4,260.00, and the mortgage payoff is $201,000.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$136,000.00",
+      "$117,465.00",
+      "$131,740.00"
+    ],
+    "explanation": "Net cash = $337,000.00 − $18,535.00 commission − $4,260.00 other costs − $201,000.00 payoff = $113,205.00.",
+    "numericAnswer": {
+      "value": 113205,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-06",
+    "kind": "calculation",
+    "term": "$117,050.00",
+    "definition": "A home sells for $350,000.00. Selling commission is 6.0% of sale price, other seller costs are $4,450.00, and the mortgage payoff is $207,500.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$142,500.00",
+      "$121,500.00",
+      "$138,050.00"
+    ],
+    "explanation": "Net cash = $350,000.00 − $21,000.00 commission − $4,450.00 other costs − $207,500.00 payoff = $117,050.00.",
+    "numericAnswer": {
+      "value": 117050,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-07",
+    "kind": "calculation",
+    "term": "$126,210.00",
+    "definition": "A home sells for $363,000.00. Selling commission is 5.0% of sale price, other seller costs are $4,640.00, and the mortgage payoff is $214,000.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$149,000.00",
+      "$130,850.00",
+      "$144,360.00"
+    ],
+    "explanation": "Net cash = $363,000.00 − $18,150.00 commission − $4,640.00 other costs − $214,000.00 payoff = $126,210.00.",
+    "numericAnswer": {
+      "value": 126210,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-08",
+    "kind": "calculation",
+    "term": "$129,990.00",
+    "definition": "A home sells for $376,000.00. Selling commission is 5.5% of sale price, other seller costs are $4,830.00, and the mortgage payoff is $220,500.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$155,500.00",
+      "$134,820.00",
+      "$150,670.00"
+    ],
+    "explanation": "Net cash = $376,000.00 − $20,680.00 commission − $4,830.00 other costs − $220,500.00 payoff = $129,990.00.",
+    "numericAnswer": {
+      "value": 129990,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-09",
+    "kind": "calculation",
+    "term": "$133,640.00",
+    "definition": "A home sells for $389,000.00. Selling commission is 6.0% of sale price, other seller costs are $5,020.00, and the mortgage payoff is $227,000.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$162,000.00",
+      "$138,660.00",
+      "$156,980.00"
+    ],
+    "explanation": "Net cash = $389,000.00 − $23,340.00 commission − $5,020.00 other costs − $227,000.00 payoff = $133,640.00.",
+    "numericAnswer": {
+      "value": 133640,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-10",
+    "kind": "calculation",
+    "term": "$143,190.00",
+    "definition": "A home sells for $402,000.00. Selling commission is 5.0% of sale price, other seller costs are $5,210.00, and the mortgage payoff is $233,500.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$168,500.00",
+      "$148,400.00",
+      "$163,290.00"
+    ],
+    "explanation": "Net cash = $402,000.00 − $20,100.00 commission − $5,210.00 other costs − $233,500.00 payoff = $143,190.00.",
+    "numericAnswer": {
+      "value": 143190,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-11",
+    "kind": "calculation",
+    "term": "$146,775.00",
+    "definition": "A home sells for $415,000.00. Selling commission is 5.5% of sale price, other seller costs are $5,400.00, and the mortgage payoff is $240,000.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$175,000.00",
+      "$152,175.00",
+      "$169,600.00"
+    ],
+    "explanation": "Net cash = $415,000.00 − $22,825.00 commission − $5,400.00 other costs − $240,000.00 payoff = $146,775.00.",
+    "numericAnswer": {
+      "value": 146775,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-12",
+    "kind": "calculation",
+    "term": "$150,230.00",
+    "definition": "A home sells for $428,000.00. Selling commission is 6.0% of sale price, other seller costs are $5,590.00, and the mortgage payoff is $246,500.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$181,500.00",
+      "$155,820.00",
+      "$175,910.00"
+    ],
+    "explanation": "Net cash = $428,000.00 − $25,680.00 commission − $5,590.00 other costs − $246,500.00 payoff = $150,230.00.",
+    "numericAnswer": {
+      "value": 150230,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-13",
+    "kind": "calculation",
+    "term": "$160,170.00",
+    "definition": "A home sells for $441,000.00. Selling commission is 5.0% of sale price, other seller costs are $5,780.00, and the mortgage payoff is $253,000.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$188,000.00",
+      "$165,950.00",
+      "$182,220.00"
+    ],
+    "explanation": "Net cash = $441,000.00 − $22,050.00 commission − $5,780.00 other costs − $253,000.00 payoff = $160,170.00.",
+    "numericAnswer": {
+      "value": 160170,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-14",
+    "kind": "calculation",
+    "term": "$163,560.00",
+    "definition": "A home sells for $454,000.00. Selling commission is 5.5% of sale price, other seller costs are $5,970.00, and the mortgage payoff is $259,500.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$194,500.00",
+      "$169,530.00",
+      "$188,530.00"
+    ],
+    "explanation": "Net cash = $454,000.00 − $24,970.00 commission − $5,970.00 other costs − $259,500.00 payoff = $163,560.00.",
+    "numericAnswer": {
+      "value": 163560,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-15",
+    "kind": "calculation",
+    "term": "$166,820.00",
+    "definition": "A home sells for $467,000.00. Selling commission is 6.0% of sale price, other seller costs are $6,160.00, and the mortgage payoff is $266,000.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$201,000.00",
+      "$172,980.00",
+      "$194,840.00"
+    ],
+    "explanation": "Net cash = $467,000.00 − $28,020.00 commission − $6,160.00 other costs − $266,000.00 payoff = $166,820.00.",
+    "numericAnswer": {
+      "value": 166820,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-16",
+    "kind": "calculation",
+    "term": "$177,150.00",
+    "definition": "A home sells for $480,000.00. Selling commission is 5.0% of sale price, other seller costs are $6,350.00, and the mortgage payoff is $272,500.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$207,500.00",
+      "$183,500.00",
+      "$201,150.00"
+    ],
+    "explanation": "Net cash = $480,000.00 − $24,000.00 commission − $6,350.00 other costs − $272,500.00 payoff = $177,150.00.",
+    "numericAnswer": {
+      "value": 177150,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-17",
+    "kind": "calculation",
+    "term": "$180,345.00",
+    "definition": "A home sells for $493,000.00. Selling commission is 5.5% of sale price, other seller costs are $6,540.00, and the mortgage payoff is $279,000.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$214,000.00",
+      "$186,885.00",
+      "$207,460.00"
+    ],
+    "explanation": "Net cash = $493,000.00 − $27,115.00 commission − $6,540.00 other costs − $279,000.00 payoff = $180,345.00.",
+    "numericAnswer": {
+      "value": 180345,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-18",
+    "kind": "calculation",
+    "term": "$183,410.00",
+    "definition": "A home sells for $506,000.00. Selling commission is 6.0% of sale price, other seller costs are $6,730.00, and the mortgage payoff is $285,500.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$220,500.00",
+      "$190,140.00",
+      "$213,770.00"
+    ],
+    "explanation": "Net cash = $506,000.00 − $30,360.00 commission − $6,730.00 other costs − $285,500.00 payoff = $183,410.00.",
+    "numericAnswer": {
+      "value": 183410,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-19",
+    "kind": "calculation",
+    "term": "$194,130.00",
+    "definition": "A home sells for $519,000.00. Selling commission is 5.0% of sale price, other seller costs are $6,920.00, and the mortgage payoff is $292,000.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$227,000.00",
+      "$201,050.00",
+      "$220,080.00"
+    ],
+    "explanation": "Net cash = $519,000.00 − $25,950.00 commission − $6,920.00 other costs − $292,000.00 payoff = $194,130.00.",
+    "numericAnswer": {
+      "value": 194130,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-home-sale-net-cash-20",
+    "kind": "calculation",
+    "term": "$197,130.00",
+    "definition": "A home sells for $532,000.00. Selling commission is 5.5% of sale price, other seller costs are $7,110.00, and the mortgage payoff is $298,500.00. Ignoring taxes and any other adjustments, how much cash does the seller receive?",
+    "distractors": [
+      "$233,500.00",
+      "$204,240.00",
+      "$226,390.00"
+    ],
+    "explanation": "Net cash = $532,000.00 − $29,260.00 commission − $7,110.00 other costs − $298,500.00 payoff = $197,130.00.",
+    "numericAnswer": {
+      "value": 197130,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-01",
+    "kind": "calculation",
+    "term": "$58,300.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 75.0% of a $310,000.00 appraisal. The existing loan payoff is $170,000.00, and $4,200.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$62,500.00",
+      "$232,500.00",
+      "$135,800.00"
+    ],
+    "explanation": "Maximum new loan = $310,000.00 × 75.0% = $232,500.00. Cash out = $232,500.00 − $170,000.00 − $4,200.00 = $58,300.00.",
+    "numericAnswer": {
+      "value": 58300,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-02",
+    "kind": "calculation",
+    "term": "$66,830.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 76.0% of a $328,000.00 appraisal. The existing loan payoff is $178,000.00, and $4,450.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$71,280.00",
+      "$249,280.00",
+      "$145,550.00"
+    ],
+    "explanation": "Maximum new loan = $328,000.00 × 76.0% = $249,280.00. Cash out = $249,280.00 − $178,000.00 − $4,450.00 = $66,830.00.",
+    "numericAnswer": {
+      "value": 66830,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-03",
+    "kind": "calculation",
+    "term": "$75,720.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 77.0% of a $346,000.00 appraisal. The existing loan payoff is $186,000.00, and $4,700.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$80,420.00",
+      "$266,420.00",
+      "$155,300.00"
+    ],
+    "explanation": "Maximum new loan = $346,000.00 × 77.0% = $266,420.00. Cash out = $266,420.00 − $186,000.00 − $4,700.00 = $75,720.00.",
+    "numericAnswer": {
+      "value": 75720,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-04",
+    "kind": "calculation",
+    "term": "$84,970.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 78.0% of a $364,000.00 appraisal. The existing loan payoff is $194,000.00, and $4,950.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$89,920.00",
+      "$283,920.00",
+      "$165,050.00"
+    ],
+    "explanation": "Maximum new loan = $364,000.00 × 78.0% = $283,920.00. Cash out = $283,920.00 − $194,000.00 − $4,950.00 = $84,970.00.",
+    "numericAnswer": {
+      "value": 84970,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-05",
+    "kind": "calculation",
+    "term": "$94,580.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 79.0% of a $382,000.00 appraisal. The existing loan payoff is $202,000.00, and $5,200.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$99,780.00",
+      "$301,780.00",
+      "$174,800.00"
+    ],
+    "explanation": "Maximum new loan = $382,000.00 × 79.0% = $301,780.00. Cash out = $301,780.00 − $202,000.00 − $5,200.00 = $94,580.00.",
+    "numericAnswer": {
+      "value": 94580,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-06",
+    "kind": "calculation",
+    "term": "$104,550.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 80.0% of a $400,000.00 appraisal. The existing loan payoff is $210,000.00, and $5,450.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$110,000.00",
+      "$320,000.00",
+      "$184,550.00"
+    ],
+    "explanation": "Maximum new loan = $400,000.00 × 80.0% = $320,000.00. Cash out = $320,000.00 − $210,000.00 − $5,450.00 = $104,550.00.",
+    "numericAnswer": {
+      "value": 104550,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-07",
+    "kind": "calculation",
+    "term": "$89,800.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 75.0% of a $418,000.00 appraisal. The existing loan payoff is $218,000.00, and $5,700.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$95,500.00",
+      "$313,500.00",
+      "$194,300.00"
+    ],
+    "explanation": "Maximum new loan = $418,000.00 × 75.0% = $313,500.00. Cash out = $313,500.00 − $218,000.00 − $5,700.00 = $89,800.00.",
+    "numericAnswer": {
+      "value": 89800,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-08",
+    "kind": "calculation",
+    "term": "$99,410.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 76.0% of a $436,000.00 appraisal. The existing loan payoff is $226,000.00, and $5,950.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$105,360.00",
+      "$331,360.00",
+      "$204,050.00"
+    ],
+    "explanation": "Maximum new loan = $436,000.00 × 76.0% = $331,360.00. Cash out = $331,360.00 − $226,000.00 − $5,950.00 = $99,410.00.",
+    "numericAnswer": {
+      "value": 99410,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-09",
+    "kind": "calculation",
+    "term": "$109,380.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 77.0% of a $454,000.00 appraisal. The existing loan payoff is $234,000.00, and $6,200.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$115,580.00",
+      "$349,580.00",
+      "$213,800.00"
+    ],
+    "explanation": "Maximum new loan = $454,000.00 × 77.0% = $349,580.00. Cash out = $349,580.00 − $234,000.00 − $6,200.00 = $109,380.00.",
+    "numericAnswer": {
+      "value": 109380,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-10",
+    "kind": "calculation",
+    "term": "$119,710.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 78.0% of a $472,000.00 appraisal. The existing loan payoff is $242,000.00, and $6,450.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$126,160.00",
+      "$368,160.00",
+      "$223,550.00"
+    ],
+    "explanation": "Maximum new loan = $472,000.00 × 78.0% = $368,160.00. Cash out = $368,160.00 − $242,000.00 − $6,450.00 = $119,710.00.",
+    "numericAnswer": {
+      "value": 119710,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-11",
+    "kind": "calculation",
+    "term": "$130,400.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 79.0% of a $490,000.00 appraisal. The existing loan payoff is $250,000.00, and $6,700.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$137,100.00",
+      "$387,100.00",
+      "$233,300.00"
+    ],
+    "explanation": "Maximum new loan = $490,000.00 × 79.0% = $387,100.00. Cash out = $387,100.00 − $250,000.00 − $6,700.00 = $130,400.00.",
+    "numericAnswer": {
+      "value": 130400,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-12",
+    "kind": "calculation",
+    "term": "$141,450.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 80.0% of a $508,000.00 appraisal. The existing loan payoff is $258,000.00, and $6,950.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$148,400.00",
+      "$406,400.00",
+      "$243,050.00"
+    ],
+    "explanation": "Maximum new loan = $508,000.00 × 80.0% = $406,400.00. Cash out = $406,400.00 − $258,000.00 − $6,950.00 = $141,450.00.",
+    "numericAnswer": {
+      "value": 141450,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-13",
+    "kind": "calculation",
+    "term": "$121,300.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 75.0% of a $526,000.00 appraisal. The existing loan payoff is $266,000.00, and $7,200.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$128,500.00",
+      "$394,500.00",
+      "$252,800.00"
+    ],
+    "explanation": "Maximum new loan = $526,000.00 × 75.0% = $394,500.00. Cash out = $394,500.00 − $266,000.00 − $7,200.00 = $121,300.00.",
+    "numericAnswer": {
+      "value": 121300,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-14",
+    "kind": "calculation",
+    "term": "$131,990.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 76.0% of a $544,000.00 appraisal. The existing loan payoff is $274,000.00, and $7,450.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$139,440.00",
+      "$413,440.00",
+      "$262,550.00"
+    ],
+    "explanation": "Maximum new loan = $544,000.00 × 76.0% = $413,440.00. Cash out = $413,440.00 − $274,000.00 − $7,450.00 = $131,990.00.",
+    "numericAnswer": {
+      "value": 131990,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-15",
+    "kind": "calculation",
+    "term": "$143,040.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 77.0% of a $562,000.00 appraisal. The existing loan payoff is $282,000.00, and $7,700.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$150,740.00",
+      "$432,740.00",
+      "$272,300.00"
+    ],
+    "explanation": "Maximum new loan = $562,000.00 × 77.0% = $432,740.00. Cash out = $432,740.00 − $282,000.00 − $7,700.00 = $143,040.00.",
+    "numericAnswer": {
+      "value": 143040,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-16",
+    "kind": "calculation",
+    "term": "$154,450.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 78.0% of a $580,000.00 appraisal. The existing loan payoff is $290,000.00, and $7,950.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$162,400.00",
+      "$452,400.00",
+      "$282,050.00"
+    ],
+    "explanation": "Maximum new loan = $580,000.00 × 78.0% = $452,400.00. Cash out = $452,400.00 − $290,000.00 − $7,950.00 = $154,450.00.",
+    "numericAnswer": {
+      "value": 154450,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-17",
+    "kind": "calculation",
+    "term": "$166,220.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 79.0% of a $598,000.00 appraisal. The existing loan payoff is $298,000.00, and $8,200.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$174,420.00",
+      "$472,420.00",
+      "$291,800.00"
+    ],
+    "explanation": "Maximum new loan = $598,000.00 × 79.0% = $472,420.00. Cash out = $472,420.00 − $298,000.00 − $8,200.00 = $166,220.00.",
+    "numericAnswer": {
+      "value": 166220,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-18",
+    "kind": "calculation",
+    "term": "$178,350.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 80.0% of a $616,000.00 appraisal. The existing loan payoff is $306,000.00, and $8,450.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$186,800.00",
+      "$492,800.00",
+      "$301,550.00"
+    ],
+    "explanation": "Maximum new loan = $616,000.00 × 80.0% = $492,800.00. Cash out = $492,800.00 − $306,000.00 − $8,450.00 = $178,350.00.",
+    "numericAnswer": {
+      "value": 178350,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-19",
+    "kind": "calculation",
+    "term": "$152,800.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 75.0% of a $634,000.00 appraisal. The existing loan payoff is $314,000.00, and $8,700.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$161,500.00",
+      "$475,500.00",
+      "$311,300.00"
+    ],
+    "explanation": "Maximum new loan = $634,000.00 × 75.0% = $475,500.00. Cash out = $475,500.00 − $314,000.00 − $8,700.00 = $152,800.00.",
+    "numericAnswer": {
+      "value": 152800,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-out-refinance-proceeds-20",
+    "kind": "calculation",
+    "term": "$164,570.00",
+    "definition": "For this hypothetical cash-out refinance, the new loan is limited to 76.0% of a $652,000.00 appraisal. The existing loan payoff is $322,000.00, and $8,950.00 in closing costs are deducted from new loan proceeds. Assuming you borrow the maximum and face no other constraints, what cash reaches you?",
+    "distractors": [
+      "$173,520.00",
+      "$495,520.00",
+      "$321,050.00"
+    ],
+    "explanation": "Maximum new loan = $652,000.00 × 76.0% = $495,520.00. Cash out = $495,520.00 − $322,000.00 − $8,950.00 = $164,570.00.",
+    "numericAnswer": {
+      "value": 164570,
+      "unit": "USD"
+    }
+  }
+]

@@ -4,6 +4,12 @@
 export interface Flashcard {
   term: string;
   definition: string;
+  /** Stable suffix for calculation cards whose numeric answers can repeat. */
+  id?: string;
+  kind?: 'calculation';
+  distractors?: string[];
+  explanation?: string;
+  numericAnswer?: { value: number; unit: string };
 }
 
 /** Keyed by unit name, e.g. FLASHCARD_UNITS in js/flashcard_units_1_12.js */
@@ -22,6 +28,8 @@ export interface PracticeItem {
   question: string;
   choices: string[];
   answer: string; // one of the strings in `choices`, not an index
+  explanation?: string; // shown after an answer is submitted
+  familyId?: string; // distinguishes parameter variants of an exercise
 }
 
 export type PracticeDifficulty = 'easy' | 'medium' | 'hard';

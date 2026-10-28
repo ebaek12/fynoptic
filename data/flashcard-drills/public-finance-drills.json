@@ -1,0 +1,2562 @@
+[
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-01",
+    "kind": "calculation",
+    "term": "$3,840.00",
+    "definition": "A hypothetical tax schedule taxes the first $18,000.00 of annual income at 8% and all income above that at 20%, with no deductions or credits. What is the tax on income of $30,000.00?",
+    "distractors": [
+      "$6,000.00",
+      "$2,400.00",
+      "$7,440.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $18,000.00 × 8% + ($30,000.00 − $18,000.00) × 20% = $3,840.00.",
+    "numericAnswer": {
+      "value": 3840,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-02",
+    "kind": "calculation",
+    "term": "$4,353.00",
+    "definition": "A hypothetical tax schedule taxes the first $18,500.00 of annual income at 9% and all income above that at 21%, with no deductions or credits. What is the tax on income of $31,300.00?",
+    "distractors": [
+      "$6,573.00",
+      "$2,817.00",
+      "$2,688.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $18,500.00 × 9% + ($31,300.00 − $18,500.00) × 21% = $4,353.00.",
+    "numericAnswer": {
+      "value": 4353,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-03",
+    "kind": "calculation",
+    "term": "$4,892.00",
+    "definition": "A hypothetical tax schedule taxes the first $19,000.00 of annual income at 10% and all income above that at 22%, with no deductions or credits. What is the tax on income of $32,600.00?",
+    "distractors": [
+      "$7,172.00",
+      "$3,260.00",
+      "$2,992.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $19,000.00 × 10% + ($32,600.00 − $19,000.00) × 22% = $4,892.00.",
+    "numericAnswer": {
+      "value": 4892,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-04",
+    "kind": "calculation",
+    "term": "$4,872.00",
+    "definition": "A hypothetical tax schedule taxes the first $19,500.00 of annual income at 8% and all income above that at 23%, with no deductions or credits. What is the tax on income of $33,900.00?",
+    "distractors": [
+      "$7,797.00",
+      "$2,712.00",
+      "$3,312.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $19,500.00 × 8% + ($33,900.00 − $19,500.00) × 23% = $4,872.00.",
+    "numericAnswer": {
+      "value": 4872,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-05",
+    "kind": "calculation",
+    "term": "$4,840.00",
+    "definition": "A hypothetical tax schedule taxes the first $20,000.00 of annual income at 9% and all income above that at 20%, with no deductions or credits. What is the tax on income of $35,200.00?",
+    "distractors": [
+      "$7,040.00",
+      "$3,168.00",
+      "$3,040.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $20,000.00 × 9% + ($35,200.00 − $20,000.00) × 20% = $4,840.00.",
+    "numericAnswer": {
+      "value": 4840,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-06",
+    "kind": "calculation",
+    "term": "$5,410.00",
+    "definition": "A hypothetical tax schedule taxes the first $20,500.00 of annual income at 10% and all income above that at 21%, with no deductions or credits. What is the tax on income of $36,500.00?",
+    "distractors": [
+      "$7,665.00",
+      "$3,650.00",
+      "$3,360.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $20,500.00 × 10% + ($36,500.00 − $20,500.00) × 21% = $5,410.00.",
+    "numericAnswer": {
+      "value": 5410,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-07",
+    "kind": "calculation",
+    "term": "$5,376.00",
+    "definition": "A hypothetical tax schedule taxes the first $21,000.00 of annual income at 8% and all income above that at 22%, with no deductions or credits. What is the tax on income of $37,800.00?",
+    "distractors": [
+      "$8,316.00",
+      "$3,024.00",
+      "$3,696.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $21,000.00 × 8% + ($37,800.00 − $21,000.00) × 22% = $5,376.00.",
+    "numericAnswer": {
+      "value": 5376,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-08",
+    "kind": "calculation",
+    "term": "$5,983.00",
+    "definition": "A hypothetical tax schedule taxes the first $21,500.00 of annual income at 9% and all income above that at 23%, with no deductions or credits. What is the tax on income of $39,100.00?",
+    "distractors": [
+      "$8,993.00",
+      "$3,519.00",
+      "$4,048.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $21,500.00 × 9% + ($39,100.00 − $21,500.00) × 23% = $5,983.00.",
+    "numericAnswer": {
+      "value": 5983,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-09",
+    "kind": "calculation",
+    "term": "$5,880.00",
+    "definition": "A hypothetical tax schedule taxes the first $22,000.00 of annual income at 10% and all income above that at 20%, with no deductions or credits. What is the tax on income of $40,400.00?",
+    "distractors": [
+      "$8,080.00",
+      "$4,040.00",
+      "$3,680.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $22,000.00 × 10% + ($40,400.00 − $22,000.00) × 20% = $5,880.00.",
+    "numericAnswer": {
+      "value": 5880,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-10",
+    "kind": "calculation",
+    "term": "$5,832.00",
+    "definition": "A hypothetical tax schedule taxes the first $22,500.00 of annual income at 8% and all income above that at 21%, with no deductions or credits. What is the tax on income of $41,700.00?",
+    "distractors": [
+      "$8,757.00",
+      "$3,336.00",
+      "$4,032.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $22,500.00 × 8% + ($41,700.00 − $22,500.00) × 21% = $5,832.00.",
+    "numericAnswer": {
+      "value": 5832,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-11",
+    "kind": "calculation",
+    "term": "$6,470.00",
+    "definition": "A hypothetical tax schedule taxes the first $23,000.00 of annual income at 9% and all income above that at 22%, with no deductions or credits. What is the tax on income of $43,000.00?",
+    "distractors": [
+      "$9,460.00",
+      "$3,870.00",
+      "$4,400.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $23,000.00 × 9% + ($43,000.00 − $23,000.00) × 22% = $6,470.00.",
+    "numericAnswer": {
+      "value": 6470,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-12",
+    "kind": "calculation",
+    "term": "$7,134.00",
+    "definition": "A hypothetical tax schedule taxes the first $23,500.00 of annual income at 10% and all income above that at 23%, with no deductions or credits. What is the tax on income of $44,300.00?",
+    "distractors": [
+      "$10,189.00",
+      "$4,430.00",
+      "$4,784.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $23,500.00 × 10% + ($44,300.00 − $23,500.00) × 23% = $7,134.00.",
+    "numericAnswer": {
+      "value": 7134,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-13",
+    "kind": "calculation",
+    "term": "$6,240.00",
+    "definition": "A hypothetical tax schedule taxes the first $24,000.00 of annual income at 8% and all income above that at 20%, with no deductions or credits. What is the tax on income of $45,600.00?",
+    "distractors": [
+      "$9,120.00",
+      "$3,648.00",
+      "$4,320.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $24,000.00 × 8% + ($45,600.00 − $24,000.00) × 20% = $6,240.00.",
+    "numericAnswer": {
+      "value": 6240,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-14",
+    "kind": "calculation",
+    "term": "$6,909.00",
+    "definition": "A hypothetical tax schedule taxes the first $24,500.00 of annual income at 9% and all income above that at 21%, with no deductions or credits. What is the tax on income of $46,900.00?",
+    "distractors": [
+      "$9,849.00",
+      "$4,221.00",
+      "$4,704.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $24,500.00 × 9% + ($46,900.00 − $24,500.00) × 21% = $6,909.00.",
+    "numericAnswer": {
+      "value": 6909,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-15",
+    "kind": "calculation",
+    "term": "$7,604.00",
+    "definition": "A hypothetical tax schedule taxes the first $25,000.00 of annual income at 10% and all income above that at 22%, with no deductions or credits. What is the tax on income of $48,200.00?",
+    "distractors": [
+      "$10,604.00",
+      "$4,820.00",
+      "$5,104.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $25,000.00 × 10% + ($48,200.00 − $25,000.00) × 22% = $7,604.00.",
+    "numericAnswer": {
+      "value": 7604,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-16",
+    "kind": "calculation",
+    "term": "$7,560.00",
+    "definition": "A hypothetical tax schedule taxes the first $25,500.00 of annual income at 8% and all income above that at 23%, with no deductions or credits. What is the tax on income of $49,500.00?",
+    "distractors": [
+      "$11,385.00",
+      "$3,960.00",
+      "$5,520.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $25,500.00 × 8% + ($49,500.00 − $25,500.00) × 23% = $7,560.00.",
+    "numericAnswer": {
+      "value": 7560,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-17",
+    "kind": "calculation",
+    "term": "$7,300.00",
+    "definition": "A hypothetical tax schedule taxes the first $26,000.00 of annual income at 9% and all income above that at 20%, with no deductions or credits. What is the tax on income of $50,800.00?",
+    "distractors": [
+      "$10,160.00",
+      "$4,572.00",
+      "$4,960.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $26,000.00 × 9% + ($50,800.00 − $26,000.00) × 20% = $7,300.00.",
+    "numericAnswer": {
+      "value": 7300,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-18",
+    "kind": "calculation",
+    "term": "$8,026.00",
+    "definition": "A hypothetical tax schedule taxes the first $26,500.00 of annual income at 10% and all income above that at 21%, with no deductions or credits. What is the tax on income of $52,100.00?",
+    "distractors": [
+      "$10,941.00",
+      "$5,210.00",
+      "$5,376.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $26,500.00 × 10% + ($52,100.00 − $26,500.00) × 21% = $8,026.00.",
+    "numericAnswer": {
+      "value": 8026,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-19",
+    "kind": "calculation",
+    "term": "$7,968.00",
+    "definition": "A hypothetical tax schedule taxes the first $27,000.00 of annual income at 8% and all income above that at 22%, with no deductions or credits. What is the tax on income of $53,400.00?",
+    "distractors": [
+      "$11,748.00",
+      "$4,272.00",
+      "$5,808.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $27,000.00 × 8% + ($53,400.00 − $27,000.00) × 22% = $7,968.00.",
+    "numericAnswer": {
+      "value": 7968,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-hypothetical-progressive-tax-20",
+    "kind": "calculation",
+    "term": "$8,731.00",
+    "definition": "A hypothetical tax schedule taxes the first $27,500.00 of annual income at 9% and all income above that at 23%, with no deductions or credits. What is the tax on income of $54,700.00?",
+    "distractors": [
+      "$12,581.00",
+      "$4,923.00",
+      "$6,256.00"
+    ],
+    "explanation": "Apply each rate only to its bracket: $27,500.00 × 9% + ($54,700.00 − $27,500.00) × 23% = $8,731.00.",
+    "numericAnswer": {
+      "value": 8731,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-01",
+    "kind": "calculation",
+    "term": "15.56%",
+    "definition": "In a hypothetical system, a household earns $36,000.00, owes $6,500.00 before credits, and receives a $900.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "18.06%",
+      "2.50%",
+      "20.56%"
+    ],
+    "explanation": "Net tax = $6,500.00 − $900.00 = $5,600.00. Effective rate = 5600/36000 × 100 = 15.56%.",
+    "numericAnswer": {
+      "value": 15.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-02",
+    "kind": "calculation",
+    "term": "15.54%",
+    "definition": "In a hypothetical system, a household earns $37,800.00, owes $6,810.00 before credits, and receives a $935.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "18.02%",
+      "2.47%",
+      "20.49%"
+    ],
+    "explanation": "Net tax = $6,810.00 − $935.00 = $5,875.00. Effective rate = 5875/37800 × 100 = 15.54%.",
+    "numericAnswer": {
+      "value": 15.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-03",
+    "kind": "calculation",
+    "term": "15.53%",
+    "definition": "In a hypothetical system, a household earns $39,600.00, owes $7,120.00 before credits, and receives a $970.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.98%",
+      "2.45%",
+      "20.43%"
+    ],
+    "explanation": "Net tax = $7,120.00 − $970.00 = $6,150.00. Effective rate = 6150/39600 × 100 = 15.53%.",
+    "numericAnswer": {
+      "value": 15.53,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-04",
+    "kind": "calculation",
+    "term": "15.52%",
+    "definition": "In a hypothetical system, a household earns $41,400.00, owes $7,430.00 before credits, and receives a $1,005.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.95%",
+      "2.43%",
+      "20.37%"
+    ],
+    "explanation": "Net tax = $7,430.00 − $1,005.00 = $6,425.00. Effective rate = 6425/41400 × 100 = 15.52%.",
+    "numericAnswer": {
+      "value": 15.52,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-05",
+    "kind": "calculation",
+    "term": "15.51%",
+    "definition": "In a hypothetical system, a household earns $43,200.00, owes $7,740.00 before credits, and receives a $1,040.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.92%",
+      "2.41%",
+      "20.32%"
+    ],
+    "explanation": "Net tax = $7,740.00 − $1,040.00 = $6,700.00. Effective rate = 6700/43200 × 100 = 15.51%.",
+    "numericAnswer": {
+      "value": 15.51,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-06",
+    "kind": "calculation",
+    "term": "15.50%",
+    "definition": "In a hypothetical system, a household earns $45,000.00, owes $8,050.00 before credits, and receives a $1,075.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit?",
+    "distractors": [
+      "17.89%",
+      "2.39%",
+      "20.28%"
+    ],
+    "explanation": "Net tax = $8,050.00 − $1,075.00 = $6,975.00. Effective rate = 6975/45000 × 100 = 15.50%.",
+    "numericAnswer": {
+      "value": 15.5,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-07",
+    "kind": "calculation",
+    "term": "15.49%",
+    "definition": "In a hypothetical system, a household earns $46,800.00, owes $8,360.00 before credits, and receives a $1,110.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.86%",
+      "2.37%",
+      "20.24%"
+    ],
+    "explanation": "Net tax = $8,360.00 − $1,110.00 = $7,250.00. Effective rate = 7250/46800 × 100 = 15.49%.",
+    "numericAnswer": {
+      "value": 15.49,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-08",
+    "kind": "calculation",
+    "term": "15.48%",
+    "definition": "In a hypothetical system, a household earns $48,600.00, owes $8,670.00 before credits, and receives a $1,145.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.84%",
+      "2.36%",
+      "20.20%"
+    ],
+    "explanation": "Net tax = $8,670.00 − $1,145.00 = $7,525.00. Effective rate = 7525/48600 × 100 = 15.48%.",
+    "numericAnswer": {
+      "value": 15.48,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-09",
+    "kind": "calculation",
+    "term": "15.48%",
+    "definition": "In a hypothetical system, a household earns $50,400.00, owes $8,980.00 before credits, and receives a $1,180.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.82%",
+      "2.34%",
+      "20.16%"
+    ],
+    "explanation": "Net tax = $8,980.00 − $1,180.00 = $7,800.00. Effective rate = 7800/50400 × 100 = 15.48%.",
+    "numericAnswer": {
+      "value": 15.48,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-10",
+    "kind": "calculation",
+    "term": "15.47%",
+    "definition": "In a hypothetical system, a household earns $52,200.00, owes $9,290.00 before credits, and receives a $1,215.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.80%",
+      "2.33%",
+      "20.12%"
+    ],
+    "explanation": "Net tax = $9,290.00 − $1,215.00 = $8,075.00. Effective rate = 8075/52200 × 100 = 15.47%.",
+    "numericAnswer": {
+      "value": 15.47,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-11",
+    "kind": "calculation",
+    "term": "15.46%",
+    "definition": "In a hypothetical system, a household earns $54,000.00, owes $9,600.00 before credits, and receives a $1,250.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.78%",
+      "2.31%",
+      "20.09%"
+    ],
+    "explanation": "Net tax = $9,600.00 − $1,250.00 = $8,350.00. Effective rate = 8350/54000 × 100 = 15.46%.",
+    "numericAnswer": {
+      "value": 15.46,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-12",
+    "kind": "calculation",
+    "term": "15.46%",
+    "definition": "In a hypothetical system, a household earns $55,800.00, owes $9,910.00 before credits, and receives a $1,285.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.76%",
+      "2.30%",
+      "20.06%"
+    ],
+    "explanation": "Net tax = $9,910.00 − $1,285.00 = $8,625.00. Effective rate = 8625/55800 × 100 = 15.46%.",
+    "numericAnswer": {
+      "value": 15.46,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-13",
+    "kind": "calculation",
+    "term": "15.45%",
+    "definition": "In a hypothetical system, a household earns $57,600.00, owes $10,220.00 before credits, and receives a $1,320.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.74%",
+      "2.29%",
+      "20.03%"
+    ],
+    "explanation": "Net tax = $10,220.00 − $1,320.00 = $8,900.00. Effective rate = 8900/57600 × 100 = 15.45%.",
+    "numericAnswer": {
+      "value": 15.45,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-14",
+    "kind": "calculation",
+    "term": "15.45%",
+    "definition": "In a hypothetical system, a household earns $59,400.00, owes $10,530.00 before credits, and receives a $1,355.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.73%",
+      "2.28%",
+      "20.01%"
+    ],
+    "explanation": "Net tax = $10,530.00 − $1,355.00 = $9,175.00. Effective rate = 9175/59400 × 100 = 15.45%.",
+    "numericAnswer": {
+      "value": 15.45,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-15",
+    "kind": "calculation",
+    "term": "15.44%",
+    "definition": "In a hypothetical system, a household earns $61,200.00, owes $10,840.00 before credits, and receives a $1,390.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.71%",
+      "2.27%",
+      "19.98%"
+    ],
+    "explanation": "Net tax = $10,840.00 − $1,390.00 = $9,450.00. Effective rate = 9450/61200 × 100 = 15.44%.",
+    "numericAnswer": {
+      "value": 15.44,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-16",
+    "kind": "calculation",
+    "term": "15.44%",
+    "definition": "In a hypothetical system, a household earns $63,000.00, owes $11,150.00 before credits, and receives a $1,425.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.70%",
+      "2.26%",
+      "19.96%"
+    ],
+    "explanation": "Net tax = $11,150.00 − $1,425.00 = $9,725.00. Effective rate = 9725/63000 × 100 = 15.44%.",
+    "numericAnswer": {
+      "value": 15.44,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-17",
+    "kind": "calculation",
+    "term": "15.43%",
+    "definition": "In a hypothetical system, a household earns $64,800.00, owes $11,460.00 before credits, and receives a $1,460.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.69%",
+      "2.25%",
+      "19.94%"
+    ],
+    "explanation": "Net tax = $11,460.00 − $1,460.00 = $10,000.00. Effective rate = 10000/64800 × 100 = 15.43%.",
+    "numericAnswer": {
+      "value": 15.43,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-18",
+    "kind": "calculation",
+    "term": "15.43%",
+    "definition": "In a hypothetical system, a household earns $66,600.00, owes $11,770.00 before credits, and receives a $1,495.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.67%",
+      "2.24%",
+      "19.92%"
+    ],
+    "explanation": "Net tax = $11,770.00 − $1,495.00 = $10,275.00. Effective rate = 10275/66600 × 100 = 15.43%.",
+    "numericAnswer": {
+      "value": 15.43,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-19",
+    "kind": "calculation",
+    "term": "15.42%",
+    "definition": "In a hypothetical system, a household earns $68,400.00, owes $12,080.00 before credits, and receives a $1,530.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.66%",
+      "2.24%",
+      "19.90%"
+    ],
+    "explanation": "Net tax = $12,080.00 − $1,530.00 = $10,550.00. Effective rate = 10550/68400 × 100 = 15.42%.",
+    "numericAnswer": {
+      "value": 15.42,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-effective-tax-after-credit-20",
+    "kind": "calculation",
+    "term": "15.42%",
+    "definition": "In a hypothetical system, a household earns $70,200.00, owes $12,390.00 before credits, and receives a $1,565.00 tax credit that fully reduces its bill. What is its effective income-tax rate after the credit? Round to 2 decimal places.",
+    "distractors": [
+      "17.65%",
+      "2.23%",
+      "19.88%"
+    ],
+    "explanation": "Net tax = $12,390.00 − $1,565.00 = $10,825.00. Effective rate = 10825/70200 × 100 = 15.42%.",
+    "numericAnswer": {
+      "value": 15.42,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-01",
+    "kind": "calculation",
+    "term": "$444.80",
+    "definition": "Demand is Qd = 260 − 3Pc and supply is Qs = 20 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $4.00 per-unit tax creates Pc − Ps = 4. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$464.00",
+      "$111.20",
+      "$1,040.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 4: Pc = (260 − 20 + 2 × 4)/(3 + 2) = 49.60. Q = 260 − 3 × 49.60 = 111.20. Revenue = 4 × 111.20 = $444.80.",
+    "numericAnswer": {
+      "value": 444.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-02",
+    "kind": "calculation",
+    "term": "$577.00",
+    "definition": "Demand is Qd = 272 − 3Pc and supply is Qs = 21 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $5.00 per-unit tax creates Pc − Ps = 5. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$607.00",
+      "$115.40",
+      "$1,360.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 5: Pc = (272 − 21 + 2 × 5)/(3 + 2) = 52.20. Q = 272 − 3 × 52.20 = 115.40. Revenue = 5 × 115.40 = $577.00.",
+    "numericAnswer": {
+      "value": 577,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-03",
+    "kind": "calculation",
+    "term": "$717.60",
+    "definition": "Demand is Qd = 284 − 3Pc and supply is Qs = 22 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $6.00 per-unit tax creates Pc − Ps = 6. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$760.80",
+      "$119.60",
+      "$1,704.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 6: Pc = (284 − 22 + 2 × 6)/(3 + 2) = 54.80. Q = 284 − 3 × 54.80 = 119.60. Revenue = 6 × 119.60 = $717.60.",
+    "numericAnswer": {
+      "value": 717.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-04",
+    "kind": "calculation",
+    "term": "$866.60",
+    "definition": "Demand is Qd = 296 − 3Pc and supply is Qs = 23 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $7.00 per-unit tax creates Pc − Ps = 7. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$925.40",
+      "$123.80",
+      "$2,072.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 7: Pc = (296 − 23 + 2 × 7)/(3 + 2) = 57.40. Q = 296 − 3 × 57.40 = 123.80. Revenue = 7 × 123.80 = $866.60.",
+    "numericAnswer": {
+      "value": 866.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-05",
+    "kind": "calculation",
+    "term": "$1,024.00",
+    "definition": "Demand is Qd = 308 − 3Pc and supply is Qs = 24 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $8.00 per-unit tax creates Pc − Ps = 8. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$1,100.80",
+      "$128.00",
+      "$2,464.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 8: Pc = (308 − 24 + 2 × 8)/(3 + 2) = 60.00. Q = 308 − 3 × 60.00 = 128.00. Revenue = 8 × 128.00 = $1,024.00.",
+    "numericAnswer": {
+      "value": 1024,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-06",
+    "kind": "calculation",
+    "term": "$552.80",
+    "definition": "Demand is Qd = 320 − 3Pc and supply is Qs = 25 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $4.00 per-unit tax creates Pc − Ps = 4. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$572.00",
+      "$138.20",
+      "$1,280.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 4: Pc = (320 − 25 + 2 × 4)/(3 + 2) = 60.60. Q = 320 − 3 × 60.60 = 138.20. Revenue = 4 × 138.20 = $552.80.",
+    "numericAnswer": {
+      "value": 552.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-07",
+    "kind": "calculation",
+    "term": "$712.00",
+    "definition": "Demand is Qd = 332 − 3Pc and supply is Qs = 26 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $5.00 per-unit tax creates Pc − Ps = 5. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$742.00",
+      "$142.40",
+      "$1,660.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 5: Pc = (332 − 26 + 2 × 5)/(3 + 2) = 63.20. Q = 332 − 3 × 63.20 = 142.40. Revenue = 5 × 142.40 = $712.00.",
+    "numericAnswer": {
+      "value": 712,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-08",
+    "kind": "calculation",
+    "term": "$879.60",
+    "definition": "Demand is Qd = 344 − 3Pc and supply is Qs = 27 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $6.00 per-unit tax creates Pc − Ps = 6. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$922.80",
+      "$146.60",
+      "$2,064.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 6: Pc = (344 − 27 + 2 × 6)/(3 + 2) = 65.80. Q = 344 − 3 × 65.80 = 146.60. Revenue = 6 × 146.60 = $879.60.",
+    "numericAnswer": {
+      "value": 879.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-09",
+    "kind": "calculation",
+    "term": "$1,055.60",
+    "definition": "Demand is Qd = 356 − 3Pc and supply is Qs = 28 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $7.00 per-unit tax creates Pc − Ps = 7. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$1,114.40",
+      "$150.80",
+      "$2,492.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 7: Pc = (356 − 28 + 2 × 7)/(3 + 2) = 68.40. Q = 356 − 3 × 68.40 = 150.80. Revenue = 7 × 150.80 = $1,055.60.",
+    "numericAnswer": {
+      "value": 1055.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-10",
+    "kind": "calculation",
+    "term": "$1,240.00",
+    "definition": "Demand is Qd = 368 − 3Pc and supply is Qs = 29 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $8.00 per-unit tax creates Pc − Ps = 8. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$1,316.80",
+      "$155.00",
+      "$2,944.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 8: Pc = (368 − 29 + 2 × 8)/(3 + 2) = 71.00. Q = 368 − 3 × 71.00 = 155.00. Revenue = 8 × 155.00 = $1,240.00.",
+    "numericAnswer": {
+      "value": 1240,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-11",
+    "kind": "calculation",
+    "term": "$660.80",
+    "definition": "Demand is Qd = 380 − 3Pc and supply is Qs = 30 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $4.00 per-unit tax creates Pc − Ps = 4. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$680.00",
+      "$165.20",
+      "$1,520.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 4: Pc = (380 − 30 + 2 × 4)/(3 + 2) = 71.60. Q = 380 − 3 × 71.60 = 165.20. Revenue = 4 × 165.20 = $660.80.",
+    "numericAnswer": {
+      "value": 660.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-12",
+    "kind": "calculation",
+    "term": "$847.00",
+    "definition": "Demand is Qd = 392 − 3Pc and supply is Qs = 31 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $5.00 per-unit tax creates Pc − Ps = 5. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$877.00",
+      "$169.40",
+      "$1,960.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 5: Pc = (392 − 31 + 2 × 5)/(3 + 2) = 74.20. Q = 392 − 3 × 74.20 = 169.40. Revenue = 5 × 169.40 = $847.00.",
+    "numericAnswer": {
+      "value": 847,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-13",
+    "kind": "calculation",
+    "term": "$1,041.60",
+    "definition": "Demand is Qd = 404 − 3Pc and supply is Qs = 32 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $6.00 per-unit tax creates Pc − Ps = 6. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$1,084.80",
+      "$173.60",
+      "$2,424.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 6: Pc = (404 − 32 + 2 × 6)/(3 + 2) = 76.80. Q = 404 − 3 × 76.80 = 173.60. Revenue = 6 × 173.60 = $1,041.60.",
+    "numericAnswer": {
+      "value": 1041.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-14",
+    "kind": "calculation",
+    "term": "$1,244.60",
+    "definition": "Demand is Qd = 416 − 3Pc and supply is Qs = 33 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $7.00 per-unit tax creates Pc − Ps = 7. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$1,303.40",
+      "$177.80",
+      "$2,912.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 7: Pc = (416 − 33 + 2 × 7)/(3 + 2) = 79.40. Q = 416 − 3 × 79.40 = 177.80. Revenue = 7 × 177.80 = $1,244.60.",
+    "numericAnswer": {
+      "value": 1244.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-15",
+    "kind": "calculation",
+    "term": "$1,456.00",
+    "definition": "Demand is Qd = 428 − 3Pc and supply is Qs = 34 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $8.00 per-unit tax creates Pc − Ps = 8. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$1,532.80",
+      "$182.00",
+      "$3,424.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 8: Pc = (428 − 34 + 2 × 8)/(3 + 2) = 82.00. Q = 428 − 3 × 82.00 = 182.00. Revenue = 8 × 182.00 = $1,456.00.",
+    "numericAnswer": {
+      "value": 1456,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-16",
+    "kind": "calculation",
+    "term": "$768.80",
+    "definition": "Demand is Qd = 440 − 3Pc and supply is Qs = 35 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $4.00 per-unit tax creates Pc − Ps = 4. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$788.00",
+      "$192.20",
+      "$1,760.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 4: Pc = (440 − 35 + 2 × 4)/(3 + 2) = 82.60. Q = 440 − 3 × 82.60 = 192.20. Revenue = 4 × 192.20 = $768.80.",
+    "numericAnswer": {
+      "value": 768.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-17",
+    "kind": "calculation",
+    "term": "$982.00",
+    "definition": "Demand is Qd = 452 − 3Pc and supply is Qs = 36 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $5.00 per-unit tax creates Pc − Ps = 5. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$1,012.00",
+      "$196.40",
+      "$2,260.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 5: Pc = (452 − 36 + 2 × 5)/(3 + 2) = 85.20. Q = 452 − 3 × 85.20 = 196.40. Revenue = 5 × 196.40 = $982.00.",
+    "numericAnswer": {
+      "value": 982,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-18",
+    "kind": "calculation",
+    "term": "$1,203.60",
+    "definition": "Demand is Qd = 464 − 3Pc and supply is Qs = 37 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $6.00 per-unit tax creates Pc − Ps = 6. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$1,246.80",
+      "$200.60",
+      "$2,784.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 6: Pc = (464 − 37 + 2 × 6)/(3 + 2) = 87.80. Q = 464 − 3 × 87.80 = 200.60. Revenue = 6 × 200.60 = $1,203.60.",
+    "numericAnswer": {
+      "value": 1203.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-19",
+    "kind": "calculation",
+    "term": "$1,433.60",
+    "definition": "Demand is Qd = 476 − 3Pc and supply is Qs = 38 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $7.00 per-unit tax creates Pc − Ps = 7. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$1,492.40",
+      "$204.80",
+      "$3,332.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 7: Pc = (476 − 38 + 2 × 7)/(3 + 2) = 90.40. Q = 476 − 3 × 90.40 = 204.80. Revenue = 7 × 204.80 = $1,433.60.",
+    "numericAnswer": {
+      "value": 1433.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-20",
+    "kind": "calculation",
+    "term": "$1,672.00",
+    "definition": "Demand is Qd = 488 − 3Pc and supply is Qs = 39 + 2Ps, where Pc is the buyer's dollar price and Ps the seller's dollar receipt. A $8.00 per-unit tax creates Pc − Ps = 8. What is tax revenue at the new equilibrium?",
+    "distractors": [
+      "$1,748.80",
+      "$209.00",
+      "$3,904.00"
+    ],
+    "explanation": "Substitute Ps = Pc − 8: Pc = (488 − 39 + 2 × 8)/(3 + 2) = 93.00. Q = 488 − 3 × 93.00 = 209.00. Revenue = 8 × 209.00 = $1,672.00.",
+    "numericAnswer": {
+      "value": 1672,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-01",
+    "kind": "calculation",
+    "term": "$4.29",
+    "definition": "A competitive market has linear demand Qd = A − 2P and supply Qs = C + 5P. Both equilibria are interior. A $6.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$1.71",
+      "$6.00",
+      "$0.86"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 6 × 5/(2 + 5) = $4.29 per unit.",
+    "numericAnswer": {
+      "value": 4.29,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-02",
+    "kind": "calculation",
+    "term": "$4.90",
+    "definition": "A competitive market has linear demand Qd = A − 3P and supply Qs = C + 7P. Both equilibria are interior. A $7.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise?",
+    "distractors": [
+      "$2.10",
+      "$7.00",
+      "$0.70"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 7 × 7/(3 + 7) = $4.90 per unit.",
+    "numericAnswer": {
+      "value": 4.9,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-03",
+    "kind": "calculation",
+    "term": "$5.54",
+    "definition": "A competitive market has linear demand Qd = A − 4P and supply Qs = C + 9P. Both equilibria are interior. A $8.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$2.46",
+      "$8.00",
+      "$0.62"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 8 × 9/(4 + 9) = $5.54 per unit.",
+    "numericAnswer": {
+      "value": 5.54,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-04",
+    "kind": "calculation",
+    "term": "$6.19",
+    "definition": "A competitive market has linear demand Qd = A − 5P and supply Qs = C + 11P. Both equilibria are interior. A $9.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$2.81",
+      "$9.00",
+      "$0.56"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 9 × 11/(5 + 11) = $6.19 per unit.",
+    "numericAnswer": {
+      "value": 6.19,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-05",
+    "kind": "calculation",
+    "term": "$6.84",
+    "definition": "A competitive market has linear demand Qd = A − 6P and supply Qs = C + 13P. Both equilibria are interior. A $10.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$3.16",
+      "$10.00",
+      "$0.53"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 10 × 13/(6 + 13) = $6.84 per unit.",
+    "numericAnswer": {
+      "value": 6.84,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-06",
+    "kind": "calculation",
+    "term": "$7.50",
+    "definition": "A competitive market has linear demand Qd = A − 7P and supply Qs = C + 15P. Both equilibria are interior. A $11.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise?",
+    "distractors": [
+      "$3.50",
+      "$11.00",
+      "$0.50"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 11 × 15/(7 + 15) = $7.50 per unit.",
+    "numericAnswer": {
+      "value": 7.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-07",
+    "kind": "calculation",
+    "term": "$8.16",
+    "definition": "A competitive market has linear demand Qd = A − 8P and supply Qs = C + 17P. Both equilibria are interior. A $12.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise?",
+    "distractors": [
+      "$3.84",
+      "$12.00",
+      "$0.48"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 12 × 17/(8 + 17) = $8.16 per unit.",
+    "numericAnswer": {
+      "value": 8.16,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-08",
+    "kind": "calculation",
+    "term": "$8.82",
+    "definition": "A competitive market has linear demand Qd = A − 9P and supply Qs = C + 19P. Both equilibria are interior. A $13.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$4.18",
+      "$13.00",
+      "$0.46"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 13 × 19/(9 + 19) = $8.82 per unit.",
+    "numericAnswer": {
+      "value": 8.82,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-09",
+    "kind": "calculation",
+    "term": "$9.48",
+    "definition": "A competitive market has linear demand Qd = A − 10P and supply Qs = C + 21P. Both equilibria are interior. A $14.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$4.52",
+      "$14.00",
+      "$0.45"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 14 × 21/(10 + 21) = $9.48 per unit.",
+    "numericAnswer": {
+      "value": 9.48,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-10",
+    "kind": "calculation",
+    "term": "$10.15",
+    "definition": "A competitive market has linear demand Qd = A − 11P and supply Qs = C + 23P. Both equilibria are interior. A $15.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$4.85",
+      "$15.00",
+      "$0.44"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 15 × 23/(11 + 23) = $10.15 per unit.",
+    "numericAnswer": {
+      "value": 10.15,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-11",
+    "kind": "calculation",
+    "term": "$10.81",
+    "definition": "A competitive market has linear demand Qd = A − 12P and supply Qs = C + 25P. Both equilibria are interior. A $16.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$5.19",
+      "$16.00",
+      "$0.43"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 16 × 25/(12 + 25) = $10.81 per unit.",
+    "numericAnswer": {
+      "value": 10.81,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-12",
+    "kind": "calculation",
+    "term": "$11.48",
+    "definition": "A competitive market has linear demand Qd = A − 13P and supply Qs = C + 27P. Both equilibria are interior. A $17.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$5.53",
+      "$17.00",
+      "$0.43"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 17 × 27/(13 + 27) = $11.48 per unit.",
+    "numericAnswer": {
+      "value": 11.48,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-13",
+    "kind": "calculation",
+    "term": "$12.14",
+    "definition": "A competitive market has linear demand Qd = A − 14P and supply Qs = C + 29P. Both equilibria are interior. A $18.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$5.86",
+      "$18.00",
+      "$0.42"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 18 × 29/(14 + 29) = $12.14 per unit.",
+    "numericAnswer": {
+      "value": 12.14,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-14",
+    "kind": "calculation",
+    "term": "$12.80",
+    "definition": "A competitive market has linear demand Qd = A − 15P and supply Qs = C + 31P. Both equilibria are interior. A $19.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$6.20",
+      "$19.00",
+      "$0.41"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 19 × 31/(15 + 31) = $12.80 per unit.",
+    "numericAnswer": {
+      "value": 12.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-15",
+    "kind": "calculation",
+    "term": "$13.47",
+    "definition": "A competitive market has linear demand Qd = A − 16P and supply Qs = C + 33P. Both equilibria are interior. A $20.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$6.53",
+      "$20.00",
+      "$0.41"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 20 × 33/(16 + 33) = $13.47 per unit.",
+    "numericAnswer": {
+      "value": 13.47,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-16",
+    "kind": "calculation",
+    "term": "$14.13",
+    "definition": "A competitive market has linear demand Qd = A − 17P and supply Qs = C + 35P. Both equilibria are interior. A $21.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$6.87",
+      "$21.00",
+      "$0.40"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 21 × 35/(17 + 35) = $14.13 per unit.",
+    "numericAnswer": {
+      "value": 14.13,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-17",
+    "kind": "calculation",
+    "term": "$14.80",
+    "definition": "A competitive market has linear demand Qd = A − 18P and supply Qs = C + 37P. Both equilibria are interior. A $22.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise?",
+    "distractors": [
+      "$7.20",
+      "$22.00",
+      "$0.40"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 22 × 37/(18 + 37) = $14.80 per unit.",
+    "numericAnswer": {
+      "value": 14.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-18",
+    "kind": "calculation",
+    "term": "$15.47",
+    "definition": "A competitive market has linear demand Qd = A − 19P and supply Qs = C + 39P. Both equilibria are interior. A $23.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$7.53",
+      "$23.00",
+      "$0.40"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 23 × 39/(19 + 39) = $15.47 per unit.",
+    "numericAnswer": {
+      "value": 15.47,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-19",
+    "kind": "calculation",
+    "term": "$16.13",
+    "definition": "A competitive market has linear demand Qd = A − 20P and supply Qs = C + 41P. Both equilibria are interior. A $24.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$7.87",
+      "$24.00",
+      "$0.39"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 24 × 41/(20 + 41) = $16.13 per unit.",
+    "numericAnswer": {
+      "value": 16.13,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-tax-incidence-consumer-share-20",
+    "kind": "calculation",
+    "term": "$16.80",
+    "definition": "A competitive market has linear demand Qd = A − 21P and supply Qs = C + 43P. Both equilibria are interior. A $25.00 per-unit tax is introduced, with no other changes. How much does the price paid by consumers rise? Round to the nearest cent.",
+    "distractors": [
+      "$8.20",
+      "$25.00",
+      "$0.39"
+    ],
+    "explanation": "For these quantity slopes, buyers bear d/(b + d) of the tax: ΔPc = 25 × 43/(21 + 43) = $16.80 per unit.",
+    "numericAnswer": {
+      "value": 16.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-01",
+    "kind": "calculation",
+    "term": "88.89 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.55. Government purchases rise by $40 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "22.00 million dollars",
+      "40.00 million dollars",
+      "48.89 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 40/(1 − 0.55) = 88.89 million dollars.",
+    "numericAnswer": {
+      "value": 88.89,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-02",
+    "kind": "calculation",
+    "term": "97.73 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.56. Government purchases rise by $43 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "24.08 million dollars",
+      "43.00 million dollars",
+      "54.73 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 43/(1 − 0.56) = 97.73 million dollars.",
+    "numericAnswer": {
+      "value": 97.73,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-03",
+    "kind": "calculation",
+    "term": "106.98 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.57. Government purchases rise by $46 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "26.22 million dollars",
+      "46.00 million dollars",
+      "60.98 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 46/(1 − 0.57) = 106.98 million dollars.",
+    "numericAnswer": {
+      "value": 106.98,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-04",
+    "kind": "calculation",
+    "term": "116.67 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.58. Government purchases rise by $49 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "28.42 million dollars",
+      "49.00 million dollars",
+      "67.67 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 49/(1 − 0.58) = 116.67 million dollars.",
+    "numericAnswer": {
+      "value": 116.67,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-05",
+    "kind": "calculation",
+    "term": "126.83 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.59. Government purchases rise by $52 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "30.68 million dollars",
+      "52.00 million dollars",
+      "74.83 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 52/(1 − 0.59) = 126.83 million dollars.",
+    "numericAnswer": {
+      "value": 126.83,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-06",
+    "kind": "calculation",
+    "term": "137.50 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.60. Government purchases rise by $55 million. What is the eventual increase in equilibrium output, in millions of dollars?",
+    "distractors": [
+      "33.00 million dollars",
+      "55.00 million dollars",
+      "82.50 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 55/(1 − 0.60) = 137.50 million dollars.",
+    "numericAnswer": {
+      "value": 137.5,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-07",
+    "kind": "calculation",
+    "term": "148.72 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.61. Government purchases rise by $58 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "35.38 million dollars",
+      "58.00 million dollars",
+      "90.72 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 58/(1 − 0.61) = 148.72 million dollars.",
+    "numericAnswer": {
+      "value": 148.72,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-08",
+    "kind": "calculation",
+    "term": "160.53 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.62. Government purchases rise by $61 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "37.82 million dollars",
+      "61.00 million dollars",
+      "99.53 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 61/(1 − 0.62) = 160.53 million dollars.",
+    "numericAnswer": {
+      "value": 160.53,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-09",
+    "kind": "calculation",
+    "term": "172.97 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.63. Government purchases rise by $64 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "40.32 million dollars",
+      "64.00 million dollars",
+      "108.97 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 64/(1 − 0.63) = 172.97 million dollars.",
+    "numericAnswer": {
+      "value": 172.97,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-10",
+    "kind": "calculation",
+    "term": "186.11 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.64. Government purchases rise by $67 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "42.88 million dollars",
+      "67.00 million dollars",
+      "119.11 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 67/(1 − 0.64) = 186.11 million dollars.",
+    "numericAnswer": {
+      "value": 186.11,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-11",
+    "kind": "calculation",
+    "term": "200.00 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.65. Government purchases rise by $70 million. What is the eventual increase in equilibrium output, in millions of dollars?",
+    "distractors": [
+      "45.50 million dollars",
+      "70.00 million dollars",
+      "130.00 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 70/(1 − 0.65) = 200.00 million dollars.",
+    "numericAnswer": {
+      "value": 200,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-12",
+    "kind": "calculation",
+    "term": "214.71 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.66. Government purchases rise by $73 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "48.18 million dollars",
+      "73.00 million dollars",
+      "141.71 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 73/(1 − 0.66) = 214.71 million dollars.",
+    "numericAnswer": {
+      "value": 214.71,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-13",
+    "kind": "calculation",
+    "term": "230.30 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.67. Government purchases rise by $76 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "50.92 million dollars",
+      "76.00 million dollars",
+      "154.30 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 76/(1 − 0.67) = 230.30 million dollars.",
+    "numericAnswer": {
+      "value": 230.3,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-14",
+    "kind": "calculation",
+    "term": "246.88 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.68. Government purchases rise by $79 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "53.72 million dollars",
+      "79.00 million dollars",
+      "167.88 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 79/(1 − 0.68) = 246.88 million dollars.",
+    "numericAnswer": {
+      "value": 246.88,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-15",
+    "kind": "calculation",
+    "term": "264.52 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.69. Government purchases rise by $82 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "56.58 million dollars",
+      "82.00 million dollars",
+      "182.52 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 82/(1 − 0.69) = 264.52 million dollars.",
+    "numericAnswer": {
+      "value": 264.52,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-16",
+    "kind": "calculation",
+    "term": "283.33 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.70. Government purchases rise by $85 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "59.50 million dollars",
+      "85.00 million dollars",
+      "198.33 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 85/(1 − 0.70) = 283.33 million dollars.",
+    "numericAnswer": {
+      "value": 283.33,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-17",
+    "kind": "calculation",
+    "term": "303.45 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.71. Government purchases rise by $88 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "62.48 million dollars",
+      "88.00 million dollars",
+      "215.45 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 88/(1 − 0.71) = 303.45 million dollars.",
+    "numericAnswer": {
+      "value": 303.45,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-18",
+    "kind": "calculation",
+    "term": "325.00 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.72. Government purchases rise by $91 million. What is the eventual increase in equilibrium output, in millions of dollars?",
+    "distractors": [
+      "65.52 million dollars",
+      "91.00 million dollars",
+      "234.00 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 91/(1 − 0.72) = 325.00 million dollars.",
+    "numericAnswer": {
+      "value": 325,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-19",
+    "kind": "calculation",
+    "term": "348.15 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.73. Government purchases rise by $94 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "68.62 million dollars",
+      "94.00 million dollars",
+      "254.15 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 94/(1 − 0.73) = 348.15 million dollars.",
+    "numericAnswer": {
+      "value": 348.15,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-simple-spending-multiplier-20",
+    "kind": "calculation",
+    "term": "373.08 million dollars",
+    "definition": "In a closed-economy Keynesian model with fixed prices, spare capacity, no induced taxes or imports, and no crowding out, MPC = 0.74. Government purchases rise by $97 million. What is the eventual increase in equilibrium output, in millions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "71.78 million dollars",
+      "97.00 million dollars",
+      "276.08 million dollars"
+    ],
+    "explanation": "The spending multiplier is 1/(1 − MPC). ΔY = 97/(1 − 0.74) = 373.08 million dollars.",
+    "numericAnswer": {
+      "value": 373.08,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-01",
+    "kind": "calculation",
+    "term": "30.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.60. Government purchases and lump-sum taxes both increase by $30 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "75.00 million dollars",
+      "-45.00 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [30 − 0.60 × 30]/(1 − 0.60) = 30.00 million dollars.",
+    "numericAnswer": {
+      "value": 30,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-02",
+    "kind": "calculation",
+    "term": "34.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.61. Government purchases and lump-sum taxes both increase by $34 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "87.18 million dollars",
+      "-53.18 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [34 − 0.61 × 34]/(1 − 0.61) = 34.00 million dollars.",
+    "numericAnswer": {
+      "value": 34,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-03",
+    "kind": "calculation",
+    "term": "38.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.62. Government purchases and lump-sum taxes both increase by $38 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "100.00 million dollars",
+      "-62.00 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [38 − 0.62 × 38]/(1 − 0.62) = 38.00 million dollars.",
+    "numericAnswer": {
+      "value": 38,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-04",
+    "kind": "calculation",
+    "term": "42.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.63. Government purchases and lump-sum taxes both increase by $42 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "113.51 million dollars",
+      "-71.51 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [42 − 0.63 × 42]/(1 − 0.63) = 42.00 million dollars.",
+    "numericAnswer": {
+      "value": 42,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-05",
+    "kind": "calculation",
+    "term": "46.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.64. Government purchases and lump-sum taxes both increase by $46 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "127.78 million dollars",
+      "-81.78 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [46 − 0.64 × 46]/(1 − 0.64) = 46.00 million dollars.",
+    "numericAnswer": {
+      "value": 46,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-06",
+    "kind": "calculation",
+    "term": "50.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.65. Government purchases and lump-sum taxes both increase by $50 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "142.86 million dollars",
+      "-92.86 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [50 − 0.65 × 50]/(1 − 0.65) = 50.00 million dollars.",
+    "numericAnswer": {
+      "value": 50,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-07",
+    "kind": "calculation",
+    "term": "54.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.66. Government purchases and lump-sum taxes both increase by $54 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "158.82 million dollars",
+      "-104.82 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [54 − 0.66 × 54]/(1 − 0.66) = 54.00 million dollars.",
+    "numericAnswer": {
+      "value": 54,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-08",
+    "kind": "calculation",
+    "term": "58.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.67. Government purchases and lump-sum taxes both increase by $58 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "175.76 million dollars",
+      "-117.76 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [58 − 0.67 × 58]/(1 − 0.67) = 58.00 million dollars.",
+    "numericAnswer": {
+      "value": 58,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-09",
+    "kind": "calculation",
+    "term": "62.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.68. Government purchases and lump-sum taxes both increase by $62 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "193.75 million dollars",
+      "-131.75 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [62 − 0.68 × 62]/(1 − 0.68) = 62.00 million dollars.",
+    "numericAnswer": {
+      "value": 62,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-10",
+    "kind": "calculation",
+    "term": "66.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.69. Government purchases and lump-sum taxes both increase by $66 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "212.90 million dollars",
+      "-146.90 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [66 − 0.69 × 66]/(1 − 0.69) = 66.00 million dollars.",
+    "numericAnswer": {
+      "value": 66,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-11",
+    "kind": "calculation",
+    "term": "70.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.70. Government purchases and lump-sum taxes both increase by $70 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "233.33 million dollars",
+      "-163.33 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [70 − 0.70 × 70]/(1 − 0.70) = 70.00 million dollars.",
+    "numericAnswer": {
+      "value": 70,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-12",
+    "kind": "calculation",
+    "term": "74.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.71. Government purchases and lump-sum taxes both increase by $74 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "255.17 million dollars",
+      "-181.17 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [74 − 0.71 × 74]/(1 − 0.71) = 74.00 million dollars.",
+    "numericAnswer": {
+      "value": 74,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-13",
+    "kind": "calculation",
+    "term": "78.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.72. Government purchases and lump-sum taxes both increase by $78 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "278.57 million dollars",
+      "-200.57 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [78 − 0.72 × 78]/(1 − 0.72) = 78.00 million dollars.",
+    "numericAnswer": {
+      "value": 78,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-14",
+    "kind": "calculation",
+    "term": "82.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.73. Government purchases and lump-sum taxes both increase by $82 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "303.70 million dollars",
+      "-221.70 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [82 − 0.73 × 82]/(1 − 0.73) = 82.00 million dollars.",
+    "numericAnswer": {
+      "value": 82,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-15",
+    "kind": "calculation",
+    "term": "86.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.74. Government purchases and lump-sum taxes both increase by $86 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "330.77 million dollars",
+      "-244.77 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [86 − 0.74 × 86]/(1 − 0.74) = 86.00 million dollars.",
+    "numericAnswer": {
+      "value": 86,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-16",
+    "kind": "calculation",
+    "term": "90.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.75. Government purchases and lump-sum taxes both increase by $90 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "360.00 million dollars",
+      "-270.00 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [90 − 0.75 × 90]/(1 − 0.75) = 90.00 million dollars.",
+    "numericAnswer": {
+      "value": 90,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-17",
+    "kind": "calculation",
+    "term": "94.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.76. Government purchases and lump-sum taxes both increase by $94 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "391.67 million dollars",
+      "-297.67 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [94 − 0.76 × 94]/(1 − 0.76) = 94.00 million dollars.",
+    "numericAnswer": {
+      "value": 94,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-18",
+    "kind": "calculation",
+    "term": "98.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.77. Government purchases and lump-sum taxes both increase by $98 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "426.09 million dollars",
+      "-328.09 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [98 − 0.77 × 98]/(1 − 0.77) = 98.00 million dollars.",
+    "numericAnswer": {
+      "value": 98,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-19",
+    "kind": "calculation",
+    "term": "102.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.78. Government purchases and lump-sum taxes both increase by $102 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "463.64 million dollars",
+      "-361.64 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [102 − 0.78 × 102]/(1 − 0.78) = 102.00 million dollars.",
+    "numericAnswer": {
+      "value": 102,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-balanced-budget-output-effect-20",
+    "kind": "calculation",
+    "term": "106.00 million dollars",
+    "definition": "In a closed Keynesian model with fixed prices, no imports, lump-sum taxes, and no crowding out, MPC is 0.79. Government purchases and lump-sum taxes both increase by $106 million. What is the equilibrium output change, in millions of dollars?",
+    "distractors": [
+      "504.76 million dollars",
+      "-398.76 million dollars",
+      "0.00 million dollars"
+    ],
+    "explanation": "Combine spending and tax multipliers: ΔY = [106 − 0.79 × 106]/(1 − 0.79) = 106.00 million dollars.",
+    "numericAnswer": {
+      "value": 106,
+      "unit": "million dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-01",
+    "kind": "calculation",
+    "term": "62 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $420 billion, noninterest expenditure is $450 billion, and interest expense is $32 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "30 billion dollars",
+      "-62 billion dollars",
+      "482 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 450 + 32 − 420 = 62 billion dollars. The primary deficit alone would be 30.",
+    "numericAnswer": {
+      "value": 62,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-02",
+    "kind": "calculation",
+    "term": "67 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $441 billion, noninterest expenditure is $474 billion, and interest expense is $34 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "33 billion dollars",
+      "-67 billion dollars",
+      "508 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 474 + 34 − 441 = 67 billion dollars. The primary deficit alone would be 33.",
+    "numericAnswer": {
+      "value": 67,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-03",
+    "kind": "calculation",
+    "term": "72 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $462 billion, noninterest expenditure is $498 billion, and interest expense is $36 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "36 billion dollars",
+      "-72 billion dollars",
+      "534 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 498 + 36 − 462 = 72 billion dollars. The primary deficit alone would be 36.",
+    "numericAnswer": {
+      "value": 72,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-04",
+    "kind": "calculation",
+    "term": "77 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $483 billion, noninterest expenditure is $522 billion, and interest expense is $38 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "39 billion dollars",
+      "-77 billion dollars",
+      "560 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 522 + 38 − 483 = 77 billion dollars. The primary deficit alone would be 39.",
+    "numericAnswer": {
+      "value": 77,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-05",
+    "kind": "calculation",
+    "term": "82 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $504 billion, noninterest expenditure is $546 billion, and interest expense is $40 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "42 billion dollars",
+      "-82 billion dollars",
+      "586 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 546 + 40 − 504 = 82 billion dollars. The primary deficit alone would be 42.",
+    "numericAnswer": {
+      "value": 82,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-06",
+    "kind": "calculation",
+    "term": "87 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $525 billion, noninterest expenditure is $570 billion, and interest expense is $42 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "45 billion dollars",
+      "-87 billion dollars",
+      "612 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 570 + 42 − 525 = 87 billion dollars. The primary deficit alone would be 45.",
+    "numericAnswer": {
+      "value": 87,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-07",
+    "kind": "calculation",
+    "term": "92 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $546 billion, noninterest expenditure is $594 billion, and interest expense is $44 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "48 billion dollars",
+      "-92 billion dollars",
+      "638 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 594 + 44 − 546 = 92 billion dollars. The primary deficit alone would be 48.",
+    "numericAnswer": {
+      "value": 92,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-08",
+    "kind": "calculation",
+    "term": "97 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $567 billion, noninterest expenditure is $618 billion, and interest expense is $46 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "51 billion dollars",
+      "-97 billion dollars",
+      "664 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 618 + 46 − 567 = 97 billion dollars. The primary deficit alone would be 51.",
+    "numericAnswer": {
+      "value": 97,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-09",
+    "kind": "calculation",
+    "term": "102 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $588 billion, noninterest expenditure is $642 billion, and interest expense is $48 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "54 billion dollars",
+      "-102 billion dollars",
+      "690 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 642 + 48 − 588 = 102 billion dollars. The primary deficit alone would be 54.",
+    "numericAnswer": {
+      "value": 102,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-10",
+    "kind": "calculation",
+    "term": "107 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $609 billion, noninterest expenditure is $666 billion, and interest expense is $50 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "57 billion dollars",
+      "-107 billion dollars",
+      "716 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 666 + 50 − 609 = 107 billion dollars. The primary deficit alone would be 57.",
+    "numericAnswer": {
+      "value": 107,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-11",
+    "kind": "calculation",
+    "term": "112 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $630 billion, noninterest expenditure is $690 billion, and interest expense is $52 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "60 billion dollars",
+      "-112 billion dollars",
+      "742 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 690 + 52 − 630 = 112 billion dollars. The primary deficit alone would be 60.",
+    "numericAnswer": {
+      "value": 112,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-12",
+    "kind": "calculation",
+    "term": "117 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $651 billion, noninterest expenditure is $714 billion, and interest expense is $54 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "63 billion dollars",
+      "-117 billion dollars",
+      "768 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 714 + 54 − 651 = 117 billion dollars. The primary deficit alone would be 63.",
+    "numericAnswer": {
+      "value": 117,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-13",
+    "kind": "calculation",
+    "term": "122 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $672 billion, noninterest expenditure is $738 billion, and interest expense is $56 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "66 billion dollars",
+      "-122 billion dollars",
+      "794 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 738 + 56 − 672 = 122 billion dollars. The primary deficit alone would be 66.",
+    "numericAnswer": {
+      "value": 122,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-14",
+    "kind": "calculation",
+    "term": "127 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $693 billion, noninterest expenditure is $762 billion, and interest expense is $58 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "69 billion dollars",
+      "-127 billion dollars",
+      "820 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 762 + 58 − 693 = 127 billion dollars. The primary deficit alone would be 69.",
+    "numericAnswer": {
+      "value": 127,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-15",
+    "kind": "calculation",
+    "term": "132 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $714 billion, noninterest expenditure is $786 billion, and interest expense is $60 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "72 billion dollars",
+      "-132 billion dollars",
+      "846 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 786 + 60 − 714 = 132 billion dollars. The primary deficit alone would be 72.",
+    "numericAnswer": {
+      "value": 132,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-16",
+    "kind": "calculation",
+    "term": "137 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $735 billion, noninterest expenditure is $810 billion, and interest expense is $62 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "75 billion dollars",
+      "-137 billion dollars",
+      "872 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 810 + 62 − 735 = 137 billion dollars. The primary deficit alone would be 75.",
+    "numericAnswer": {
+      "value": 137,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-17",
+    "kind": "calculation",
+    "term": "142 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $756 billion, noninterest expenditure is $834 billion, and interest expense is $64 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "78 billion dollars",
+      "-142 billion dollars",
+      "898 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 834 + 64 − 756 = 142 billion dollars. The primary deficit alone would be 78.",
+    "numericAnswer": {
+      "value": 142,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-18",
+    "kind": "calculation",
+    "term": "147 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $777 billion, noninterest expenditure is $858 billion, and interest expense is $66 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "81 billion dollars",
+      "-147 billion dollars",
+      "924 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 858 + 66 − 777 = 147 billion dollars. The primary deficit alone would be 81.",
+    "numericAnswer": {
+      "value": 147,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-19",
+    "kind": "calculation",
+    "term": "152 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $798 billion, noninterest expenditure is $882 billion, and interest expense is $68 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "84 billion dollars",
+      "-152 billion dollars",
+      "950 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 882 + 68 − 798 = 152 billion dollars. The primary deficit alone would be 84.",
+    "numericAnswer": {
+      "value": 152,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-overall-budget-deficit-20",
+    "kind": "calculation",
+    "term": "157 billion dollars",
+    "definition": "A hypothetical government's annual revenue is $819 billion, noninterest expenditure is $906 billion, and interest expense is $70 billion. What is its overall budget deficit, in billions of dollars?",
+    "distractors": [
+      "87 billion dollars",
+      "-157 billion dollars",
+      "976 billion dollars"
+    ],
+    "explanation": "Overall deficit includes interest: 906 + 70 − 819 = 157 billion dollars. The primary deficit alone would be 87.",
+    "numericAnswer": {
+      "value": 157,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-01",
+    "kind": "calculation",
+    "term": "30.00 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 80 − 2Q and MB2 = 60 − 1Q. Marginal provision cost is $50.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity?",
+    "distractors": [
+      "15.00 units",
+      "10.00 units",
+      "46.67 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (80 − 2Q) + (60 − 1Q) = 50. Thus Q = (80 + 60 − 50)/(2 + 1) = 30.00 units.",
+    "numericAnswer": {
+      "value": 30,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-02",
+    "kind": "calculation",
+    "term": "31.33 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 83 − 2Q and MB2 = 62 − 1Q. Marginal provision cost is $51.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity? Round to 2 decimal places.",
+    "distractors": [
+      "16.00 units",
+      "11.00 units",
+      "48.33 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (83 − 2Q) + (62 − 1Q) = 51. Thus Q = (83 + 62 − 51)/(2 + 1) = 31.33 units.",
+    "numericAnswer": {
+      "value": 31.33,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-03",
+    "kind": "calculation",
+    "term": "32.67 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 86 − 2Q and MB2 = 64 − 1Q. Marginal provision cost is $52.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity? Round to 2 decimal places.",
+    "distractors": [
+      "17.00 units",
+      "12.00 units",
+      "50.00 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (86 − 2Q) + (64 − 1Q) = 52. Thus Q = (86 + 64 − 52)/(2 + 1) = 32.67 units.",
+    "numericAnswer": {
+      "value": 32.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-04",
+    "kind": "calculation",
+    "term": "34.00 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 89 − 2Q and MB2 = 66 − 1Q. Marginal provision cost is $53.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity?",
+    "distractors": [
+      "18.00 units",
+      "13.00 units",
+      "51.67 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (89 − 2Q) + (66 − 1Q) = 53. Thus Q = (89 + 66 − 53)/(2 + 1) = 34.00 units.",
+    "numericAnswer": {
+      "value": 34,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-05",
+    "kind": "calculation",
+    "term": "35.33 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 92 − 2Q and MB2 = 68 − 1Q. Marginal provision cost is $54.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity? Round to 2 decimal places.",
+    "distractors": [
+      "19.00 units",
+      "14.00 units",
+      "53.33 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (92 − 2Q) + (68 − 1Q) = 54. Thus Q = (92 + 68 − 54)/(2 + 1) = 35.33 units.",
+    "numericAnswer": {
+      "value": 35.33,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-06",
+    "kind": "calculation",
+    "term": "36.67 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 95 − 2Q and MB2 = 70 − 1Q. Marginal provision cost is $55.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity? Round to 2 decimal places.",
+    "distractors": [
+      "20.00 units",
+      "15.00 units",
+      "55.00 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (95 − 2Q) + (70 − 1Q) = 55. Thus Q = (95 + 70 − 55)/(2 + 1) = 36.67 units.",
+    "numericAnswer": {
+      "value": 36.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-07",
+    "kind": "calculation",
+    "term": "38.00 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 98 − 2Q and MB2 = 72 − 1Q. Marginal provision cost is $56.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity?",
+    "distractors": [
+      "21.00 units",
+      "16.00 units",
+      "56.67 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (98 − 2Q) + (72 − 1Q) = 56. Thus Q = (98 + 72 − 56)/(2 + 1) = 38.00 units.",
+    "numericAnswer": {
+      "value": 38,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-08",
+    "kind": "calculation",
+    "term": "39.33 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 101 − 2Q and MB2 = 74 − 1Q. Marginal provision cost is $57.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity? Round to 2 decimal places.",
+    "distractors": [
+      "22.00 units",
+      "17.00 units",
+      "58.33 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (101 − 2Q) + (74 − 1Q) = 57. Thus Q = (101 + 74 − 57)/(2 + 1) = 39.33 units.",
+    "numericAnswer": {
+      "value": 39.33,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-09",
+    "kind": "calculation",
+    "term": "40.67 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 104 − 2Q and MB2 = 76 − 1Q. Marginal provision cost is $58.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity? Round to 2 decimal places.",
+    "distractors": [
+      "23.00 units",
+      "18.00 units",
+      "60.00 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (104 − 2Q) + (76 − 1Q) = 58. Thus Q = (104 + 76 − 58)/(2 + 1) = 40.67 units.",
+    "numericAnswer": {
+      "value": 40.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-10",
+    "kind": "calculation",
+    "term": "42.00 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 107 − 2Q and MB2 = 78 − 1Q. Marginal provision cost is $59.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity?",
+    "distractors": [
+      "24.00 units",
+      "19.00 units",
+      "61.67 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (107 − 2Q) + (78 − 1Q) = 59. Thus Q = (107 + 78 − 59)/(2 + 1) = 42.00 units.",
+    "numericAnswer": {
+      "value": 42,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-11",
+    "kind": "calculation",
+    "term": "43.33 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 110 − 2Q and MB2 = 80 − 1Q. Marginal provision cost is $60.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity? Round to 2 decimal places.",
+    "distractors": [
+      "25.00 units",
+      "20.00 units",
+      "63.33 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (110 − 2Q) + (80 − 1Q) = 60. Thus Q = (110 + 80 − 60)/(2 + 1) = 43.33 units.",
+    "numericAnswer": {
+      "value": 43.33,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-12",
+    "kind": "calculation",
+    "term": "44.67 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 113 − 2Q and MB2 = 82 − 1Q. Marginal provision cost is $61.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity? Round to 2 decimal places.",
+    "distractors": [
+      "26.00 units",
+      "21.00 units",
+      "65.00 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (113 − 2Q) + (82 − 1Q) = 61. Thus Q = (113 + 82 − 61)/(2 + 1) = 44.67 units.",
+    "numericAnswer": {
+      "value": 44.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-13",
+    "kind": "calculation",
+    "term": "46.00 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 116 − 2Q and MB2 = 84 − 1Q. Marginal provision cost is $62.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity?",
+    "distractors": [
+      "27.00 units",
+      "22.00 units",
+      "66.67 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (116 − 2Q) + (84 − 1Q) = 62. Thus Q = (116 + 84 − 62)/(2 + 1) = 46.00 units.",
+    "numericAnswer": {
+      "value": 46,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-14",
+    "kind": "calculation",
+    "term": "47.33 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 119 − 2Q and MB2 = 86 − 1Q. Marginal provision cost is $63.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity? Round to 2 decimal places.",
+    "distractors": [
+      "28.00 units",
+      "23.00 units",
+      "68.33 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (119 − 2Q) + (86 − 1Q) = 63. Thus Q = (119 + 86 − 63)/(2 + 1) = 47.33 units.",
+    "numericAnswer": {
+      "value": 47.33,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-15",
+    "kind": "calculation",
+    "term": "48.67 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 122 − 2Q and MB2 = 88 − 1Q. Marginal provision cost is $64.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity? Round to 2 decimal places.",
+    "distractors": [
+      "29.00 units",
+      "24.00 units",
+      "70.00 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (122 − 2Q) + (88 − 1Q) = 64. Thus Q = (122 + 88 − 64)/(2 + 1) = 48.67 units.",
+    "numericAnswer": {
+      "value": 48.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-16",
+    "kind": "calculation",
+    "term": "50.00 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 125 − 2Q and MB2 = 90 − 1Q. Marginal provision cost is $65.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity?",
+    "distractors": [
+      "30.00 units",
+      "25.00 units",
+      "71.67 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (125 − 2Q) + (90 − 1Q) = 65. Thus Q = (125 + 90 − 65)/(2 + 1) = 50.00 units.",
+    "numericAnswer": {
+      "value": 50,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-17",
+    "kind": "calculation",
+    "term": "51.33 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 128 − 2Q and MB2 = 92 − 1Q. Marginal provision cost is $66.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity? Round to 2 decimal places.",
+    "distractors": [
+      "31.00 units",
+      "26.00 units",
+      "73.33 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (128 − 2Q) + (92 − 1Q) = 66. Thus Q = (128 + 92 − 66)/(2 + 1) = 51.33 units.",
+    "numericAnswer": {
+      "value": 51.33,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-18",
+    "kind": "calculation",
+    "term": "52.67 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 131 − 2Q and MB2 = 94 − 1Q. Marginal provision cost is $67.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity? Round to 2 decimal places.",
+    "distractors": [
+      "32.00 units",
+      "27.00 units",
+      "75.00 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (131 − 2Q) + (94 − 1Q) = 67. Thus Q = (131 + 94 − 67)/(2 + 1) = 52.67 units.",
+    "numericAnswer": {
+      "value": 52.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-19",
+    "kind": "calculation",
+    "term": "54.00 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 134 − 2Q and MB2 = 96 − 1Q. Marginal provision cost is $68.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity?",
+    "distractors": [
+      "33.00 units",
+      "28.00 units",
+      "76.67 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (134 − 2Q) + (96 − 1Q) = 68. Thus Q = (134 + 96 − 68)/(2 + 1) = 54.00 units.",
+    "numericAnswer": {
+      "value": 54,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-public-good-efficient-quantity-20",
+    "kind": "calculation",
+    "term": "55.33 units",
+    "definition": "Two residents consume the same quantity Q of a nonrival public service. Their marginal willingness to pay in dollars is MB1 = 137 − 2Q and MB2 = 98 − 1Q. Marginal provision cost is $69.00. Both marginal benefits remain positive at the optimum. What is the efficient service quantity? Round to 2 decimal places.",
+    "distractors": [
+      "34.00 units",
+      "29.00 units",
+      "78.33 units"
+    ],
+    "explanation": "Sum marginal benefits vertically: (137 − 2Q) + (98 − 1Q) = 69. Thus Q = (137 + 98 − 69)/(2 + 1) = 55.33 units.",
+    "numericAnswer": {
+      "value": 55.33,
+      "unit": "units"
+    }
+  }
+]

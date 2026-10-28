@@ -25,6 +25,10 @@ describe('computeReadMins', () => {
 });
 
 describe('deriveBlurb', () => {
+  it('previews the guide rather than a leading source attribution', () => {
+    expect(deriveBlurb('<p class="article-source-note"><em>Adapted from an official publication.</em></p><p>Know which overtime rules apply to your job.</p>'))
+      .toBe('Know which overtime rules apply to your job.');
+  });
   it('returns short text unchanged, at exactly the 160-char threshold', () => {
     const exact = 'a'.repeat(160);
     expect(deriveBlurb(exact)).toBe(exact);
@@ -55,5 +59,12 @@ describe('deriveBlurb', () => {
   it('decodes entities and strips tags/scripts before blurbing', () => {
     const html = `<p>Fees &amp; charges &nbsp; add up &#8217;fast&rsquo;.</p><script>ignored</script>`;
     expect(deriveBlurb(html)).toBe('Fees & charges add up ’fast’.');
+  });
+
+  it('decodes quotation marks and apostrophes in sourced article excerpts', () => {
+    expect(deriveBlurb('<p>A &quot;free&quot; account isn&#39;t always free.</p>'))
+      .toBe('A "free" account isn\'t always free.');
+    expect(deriveBlurb('<p>A borrower&#x27;s and lender&apos;s obligations.</p>'))
+      .toBe("A borrower's and lender's obligations.");
   });
 });

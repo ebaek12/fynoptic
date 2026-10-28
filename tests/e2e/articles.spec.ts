@@ -10,17 +10,23 @@ test.beforeEach(async ({ page }) => {
 test('search filters the grid and debounces (result count updates once typing settles)', async ({ page }) => {
   const totalBefore = await page.locator('.article-card').count();
   expect(totalBefore).toBeGreaterThan(100);
+  await expect(page.locator('.article-card:not([hidden])')).toHaveCount(12);
+  const matchingTitles = await page.locator('.article-card').evaluateAll((cards) =>
+    cards.filter((card) => `${card.getAttribute('data-title')} ${card.getAttribute('data-blurb')}`
+      .toLowerCase().includes('overdraft')).map((card) => card.getAttribute('data-title')));
+  expect(matchingTitles.length).toBeGreaterThan(0);
 
   await page.locator('#search-input').fill('overdraft');
   // Debounced at 200ms — immediately after typing, the pre-filter count is
   // still showing (it hasn't had time to re-render yet).
   expect(await page.locator('#result-count').textContent()).toContain(String(totalBefore));
 
-  // After the debounce settles, exactly one article matches this query.
-  await expect(page.locator('#result-count')).toHaveText('1 result', { timeout: 1000 });
+  // The catalog can grow without changing the search contract.
+  const resultLabel = matchingTitles.length === 1 ? '1 result' : `${matchingTitles.length} results`;
+  await expect(page.locator('#result-count')).toHaveText(resultLabel, { timeout: 1000 });
 
   const visibleCount = await page.locator('.article-card:not([hidden])').count();
-  expect(visibleCount).toBe(1);
+  expect(visibleCount).toBe(Math.min(matchingTitles.length, 12));
 
   // The query matches against title + blurb combined, so check both —
   // a hit can come from the blurb alone.

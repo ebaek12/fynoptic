@@ -365,6 +365,11 @@ html body .study-session .session-feedback.bad {
 .session-feedback p {
   margin: 8px 0 0;
   color: var(--text-100);
+  /* Keep long worked solutions from collapsing the question and choices. */
+  max-height: min(22svh, 12rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
 }
 .session-navigation {
   flex-shrink: 0;
@@ -382,6 +387,10 @@ html body .study-session .session-feedback.bad {
   align-items: center;
   gap: 12px;
   margin-left: auto;
+}
+/* Legacy flashcard controls imposed a fixed minimum width on these IDs. */
+.study-session :is(#prev-btn, #next-btn) {
+  min-width: 0;
 }
 html body .study-session .session-forward-actions > button[hidden] {
   display: none !important;

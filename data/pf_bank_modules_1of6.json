@@ -48,14 +48,15 @@
         },
         {
           "id": "pf-0005",
-          "question": "What range does the Federal Funds Rate target?",
+          "question": "Which body chooses the target range for the U.S. federal funds rate?",
           "choices": [
-            "Preservation of capital with liquidity and modest income.",
-            "Forfeiture of a set number of months’ interest (e.g., 3–6 months).",
-            "Up to six “convenient” transfers/withdrawals under Regulation D.",
-            "The Fed sets a target range, currently around 0.00%–0.25% (subject to change with policy decisions)."
+            "The Federal Open Market Committee (FOMC)",
+            "The Federal Deposit Insurance Corporation (FDIC)",
+            "The Securities and Exchange Commission (SEC)",
+            "Each commercial bank independently"
           ],
-          "answer": "The Fed sets a target range, currently around 0.00%–0.25% (subject to change with policy decisions)."
+          "answer": "The Federal Open Market Committee (FOMC)",
+          "explanation": "The FOMC sets a target range for this overnight interest rate as part of monetary policy. The range can change, so an old quoted rate is not a permanent rule."
         },
         {
           "id": "pf-0006",
@@ -92,14 +93,15 @@
         },
         {
           "id": "pf-0009",
-          "question": "How many withdrawals are typically allowed per month from a Money Market Account?",
+          "question": "How should you check withdrawal limits on a money market deposit account?",
           "choices": [
-            "A-1/P-1 or higher (highest short-term rating category).",
-            "CMBS pools mortgage loans into securities; BAs are singular trade-finance drafts.",
-            "A short-term time draft guaranteed by a bank, commonly used in international trade finance.",
-            "Up to six “convenient” transfers/withdrawals under Regulation D."
+            "Read the account agreement for the institution’s limits and fees",
+            "Assume federal law always permits exactly six withdrawals",
+            "Assume every withdrawal is prohibited until maturity",
+            "Assume deposit insurance guarantees unlimited free withdrawals"
           ],
-          "answer": "Up to six “convenient” transfers/withdrawals under Regulation D."
+          "answer": "Read the account agreement for the institution’s limits and fees",
+          "explanation": "The Federal Reserve removed its six-per-month convenient-transfer limit in 2020. Banks may still set their own account restrictions and fees."
         },
         {
           "id": "pf-0010",
@@ -169,14 +171,15 @@
         },
         {
           "id": "pf-0016",
-          "question": "What is the settlement period for Commercial Paper?",
+          "question": "What should an investor check to establish the settlement date for a commercial paper trade?",
           "choices": [
-            "Daily accrual, paid monthly.",
-            "The Fed sets a target range, currently around 0.00%–0.25% (subject to change with policy decisions).",
-            "A-1/P-1 or higher (highest short-term rating category).",
-            "Typically two business days (T+2)."
+            "The settlement date agreed in the transaction terms",
+            "A universal two-business-day rule for all financial instruments",
+            "The date of the issuer’s next shareholder meeting",
+            "The date when the investor files an income tax return"
           ],
-          "answer": "Typically two business days (T+2)."
+          "answer": "The settlement date agreed in the transaction terms",
+          "explanation": "Commercial paper is excluded from the SEC rule establishing the standard settlement cycle for many securities transactions. Confirm the agreed settlement date instead of assuming all instruments follow the same rule."
         },
         {
           "id": "pf-0017",
@@ -336,14 +339,15 @@
         },
         {
           "id": "pf-0031",
-          "question": "What liquidity requirement must MMAs meet under Regulation D?",
+          "question": "What changed when the Federal Reserve amended the savings-deposit definition in April 2020?",
           "choices": [
-            "Insured up to $250,000 per depositor, per bank, per ownership category.",
-            "Reduced operational burden and counterparty risk via a third-party custodian.",
-            "Form N-MFP (Monthly Portfolio).",
-            "Limit of six “convenient” transfers per month."
+            "The federal six-per-month limit on convenient transfers was removed",
+            "Every bank was required to allow unlimited free withdrawals",
+            "Money market mutual funds became FDIC-insured deposits",
+            "Savings deposits were converted into fixed-term certificates"
           ],
-          "answer": "Limit of six “convenient” transfers per month."
+          "answer": "The federal six-per-month limit on convenient transfers was removed",
+          "explanation": "The amendment removed that federal numeric limit. It did not prohibit institutions from retaining their own transaction limits or fees."
         },
         {
           "id": "pf-0032",
@@ -2731,14 +2735,15 @@
         },
         {
           "id": "pf-0251",
-          "question": "Regulation D defines reserve requirements for which deposit accounts?",
+          "question": "What is the main subject of the Federal Reserve’s Regulation D?",
           "choices": [
-            "Form 10-Q.",
-            "Form 10-K.",
-            "Forms 3, 4, and 5 under Section 16.",
-            "Savings and Money Market Accounts at banks."
+            "Reserve requirements and related deposit definitions for depository institutions",
+            "Sales disclosures for every publicly traded stock",
+            "Federal insurance coverage of every investment account",
+            "The licensing of individual insurance agents"
           ],
-          "answer": "Savings and Money Market Accounts at banks."
+          "answer": "Reserve requirements and related deposit definitions for depository institutions",
+          "explanation": "Federal Reserve Regulation D establishes the reserve-requirement framework. A framework can remain in place even when applicable reserve ratios are set to zero."
         },
         {
           "id": "pf-0252",

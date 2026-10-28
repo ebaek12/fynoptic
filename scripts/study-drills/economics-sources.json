@@ -1,0 +1,111 @@
+{
+  "verifiedOn": "2026-10-27",
+  "scope": "Original hypothetical calculation exercises. Sources verify underlying definitions and economic principles; they are not sources of current numerical observations or tax schedules. Linear markets, Cournot behavior, fixed price multipliers, fixed baskets, Solow production, and simple random sampling are explicit teaching assumptions, not claims that real economies or official statistics use every simplified model.",
+  "sources": [
+    {
+      "publisher": "Federal Reserve Bank of St. Louis",
+      "title": "Scope and Sequence for Economic Content",
+      "url": "https://www.stlouisfed.org/-/media/project/frbstl/stlouisfed/education/tools/pdf/scope_and_sequence_economics.pdf?la=en",
+      "topics": ["Opportunity Cost Drills", "Production and Cost Drills"],
+      "principlesVerified": "Scarcity, opportunity cost, resource allocation, production, and comparative advantage based on lower opportunity cost. Numerical production functions and incremental cost examples are original applications."
+    },
+    {
+      "publisher": "Federal Reserve Education",
+      "title": "The PPF: Increasing Opportunity Cost",
+      "url": "https://www.federalreserveeducation.org/teaching-resources/economics/scarcity/the-production-possibilities-frontier-increasing-opportunity-cost",
+      "topics": ["Opportunity Cost Drills"],
+      "principlesVerified": "Moving along a production frontier entails a tradeoff, and the opportunity cost of an incremental change is the forgone production over that segment."
+    },
+    {
+      "publisher": "Federal Reserve Bank of St. Louis",
+      "title": "Price Elasticity of Demand Explained",
+      "url": "https://www.stlouisfed.org/open-vault/2024/june/price-elasticity-demand-explained",
+      "topics": ["Supply and Demand Drills"],
+      "principlesVerified": "Demand elasticity measures relative quantity response to a price change. The exercises explicitly specify midpoint calculations or supplied percentage changes so denominators are unambiguous."
+    },
+    {
+      "publisher": "Federal Reserve Bank of Minneapolis",
+      "title": "A widget example of the Herfindahl-Hirschman Index",
+      "url": "https://www.minneapolisfed.org/article/2000/a-widget-example-of-the-herfindahlhirschman-index",
+      "topics": ["Market Structure Drills"],
+      "principlesVerified": "HHI sums the squares of firms' market shares; percentage shares produce the 0-to-10,000 scale. No contemporary merger-review thresholds are used."
+    },
+    {
+      "publisher": "Federal Reserve Bank of St. Louis",
+      "title": "Understanding Fiscal Policy, Michael T. Owyang",
+      "url": "https://www.stlouisfed.org/~/media/Education/Presentations/Understanding-Fiscal-Policy-Owyang.pdf?la=en",
+      "topics": ["Public Finance Drills", "Economic Growth Drills"],
+      "principlesVerified": "The simple expenditure model yields spending multiplier 1/(1-MPC), lump-sum tax multiplier -MPC/(1-MPC), and balanced-budget multiplier one. Government transfers are excluded from government purchases in GDP. Exercises state fixed prices, closed economy, and no crowding out."
+    },
+    {
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "title": "Consumer Price Index: Calculation",
+      "url": "https://www.bls.gov/opub/hom/cpi/calculation.htm",
+      "topics": ["Inflation Measurement Drills"],
+      "principlesVerified": "Price aggregation depends on expenditure or quantity weights. Official CPI construction uses multiple stages and formulas; the exercises specifically call their fixed-basket or fixed-base weighted indexes simplified examples."
+    },
+    {
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "title": "Consumer Price Index Frequently Asked Questions",
+      "url": "https://www.bls.gov/cpi/questions-and-answers.htm",
+      "topics": ["Inflation Measurement Drills"],
+      "principlesVerified": "Inflation uses the percentage change in the price index, and a change in index points differs from a percentage change. Index ratios support purchasing-power comparisons and rebasing."
+    },
+    {
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "title": "Concepts and Definitions: Current Population Survey",
+      "url": "https://www.bls.gov/cps/definitions.htm",
+      "topics": ["Labor Data Drills"],
+      "principlesVerified": "Labor force is employed plus unemployed. Unemployment divides by the labor force; participation and employment-population ratios use the civilian noninstitutional population age 16+. U-6 adds marginal attachment and involuntary part-time work with the appropriate expanded denominator."
+    },
+    {
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "title": "Office of Productivity and Technology: Concepts",
+      "url": "https://www.bls.gov/opub/hom/opt/concepts.htm",
+      "topics": ["Labor Data Drills", "Economic Growth Drills"],
+      "principlesVerified": "Labor productivity compares real output with hours worked. Total factor productivity measures output growth beyond the contributions of measured inputs; the exercises supply their growth-accounting approximation explicitly."
+    },
+    {
+      "publisher": "U.S. Census Bureau",
+      "title": "Common Trade Definitions",
+      "url": "https://www2.census.gov/programs-surveys/trade/reference/definitions/index.html",
+      "topics": ["Trade Data Drills"],
+      "principlesVerified": "The trade balance is exports less imports. Positive balances are surpluses and negative balances are deficits. The exercises distinguish goods, services, and income accounts."
+    },
+    {
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "title": "International Transactions",
+      "url": "https://www.bea.gov/data/intl-trade-investment/international-transactions",
+      "topics": ["Trade Data Drills"],
+      "principlesVerified": "International transactions accounts cover goods, services, income, and international transfers. Only these accounting categories are used; all exercise amounts are invented."
+    },
+    {
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "title": "The Expenditures Approach to Measuring GDP",
+      "url": "https://www.bea.gov/news/blog/2025-06-03/expenditures-approach-measuring-gdp",
+      "topics": ["Economic Growth Drills"],
+      "principlesVerified": "GDP by expenditures is C + I + G + X - M; subtracting imports excludes foreign production already included in spending components."
+    },
+    {
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "title": "Gross Domestic Product Release: Additional Information",
+      "url": "https://www.bea.gov/news/gdp-release-additional-information",
+      "topics": ["Economic Growth Drills"],
+      "principlesVerified": "Real values remove price effects, while nominal values use current prices. Growth exercises identify whether quantities are real, aggregate, or per person."
+    },
+    {
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "title": "Understanding Standard Errors and Confidence Intervals",
+      "url": "https://www.bls.gov/cps/factsheets/understanding-standard-errors-and-confidence-intervals.htm",
+      "topics": ["Statistics Drills"],
+      "principlesVerified": "A confidence interval combines an estimate, standard error, and appropriate critical value. The exercises explicitly supply a normal 95% critical value and specify simple-random-sample assumptions where s/sqrt(n) is used; they do not apply that simplification to complex CPS survey estimates."
+    },
+    {
+      "publisher": "U.S. Census Bureau",
+      "title": "Statistical Quality Standard E1: Analyzing Data",
+      "url": "https://www.census.gov/about/policies/quality/standards/standarde1.html",
+      "topics": ["Statistics Drills"],
+      "principlesVerified": "Statistical analysis should identify uncertainty and the confidence level used. Population versus sample denominators and conditional probability populations are specified directly in the exercises."
+    }
+  ]
+}

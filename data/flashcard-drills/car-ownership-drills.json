@@ -1,0 +1,2562 @@
+[
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-01",
+    "kind": "calculation",
+    "term": "$98.46",
+    "definition": "You drive 800 miles in a month. The car averages 26 miles per gallon and gasoline costs a fixed $3.20 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$2,560.00",
+      "$30.77",
+      "$6,500.00"
+    ],
+    "explanation": "Gallons needed = 800 ÷ 26 = 30.7692. Fuel cost = 800 ÷ 26 × $3.20 = $98.46.",
+    "numericAnswer": {
+      "value": 98.46,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-02",
+    "kind": "calculation",
+    "term": "$102.92",
+    "definition": "You drive 855 miles in a month. The car averages 27 miles per gallon and gasoline costs a fixed $3.25 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$2,778.75",
+      "$31.67",
+      "$7,103.08"
+    ],
+    "explanation": "Gallons needed = 855 ÷ 27 = 31.6667. Fuel cost = 855 ÷ 27 × $3.25 = $102.92.",
+    "numericAnswer": {
+      "value": 102.92,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-03",
+    "kind": "calculation",
+    "term": "$107.25",
+    "definition": "You drive 910 miles in a month. The car averages 28 miles per gallon and gasoline costs a fixed $3.30 per gallon. What is the month's fuel cost?",
+    "distractors": [
+      "$3,003.00",
+      "$32.50",
+      "$7,721.21"
+    ],
+    "explanation": "Gallons needed = 910 ÷ 28 = 32.5000. Fuel cost = 910 ÷ 28 × $3.30 = $107.25.",
+    "numericAnswer": {
+      "value": 107.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-04",
+    "kind": "calculation",
+    "term": "$111.47",
+    "definition": "You drive 965 miles in a month. The car averages 29 miles per gallon and gasoline costs a fixed $3.35 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$3,232.75",
+      "$33.28",
+      "$8,353.73"
+    ],
+    "explanation": "Gallons needed = 965 ÷ 29 = 33.2759. Fuel cost = 965 ÷ 29 × $3.35 = $111.47.",
+    "numericAnswer": {
+      "value": 111.47,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-05",
+    "kind": "calculation",
+    "term": "$115.60",
+    "definition": "You drive 1,020 miles in a month. The car averages 30 miles per gallon and gasoline costs a fixed $3.40 per gallon. What is the month's fuel cost?",
+    "distractors": [
+      "$3,468.00",
+      "$34.00",
+      "$9,000.00"
+    ],
+    "explanation": "Gallons needed = 1,020 ÷ 30 = 34.0000. Fuel cost = 1,020 ÷ 30 × $3.40 = $115.60.",
+    "numericAnswer": {
+      "value": 115.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-06",
+    "kind": "calculation",
+    "term": "$119.64",
+    "definition": "You drive 1,075 miles in a month. The car averages 31 miles per gallon and gasoline costs a fixed $3.45 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$3,708.75",
+      "$34.68",
+      "$9,659.42"
+    ],
+    "explanation": "Gallons needed = 1,075 ÷ 31 = 34.6774. Fuel cost = 1,075 ÷ 31 × $3.45 = $119.64.",
+    "numericAnswer": {
+      "value": 119.64,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-07",
+    "kind": "calculation",
+    "term": "$123.59",
+    "definition": "You drive 1,130 miles in a month. The car averages 32 miles per gallon and gasoline costs a fixed $3.50 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$3,955.00",
+      "$35.31",
+      "$10,331.43"
+    ],
+    "explanation": "Gallons needed = 1,130 ÷ 32 = 35.3125. Fuel cost = 1,130 ÷ 32 × $3.50 = $123.59.",
+    "numericAnswer": {
+      "value": 123.59,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-08",
+    "kind": "calculation",
+    "term": "$127.48",
+    "definition": "You drive 1,185 miles in a month. The car averages 33 miles per gallon and gasoline costs a fixed $3.55 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$4,206.75",
+      "$35.91",
+      "$11,015.49"
+    ],
+    "explanation": "Gallons needed = 1,185 ÷ 33 = 35.9091. Fuel cost = 1,185 ÷ 33 × $3.55 = $127.48.",
+    "numericAnswer": {
+      "value": 127.48,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-09",
+    "kind": "calculation",
+    "term": "$171.69",
+    "definition": "You drive 1,240 miles in a month. The car averages 26 miles per gallon and gasoline costs a fixed $3.60 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$4,464.00",
+      "$47.69",
+      "$8,955.56"
+    ],
+    "explanation": "Gallons needed = 1,240 ÷ 26 = 47.6923. Fuel cost = 1,240 ÷ 26 × $3.60 = $171.69.",
+    "numericAnswer": {
+      "value": 171.69,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-10",
+    "kind": "calculation",
+    "term": "$175.06",
+    "definition": "You drive 1,295 miles in a month. The car averages 27 miles per gallon and gasoline costs a fixed $3.65 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$4,726.75",
+      "$47.96",
+      "$9,579.45"
+    ],
+    "explanation": "Gallons needed = 1,295 ÷ 27 = 47.9630. Fuel cost = 1,295 ÷ 27 × $3.65 = $175.06.",
+    "numericAnswer": {
+      "value": 175.06,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-11",
+    "kind": "calculation",
+    "term": "$178.39",
+    "definition": "You drive 1,350 miles in a month. The car averages 28 miles per gallon and gasoline costs a fixed $3.70 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$4,995.00",
+      "$48.21",
+      "$10,216.22"
+    ],
+    "explanation": "Gallons needed = 1,350 ÷ 28 = 48.2143. Fuel cost = 1,350 ÷ 28 × $3.70 = $178.39.",
+    "numericAnswer": {
+      "value": 178.39,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-12",
+    "kind": "calculation",
+    "term": "$181.68",
+    "definition": "You drive 1,405 miles in a month. The car averages 29 miles per gallon and gasoline costs a fixed $3.75 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$5,268.75",
+      "$48.45",
+      "$10,865.33"
+    ],
+    "explanation": "Gallons needed = 1,405 ÷ 29 = 48.4483. Fuel cost = 1,405 ÷ 29 × $3.75 = $181.68.",
+    "numericAnswer": {
+      "value": 181.68,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-13",
+    "kind": "calculation",
+    "term": "$184.93",
+    "definition": "You drive 1,460 miles in a month. The car averages 30 miles per gallon and gasoline costs a fixed $3.80 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$5,548.00",
+      "$48.67",
+      "$11,526.32"
+    ],
+    "explanation": "Gallons needed = 1,460 ÷ 30 = 48.6667. Fuel cost = 1,460 ÷ 30 × $3.80 = $184.93.",
+    "numericAnswer": {
+      "value": 184.93,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-14",
+    "kind": "calculation",
+    "term": "$188.15",
+    "definition": "You drive 1,515 miles in a month. The car averages 31 miles per gallon and gasoline costs a fixed $3.85 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$5,832.75",
+      "$48.87",
+      "$12,198.70"
+    ],
+    "explanation": "Gallons needed = 1,515 ÷ 31 = 48.8710. Fuel cost = 1,515 ÷ 31 × $3.85 = $188.15.",
+    "numericAnswer": {
+      "value": 188.15,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-15",
+    "kind": "calculation",
+    "term": "$191.34",
+    "definition": "You drive 1,570 miles in a month. The car averages 32 miles per gallon and gasoline costs a fixed $3.90 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$6,123.00",
+      "$49.06",
+      "$12,882.05"
+    ],
+    "explanation": "Gallons needed = 1,570 ÷ 32 = 49.0625. Fuel cost = 1,570 ÷ 32 × $3.90 = $191.34.",
+    "numericAnswer": {
+      "value": 191.34,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-16",
+    "kind": "calculation",
+    "term": "$194.51",
+    "definition": "You drive 1,625 miles in a month. The car averages 33 miles per gallon and gasoline costs a fixed $3.95 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$6,418.75",
+      "$49.24",
+      "$13,575.95"
+    ],
+    "explanation": "Gallons needed = 1,625 ÷ 33 = 49.2424. Fuel cost = 1,625 ÷ 33 × $3.95 = $194.51.",
+    "numericAnswer": {
+      "value": 194.51,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-17",
+    "kind": "calculation",
+    "term": "$258.46",
+    "definition": "You drive 1,680 miles in a month. The car averages 26 miles per gallon and gasoline costs a fixed $4.00 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$6,720.00",
+      "$64.62",
+      "$10,920.00"
+    ],
+    "explanation": "Gallons needed = 1,680 ÷ 26 = 64.6154. Fuel cost = 1,680 ÷ 26 × $4.00 = $258.46.",
+    "numericAnswer": {
+      "value": 258.46,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-18",
+    "kind": "calculation",
+    "term": "$260.25",
+    "definition": "You drive 1,735 miles in a month. The car averages 27 miles per gallon and gasoline costs a fixed $4.05 per gallon. What is the month's fuel cost?",
+    "distractors": [
+      "$7,026.75",
+      "$64.26",
+      "$11,566.67"
+    ],
+    "explanation": "Gallons needed = 1,735 ÷ 27 = 64.2593. Fuel cost = 1,735 ÷ 27 × $4.05 = $260.25.",
+    "numericAnswer": {
+      "value": 260.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-19",
+    "kind": "calculation",
+    "term": "$262.11",
+    "definition": "You drive 1,790 miles in a month. The car averages 28 miles per gallon and gasoline costs a fixed $4.10 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$7,339.00",
+      "$63.93",
+      "$12,224.39"
+    ],
+    "explanation": "Gallons needed = 1,790 ÷ 28 = 63.9286. Fuel cost = 1,790 ÷ 28 × $4.10 = $262.11.",
+    "numericAnswer": {
+      "value": 262.11,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-fuel-monthly-cost-20",
+    "kind": "calculation",
+    "term": "$264.03",
+    "definition": "You drive 1,845 miles in a month. The car averages 29 miles per gallon and gasoline costs a fixed $4.15 per gallon. What is the month's fuel cost? Round to the nearest cent.",
+    "distractors": [
+      "$7,656.75",
+      "$63.62",
+      "$12,892.77"
+    ],
+    "explanation": "Gallons needed = 1,845 ÷ 29 = 63.6207. Fuel cost = 1,845 ÷ 29 × $4.15 = $264.03.",
+    "numericAnswer": {
+      "value": 264.03,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-01",
+    "kind": "calculation",
+    "term": "$20,675.00",
+    "definition": "A car's price is $24,500.00. In this hypothetical jurisdiction, purchase tax is 5.0% of the full price with no trade-in tax reduction. Fees are $650.00 and cash down is $2,200.00. The trade-in is worth $7,800.00 but has $4,300.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$16,375.00",
+      "$24,175.00",
+      "$20,285.00"
+    ],
+    "explanation": "Tax = $1,225.00. Net trade equity = $7,800.00 − $4,300.00 = $3,500.00. Amount financed = $24,500.00 + tax + $650.00 − $2,200.00 − $3,500.00 = $20,675.00.",
+    "numericAnswer": {
+      "value": 20675,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-02",
+    "kind": "calculation",
+    "term": "$21,592.00",
+    "definition": "A car's price is $25,400.00. In this hypothetical jurisdiction, purchase tax is 5.5% of the full price with no trade-in tax reduction. Fees are $675.00 and cash down is $2,280.00. The trade-in is worth $8,000.00 but has $4,400.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$17,192.00",
+      "$25,192.00",
+      "$21,152.00"
+    ],
+    "explanation": "Tax = $1,397.00. Net trade equity = $8,000.00 − $4,400.00 = $3,600.00. Amount financed = $25,400.00 + tax + $675.00 − $2,280.00 − $3,600.00 = $21,592.00.",
+    "numericAnswer": {
+      "value": 21592,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-03",
+    "kind": "calculation",
+    "term": "$22,518.00",
+    "definition": "A car's price is $26,300.00. In this hypothetical jurisdiction, purchase tax is 6.0% of the full price with no trade-in tax reduction. Fees are $700.00 and cash down is $2,360.00. The trade-in is worth $8,200.00 but has $4,500.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$18,018.00",
+      "$26,218.00",
+      "$22,026.00"
+    ],
+    "explanation": "Tax = $1,578.00. Net trade equity = $8,200.00 − $4,500.00 = $3,700.00. Amount financed = $26,300.00 + tax + $700.00 − $2,360.00 − $3,700.00 = $22,518.00.",
+    "numericAnswer": {
+      "value": 22518,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-04",
+    "kind": "calculation",
+    "term": "$23,453.00",
+    "definition": "A car's price is $27,200.00. In this hypothetical jurisdiction, purchase tax is 6.5% of the full price with no trade-in tax reduction. Fees are $725.00 and cash down is $2,440.00. The trade-in is worth $8,400.00 but has $4,600.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$18,853.00",
+      "$27,253.00",
+      "$22,907.00"
+    ],
+    "explanation": "Tax = $1,768.00. Net trade equity = $8,400.00 − $4,600.00 = $3,800.00. Amount financed = $27,200.00 + tax + $725.00 − $2,440.00 − $3,800.00 = $23,453.00.",
+    "numericAnswer": {
+      "value": 23453,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-05",
+    "kind": "calculation",
+    "term": "$23,835.00",
+    "definition": "A car's price is $28,100.00. In this hypothetical jurisdiction, purchase tax is 5.0% of the full price with no trade-in tax reduction. Fees are $750.00 and cash down is $2,520.00. The trade-in is worth $8,600.00 but has $4,700.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$19,135.00",
+      "$27,735.00",
+      "$23,405.00"
+    ],
+    "explanation": "Tax = $1,405.00. Net trade equity = $8,600.00 − $4,700.00 = $3,900.00. Amount financed = $28,100.00 + tax + $750.00 − $2,520.00 − $3,900.00 = $23,835.00.",
+    "numericAnswer": {
+      "value": 23835,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-06",
+    "kind": "calculation",
+    "term": "$24,770.00",
+    "definition": "A car's price is $29,000.00. In this hypothetical jurisdiction, purchase tax is 5.5% of the full price with no trade-in tax reduction. Fees are $775.00 and cash down is $2,600.00. The trade-in is worth $8,800.00 but has $4,800.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$19,970.00",
+      "$28,770.00",
+      "$24,286.00"
+    ],
+    "explanation": "Tax = $1,595.00. Net trade equity = $8,800.00 − $4,800.00 = $4,000.00. Amount financed = $29,000.00 + tax + $775.00 − $2,600.00 − $4,000.00 = $24,770.00.",
+    "numericAnswer": {
+      "value": 24770,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-07",
+    "kind": "calculation",
+    "term": "$25,714.00",
+    "definition": "A car's price is $29,900.00. In this hypothetical jurisdiction, purchase tax is 6.0% of the full price with no trade-in tax reduction. Fees are $800.00 and cash down is $2,680.00. The trade-in is worth $9,000.00 but has $4,900.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$20,814.00",
+      "$29,814.00",
+      "$25,174.00"
+    ],
+    "explanation": "Tax = $1,794.00. Net trade equity = $9,000.00 − $4,900.00 = $4,100.00. Amount financed = $29,900.00 + tax + $800.00 − $2,680.00 − $4,100.00 = $25,714.00.",
+    "numericAnswer": {
+      "value": 25714,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-08",
+    "kind": "calculation",
+    "term": "$26,667.00",
+    "definition": "A car's price is $30,800.00. In this hypothetical jurisdiction, purchase tax is 6.5% of the full price with no trade-in tax reduction. Fees are $825.00 and cash down is $2,760.00. The trade-in is worth $9,200.00 but has $5,000.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$21,667.00",
+      "$30,867.00",
+      "$26,069.00"
+    ],
+    "explanation": "Tax = $2,002.00. Net trade equity = $9,200.00 − $5,000.00 = $4,200.00. Amount financed = $30,800.00 + tax + $825.00 − $2,760.00 − $4,200.00 = $26,667.00.",
+    "numericAnswer": {
+      "value": 26667,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-09",
+    "kind": "calculation",
+    "term": "$26,995.00",
+    "definition": "A car's price is $31,700.00. In this hypothetical jurisdiction, purchase tax is 5.0% of the full price with no trade-in tax reduction. Fees are $850.00 and cash down is $2,840.00. The trade-in is worth $9,400.00 but has $5,100.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$21,895.00",
+      "$31,295.00",
+      "$26,525.00"
+    ],
+    "explanation": "Tax = $1,585.00. Net trade equity = $9,400.00 − $5,100.00 = $4,300.00. Amount financed = $31,700.00 + tax + $850.00 − $2,840.00 − $4,300.00 = $26,995.00.",
+    "numericAnswer": {
+      "value": 26995,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-10",
+    "kind": "calculation",
+    "term": "$27,948.00",
+    "definition": "A car's price is $32,600.00. In this hypothetical jurisdiction, purchase tax is 5.5% of the full price with no trade-in tax reduction. Fees are $875.00 and cash down is $2,920.00. The trade-in is worth $9,600.00 but has $5,200.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$22,748.00",
+      "$32,348.00",
+      "$27,420.00"
+    ],
+    "explanation": "Tax = $1,793.00. Net trade equity = $9,600.00 − $5,200.00 = $4,400.00. Amount financed = $32,600.00 + tax + $875.00 − $2,920.00 − $4,400.00 = $27,948.00.",
+    "numericAnswer": {
+      "value": 27948,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-11",
+    "kind": "calculation",
+    "term": "$28,910.00",
+    "definition": "A car's price is $33,500.00. In this hypothetical jurisdiction, purchase tax is 6.0% of the full price with no trade-in tax reduction. Fees are $900.00 and cash down is $3,000.00. The trade-in is worth $9,800.00 but has $5,300.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$23,610.00",
+      "$33,410.00",
+      "$28,322.00"
+    ],
+    "explanation": "Tax = $2,010.00. Net trade equity = $9,800.00 − $5,300.00 = $4,500.00. Amount financed = $33,500.00 + tax + $900.00 − $3,000.00 − $4,500.00 = $28,910.00.",
+    "numericAnswer": {
+      "value": 28910,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-12",
+    "kind": "calculation",
+    "term": "$29,881.00",
+    "definition": "A car's price is $34,400.00. In this hypothetical jurisdiction, purchase tax is 6.5% of the full price with no trade-in tax reduction. Fees are $925.00 and cash down is $3,080.00. The trade-in is worth $10,000.00 but has $5,400.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$24,481.00",
+      "$34,481.00",
+      "$29,231.00"
+    ],
+    "explanation": "Tax = $2,236.00. Net trade equity = $10,000.00 − $5,400.00 = $4,600.00. Amount financed = $34,400.00 + tax + $925.00 − $3,080.00 − $4,600.00 = $29,881.00.",
+    "numericAnswer": {
+      "value": 29881,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-13",
+    "kind": "calculation",
+    "term": "$30,155.00",
+    "definition": "A car's price is $35,300.00. In this hypothetical jurisdiction, purchase tax is 5.0% of the full price with no trade-in tax reduction. Fees are $950.00 and cash down is $3,160.00. The trade-in is worth $10,200.00 but has $5,500.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$24,655.00",
+      "$34,855.00",
+      "$29,645.00"
+    ],
+    "explanation": "Tax = $1,765.00. Net trade equity = $10,200.00 − $5,500.00 = $4,700.00. Amount financed = $35,300.00 + tax + $950.00 − $3,160.00 − $4,700.00 = $30,155.00.",
+    "numericAnswer": {
+      "value": 30155,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-14",
+    "kind": "calculation",
+    "term": "$31,126.00",
+    "definition": "A car's price is $36,200.00. In this hypothetical jurisdiction, purchase tax is 5.5% of the full price with no trade-in tax reduction. Fees are $975.00 and cash down is $3,240.00. The trade-in is worth $10,400.00 but has $5,600.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$25,526.00",
+      "$35,926.00",
+      "$30,554.00"
+    ],
+    "explanation": "Tax = $1,991.00. Net trade equity = $10,400.00 − $5,600.00 = $4,800.00. Amount financed = $36,200.00 + tax + $975.00 − $3,240.00 − $4,800.00 = $31,126.00.",
+    "numericAnswer": {
+      "value": 31126,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-15",
+    "kind": "calculation",
+    "term": "$32,106.00",
+    "definition": "A car's price is $37,100.00. In this hypothetical jurisdiction, purchase tax is 6.0% of the full price with no trade-in tax reduction. Fees are $1,000.00 and cash down is $3,320.00. The trade-in is worth $10,600.00 but has $5,700.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$26,406.00",
+      "$37,006.00",
+      "$31,470.00"
+    ],
+    "explanation": "Tax = $2,226.00. Net trade equity = $10,600.00 − $5,700.00 = $4,900.00. Amount financed = $37,100.00 + tax + $1,000.00 − $3,320.00 − $4,900.00 = $32,106.00.",
+    "numericAnswer": {
+      "value": 32106,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-16",
+    "kind": "calculation",
+    "term": "$33,095.00",
+    "definition": "A car's price is $38,000.00. In this hypothetical jurisdiction, purchase tax is 6.5% of the full price with no trade-in tax reduction. Fees are $1,025.00 and cash down is $3,400.00. The trade-in is worth $10,800.00 but has $5,800.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$27,295.00",
+      "$38,095.00",
+      "$32,393.00"
+    ],
+    "explanation": "Tax = $2,470.00. Net trade equity = $10,800.00 − $5,800.00 = $5,000.00. Amount financed = $38,000.00 + tax + $1,025.00 − $3,400.00 − $5,000.00 = $33,095.00.",
+    "numericAnswer": {
+      "value": 33095,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-17",
+    "kind": "calculation",
+    "term": "$33,315.00",
+    "definition": "A car's price is $38,900.00. In this hypothetical jurisdiction, purchase tax is 5.0% of the full price with no trade-in tax reduction. Fees are $1,050.00 and cash down is $3,480.00. The trade-in is worth $11,000.00 but has $5,900.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$27,415.00",
+      "$38,415.00",
+      "$32,765.00"
+    ],
+    "explanation": "Tax = $1,945.00. Net trade equity = $11,000.00 − $5,900.00 = $5,100.00. Amount financed = $38,900.00 + tax + $1,050.00 − $3,480.00 − $5,100.00 = $33,315.00.",
+    "numericAnswer": {
+      "value": 33315,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-18",
+    "kind": "calculation",
+    "term": "$34,304.00",
+    "definition": "A car's price is $39,800.00. In this hypothetical jurisdiction, purchase tax is 5.5% of the full price with no trade-in tax reduction. Fees are $1,075.00 and cash down is $3,560.00. The trade-in is worth $11,200.00 but has $6,000.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$28,304.00",
+      "$39,504.00",
+      "$33,688.00"
+    ],
+    "explanation": "Tax = $2,189.00. Net trade equity = $11,200.00 − $6,000.00 = $5,200.00. Amount financed = $39,800.00 + tax + $1,075.00 − $3,560.00 − $5,200.00 = $34,304.00.",
+    "numericAnswer": {
+      "value": 34304,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-19",
+    "kind": "calculation",
+    "term": "$35,302.00",
+    "definition": "A car's price is $40,700.00. In this hypothetical jurisdiction, purchase tax is 6.0% of the full price with no trade-in tax reduction. Fees are $1,100.00 and cash down is $3,640.00. The trade-in is worth $11,400.00 but has $6,100.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$29,202.00",
+      "$40,602.00",
+      "$34,618.00"
+    ],
+    "explanation": "Tax = $2,442.00. Net trade equity = $11,400.00 − $6,100.00 = $5,300.00. Amount financed = $40,700.00 + tax + $1,100.00 − $3,640.00 − $5,300.00 = $35,302.00.",
+    "numericAnswer": {
+      "value": 35302,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-auto-financed-amount-trade-equity-20",
+    "kind": "calculation",
+    "term": "$36,309.00",
+    "definition": "A car's price is $41,600.00. In this hypothetical jurisdiction, purchase tax is 6.5% of the full price with no trade-in tax reduction. Fees are $1,125.00 and cash down is $3,720.00. The trade-in is worth $11,600.00 but has $6,200.00 still owed; all net trade equity is applied to the purchase. What amount is financed?",
+    "distractors": [
+      "$30,109.00",
+      "$41,709.00",
+      "$35,555.00"
+    ],
+    "explanation": "Tax = $2,704.00. Net trade equity = $11,600.00 − $6,200.00 = $5,400.00. Amount financed = $41,600.00 + tax + $1,125.00 − $3,720.00 − $5,400.00 = $36,309.00.",
+    "numericAnswer": {
+      "value": 36309,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-01",
+    "kind": "calculation",
+    "term": "$357.50",
+    "definition": "A car lease requires 24 monthly payments of $270.00, plus $1,800.00 upfront in addition to every monthly payment, and a $300.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees?",
+    "distractors": [
+      "$270.00",
+      "$345.00",
+      "$282.50"
+    ],
+    "explanation": "Total cash cost = 24 × $270.00 + $1,800.00 + $300.00 = $8,580.00. Divide by 24: $357.50 per month.",
+    "numericAnswer": {
+      "value": 357.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-02",
+    "kind": "calculation",
+    "term": "$343.53",
+    "definition": "A car lease requires 36 monthly payments of $282.00, plus $1,900.00 upfront in addition to every monthly payment, and a $315.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$282.00",
+      "$334.78",
+      "$290.75"
+    ],
+    "explanation": "Total cash cost = 36 × $282.00 + $1,900.00 + $315.00 = $12,367.00. Divide by 36: $343.53 per month.",
+    "numericAnswer": {
+      "value": 343.53,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-03",
+    "kind": "calculation",
+    "term": "$391.08",
+    "definition": "A car lease requires 24 monthly payments of $294.00, plus $2,000.00 upfront in addition to every monthly payment, and a $330.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$294.00",
+      "$377.33",
+      "$307.75"
+    ],
+    "explanation": "Total cash cost = 24 × $294.00 + $2,000.00 + $330.00 = $9,386.00. Divide by 24: $391.08 per month.",
+    "numericAnswer": {
+      "value": 391.08,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-04",
+    "kind": "calculation",
+    "term": "$373.92",
+    "definition": "A car lease requires 36 monthly payments of $306.00, plus $2,100.00 upfront in addition to every monthly payment, and a $345.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$306.00",
+      "$364.33",
+      "$315.58"
+    ],
+    "explanation": "Total cash cost = 36 × $306.00 + $2,100.00 + $345.00 = $13,461.00. Divide by 36: $373.92 per month.",
+    "numericAnswer": {
+      "value": 373.92,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-05",
+    "kind": "calculation",
+    "term": "$424.67",
+    "definition": "A car lease requires 24 monthly payments of $318.00, plus $2,200.00 upfront in addition to every monthly payment, and a $360.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$318.00",
+      "$409.67",
+      "$333.00"
+    ],
+    "explanation": "Total cash cost = 24 × $318.00 + $2,200.00 + $360.00 = $10,192.00. Divide by 24: $424.67 per month.",
+    "numericAnswer": {
+      "value": 424.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-06",
+    "kind": "calculation",
+    "term": "$404.31",
+    "definition": "A car lease requires 36 monthly payments of $330.00, plus $2,300.00 upfront in addition to every monthly payment, and a $375.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$330.00",
+      "$393.89",
+      "$340.42"
+    ],
+    "explanation": "Total cash cost = 36 × $330.00 + $2,300.00 + $375.00 = $14,555.00. Divide by 36: $404.31 per month.",
+    "numericAnswer": {
+      "value": 404.31,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-07",
+    "kind": "calculation",
+    "term": "$458.25",
+    "definition": "A car lease requires 24 monthly payments of $342.00, plus $2,400.00 upfront in addition to every monthly payment, and a $390.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees?",
+    "distractors": [
+      "$342.00",
+      "$442.00",
+      "$358.25"
+    ],
+    "explanation": "Total cash cost = 24 × $342.00 + $2,400.00 + $390.00 = $10,998.00. Divide by 24: $458.25 per month.",
+    "numericAnswer": {
+      "value": 458.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-08",
+    "kind": "calculation",
+    "term": "$434.69",
+    "definition": "A car lease requires 36 monthly payments of $354.00, plus $2,500.00 upfront in addition to every monthly payment, and a $405.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$354.00",
+      "$423.44",
+      "$365.25"
+    ],
+    "explanation": "Total cash cost = 36 × $354.00 + $2,500.00 + $405.00 = $15,649.00. Divide by 36: $434.69 per month.",
+    "numericAnswer": {
+      "value": 434.69,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-09",
+    "kind": "calculation",
+    "term": "$491.83",
+    "definition": "A car lease requires 24 monthly payments of $366.00, plus $2,600.00 upfront in addition to every monthly payment, and a $420.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$366.00",
+      "$474.33",
+      "$383.50"
+    ],
+    "explanation": "Total cash cost = 24 × $366.00 + $2,600.00 + $420.00 = $11,804.00. Divide by 24: $491.83 per month.",
+    "numericAnswer": {
+      "value": 491.83,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-10",
+    "kind": "calculation",
+    "term": "$465.08",
+    "definition": "A car lease requires 36 monthly payments of $378.00, plus $2,700.00 upfront in addition to every monthly payment, and a $435.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$378.00",
+      "$453.00",
+      "$390.08"
+    ],
+    "explanation": "Total cash cost = 36 × $378.00 + $2,700.00 + $435.00 = $16,743.00. Divide by 36: $465.08 per month.",
+    "numericAnswer": {
+      "value": 465.08,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-11",
+    "kind": "calculation",
+    "term": "$525.42",
+    "definition": "A car lease requires 24 monthly payments of $390.00, plus $2,800.00 upfront in addition to every monthly payment, and a $450.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$390.00",
+      "$506.67",
+      "$408.75"
+    ],
+    "explanation": "Total cash cost = 24 × $390.00 + $2,800.00 + $450.00 = $12,610.00. Divide by 24: $525.42 per month.",
+    "numericAnswer": {
+      "value": 525.42,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-12",
+    "kind": "calculation",
+    "term": "$495.47",
+    "definition": "A car lease requires 36 monthly payments of $402.00, plus $2,900.00 upfront in addition to every monthly payment, and a $465.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$402.00",
+      "$482.56",
+      "$414.92"
+    ],
+    "explanation": "Total cash cost = 36 × $402.00 + $2,900.00 + $465.00 = $17,837.00. Divide by 36: $495.47 per month.",
+    "numericAnswer": {
+      "value": 495.47,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-13",
+    "kind": "calculation",
+    "term": "$559.00",
+    "definition": "A car lease requires 24 monthly payments of $414.00, plus $3,000.00 upfront in addition to every monthly payment, and a $480.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees?",
+    "distractors": [
+      "$414.00",
+      "$539.00",
+      "$434.00"
+    ],
+    "explanation": "Total cash cost = 24 × $414.00 + $3,000.00 + $480.00 = $13,416.00. Divide by 24: $559.00 per month.",
+    "numericAnswer": {
+      "value": 559,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-14",
+    "kind": "calculation",
+    "term": "$525.86",
+    "definition": "A car lease requires 36 monthly payments of $426.00, plus $3,100.00 upfront in addition to every monthly payment, and a $495.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$426.00",
+      "$512.11",
+      "$439.75"
+    ],
+    "explanation": "Total cash cost = 36 × $426.00 + $3,100.00 + $495.00 = $18,931.00. Divide by 36: $525.86 per month.",
+    "numericAnswer": {
+      "value": 525.86,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-15",
+    "kind": "calculation",
+    "term": "$592.58",
+    "definition": "A car lease requires 24 monthly payments of $438.00, plus $3,200.00 upfront in addition to every monthly payment, and a $510.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$438.00",
+      "$571.33",
+      "$459.25"
+    ],
+    "explanation": "Total cash cost = 24 × $438.00 + $3,200.00 + $510.00 = $14,222.00. Divide by 24: $592.58 per month.",
+    "numericAnswer": {
+      "value": 592.58,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-16",
+    "kind": "calculation",
+    "term": "$556.25",
+    "definition": "A car lease requires 36 monthly payments of $450.00, plus $3,300.00 upfront in addition to every monthly payment, and a $525.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees?",
+    "distractors": [
+      "$450.00",
+      "$541.67",
+      "$464.58"
+    ],
+    "explanation": "Total cash cost = 36 × $450.00 + $3,300.00 + $525.00 = $20,025.00. Divide by 36: $556.25 per month.",
+    "numericAnswer": {
+      "value": 556.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-17",
+    "kind": "calculation",
+    "term": "$626.17",
+    "definition": "A car lease requires 24 monthly payments of $462.00, plus $3,400.00 upfront in addition to every monthly payment, and a $540.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$462.00",
+      "$603.67",
+      "$484.50"
+    ],
+    "explanation": "Total cash cost = 24 × $462.00 + $3,400.00 + $540.00 = $15,028.00. Divide by 24: $626.17 per month.",
+    "numericAnswer": {
+      "value": 626.17,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-18",
+    "kind": "calculation",
+    "term": "$586.64",
+    "definition": "A car lease requires 36 monthly payments of $474.00, plus $3,500.00 upfront in addition to every monthly payment, and a $555.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$474.00",
+      "$571.22",
+      "$489.42"
+    ],
+    "explanation": "Total cash cost = 36 × $474.00 + $3,500.00 + $555.00 = $21,119.00. Divide by 36: $586.64 per month.",
+    "numericAnswer": {
+      "value": 586.64,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-19",
+    "kind": "calculation",
+    "term": "$659.75",
+    "definition": "A car lease requires 24 monthly payments of $486.00, plus $3,600.00 upfront in addition to every monthly payment, and a $570.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees?",
+    "distractors": [
+      "$486.00",
+      "$636.00",
+      "$509.75"
+    ],
+    "explanation": "Total cash cost = 24 × $486.00 + $3,600.00 + $570.00 = $15,834.00. Divide by 24: $659.75 per month.",
+    "numericAnswer": {
+      "value": 659.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-lease-full-period-monthly-cost-20",
+    "kind": "calculation",
+    "term": "$617.03",
+    "definition": "A car lease requires 36 monthly payments of $498.00, plus $3,700.00 upfront in addition to every monthly payment, and a $585.00 return fee. Assume no mileage, damage, tax, or other charges and no purchase at the end. What is average monthly lease cash cost including these fees? Round to the nearest cent.",
+    "distractors": [
+      "$498.00",
+      "$600.78",
+      "$514.25"
+    ],
+    "explanation": "Total cash cost = 36 × $498.00 + $3,700.00 + $585.00 = $22,213.00. Divide by 36: $617.03 per month.",
+    "numericAnswer": {
+      "value": 617.03,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-01",
+    "kind": "calculation",
+    "term": "$15,963.10",
+    "definition": "A car costs $23,000.00. For planning, assume its value falls 18.0% during year 1 and then 8.0% of the remaining value in each later year. What is estimated value after 3 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$15,180.00",
+      "$17,909.82",
+      "$14,686.06"
+    ],
+    "explanation": "Year-1 value = $23,000.00 × (1 − 18/100). Apply 2 later reductions: $23,000.00 × (1 − 18/100) × (1 − 8/100)^2 = $15,963.10.",
+    "numericAnswer": {
+      "value": 15963.1,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-02",
+    "kind": "calculation",
+    "term": "$14,771.50",
+    "definition": "A car costs $24,200.00. For planning, assume its value falls 19.0% during year 1 and then 9.0% of the remaining value in each later year. What is estimated value after 4 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$13,068.00",
+      "$16,595.14",
+      "$13,442.06"
+    ],
+    "explanation": "Year-1 value = $24,200.00 × (1 − 19/100). Apply 3 later reductions: $24,200.00 × (1 − 19/100) × (1 − 9/100)^3 = $14,771.50.",
+    "numericAnswer": {
+      "value": 14771.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-03",
+    "kind": "calculation",
+    "term": "$13,331.95",
+    "definition": "A car costs $25,400.00. For planning, assume its value falls 20.0% during year 1 and then 10.0% of the remaining value in each later year. What is estimated value after 5 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$10,160.00",
+      "$14,998.45",
+      "$11,998.76"
+    ],
+    "explanation": "Year-1 value = $25,400.00 × (1 − 20/100). Apply 4 later reductions: $25,400.00 × (1 − 20/100) × (1 − 10/100)^4 = $13,331.95.",
+    "numericAnswer": {
+      "value": 13331.95,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-04",
+    "kind": "calculation",
+    "term": "$13,849.94",
+    "definition": "A car costs $26,600.00. For planning, assume its value falls 21.0% during year 1 and then 8.0% of the remaining value in each later year. What is estimated value after 6 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$10,374.00",
+      "$16,129.04",
+      "$12,741.94"
+    ],
+    "explanation": "Year-1 value = $26,600.00 × (1 − 21/100). Apply 5 later reductions: $26,600.00 × (1 − 21/100) × (1 − 8/100)^5 = $13,849.94.",
+    "numericAnswer": {
+      "value": 13849.94,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-05",
+    "kind": "calculation",
+    "term": "$18,877.37",
+    "definition": "A car costs $27,800.00. For planning, assume its value falls 18.0% during year 1 and then 9.0% of the remaining value in each later year. What is estimated value after 3 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$17,792.00",
+      "$20,949.27",
+      "$17,178.40"
+    ],
+    "explanation": "Year-1 value = $27,800.00 × (1 − 18/100). Apply 2 later reductions: $27,800.00 × (1 − 18/100) × (1 − 9/100)^2 = $18,877.37.",
+    "numericAnswer": {
+      "value": 18877.37,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-06",
+    "kind": "calculation",
+    "term": "$17,124.21",
+    "definition": "A car costs $29,000.00. For planning, assume its value falls 19.0% during year 1 and then 10.0% of the remaining value in each later year. What is estimated value after 4 years? Ignore selling fees and round only the final answer.",
+    "distractors": [
+      "$14,790.00",
+      "$19,026.90",
+      "$15,411.79"
+    ],
+    "explanation": "Year-1 value = $29,000.00 × (1 − 19/100). Apply 3 later reductions: $29,000.00 × (1 − 19/100) × (1 − 10/100)^3 = $17,124.21.",
+    "numericAnswer": {
+      "value": 17124.21,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-07",
+    "kind": "calculation",
+    "term": "$17,308.05",
+    "definition": "A car costs $30,200.00. For planning, assume its value falls 20.0% during year 1 and then 8.0% of the remaining value in each later year. What is estimated value after 5 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$14,496.00",
+      "$19,904.26",
+      "$15,923.41"
+    ],
+    "explanation": "Year-1 value = $30,200.00 × (1 − 20/100). Apply 4 later reductions: $30,200.00 × (1 − 20/100) × (1 − 8/100)^4 = $17,308.05.",
+    "numericAnswer": {
+      "value": 17308.05,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-08",
+    "kind": "calculation",
+    "term": "$15,479.74",
+    "definition": "A car costs $31,400.00. For planning, assume its value falls 21.0% during year 1 and then 9.0% of the remaining value in each later year. What is estimated value after 6 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$10,676.00",
+      "$17,831.09",
+      "$14,086.56"
+    ],
+    "explanation": "Year-1 value = $31,400.00 × (1 − 21/100). Apply 5 later reductions: $31,400.00 × (1 − 21/100) × (1 − 9/100)^5 = $15,479.74.",
+    "numericAnswer": {
+      "value": 15479.74,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-09",
+    "kind": "calculation",
+    "term": "$21,652.92",
+    "definition": "A car costs $32,600.00. For planning, assume its value falls 18.0% during year 1 and then 10.0% of the remaining value in each later year. What is estimated value after 3 years? Ignore selling fees and round only the final answer.",
+    "distractors": [
+      "$20,212.00",
+      "$23,765.40",
+      "$19,487.63"
+    ],
+    "explanation": "Year-1 value = $32,600.00 × (1 − 18/100). Apply 2 later reductions: $32,600.00 × (1 − 18/100) × (1 − 10/100)^2 = $21,652.92.",
+    "numericAnswer": {
+      "value": 21652.92,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-10",
+    "kind": "calculation",
+    "term": "$21,318.92",
+    "definition": "A car costs $33,800.00. For planning, assume its value falls 19.0% during year 1 and then 8.0% of the remaining value in each later year. What is estimated value after 4 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$19,266.00",
+      "$24,214.08",
+      "$19,613.41"
+    ],
+    "explanation": "Year-1 value = $33,800.00 × (1 − 19/100). Apply 3 later reductions: $33,800.00 × (1 − 19/100) × (1 − 8/100)^3 = $21,318.92.",
+    "numericAnswer": {
+      "value": 21318.92,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-11",
+    "kind": "calculation",
+    "term": "$19,200.99",
+    "definition": "A car costs $35,000.00. For planning, assume its value falls 20.0% during year 1 and then 9.0% of the remaining value in each later year. What is estimated value after 5 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$15,400.00",
+      "$21,841.13",
+      "$17,472.90"
+    ],
+    "explanation": "Year-1 value = $35,000.00 × (1 − 20/100). Apply 4 later reductions: $35,000.00 × (1 − 20/100) × (1 − 9/100)^4 = $19,200.99.",
+    "numericAnswer": {
+      "value": 19200.99,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-12",
+    "kind": "calculation",
+    "term": "$16,886.83",
+    "definition": "A car costs $36,200.00. For planning, assume its value falls 21.0% during year 1 and then 10.0% of the remaining value in each later year. What is estimated value after 6 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$10,498.00",
+      "$19,238.16",
+      "$15,198.15"
+    ],
+    "explanation": "Year-1 value = $36,200.00 × (1 − 21/100). Apply 5 later reductions: $36,200.00 × (1 − 21/100) × (1 − 10/100)^5 = $16,886.83.",
+    "numericAnswer": {
+      "value": 16886.83,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-13",
+    "kind": "calculation",
+    "term": "$25,957.40",
+    "definition": "A car costs $37,400.00. For planning, assume its value falls 18.0% during year 1 and then 8.0% of the remaining value in each later year. What is estimated value after 3 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$24,684.00",
+      "$29,122.93",
+      "$23,880.80"
+    ],
+    "explanation": "Year-1 value = $37,400.00 × (1 − 18/100). Apply 2 later reductions: $37,400.00 × (1 − 18/100) × (1 − 8/100)^2 = $25,957.40.",
+    "numericAnswer": {
+      "value": 25957.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-14",
+    "kind": "calculation",
+    "term": "$23,561.15",
+    "definition": "A car costs $38,600.00. For planning, assume its value falls 19.0% during year 1 and then 9.0% of the remaining value in each later year. What is estimated value after 4 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$20,844.00",
+      "$26,469.93",
+      "$21,440.65"
+    ],
+    "explanation": "Year-1 value = $38,600.00 × (1 − 19/100). Apply 3 later reductions: $38,600.00 × (1 − 19/100) × (1 − 9/100)^3 = $23,561.15.",
+    "numericAnswer": {
+      "value": 23561.15,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-15",
+    "kind": "calculation",
+    "term": "$20,890.22",
+    "definition": "A car costs $39,800.00. For planning, assume its value falls 20.0% during year 1 and then 10.0% of the remaining value in each later year. What is estimated value after 5 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$15,920.00",
+      "$23,501.50",
+      "$18,801.20"
+    ],
+    "explanation": "Year-1 value = $39,800.00 × (1 − 20/100). Apply 4 later reductions: $39,800.00 × (1 − 20/100) × (1 − 10/100)^4 = $20,890.22.",
+    "numericAnswer": {
+      "value": 20890.22,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-16",
+    "kind": "calculation",
+    "term": "$21,347.65",
+    "definition": "A car costs $41,000.00. For planning, assume its value falls 21.0% during year 1 and then 8.0% of the remaining value in each later year. What is estimated value after 6 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$15,990.00",
+      "$24,860.56",
+      "$19,639.84"
+    ],
+    "explanation": "Year-1 value = $41,000.00 × (1 − 21/100). Apply 5 later reductions: $41,000.00 × (1 − 21/100) × (1 − 8/100)^5 = $21,347.65.",
+    "numericAnswer": {
+      "value": 21347.65,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-17",
+    "kind": "calculation",
+    "term": "$28,655.57",
+    "definition": "A car costs $42,200.00. For planning, assume its value falls 18.0% during year 1 and then 9.0% of the remaining value in each later year. What is estimated value after 3 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$27,008.00",
+      "$31,800.70",
+      "$26,076.57"
+    ],
+    "explanation": "Year-1 value = $42,200.00 × (1 − 18/100). Apply 2 later reductions: $42,200.00 × (1 − 18/100) × (1 − 9/100)^2 = $28,655.57.",
+    "numericAnswer": {
+      "value": 28655.57,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-18",
+    "kind": "calculation",
+    "term": "$25,627.27",
+    "definition": "A car costs $43,400.00. For planning, assume its value falls 19.0% during year 1 and then 10.0% of the remaining value in each later year. What is estimated value after 4 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$22,134.00",
+      "$28,474.74",
+      "$23,064.54"
+    ],
+    "explanation": "Year-1 value = $43,400.00 × (1 − 19/100). Apply 3 later reductions: $43,400.00 × (1 − 19/100) × (1 − 10/100)^3 = $25,627.27.",
+    "numericAnswer": {
+      "value": 25627.27,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-19",
+    "kind": "calculation",
+    "term": "$25,560.90",
+    "definition": "A car costs $44,600.00. For planning, assume its value falls 20.0% during year 1 and then 8.0% of the remaining value in each later year. What is estimated value after 5 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$21,408.00",
+      "$29,395.04",
+      "$23,516.03"
+    ],
+    "explanation": "Year-1 value = $44,600.00 × (1 − 20/100). Apply 4 later reductions: $44,600.00 × (1 − 20/100) × (1 − 8/100)^4 = $25,560.90.",
+    "numericAnswer": {
+      "value": 25560.9,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-depreciation-resale-value-20",
+    "kind": "calculation",
+    "term": "$22,578.73",
+    "definition": "A car costs $45,800.00. For planning, assume its value falls 21.0% during year 1 and then 9.0% of the remaining value in each later year. What is estimated value after 6 years? Ignore selling fees and round only the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$15,572.00",
+      "$26,008.41",
+      "$20,546.65"
+    ],
+    "explanation": "Year-1 value = $45,800.00 × (1 − 21/100). Apply 5 later reductions: $45,800.00 × (1 − 21/100) × (1 − 9/100)^5 = $22,578.73.",
+    "numericAnswer": {
+      "value": 22578.73,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-01",
+    "kind": "calculation",
+    "term": "$0.31 per mile",
+    "definition": "During a year you drive 9,000 miles and spend $1,100.00 on fuel, $1,050.00 on insurance, $540.00 on maintenance, and $140.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.30 per mile",
+      "$235.83 per mile"
+    ],
+    "explanation": "Total included cost = $1,100.00 + $1,050.00 + $540.00 + $140.00 = $2,830.00. Divide by 9,000 miles: $0.31 per mile.",
+    "numericAnswer": {
+      "value": 0.31,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-02",
+    "kind": "calculation",
+    "term": "$0.31 per mile",
+    "definition": "During a year you drive 9,600 miles and spend $1,165.00 on fuel, $1,095.00 on insurance, $575.00 on maintenance, and $148.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.30 per mile",
+      "$248.58 per mile"
+    ],
+    "explanation": "Total included cost = $1,165.00 + $1,095.00 + $575.00 + $148.00 = $2,983.00. Divide by 9,600 miles: $0.31 per mile.",
+    "numericAnswer": {
+      "value": 0.31,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-03",
+    "kind": "calculation",
+    "term": "$0.31 per mile",
+    "definition": "During a year you drive 10,200 miles and spend $1,230.00 on fuel, $1,140.00 on insurance, $610.00 on maintenance, and $156.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.29 per mile",
+      "$261.33 per mile"
+    ],
+    "explanation": "Total included cost = $1,230.00 + $1,140.00 + $610.00 + $156.00 = $3,136.00. Divide by 10,200 miles: $0.31 per mile.",
+    "numericAnswer": {
+      "value": 0.31,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-04",
+    "kind": "calculation",
+    "term": "$0.30 per mile",
+    "definition": "During a year you drive 10,800 miles and spend $1,295.00 on fuel, $1,185.00 on insurance, $645.00 on maintenance, and $164.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.29 per mile",
+      "$274.08 per mile"
+    ],
+    "explanation": "Total included cost = $1,295.00 + $1,185.00 + $645.00 + $164.00 = $3,289.00. Divide by 10,800 miles: $0.30 per mile.",
+    "numericAnswer": {
+      "value": 0.3,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-05",
+    "kind": "calculation",
+    "term": "$0.30 per mile",
+    "definition": "During a year you drive 11,400 miles and spend $1,360.00 on fuel, $1,230.00 on insurance, $680.00 on maintenance, and $172.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.29 per mile",
+      "$286.83 per mile"
+    ],
+    "explanation": "Total included cost = $1,360.00 + $1,230.00 + $680.00 + $172.00 = $3,442.00. Divide by 11,400 miles: $0.30 per mile.",
+    "numericAnswer": {
+      "value": 0.3,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-06",
+    "kind": "calculation",
+    "term": "$0.30 per mile",
+    "definition": "During a year you drive 12,000 miles and spend $1,425.00 on fuel, $1,275.00 on insurance, $715.00 on maintenance, and $180.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.28 per mile",
+      "$299.58 per mile"
+    ],
+    "explanation": "Total included cost = $1,425.00 + $1,275.00 + $715.00 + $180.00 = $3,595.00. Divide by 12,000 miles: $0.30 per mile.",
+    "numericAnswer": {
+      "value": 0.3,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-07",
+    "kind": "calculation",
+    "term": "$0.30 per mile",
+    "definition": "During a year you drive 12,600 miles and spend $1,490.00 on fuel, $1,320.00 on insurance, $750.00 on maintenance, and $188.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.28 per mile",
+      "$312.33 per mile"
+    ],
+    "explanation": "Total included cost = $1,490.00 + $1,320.00 + $750.00 + $188.00 = $3,748.00. Divide by 12,600 miles: $0.30 per mile.",
+    "numericAnswer": {
+      "value": 0.3,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-08",
+    "kind": "calculation",
+    "term": "$0.30 per mile",
+    "definition": "During a year you drive 13,200 miles and spend $1,555.00 on fuel, $1,365.00 on insurance, $785.00 on maintenance, and $196.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.28 per mile",
+      "$325.08 per mile"
+    ],
+    "explanation": "Total included cost = $1,555.00 + $1,365.00 + $785.00 + $196.00 = $3,901.00. Divide by 13,200 miles: $0.30 per mile.",
+    "numericAnswer": {
+      "value": 0.3,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-09",
+    "kind": "calculation",
+    "term": "$0.29 per mile",
+    "definition": "During a year you drive 13,800 miles and spend $1,620.00 on fuel, $1,410.00 on insurance, $820.00 on maintenance, and $204.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.28 per mile",
+      "$337.83 per mile"
+    ],
+    "explanation": "Total included cost = $1,620.00 + $1,410.00 + $820.00 + $204.00 = $4,054.00. Divide by 13,800 miles: $0.29 per mile.",
+    "numericAnswer": {
+      "value": 0.29,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-10",
+    "kind": "calculation",
+    "term": "$0.29 per mile",
+    "definition": "During a year you drive 14,400 miles and spend $1,685.00 on fuel, $1,455.00 on insurance, $855.00 on maintenance, and $212.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.28 per mile",
+      "$350.58 per mile"
+    ],
+    "explanation": "Total included cost = $1,685.00 + $1,455.00 + $855.00 + $212.00 = $4,207.00. Divide by 14,400 miles: $0.29 per mile.",
+    "numericAnswer": {
+      "value": 0.29,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-11",
+    "kind": "calculation",
+    "term": "$0.29 per mile",
+    "definition": "During a year you drive 15,000 miles and spend $1,750.00 on fuel, $1,500.00 on insurance, $890.00 on maintenance, and $220.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.28 per mile",
+      "$363.33 per mile"
+    ],
+    "explanation": "Total included cost = $1,750.00 + $1,500.00 + $890.00 + $220.00 = $4,360.00. Divide by 15,000 miles: $0.29 per mile.",
+    "numericAnswer": {
+      "value": 0.29,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-12",
+    "kind": "calculation",
+    "term": "$0.29 per mile",
+    "definition": "During a year you drive 15,600 miles and spend $1,815.00 on fuel, $1,545.00 on insurance, $925.00 on maintenance, and $228.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.27 per mile",
+      "$376.08 per mile"
+    ],
+    "explanation": "Total included cost = $1,815.00 + $1,545.00 + $925.00 + $228.00 = $4,513.00. Divide by 15,600 miles: $0.29 per mile.",
+    "numericAnswer": {
+      "value": 0.29,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-13",
+    "kind": "calculation",
+    "term": "$0.29 per mile",
+    "definition": "During a year you drive 16,200 miles and spend $1,880.00 on fuel, $1,590.00 on insurance, $960.00 on maintenance, and $236.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.27 per mile",
+      "$388.83 per mile"
+    ],
+    "explanation": "Total included cost = $1,880.00 + $1,590.00 + $960.00 + $236.00 = $4,666.00. Divide by 16,200 miles: $0.29 per mile.",
+    "numericAnswer": {
+      "value": 0.29,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-14",
+    "kind": "calculation",
+    "term": "$0.29 per mile",
+    "definition": "During a year you drive 16,800 miles and spend $1,945.00 on fuel, $1,635.00 on insurance, $995.00 on maintenance, and $244.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.27 per mile",
+      "$401.58 per mile"
+    ],
+    "explanation": "Total included cost = $1,945.00 + $1,635.00 + $995.00 + $244.00 = $4,819.00. Divide by 16,800 miles: $0.29 per mile.",
+    "numericAnswer": {
+      "value": 0.29,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-15",
+    "kind": "calculation",
+    "term": "$0.29 per mile",
+    "definition": "During a year you drive 17,400 miles and spend $2,010.00 on fuel, $1,680.00 on insurance, $1,030.00 on maintenance, and $252.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.27 per mile",
+      "$414.33 per mile"
+    ],
+    "explanation": "Total included cost = $2,010.00 + $1,680.00 + $1,030.00 + $252.00 = $4,972.00. Divide by 17,400 miles: $0.29 per mile.",
+    "numericAnswer": {
+      "value": 0.29,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-16",
+    "kind": "calculation",
+    "term": "$0.28 per mile",
+    "definition": "During a year you drive 18,000 miles and spend $2,075.00 on fuel, $1,725.00 on insurance, $1,065.00 on maintenance, and $260.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.27 per mile",
+      "$427.08 per mile"
+    ],
+    "explanation": "Total included cost = $2,075.00 + $1,725.00 + $1,065.00 + $260.00 = $5,125.00. Divide by 18,000 miles: $0.28 per mile.",
+    "numericAnswer": {
+      "value": 0.28,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-17",
+    "kind": "calculation",
+    "term": "$0.28 per mile",
+    "definition": "During a year you drive 18,600 miles and spend $2,140.00 on fuel, $1,770.00 on insurance, $1,100.00 on maintenance, and $268.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.12 per mile",
+      "$0.27 per mile",
+      "$439.83 per mile"
+    ],
+    "explanation": "Total included cost = $2,140.00 + $1,770.00 + $1,100.00 + $268.00 = $5,278.00. Divide by 18,600 miles: $0.28 per mile.",
+    "numericAnswer": {
+      "value": 0.28,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-18",
+    "kind": "calculation",
+    "term": "$0.28 per mile",
+    "definition": "During a year you drive 19,200 miles and spend $2,205.00 on fuel, $1,815.00 on insurance, $1,135.00 on maintenance, and $276.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.11 per mile",
+      "$0.27 per mile",
+      "$452.58 per mile"
+    ],
+    "explanation": "Total included cost = $2,205.00 + $1,815.00 + $1,135.00 + $276.00 = $5,431.00. Divide by 19,200 miles: $0.28 per mile.",
+    "numericAnswer": {
+      "value": 0.28,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-19",
+    "kind": "calculation",
+    "term": "$0.28 per mile",
+    "definition": "During a year you drive 19,800 miles and spend $2,270.00 on fuel, $1,860.00 on insurance, $1,170.00 on maintenance, and $284.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.11 per mile",
+      "$0.27 per mile",
+      "$465.33 per mile"
+    ],
+    "explanation": "Total included cost = $2,270.00 + $1,860.00 + $1,170.00 + $284.00 = $5,584.00. Divide by 19,800 miles: $0.28 per mile.",
+    "numericAnswer": {
+      "value": 0.28,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-car-operating-cost-per-mile-20",
+    "kind": "calculation",
+    "term": "$0.28 per mile",
+    "definition": "During a year you drive 20,400 miles and spend $2,335.00 on fuel, $1,905.00 on insurance, $1,205.00 on maintenance, and $292.00 on registration. Define operating cost here as these four items only, excluding depreciation and financing. What is operating cost per mile? Round to the nearest cent.",
+    "distractors": [
+      "$0.11 per mile",
+      "$0.27 per mile",
+      "$478.08 per mile"
+    ],
+    "explanation": "Total included cost = $2,335.00 + $1,905.00 + $1,205.00 + $292.00 = $5,737.00. Divide by 20,400 miles: $0.28 per mile.",
+    "numericAnswer": {
+      "value": 0.28,
+      "unit": "USD per mile"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-01",
+    "kind": "calculation",
+    "term": "$814.57",
+    "definition": "Compare energy costs for 10,000 annual miles. A gasoline car gets 28 mpg with fuel at $3.30/gallon. An EV uses 0.28 kWh per mile with electricity at $0.13/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$1,178.57",
+      "$364.00",
+      "$1,542.57"
+    ],
+    "explanation": "Gas cost = 10,000 ÷ 28 × $3.30 = $1,178.57. EV cost = 10,000 × 0.28 × $0.13 = $364.00. Subtract unrounded costs to obtain $814.57 saved.",
+    "numericAnswer": {
+      "value": 814.57,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-02",
+    "kind": "calculation",
+    "term": "$797.92",
+    "definition": "Compare energy costs for 10,700 annual miles. A gasoline car gets 29 mpg with fuel at $3.34/gallon. An EV uses 0.29 kWh per mile with electricity at $0.14/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$1,232.34",
+      "$434.42",
+      "$1,666.76"
+    ],
+    "explanation": "Gas cost = 10,700 ÷ 29 × $3.34 = $1,232.34. EV cost = 10,700 × 0.29 × $0.14 = $434.42. Subtract unrounded costs to obtain $797.92 saved.",
+    "numericAnswer": {
+      "value": 797.92,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-03",
+    "kind": "calculation",
+    "term": "$771.40",
+    "definition": "Compare energy costs for 11,400 annual miles. A gasoline car gets 30 mpg with fuel at $3.38/gallon. An EV uses 0.30 kWh per mile with electricity at $0.15/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost?",
+    "distractors": [
+      "$1,284.40",
+      "$513.00",
+      "$1,797.40"
+    ],
+    "explanation": "Gas cost = 11,400 ÷ 30 × $3.38 = $1,284.40. EV cost = 11,400 × 0.30 × $0.15 = $513.00. Subtract unrounded costs to obtain $771.40 saved.",
+    "numericAnswer": {
+      "value": 771.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-04",
+    "kind": "calculation",
+    "term": "$734.74",
+    "definition": "Compare energy costs for 12,100 annual miles. A gasoline car gets 31 mpg with fuel at $3.42/gallon. An EV uses 0.31 kWh per mile with electricity at $0.16/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$1,334.90",
+      "$600.16",
+      "$1,935.06"
+    ],
+    "explanation": "Gas cost = 12,100 ÷ 31 × $3.42 = $1,334.90. EV cost = 12,100 × 0.31 × $0.16 = $600.16. Subtract unrounded costs to obtain $734.74 saved.",
+    "numericAnswer": {
+      "value": 734.74,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-05",
+    "kind": "calculation",
+    "term": "$774.72",
+    "definition": "Compare energy costs for 12,800 annual miles. A gasoline car gets 32 mpg with fuel at $3.46/gallon. An EV uses 0.28 kWh per mile with electricity at $0.17/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost?",
+    "distractors": [
+      "$1,384.00",
+      "$609.28",
+      "$1,993.28"
+    ],
+    "explanation": "Gas cost = 12,800 ÷ 32 × $3.46 = $1,384.00. EV cost = 12,800 × 0.28 × $0.17 = $609.28. Subtract unrounded costs to obtain $774.72 saved.",
+    "numericAnswer": {
+      "value": 774.72,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-06",
+    "kind": "calculation",
+    "term": "$1,178.55",
+    "definition": "Compare energy costs for 13,500 annual miles. A gasoline car gets 28 mpg with fuel at $3.50/gallon. An EV uses 0.29 kWh per mile with electricity at $0.13/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost?",
+    "distractors": [
+      "$1,687.50",
+      "$508.95",
+      "$2,196.45"
+    ],
+    "explanation": "Gas cost = 13,500 ÷ 28 × $3.50 = $1,687.50. EV cost = 13,500 × 0.29 × $0.13 = $508.95. Subtract unrounded costs to obtain $1,178.55 saved.",
+    "numericAnswer": {
+      "value": 1178.55,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-07",
+    "kind": "calculation",
+    "term": "$1,136.98",
+    "definition": "Compare energy costs for 14,200 annual miles. A gasoline car gets 29 mpg with fuel at $3.54/gallon. An EV uses 0.30 kWh per mile with electricity at $0.14/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$1,733.38",
+      "$596.40",
+      "$2,329.78"
+    ],
+    "explanation": "Gas cost = 14,200 ÷ 29 × $3.54 = $1,733.38. EV cost = 14,200 × 0.30 × $0.14 = $596.40. Subtract unrounded costs to obtain $1,136.98 saved.",
+    "numericAnswer": {
+      "value": 1136.98,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-08",
+    "kind": "calculation",
+    "term": "$1,085.22",
+    "definition": "Compare energy costs for 14,900 annual miles. A gasoline car gets 30 mpg with fuel at $3.58/gallon. An EV uses 0.31 kWh per mile with electricity at $0.15/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$1,778.07",
+      "$692.85",
+      "$2,470.92"
+    ],
+    "explanation": "Gas cost = 14,900 ÷ 30 × $3.58 = $1,778.07. EV cost = 14,900 × 0.31 × $0.15 = $692.85. Subtract unrounded costs to obtain $1,085.22 saved.",
+    "numericAnswer": {
+      "value": 1085.22,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-09",
+    "kind": "calculation",
+    "term": "$1,122.80",
+    "definition": "Compare energy costs for 15,600 annual miles. A gasoline car gets 31 mpg with fuel at $3.62/gallon. An EV uses 0.28 kWh per mile with electricity at $0.16/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$1,821.68",
+      "$698.88",
+      "$2,520.56"
+    ],
+    "explanation": "Gas cost = 15,600 ÷ 31 × $3.62 = $1,821.68. EV cost = 15,600 × 0.28 × $0.16 = $698.88. Subtract unrounded costs to obtain $1,122.80 saved.",
+    "numericAnswer": {
+      "value": 1122.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-10",
+    "kind": "calculation",
+    "term": "$1,060.72",
+    "definition": "Compare energy costs for 16,300 annual miles. A gasoline car gets 32 mpg with fuel at $3.66/gallon. An EV uses 0.29 kWh per mile with electricity at $0.17/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$1,864.31",
+      "$803.59",
+      "$2,667.90"
+    ],
+    "explanation": "Gas cost = 16,300 ÷ 32 × $3.66 = $1,864.31. EV cost = 16,300 × 0.29 × $0.17 = $803.59. Subtract unrounded costs to obtain $1,060.72 saved.",
+    "numericAnswer": {
+      "value": 1060.72,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-11",
+    "kind": "calculation",
+    "term": "$1,583.43",
+    "definition": "Compare energy costs for 17,000 annual miles. A gasoline car gets 28 mpg with fuel at $3.70/gallon. An EV uses 0.30 kWh per mile with electricity at $0.13/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$2,246.43",
+      "$663.00",
+      "$2,909.43"
+    ],
+    "explanation": "Gas cost = 17,000 ÷ 28 × $3.70 = $2,246.43. EV cost = 17,000 × 0.30 × $0.13 = $663.00. Subtract unrounded costs to obtain $1,583.43 saved.",
+    "numericAnswer": {
+      "value": 1583.43,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-12",
+    "kind": "calculation",
+    "term": "$1,514.51",
+    "definition": "Compare energy costs for 17,700 annual miles. A gasoline car gets 29 mpg with fuel at $3.74/gallon. An EV uses 0.31 kWh per mile with electricity at $0.14/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$2,282.69",
+      "$768.18",
+      "$3,050.87"
+    ],
+    "explanation": "Gas cost = 17,700 ÷ 29 × $3.74 = $2,282.69. EV cost = 17,700 × 0.31 × $0.14 = $768.18. Subtract unrounded costs to obtain $1,514.51 saved.",
+    "numericAnswer": {
+      "value": 1514.51,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-13",
+    "kind": "calculation",
+    "term": "$1,545.60",
+    "definition": "Compare energy costs for 18,400 annual miles. A gasoline car gets 30 mpg with fuel at $3.78/gallon. An EV uses 0.28 kWh per mile with electricity at $0.15/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost?",
+    "distractors": [
+      "$2,318.40",
+      "$772.80",
+      "$3,091.20"
+    ],
+    "explanation": "Gas cost = 18,400 ÷ 30 × $3.78 = $2,318.40. EV cost = 18,400 × 0.28 × $0.15 = $772.80. Subtract unrounded costs to obtain $1,545.60 saved.",
+    "numericAnswer": {
+      "value": 1545.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-14",
+    "kind": "calculation",
+    "term": "$1,467.37",
+    "definition": "Compare energy costs for 19,100 annual miles. A gasoline car gets 31 mpg with fuel at $3.82/gallon. An EV uses 0.29 kWh per mile with electricity at $0.16/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$2,353.61",
+      "$886.24",
+      "$3,239.85"
+    ],
+    "explanation": "Gas cost = 19,100 ÷ 31 × $3.82 = $2,353.61. EV cost = 19,100 × 0.29 × $0.16 = $886.24. Subtract unrounded costs to obtain $1,467.37 saved.",
+    "numericAnswer": {
+      "value": 1467.37,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-15",
+    "kind": "calculation",
+    "term": "$1,378.58",
+    "definition": "Compare energy costs for 19,800 annual miles. A gasoline car gets 32 mpg with fuel at $3.86/gallon. An EV uses 0.30 kWh per mile with electricity at $0.17/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$2,388.38",
+      "$1,009.80",
+      "$3,398.18"
+    ],
+    "explanation": "Gas cost = 19,800 ÷ 32 × $3.86 = $2,388.38. EV cost = 19,800 × 0.30 × $0.17 = $1,009.80. Subtract unrounded costs to obtain $1,378.58 saved.",
+    "numericAnswer": {
+      "value": 1378.58,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-16",
+    "kind": "calculation",
+    "term": "$2,029.21",
+    "definition": "Compare energy costs for 20,500 annual miles. A gasoline car gets 28 mpg with fuel at $3.90/gallon. An EV uses 0.31 kWh per mile with electricity at $0.13/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$2,855.36",
+      "$826.15",
+      "$3,681.51"
+    ],
+    "explanation": "Gas cost = 20,500 ÷ 28 × $3.90 = $2,855.36. EV cost = 20,500 × 0.31 × $0.13 = $826.15. Subtract unrounded costs to obtain $2,029.21 saved.",
+    "numericAnswer": {
+      "value": 2029.21,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-17",
+    "kind": "calculation",
+    "term": "$2,049.24",
+    "definition": "Compare energy costs for 21,200 annual miles. A gasoline car gets 29 mpg with fuel at $3.94/gallon. An EV uses 0.28 kWh per mile with electricity at $0.14/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$2,880.28",
+      "$831.04",
+      "$3,711.32"
+    ],
+    "explanation": "Gas cost = 21,200 ÷ 29 × $3.94 = $2,880.28. EV cost = 21,200 × 0.28 × $0.14 = $831.04. Subtract unrounded costs to obtain $2,049.24 saved.",
+    "numericAnswer": {
+      "value": 2049.24,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-18",
+    "kind": "calculation",
+    "term": "$1,952.75",
+    "definition": "Compare energy costs for 21,900 annual miles. A gasoline car gets 30 mpg with fuel at $3.98/gallon. An EV uses 0.29 kWh per mile with electricity at $0.15/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost?",
+    "distractors": [
+      "$2,905.40",
+      "$952.65",
+      "$3,858.05"
+    ],
+    "explanation": "Gas cost = 21,900 ÷ 30 × $3.98 = $2,905.40. EV cost = 21,900 × 0.29 × $0.15 = $952.65. Subtract unrounded costs to obtain $1,952.75 saved.",
+    "numericAnswer": {
+      "value": 1952.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-19",
+    "kind": "calculation",
+    "term": "$1,845.91",
+    "definition": "Compare energy costs for 22,600 annual miles. A gasoline car gets 31 mpg with fuel at $4.02/gallon. An EV uses 0.30 kWh per mile with electricity at $0.16/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$2,930.71",
+      "$1,084.80",
+      "$4,015.51"
+    ],
+    "explanation": "Gas cost = 22,600 ÷ 31 × $4.02 = $2,930.71. EV cost = 22,600 × 0.30 × $0.16 = $1,084.80. Subtract unrounded costs to obtain $1,845.91 saved.",
+    "numericAnswer": {
+      "value": 1845.91,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-ev-versus-gas-energy-savings-20",
+    "kind": "calculation",
+    "term": "$1,728.28",
+    "definition": "Compare energy costs for 23,300 annual miles. A gasoline car gets 32 mpg with fuel at $4.06/gallon. An EV uses 0.31 kWh per mile with electricity at $0.17/kWh; that usage already includes charging losses. Ignoring all other costs, how much lower is the EV's annual energy cost? Round to the nearest cent.",
+    "distractors": [
+      "$2,956.19",
+      "$1,227.91",
+      "$4,184.10"
+    ],
+    "explanation": "Gas cost = 23,300 ÷ 32 × $4.06 = $2,956.19. EV cost = 23,300 × 0.31 × $0.17 = $1,227.91. Subtract unrounded costs to obtain $1,728.28 saved.",
+    "numericAnswer": {
+      "value": 1728.28,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-01",
+    "kind": "calculation",
+    "term": "$28.00",
+    "definition": "You expect 12,000 miles per year. Oil service costs $65.00 per 5,000 miles and tires cost $600.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved?",
+    "distractors": [
+      "$336.00",
+      "$55.42",
+      "$13.00"
+    ],
+    "explanation": "Annual reserve = 12,000 × ($65.00/5,000 + $600.00/40,000) = $336.00. Divide by 12 to get $28.00 per month.",
+    "numericAnswer": {
+      "value": 28,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-02",
+    "kind": "calculation",
+    "term": "$31.42",
+    "definition": "You expect 12,900 miles per year. Oil service costs $68.00 per 5,000 miles and tires cost $625.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$377.00",
+      "$57.75",
+      "$14.62"
+    ],
+    "explanation": "Annual reserve = 12,900 × ($68.00/5,000 + $625.00/40,000) = $377.00. Divide by 12 to get $31.42 per month.",
+    "numericAnswer": {
+      "value": 31.42,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-03",
+    "kind": "calculation",
+    "term": "$35.02",
+    "definition": "You expect 13,800 miles per year. Oil service costs $71.00 per 5,000 miles and tires cost $650.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$420.21",
+      "$60.08",
+      "$16.33"
+    ],
+    "explanation": "Annual reserve = 13,800 × ($71.00/5,000 + $650.00/40,000) = $420.21. Divide by 12 to get $35.02 per month.",
+    "numericAnswer": {
+      "value": 35.02,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-04",
+    "kind": "calculation",
+    "term": "$38.80",
+    "definition": "You expect 14,700 miles per year. Oil service costs $74.00 per 5,000 miles and tires cost $675.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$465.62",
+      "$62.42",
+      "$18.13"
+    ],
+    "explanation": "Annual reserve = 14,700 × ($74.00/5,000 + $675.00/40,000) = $465.62. Divide by 12 to get $38.80 per month.",
+    "numericAnswer": {
+      "value": 38.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-05",
+    "kind": "calculation",
+    "term": "$42.77",
+    "definition": "You expect 15,600 miles per year. Oil service costs $77.00 per 5,000 miles and tires cost $700.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved?",
+    "distractors": [
+      "$513.24",
+      "$64.75",
+      "$20.02"
+    ],
+    "explanation": "Annual reserve = 15,600 × ($77.00/5,000 + $700.00/40,000) = $513.24. Divide by 12 to get $42.77 per month.",
+    "numericAnswer": {
+      "value": 42.77,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-06",
+    "kind": "calculation",
+    "term": "$46.92",
+    "definition": "You expect 16,500 miles per year. Oil service costs $80.00 per 5,000 miles and tires cost $725.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$563.06",
+      "$67.08",
+      "$22.00"
+    ],
+    "explanation": "Annual reserve = 16,500 × ($80.00/5,000 + $725.00/40,000) = $563.06. Divide by 12 to get $46.92 per month.",
+    "numericAnswer": {
+      "value": 46.92,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-07",
+    "kind": "calculation",
+    "term": "$51.26",
+    "definition": "You expect 17,400 miles per year. Oil service costs $83.00 per 5,000 miles and tires cost $750.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$615.09",
+      "$69.42",
+      "$24.07"
+    ],
+    "explanation": "Annual reserve = 17,400 × ($83.00/5,000 + $750.00/40,000) = $615.09. Divide by 12 to get $51.26 per month.",
+    "numericAnswer": {
+      "value": 51.26,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-08",
+    "kind": "calculation",
+    "term": "$55.78",
+    "definition": "You expect 18,300 miles per year. Oil service costs $86.00 per 5,000 miles and tires cost $775.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$669.32",
+      "$71.75",
+      "$26.23"
+    ],
+    "explanation": "Annual reserve = 18,300 × ($86.00/5,000 + $775.00/40,000) = $669.32. Divide by 12 to get $55.78 per month.",
+    "numericAnswer": {
+      "value": 55.78,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-09",
+    "kind": "calculation",
+    "term": "$60.48",
+    "definition": "You expect 19,200 miles per year. Oil service costs $89.00 per 5,000 miles and tires cost $800.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved?",
+    "distractors": [
+      "$725.76",
+      "$74.08",
+      "$28.48"
+    ],
+    "explanation": "Annual reserve = 19,200 × ($89.00/5,000 + $800.00/40,000) = $725.76. Divide by 12 to get $60.48 per month.",
+    "numericAnswer": {
+      "value": 60.48,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-10",
+    "kind": "calculation",
+    "term": "$65.37",
+    "definition": "You expect 20,100 miles per year. Oil service costs $92.00 per 5,000 miles and tires cost $825.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$784.40",
+      "$76.42",
+      "$30.82"
+    ],
+    "explanation": "Annual reserve = 20,100 × ($92.00/5,000 + $825.00/40,000) = $784.40. Divide by 12 to get $65.37 per month.",
+    "numericAnswer": {
+      "value": 65.37,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-11",
+    "kind": "calculation",
+    "term": "$70.44",
+    "definition": "You expect 21,000 miles per year. Oil service costs $95.00 per 5,000 miles and tires cost $850.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$845.25",
+      "$78.75",
+      "$33.25"
+    ],
+    "explanation": "Annual reserve = 21,000 × ($95.00/5,000 + $850.00/40,000) = $845.25. Divide by 12 to get $70.44 per month.",
+    "numericAnswer": {
+      "value": 70.44,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-12",
+    "kind": "calculation",
+    "term": "$75.69",
+    "definition": "You expect 21,900 miles per year. Oil service costs $98.00 per 5,000 miles and tires cost $875.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$908.30",
+      "$81.08",
+      "$35.77"
+    ],
+    "explanation": "Annual reserve = 21,900 × ($98.00/5,000 + $875.00/40,000) = $908.30. Divide by 12 to get $75.69 per month.",
+    "numericAnswer": {
+      "value": 75.69,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-13",
+    "kind": "calculation",
+    "term": "$81.13",
+    "definition": "You expect 22,800 miles per year. Oil service costs $101.00 per 5,000 miles and tires cost $900.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved?",
+    "distractors": [
+      "$973.56",
+      "$83.42",
+      "$38.38"
+    ],
+    "explanation": "Annual reserve = 22,800 × ($101.00/5,000 + $900.00/40,000) = $973.56. Divide by 12 to get $81.13 per month.",
+    "numericAnswer": {
+      "value": 81.13,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-14",
+    "kind": "calculation",
+    "term": "$86.75",
+    "definition": "You expect 23,700 miles per year. Oil service costs $104.00 per 5,000 miles and tires cost $925.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$1,041.02",
+      "$85.75",
+      "$41.08"
+    ],
+    "explanation": "Annual reserve = 23,700 × ($104.00/5,000 + $925.00/40,000) = $1,041.02. Divide by 12 to get $86.75 per month.",
+    "numericAnswer": {
+      "value": 86.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-15",
+    "kind": "calculation",
+    "term": "$92.56",
+    "definition": "You expect 24,600 miles per year. Oil service costs $107.00 per 5,000 miles and tires cost $950.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$1,110.69",
+      "$88.08",
+      "$43.87"
+    ],
+    "explanation": "Annual reserve = 24,600 × ($107.00/5,000 + $950.00/40,000) = $1,110.69. Divide by 12 to get $92.56 per month.",
+    "numericAnswer": {
+      "value": 92.56,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-16",
+    "kind": "calculation",
+    "term": "$98.55",
+    "definition": "You expect 25,500 miles per year. Oil service costs $110.00 per 5,000 miles and tires cost $975.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$1,182.56",
+      "$90.42",
+      "$46.75"
+    ],
+    "explanation": "Annual reserve = 25,500 × ($110.00/5,000 + $975.00/40,000) = $1,182.56. Divide by 12 to get $98.55 per month.",
+    "numericAnswer": {
+      "value": 98.55,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-17",
+    "kind": "calculation",
+    "term": "$104.72",
+    "definition": "You expect 26,400 miles per year. Oil service costs $113.00 per 5,000 miles and tires cost $1,000.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved?",
+    "distractors": [
+      "$1,256.64",
+      "$92.75",
+      "$49.72"
+    ],
+    "explanation": "Annual reserve = 26,400 × ($113.00/5,000 + $1,000.00/40,000) = $1,256.64. Divide by 12 to get $104.72 per month.",
+    "numericAnswer": {
+      "value": 104.72,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-18",
+    "kind": "calculation",
+    "term": "$111.08",
+    "definition": "You expect 27,300 miles per year. Oil service costs $116.00 per 5,000 miles and tires cost $1,025.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$1,332.92",
+      "$95.08",
+      "$52.78"
+    ],
+    "explanation": "Annual reserve = 27,300 × ($116.00/5,000 + $1,025.00/40,000) = $1,332.92. Divide by 12 to get $111.08 per month.",
+    "numericAnswer": {
+      "value": 111.08,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-19",
+    "kind": "calculation",
+    "term": "$117.62",
+    "definition": "You expect 28,200 miles per year. Oil service costs $119.00 per 5,000 miles and tires cost $1,050.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$1,411.41",
+      "$97.42",
+      "$55.93"
+    ],
+    "explanation": "Annual reserve = 28,200 × ($119.00/5,000 + $1,050.00/40,000) = $1,411.41. Divide by 12 to get $117.62 per month.",
+    "numericAnswer": {
+      "value": 117.62,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-car-maintenance-distance-reserve-20",
+    "kind": "calculation",
+    "term": "$124.34",
+    "definition": "You expect 29,100 miles per year. Oil service costs $122.00 per 5,000 miles and tires cost $1,075.00 per 40,000 miles. For a long-run reserve, prorate both costs continuously by mileage rather than counting whole service visits. What equal monthly amount should be reserved? Round to the nearest cent.",
+    "distractors": [
+      "$1,492.10",
+      "$99.75",
+      "$59.17"
+    ],
+    "explanation": "Annual reserve = 29,100 × ($122.00/5,000 + $1,075.00/40,000) = $1,492.10. Divide by 12 to get $124.34 per month.",
+    "numericAnswer": {
+      "value": 124.34,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-01",
+    "kind": "calculation",
+    "term": "$3,950.00",
+    "definition": "You buy a car for $12,500.00 cash, keep it 3 years, and sell it for $6,500.00 while paying a $150.00 selling fee. All operating costs total $1,900.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost?",
+    "distractors": [
+      "$6,066.67",
+      "$2,000.00",
+      "$3,850.00"
+    ],
+    "explanation": "Net capital cost = $12,500.00 − $6,500.00 + $150.00 = $6,150.00. Annual ownership cost = net capital cost ÷ 3 + $1,900.00 = $3,950.00.",
+    "numericAnswer": {
+      "value": 3950,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-02",
+    "kind": "calculation",
+    "term": "$3,632.50",
+    "definition": "You buy a car for $13,250.00 cash, keep it 4 years, and sell it for $6,800.00 while paying a $160.00 selling fee. All operating costs total $1,980.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost?",
+    "distractors": [
+      "$5,292.50",
+      "$1,612.50",
+      "$3,552.50"
+    ],
+    "explanation": "Net capital cost = $13,250.00 − $6,800.00 + $160.00 = $6,610.00. Annual ownership cost = net capital cost ÷ 4 + $1,980.00 = $3,632.50.",
+    "numericAnswer": {
+      "value": 3632.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-03",
+    "kind": "calculation",
+    "term": "$3,474.00",
+    "definition": "You buy a car for $14,000.00 cash, keep it 5 years, and sell it for $7,100.00 while paying a $170.00 selling fee. All operating costs total $2,060.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost?",
+    "distractors": [
+      "$4,860.00",
+      "$1,380.00",
+      "$3,406.00"
+    ],
+    "explanation": "Net capital cost = $14,000.00 − $7,100.00 + $170.00 = $7,070.00. Annual ownership cost = net capital cost ÷ 5 + $2,060.00 = $3,474.00.",
+    "numericAnswer": {
+      "value": 3474,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-04",
+    "kind": "calculation",
+    "term": "$3,395.00",
+    "definition": "You buy a car for $14,750.00 cash, keep it 6 years, and sell it for $7,400.00 while paying a $180.00 selling fee. All operating costs total $2,140.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost?",
+    "distractors": [
+      "$4,598.33",
+      "$1,225.00",
+      "$3,335.00"
+    ],
+    "explanation": "Net capital cost = $14,750.00 − $7,400.00 + $180.00 = $7,530.00. Annual ownership cost = net capital cost ÷ 6 + $2,140.00 = $3,395.00.",
+    "numericAnswer": {
+      "value": 3395,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-05",
+    "kind": "calculation",
+    "term": "$4,883.33",
+    "definition": "You buy a car for $15,500.00 cash, keep it 3 years, and sell it for $7,700.00 while paying a $190.00 selling fee. All operating costs total $2,220.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost? Round to the nearest cent.",
+    "distractors": [
+      "$7,386.67",
+      "$2,600.00",
+      "$4,756.67"
+    ],
+    "explanation": "Net capital cost = $15,500.00 − $7,700.00 + $190.00 = $7,990.00. Annual ownership cost = net capital cost ÷ 3 + $2,220.00 = $4,883.33.",
+    "numericAnswer": {
+      "value": 4883.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-06",
+    "kind": "calculation",
+    "term": "$4,412.50",
+    "definition": "You buy a car for $16,250.00 cash, keep it 4 years, and sell it for $8,000.00 while paying a $200.00 selling fee. All operating costs total $2,300.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost?",
+    "distractors": [
+      "$6,362.50",
+      "$2,062.50",
+      "$4,312.50"
+    ],
+    "explanation": "Net capital cost = $16,250.00 − $8,000.00 + $200.00 = $8,450.00. Annual ownership cost = net capital cost ÷ 4 + $2,300.00 = $4,412.50.",
+    "numericAnswer": {
+      "value": 4412.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-07",
+    "kind": "calculation",
+    "term": "$4,162.00",
+    "definition": "You buy a car for $17,000.00 cash, keep it 5 years, and sell it for $8,300.00 while paying a $210.00 selling fee. All operating costs total $2,380.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost?",
+    "distractors": [
+      "$5,780.00",
+      "$1,740.00",
+      "$4,078.00"
+    ],
+    "explanation": "Net capital cost = $17,000.00 − $8,300.00 + $210.00 = $8,910.00. Annual ownership cost = net capital cost ÷ 5 + $2,380.00 = $4,162.00.",
+    "numericAnswer": {
+      "value": 4162,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-08",
+    "kind": "calculation",
+    "term": "$4,021.67",
+    "definition": "You buy a car for $17,750.00 cash, keep it 6 years, and sell it for $8,600.00 while paying a $220.00 selling fee. All operating costs total $2,460.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost? Round to the nearest cent.",
+    "distractors": [
+      "$5,418.33",
+      "$1,525.00",
+      "$3,948.33"
+    ],
+    "explanation": "Net capital cost = $17,750.00 − $8,600.00 + $220.00 = $9,370.00. Annual ownership cost = net capital cost ÷ 6 + $2,460.00 = $4,021.67.",
+    "numericAnswer": {
+      "value": 4021.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-09",
+    "kind": "calculation",
+    "term": "$5,816.67",
+    "definition": "You buy a car for $18,500.00 cash, keep it 3 years, and sell it for $8,900.00 while paying a $230.00 selling fee. All operating costs total $2,540.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost? Round to the nearest cent.",
+    "distractors": [
+      "$8,706.67",
+      "$3,200.00",
+      "$5,663.33"
+    ],
+    "explanation": "Net capital cost = $18,500.00 − $8,900.00 + $230.00 = $9,830.00. Annual ownership cost = net capital cost ÷ 3 + $2,540.00 = $5,816.67.",
+    "numericAnswer": {
+      "value": 5816.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-10",
+    "kind": "calculation",
+    "term": "$5,192.50",
+    "definition": "You buy a car for $19,250.00 cash, keep it 4 years, and sell it for $9,200.00 while paying a $240.00 selling fee. All operating costs total $2,620.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost?",
+    "distractors": [
+      "$7,432.50",
+      "$2,512.50",
+      "$5,072.50"
+    ],
+    "explanation": "Net capital cost = $19,250.00 − $9,200.00 + $240.00 = $10,290.00. Annual ownership cost = net capital cost ÷ 4 + $2,620.00 = $5,192.50.",
+    "numericAnswer": {
+      "value": 5192.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-11",
+    "kind": "calculation",
+    "term": "$4,850.00",
+    "definition": "You buy a car for $20,000.00 cash, keep it 5 years, and sell it for $9,500.00 while paying a $250.00 selling fee. All operating costs total $2,700.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost?",
+    "distractors": [
+      "$6,700.00",
+      "$2,100.00",
+      "$4,750.00"
+    ],
+    "explanation": "Net capital cost = $20,000.00 − $9,500.00 + $250.00 = $10,750.00. Annual ownership cost = net capital cost ÷ 5 + $2,700.00 = $4,850.00.",
+    "numericAnswer": {
+      "value": 4850,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-12",
+    "kind": "calculation",
+    "term": "$4,648.33",
+    "definition": "You buy a car for $20,750.00 cash, keep it 6 years, and sell it for $9,800.00 while paying a $260.00 selling fee. All operating costs total $2,780.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost? Round to the nearest cent.",
+    "distractors": [
+      "$6,238.33",
+      "$1,825.00",
+      "$4,561.67"
+    ],
+    "explanation": "Net capital cost = $20,750.00 − $9,800.00 + $260.00 = $11,210.00. Annual ownership cost = net capital cost ÷ 6 + $2,780.00 = $4,648.33.",
+    "numericAnswer": {
+      "value": 4648.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-13",
+    "kind": "calculation",
+    "term": "$6,750.00",
+    "definition": "You buy a car for $21,500.00 cash, keep it 3 years, and sell it for $10,100.00 while paying a $270.00 selling fee. All operating costs total $2,860.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost?",
+    "distractors": [
+      "$10,026.67",
+      "$3,800.00",
+      "$6,570.00"
+    ],
+    "explanation": "Net capital cost = $21,500.00 − $10,100.00 + $270.00 = $11,670.00. Annual ownership cost = net capital cost ÷ 3 + $2,860.00 = $6,750.00.",
+    "numericAnswer": {
+      "value": 6750,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-14",
+    "kind": "calculation",
+    "term": "$5,972.50",
+    "definition": "You buy a car for $22,250.00 cash, keep it 4 years, and sell it for $10,400.00 while paying a $280.00 selling fee. All operating costs total $2,940.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost?",
+    "distractors": [
+      "$8,502.50",
+      "$2,962.50",
+      "$5,832.50"
+    ],
+    "explanation": "Net capital cost = $22,250.00 − $10,400.00 + $280.00 = $12,130.00. Annual ownership cost = net capital cost ÷ 4 + $2,940.00 = $5,972.50.",
+    "numericAnswer": {
+      "value": 5972.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-15",
+    "kind": "calculation",
+    "term": "$5,538.00",
+    "definition": "You buy a car for $23,000.00 cash, keep it 5 years, and sell it for $10,700.00 while paying a $290.00 selling fee. All operating costs total $3,020.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost?",
+    "distractors": [
+      "$7,620.00",
+      "$2,460.00",
+      "$5,422.00"
+    ],
+    "explanation": "Net capital cost = $23,000.00 − $10,700.00 + $290.00 = $12,590.00. Annual ownership cost = net capital cost ÷ 5 + $3,020.00 = $5,538.00.",
+    "numericAnswer": {
+      "value": 5538,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-16",
+    "kind": "calculation",
+    "term": "$5,275.00",
+    "definition": "You buy a car for $23,750.00 cash, keep it 6 years, and sell it for $11,000.00 while paying a $300.00 selling fee. All operating costs total $3,100.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost?",
+    "distractors": [
+      "$7,058.33",
+      "$2,125.00",
+      "$5,175.00"
+    ],
+    "explanation": "Net capital cost = $23,750.00 − $11,000.00 + $300.00 = $13,050.00. Annual ownership cost = net capital cost ÷ 6 + $3,100.00 = $5,275.00.",
+    "numericAnswer": {
+      "value": 5275,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-17",
+    "kind": "calculation",
+    "term": "$7,683.33",
+    "definition": "You buy a car for $24,500.00 cash, keep it 3 years, and sell it for $11,300.00 while paying a $310.00 selling fee. All operating costs total $3,180.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost? Round to the nearest cent.",
+    "distractors": [
+      "$11,346.67",
+      "$4,400.00",
+      "$7,476.67"
+    ],
+    "explanation": "Net capital cost = $24,500.00 − $11,300.00 + $310.00 = $13,510.00. Annual ownership cost = net capital cost ÷ 3 + $3,180.00 = $7,683.33.",
+    "numericAnswer": {
+      "value": 7683.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-18",
+    "kind": "calculation",
+    "term": "$6,752.50",
+    "definition": "You buy a car for $25,250.00 cash, keep it 4 years, and sell it for $11,600.00 while paying a $320.00 selling fee. All operating costs total $3,260.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost?",
+    "distractors": [
+      "$9,572.50",
+      "$3,412.50",
+      "$6,592.50"
+    ],
+    "explanation": "Net capital cost = $25,250.00 − $11,600.00 + $320.00 = $13,970.00. Annual ownership cost = net capital cost ÷ 4 + $3,260.00 = $6,752.50.",
+    "numericAnswer": {
+      "value": 6752.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-19",
+    "kind": "calculation",
+    "term": "$6,226.00",
+    "definition": "You buy a car for $26,000.00 cash, keep it 5 years, and sell it for $11,900.00 while paying a $330.00 selling fee. All operating costs total $3,340.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost?",
+    "distractors": [
+      "$8,540.00",
+      "$2,820.00",
+      "$6,094.00"
+    ],
+    "explanation": "Net capital cost = $26,000.00 − $11,900.00 + $330.00 = $14,430.00. Annual ownership cost = net capital cost ÷ 5 + $3,340.00 = $6,226.00.",
+    "numericAnswer": {
+      "value": 6226,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-cash-car-ownership-cost-20",
+    "kind": "calculation",
+    "term": "$5,901.67",
+    "definition": "You buy a car for $26,750.00 cash, keep it 6 years, and sell it for $12,200.00 while paying a $340.00 selling fee. All operating costs total $3,420.00 each year. Ignoring interest, taxes beyond included costs, and opportunity cost, what is average annual ownership cost? Round to the nearest cent.",
+    "distractors": [
+      "$7,878.33",
+      "$2,425.00",
+      "$5,788.33"
+    ],
+    "explanation": "Net capital cost = $26,750.00 − $12,200.00 + $340.00 = $14,890.00. Annual ownership cost = net capital cost ÷ 6 + $3,420.00 = $5,901.67.",
+    "numericAnswer": {
+      "value": 5901.67,
+      "unit": "USD"
+    }
+  }
+]

@@ -1,0 +1,426 @@
+{
+  "addedOn": "2026-10-27",
+  "addedPracticeQuestions": 1000,
+  "addedFlashcards": 1000,
+  "description": "Original educational questions and concise flashcard definitions, checked against primary reference sources. Numerical scenarios use hypothetical values unless expressly identified otherwise. Existing progress identifiers are preserved.",
+  "practice": {
+    "personalFinance": {
+      "reviewedOn": "2026-10-27",
+      "purpose": "Primary-source checks for the original Personal Finance expansion questions; arithmetic scenarios use explicitly stated hypothetical inputs.",
+      "sources": [
+        {
+          "title": "Understanding Deposit Insurance",
+          "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+          "topics": [
+            "Everyday Banking"
+          ]
+        },
+        {
+          "title": "Consumer resources",
+          "url": "https://www.consumerfinance.gov/consumer-tools/",
+          "topics": [
+            "Budgeting and Cash Flow",
+            "Everyday Banking"
+          ]
+        },
+        {
+          "title": "How do I dispute an error on my credit report?",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-an-error-on-my-credit-report-en-314/",
+          "topics": [
+            "Credit Reports and Borrowing"
+          ]
+        },
+        {
+          "title": "What can I do if my credit application was denied because of my credit report?",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/my-credit-application-was-denied-because-of-my-credit-report-what-can-i-do-en-1253/",
+          "topics": [
+            "Credit Reports and Borrowing"
+          ]
+        },
+        {
+          "title": "What documents should I receive before closing on a mortgage loan?",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-documents-should-i-receive-before-closing-on-a-mortgage-loan-en-181/",
+          "topics": [
+            "Housing and Mortgages"
+          ]
+        },
+        {
+          "title": "Closing Disclosure explainer",
+          "url": "https://www.consumerfinance.gov/owning-a-home/closing-disclosure/",
+          "topics": [
+            "Housing and Mortgages"
+          ]
+        },
+        {
+          "title": "How To Evaluate Your Aid Offers",
+          "url": "https://studentaid.gov/articles/evaluating-financial-aid-offers/",
+          "topics": [
+            "Education and Career Costs"
+          ]
+        },
+        {
+          "title": "Glossary of Health Coverage and Medical Terms",
+          "url": "https://www.healthcare.gov/SBC-GLOSSARY/",
+          "topics": [
+            "Insurance and Risk Planning"
+          ]
+        },
+        {
+          "title": "Shop for homeowner's insurance",
+          "url": "https://www.consumerfinance.gov/owning-a-home/close/shop-for-homeowners-insurance/",
+          "topics": [
+            "Insurance and Risk Planning"
+          ]
+        },
+        {
+          "title": "Knowing Your Insurance Policy: Actual Cash Value v. Replacement Cost",
+          "url": "https://www.tn.gov/commerce/insurance/consumer-edu/homeowners/cash-replacement.html",
+          "topics": [
+            "Insurance and Risk Planning"
+          ]
+        },
+        {
+          "title": "Understanding your employer's retirement plan",
+          "url": "https://www.irs.gov/retirement-plans/plan-disclosure-documents-understanding-your-employers-retirement-plan",
+          "topics": [
+            "Retirement Planning"
+          ]
+        },
+        {
+          "title": "Retirement topics: Designated Roth account",
+          "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-designated-roth-account",
+          "topics": [
+            "Retirement Planning"
+          ]
+        },
+        {
+          "title": "Topic no. 413: Rollovers from retirement plans",
+          "url": "https://www.irs.gov/taxtopics/tc413",
+          "topics": [
+            "Retirement Planning"
+          ]
+        },
+        {
+          "title": "What are some classic warning signs of possible fraud and scams?",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-some-classic-warning-signs-of-possible-fraud-and-scams-en-2094/",
+          "topics": [
+            "Digital Payments and Scams"
+          ]
+        },
+        {
+          "title": "Avoiding and Reporting Gift Card Scams",
+          "url": "https://consumer.ftc.gov/articles/avoiding-and-reporting-gift-card-scams",
+          "topics": [
+            "Digital Payments and Scams"
+          ]
+        },
+        {
+          "title": "How do I notify the remittance transfer provider about a mistake with my money transfer?",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-notify-the-remittance-transfer-provider-about-a-mistake-with-my-money-transfer-en-1753/",
+          "topics": [
+            "Digital Payments and Scams"
+          ]
+        },
+        {
+          "title": "Getting In and Out of Free Trials, Auto-Renewals, and Negative Option Subscriptions",
+          "url": "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
+          "topics": [
+            "Shopping and Consumer Decisions"
+          ]
+        },
+        {
+          "title": "Asset Allocation and Diversification",
+          "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+          "topics": [
+            "Investing Costs and Account Choices"
+          ]
+        },
+        {
+          "title": "Understanding Fees",
+          "url": "https://www.investor.gov/introduction-investing/getting-started/understanding-fees",
+          "topics": [
+            "Investing Costs and Account Choices"
+          ]
+        },
+        {
+          "title": "Brokers",
+          "url": "https://www.investor.gov/introduction-investing/getting-started/working-investment-professional/brokers",
+          "topics": [
+            "Investing Costs and Account Choices"
+          ]
+        },
+        {
+          "title": "Investment Products",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products",
+          "topics": [
+            "Investing Costs and Account Choices"
+          ]
+        }
+      ]
+    },
+    "economics": {
+      "reviewedOn": "2026-10-27",
+      "note": "Reference sources for checking concepts. Questions, hypothetical examples, distractors, and explanations are newly authored; figures in scenarios are not current economic statistics.",
+      "sources": [
+        {
+          "topic": "Everyday Economic Reasoning",
+          "agency": "Federal Reserve Bank of St. Louis",
+          "title": "Three Ways to Think Like an Economist",
+          "url": "https://www.stlouisfed.org/open-vault/2020/march/three-ways-think-like-an-economist"
+        },
+        {
+          "topic": "Behavioral Economics",
+          "agency": "Federal Reserve Bank of Kansas City",
+          "title": "Behave Yourself: Behavioral Economics",
+          "url": "https://www.kansascityfed.org/documents/2799/teachingresources-Behave-Yourself.pdf"
+        },
+        {
+          "topic": "Behavioral Economics",
+          "agency": "Federal Reserve Board",
+          "title": "Loss Aversion in a Consumption/Savings Model",
+          "url": "https://www.federalreserve.gov/econres/ifdp/loss-aversion-in-a-consumptionsavings-model.htm"
+        },
+        {
+          "topic": "Labor Markets and Pay",
+          "agency": "Bureau of Labor Statistics",
+          "title": "Concepts and Definitions: Current Population Survey",
+          "url": "https://www.bls.gov/cps/definitions.htm"
+        },
+        {
+          "topic": "Labor Markets and Pay",
+          "agency": "Bureau of Labor Statistics",
+          "title": "How the Government Measures Unemployment",
+          "url": "https://www.bls.gov/cps/cps_htgm.htm"
+        },
+        {
+          "topic": "Competition and Digital Markets",
+          "agency": "Federal Trade Commission",
+          "title": "Monopolization Defined",
+          "url": "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/single-firm-conduct/monopolization-defined"
+        },
+        {
+          "topic": "Competition and Digital Markets",
+          "agency": "Federal Trade Commission and Department of Justice",
+          "title": "Merger Guidelines",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P234000-NEW-MERGER-GUIDELINES.pdf"
+        },
+        {
+          "topic": "Public Goods and Externalities",
+          "agency": "Federal Reserve Bank of St. Louis",
+          "title": "1776 and the Economics of Government",
+          "url": "https://www.stlouisfed.org/on-the-economy/2026/may/1776-economics-government"
+        },
+        {
+          "topic": "Measuring Economic Wellbeing",
+          "agency": "Bureau of Economic Analysis",
+          "title": "Gross Domestic Product Learning Center",
+          "url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp"
+        },
+        {
+          "topic": "Measuring Economic Wellbeing",
+          "agency": "Bureau of Economic Analysis",
+          "title": "GDP and Beyond",
+          "url": "https://apps.bea.gov/scb/issues/2020/06-june/0620-beyond-gdp-landefeld.htm"
+        },
+        {
+          "topic": "Measuring Economic Wellbeing",
+          "agency": "Bureau of Economic Analysis",
+          "title": "Glossary",
+          "url": "https://www.bea.gov/help/glossary?title=GDP&title_1=All"
+        },
+        {
+          "topic": "Inflation and Purchasing Power",
+          "agency": "Bureau of Labor Statistics",
+          "title": "Consumer Price Index Frequently Asked Questions",
+          "url": "https://www.bls.gov/cpi/questions-and-answers.htm"
+        },
+        {
+          "topic": "Inflation and Purchasing Power",
+          "agency": "Bureau of Labor Statistics",
+          "title": "CPI Handbook of Methods: Calculation",
+          "url": "https://www.bls.gov/opub/hom/cpi/calculation.htm"
+        },
+        {
+          "topic": "Inflation and Purchasing Power",
+          "agency": "Bureau of Labor Statistics",
+          "title": "Assessing and Improving the Accuracy of the CPI",
+          "url": "https://www.bls.gov/opub/mlr/2024/article/assessing-and-improving-the-accuracy-of-the-cpi.htm"
+        },
+        {
+          "topic": "Trade and Exchange Rate Decisions",
+          "agency": "Federal Reserve Education",
+          "title": "A Yen to Trade",
+          "url": "https://www.federalreserveeducation.org/teaching-resources/economics/curriculum/a-yen-to-trade"
+        },
+        {
+          "topic": "Trade and Exchange Rate Decisions",
+          "agency": "Federal Reserve Bank of St. Louis",
+          "title": "What Determines How Much Countries Trade?",
+          "url": "https://www.stlouisfed.org/on-the-economy/2015/may/what-determines-how-much-countries-trade"
+        },
+        {
+          "topic": "Business Productivity and Growth",
+          "agency": "Bureau of Labor Statistics",
+          "title": "Productivity Measures: Calculation",
+          "url": "https://www.bls.gov/opub/hom/msp/calculation.htm"
+        },
+        {
+          "topic": "Business Productivity and Growth",
+          "agency": "Bureau of Labor Statistics",
+          "title": "Productivity Measures: Concepts",
+          "url": "https://www.bls.gov/opub/hom/msp/concepts.htm"
+        },
+        {
+          "topic": "Economic Evidence and Statistics",
+          "agency": "Bureau of Labor Statistics",
+          "title": "Understanding Standard Errors and Confidence Intervals",
+          "url": "https://www.bls.gov/cps/factsheets/understanding-standard-errors-and-confidence-intervals.htm"
+        },
+        {
+          "topic": "Economic Evidence and Statistics",
+          "agency": "U.S. Census Bureau",
+          "title": "Statistical Quality Standard E1",
+          "url": "https://www.census.gov/about/policies/quality/standards/standarde1.html"
+        },
+        {
+          "topic": "Economic Evidence and Statistics",
+          "agency": "U.S. Census Bureau",
+          "title": "Quarterly Services Survey: How Data Are Collected",
+          "url": "https://www.census.gov/services/qss/how_the_data_are_collected.html"
+        },
+        {
+          "topic": "Economic Evidence and Statistics",
+          "agency": "Federal Reserve Bank of St. Louis",
+          "title": "Education, Income, and Wealth",
+          "url": "https://www.stlouisfed.org/publications/page-one-economics/2017/01/03/education-income-and-wealth"
+        }
+      ]
+    }
+  },
+  "flashcards": {
+    "reviewedOn": "2026-10-27",
+    "note": "Original concise educational definitions; links provide primary-source reference points for topic review. No current contribution limits, rates, or legal deadlines are asserted.",
+    "topics": [
+      {
+        "topic": "Banking Operations",
+        "url": "https://www.helpwithmybank.gov/glossary/index-glossary.html"
+      },
+      {
+        "topic": "Payments and Transfers",
+        "url": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/"
+      },
+      {
+        "topic": "Consumer Contracts",
+        "url": "https://consumer.ftc.gov/shopping-donating"
+      },
+      {
+        "topic": "Digital Privacy",
+        "url": "https://consumer.ftc.gov/privacy-identity-online-security"
+      },
+      {
+        "topic": "Fraud Investigation",
+        "url": "https://consumer.ftc.gov/scams"
+      },
+      {
+        "topic": "Homebuying",
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/"
+      },
+      {
+        "topic": "Housing and Tenancy",
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/"
+      },
+      {
+        "topic": "Insurance Planning",
+        "url": "https://www.healthcare.gov/glossary/"
+      },
+      {
+        "topic": "Work and Benefits",
+        "url": "https://www.bls.gov/bls/glossary.htm"
+      },
+      {
+        "topic": "Tax Fundamentals",
+        "url": "https://www.irs.gov/individuals"
+      },
+      {
+        "topic": "Retirement and Estate",
+        "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-plans-definitions"
+      },
+      {
+        "topic": "Bonds and Lending",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+      },
+      {
+        "topic": "Funds and Portfolio",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products"
+      },
+      {
+        "topic": "Trading and Markets",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary"
+      },
+      {
+        "topic": "Business Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      },
+      {
+        "topic": "Behavioral Decisions",
+        "url": "https://www.stlouisfed.org/education"
+      },
+      {
+        "topic": "Microeconomic Choices",
+        "url": "https://www.stlouisfed.org/education"
+      },
+      {
+        "topic": "Macroeconomic Measures",
+        "url": "https://www.bea.gov/help/glossary"
+      },
+      {
+        "topic": "International Economics",
+        "url": "https://www.bea.gov/help/glossary"
+      },
+      {
+        "topic": "Evidence and Statistics",
+        "url": "https://www.bls.gov/bls/glossary.htm"
+      }
+    ],
+    "additionalReferences": [
+      {
+        "topic": "Digital Privacy",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2022/09/ftc-report-shows-rise-sophisticated-dark-patterns-designed-trick-trap-consumers"
+      },
+      {
+        "topic": "Funds and Portfolio",
+        "url": "https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/investment-company-swing-pricing"
+      },
+      {
+        "topic": "Homebuying",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-the-company-that-i-send-my-mortgage-payments-to-changes-en-215/"
+      },
+      {
+        "topic": "Macroeconomic Measures",
+        "url": "https://www.federalreserveeducation.org/teaching-resources/economics/inflation/stagflation-explained"
+      },
+      {
+        "topic": "Evidence and Statistics",
+        "url": "https://www.census.gov/help/glossary.html"
+      }
+    ]
+  },
+  "existingQuestionCorrections": {
+    "questionIds": [
+      "pf-0005",
+      "pf-0009",
+      "pf-0016",
+      "pf-0031",
+      "pf-0251",
+      "econ-1-e-0001"
+    ],
+    "description": "Corrected stale policy-rate, savings-transfer-limit, settlement, reserve-framework, and recession-definition claims while preserving existing identifiers.",
+    "sources": [
+      "https://www.federalreserve.gov/economy-at-a-glance-policy-rate.htm",
+      "https://www.federalreserve.gov/supervisionreg/savings-deposits-frequently-asked-questions.htm",
+      "https://www.sec.gov/exams/educationhelpguidesfaqs/t1-faq",
+      "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+      "https://www.nber.org/research/business-cycle-dating/business-cycle-dating-procedure-frequently-asked-questions"
+    ]
+  }
+}

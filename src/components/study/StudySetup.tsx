@@ -10,6 +10,7 @@ export function StudySetup({
   children,
   summary,
   actions,
+  busy = false,
 }: {
   id: string;
   step: 1 | 2;
@@ -20,6 +21,7 @@ export function StudySetup({
   children: ReactNode;
   summary: ReactNode;
   actions: ReactNode;
+  busy?: boolean;
 }) {
   const [ready, setReady] = useState(false);
   const heading = useRef<HTMLHeadingElement>(null);
@@ -37,7 +39,13 @@ export function StudySetup({
   return (
     // Keep server-rendered controls inactive until their handlers are ready.
     // Otherwise an early checkbox click can be lost during hydration.
-    <div id={id} className="study-setup" data-step={step} inert={!ready}>
+    <div
+      id={id}
+      className="study-setup"
+      data-step={step}
+      inert={!ready || busy}
+      aria-busy={busy}
+    >
       <nav className="study-steps" aria-label="Session setup">
         <button
           type="button"

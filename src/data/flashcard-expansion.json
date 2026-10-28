@@ -1,0 +1,4042 @@
+{
+  "Banking Operations": [
+    {
+      "term": "Account reconciliation",
+      "definition": "Comparing personal transaction records with a financial institution's statement to identify missing entries, errors, and timing differences."
+    },
+    {
+      "term": "Ledger balance",
+      "definition": "The balance recorded after posted transactions, which can differ from the funds currently available to spend."
+    },
+    {
+      "term": "Collected balance",
+      "definition": "An account balance reflecting deposited funds that the bank has actually collected from other institutions."
+    },
+    {
+      "term": "Deposit hold",
+      "definition": "A temporary restriction on withdrawing deposited money while the institution applies its funds availability policy."
+    },
+    {
+      "term": "Funds availability",
+      "definition": "The timing rules and account policies that determine when deposited money can be withdrawn or spent."
+    },
+    {
+      "term": "Posting order",
+      "definition": "The sequence a financial institution uses to record transactions, which can affect balances and potential fees."
+    },
+    {
+      "term": "Cutoff time",
+      "definition": "The daily deadline after which a financial transaction may be treated as received on the next business day."
+    },
+    {
+      "term": "Business day",
+      "definition": "A day counted for an institution's processing rules; weekends and specified holidays are commonly excluded."
+    },
+    {
+      "term": "Statement period",
+      "definition": "The span of dates covered by an account statement, which may differ from a calendar month."
+    },
+    {
+      "term": "Minimum daily balance",
+      "definition": "The lowest end-of-day balance an account must maintain to meet a stated account requirement."
+    },
+    {
+      "term": "Average monthly balance",
+      "definition": "An account balance measure calculated over a month, sometimes used to determine eligibility for a fee waiver."
+    },
+    {
+      "term": "Tiered interest rate",
+      "definition": "An account pricing structure that pays different interest rates based on the amount held in the account."
+    },
+    {
+      "term": "Annual percentage yield",
+      "definition": "A deposit return measure incorporating the stated interest rate and compounding over a year, assuming funds remain deposited."
+    },
+    {
+      "term": "Simple interest",
+      "definition": "Interest calculated on principal alone, without adding previously earned interest to the amount used for later calculations."
+    },
+    {
+      "term": "Daily balance method",
+      "definition": "A method that applies a daily interest rate to the amount in an account each day."
+    },
+    {
+      "term": "Dormant account",
+      "definition": "An account with no qualifying customer activity for an extended period under institutional policies or applicable law."
+    },
+    {
+      "term": "Unclaimed property",
+      "definition": "Money or other property transferred to a government custodian after the owner cannot be located for a prescribed period."
+    },
+    {
+      "term": "Escheatment",
+      "definition": "The legal process through which unclaimed property is transferred to the state after required conditions are met."
+    },
+    {
+      "term": "Account closure confirmation",
+      "definition": "A written record showing that an account has been closed, useful when checking later fees or payment attempts."
+    },
+    {
+      "term": "Stop-payment order",
+      "definition": "An instruction asking a financial institution to prevent payment of a specified transaction, subject to timing and account rules."
+    },
+    {
+      "term": "Cashier's check",
+      "definition": "A check drawn on a bank's own funds after the customer pays the bank for its issuance."
+    },
+    {
+      "term": "Certified check",
+      "definition": "A personal check that a bank certifies by confirming sufficient funds and setting aside money for payment."
+    },
+    {
+      "term": "Restrictive endorsement",
+      "definition": "Instructions added to a check endorsement that limit how it may be deposited or otherwise negotiated."
+    },
+    {
+      "term": "Stale-dated check",
+      "definition": "A check presented long after its issue date that a bank may decline under its policies and applicable rules."
+    },
+    {
+      "term": "Postdated check",
+      "definition": "A check bearing a future date, which does not necessarily prevent an institution from processing it earlier."
+    },
+    {
+      "term": "Check image",
+      "definition": "An electronic picture of a check used for processing, recordkeeping, or reviewing details on an account statement."
+    },
+    {
+      "term": "Substitute check",
+      "definition": "A paper reproduction of an original check that meets legal requirements for use as its equivalent."
+    },
+    {
+      "term": "Mobile deposit limit",
+      "definition": "The maximum amount or number of checks an institution permits a customer to deposit through its mobile service."
+    },
+    {
+      "term": "Duplicate presentment",
+      "definition": "Attempting to collect the same check more than once, such as depositing its image and then the paper original."
+    },
+    {
+      "term": "Cash deposit receipt",
+      "definition": "A record of money placed into an account, useful for verifying the amount and resolving posting discrepancies."
+    },
+    {
+      "term": "Sweep account",
+      "definition": "An arrangement automatically moving eligible cash between accounts or investments according to preset rules and product terms."
+    },
+    {
+      "term": "Linked-account transfer",
+      "definition": "Movement of money between connected accounts, sometimes used to cover a transaction when a checking balance is insufficient."
+    },
+    {
+      "term": "Overdraft line of credit",
+      "definition": "A credit arrangement that advances borrowed funds to cover eligible account shortfalls, usually with interest or other costs."
+    },
+    {
+      "term": "Second-chance account",
+      "definition": "A deposit account designed for applicants who may not qualify for a standard account because of past banking problems."
+    },
+    {
+      "term": "Checkless account",
+      "definition": "A transaction account without paper-check writing that may use debit purchases, electronic transfers, and online bill payments instead."
+    },
+    {
+      "term": "Custodial deposit account",
+      "definition": "An account managed by a custodian for another person's benefit, with ownership and use governed by its legal arrangement."
+    },
+    {
+      "term": "Payable-on-death designation",
+      "definition": "An account instruction naming who should receive eligible funds after the account owner's death, subject to applicable rules."
+    },
+    {
+      "term": "Account beneficiary",
+      "definition": "A person or entity designated to receive an account's assets when a specified event, commonly the owner's death, occurs."
+    },
+    {
+      "term": "Right of setoff",
+      "definition": "An institution's ability in certain circumstances to use deposit funds to satisfy a debt owed to it."
+    },
+    {
+      "term": "Pass-through deposit insurance",
+      "definition": "Insurance treatment that can recognize beneficial owners of funds placed through an intermediary when required conditions are satisfied."
+    },
+    {
+      "term": "Deposit broker",
+      "definition": "An intermediary that helps place customer funds at banks, making it important to identify where the money is actually held."
+    },
+    {
+      "term": "Bank charter",
+      "definition": "Legal authorization for an institution to conduct banking activities under a specified supervisory system."
+    },
+    {
+      "term": "Bank examination",
+      "definition": "A supervisory review of an institution's condition, risk management, and compliance with applicable banking requirements."
+    },
+    {
+      "term": "Receivership",
+      "definition": "An arrangement in which an appointed receiver manages the assets and obligations of a failed institution or other entity."
+    },
+    {
+      "term": "Bridge bank",
+      "definition": "A temporary bank established to maintain operations while authorities arrange a resolution for a failed bank."
+    },
+    {
+      "term": "Bank merger",
+      "definition": "The combination of financial institutions, which can change account terms, branch access, or how deposit coverage is calculated."
+    },
+    {
+      "term": "Safe deposit box",
+      "definition": "A bank-provided storage compartment for valuables whose contents are generally not covered by deposit insurance."
+    },
+    {
+      "term": "Medallion signature guarantee",
+      "definition": "A specialized guarantee of a signature's authenticity and authority, often required for certain transfers of securities."
+    },
+    {
+      "term": "Notarization",
+      "definition": "A notary's verification of a signing procedure or identity; it does not establish that a financial deal is sound."
+    },
+    {
+      "term": "Account titling",
+      "definition": "The way ownership is recorded on an account, affecting access rights, estate handling, and potentially deposit insurance treatment."
+    }
+  ],
+  "Payments and Transfers": [
+    {
+      "term": "Automated clearing house",
+      "definition": "A network that processes batches of electronic bank payments, including payroll deposits and many recurring bill payments."
+    },
+    {
+      "term": "ACH credit",
+      "definition": "An electronic payment initiated to push money from the sender's account to a recipient through the ACH network."
+    },
+    {
+      "term": "ACH debit",
+      "definition": "An electronic transaction initiated to pull money from an account after the account holder has provided authorization."
+    },
+    {
+      "term": "Wire transfer",
+      "definition": "An electronic funds transfer between financial institutions that may be difficult to reverse once completed."
+    },
+    {
+      "term": "Real-time payment",
+      "definition": "A payment processed and made available rapidly, often around the clock, with cancellation options depending on the system."
+    },
+    {
+      "term": "Payment authorization",
+      "definition": "Permission to initiate a payment, which should specify the relevant account, amount or calculation, and applicable timing."
+    },
+    {
+      "term": "Recurring debit authorization",
+      "definition": "Permission for a company to withdraw payments repeatedly from an account according to an agreed arrangement."
+    },
+    {
+      "term": "Revocation of authorization",
+      "definition": "Withdrawal of previously granted permission for a payment, communicated through the appropriate channel and with attention to processing time."
+    },
+    {
+      "term": "Payment cancellation",
+      "definition": "A request to stop a payment before completion; whether it succeeds depends on timing and the payment service's rules."
+    },
+    {
+      "term": "Payment reversal",
+      "definition": "A transaction that undoes a prior payment under applicable network or institution procedures, rather than simply issuing a new payment."
+    },
+    {
+      "term": "Refund processing",
+      "definition": "The steps by which a merchant returns money, including merchant approval and posting by the customer's payment provider."
+    },
+    {
+      "term": "Settlement date",
+      "definition": "The date on which the transfer of money or assets needed to complete a financial transaction occurs."
+    },
+    {
+      "term": "Value date",
+      "definition": "The date assigned for a transaction's financial effect, such as when transferred funds begin or stop earning interest."
+    },
+    {
+      "term": "Payment rail",
+      "definition": "The infrastructure and operating rules through which a payment travels between the sender and recipient."
+    },
+    {
+      "term": "Payment processor",
+      "definition": "A business that handles technical and operational steps required to transmit and complete payment transactions."
+    },
+    {
+      "term": "Acquiring bank",
+      "definition": "The financial institution that supports a merchant's acceptance of card payments and receives transactions for processing."
+    },
+    {
+      "term": "Issuing bank",
+      "definition": "The institution that provides a payment card to a customer and manages the associated account."
+    },
+    {
+      "term": "Card network",
+      "definition": "The system connecting payment-card participants and setting rules for routing, authorization, clearing, and settlement of transactions."
+    },
+    {
+      "term": "Interchange fee",
+      "definition": "A card-payment fee generally paid through the acquiring side to the card issuer as part of transaction processing."
+    },
+    {
+      "term": "Merchant discount rate",
+      "definition": "The overall percentage or pricing charge a merchant pays to accept certain card transactions."
+    },
+    {
+      "term": "Authorization hold",
+      "definition": "A temporary reservation of account funds or credit following approval of a transaction before the final charge posts."
+    },
+    {
+      "term": "Preauthorization",
+      "definition": "An initial payment approval, often used when the final amount is unknown, such as for hotels or car rentals."
+    },
+    {
+      "term": "Merchant category code",
+      "definition": "A classification assigned to a merchant that may affect rewards, reporting, or payment-card transaction restrictions."
+    },
+    {
+      "term": "Dynamic currency conversion",
+      "definition": "An offer to convert a foreign purchase into the cardholder's home currency at the merchant or ATM's exchange rate."
+    },
+    {
+      "term": "Exchange-rate markup",
+      "definition": "An extra cost built into a currency conversion rate compared with a specified reference or market rate."
+    },
+    {
+      "term": "Remittance transfer",
+      "definition": "A transfer of money by a consumer to a recipient abroad, often through a bank or money-transfer provider."
+    },
+    {
+      "term": "Remittance disclosure",
+      "definition": "Information about a transfer's exchange rate, fees, delivery, and recipient amount provided under applicable transfer rules."
+    },
+    {
+      "term": "Recipient bank fee",
+      "definition": "A charge imposed by the institution receiving transferred money, which can reduce the amount ultimately delivered."
+    },
+    {
+      "term": "Correspondent bank",
+      "definition": "An institution that supplies payment or other services for another bank, often as part of an international transfer chain."
+    },
+    {
+      "term": "SWIFT message",
+      "definition": "A standardized financial message used by participating institutions; the message itself does not move or insure funds."
+    },
+    {
+      "term": "International bank account number",
+      "definition": "A standardized account identifier used in many countries to help route cross-border bank transfers accurately."
+    },
+    {
+      "term": "Payment reference",
+      "definition": "A number or description attached to a transfer so the recipient can identify what the payment is for."
+    },
+    {
+      "term": "Transfer trace",
+      "definition": "An investigation that follows the processing path of a payment to determine its status or destination."
+    },
+    {
+      "term": "Returned ACH payment",
+      "definition": "An ACH transaction sent back through the network because it could not be completed or met a return condition."
+    },
+    {
+      "term": "Account validation",
+      "definition": "A process used to check account details before a payment, which does not guarantee the recipient's honesty."
+    },
+    {
+      "term": "Microdeposit verification",
+      "definition": "A method of confirming account access by asking the user to identify small test deposits or related verification information."
+    },
+    {
+      "term": "Request for payment",
+      "definition": "An electronic message asking someone to authorize a payment; receiving it does not automatically make the request legitimate."
+    },
+    {
+      "term": "Split tender",
+      "definition": "Paying for a single purchase using more than one payment method, such as cash plus a card."
+    },
+    {
+      "term": "Partial authorization",
+      "definition": "Approval for less than the full purchase amount, requiring another payment method or an adjusted transaction."
+    },
+    {
+      "term": "Offline card transaction",
+      "definition": "A card transaction completed without immediate online authorization, which may appear in the account only after later processing."
+    },
+    {
+      "term": "Network tokenization",
+      "definition": "Replacing payment-card credentials with a substitute token that can be restricted to a device, merchant, or transaction context."
+    },
+    {
+      "term": "Virtual card number",
+      "definition": "A substitute card number generated for transactions that can limit exposure of the underlying account number."
+    },
+    {
+      "term": "Card-on-file payment",
+      "definition": "A transaction using payment details a merchant previously stored with the customer's permission for later use."
+    },
+    {
+      "term": "Card updater service",
+      "definition": "A network service that can provide participating merchants with replacement card details for eligible recurring payments."
+    },
+    {
+      "term": "Stored-value balance",
+      "definition": "Money or monetary value held within a card, app, or service for future purchases or transfers."
+    },
+    {
+      "term": "Closed-loop gift card",
+      "definition": "A prepaid gift product usable only with a particular merchant or limited group of related merchants."
+    },
+    {
+      "term": "Open-loop prepaid card",
+      "definition": "A prepaid product usable at merchants accepting its card network, subject to the product's restrictions and fees."
+    },
+    {
+      "term": "Payment receipt number",
+      "definition": "A transaction identifier that helps a provider or merchant locate a particular payment when investigating a problem."
+    },
+    {
+      "term": "Billing descriptor",
+      "definition": "The merchant name or description appearing beside a card charge, which may differ from the storefront name."
+    },
+    {
+      "term": "Bill presentment",
+      "definition": "The electronic delivery of a bill or statement so a customer can review the amount before arranging payment."
+    }
+  ],
+  "Consumer Contracts": [
+    {
+      "term": "Material term",
+      "definition": "A contract condition significant enough to affect a consumer's decision, such as price, renewal obligations, or cancellation restrictions."
+    },
+    {
+      "term": "Fine print",
+      "definition": "Less prominent contract text that can contain important limitations, fees, exclusions, or obligations despite its small presentation."
+    },
+    {
+      "term": "Incorporation by reference",
+      "definition": "Making another document part of an agreement by referring to it, rather than repeating all of its terms."
+    },
+    {
+      "term": "Unilateral modification clause",
+      "definition": "A provision allowing one party to change certain contract terms, subject to the agreement and applicable legal limits."
+    },
+    {
+      "term": "Arbitration clause",
+      "definition": "An agreement provision directing specified disputes to a private decision-making process instead of ordinary court litigation."
+    },
+    {
+      "term": "Class-action waiver",
+      "definition": "A contract provision restricting participation in a combined lawsuit or similar collective proceeding, subject to enforceability rules."
+    },
+    {
+      "term": "Forum selection clause",
+      "definition": "A contract term identifying where a dispute must be brought, which can affect convenience and dispute costs."
+    },
+    {
+      "term": "Choice-of-law clause",
+      "definition": "A provision identifying the jurisdiction's law intended to govern an agreement, subject to applicable legal restrictions."
+    },
+    {
+      "term": "Severability clause",
+      "definition": "A provision addressing whether the rest of a contract remains effective if one part is found unenforceable."
+    },
+    {
+      "term": "Entire agreement clause",
+      "definition": "A provision stating that the written contract represents the parties' complete agreement on the covered subject."
+    },
+    {
+      "term": "Assignment clause",
+      "definition": "A provision addressing whether contractual rights or obligations can be transferred to another person or business."
+    },
+    {
+      "term": "Indemnification clause",
+      "definition": "A term requiring one party to compensate another for specified losses, claims, or liabilities under stated conditions."
+    },
+    {
+      "term": "Limitation of liability",
+      "definition": "A contractual restriction on potential responsibility or damages, whose enforceability depends on the circumstances and applicable law."
+    },
+    {
+      "term": "Force majeure clause",
+      "definition": "A provision allocating consequences when specified extraordinary events prevent or delay contractual performance."
+    },
+    {
+      "term": "Auto-renewal clause",
+      "definition": "A term continuing a contract for another period unless the customer or business follows specified cancellation procedures."
+    },
+    {
+      "term": "Negative-option offer",
+      "definition": "An arrangement in which a customer's silence or failure to cancel is treated as acceptance of continued charges."
+    },
+    {
+      "term": "Free-to-paid conversion",
+      "definition": "A trial arrangement that begins charging after a free period unless the customer cancels according to its terms."
+    },
+    {
+      "term": "Introductory price",
+      "definition": "A temporary promotional price that can increase after an initial period, making the later regular price important to compare."
+    },
+    {
+      "term": "Early termination fee",
+      "definition": "A charge triggered by ending an agreement before its specified term, subject to the contract and applicable rules."
+    },
+    {
+      "term": "Restocking fee",
+      "definition": "A merchant's charge for accepting a returned product, often governed by the disclosed return policy."
+    },
+    {
+      "term": "Return window",
+      "definition": "The time period during which a seller accepts eligible returns under its policy or applicable legal requirements."
+    },
+    {
+      "term": "Final sale",
+      "definition": "A sales designation indicating that the seller's usual return or exchange options may not apply to the purchase."
+    },
+    {
+      "term": "Return authorization",
+      "definition": "Approval or a reference number a merchant requires before accepting returned merchandise for processing."
+    },
+    {
+      "term": "Proof of purchase",
+      "definition": "A receipt, order record, or other evidence showing where, when, and on what terms an item was bought."
+    },
+    {
+      "term": "Order confirmation",
+      "definition": "A record acknowledging a purchase request, including details useful for verifying quantity, price, delivery, and merchant identity."
+    },
+    {
+      "term": "Delivery estimate",
+      "definition": "A projected arrival date or range that may differ from a contractual delivery commitment or guaranteed service."
+    },
+    {
+      "term": "Back order",
+      "definition": "An order for an item temporarily unavailable from stock, with fulfillment expected after more inventory arrives."
+    },
+    {
+      "term": "Substitution policy",
+      "definition": "The seller's rules for replacing unavailable goods with alternatives, including how approval and price differences are handled."
+    },
+    {
+      "term": "Cancellation confirmation",
+      "definition": "A record showing that a merchant accepted a cancellation, useful if a later shipment or charge is disputed."
+    },
+    {
+      "term": "Prorated refund",
+      "definition": "A refund calculated for the unused portion of a paid service or term under the applicable policy."
+    },
+    {
+      "term": "Store credit",
+      "definition": "Value usable with a particular seller instead of a refund to the original payment method."
+    },
+    {
+      "term": "Express warranty",
+      "definition": "A seller's or manufacturer's specific promise about a product's quality or performance that can create enforceable obligations."
+    },
+    {
+      "term": "Implied warranty",
+      "definition": "A product assurance arising under applicable law even when the seller does not state it explicitly."
+    },
+    {
+      "term": "Warranty disclaimer",
+      "definition": "Contract language attempting to exclude or limit warranty obligations, whose effectiveness depends on applicable law and presentation."
+    },
+    {
+      "term": "As-is sale",
+      "definition": "A sale where the seller attempts to disclaim certain warranties, while other legal protections may still apply."
+    },
+    {
+      "term": "Repair estimate",
+      "definition": "A projected charge for work that helps a customer compare the expected repair cost before authorizing service."
+    },
+    {
+      "term": "Written authorization",
+      "definition": "Documented permission for specified work or charges, useful for establishing what a customer actually agreed to purchase."
+    },
+    {
+      "term": "Change order",
+      "definition": "An agreed modification to a project's scope, price, or timeline after the original contract was formed."
+    },
+    {
+      "term": "Progress payment",
+      "definition": "A payment made at a defined project stage, rather than paying the entire contract price upfront."
+    },
+    {
+      "term": "Completion certificate",
+      "definition": "A document acknowledging that work has been completed, which should accurately reflect the project's condition before signing."
+    },
+    {
+      "term": "Lien waiver",
+      "definition": "A document giving up specified lien rights, often connected to payment for construction work or materials."
+    },
+    {
+      "term": "Mechanic's lien",
+      "definition": "A legal claim against property that can arise from unpaid construction work or materials, depending on state law."
+    },
+    {
+      "term": "Cooling-off period",
+      "definition": "A legally or contractually provided opportunity to cancel certain transactions; it does not apply to every purchase."
+    },
+    {
+      "term": "Deceptive omission",
+      "definition": "Leaving out important information in a way that can mislead consumers about an offer or transaction."
+    },
+    {
+      "term": "Bait-and-switch advertising",
+      "definition": "Promoting an attractive offer to draw customers in and then improperly steering them toward a different, usually costlier purchase."
+    },
+    {
+      "term": "Drip pricing",
+      "definition": "Presenting a low initial price while revealing additional required charges later in the buying process."
+    },
+    {
+      "term": "Bundled pricing",
+      "definition": "Combining several goods or services for one price, which can make individual costs and unwanted extras harder to evaluate."
+    },
+    {
+      "term": "Unit pricing",
+      "definition": "Expressing a product's price per standard amount, such as per ounce, to make different package sizes comparable."
+    },
+    {
+      "term": "Price matching",
+      "definition": "A retailer's policy of meeting a qualifying competitor's price, often subject to exclusions and verification conditions."
+    },
+    {
+      "term": "Service-level agreement",
+      "definition": "A contract section defining service standards and possible remedies when the provider does not meet those standards."
+    }
+  ],
+  "Digital Privacy": [
+    {
+      "term": "Data minimization",
+      "definition": "Collecting and keeping only the personal information needed for a defined purpose, reducing unnecessary exposure."
+    },
+    {
+      "term": "Purpose limitation",
+      "definition": "Restricting the use of collected information to specified purposes rather than reusing it without appropriate justification."
+    },
+    {
+      "term": "Data retention",
+      "definition": "The length of time an organization keeps information before deleting, anonymizing, or otherwise disposing of it."
+    },
+    {
+      "term": "Data broker",
+      "definition": "A business that collects or aggregates information about people and sells access, profiles, or related services."
+    },
+    {
+      "term": "Personal data inventory",
+      "definition": "A record of what information an organization holds, where it is stored, and how it is used."
+    },
+    {
+      "term": "Sensitive personal information",
+      "definition": "Information that can create particular harm if misused, such as financial credentials, precise location, or certain health details."
+    },
+    {
+      "term": "Biometric identifier",
+      "definition": "A distinctive physical or behavioral measurement used to recognize a person, such as a fingerprint or face template."
+    },
+    {
+      "term": "Device identifier",
+      "definition": "A value associated with a device that can help services recognize it across interactions or applications."
+    },
+    {
+      "term": "Advertising identifier",
+      "definition": "A device or platform identifier designed for advertising-related measurement and targeting, with controls varying by platform."
+    },
+    {
+      "term": "Browser fingerprinting",
+      "definition": "Identifying or distinguishing a browser using combinations of technical characteristics rather than relying only on stored cookies."
+    },
+    {
+      "term": "First-party cookie",
+      "definition": "A browser data file associated with the site being visited, often used for preferences, sessions, or analytics."
+    },
+    {
+      "term": "Third-party cookie",
+      "definition": "A browser data file associated with a domain different from the visited site, sometimes used for cross-site tracking."
+    },
+    {
+      "term": "Tracking pixel",
+      "definition": "A small embedded resource that can report when content is viewed and provide information about the viewing device."
+    },
+    {
+      "term": "Cross-device tracking",
+      "definition": "Linking activity from multiple devices to infer that the same person or household is using them."
+    },
+    {
+      "term": "Location permission",
+      "definition": "An application setting controlling access to location information, which may be precise or approximate depending on the system."
+    },
+    {
+      "term": "Background app access",
+      "definition": "Permission for an application to perform certain activities when it is not actively being used."
+    },
+    {
+      "term": "Contact-list access",
+      "definition": "Permission allowing an app to read address-book information, which can expose details about people beyond the app's user."
+    },
+    {
+      "term": "Privacy notice",
+      "definition": "A document describing an organization's information practices, including collection, sharing, retention, and available user choices."
+    },
+    {
+      "term": "Consent withdrawal",
+      "definition": "Revoking previously granted permission for a particular use of information, subject to applicable rules and technical limitations."
+    },
+    {
+      "term": "Opt-in consent",
+      "definition": "A choice requiring an affirmative action before a specified activity, such as marketing or data sharing, begins."
+    },
+    {
+      "term": "Opt-out choice",
+      "definition": "A mechanism allowing someone to stop or refuse an activity that otherwise would occur by default."
+    },
+    {
+      "term": "Dark pattern",
+      "definition": "An interface design that manipulates or obstructs user decisions, such as making unwanted purchases easier than cancellation."
+    },
+    {
+      "term": "Confirmshaming",
+      "definition": "Using guilt-inducing language to discourage a user from rejecting an offer, declining sharing, or canceling a service."
+    },
+    {
+      "term": "Roach motel design",
+      "definition": "An interface pattern that makes entering an arrangement easy while making leaving it unnecessarily difficult."
+    },
+    {
+      "term": "Forced continuity",
+      "definition": "Continuing a paid arrangement after a trial through a process that obscures or obstructs the user's cancellation choice."
+    },
+    {
+      "term": "Privacy dashboard",
+      "definition": "A central interface for reviewing and managing an account's data permissions, stored information, or privacy preferences."
+    },
+    {
+      "term": "Data access request",
+      "definition": "A request to obtain information an organization holds about a person, where an applicable right or policy permits it."
+    },
+    {
+      "term": "Data deletion request",
+      "definition": "A request for an organization to remove personal information, potentially subject to legal retention requirements or other exceptions."
+    },
+    {
+      "term": "Data portability",
+      "definition": "The ability to obtain certain information in a usable format and move it to another service."
+    },
+    {
+      "term": "Anonymization",
+      "definition": "Processing information so individuals are no longer reasonably identifiable, with effectiveness depending on methods and available outside data."
+    },
+    {
+      "term": "Pseudonymization",
+      "definition": "Replacing direct identifiers with substitutes while retaining a way to connect records to individuals under controlled conditions."
+    },
+    {
+      "term": "Reidentification",
+      "definition": "Linking supposedly anonymous or coded information back to a person by using additional details or datasets."
+    },
+    {
+      "term": "End-to-end encryption",
+      "definition": "Protecting message contents so only the communicating endpoints can ordinarily decrypt them, rather than the service's intermediaries."
+    },
+    {
+      "term": "Encryption at rest",
+      "definition": "Protecting stored data cryptographically so possession of the storage medium alone does not expose readable information."
+    },
+    {
+      "term": "Encryption in transit",
+      "definition": "Protecting data while it travels between systems, without necessarily protecting how each endpoint later stores or uses it."
+    },
+    {
+      "term": "Access control",
+      "definition": "Rules and technical measures deciding which users or systems may view, change, or operate a resource."
+    },
+    {
+      "term": "Least privilege",
+      "definition": "Giving a person or system only the access needed for its role, reducing harm from mistakes or compromise."
+    },
+    {
+      "term": "Session timeout",
+      "definition": "Automatic expiration of an authenticated session after a period or event, reducing exposure on unattended devices."
+    },
+    {
+      "term": "Remote sign-out",
+      "definition": "Ending an account's active session on another device through account settings or a provider's security tools."
+    },
+    {
+      "term": "Recovery code",
+      "definition": "A backup credential used to regain account access when a normal authentication method is unavailable."
+    },
+    {
+      "term": "Passkey",
+      "definition": "A cryptographic sign-in credential tied to a service that can reduce phishing risk compared with reusable passwords."
+    },
+    {
+      "term": "Security key",
+      "definition": "A physical device used to help authenticate access, often by proving possession of a cryptographic credential."
+    },
+    {
+      "term": "Authenticator app",
+      "definition": "An application that generates or approves authentication evidence, commonly used as an additional account-security factor."
+    },
+    {
+      "term": "SIM swap",
+      "definition": "Moving a phone number to another SIM or device, which criminals can exploit to intercept calls and verification texts."
+    },
+    {
+      "term": "Credential stuffing",
+      "definition": "Trying previously stolen username-password pairs on other services to exploit people who reuse login credentials."
+    },
+    {
+      "term": "Password spraying",
+      "definition": "Trying a small set of common passwords across many accounts to avoid repeated failures on any one account."
+    },
+    {
+      "term": "Session hijacking",
+      "definition": "Taking control of an already authenticated connection, sometimes by stealing the token used to maintain the session."
+    },
+    {
+      "term": "Account recovery flow",
+      "definition": "The procedures used to regain access after losing credentials, which can itself become a target for fraud."
+    },
+    {
+      "term": "Security update",
+      "definition": "A software change that addresses vulnerabilities or other security issues and can reduce exposure to known attacks."
+    },
+    {
+      "term": "Backup encryption",
+      "definition": "Protecting backup copies with cryptography so stolen or misplaced backups do not readily reveal their contents."
+    }
+  ],
+  "Fraud Investigation": [
+    {
+      "term": "Money mule",
+      "definition": "A person who transfers funds for others, sometimes knowingly and sometimes deceived, helping move proceeds of fraud."
+    },
+    {
+      "term": "Synthetic identity fraud",
+      "definition": "Creating a fabricated identity by combining real and invented information to obtain accounts, credit, or other benefits."
+    },
+    {
+      "term": "Business email compromise",
+      "definition": "A scheme using impersonated or compromised business communications to redirect payments or obtain sensitive information."
+    },
+    {
+      "term": "Invoice redirection",
+      "definition": "A fraud in which altered payment instructions cause a legitimate bill to be paid into a criminal's account."
+    },
+    {
+      "term": "Fake invoice",
+      "definition": "A demand for payment for goods or services that were never ordered, supplied, or legitimately owed."
+    },
+    {
+      "term": "Check washing",
+      "definition": "Altering information on a genuine check, often the payee or amount, to divert money from its intended recipient."
+    },
+    {
+      "term": "Counterfeit check",
+      "definition": "A fabricated check designed to resemble a legitimate payment instrument, even though the apparent bank or payer has not authorized it."
+    },
+    {
+      "term": "Fake-check scheme",
+      "definition": "A scam that asks a recipient to send money onward before a deposited fraudulent check is finally rejected."
+    },
+    {
+      "term": "Refund scam",
+      "definition": "A scheme using a supposed refund to obtain access, fees, or a transfer of money from the target."
+    },
+    {
+      "term": "Recovery scam",
+      "definition": "A fraudulent offer to retrieve previously lost money, often demanding another upfront payment or sensitive account information."
+    },
+    {
+      "term": "Affinity fraud",
+      "definition": "A scam exploiting trust within a community, profession, faith group, or other shared identity to attract victims."
+    },
+    {
+      "term": "Ponzi scheme",
+      "definition": "A fraud that uses money from newer participants to pay earlier investors while misrepresenting the source of returns."
+    },
+    {
+      "term": "Pyramid scheme",
+      "definition": "A scheme whose rewards depend primarily on recruiting participants rather than genuine sales to outside customers."
+    },
+    {
+      "term": "Pump-and-dump scheme",
+      "definition": "Manipulating interest in an asset to raise its price before promoters sell their holdings to later buyers."
+    },
+    {
+      "term": "Spoofed caller ID",
+      "definition": "Falsified call-display information intended to make a call appear to come from a trusted person or organization."
+    },
+    {
+      "term": "Lookalike domain",
+      "definition": "A website address resembling a legitimate organization's address, often using subtle spelling changes to misdirect visitors."
+    },
+    {
+      "term": "QR-code phishing",
+      "definition": "A deception using a QR code to send someone to a fraudulent login, payment page, or download."
+    },
+    {
+      "term": "Malvertising",
+      "definition": "The use of online advertisements to spread harmful software or redirect users toward fraudulent or malicious destinations."
+    },
+    {
+      "term": "Scareware",
+      "definition": "Software or messages that invent or exaggerate a threat to pressure someone into paying or installing something."
+    },
+    {
+      "term": "Remote-access scam",
+      "definition": "A scheme persuading someone to let a criminal control their device under a false support or security pretext."
+    },
+    {
+      "term": "Task scam",
+      "definition": "A fake earning opportunity that shows artificial commissions and then demands deposits to continue work or withdraw supposed earnings."
+    },
+    {
+      "term": "Reshipping scam",
+      "definition": "A fake job involving receiving and forwarding packages, which may contain merchandise purchased with stolen payment information."
+    },
+    {
+      "term": "Rental listing scam",
+      "definition": "A fraudulent property advertisement used to collect deposits, applications, or personal information for a home the advertiser cannot rent."
+    },
+    {
+      "term": "Escrow impersonation",
+      "definition": "A scheme pretending to use a trusted intermediary while directing payment to an account controlled by the scammer."
+    },
+    {
+      "term": "Fake charity verification",
+      "definition": "An invented claim that a fundraiser has been checked or approved, used to create unwarranted confidence in donations."
+    },
+    {
+      "term": "Deepfake impersonation",
+      "definition": "Using synthetic audio or video to imitate a person and make a fraudulent instruction or appeal seem authentic."
+    },
+    {
+      "term": "Voice-cloning scam",
+      "definition": "A deception using copied or generated speech to impersonate someone and request money, credentials, or urgent action."
+    },
+    {
+      "term": "Emergency pretext",
+      "definition": "An invented crisis used to pressure a target into acting quickly before verifying the story independently."
+    },
+    {
+      "term": "Secrecy demand",
+      "definition": "An instruction to keep a transaction hidden from trusted people, often used to prevent outside scrutiny of a scam."
+    },
+    {
+      "term": "Gift-card payment demand",
+      "definition": "A request to pay through gift-card numbers or codes, commonly used by scammers because recovery can be difficult."
+    },
+    {
+      "term": "Cryptocurrency kiosk scam",
+      "definition": "A fraud directing someone to deposit cash into a crypto kiosk and send the resulting assets to the criminal."
+    },
+    {
+      "term": "Pig-butchering scam",
+      "definition": "A prolonged relationship-based investment fraud that builds trust before encouraging increasingly large transfers to a fake investment platform."
+    },
+    {
+      "term": "Fraud loss report",
+      "definition": "A record describing an attempted or completed scam, including amounts, dates, parties, and supporting transaction evidence."
+    },
+    {
+      "term": "Incident timeline",
+      "definition": "A chronological record of suspicious contacts, account changes, and transactions used to clarify what happened."
+    },
+    {
+      "term": "Evidence preservation",
+      "definition": "Keeping original messages, receipts, screenshots, and relevant records so they can support a dispute or investigation."
+    },
+    {
+      "term": "Message header",
+      "definition": "Technical information accompanying an email that can help investigators examine its routing, origin claims, and authentication results."
+    },
+    {
+      "term": "Transaction hash",
+      "definition": "An identifier for a blockchain transaction that can help locate the transaction's public record without proving the recipient's identity."
+    },
+    {
+      "term": "Complaint reference number",
+      "definition": "An identifier assigned when an organization receives a complaint, useful for tracking follow-up and linking supporting records."
+    },
+    {
+      "term": "Fraud affidavit",
+      "definition": "A written statement of facts about suspected fraud, sometimes requested by an institution during its investigation."
+    },
+    {
+      "term": "Unauthorized transaction",
+      "definition": "A payment or transfer made without the account holder's permission, with legal treatment depending on the facts and payment system."
+    },
+    {
+      "term": "Authorized push-payment scam",
+      "definition": "A fraud that tricks a person into initiating a transfer to a criminal, potentially involving different recovery rules from account theft."
+    },
+    {
+      "term": "Provisional credit",
+      "definition": "A temporary account credit provided during certain disputes that may be adjusted after the investigation concludes."
+    },
+    {
+      "term": "Merchant representment",
+      "definition": "A merchant's response to a card dispute that submits information supporting the original transaction through the applicable process."
+    },
+    {
+      "term": "Independent callback",
+      "definition": "Verifying a request by contacting the organization through a known, separately obtained number rather than the caller's provided details."
+    },
+    {
+      "term": "Out-of-band verification",
+      "definition": "Confirming a sensitive request through a separate communication channel to reduce reliance on a potentially compromised channel."
+    },
+    {
+      "term": "Trusted contact person",
+      "definition": "Someone a financial firm may contact in specified circumstances to help protect an account, without automatically gaining trading authority."
+    },
+    {
+      "term": "Financial exploitation",
+      "definition": "Improper use of another person's money or assets, including abuse of trust, pressure, deception, or unauthorized control."
+    },
+    {
+      "term": "Undue influence",
+      "definition": "Pressure or manipulation that overcomes another person's independent judgment, potentially affecting financial decisions or legal arrangements."
+    },
+    {
+      "term": "Redress",
+      "definition": "A remedy intended to address harm, such as repayment, correction of records, or another legally or contractually available resolution."
+    },
+    {
+      "term": "Restitution",
+      "definition": "Money or property returned to compensate for a loss, often ordered through a legal or enforcement process."
+    }
+  ],
+  "Homebuying": [
+    {
+      "term": "Mortgage",
+      "definition": "A loan secured by real estate, allowing the lender specified remedies against the property if repayment obligations are not met."
+    },
+    {
+      "term": "Loan estimate",
+      "definition": "A standardized mortgage disclosure showing estimated loan terms and costs so borrowers can compare offers before closing."
+    },
+    {
+      "term": "Closing disclosure",
+      "definition": "A standardized mortgage document detailing the final loan terms, projected payments, and closing costs for the borrower to review."
+    },
+    {
+      "term": "Closing costs",
+      "definition": "Fees and other expenses paid to complete a home purchase or mortgage transaction beyond the down payment."
+    },
+    {
+      "term": "Cash to close",
+      "definition": "The amount a borrower must bring to closing after accounting for the down payment, closing costs, credits, and prior deposits."
+    },
+    {
+      "term": "Earnest money",
+      "definition": "A deposit accompanying a home purchase offer that signals commitment and is handled according to the purchase contract."
+    },
+    {
+      "term": "Escrow account",
+      "definition": "An account holding funds for specified purposes, such as paying property taxes and insurance through mortgage servicing."
+    },
+    {
+      "term": "Escrow analysis",
+      "definition": "A servicer's review of expected escrow payments and account balances to determine shortages, surpluses, or payment adjustments."
+    },
+    {
+      "term": "Escrow shortage",
+      "definition": "A projected deficit between the funds needed in an escrow account and the amount expected to be available."
+    },
+    {
+      "term": "Property appraisal",
+      "definition": "An independent estimate of a property's value used for purposes such as evaluating collateral for a mortgage."
+    },
+    {
+      "term": "Home inspection",
+      "definition": "An examination of a property's condition that can reveal defects, without guaranteeing that every problem will be discovered."
+    },
+    {
+      "term": "Inspection contingency",
+      "definition": "A purchase-contract condition permitting specified action, potentially including cancellation or renegotiation, based on the results of an inspection."
+    },
+    {
+      "term": "Financing contingency",
+      "definition": "A contract condition linking completion of a home purchase to the buyer obtaining financing under specified terms."
+    },
+    {
+      "term": "Appraisal contingency",
+      "definition": "A purchase condition addressing what happens if the property's appraised value is below a specified amount."
+    },
+    {
+      "term": "Title search",
+      "definition": "An examination of property records to identify ownership history, liens, and other claims that could affect a transfer."
+    },
+    {
+      "term": "Title insurance",
+      "definition": "Insurance covering specified losses from title defects or claims, with different policies protecting lenders and property owners."
+    },
+    {
+      "term": "Deed",
+      "definition": "A legal document used to transfer an ownership interest in real property, subject to proper execution and recording requirements."
+    },
+    {
+      "term": "Deed of trust",
+      "definition": "A security instrument involving a trustee that gives a lender rights in property used to secure a loan."
+    },
+    {
+      "term": "Lien",
+      "definition": "A legal claim against property securing payment of a debt or another obligation."
+    },
+    {
+      "term": "Lien priority",
+      "definition": "The order in which claims against property generally receive payment when collateral is sold or enforced against."
+    },
+    {
+      "term": "Loan-to-value ratio",
+      "definition": "A mortgage amount divided by the property's value, used to evaluate leverage and lending risk."
+    },
+    {
+      "term": "Combined loan-to-value ratio",
+      "definition": "The total of relevant loans secured by a property divided by its value, reflecting multiple liens together."
+    },
+    {
+      "term": "Private mortgage insurance",
+      "definition": "Insurance that protects a lender against specified borrower-default losses on certain conventional mortgages, while the borrower generally pays its cost."
+    },
+    {
+      "term": "Mortgage insurance premium",
+      "definition": "A charge for mortgage insurance, whose structure and cancellation rules depend on the loan program."
+    },
+    {
+      "term": "Conventional mortgage",
+      "definition": "A mortgage that is not insured or guaranteed through a federal housing-loan program."
+    },
+    {
+      "term": "Conforming loan",
+      "definition": "A mortgage meeting applicable size and other eligibility standards for purchase by Fannie Mae or Freddie Mac."
+    },
+    {
+      "term": "Jumbo mortgage",
+      "definition": "A mortgage exceeding the applicable conforming loan-size limit, often subject to different lender qualification requirements."
+    },
+    {
+      "term": "FHA loan",
+      "definition": "A mortgage insured by the Federal Housing Administration and made by an approved lender to eligible borrowers."
+    },
+    {
+      "term": "VA-backed loan",
+      "definition": "A mortgage supported by a Department of Veterans Affairs guarantee for eligible borrowers, with program-specific requirements."
+    },
+    {
+      "term": "USDA housing loan",
+      "definition": "A housing loan or guarantee offered through designated Department of Agriculture programs for eligible borrowers and properties."
+    },
+    {
+      "term": "Rate lock",
+      "definition": "A lender's agreement to hold an offered mortgage interest rate for a specified period under stated conditions."
+    },
+    {
+      "term": "Discount point",
+      "definition": "An upfront mortgage charge generally paid to obtain a lower interest rate, whose value depends on costs and holding period."
+    },
+    {
+      "term": "Lender credit",
+      "definition": "Money a lender provides toward closing costs, often in exchange for a higher interest rate."
+    },
+    {
+      "term": "Mortgage broker",
+      "definition": "An intermediary who helps borrowers find mortgage financing from lenders and is compensated under a disclosed arrangement."
+    },
+    {
+      "term": "Mortgage servicing transfer",
+      "definition": "A change in the company administering a mortgage, requiring attention to payment instructions and transferred account records."
+    },
+    {
+      "term": "Mortgage recast",
+      "definition": "A recalculation of scheduled payments after a substantial principal reduction, if the lender or servicer allows it."
+    },
+    {
+      "term": "Amortization schedule",
+      "definition": "A table showing how each scheduled loan payment is divided between interest and principal over time."
+    },
+    {
+      "term": "Negative amortization",
+      "definition": "An increase in loan principal because the payment does not cover all interest owed and unpaid interest is added."
+    },
+    {
+      "term": "Interest-only mortgage",
+      "definition": "A mortgage allowing payments of interest without required principal reduction for a specified initial period."
+    },
+    {
+      "term": "Adjustable-rate index",
+      "definition": "The benchmark rate used with a specified margin to determine changes in an adjustable-rate mortgage's interest rate."
+    },
+    {
+      "term": "Adjustment margin",
+      "definition": "The percentage added to an adjustable-rate loan's benchmark index to calculate its rate before applicable caps or floors."
+    },
+    {
+      "term": "Initial rate period",
+      "definition": "The time during which an adjustable-rate mortgage's starting rate remains fixed before later scheduled adjustments."
+    },
+    {
+      "term": "Periodic rate cap",
+      "definition": "A limit on how much an adjustable loan's interest rate can change at a specified adjustment."
+    },
+    {
+      "term": "Lifetime rate cap",
+      "definition": "The maximum interest-rate increase or ceiling permitted over the full life of an adjustable-rate loan."
+    },
+    {
+      "term": "Mortgage buydown",
+      "definition": "An arrangement using upfront funds to reduce a borrower's interest cost or payments for a defined period."
+    },
+    {
+      "term": "Seller concession",
+      "definition": "A contribution from a property seller toward permitted buyer costs or other negotiated terms of the transaction."
+    },
+    {
+      "term": "Prepaid closing expense",
+      "definition": "A cost paid at closing for a future period, such as homeowners insurance or interest before the first payment."
+    },
+    {
+      "term": "Recording fee",
+      "definition": "A charge for entering a deed, mortgage, or other document into the relevant public property records."
+    },
+    {
+      "term": "Home equity line of credit",
+      "definition": "A revolving credit line secured by home equity, usually with a borrowing period followed by repayment requirements."
+    },
+    {
+      "term": "Home equity loan",
+      "definition": "A loan secured by the borrower's home equity that generally provides a lump sum repaid over a stated term."
+    }
+  ],
+  "Housing and Tenancy": [
+    {
+      "term": "Rental application",
+      "definition": "Information submitted to a landlord for screening, which may include income, rental history, references, and permission for specified checks."
+    },
+    {
+      "term": "Tenant screening report",
+      "definition": "A report used in rental decisions that may include credit, rental history, and other legally available screening information."
+    },
+    {
+      "term": "Security deposit",
+      "definition": "Money held under rental terms to cover eligible unpaid obligations or damage, with handling and return rules varying by law."
+    },
+    {
+      "term": "Move-in checklist",
+      "definition": "A written record of a rental property's condition at the start of occupancy, useful for later deposit disputes."
+    },
+    {
+      "term": "Normal wear and tear",
+      "definition": "Ordinary deterioration from reasonable use over time, generally distinguished from tenant-caused damage under applicable rental rules."
+    },
+    {
+      "term": "Lease addendum",
+      "definition": "A supplemental document adding to or changing an existing rental agreement when properly agreed to by the relevant parties."
+    },
+    {
+      "term": "Month-to-month tenancy",
+      "definition": "A rental arrangement that renews for successive monthly periods until ended with appropriate notice under applicable rules."
+    },
+    {
+      "term": "Fixed-term tenancy",
+      "definition": "A rental arrangement lasting for a specified start and end period under an agreed contract."
+    },
+    {
+      "term": "Sublease",
+      "definition": "An arrangement in which a tenant rents all or part of their leased space to another occupant."
+    },
+    {
+      "term": "Lease assignment",
+      "definition": "A transfer of a tenant's contractual interest to another person, subject to landlord approval and applicable agreement terms."
+    },
+    {
+      "term": "Joint and several liability",
+      "definition": "A legal arrangement in which each covered party may be responsible for the entire shared obligation, not merely an equal share."
+    },
+    {
+      "term": "Rent concession",
+      "definition": "A discount or benefit offered by a landlord, such as a free month, whose conditions affect the effective rental cost."
+    },
+    {
+      "term": "Effective monthly rent",
+      "definition": "The average rental cost over a period after accounting for concessions and specified required rent charges."
+    },
+    {
+      "term": "Utility allowance",
+      "definition": "An amount used in certain housing arrangements to account for tenant-paid utilities when determining housing costs or assistance."
+    },
+    {
+      "term": "Renters insurance",
+      "definition": "Insurance covering specified tenant property, liability, or living-expense risks; it generally does not insure the building for its owner."
+    },
+    {
+      "term": "Loss-of-use coverage",
+      "definition": "Insurance that can pay eligible additional living expenses when a covered event makes a residence uninhabitable."
+    },
+    {
+      "term": "Habitability",
+      "definition": "The condition of a residence meeting applicable minimum standards for safe and livable occupancy."
+    },
+    {
+      "term": "Repair request log",
+      "definition": "A dated record of reported property problems, communications, and repairs that helps document unresolved housing issues."
+    },
+    {
+      "term": "Entry notice",
+      "definition": "Advance communication of a landlord's intended access to a rental property when required by law or agreement."
+    },
+    {
+      "term": "Notice to vacate",
+      "definition": "A formal communication ending or proposing to end occupancy according to the lease and applicable legal requirements."
+    },
+    {
+      "term": "Lease renewal offer",
+      "definition": "Proposed terms for continuing a rental agreement, potentially including a new rent amount or modified conditions."
+    },
+    {
+      "term": "Holdover tenant",
+      "definition": "An occupant who remains after a rental term ends, with rights and obligations determined by the circumstances and applicable law."
+    },
+    {
+      "term": "Eviction filing",
+      "definition": "The initiation of a legal proceeding seeking possession of a rental property; a filing is not itself a completed eviction."
+    },
+    {
+      "term": "Security-deposit itemization",
+      "definition": "A breakdown explaining deductions from a tenant's deposit, often accompanied by supporting details under applicable rules."
+    },
+    {
+      "term": "Rent escrow",
+      "definition": "A legally regulated arrangement for holding rent while addressing specified landlord-tenant issues; requirements vary by jurisdiction."
+    },
+    {
+      "term": "Housing cost burden",
+      "definition": "A measure of how much household income is devoted to housing expenses, useful for assessing affordability."
+    },
+    {
+      "term": "Property tax assessment",
+      "definition": "The value assigned to property for tax purposes under local rules, which may differ from market or sale value."
+    },
+    {
+      "term": "Homestead exemption",
+      "definition": "A legal provision that can reduce certain property taxes or protect some home equity, depending on jurisdiction."
+    },
+    {
+      "term": "Homeowners association",
+      "definition": "An organization governing a shared-interest community that may collect assessments and enforce community rules."
+    },
+    {
+      "term": "HOA assessment",
+      "definition": "A charge imposed on association members to pay for operating costs, maintenance, reserves, or other authorized community expenses."
+    },
+    {
+      "term": "Special assessment",
+      "definition": "An additional charge imposed for a particular expense or funding need beyond regular community or property assessments."
+    },
+    {
+      "term": "Reserve study",
+      "definition": "An analysis estimating future major repair and replacement needs and the funds required to meet them."
+    },
+    {
+      "term": "Condominium unit",
+      "definition": "An individually owned portion of a property combined with shared ownership interests in common elements."
+    },
+    {
+      "term": "Housing cooperative",
+      "definition": "A housing arrangement in which residents typically own shares in an entity that owns the building and grants occupancy rights."
+    },
+    {
+      "term": "Common area",
+      "definition": "Property shared by residents or owners, such as hallways, grounds, or amenities, with maintenance responsibilities set by governing documents."
+    },
+    {
+      "term": "Easement",
+      "definition": "A legal right to use another person's property for a defined purpose, such as access or utility lines."
+    },
+    {
+      "term": "Encroachment",
+      "definition": "A structure or improvement extending onto another property or restricted area, potentially creating a title or boundary problem."
+    },
+    {
+      "term": "Property survey",
+      "definition": "A professional determination of property boundaries and relevant features, useful for identifying potential boundary or access issues."
+    },
+    {
+      "term": "Zoning ordinance",
+      "definition": "A local rule governing permitted land uses, building characteristics, or development conditions within designated areas."
+    },
+    {
+      "term": "Flood zone",
+      "definition": "An area classified according to flood hazard information, which can affect insurance requirements, risk assessment, and ownership costs."
+    },
+    {
+      "term": "Property condition disclosure",
+      "definition": "Information a seller provides about known property conditions when required by law or the transaction's terms."
+    },
+    {
+      "term": "Deferred maintenance",
+      "definition": "Necessary upkeep postponed over time, which can increase repair costs or worsen a property's condition."
+    },
+    {
+      "term": "Capital improvement",
+      "definition": "A substantial property addition or upgrade that provides lasting benefit, distinguished from routine upkeep for relevant accounting or tax purposes."
+    },
+    {
+      "term": "Home maintenance reserve",
+      "definition": "Money set aside for expected repairs and replacements so ownership costs are not limited to the mortgage payment."
+    },
+    {
+      "term": "Net rental yield",
+      "definition": "Rental income after specified operating expenses divided by a property's value or cost, with the calculation assumptions stated."
+    },
+    {
+      "term": "Vacancy allowance",
+      "definition": "An estimate of income lost when rental property is unoccupied, included when planning cash flow."
+    },
+    {
+      "term": "Property management fee",
+      "definition": "A charge for managing rental operations, whose coverage may include leasing, collections, maintenance coordination, or other services."
+    },
+    {
+      "term": "Short sale",
+      "definition": "A property sale for less than the secured debt balance that requires the relevant lender's agreement to the arrangement."
+    },
+    {
+      "term": "Deed in lieu",
+      "definition": "An arrangement transferring property to a mortgage holder to address a default, with remaining obligations depending on the agreement."
+    },
+    {
+      "term": "Mortgage modification",
+      "definition": "A permanent change to one or more loan terms intended to make repayment more manageable under an approved arrangement."
+    }
+  ],
+  "Insurance Planning": [
+    {
+      "term": "Risk pooling",
+      "definition": "Combining many exposures so the losses of some participants can be funded through contributions from the larger group."
+    },
+    {
+      "term": "Insurable interest",
+      "definition": "A legally recognized stake in avoiding a loss, required for valid coverage in applicable insurance arrangements."
+    },
+    {
+      "term": "Insurance policy",
+      "definition": "The contract specifying covered risks, exclusions, payment obligations, conditions, and other terms between an insurer and policyholder."
+    },
+    {
+      "term": "Policyholder",
+      "definition": "The person or entity that owns an insurance contract and holds the rights and obligations specified in it."
+    },
+    {
+      "term": "Named insured",
+      "definition": "A person or organization specifically identified as insured in the policy, with rights and coverage defined by its terms."
+    },
+    {
+      "term": "Additional insured",
+      "definition": "Another person or organization granted specified coverage under a policy, often through an endorsement."
+    },
+    {
+      "term": "Insurance endorsement",
+      "definition": "A written change to a policy that adds, removes, or modifies coverage or another contract term."
+    },
+    {
+      "term": "Declarations page",
+      "definition": "A policy summary identifying key information such as insured parties, covered property, limits, deductibles, and the coverage period."
+    },
+    {
+      "term": "Insurance binder",
+      "definition": "Temporary evidence of insurance coverage issued while the final policy documentation is being prepared."
+    },
+    {
+      "term": "Named-peril coverage",
+      "definition": "Insurance covering only the causes of loss specifically listed in the policy, rather than a broader set of risks."
+    },
+    {
+      "term": "Waiting period",
+      "definition": "A specified time that must pass before certain insurance benefits or coverage become available."
+    },
+    {
+      "term": "Elimination period",
+      "definition": "A period after a qualifying disability or care need during which benefits are not yet payable under the policy."
+    },
+    {
+      "term": "Benefit period",
+      "definition": "The maximum duration for which a particular insurance benefit may be paid under the contract's conditions."
+    },
+    {
+      "term": "Policy lapse",
+      "definition": "Termination or interruption of insurance coverage because required premiums or other conditions have not been maintained."
+    },
+    {
+      "term": "Policy reinstatement",
+      "definition": "Restoring a lapsed insurance contract after the insurer's requirements are met, potentially with limitations or additional evidence."
+    },
+    {
+      "term": "Nonrenewal",
+      "definition": "An insurer's decision not to continue a policy after its current term, subject to applicable rules and notice requirements."
+    },
+    {
+      "term": "Underinsurance",
+      "definition": "Having coverage limits or terms insufficient to cover the financial consequences of the losses being considered."
+    },
+    {
+      "term": "Replacement cost coverage",
+      "definition": "Coverage based on the cost to replace eligible damaged property without the depreciation deduction used in actual cash value settlements."
+    },
+    {
+      "term": "Actual cash value",
+      "definition": "An insurance valuation approach generally reflecting replacement cost minus depreciation, subject to the policy and applicable law."
+    },
+    {
+      "term": "Agreed value coverage",
+      "definition": "Insurance using an agreed valuation for specified property, subject to the policy's loss conditions and limits."
+    },
+    {
+      "term": "Scheduled personal property",
+      "definition": "Specific valuable items separately listed for insurance coverage, often with terms different from standard personal-property coverage."
+    },
+    {
+      "term": "Umbrella liability insurance",
+      "definition": "Additional liability protection that generally sits above specified underlying policies and may cover some additional risks."
+    },
+    {
+      "term": "Occurrence policy",
+      "definition": "Liability coverage generally triggered by a covered event occurring during the policy period, even if the claim is reported later."
+    },
+    {
+      "term": "Claims-made policy",
+      "definition": "Liability coverage generally requiring a claim to be made during the policy period and meet other timing conditions."
+    },
+    {
+      "term": "Subrogation",
+      "definition": "An insurer's pursuit of recovery from a responsible third party after paying a covered loss to its insured."
+    },
+    {
+      "term": "Insurance adjuster",
+      "definition": "A person who investigates and evaluates an insurance claim to help determine coverage and the amount payable."
+    },
+    {
+      "term": "Proof of loss",
+      "definition": "A formal statement or documentation describing a claimed loss and the amount requested under an insurance policy."
+    },
+    {
+      "term": "Claim denial",
+      "definition": "An insurer's refusal to pay a requested claim based on its interpretation of coverage, facts, or policy requirements."
+    },
+    {
+      "term": "Internal appeal",
+      "definition": "A request for an insurer or plan to reconsider an adverse decision through its own review process."
+    },
+    {
+      "term": "External review",
+      "definition": "An independent review of certain coverage decisions when available under applicable health-plan rules or law."
+    },
+    {
+      "term": "Explanation of benefits",
+      "definition": "A health-plan statement explaining how a claim was processed; it is generally not itself a bill."
+    },
+    {
+      "term": "Allowed amount",
+      "definition": "The amount a health plan recognizes for a covered service when calculating payment and patient cost sharing."
+    },
+    {
+      "term": "In-network provider",
+      "definition": "A healthcare provider contracted with a health plan under negotiated terms, which often affect the patient's cost sharing."
+    },
+    {
+      "term": "Out-of-network provider",
+      "definition": "A healthcare provider without the relevant contract with a health plan, potentially resulting in different coverage and costs."
+    },
+    {
+      "term": "Balance billing",
+      "definition": "A provider's billing of the difference between its charge and the amount a plan allows, subject to legal restrictions."
+    },
+    {
+      "term": "Out-of-pocket maximum",
+      "definition": "The most a covered person must pay for specified covered costs during a plan period, excluding items the plan does not count."
+    },
+    {
+      "term": "Prior authorization",
+      "definition": "A health plan's approval process for certain services or medicines before they are provided, subject to the plan's rules."
+    },
+    {
+      "term": "Formulary",
+      "definition": "A health plan's list of covered prescription medicines, often divided into tiers with different patient costs."
+    },
+    {
+      "term": "Open enrollment",
+      "definition": "A designated period when eligible people can select or change certain insurance coverage without a separate qualifying event."
+    },
+    {
+      "term": "Special enrollment period",
+      "definition": "A limited opportunity to enroll or change coverage after a qualifying circumstance outside the regular enrollment window."
+    },
+    {
+      "term": "Coordination of benefits",
+      "definition": "Rules that determine how multiple insurance plans share payment responsibility when they cover the same person or expense."
+    },
+    {
+      "term": "Term life insurance",
+      "definition": "Life insurance providing a death benefit for a specified coverage term if policy conditions are met."
+    },
+    {
+      "term": "Whole life insurance",
+      "definition": "Permanent life insurance generally combining a death benefit with cash value and premiums defined by the contract."
+    },
+    {
+      "term": "Universal life insurance",
+      "definition": "Permanent life insurance with adjustable features whose continued coverage depends on policy funding, charges, and contract conditions."
+    },
+    {
+      "term": "Cash surrender value",
+      "definition": "The amount available when a cash-value policy is terminated, after applicable charges, loans, and other deductions."
+    },
+    {
+      "term": "Policy loan",
+      "definition": "Borrowing against a life policy's cash value, which can reduce available benefits and threaten coverage if not managed."
+    },
+    {
+      "term": "Disability income insurance",
+      "definition": "Coverage replacing a specified portion of income when a qualifying disability prevents work under the policy's definition."
+    },
+    {
+      "term": "Long-term care insurance",
+      "definition": "Insurance covering eligible assistance with daily activities or other qualifying care needs, subject to benefit limits and conditions."
+    },
+    {
+      "term": "Own-occupation disability",
+      "definition": "A disability definition based on inability to perform the duties of the insured's occupation, as specified in the policy."
+    },
+    {
+      "term": "Any-occupation disability",
+      "definition": "A disability definition based on inability to perform suitable work beyond the insured's own occupation, as the policy specifies."
+    }
+  ],
+  "Work and Benefits": [
+    {
+      "term": "Hourly wage",
+      "definition": "A pay rate stated per hour worked, before applying any overtime rules, deductions, or additional compensation."
+    },
+    {
+      "term": "Salary",
+      "definition": "Compensation expressed as a fixed amount over a period rather than a rate for each hour worked."
+    },
+    {
+      "term": "Piece-rate pay",
+      "definition": "Compensation based on the number of units produced or tasks completed, subject to applicable wage requirements."
+    },
+    {
+      "term": "Commission pay",
+      "definition": "Compensation tied to sales or other measured transactions under the employer's or contractor's payment arrangement."
+    },
+    {
+      "term": "Performance bonus",
+      "definition": "Additional compensation contingent on meeting specified individual, team, or company performance conditions."
+    },
+    {
+      "term": "Shift differential",
+      "definition": "Extra compensation for working designated schedules, such as nights or weekends, under an employer's pay policy."
+    },
+    {
+      "term": "Overtime premium",
+      "definition": "Additional pay required or offered for qualifying work beyond specified hours or conditions, depending on applicable rules."
+    },
+    {
+      "term": "Exempt employee",
+      "definition": "A worker classified as exempt from particular wage-and-hour requirements based on applicable legal tests, not merely a job title."
+    },
+    {
+      "term": "Nonexempt employee",
+      "definition": "A worker covered by applicable minimum-wage and overtime protections, subject to the relevant law and work arrangement."
+    },
+    {
+      "term": "Independent contractor",
+      "definition": "A worker providing services outside an employment relationship when the relevant legal classification tests are satisfied."
+    },
+    {
+      "term": "Worker misclassification",
+      "definition": "Incorrectly treating a worker as a contractor or exempt employee, potentially affecting wages, taxes, and benefit rights."
+    },
+    {
+      "term": "Total compensation",
+      "definition": "The combined value of wages, bonuses, employer benefits, and other compensation associated with a job."
+    },
+    {
+      "term": "Fringe benefit",
+      "definition": "A form of compensation beyond regular wages, such as insurance, transportation support, or use of employer-provided property."
+    },
+    {
+      "term": "Benefit election",
+      "definition": "An employee's selection among available workplace benefits, including any required contribution or coverage choice."
+    },
+    {
+      "term": "Payroll deduction authorization",
+      "definition": "Permission for an employer to subtract a specified amount or type of charge from wages, subject to legal rules."
+    },
+    {
+      "term": "Timekeeping record",
+      "definition": "Documentation of hours worked that supports payroll calculations and can help resolve wage discrepancies."
+    },
+    {
+      "term": "Pay frequency",
+      "definition": "How often an employer issues wages, such as weekly, every two weeks, twice monthly, or monthly."
+    },
+    {
+      "term": "Pay lag",
+      "definition": "The gap between the end of a work period and the date wages for that period are paid."
+    },
+    {
+      "term": "Accrued paid time off",
+      "definition": "Leave hours earned under an employer's policy but not yet used, with payout and carryover rules varying."
+    },
+    {
+      "term": "Leave carryover",
+      "definition": "The ability to move unused leave into a later period under an employer's policy and applicable law."
+    },
+    {
+      "term": "Unpaid leave",
+      "definition": "Time away from work without ordinary wages, though employment or benefit protections may apply in qualifying circumstances."
+    },
+    {
+      "term": "Severance pay",
+      "definition": "Compensation offered after employment ends, usually governed by an agreement, employer policy, or applicable law."
+    },
+    {
+      "term": "Separation agreement",
+      "definition": "A contract setting terms connected to ending employment, potentially addressing payments, benefits, confidentiality, and release of claims."
+    },
+    {
+      "term": "Release of claims",
+      "definition": "An agreement to give up specified legal claims in exchange for consideration, subject to enforceability requirements."
+    },
+    {
+      "term": "Clawback provision",
+      "definition": "A term allowing recovery of previously paid compensation under specified circumstances, such as an unmet retention requirement."
+    },
+    {
+      "term": "Signing bonus",
+      "definition": "Compensation offered for joining an employer, sometimes subject to repayment conditions if employment ends early."
+    },
+    {
+      "term": "Retention bonus",
+      "definition": "Additional compensation offered for remaining employed through a specified date or event under stated terms."
+    },
+    {
+      "term": "Relocation allowance",
+      "definition": "Employer assistance for moving costs, whose coverage, tax treatment, and possible repayment requirements should be reviewed."
+    },
+    {
+      "term": "Tuition reimbursement",
+      "definition": "An employer benefit repaying eligible education expenses under conditions such as course approval, grades, or continued employment."
+    },
+    {
+      "term": "Professional development budget",
+      "definition": "Employer-provided funds for approved training, credentials, or learning activities relevant to a worker's role or growth."
+    },
+    {
+      "term": "Employee assistance program",
+      "definition": "A workplace benefit offering specified support or referrals for personal concerns, often with stated confidentiality and access limits."
+    },
+    {
+      "term": "Health savings account",
+      "definition": "A tax-favored account for eligible medical expenses, with contribution eligibility and withdrawal treatment governed by applicable rules."
+    },
+    {
+      "term": "Flexible spending arrangement",
+      "definition": "An employer-established benefit allowing eligible expenses to be paid with designated pretax funds under plan-specific use and timing rules."
+    },
+    {
+      "term": "Health reimbursement arrangement",
+      "definition": "An employer-funded arrangement reimbursing eligible health expenses under applicable plan and tax rules."
+    },
+    {
+      "term": "Dependent care assistance",
+      "definition": "A workplace benefit helping pay eligible care expenses needed for work, subject to program and tax requirements."
+    },
+    {
+      "term": "Commuter benefit",
+      "definition": "An employer program helping pay eligible transportation or parking costs, sometimes using tax-favored arrangements."
+    },
+    {
+      "term": "Group insurance",
+      "definition": "Insurance provided through an organization for eligible members or employees, with coverage defined by the group policy."
+    },
+    {
+      "term": "Evidence of insurability",
+      "definition": "Health or other information an insurer requires when evaluating eligibility for certain coverage amounts or enrollment situations."
+    },
+    {
+      "term": "Benefits continuation",
+      "definition": "An option or requirement allowing specified insurance coverage to continue after an employment or eligibility change, often at a different cost."
+    },
+    {
+      "term": "Unemployment insurance",
+      "definition": "A public program providing temporary income to eligible workers who meet applicable employment and job-loss requirements."
+    },
+    {
+      "term": "Workers' compensation",
+      "definition": "A system providing specified benefits for qualifying work-related injuries or illnesses, with rules varying by jurisdiction."
+    },
+    {
+      "term": "Employment contract",
+      "definition": "An agreement defining work terms such as duties, compensation, duration, and obligations, subject to applicable labor law."
+    },
+    {
+      "term": "Collective bargaining agreement",
+      "definition": "A contract between an employer and a workers' representative addressing wages, conditions, benefits, and dispute procedures."
+    },
+    {
+      "term": "Grievance procedure",
+      "definition": "A defined process for raising and resolving workplace complaints under a contract, policy, or collective agreement."
+    },
+    {
+      "term": "Wage theft",
+      "definition": "Failure to pay compensation legally owed, such as unpaid overtime, minimum-wage shortfalls, or improper wage deductions."
+    },
+    {
+      "term": "Pay transparency",
+      "definition": "The availability or disclosure of compensation information, which can help workers compare opportunities and evaluate pay practices."
+    },
+    {
+      "term": "Compensation band",
+      "definition": "A defined pay range for a job level or role, used by employers to guide compensation decisions."
+    },
+    {
+      "term": "Human capital",
+      "definition": "The skills, knowledge, health, and experience that contribute to a person's productive capacity and earning opportunities."
+    },
+    {
+      "term": "Transferable skill",
+      "definition": "An ability useful across different jobs or industries, helping a worker adapt when roles or employment conditions change."
+    },
+    {
+      "term": "Opportunity cost of education",
+      "definition": "The value of the next-best alternative forgone while studying, including potential earnings and other uses of time."
+    }
+  ],
+  "Tax Fundamentals": [
+    {
+      "term": "Taxable income",
+      "definition": "The amount remaining subject to income tax after applicable adjustments and deductions under the relevant tax rules."
+    },
+    {
+      "term": "Adjusted gross income",
+      "definition": "Gross income reduced by specified adjustments, used in U.S. federal taxation to determine several deductions and eligibility calculations."
+    },
+    {
+      "term": "Modified adjusted gross income",
+      "definition": "Adjusted gross income changed for a particular tax provision; its calculation differs depending on the benefit or rule involved."
+    },
+    {
+      "term": "Standard deduction",
+      "definition": "A set deduction available to eligible taxpayers instead of itemizing certain expenses, with the amount determined by applicable rules."
+    },
+    {
+      "term": "Itemized deduction",
+      "definition": "An eligible expense deducted individually when the taxpayer uses itemization rather than the standard deduction."
+    },
+    {
+      "term": "Tax credit",
+      "definition": "An amount reducing tax liability directly, subject to eligibility, limits, and whether the credit is refundable."
+    },
+    {
+      "term": "Refundable credit",
+      "definition": "A tax credit that can generate a payment beyond reducing eligible tax liability to zero, when its conditions are met."
+    },
+    {
+      "term": "Nonrefundable credit",
+      "definition": "A tax credit that generally reduces eligible tax liability only to zero, although carryover provisions may sometimes apply."
+    },
+    {
+      "term": "Marginal tax rate",
+      "definition": "The rate applied to the next increment of taxable income within the relevant tax structure."
+    },
+    {
+      "term": "Effective tax rate",
+      "definition": "Tax paid or owed divided by a specified income measure, with the denominator important when comparing reported rates."
+    },
+    {
+      "term": "Tax bracket",
+      "definition": "A range of taxable income to which a particular marginal tax rate applies under a graduated system."
+    },
+    {
+      "term": "Progressive tax",
+      "definition": "A tax structure in which the share of the relevant income or tax base paid in tax rises as that base increases."
+    },
+    {
+      "term": "Regressive tax",
+      "definition": "A tax whose burden takes a larger share of resources from lower-income people under the comparison being used."
+    },
+    {
+      "term": "Flat tax",
+      "definition": "A tax applying one stated rate to its defined base, though deductions or exemptions can change effective burdens."
+    },
+    {
+      "term": "Filing status",
+      "definition": "A tax-return classification based on household and marital circumstances that affects deductions, rates, and eligibility rules."
+    },
+    {
+      "term": "Tax dependent",
+      "definition": "A person meeting specified tests that may allow another taxpayer to claim certain tax benefits."
+    },
+    {
+      "term": "Tax residency",
+      "definition": "A classification determining how a jurisdiction taxes a person, based on its legal tests rather than citizenship alone."
+    },
+    {
+      "term": "Tax domicile",
+      "definition": "A person's legally relevant permanent home for certain tax purposes, determined by applicable jurisdictional rules and facts."
+    },
+    {
+      "term": "Estimated tax payment",
+      "definition": "A periodic payment toward tax obligations not fully covered by withholding, such as some self-employment or investment income."
+    },
+    {
+      "term": "Tax reconciliation",
+      "definition": "Comparing amounts already paid or credited with final tax liability to determine a balance due or refund."
+    },
+    {
+      "term": "Tax refund",
+      "definition": "Money returned when tax payments and eligible refundable credits exceed the final amount owed."
+    },
+    {
+      "term": "Tax liability",
+      "definition": "The amount of tax legally owed under the relevant calculation, before considering whether payments already cover it."
+    },
+    {
+      "term": "Tax return",
+      "definition": "The form or set of forms reporting income, deductions, credits, and tax calculations to a tax authority."
+    },
+    {
+      "term": "Amended return",
+      "definition": "A revised tax filing used to correct or change information from a previously submitted return."
+    },
+    {
+      "term": "Filing extension",
+      "definition": "Additional time to submit a tax return when validly obtained; it generally does not extend the time to pay."
+    },
+    {
+      "term": "Tax transcript",
+      "definition": "An official summary of selected information from a tax account or filed return, distinct from a full return copy."
+    },
+    {
+      "term": "Tax audit",
+      "definition": "A tax authority's examination of records and reported information to assess compliance with applicable tax requirements."
+    },
+    {
+      "term": "Record substantiation",
+      "definition": "Documentation supporting amounts or claims on a tax return, such as receipts, logs, statements, or agreements."
+    },
+    {
+      "term": "Tax basis",
+      "definition": "The amount assigned to property for tax calculations, often starting with cost and changing through specified adjustments."
+    },
+    {
+      "term": "Adjusted basis",
+      "definition": "A property's tax basis after increases or decreases required by events such as improvements, depreciation, or certain distributions."
+    },
+    {
+      "term": "Cost-basis method",
+      "definition": "The approach used to identify the acquisition cost of assets sold, which can affect reported gains or losses."
+    },
+    {
+      "term": "Holding period",
+      "definition": "The time an asset is treated as held for tax purposes, which can affect the character of gains or losses."
+    },
+    {
+      "term": "Short-term capital gain",
+      "definition": "A taxable gain on an asset held for no longer than the applicable long-term threshold under the relevant rules."
+    },
+    {
+      "term": "Long-term capital gain",
+      "definition": "A taxable gain on an asset held beyond the applicable holding-period threshold, potentially subject to different tax treatment."
+    },
+    {
+      "term": "Tax-loss harvesting",
+      "definition": "Selling investments at losses to offset eligible gains or income, while considering transaction costs and applicable tax restrictions."
+    },
+    {
+      "term": "Wash-sale rule",
+      "definition": "A tax rule that can defer recognition of certain investment losses when substantially identical securities are acquired within the specified window."
+    },
+    {
+      "term": "Qualified dividend",
+      "definition": "A dividend meeting applicable requirements for potentially preferential federal tax rates, including relevant holding-period conditions."
+    },
+    {
+      "term": "Tax-exempt interest",
+      "definition": "Interest excluded from a particular income tax under applicable rules, though other taxes or reporting obligations may still apply."
+    },
+    {
+      "term": "Tax-deferred growth",
+      "definition": "Investment earnings whose taxation is postponed until a later event, rather than necessarily being permanently exempt."
+    },
+    {
+      "term": "Self-employment tax",
+      "definition": "A U.S. tax on eligible self-employment earnings supporting Social Security and Medicare, calculated under separate rules from income tax."
+    },
+    {
+      "term": "Business expense deduction",
+      "definition": "A reduction for qualifying business costs under tax rules, which do not make personal spending deductible merely because a business exists."
+    },
+    {
+      "term": "Tax depreciation",
+      "definition": "Allocating the deductible cost of eligible business property over time using methods and periods prescribed by tax law."
+    },
+    {
+      "term": "Capital expenditure",
+      "definition": "A purchase or improvement with benefits extending beyond the current period, often requiring capitalization rather than immediate expense treatment."
+    },
+    {
+      "term": "Tax carryforward",
+      "definition": "An eligible unused tax amount moved to a later year under rules governing the specific deduction, loss, or credit."
+    },
+    {
+      "term": "Tax installment agreement",
+      "definition": "An arrangement allowing eligible tax debt to be paid over time, generally subject to continuing charges and compliance conditions."
+    },
+    {
+      "term": "Information return",
+      "definition": "A filing by a payer or intermediary reporting specified payments or transactions to the tax authority and recipient."
+    },
+    {
+      "term": "Tax identification number",
+      "definition": "An identifier used by a tax authority to associate returns, payments, and information with a taxpayer."
+    },
+    {
+      "term": "Tax preparer",
+      "definition": "A person who assists with preparing a return, whose credentials, fees, and responsibilities should be understood before engagement."
+    },
+    {
+      "term": "Tax representation",
+      "definition": "Acting for a taxpayer in dealings with a tax authority, subject to authorization and practitioner eligibility rules."
+    },
+    {
+      "term": "Tax scam",
+      "definition": "A fraud using tax-related claims to obtain money or information, such as invented tax debts or fake refunds."
+    }
+  ],
+  "Retirement and Estate": [
+    {
+      "term": "Defined benefit plan",
+      "definition": "A retirement plan promising a benefit determined by a formula, rather than solely by an individual's account investment balance."
+    },
+    {
+      "term": "Defined contribution plan",
+      "definition": "A retirement arrangement in which contributions accumulate in an account and outcomes depend on funding, investments, fees, and withdrawals."
+    },
+    {
+      "term": "403(b) plan",
+      "definition": "A tax-favored retirement arrangement available through certain public schools and eligible tax-exempt organizations under applicable rules."
+    },
+    {
+      "term": "457(b) plan",
+      "definition": "An eligible deferred-compensation arrangement offered by specified government or tax-exempt employers, with rules differing by employer type."
+    },
+    {
+      "term": "Thrift Savings Plan",
+      "definition": "A retirement savings and investment plan for eligible federal employees and uniformed service members."
+    },
+    {
+      "term": "SEP IRA",
+      "definition": "An individual retirement account receiving employer contributions through a Simplified Employee Pension arrangement for eligible workers."
+    },
+    {
+      "term": "SIMPLE IRA",
+      "definition": "A retirement arrangement for qualifying employers that generally combines employee salary-reduction contributions with required employer contributions."
+    },
+    {
+      "term": "Solo 401(k)",
+      "definition": "A 401(k) arrangement covering a business owner with no eligible employees other than a spouse, subject to plan rules."
+    },
+    {
+      "term": "Automatic enrollment",
+      "definition": "A retirement-plan feature enrolling eligible employees at a default contribution rate unless they make another permitted choice."
+    },
+    {
+      "term": "Automatic escalation",
+      "definition": "A plan feature that increases a participant's retirement contribution rate over time unless the participant changes the election."
+    },
+    {
+      "term": "Cliff vesting",
+      "definition": "A schedule granting ownership of specified employer benefits all at once after a required service period."
+    },
+    {
+      "term": "Graded vesting",
+      "definition": "A schedule granting ownership of specified employer benefits in stages as service requirements are met."
+    },
+    {
+      "term": "Vested balance",
+      "definition": "The portion of a retirement account the participant has a nonforfeitable right to retain under the plan's rules."
+    },
+    {
+      "term": "Direct rollover",
+      "definition": "A transfer of eligible retirement funds directly to another eligible plan or account without first paying the money to the participant."
+    },
+    {
+      "term": "Indirect rollover",
+      "definition": "A distribution paid to a participant who then deposits eligible funds into another retirement arrangement within applicable requirements."
+    },
+    {
+      "term": "Roth conversion",
+      "definition": "Moving eligible pretax retirement amounts into Roth treatment, generally creating taxable income for previously untaxed amounts."
+    },
+    {
+      "term": "After-tax contribution",
+      "definition": "Money contributed after income tax has been paid, with later earnings and distributions governed by the account's specific rules."
+    },
+    {
+      "term": "Catch-up contribution",
+      "definition": "An additional retirement contribution permitted for eligible participants who meet the applicable age and plan requirements."
+    },
+    {
+      "term": "Hardship withdrawal",
+      "definition": "A retirement-plan distribution allowed for qualifying financial needs under the plan and applicable tax rules."
+    },
+    {
+      "term": "Retirement plan loan",
+      "definition": "Borrowing from an eligible employer retirement plan under its terms, with tax consequences possible if repayment requirements fail."
+    },
+    {
+      "term": "Early distribution",
+      "definition": "A withdrawal before the relevant retirement-account conditions are met, potentially triggering additional taxes unless an exception applies."
+    },
+    {
+      "term": "Qualified Roth distribution",
+      "definition": "A Roth withdrawal meeting applicable conditions for favorable tax treatment, including the relevant holding and eligibility rules."
+    },
+    {
+      "term": "Inherited retirement account",
+      "definition": "A retirement account received after an owner's death, with distribution rules depending on the account and beneficiary's circumstances."
+    },
+    {
+      "term": "Beneficiary review",
+      "definition": "Checking account designations after life changes to ensure that intended recipients and contingent arrangements remain current."
+    },
+    {
+      "term": "Contingent beneficiary",
+      "definition": "A person or entity designated to receive assets if the primary beneficiary cannot receive them under the arrangement."
+    },
+    {
+      "term": "Spousal consent",
+      "definition": "A spouse's required agreement for certain retirement-benefit choices or beneficiary changes under applicable plan rules and law."
+    },
+    {
+      "term": "Qualified domestic relations order",
+      "definition": "A qualifying court order assigning certain retirement-plan benefits to an alternate payee under applicable federal requirements."
+    },
+    {
+      "term": "Pension survivor option",
+      "definition": "A benefit election continuing specified pension payments to another person after the retiree's death, usually affecting the initial payment amount."
+    },
+    {
+      "term": "Lump-sum pension payout",
+      "definition": "Receiving a pension benefit as a single amount instead of continuing periodic payments, with investment and longevity risks shifting accordingly."
+    },
+    {
+      "term": "Annuity payout",
+      "definition": "A stream of payments under an insurance contract, determined by its funding, selected option, and applicable conditions."
+    },
+    {
+      "term": "Immediate annuity",
+      "definition": "An annuity designed to begin income payments soon after purchase under the contract's selected terms."
+    },
+    {
+      "term": "Deferred annuity",
+      "definition": "An annuity whose income phase begins later, after a period during which funds accumulate under the contract."
+    },
+    {
+      "term": "Surrender charge",
+      "definition": "A fee for withdrawing or terminating certain insurance or investment contracts during a specified early period."
+    },
+    {
+      "term": "Longevity risk",
+      "definition": "The possibility of living longer than expected and exhausting the resources intended to support retirement."
+    },
+    {
+      "term": "Sequence-of-returns risk",
+      "definition": "The risk that poor investment returns early in withdrawals cause lasting damage despite a similar long-run average return."
+    },
+    {
+      "term": "Withdrawal rate",
+      "definition": "The portion of a portfolio taken out over a period, with sustainability depending on returns, inflation, timing, and spending flexibility."
+    },
+    {
+      "term": "Retirement spending floor",
+      "definition": "An estimate of essential retirement expenses used to assess whether reliable income sources cover basic needs."
+    },
+    {
+      "term": "Estate",
+      "definition": "The property, rights, and obligations associated with a person, especially the assets and debts administered after death."
+    },
+    {
+      "term": "Will",
+      "definition": "A legal document directing specified matters after death, such as asset distribution and guardianship nominations, subject to applicable law."
+    },
+    {
+      "term": "Executor",
+      "definition": "The person authorized to administer a deceased person's estate according to the will and applicable legal procedures."
+    },
+    {
+      "term": "Probate",
+      "definition": "A legal process for administering a deceased person's estate, including validating documents, addressing debts, and distributing assets."
+    },
+    {
+      "term": "Intestacy",
+      "definition": "The condition of dying without an effective will governing relevant assets, causing applicable default inheritance rules to apply."
+    },
+    {
+      "term": "Living trust",
+      "definition": "A trust created during a person's lifetime to hold and manage assets under specified terms."
+    },
+    {
+      "term": "Revocable trust",
+      "definition": "A trust the person creating it can generally modify or revoke while retaining the necessary legal capacity."
+    },
+    {
+      "term": "Irrevocable trust",
+      "definition": "A trust whose terms generally cannot be changed unilaterally after creation, although legal modification options may exist."
+    },
+    {
+      "term": "Trustee",
+      "definition": "The person or entity responsible for managing trust assets according to the trust terms and fiduciary obligations."
+    },
+    {
+      "term": "Fiduciary duty",
+      "definition": "An obligation to act according to legally imposed standards for another's benefit, with details depending on the role."
+    },
+    {
+      "term": "Durable power of attorney",
+      "definition": "A legal authorization that can allow an agent to act for someone even after incapacity, within its terms and applicable law."
+    },
+    {
+      "term": "Healthcare proxy",
+      "definition": "A person legally designated to make healthcare decisions when the individual cannot, under the authorization and applicable rules."
+    },
+    {
+      "term": "Letter of instruction",
+      "definition": "An informal document conveying practical wishes and information that supplements planning but does not replace legally required estate documents."
+    }
+  ],
+  "Bonds and Lending": [
+    {
+      "term": "Face value",
+      "definition": "The stated principal amount of a debt security used to calculate repayment and, for many bonds, coupon payments."
+    },
+    {
+      "term": "Bond indenture",
+      "definition": "The contract setting a bond's payment terms, covenants, and the rights of issuers and bondholders."
+    },
+    {
+      "term": "Bond covenant",
+      "definition": "A promise or restriction in a debt agreement intended to protect lenders or define the issuer's obligations."
+    },
+    {
+      "term": "Secured bond",
+      "definition": "A debt security backed by specified collateral, with recovery still depending on asset value and legal priority."
+    },
+    {
+      "term": "Debenture",
+      "definition": "A debt security backed primarily by the issuer's creditworthiness rather than a claim on specifically pledged assets."
+    },
+    {
+      "term": "Senior debt",
+      "definition": "Borrowing with a higher contractual repayment priority than specified other obligations if the borrower becomes insolvent."
+    },
+    {
+      "term": "Subordinated debt",
+      "definition": "Debt ranking behind specified senior obligations for repayment, generally exposing investors to greater loss risk."
+    },
+    {
+      "term": "Investment-grade bond",
+      "definition": "A bond assigned a rating within designated higher credit-quality categories; the rating does not eliminate default or price risk."
+    },
+    {
+      "term": "High-yield bond",
+      "definition": "A bond with a lower credit rating or comparable risk profile, generally offering higher promised yields with greater default risk."
+    },
+    {
+      "term": "Credit spread",
+      "definition": "The extra yield on a debt instrument relative to a reference security, often reflecting credit and liquidity risk."
+    },
+    {
+      "term": "Default risk",
+      "definition": "The possibility that a borrower will fail to make required principal or interest payments when due."
+    },
+    {
+      "term": "Recovery rate",
+      "definition": "The portion of a claim ultimately recovered after a default, which can depend on collateral, seniority, and resolution costs."
+    },
+    {
+      "term": "Loss given default",
+      "definition": "The portion of an exposure lost if default occurs, after accounting for recoveries and relevant costs."
+    },
+    {
+      "term": "Yield to maturity",
+      "definition": "A bond return calculation assuming scheduled payments occur and the bond is held to maturity, with reinvestment assumptions affecting realized results."
+    },
+    {
+      "term": "Yield to call",
+      "definition": "A bond return calculation based on redemption at a specified call date and price rather than final maturity."
+    },
+    {
+      "term": "Current yield",
+      "definition": "A bond's annual coupon payment divided by its current market price, excluding capital gains and losses."
+    },
+    {
+      "term": "Yield curve",
+      "definition": "A graph relating yields to maturities for comparable debt instruments at a particular time."
+    },
+    {
+      "term": "Inverted yield curve",
+      "definition": "A yield-curve shape in which shorter-term yields exceed longer-term yields for the securities being compared."
+    },
+    {
+      "term": "Term premium",
+      "definition": "Compensation investors may require for holding longer-maturity debt rather than repeatedly holding short-term instruments."
+    },
+    {
+      "term": "Duration",
+      "definition": "A measure of a bond's timing or interest-rate sensitivity, depending on the specific duration calculation used."
+    },
+    {
+      "term": "Modified duration",
+      "definition": "An estimate of the percentage change in a bond's price for a small change in yield, holding other factors constant."
+    },
+    {
+      "term": "Convexity",
+      "definition": "A measure of the curvature in a bond's price-yield relationship that helps refine duration-based price estimates."
+    },
+    {
+      "term": "Interest-rate risk",
+      "definition": "The possibility that changing market rates will reduce an investment's value or alter future financing costs."
+    },
+    {
+      "term": "Reinvestment risk",
+      "definition": "The chance that cash received from an investment must be reinvested at a lower rate than expected."
+    },
+    {
+      "term": "Call risk",
+      "definition": "The possibility that an issuer redeems a security early, often forcing the investor to reinvest under less favorable conditions."
+    },
+    {
+      "term": "Callable bond",
+      "definition": "A bond allowing its issuer to redeem it before maturity under specified dates, prices, and conditions."
+    },
+    {
+      "term": "Puttable bond",
+      "definition": "A bond allowing its holder to demand early repayment under specified conditions, providing an investor-controlled redemption option."
+    },
+    {
+      "term": "Convertible bond",
+      "definition": "Debt that can be exchanged for a specified amount of the issuer's equity under the contract's terms."
+    },
+    {
+      "term": "Zero-coupon bond",
+      "definition": "A bond paying no periodic coupon and generally sold below its redemption amount, with the return arising from that difference."
+    },
+    {
+      "term": "Floating-rate note",
+      "definition": "Debt whose interest payments reset using a specified benchmark and spread, reducing some fixed-rate exposure while retaining other risks."
+    },
+    {
+      "term": "Inflation-linked bond",
+      "definition": "A debt security whose principal or payments adjust with a specified inflation measure under its terms."
+    },
+    {
+      "term": "Treasury bill",
+      "definition": "A short-term U.S. government security generally sold at a discount or par and repaid at face value at maturity."
+    },
+    {
+      "term": "Treasury note",
+      "definition": "A U.S. government debt security with a medium-term original maturity and regular interest payments."
+    },
+    {
+      "term": "Treasury bond",
+      "definition": "A longer-term U.S. government debt security paying regular interest and returning principal at maturity."
+    },
+    {
+      "term": "Treasury Inflation-Protected Security",
+      "definition": "A U.S. Treasury security whose principal adjusts with inflation under its terms, affecting interest payments and redemption value."
+    },
+    {
+      "term": "Municipal bond",
+      "definition": "Debt issued by a state, locality, or related authority, whose tax treatment and repayment sources vary."
+    },
+    {
+      "term": "General obligation bond",
+      "definition": "A municipal bond supported by the issuer's taxing or general financial resources under its legal pledge."
+    },
+    {
+      "term": "Revenue bond",
+      "definition": "A municipal bond repaid primarily from a specified revenue source, such as utility charges or facility income."
+    },
+    {
+      "term": "Corporate bond",
+      "definition": "Debt issued by a company, exposing investors to the issuer's payment capacity and the security's contractual terms."
+    },
+    {
+      "term": "Mortgage-backed security",
+      "definition": "An investment supported by payments from a pool of mortgages, with credit, interest-rate, and prepayment risks depending on its structure."
+    },
+    {
+      "term": "Asset-backed security",
+      "definition": "A security supported by cash flows from pooled financial assets such as auto loans or credit-card receivables."
+    },
+    {
+      "term": "Prepayment risk",
+      "definition": "The possibility that borrowers repay debt earlier than expected, changing an investor's cash flows and reinvestment opportunities."
+    },
+    {
+      "term": "Extension risk",
+      "definition": "The risk that expected repayments arrive later, lengthening an investment's exposure when market conditions change."
+    },
+    {
+      "term": "Bond ladder",
+      "definition": "A portfolio of bonds with staggered maturities intended to distribute reinvestment timing and provide recurring principal availability."
+    },
+    {
+      "term": "Accrued bond interest",
+      "definition": "Interest earned since the previous coupon date that a buyer commonly pays the seller when purchasing a bond."
+    },
+    {
+      "term": "Clean bond price",
+      "definition": "A quoted bond price excluding accrued interest, making it different from the total amount typically paid at settlement."
+    },
+    {
+      "term": "Dirty bond price",
+      "definition": "A bond's total transaction price including accrued interest in addition to the quoted clean price."
+    },
+    {
+      "term": "Bond premium",
+      "definition": "The amount by which a bond's price exceeds its face value, affecting its yield relative to the coupon rate."
+    },
+    {
+      "term": "Bond discount",
+      "definition": "The amount by which a bond's price falls below face value, affecting yield and potential repayment gains."
+    },
+    {
+      "term": "Credit-rating outlook",
+      "definition": "A rating agency's view of the possible direction of a future rating change, rather than a guarantee of that change."
+    }
+  ],
+  "Funds and Portfolio": [
+    {
+      "term": "Open-end fund",
+      "definition": "An investment fund that generally issues and redeems shares directly at prices based on net asset value."
+    },
+    {
+      "term": "Closed-end fund",
+      "definition": "An investment fund whose shares typically trade on an exchange and can sell above or below net asset value."
+    },
+    {
+      "term": "Unit investment trust",
+      "definition": "An investment company offering interests in a generally fixed portfolio for a specified term under its governing documents."
+    },
+    {
+      "term": "Money market fund",
+      "definition": "A mutual fund investing in short-term debt instruments that seeks liquidity and stability but is not a bank deposit."
+    },
+    {
+      "term": "Target-date fund",
+      "definition": "A fund that changes its investment mix over time around a stated target year, without guaranteeing retirement readiness."
+    },
+    {
+      "term": "Target-risk fund",
+      "definition": "A fund maintaining a specified risk-oriented asset mix, such as conservative or aggressive, rather than automatically following an age-based path."
+    },
+    {
+      "term": "Lifecycle glide path",
+      "definition": "The planned evolution of a target-date fund's asset mix before and after its stated target year."
+    },
+    {
+      "term": "Fund of funds",
+      "definition": "An investment fund holding other funds, potentially creating multiple layers of fees and overlapping exposures."
+    },
+    {
+      "term": "Sector fund",
+      "definition": "A fund concentrating on a particular industry or economic sector, with less diversification across sectors than a broad fund."
+    },
+    {
+      "term": "Balanced fund",
+      "definition": "A fund combining asset classes, commonly stocks and bonds, according to a stated allocation approach."
+    },
+    {
+      "term": "International equity fund",
+      "definition": "A fund investing in shares outside its stated home market, with geographic, currency, and company risks."
+    },
+    {
+      "term": "Emerging-market fund",
+      "definition": "A fund investing in economies classified as emerging markets, often facing additional liquidity, political, and governance risks."
+    },
+    {
+      "term": "Frontier-market fund",
+      "definition": "A fund investing in markets generally smaller or less developed than emerging markets, often with substantial trading and institutional risks."
+    },
+    {
+      "term": "Real estate investment trust",
+      "definition": "A company owning or financing income-producing real estate under a specific tax structure, with risks depending on its holdings and financing."
+    },
+    {
+      "term": "Publicly traded REIT",
+      "definition": "A real estate investment trust whose shares trade on an exchange, providing market liquidity without guaranteeing stable prices."
+    },
+    {
+      "term": "Nontraded REIT",
+      "definition": "A real estate investment trust whose shares are not exchange-listed, often involving limited liquidity, valuation uncertainty, and substantial fees."
+    },
+    {
+      "term": "Business development company",
+      "definition": "An investment company financing qualifying businesses, often exposing shareholders to credit risk, leverage, fees, and portfolio valuation uncertainty."
+    },
+    {
+      "term": "Hedge fund",
+      "definition": "A privately offered pooled investment vehicle that may use complex strategies and restrictions not typical of retail mutual funds."
+    },
+    {
+      "term": "Private equity fund",
+      "definition": "A pooled vehicle investing in privately held companies or buyouts, usually with long holding periods and limited investor liquidity."
+    },
+    {
+      "term": "Venture capital fund",
+      "definition": "A pooled investment vehicle financing young or growing businesses, with high failure risk and uncertain timing of realizations."
+    },
+    {
+      "term": "Interval fund",
+      "definition": "A closed-end fund offering periodic repurchases of limited amounts of its shares rather than continuous redemption on demand."
+    },
+    {
+      "term": "Exchange-traded note",
+      "definition": "An unsecured issuer debt obligation whose return follows a specified benchmark or formula, exposing holders to issuer credit risk."
+    },
+    {
+      "term": "Leveraged ETF",
+      "definition": "An exchange-traded fund seeking a multiple of a benchmark's return over a specified period, usually a single day."
+    },
+    {
+      "term": "Inverse ETF",
+      "definition": "An exchange-traded fund seeking the opposite of a benchmark's return over a specified period, usually a single day."
+    },
+    {
+      "term": "Tracking error",
+      "definition": "A measure of how much an investment's returns vary from those of its stated benchmark over time."
+    },
+    {
+      "term": "Tracking difference",
+      "definition": "The difference between a fund's return and its benchmark's return over a stated measurement period."
+    },
+    {
+      "term": "Fund turnover",
+      "definition": "A measure of how frequently a fund trades its portfolio, potentially affecting transaction costs and taxable distributions."
+    },
+    {
+      "term": "Swing pricing",
+      "definition": "A fund pricing method adjusting transaction value to allocate certain trading costs to investors whose activity creates them."
+    },
+    {
+      "term": "Redemption fee",
+      "definition": "A charge imposed when selling or redeeming an investment under specified conditions, often intended to discourage short-term trading."
+    },
+    {
+      "term": "Management fee",
+      "definition": "Compensation paid for managing investment assets, commonly calculated as a percentage of assets under management."
+    },
+    {
+      "term": "Performance fee",
+      "definition": "Compensation tied to investment results under a specified formula, which can create incentives to take additional risk."
+    },
+    {
+      "term": "Expense waiver",
+      "definition": "An arrangement temporarily reducing specified fund expenses, making its duration and possible reimbursement terms important to understand."
+    },
+    {
+      "term": "Net expense ratio",
+      "definition": "A fund's reported expense measure after applicable waivers or reimbursements, which may change when those arrangements expire."
+    },
+    {
+      "term": "Gross expense ratio",
+      "definition": "A fund expense measure before applicable waivers or reimbursements, useful when assessing costs if temporary reductions end."
+    },
+    {
+      "term": "Fund share class",
+      "definition": "A version of ownership in the same fund portfolio with a distinct fee structure or eligibility requirement."
+    },
+    {
+      "term": "Distribution yield",
+      "definition": "A payout-based measure calculated from distributions relative to an investment price or value, not necessarily its total investment return."
+    },
+    {
+      "term": "Return of capital",
+      "definition": "A distribution classified as returning some invested principal rather than current income, potentially reducing an investor's tax basis."
+    },
+    {
+      "term": "Capital gains distribution",
+      "definition": "A fund payment of realized investment gains to shareholders, which can create tax consequences outside tax-advantaged accounts."
+    },
+    {
+      "term": "Portfolio overlap",
+      "definition": "Holding the same underlying investments through multiple funds or accounts, which can create more concentration than expected."
+    },
+    {
+      "term": "Concentration risk",
+      "definition": "The possibility of large losses because too much exposure depends on one issuer, sector, asset, or related source of risk."
+    },
+    {
+      "term": "Liquidity risk",
+      "definition": "The possibility of being unable to sell or access an investment promptly at a reasonable price."
+    },
+    {
+      "term": "Systematic risk",
+      "definition": "Market-wide risk affecting many investments that ordinary diversification within the same market cannot fully remove."
+    },
+    {
+      "term": "Idiosyncratic risk",
+      "definition": "Risk specific to a company or investment that may be reduced by holding a sufficiently diversified portfolio."
+    },
+    {
+      "term": "Risk capacity",
+      "definition": "The financial ability to withstand losses without jeopardizing essential expenses or goals, distinct from emotional willingness to take risk."
+    },
+    {
+      "term": "Risk-adjusted return",
+      "definition": "Investment performance assessed relative to a specified measure of risk rather than return alone."
+    },
+    {
+      "term": "Sharpe ratio",
+      "definition": "A measure comparing excess return with return variability, useful only when its assumptions and measurement period are considered."
+    },
+    {
+      "term": "Maximum drawdown",
+      "definition": "The largest observed peak-to-trough decline in an investment's value over a specified period."
+    },
+    {
+      "term": "Rebalancing band",
+      "definition": "A predetermined tolerance around a target allocation that triggers consideration of portfolio adjustments when the allocation moves outside it."
+    },
+    {
+      "term": "Asset location",
+      "definition": "Choosing which account types hold particular investments, considering tax treatment, costs, access needs, and the overall portfolio."
+    },
+    {
+      "term": "Investment policy statement",
+      "definition": "A written framework recording an investor's objectives, constraints, allocation approach, and rules for managing the portfolio."
+    }
+  ],
+  "Trading and Markets": [
+    {
+      "term": "Primary market",
+      "definition": "The market in which newly issued securities are sold and the issuer receives the relevant offering proceeds."
+    },
+    {
+      "term": "Secondary market",
+      "definition": "The market in which existing securities trade between investors rather than being newly issued by the company."
+    },
+    {
+      "term": "Initial public offering",
+      "definition": "A company's first public sale of shares, which does not ensure that the offering price reflects future value."
+    },
+    {
+      "term": "Direct listing",
+      "definition": "A process for admitting a company's shares to public trading without the usual traditional underwriting structure."
+    },
+    {
+      "term": "Follow-on offering",
+      "definition": "A public sale of securities by a company or existing holders after the company has already become publicly traded."
+    },
+    {
+      "term": "Private placement",
+      "definition": "A securities offering conducted under an exemption from public registration requirements, often with investor eligibility and resale restrictions."
+    },
+    {
+      "term": "Market order",
+      "definition": "An instruction to trade promptly at available market prices, prioritizing execution while leaving the final price uncertain."
+    },
+    {
+      "term": "Limit order",
+      "definition": "An instruction to buy at or below a specified price or sell at or above it, without guaranteeing execution."
+    },
+    {
+      "term": "Stop order",
+      "definition": "An instruction that becomes a market order after a specified trigger, so the eventual execution price may differ substantially."
+    },
+    {
+      "term": "Stop-limit order",
+      "definition": "An instruction that becomes a limit order after a trigger price is reached, protecting a price limit but risking nonexecution."
+    },
+    {
+      "term": "Trailing stop",
+      "definition": "A stop instruction whose trigger moves with favorable price changes according to a specified distance or percentage."
+    },
+    {
+      "term": "Day order",
+      "definition": "A trading instruction that expires at the end of the relevant trading day if it has not been executed."
+    },
+    {
+      "term": "Good-till-canceled order",
+      "definition": "An order remaining active until executed, canceled, or expired under the broker's maximum-duration policy."
+    },
+    {
+      "term": "Fill-or-kill order",
+      "definition": "An instruction requiring immediate execution of the entire specified quantity or cancellation without a partial fill."
+    },
+    {
+      "term": "Immediate-or-cancel order",
+      "definition": "An instruction requiring immediate execution of any available quantity and cancellation of the portion that cannot be filled."
+    },
+    {
+      "term": "Bid price",
+      "definition": "The price a buyer is currently willing to pay for a specified quantity of an asset."
+    },
+    {
+      "term": "Ask price",
+      "definition": "The price a seller is currently willing to accept for a specified quantity of an asset."
+    },
+    {
+      "term": "Bid-ask spread",
+      "definition": "The difference between quoted selling and buying prices, representing a potential trading cost and liquidity indicator."
+    },
+    {
+      "term": "Order book",
+      "definition": "A record of buy and sell orders organized by price and quantity on a trading venue."
+    },
+    {
+      "term": "Market depth",
+      "definition": "The amount of buying and selling interest available at different prices, affecting how a larger trade may move prices."
+    },
+    {
+      "term": "Slippage",
+      "definition": "The difference between an expected trade price and the price actually obtained, often caused by changing prices or limited liquidity."
+    },
+    {
+      "term": "Partial fill",
+      "definition": "Execution of only part of an order's requested quantity, leaving the rest pending or canceled under its terms."
+    },
+    {
+      "term": "Limit-up limit-down mechanism",
+      "definition": "A market control restricting trades outside specified price bands for eligible securities during defined periods."
+    },
+    {
+      "term": "Trading halt",
+      "definition": "A temporary pause in trading, potentially imposed because of news, volatility, regulatory concerns, or other specified circumstances."
+    },
+    {
+      "term": "Circuit breaker",
+      "definition": "A rule pausing or restricting trading after specified market movements to address disorderly conditions."
+    },
+    {
+      "term": "Extended-hours trading",
+      "definition": "Securities trading outside regular exchange hours, often involving less liquidity, wider spreads, and different order availability."
+    },
+    {
+      "term": "Odd-lot order",
+      "definition": "A securities order smaller than the standard trading unit for that market, which may receive different quotation treatment."
+    },
+    {
+      "term": "Fractional share",
+      "definition": "Ownership of less than one whole share, with trading, transfer, and voting features depending on the provider."
+    },
+    {
+      "term": "Short selling",
+      "definition": "Selling borrowed securities with the aim of repurchasing them later, involving borrowing costs and potentially very large losses."
+    },
+    {
+      "term": "Margin account",
+      "definition": "A brokerage account allowing borrowing against eligible securities, with interest costs and forced-sale risk if requirements are not maintained."
+    },
+    {
+      "term": "Margin call",
+      "definition": "A demand to restore required equity in a leveraged account, potentially followed by liquidation under the broker's rules."
+    },
+    {
+      "term": "Maintenance margin",
+      "definition": "The minimum equity required to keep a leveraged position open after its initial purchase."
+    },
+    {
+      "term": "Securities lending",
+      "definition": "Temporarily transferring securities to a borrower under an agreement, which can create income as well as counterparty and collateral risks."
+    },
+    {
+      "term": "Short squeeze",
+      "definition": "A rapid price rise that pressures short sellers to buy back shares, potentially amplifying the increase."
+    },
+    {
+      "term": "Options contract",
+      "definition": "An agreement giving its buyer specified rights to buy or sell an underlying asset while imposing corresponding obligations on its seller."
+    },
+    {
+      "term": "Call option",
+      "definition": "A contract giving its holder the right to buy an underlying asset at a specified price under stated conditions."
+    },
+    {
+      "term": "Put option",
+      "definition": "A contract giving its holder the right to sell an underlying asset at a specified price under stated conditions."
+    },
+    {
+      "term": "Strike price",
+      "definition": "The price at which an option permits the underlying asset to be bought or sold under its terms."
+    },
+    {
+      "term": "Option premium",
+      "definition": "The price paid by an option buyer to the seller for the contractual rights provided."
+    },
+    {
+      "term": "Option expiration",
+      "definition": "The time after which an option's contractual rights cease unless exercised or otherwise resolved under its rules."
+    },
+    {
+      "term": "Intrinsic value",
+      "definition": "For an option, the amount it would be worth from immediate exercise, excluding additional time value."
+    },
+    {
+      "term": "Time value",
+      "definition": "The portion of an option's premium beyond its intrinsic value, reflecting remaining opportunity and uncertainty before expiration."
+    },
+    {
+      "term": "Covered call",
+      "definition": "An options strategy selling a call while holding the underlying shares, exchanging some upside potential for premium income."
+    },
+    {
+      "term": "Protective put",
+      "definition": "An options position combining ownership of an asset with a purchased put to limit specified downside exposure at a cost."
+    },
+    {
+      "term": "Futures contract",
+      "definition": "A standardized agreement to buy or sell an underlying exposure at a future date, often settled financially and involving leverage."
+    },
+    {
+      "term": "Counterparty risk",
+      "definition": "The possibility that the other party to a financial contract fails to meet its obligations."
+    },
+    {
+      "term": "Clearinghouse",
+      "definition": "An entity that helps complete transactions and manage participant obligations, often acting between buyers and sellers in covered markets."
+    },
+    {
+      "term": "Trade confirmation",
+      "definition": "A broker's record of an executed transaction, including details needed to check the security, quantity, price, and charges."
+    },
+    {
+      "term": "Corporate action",
+      "definition": "An issuer event affecting securities, such as a dividend, merger, split, or rights offering."
+    },
+    {
+      "term": "Stock split",
+      "definition": "A change in the number of a company's shares that adjusts the per-share price without itself changing total ownership value."
+    }
+  ],
+  "Business Financial Statements": [
+    {
+      "term": "Balance sheet",
+      "definition": "A statement showing an organization's assets, liabilities, and equity at a specific point in time."
+    },
+    {
+      "term": "Income statement",
+      "definition": "A statement reporting revenue, expenses, and resulting profit or loss over a specified period."
+    },
+    {
+      "term": "Cash flow statement",
+      "definition": "A statement showing cash movements grouped into operating, investing, and financing activities for a period."
+    },
+    {
+      "term": "Statement of equity",
+      "definition": "A report explaining changes in owners' equity, including earnings, contributions, distributions, and other relevant adjustments."
+    },
+    {
+      "term": "Liability",
+      "definition": "A present financial obligation, such as money owed to suppliers, lenders, employees, or tax authorities."
+    },
+    {
+      "term": "Owners' equity",
+      "definition": "The residual interest in an organization's assets after subtracting its liabilities under the applicable accounting framework."
+    },
+    {
+      "term": "Revenue",
+      "definition": "Income recognized from ordinary business activities before subtracting associated expenses under the applicable accounting rules."
+    },
+    {
+      "term": "Cost of goods sold",
+      "definition": "The costs assigned to products sold during a period, used to calculate gross profit."
+    },
+    {
+      "term": "Gross profit",
+      "definition": "Revenue minus the cost of goods sold or services delivered, before deducting other operating and financing expenses."
+    },
+    {
+      "term": "Gross margin",
+      "definition": "Gross profit divided by revenue, showing the share of sales remaining after the directly associated cost measure."
+    },
+    {
+      "term": "Operating expense",
+      "definition": "A cost of running ordinary business activities that is not classified as a capital purchase or other excluded category."
+    },
+    {
+      "term": "Operating income",
+      "definition": "Profit from core operations before specified nonoperating items, such as financing costs and income taxes."
+    },
+    {
+      "term": "Net profit margin",
+      "definition": "Net profit divided by revenue, indicating how much of each sales dollar remains after the included expenses."
+    },
+    {
+      "term": "Accounts receivable",
+      "definition": "Amounts customers owe a business for goods or services already supplied on credit."
+    },
+    {
+      "term": "Accounts payable",
+      "definition": "Amounts a business owes suppliers for goods or services already received but not yet paid for."
+    },
+    {
+      "term": "Inventory",
+      "definition": "Goods held for sale or production inputs, whose valuation and turnover affect both reported profit and cash needs."
+    },
+    {
+      "term": "Working capital",
+      "definition": "Current assets minus current liabilities, a common measure of short-term operating financial resources."
+    },
+    {
+      "term": "Current asset",
+      "definition": "An asset expected to be converted to cash, sold, or used within the relevant operating cycle or short-term period."
+    },
+    {
+      "term": "Current liability",
+      "definition": "An obligation expected to be settled within the relevant operating cycle or short-term reporting period."
+    },
+    {
+      "term": "Current ratio",
+      "definition": "Current assets divided by current liabilities, providing one view of an organization's short-term payment capacity."
+    },
+    {
+      "term": "Quick ratio",
+      "definition": "A liquidity measure comparing selected readily available assets with current liabilities, generally excluding inventory and other less-liquid items."
+    },
+    {
+      "term": "Cash conversion cycle",
+      "definition": "The time between paying for operating inputs and collecting cash from sales, reflecting inventory, receivables, and payables timing."
+    },
+    {
+      "term": "Accrual accounting",
+      "definition": "Recording revenue and expenses when earned or incurred under accounting rules rather than only when cash changes hands."
+    },
+    {
+      "term": "Cash-basis accounting",
+      "definition": "Recording income and expenses mainly when money is received or paid, subject to the rules governing its permitted use."
+    },
+    {
+      "term": "Deferred revenue",
+      "definition": "Money received before the associated goods or services are delivered, generally recorded as a liability until earned."
+    },
+    {
+      "term": "Accrued expense",
+      "definition": "An expense already incurred but not yet paid or fully invoiced, recognized under accrual accounting."
+    },
+    {
+      "term": "Prepaid expense",
+      "definition": "A payment for a benefit to be used in future periods, initially recorded as an asset under accrual accounting."
+    },
+    {
+      "term": "Depreciation expense",
+      "definition": "An allocation of a tangible long-lived asset's depreciable cost over its estimated useful life for accounting purposes."
+    },
+    {
+      "term": "Amortization expense",
+      "definition": "An allocation of certain intangible asset costs over their estimated useful life under applicable accounting rules."
+    },
+    {
+      "term": "Goodwill",
+      "definition": "An acquisition-related asset representing amounts beyond the identified net assets' measured value, subject to accounting assessment for impairment."
+    },
+    {
+      "term": "Asset impairment",
+      "definition": "A reduction in an asset's recorded value when applicable accounting tests show its carrying amount is not recoverable or supported."
+    },
+    {
+      "term": "Retained earnings",
+      "definition": "Accumulated earnings kept in a business after distributions and relevant adjustments, rather than a separate pot of cash."
+    },
+    {
+      "term": "Share repurchase",
+      "definition": "A company's purchase of its own shares, reducing shares outstanding or held by outside investors under the transaction's structure."
+    },
+    {
+      "term": "Earnings per share",
+      "definition": "Profit attributable to common shareholders divided by the applicable share count, with basic and diluted calculations potentially differing."
+    },
+    {
+      "term": "Dilution",
+      "definition": "A reduction in an existing owner's proportional claim caused by issuing additional shares or converting other instruments into equity."
+    },
+    {
+      "term": "Price-to-earnings ratio",
+      "definition": "Share price divided by earnings per share, a valuation measure whose interpretation depends on earnings quality and growth expectations."
+    },
+    {
+      "term": "Price-to-book ratio",
+      "definition": "Market value per share divided by accounting book value per share, with usefulness varying across business models."
+    },
+    {
+      "term": "Enterprise value",
+      "definition": "A business valuation measure combining equity value and specified debt or other claims, typically subtracting cash under the chosen formula."
+    },
+    {
+      "term": "Free cash flow",
+      "definition": "Cash generated after specified operating and capital needs, with the exact definition important because it is not universally standardized."
+    },
+    {
+      "term": "Capital structure",
+      "definition": "The mix of debt, equity, and other financing claims used to fund a business."
+    },
+    {
+      "term": "Operating leverage",
+      "definition": "The sensitivity of operating profit to changes in sales caused by the business's mix of fixed and variable costs."
+    },
+    {
+      "term": "Financial leverage",
+      "definition": "The use of borrowing or other fixed financial obligations that can amplify both returns and losses for equity holders."
+    },
+    {
+      "term": "Interest coverage ratio",
+      "definition": "A measure comparing a specified earnings amount with interest expense to assess capacity to service debt."
+    },
+    {
+      "term": "Debt covenant breach",
+      "definition": "Failure to meet a borrowing agreement's financial or other conditions, potentially triggering remedies even before a missed payment."
+    },
+    {
+      "term": "Audit opinion",
+      "definition": "An independent auditor's conclusion about financial statements under the relevant auditing framework, not a guarantee against every error or fraud."
+    },
+    {
+      "term": "Going-concern uncertainty",
+      "definition": "Significant doubt about an organization's ability to continue operating and meet obligations over the relevant assessment period."
+    },
+    {
+      "term": "Related-party transaction",
+      "definition": "A transaction involving parties with a preexisting connection that may affect independence, pricing, or disclosure needs."
+    },
+    {
+      "term": "Segment reporting",
+      "definition": "Financial information organized by business lines or other operating segments so users can understand different sources of performance."
+    },
+    {
+      "term": "Non-GAAP measure",
+      "definition": "A financial metric adjusted from standard accounting measures, which should be assessed alongside its definition and reconciliation."
+    },
+    {
+      "term": "Footnote disclosure",
+      "definition": "Explanatory information accompanying financial statements that supplies accounting policies, risks, commitments, and details beyond the main tables."
+    }
+  ],
+  "Behavioral Decisions": [
+    {
+      "term": "Anchoring bias",
+      "definition": "Giving excessive weight to an initial number or reference point when making a later judgment or financial decision."
+    },
+    {
+      "term": "Loss aversion",
+      "definition": "A tendency to experience a loss more strongly than a comparable gain, potentially affecting risk-taking and purchase decisions."
+    },
+    {
+      "term": "Present bias",
+      "definition": "Giving disproportionate weight to immediate rewards or costs compared with consequences that occur later."
+    },
+    {
+      "term": "Hyperbolic discounting",
+      "definition": "A pattern of valuing delayed outcomes that can cause preferences to reverse as a reward becomes more immediate."
+    },
+    {
+      "term": "Status quo bias",
+      "definition": "A tendency to prefer the current arrangement even when switching may better serve the person's goals."
+    },
+    {
+      "term": "Default effect",
+      "definition": "The influence of a preselected option on choices, especially when changing it requires additional effort or attention."
+    },
+    {
+      "term": "Framing effect",
+      "definition": "A change in decisions caused by how equivalent information is presented rather than by differences in underlying outcomes."
+    },
+    {
+      "term": "Mental accounting",
+      "definition": "Treating money differently based on its source, label, or intended use even when the dollars are economically interchangeable."
+    },
+    {
+      "term": "Sunk cost fallacy",
+      "definition": "Continuing an activity because of past unrecoverable spending rather than comparing its future benefits and costs."
+    },
+    {
+      "term": "Endowment effect",
+      "definition": "Valuing an item more highly simply because one already owns it, which can distort selling or replacement decisions."
+    },
+    {
+      "term": "Overconfidence bias",
+      "definition": "Overestimating one's knowledge, forecasting ability, or control, potentially leading to excessive trading or insufficient preparation."
+    },
+    {
+      "term": "Confirmation bias",
+      "definition": "Seeking or interpreting information in ways that support existing beliefs while overlooking evidence that challenges them."
+    },
+    {
+      "term": "Availability heuristic",
+      "definition": "Judging likelihood using examples that come easily to mind rather than a balanced assessment of relevant evidence."
+    },
+    {
+      "term": "Representativeness heuristic",
+      "definition": "Judging a case by resemblance to a familiar pattern while giving too little weight to base rates or other evidence."
+    },
+    {
+      "term": "Base-rate neglect",
+      "definition": "Ignoring how common an event is overall when evaluating a particular example or persuasive claim."
+    },
+    {
+      "term": "Recency bias",
+      "definition": "Giving unusually strong weight to recent events when making judgments about future outcomes or long-term patterns."
+    },
+    {
+      "term": "Hindsight bias",
+      "definition": "Believing after an event that its outcome was more predictable than it actually appeared beforehand."
+    },
+    {
+      "term": "Survivorship bias",
+      "definition": "Drawing conclusions from visible successes while ignoring failures or missing cases that would change the picture."
+    },
+    {
+      "term": "Selection bias",
+      "definition": "A distortion caused by how observations or participants enter a sample, making the observed group unrepresentative."
+    },
+    {
+      "term": "Herd behavior",
+      "definition": "Following others' choices instead of evaluating available information independently, which can amplify market or spending trends."
+    },
+    {
+      "term": "Social proof",
+      "definition": "Using other people's apparent actions or approval as evidence of what to choose, even when that evidence is unreliable."
+    },
+    {
+      "term": "Authority bias",
+      "definition": "Giving excessive weight to a person's apparent status or expertise without sufficiently checking the relevant evidence."
+    },
+    {
+      "term": "Halo effect",
+      "definition": "Allowing one positive impression of a person or brand to influence judgments about unrelated qualities."
+    },
+    {
+      "term": "Scarcity effect",
+      "definition": "An increase in perceived appeal when an item seems limited, which marketers may exploit to accelerate purchases."
+    },
+    {
+      "term": "Decoy effect",
+      "definition": "A shift in preference between options after adding another option designed to make one alternative appear more attractive."
+    },
+    {
+      "term": "Choice overload",
+      "definition": "Difficulty deciding when the number or complexity of options exceeds a person's attention or comparison capacity."
+    },
+    {
+      "term": "Decision fatigue",
+      "definition": "A decline in decision quality or willingness after repeated demanding choices, potentially encouraging shortcuts or default selection."
+    },
+    {
+      "term": "Planning fallacy",
+      "definition": "Underestimating the time, effort, or cost needed for a task despite evidence from similar past experiences."
+    },
+    {
+      "term": "Optimism bias",
+      "definition": "Expecting more favorable outcomes for oneself than available evidence reasonably supports, potentially weakening financial preparation."
+    },
+    {
+      "term": "Projection bias",
+      "definition": "Assuming future preferences or circumstances will resemble current ones too closely when making longer-term decisions."
+    },
+    {
+      "term": "Affect heuristic",
+      "definition": "Using an immediate emotional response as a shortcut for judging an option's risks and benefits."
+    },
+    {
+      "term": "Ambiguity aversion",
+      "definition": "Preferring outcomes with better-known probabilities over alternatives whose probabilities are uncertain, even when potential returns differ."
+    },
+    {
+      "term": "Regret aversion",
+      "definition": "Avoiding choices that might later feel like mistakes, sometimes leading to inaction or excessive conformity."
+    },
+    {
+      "term": "Disposition effect",
+      "definition": "A tendency to sell winning investments too quickly while holding losing investments too long for psychological reasons."
+    },
+    {
+      "term": "House-money effect",
+      "definition": "Treating recent gains as easier to risk than previously held money, even though both contribute to wealth."
+    },
+    {
+      "term": "Break-even effect",
+      "definition": "A tendency to take additional risk after a loss in pursuit of returning to a previous reference level."
+    },
+    {
+      "term": "Probability weighting",
+      "definition": "Giving decision weight to probabilities in a way that differs from their numerical size, especially for very small or large chances."
+    },
+    {
+      "term": "Narrow bracketing",
+      "definition": "Evaluating a decision in isolation instead of considering how it fits with other risks, choices, or household resources."
+    },
+    {
+      "term": "Commitment device",
+      "definition": "An arrangement chosen in advance to make it easier to follow a desired future behavior or harder to abandon it."
+    },
+    {
+      "term": "Implementation intention",
+      "definition": "A specific plan connecting a situation to an action, such as transferring savings immediately after each payday."
+    },
+    {
+      "term": "Precommitment",
+      "definition": "Deciding on rules or actions before facing temptation or pressure, helping reduce reliance on willpower at the moment."
+    },
+    {
+      "term": "Outcome bias",
+      "definition": "Judging a decision by its eventual result rather than by the information and reasoning available when it was made."
+    },
+    {
+      "term": "Consider-the-opposite technique",
+      "definition": "Actively asking what evidence would support the opposing conclusion to reduce one-sided reasoning in a decision."
+    },
+    {
+      "term": "Premortem",
+      "definition": "Imagining that a planned decision failed and identifying possible causes before committing resources."
+    },
+    {
+      "term": "Reference-class forecasting",
+      "definition": "Estimating an outcome using results from comparable past cases instead of relying only on details of the current plan."
+    },
+    {
+      "term": "Decision journal",
+      "definition": "A record of choices, reasons, expectations, and later outcomes used to improve judgment without rewriting the original reasoning."
+    },
+    {
+      "term": "Financial self-efficacy",
+      "definition": "Confidence in one's ability to manage financial tasks, which can influence persistence while still requiring accurate knowledge and support."
+    },
+    {
+      "term": "Lifestyle inflation",
+      "definition": "Increasing ongoing spending as income rises, potentially preventing improvements in savings or financial flexibility."
+    },
+    {
+      "term": "Hedonic adaptation",
+      "definition": "The tendency for satisfaction from a change to diminish as it becomes familiar, affecting expectations about purchases."
+    },
+    {
+      "term": "Friction cost",
+      "definition": "The effort, time, or inconvenience required to act, which can discourage both beneficial choices and unwanted purchases."
+    }
+  ],
+  "Microeconomic Choices": [
+    {
+      "term": "Scarcity",
+      "definition": "The condition in which available resources are insufficient to satisfy every desired use, requiring choices and tradeoffs."
+    },
+    {
+      "term": "Opportunity cost",
+      "definition": "The value of the best alternative given up when choosing one action or use of resources."
+    },
+    {
+      "term": "Marginal benefit",
+      "definition": "The additional benefit obtained from one more unit of an activity, product, or resource."
+    },
+    {
+      "term": "Marginal cost",
+      "definition": "The additional cost of producing or consuming one more unit, holding the relevant decision context constant."
+    },
+    {
+      "term": "Incentive",
+      "definition": "A reward, penalty, or condition that changes the perceived benefits or costs of a possible action."
+    },
+    {
+      "term": "Tradeoff",
+      "definition": "A choice requiring more of one objective or resource use to be exchanged for less of another."
+    },
+    {
+      "term": "Demand curve",
+      "definition": "A relationship showing quantities buyers are willing and able to purchase at different prices, holding other relevant factors constant."
+    },
+    {
+      "term": "Supply curve",
+      "definition": "A relationship showing quantities sellers are willing and able to offer at different prices, holding other relevant factors constant."
+    },
+    {
+      "term": "Market equilibrium",
+      "definition": "A price and quantity where planned quantity supplied equals planned quantity demanded under the model's assumptions."
+    },
+    {
+      "term": "Excess demand",
+      "definition": "A situation where the quantity buyers want at a given price exceeds the quantity sellers offer."
+    },
+    {
+      "term": "Excess supply",
+      "definition": "A situation where the quantity sellers offer at a given price exceeds the quantity buyers want."
+    },
+    {
+      "term": "Price ceiling",
+      "definition": "A maximum permitted price that can create a shortage when set below the market-clearing level under standard assumptions."
+    },
+    {
+      "term": "Price floor",
+      "definition": "A minimum permitted price that can create a surplus when set above the market-clearing level under standard assumptions."
+    },
+    {
+      "term": "Price elasticity of demand",
+      "definition": "The responsiveness of quantity demanded to a percentage change in price, holding other influences constant."
+    },
+    {
+      "term": "Price elasticity of supply",
+      "definition": "The responsiveness of quantity supplied to a percentage change in price, holding other influences constant."
+    },
+    {
+      "term": "Income elasticity of demand",
+      "definition": "The responsiveness of quantity demanded to a percentage change in consumer income, holding other factors constant."
+    },
+    {
+      "term": "Cross-price elasticity",
+      "definition": "The responsiveness of demand for one product to a percentage change in another product's price."
+    },
+    {
+      "term": "Substitute goods",
+      "definition": "Products that can satisfy similar needs, so a higher price for one may increase demand for the other."
+    },
+    {
+      "term": "Complementary goods",
+      "definition": "Products often used together, so a higher price for one may reduce demand for the other."
+    },
+    {
+      "term": "Normal good",
+      "definition": "A product whose demand increases as income rises, holding its price and other relevant factors constant."
+    },
+    {
+      "term": "Inferior good",
+      "definition": "A product whose demand decreases as income rises, reflecting consumers' changing choices rather than necessarily low physical quality."
+    },
+    {
+      "term": "Consumer surplus",
+      "definition": "The difference between what buyers are willing to pay and what they actually pay, aggregated over purchases."
+    },
+    {
+      "term": "Producer surplus",
+      "definition": "The difference between what sellers receive and the minimum they would accept for the units sold."
+    },
+    {
+      "term": "Deadweight loss",
+      "definition": "A loss of total economic surplus from mutually beneficial exchanges or efficient production opportunities that do not occur."
+    },
+    {
+      "term": "Tax incidence",
+      "definition": "The division of a tax's economic burden among participants, which can differ from who legally sends the payment."
+    },
+    {
+      "term": "Externality",
+      "definition": "A cost or benefit of an activity affecting others that is not fully reflected in the decision-maker's market transaction."
+    },
+    {
+      "term": "Public good",
+      "definition": "A good that is nonrival and difficult to exclude people from using, creating challenges for private provision."
+    },
+    {
+      "term": "Common resource",
+      "definition": "A resource that is rival in use but difficult to exclude people from accessing, creating potential overuse problems."
+    },
+    {
+      "term": "Free-rider problem",
+      "definition": "The difficulty of funding a shared benefit when people can enjoy it without contributing to its cost."
+    },
+    {
+      "term": "Tragedy of the commons",
+      "definition": "Overuse of a shared resource when individual incentives fail to account for the costs imposed on other users."
+    },
+    {
+      "term": "Information asymmetry",
+      "definition": "A situation where one party to a transaction has relevant information the other party lacks."
+    },
+    {
+      "term": "Adverse selection",
+      "definition": "A market problem in which hidden characteristics influence who participates, potentially worsening the average quality or risk of the pool."
+    },
+    {
+      "term": "Moral hazard",
+      "definition": "A change in behavior when someone does not bear the full consequences of their actions after an agreement."
+    },
+    {
+      "term": "Principal-agent problem",
+      "definition": "A conflict arising when someone acting on another's behalf has different incentives and actions are difficult to monitor."
+    },
+    {
+      "term": "Signaling",
+      "definition": "Taking an observable action that conveys information about otherwise difficult-to-observe qualities, such as credentials indicating training."
+    },
+    {
+      "term": "Screening",
+      "definition": "Designing questions, choices, or requirements to reveal information about another party's characteristics before entering an arrangement."
+    },
+    {
+      "term": "Transaction cost",
+      "definition": "The time, effort, and expense of finding, negotiating, executing, and enforcing an exchange beyond the product's stated price."
+    },
+    {
+      "term": "Search cost",
+      "definition": "The resources spent finding and comparing options, including time spent evaluating prices, quality, and contractual terms."
+    },
+    {
+      "term": "Switching cost",
+      "definition": "The financial or practical burden of changing providers or products, which can reduce effective competition."
+    },
+    {
+      "term": "Network effect",
+      "definition": "A change in a product's value as more people use it, potentially reinforcing an established platform's position."
+    },
+    {
+      "term": "Economies of scale",
+      "definition": "A reduction in average cost as production expands over a relevant range, holding the production environment in view."
+    },
+    {
+      "term": "Economies of scope",
+      "definition": "Cost advantages from producing different products together rather than through separate operations."
+    },
+    {
+      "term": "Diminishing marginal returns",
+      "definition": "A decline in extra output from adding one input while other relevant inputs remain fixed."
+    },
+    {
+      "term": "Perfect competition",
+      "definition": "A market model with many price-taking buyers and sellers and assumptions such as similar products and easy entry."
+    },
+    {
+      "term": "Monopoly",
+      "definition": "A market structure with a single supplier facing limited direct competition, though substitutes and regulation may still constrain behavior."
+    },
+    {
+      "term": "Oligopoly",
+      "definition": "A market dominated by a small number of sellers whose decisions can substantially affect one another."
+    },
+    {
+      "term": "Monopolistic competition",
+      "definition": "A market structure with many firms selling differentiated products and some ability to set prices."
+    },
+    {
+      "term": "Monopsony",
+      "definition": "A market with a single buyer or buyer power concentrated enough to influence purchase terms, such as wages."
+    },
+    {
+      "term": "Price discrimination",
+      "definition": "Charging different effective prices to different buyers for reasons not fully explained by differences in serving costs."
+    },
+    {
+      "term": "Two-part tariff",
+      "definition": "A pricing structure combining an access fee with a separate charge for usage or each purchased unit."
+    }
+  ],
+  "Macroeconomic Measures": [
+    {
+      "term": "Gross domestic product",
+      "definition": "The market value of final goods and services produced within an economy during a specified period."
+    },
+    {
+      "term": "Real GDP",
+      "definition": "Gross domestic product adjusted for price changes so movements better reflect changes in production volumes."
+    },
+    {
+      "term": "Nominal GDP",
+      "definition": "Gross domestic product measured using current-period prices, reflecting both price and production changes."
+    },
+    {
+      "term": "GDP per capita",
+      "definition": "Gross domestic product divided by population, an average production measure that does not show income distribution."
+    },
+    {
+      "term": "Gross national income",
+      "definition": "Income earned by an economy's residents, including relevant cross-border income flows, rather than only production inside its borders."
+    },
+    {
+      "term": "Disposable personal income",
+      "definition": "Personal income remaining after personal current taxes, available for spending or saving under the national accounts definition."
+    },
+    {
+      "term": "Personal saving rate",
+      "definition": "Personal saving expressed as a share of disposable personal income under the relevant statistical definition."
+    },
+    {
+      "term": "Consumption expenditure",
+      "definition": "Spending on goods and services used by households or other defined consumers during a period."
+    },
+    {
+      "term": "Gross private domestic investment",
+      "definition": "Spending on private fixed assets and inventory changes within the domestic economy under national accounting definitions."
+    },
+    {
+      "term": "Government consumption and investment",
+      "definition": "Government purchases of current goods and services and investment in fixed assets, excluding transfers as direct purchases."
+    },
+    {
+      "term": "Transfer payment",
+      "definition": "A payment made without receiving a current good or service in return, such as certain government benefit payments."
+    },
+    {
+      "term": "Net exports",
+      "definition": "Exports minus imports, a component of the expenditure approach to measuring gross domestic product."
+    },
+    {
+      "term": "Inventory investment",
+      "definition": "The change in business inventories during a period, including unsold production or withdrawals from existing stocks."
+    },
+    {
+      "term": "GDP deflator",
+      "definition": "A price index derived from nominal and real GDP that reflects prices of domestically produced final output."
+    },
+    {
+      "term": "Consumer price index",
+      "definition": "A statistical measure tracking price changes for a specified basket of goods and services purchased by consumers."
+    },
+    {
+      "term": "Personal consumption expenditures price index",
+      "definition": "A price measure covering consumer goods and services in the national accounts, with methods and scope differing from the CPI."
+    },
+    {
+      "term": "Core inflation",
+      "definition": "A measure excluding selected volatile categories, commonly food and energy, to help analyze underlying price trends."
+    },
+    {
+      "term": "Headline inflation",
+      "definition": "The overall change in a broad price index including all covered categories, rather than excluding selected components."
+    },
+    {
+      "term": "Disinflation",
+      "definition": "A slowing of the inflation rate, meaning prices may still rise but at a lower pace."
+    },
+    {
+      "term": "Deflation",
+      "definition": "A sustained decline in a broad price level, increasing the purchasing power of money while potentially creating economic difficulties."
+    },
+    {
+      "term": "Real wage",
+      "definition": "A wage adjusted for the relevant price level, indicating the amount of goods and services it can purchase."
+    },
+    {
+      "term": "Nominal wage",
+      "definition": "A wage expressed in current money units before adjusting for changes in purchasing power."
+    },
+    {
+      "term": "Labor force",
+      "definition": "People classified as employed or unemployed under the statistical definition, excluding those outside active labor-market participation."
+    },
+    {
+      "term": "Labor force participation rate",
+      "definition": "The labor force as a percentage of the relevant working-age population under the statistical program's definitions."
+    },
+    {
+      "term": "Unemployment rate",
+      "definition": "The number of unemployed people divided by the labor force, using the applicable employment and job-search definitions."
+    },
+    {
+      "term": "Employment-population ratio",
+      "definition": "The employed population as a percentage of the relevant population group, capturing participation and employment outcomes together."
+    },
+    {
+      "term": "Frictional unemployment",
+      "definition": "Unemployment associated with normal job search and transitions between jobs, locations, or entry into the workforce."
+    },
+    {
+      "term": "Structural unemployment",
+      "definition": "Unemployment related to mismatches between workers and available jobs, such as skills, location, or changing industry needs."
+    },
+    {
+      "term": "Cyclical unemployment",
+      "definition": "Unemployment arising from economy-wide downturns and reduced demand rather than only ordinary job transitions or structural mismatches."
+    },
+    {
+      "term": "Underemployment",
+      "definition": "A situation where workers' available time or skills are not fully used, with specific measures depending on the statistical definition."
+    },
+    {
+      "term": "Discouraged worker",
+      "definition": "A person outside the measured labor force who wants work but has stopped looking for specified labor-market reasons."
+    },
+    {
+      "term": "Potential output",
+      "definition": "An estimate of the production an economy can sustain given its resources and institutions without persistent inflationary pressure."
+    },
+    {
+      "term": "Output gap",
+      "definition": "The difference between actual and estimated potential output, often expressed as a percentage of potential output."
+    },
+    {
+      "term": "Business cycle",
+      "definition": "Fluctuations in aggregate economic activity involving expansion and contraction, whose timing and severity vary."
+    },
+    {
+      "term": "Stagflation",
+      "definition": "An economic situation combining high inflation with weak growth and substantial unemployment, complicating policy responses."
+    },
+    {
+      "term": "Economic expansion",
+      "definition": "A period of broad increases in economic activity following a trough and continuing until the next peak."
+    },
+    {
+      "term": "Aggregate demand",
+      "definition": "Total planned spending on domestic output at different overall price levels within a macroeconomic model."
+    },
+    {
+      "term": "Aggregate supply",
+      "definition": "The relationship between overall prices and output producers supply, with different short-run and long-run model assumptions."
+    },
+    {
+      "term": "Supply shock",
+      "definition": "An event changing production costs or capacity, potentially affecting both output and prices across an economy."
+    },
+    {
+      "term": "Demand shock",
+      "definition": "An unexpected change in spending demand that can alter production, employment, and prices."
+    },
+    {
+      "term": "Automatic stabilizer",
+      "definition": "A fiscal feature that adjusts taxes or transfers as economic conditions change without a new policy decision each time."
+    },
+    {
+      "term": "Fiscal multiplier",
+      "definition": "The estimated change in output associated with a change in government spending or taxes, depending on economic conditions and assumptions."
+    },
+    {
+      "term": "Budget deficit",
+      "definition": "The amount by which spending exceeds revenue over a specified government or organizational budget period."
+    },
+    {
+      "term": "Budget surplus",
+      "definition": "The amount by which revenue exceeds spending during a specified budget period."
+    },
+    {
+      "term": "Public debt",
+      "definition": "Outstanding borrowing obligations of a government, distinct from its deficit or surplus during a single period."
+    },
+    {
+      "term": "Debt-to-GDP ratio",
+      "definition": "Government debt divided by annual economic output, a scale comparison that does not alone determine fiscal sustainability."
+    },
+    {
+      "term": "Monetary policy",
+      "definition": "Central-bank actions influencing monetary and financial conditions to pursue its legally assigned economic objectives."
+    },
+    {
+      "term": "Policy interest rate",
+      "definition": "An interest rate or target set by a central bank as part of implementing monetary policy."
+    },
+    {
+      "term": "Quantitative easing",
+      "definition": "Central-bank purchases of longer-term assets intended to influence financial conditions when using its balance sheet as a policy tool."
+    },
+    {
+      "term": "Quantitative tightening",
+      "definition": "A reduction in central-bank asset holdings, through maturities or sales, intended to reduce balance-sheet support for financial conditions."
+    }
+  ],
+  "International Economics": [
+    {
+      "term": "Comparative advantage",
+      "definition": "The ability to produce something at a lower opportunity cost than another producer, forming a basis for potential gains from trade."
+    },
+    {
+      "term": "Absolute advantage",
+      "definition": "The ability to produce more output with the same resources, or the same output with fewer resources, than another producer."
+    },
+    {
+      "term": "Gains from trade",
+      "definition": "Benefits from exchange and specialization that can expand consumption possibilities, though gains may be distributed unevenly."
+    },
+    {
+      "term": "Terms of trade",
+      "definition": "The price of an economy's exports relative to its imports, indicating how much imports its exports can purchase."
+    },
+    {
+      "term": "Trade balance",
+      "definition": "The value of exports minus imports for the specified goods or services and measurement period."
+    },
+    {
+      "term": "Current account",
+      "definition": "A balance-of-payments account covering trade in goods and services, primary income, and specified current transfers."
+    },
+    {
+      "term": "Financial account",
+      "definition": "A balance-of-payments account recording cross-border transactions in financial assets and liabilities under the reporting framework."
+    },
+    {
+      "term": "Balance of payments",
+      "definition": "A systematic record of economic transactions between residents of an economy and nonresidents during a period."
+    },
+    {
+      "term": "Foreign direct investment",
+      "definition": "A cross-border investment establishing a lasting interest and meaningful influence in an enterprise under the applicable statistical definition."
+    },
+    {
+      "term": "Portfolio investment",
+      "definition": "Investment in securities without the control or lasting influence used to classify direct investment in international accounts."
+    },
+    {
+      "term": "Capital inflow",
+      "definition": "An increase in foreign financing or investment entering an economy under the specified measurement convention."
+    },
+    {
+      "term": "Capital outflow",
+      "definition": "A movement of investment funds toward foreign assets or a withdrawal of foreign financing under the stated accounting perspective."
+    },
+    {
+      "term": "Exchange rate",
+      "definition": "The price of one currency expressed in another currency, which can change with market conditions and policy arrangements."
+    },
+    {
+      "term": "Currency appreciation",
+      "definition": "An increase in a currency's value relative to another currency under the exchange-rate comparison being used."
+    },
+    {
+      "term": "Currency depreciation",
+      "definition": "A decline in a currency's value relative to another currency under the exchange-rate comparison being used."
+    },
+    {
+      "term": "Currency devaluation",
+      "definition": "An official reduction in a currency's value under a fixed or managed exchange-rate arrangement."
+    },
+    {
+      "term": "Currency revaluation",
+      "definition": "An official increase in a currency's value under a fixed or managed exchange-rate arrangement."
+    },
+    {
+      "term": "Floating exchange rate",
+      "definition": "An exchange-rate arrangement in which currency value is substantially determined by market supply and demand."
+    },
+    {
+      "term": "Fixed exchange rate",
+      "definition": "An arrangement targeting a currency's value against another currency or reference, requiring policy measures to maintain it."
+    },
+    {
+      "term": "Currency peg",
+      "definition": "A commitment to keep a currency near a specified value relative to another currency or basket."
+    },
+    {
+      "term": "Currency basket",
+      "definition": "A weighted group of currencies used as a reference for valuation, exchange-rate management, or financial measurement."
+    },
+    {
+      "term": "Real exchange rate",
+      "definition": "An exchange-rate measure adjusted for relative price levels, used to compare purchasing power or international competitiveness."
+    },
+    {
+      "term": "Effective exchange rate",
+      "definition": "A currency's value relative to a weighted group of trading partners' currencies rather than a single currency."
+    },
+    {
+      "term": "Purchasing power parity",
+      "definition": "A framework comparing currencies using the cost of comparable goods and services, often used for international living-standard comparisons."
+    },
+    {
+      "term": "Foreign exchange reserve",
+      "definition": "A foreign-currency asset held by monetary authorities for purposes such as liquidity, intervention, or external payment support."
+    },
+    {
+      "term": "Exchange-rate pass-through",
+      "definition": "The degree to which currency changes affect domestic import prices or other prices in the economy."
+    },
+    {
+      "term": "Currency mismatch",
+      "definition": "A difference between the currencies of assets or income and those of debts or expenses, creating exchange-rate exposure."
+    },
+    {
+      "term": "Transaction exposure",
+      "definition": "The risk that exchange-rate changes alter the value of a specific cross-border payment or receipt before completion."
+    },
+    {
+      "term": "Translation exposure",
+      "definition": "The effect of exchange-rate changes on converting foreign financial statement amounts into a reporting currency."
+    },
+    {
+      "term": "Currency hedge",
+      "definition": "A financial arrangement intended to offset specified exchange-rate movements, with costs and imperfect protection possible."
+    },
+    {
+      "term": "Forward exchange contract",
+      "definition": "An agreement to exchange currencies at a specified future date using a rate agreed upon today."
+    },
+    {
+      "term": "Currency swap",
+      "definition": "An agreement exchanging cash flows or principal in different currencies according to specified contractual terms."
+    },
+    {
+      "term": "Tariff",
+      "definition": "A tax on imported goods that can affect domestic prices, trade volumes, and the distribution of economic costs."
+    },
+    {
+      "term": "Import quota",
+      "definition": "A restriction on the quantity of a particular product that may be imported during a stated period."
+    },
+    {
+      "term": "Tariff-rate quota",
+      "definition": "A trade arrangement applying one tariff up to a specified import quantity and a different rate beyond it."
+    },
+    {
+      "term": "Trade embargo",
+      "definition": "A government restriction prohibiting specified trade with a country, entity, or category of goods."
+    },
+    {
+      "term": "Economic sanction",
+      "definition": "A restriction imposed for policy objectives on specified transactions, assets, persons, or jurisdictions."
+    },
+    {
+      "term": "Nontariff barrier",
+      "definition": "A trade restriction or obstacle other than a customs tariff, such as quotas or certain administrative requirements."
+    },
+    {
+      "term": "Rules of origin",
+      "definition": "Criteria determining where a product is considered to come from for trade agreements, tariffs, or other customs treatment."
+    },
+    {
+      "term": "Trade diversion",
+      "definition": "A shift toward a higher-cost supplier caused by preferential trade treatment rather than underlying production efficiency."
+    },
+    {
+      "term": "Trade creation",
+      "definition": "A shift toward lower-cost imports after trade barriers fall, replacing more costly domestic production under the comparison."
+    },
+    {
+      "term": "Free trade area",
+      "definition": "An arrangement reducing barriers among member economies while generally allowing each to maintain its own external trade policies."
+    },
+    {
+      "term": "Customs union",
+      "definition": "A trade arrangement combining reduced internal barriers with a common external tariff or trade policy toward nonmembers."
+    },
+    {
+      "term": "Common market",
+      "definition": "An integration arrangement allowing freer movement of goods, services, and factors such as labor and capital among members."
+    },
+    {
+      "term": "Global value chain",
+      "definition": "A production process distributed across multiple countries, with different locations contributing inputs, assembly, or services."
+    },
+    {
+      "term": "Offshoring",
+      "definition": "Moving a business activity to another country, whether performed by the same company or an outside supplier."
+    },
+    {
+      "term": "Outsourcing",
+      "definition": "Contracting an activity to an external provider, which may be located domestically or abroad."
+    },
+    {
+      "term": "Trade finance",
+      "definition": "Financial products and arrangements supporting international transactions, including payment assurance, working capital, and risk management."
+    },
+    {
+      "term": "Letter of credit",
+      "definition": "A bank's conditional commitment to pay a beneficiary when specified documentary requirements are satisfied."
+    },
+    {
+      "term": "Sovereign risk",
+      "definition": "The possibility that government actions or financial difficulties affect repayment, asset value, or the ability to conduct cross-border transactions."
+    }
+  ],
+  "Evidence and Statistics": [
+    {
+      "term": "Arithmetic mean",
+      "definition": "The sum of observed values divided by the number of observations, which can be strongly affected by extreme values."
+    },
+    {
+      "term": "Median",
+      "definition": "The middle value of ordered data, or the average of the two middle values when the count is even."
+    },
+    {
+      "term": "Mode",
+      "definition": "The most frequently occurring value or category in a dataset, which may have more than one mode."
+    },
+    {
+      "term": "Weighted average",
+      "definition": "An average assigning different importance to observations, such as weighting prices by spending shares or portfolio returns by invested amounts."
+    },
+    {
+      "term": "Geometric mean",
+      "definition": "A compounded average calculated from multiplied growth factors, useful for summarizing repeated percentage changes over time."
+    },
+    {
+      "term": "Percentile",
+      "definition": "A value indicating a position within an ordered distribution, such as the threshold below which a specified percentage falls."
+    },
+    {
+      "term": "Quartile",
+      "definition": "One of the three cut points dividing ordered data into four groups of approximately equal size."
+    },
+    {
+      "term": "Interquartile range",
+      "definition": "The difference between the upper and lower quartiles, describing the spread of the middle half of observations."
+    },
+    {
+      "term": "Variance",
+      "definition": "The average squared deviation from a mean under a specified sample or population formula, measuring dispersion."
+    },
+    {
+      "term": "Outlier",
+      "definition": "An observation unusually far from other values, which may reflect a real event, measurement error, or a different underlying process."
+    },
+    {
+      "term": "Skewness",
+      "definition": "The degree of asymmetry in a distribution, indicating whether one tail extends farther or carries more extreme observations."
+    },
+    {
+      "term": "Frequency distribution",
+      "definition": "A summary showing how often values or groups of values occur within a dataset."
+    },
+    {
+      "term": "Histogram",
+      "definition": "A graph grouping numerical observations into intervals and displaying their frequencies, with interpretation affected by interval selection."
+    },
+    {
+      "term": "Scatterplot",
+      "definition": "A graph plotting paired numerical observations to examine patterns, clusters, and possible relationships between two variables."
+    },
+    {
+      "term": "Time series",
+      "definition": "Observations collected in time order, where trends, seasonal patterns, and dependence between periods may matter."
+    },
+    {
+      "term": "Cross-sectional data",
+      "definition": "Observations from multiple people, firms, or other units at a particular time or defined period."
+    },
+    {
+      "term": "Panel data",
+      "definition": "Repeated observations of the same units over time, allowing analysis of both differences between units and changes within them."
+    },
+    {
+      "term": "Sample",
+      "definition": "A subset of a population used to learn about the larger group, with reliability depending on how it is selected."
+    },
+    {
+      "term": "Population",
+      "definition": "The complete set of people, transactions, or other units about which an analysis seeks to make conclusions."
+    },
+    {
+      "term": "Random sampling",
+      "definition": "Selecting observations through a chance-based method with known selection properties, helping support population-level inference."
+    },
+    {
+      "term": "Sampling error",
+      "definition": "The difference between a sample estimate and the population value arising because only part of the population was observed."
+    },
+    {
+      "term": "Nonsampling error",
+      "definition": "Error from sources other than sampling variation, such as inaccurate answers, missing records, or measurement problems."
+    },
+    {
+      "term": "Nonresponse bias",
+      "definition": "A distortion arising when people who do not respond differ meaningfully from those included in survey results."
+    },
+    {
+      "term": "Measurement error",
+      "definition": "A difference between a recorded value and the true quantity being measured, caused by instruments, reporting, or definitions."
+    },
+    {
+      "term": "Confidence interval",
+      "definition": "A range produced by a method designed to capture the true parameter at a stated rate over repeated samples."
+    },
+    {
+      "term": "Margin of error",
+      "definition": "A measure of sampling uncertainty around an estimate under specified assumptions; it does not capture every possible error."
+    },
+    {
+      "term": "Standard error",
+      "definition": "An estimate of how much a statistic would vary across repeated samples drawn under the assumed sampling process."
+    },
+    {
+      "term": "Statistical significance",
+      "definition": "Evidence against a specified null hypothesis according to a chosen threshold, not proof that an effect is large or important."
+    },
+    {
+      "term": "Practical significance",
+      "definition": "The real-world importance of an effect's size or consequences, which can differ from its statistical significance."
+    },
+    {
+      "term": "Null hypothesis",
+      "definition": "A specified starting claim about a population or relationship that a statistical test evaluates against observed evidence."
+    },
+    {
+      "term": "P-value",
+      "definition": "The probability, under a specified null model, of results at least as incompatible with that model as those observed."
+    },
+    {
+      "term": "Confidence level",
+      "definition": "The long-run coverage rate associated with an interval-estimation procedure under its assumptions, rather than certainty about an individual result."
+    },
+    {
+      "term": "Correlation",
+      "definition": "A measure of association between variables that does not by itself establish which, if either, causes the other."
+    },
+    {
+      "term": "Causation",
+      "definition": "A relationship in which changing one factor produces a change in another, requiring evidence beyond mere association."
+    },
+    {
+      "term": "Confounding variable",
+      "definition": "A factor related to both an apparent cause and outcome that can distort the observed relationship."
+    },
+    {
+      "term": "Reverse causality",
+      "definition": "A situation in which an assumed outcome actually influences the presumed cause, complicating interpretation of an observed association."
+    },
+    {
+      "term": "Randomized experiment",
+      "definition": "A study assigning treatment by chance to help separate the treatment's effects from preexisting group differences."
+    },
+    {
+      "term": "Control group",
+      "definition": "A comparison group that does not receive the studied treatment or receives an alternative, helping evaluate treatment effects."
+    },
+    {
+      "term": "Natural experiment",
+      "definition": "A setting where an external event or rule creates comparison conditions useful for causal analysis without researcher-controlled random assignment."
+    },
+    {
+      "term": "Regression analysis",
+      "definition": "A statistical method estimating relationships between an outcome and explanatory variables under a specified model."
+    },
+    {
+      "term": "Omitted-variable bias",
+      "definition": "Distortion in an estimated relationship caused by excluding a relevant factor correlated with an included explanatory variable."
+    },
+    {
+      "term": "Seasonal adjustment",
+      "definition": "A statistical procedure removing recurring within-year patterns to make underlying changes easier to compare across periods."
+    },
+    {
+      "term": "Base effect",
+      "definition": "An apparent change in a growth rate caused partly by an unusually high or low comparison-period value."
+    },
+    {
+      "term": "Percentage-point change",
+      "definition": "The arithmetic difference between two percentages, distinct from the relative percentage change in the underlying rate."
+    },
+    {
+      "term": "Index number",
+      "definition": "A measure expressing a value relative to a chosen base, commonly set to 100 for comparison over time."
+    },
+    {
+      "term": "Rebasing an index",
+      "definition": "Changing an index's reference period or scale while preserving the relevant relative movements under the method used."
+    },
+    {
+      "term": "Data revision",
+      "definition": "An update to previously published figures when additional information, corrected records, or improved methods become available."
+    },
+    {
+      "term": "Annualized rate",
+      "definition": "A rate converted to an equivalent yearly pace, which does not mean that pace will continue for a full year."
+    },
+    {
+      "term": "Rolling average",
+      "definition": "An average calculated over a moving window of recent observations to reduce short-term noise or highlight patterns."
+    },
+    {
+      "term": "Denominator effect",
+      "definition": "A change in a ratio caused by movement in the quantity being divided into, rather than only in the numerator."
+    }
+  ]
+}

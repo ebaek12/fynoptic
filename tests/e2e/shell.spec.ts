@@ -120,8 +120,9 @@ test.describe('mobile drawer', () => {
 
   test('locks scroll with no-scroll + fixed body while open, and restores scroll position on close', async ({ page }) => {
     await page.goto('/');
-    // Scroll down first so there's a position to restore.
-    await page.evaluate(() => window.scrollTo(0, 400));
+    // Establish the position synchronously; the site's CSS enables smooth
+    // scrolling, which can otherwise still be at zero on the next read.
+    await page.evaluate(() => window.scrollTo({ top: 400, behavior: 'instant' }));
     const before = await page.evaluate(() => window.scrollY);
     expect(before).toBeGreaterThan(0);
 

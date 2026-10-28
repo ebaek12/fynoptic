@@ -1,0 +1,120 @@
+{
+  "verifiedOn": "2026-10-27",
+  "scope": "85 original applied calculation families, each with 20 deterministic variants. Sources check the underlying principles; the exercises use their own explicitly stated hypothetical amounts, rates, fees, time periods, coverage terms, and decision rules. They do not quote current tax rates, legal limits, eligibility rules, or product offers.",
+  "sources": [
+    {
+      "id": "irs-withholding",
+      "title": "IRS — Tax withholding",
+      "url": "https://www.irs.gov/payments/tax-withholding",
+      "principle": "Withholding is deducted from employee pay. Exercise withholding percentages and freelancer reserves are hypothetical, not tax-liability estimates."
+    },
+    {
+      "id": "cfpb-cash-flow",
+      "title": "CFPB — Creating a cash flow budget",
+      "url": "https://www.consumerfinance.gov/documents/10038/cfpb_creating-cash-flow-budget_tool_2021-08.pdf",
+      "principle": "Cash-flow planning tracks both income and the timing of expenses; a positive month-end total does not remove an earlier cash shortfall."
+    },
+    {
+      "id": "cfpb-budget",
+      "title": "CFPB — Assess your spending",
+      "url": "https://www.consumerfinance.gov/owning-a-home/prepare/assess-your-spending/",
+      "principle": "Compare a complete spending plan with take-home income and include savings and less frequent expenses."
+    },
+    {
+      "id": "cfpb-compounding",
+      "title": "CFPB — How does compound interest work?",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/how-does-compound-interest-work-en-1683/",
+      "principle": "Compound interest earns interest on prior interest as well as principal. Frequency and rate must match the calculation periods."
+    },
+    {
+      "id": "investor-compound-calculator",
+      "title": "Investor.gov — Compound Interest Calculator",
+      "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+      "principle": "Savings growth depends on opening principal, contributions, rate, duration, and compounding frequency. Exercise contributions explicitly use month-end timing."
+    },
+    {
+      "id": "fdic-account-fees",
+      "title": "FDIC — Overdraft and Account Fees",
+      "url": "https://www.fdic.gov/consumer-resource-center/2021-12/overdraft-and-account-fees",
+      "principle": "Account costs may include maintenance, overdraft, and extended-overdraft fees; fee waivers and transfer arrangements depend on account terms. Exercise amounts and caps are stated assumptions."
+    },
+    {
+      "id": "cfpb-overdraft",
+      "title": "CFPB — Know your overdraft options",
+      "url": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/know-your-overdraft-options/",
+      "principle": "Account balances and transaction timing matter for overdrafts; some providers cap daily fees. The drills do not assert that an unspecified real bank may impose a fee."
+    },
+    {
+      "id": "cfpb-card-interest",
+      "title": "CFPB — How does my credit card company calculate the amount of interest I owe?",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/how-does-my-credit-card-company-calculate-the-amount-of-interest-i-owe-en-51/",
+      "principle": "Cards may use average daily balances and separate rates for purchases and cash advances. Simplified APR/12 exercises explicitly say so and exclude grace periods and intra-month compounding."
+    },
+    {
+      "id": "cfpb-card-contract",
+      "title": "CFPB — Credit card contract definitions",
+      "url": "https://www.consumerfinance.gov/data-research/credit-card-data/know-you-owe-credit-cards/credit-card-contract-definitions/",
+      "principle": "Card calculations depend on contract definitions for balances, periodic rates, fees, and payments. The minimum-payment and transfer-fee rules are specified in each relevant exercise."
+    },
+    {
+      "id": "cfpb-simple-loan",
+      "title": "CFPB — What's the difference between a simple interest rate and precomputed interest on an auto loan?",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/whats-the-difference-between-a-simple-interest-rate-and-precomputed-interest-on-an-auto-loan-en-841/",
+      "principle": "Balance-based simple loan interest differs from precomputed interest, and additional principal can reduce future balance-based interest. Exercises specify the interest convention."
+    },
+    {
+      "id": "cfpb-auto-terms",
+      "title": "CFPB — Auto loan answers: key terms",
+      "url": "https://www.consumerfinance.gov/consumer-tools/auto-loans/answers/key-terms/",
+      "principle": "Amortization gradually repays debt; down payments reduce financing. Interest rate and APR are distinct when financing fees apply. Payment formulas use a stated nominal interest rate, not a fee-inclusive APR."
+    },
+    {
+      "id": "cfpb-home-costs",
+      "title": "CFPB — Figure out how much you want to spend",
+      "url": "https://www.consumerfinance.gov/owning-a-home/prepare/figure-out-how-much-you-want-to-spend/",
+      "principle": "Home budgets include principal, interest, taxes, insurance, and applicable association charges. Purchase cash must cover down payment and closing costs while preserving selected reserves."
+    },
+    {
+      "id": "cfpb-college-financing",
+      "title": "CFPB — What are the different ways to pay for college or graduate school?",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-the-different-ways-to-pay-for-college-or-graduate-school-en-545/",
+      "principle": "College can be funded through savings, grants, scholarships, earnings, and loans. Tuition payment plans can have fees; exercises disclose the hypothetical fee and installment terms."
+    },
+    {
+      "id": "fsa-net-price",
+      "title": "Federal Student Aid — How To Evaluate Your Aid Offers",
+      "url": "https://studentaid.gov/articles/evaluating-financial-aid-offers/",
+      "principle": "Net price subtracts grants and scholarships from complete college cost. Repayable loans provide financing rather than lowering net price."
+    },
+    {
+      "id": "cfpb-financial-literacy-risk",
+      "title": "CFPB-hosted National Standards for Personal Financial Education — Managing Risk",
+      "url": "https://files.consumerfinance.gov/f/documents/2021_Natl_Standards_Downloadable_final.pdf",
+      "principle": "Insurance risk-sharing exercises distinguish premiums, deductibles, copayments, and coinsurance. Coverage needs and expected costs require clearly stated assumptions."
+    },
+    {
+      "id": "healthcare-coinsurance",
+      "title": "HealthCare.gov — Coinsurance",
+      "url": "https://www.healthcare.gov/glossary/co-insurance/",
+      "principle": "Coinsurance is a share of covered allowed costs, typically applied after the deductible under the stated policy terms."
+    },
+    {
+      "id": "healthcare-out-of-pocket",
+      "title": "HealthCare.gov — Out-of-pocket maximum/limit",
+      "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/",
+      "principle": "Qualifying in-network cost sharing counts toward the stated annual maximum; premiums are separate. The exercises use hypothetical maxima and do not reproduce legal annual limits."
+    }
+  ],
+  "topicMapping": [
+    { "topic": "Pay and Cash Flow Drills", "familyCount": 9, "sourceIds": ["irs-withholding", "cfpb-cash-flow"] },
+    { "topic": "Budget Planning Drills", "familyCount": 9, "sourceIds": ["cfpb-budget", "cfpb-cash-flow"] },
+    { "topic": "Savings Goal Drills", "familyCount": 9, "sourceIds": ["cfpb-compounding", "investor-compound-calculator", "cfpb-budget"] },
+    { "topic": "Bank Account Cost Drills", "familyCount": 9, "sourceIds": ["fdic-account-fees", "cfpb-overdraft", "cfpb-compounding"] },
+    { "topic": "Credit Card Math Drills", "familyCount": 9, "sourceIds": ["cfpb-card-interest", "cfpb-card-contract"] },
+    { "topic": "Loan Payment Drills", "familyCount": 8, "sourceIds": ["cfpb-simple-loan", "cfpb-auto-terms"] },
+    { "topic": "Housing Cost Drills", "familyCount": 8, "sourceIds": ["cfpb-home-costs"] },
+    { "topic": "Car Ownership Drills", "familyCount": 8, "sourceIds": ["cfpb-auto-terms", "cfpb-simple-loan", "cfpb-budget"] },
+    { "topic": "College Cost Drills", "familyCount": 8, "sourceIds": ["cfpb-college-financing", "fsa-net-price"] },
+    { "topic": "Insurance Cost Drills", "familyCount": 8, "sourceIds": ["cfpb-financial-literacy-risk", "healthcare-coinsurance", "healthcare-out-of-pocket"] }
+  ]
+}

@@ -1,0 +1,2562 @@
+[
+  {
+    "id": "drill-econ-drill-expenditure-gdp-01",
+    "kind": "calculation",
+    "term": "1,060 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 720, gross investment 160, government purchases 210, exports 140, and imports 170. Government transfer payments are separately 65. What is GDP using the expenditure approach?",
+    "distractors": [
+      "1,400 billion dollars",
+      "1,125 billion dollars",
+      "1,090 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 720 + 160 + 210 + 140 − 170 = 1060 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1060,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-02",
+    "kind": "calculation",
+    "term": "1,120 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 757, gross investment 171, government purchases 223, exports 149, and imports 180. Government transfer payments are separately 68. What is GDP using the expenditure approach?",
+    "distractors": [
+      "1,480 billion dollars",
+      "1,188 billion dollars",
+      "1,151 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 757 + 171 + 223 + 149 − 180 = 1120 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1120,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-03",
+    "kind": "calculation",
+    "term": "1,180 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 794, gross investment 182, government purchases 236, exports 158, and imports 190. Government transfer payments are separately 71. What is GDP using the expenditure approach?",
+    "distractors": [
+      "1,560 billion dollars",
+      "1,251 billion dollars",
+      "1,212 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 794 + 182 + 236 + 158 − 190 = 1180 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1180,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-04",
+    "kind": "calculation",
+    "term": "1,240 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 831, gross investment 193, government purchases 249, exports 167, and imports 200. Government transfer payments are separately 74. What is GDP using the expenditure approach?",
+    "distractors": [
+      "1,640 billion dollars",
+      "1,314 billion dollars",
+      "1,273 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 831 + 193 + 249 + 167 − 200 = 1240 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1240,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-05",
+    "kind": "calculation",
+    "term": "1,300 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 868, gross investment 204, government purchases 262, exports 176, and imports 210. Government transfer payments are separately 77. What is GDP using the expenditure approach?",
+    "distractors": [
+      "1,720 billion dollars",
+      "1,377 billion dollars",
+      "1,334 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 868 + 204 + 262 + 176 − 210 = 1300 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1300,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-06",
+    "kind": "calculation",
+    "term": "1,360 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 905, gross investment 215, government purchases 275, exports 185, and imports 220. Government transfer payments are separately 80. What is GDP using the expenditure approach?",
+    "distractors": [
+      "1,800 billion dollars",
+      "1,440 billion dollars",
+      "1,395 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 905 + 215 + 275 + 185 − 220 = 1360 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1360,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-07",
+    "kind": "calculation",
+    "term": "1,420 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 942, gross investment 226, government purchases 288, exports 194, and imports 230. Government transfer payments are separately 83. What is GDP using the expenditure approach?",
+    "distractors": [
+      "1,880 billion dollars",
+      "1,503 billion dollars",
+      "1,456 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 942 + 226 + 288 + 194 − 230 = 1420 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1420,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-08",
+    "kind": "calculation",
+    "term": "1,480 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 979, gross investment 237, government purchases 301, exports 203, and imports 240. Government transfer payments are separately 86. What is GDP using the expenditure approach?",
+    "distractors": [
+      "1,960 billion dollars",
+      "1,566 billion dollars",
+      "1,517 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 979 + 237 + 301 + 203 − 240 = 1480 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1480,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-09",
+    "kind": "calculation",
+    "term": "1,540 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 1016, gross investment 248, government purchases 314, exports 212, and imports 250. Government transfer payments are separately 89. What is GDP using the expenditure approach?",
+    "distractors": [
+      "2,040 billion dollars",
+      "1,629 billion dollars",
+      "1,578 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 1016 + 248 + 314 + 212 − 250 = 1540 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1540,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-10",
+    "kind": "calculation",
+    "term": "1,600 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 1053, gross investment 259, government purchases 327, exports 221, and imports 260. Government transfer payments are separately 92. What is GDP using the expenditure approach?",
+    "distractors": [
+      "2,120 billion dollars",
+      "1,692 billion dollars",
+      "1,639 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 1053 + 259 + 327 + 221 − 260 = 1600 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1600,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-11",
+    "kind": "calculation",
+    "term": "1,660 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 1090, gross investment 270, government purchases 340, exports 230, and imports 270. Government transfer payments are separately 95. What is GDP using the expenditure approach?",
+    "distractors": [
+      "2,200 billion dollars",
+      "1,755 billion dollars",
+      "1,700 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 1090 + 270 + 340 + 230 − 270 = 1660 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1660,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-12",
+    "kind": "calculation",
+    "term": "1,720 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 1127, gross investment 281, government purchases 353, exports 239, and imports 280. Government transfer payments are separately 98. What is GDP using the expenditure approach?",
+    "distractors": [
+      "2,280 billion dollars",
+      "1,818 billion dollars",
+      "1,761 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 1127 + 281 + 353 + 239 − 280 = 1720 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1720,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-13",
+    "kind": "calculation",
+    "term": "1,780 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 1164, gross investment 292, government purchases 366, exports 248, and imports 290. Government transfer payments are separately 101. What is GDP using the expenditure approach?",
+    "distractors": [
+      "2,360 billion dollars",
+      "1,881 billion dollars",
+      "1,822 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 1164 + 292 + 366 + 248 − 290 = 1780 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1780,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-14",
+    "kind": "calculation",
+    "term": "1,840 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 1201, gross investment 303, government purchases 379, exports 257, and imports 300. Government transfer payments are separately 104. What is GDP using the expenditure approach?",
+    "distractors": [
+      "2,440 billion dollars",
+      "1,944 billion dollars",
+      "1,883 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 1201 + 303 + 379 + 257 − 300 = 1840 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1840,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-15",
+    "kind": "calculation",
+    "term": "1,900 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 1238, gross investment 314, government purchases 392, exports 266, and imports 310. Government transfer payments are separately 107. What is GDP using the expenditure approach?",
+    "distractors": [
+      "2,520 billion dollars",
+      "2,007 billion dollars",
+      "1,944 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 1238 + 314 + 392 + 266 − 310 = 1900 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1900,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-16",
+    "kind": "calculation",
+    "term": "1,960 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 1275, gross investment 325, government purchases 405, exports 275, and imports 320. Government transfer payments are separately 110. What is GDP using the expenditure approach?",
+    "distractors": [
+      "2,600 billion dollars",
+      "2,070 billion dollars",
+      "2,005 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 1275 + 325 + 405 + 275 − 320 = 1960 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 1960,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-17",
+    "kind": "calculation",
+    "term": "2,020 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 1312, gross investment 336, government purchases 418, exports 284, and imports 330. Government transfer payments are separately 113. What is GDP using the expenditure approach?",
+    "distractors": [
+      "2,680 billion dollars",
+      "2,133 billion dollars",
+      "2,066 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 1312 + 336 + 418 + 284 − 330 = 2020 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 2020,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-18",
+    "kind": "calculation",
+    "term": "2,080 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 1349, gross investment 347, government purchases 431, exports 293, and imports 340. Government transfer payments are separately 116. What is GDP using the expenditure approach?",
+    "distractors": [
+      "2,760 billion dollars",
+      "2,196 billion dollars",
+      "2,127 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 1349 + 347 + 431 + 293 − 340 = 2080 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 2080,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-19",
+    "kind": "calculation",
+    "term": "2,140 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 1386, gross investment 358, government purchases 444, exports 302, and imports 350. Government transfer payments are separately 119. What is GDP using the expenditure approach?",
+    "distractors": [
+      "2,840 billion dollars",
+      "2,259 billion dollars",
+      "2,188 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 1386 + 358 + 444 + 302 − 350 = 2140 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 2140,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-expenditure-gdp-20",
+    "kind": "calculation",
+    "term": "2,200 billion dollars",
+    "definition": "In a hypothetical economy, annual values in billions of dollars are household consumption 1423, gross investment 369, government purchases 457, exports 311, and imports 360. Government transfer payments are separately 122. What is GDP using the expenditure approach?",
+    "distractors": [
+      "2,920 billion dollars",
+      "2,322 billion dollars",
+      "2,249 billion dollars"
+    ],
+    "explanation": "GDP = C + I + G + X − M = 1423 + 369 + 457 + 311 − 360 = 2200 billion dollars. Transfers are not government purchases of current output.",
+    "numericAnswer": {
+      "value": 2200,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-01",
+    "kind": "calculation",
+    "term": "3.00%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 1,200 billion to 1,236 billion over a year. What is the real GDP growth rate?",
+    "distractors": [
+      "2.91%",
+      "36.00%",
+      "103.00%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (1236 − 1200)/1200 × 100 = 3.00%.",
+    "numericAnswer": {
+      "value": 3,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-02",
+    "kind": "calculation",
+    "term": "3.08%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 1,265 billion to 1,304 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "2.99%",
+      "39.00%",
+      "103.08%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (1304 − 1265)/1265 × 100 = 3.08%.",
+    "numericAnswer": {
+      "value": 3.08,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-03",
+    "kind": "calculation",
+    "term": "3.16%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 1,330 billion to 1,372 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.06%",
+      "42.00%",
+      "103.16%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (1372 − 1330)/1330 × 100 = 3.16%.",
+    "numericAnswer": {
+      "value": 3.16,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-04",
+    "kind": "calculation",
+    "term": "3.23%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 1,395 billion to 1,440 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.13%",
+      "45.00%",
+      "103.23%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (1440 − 1395)/1395 × 100 = 3.23%.",
+    "numericAnswer": {
+      "value": 3.23,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-05",
+    "kind": "calculation",
+    "term": "3.29%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 1,460 billion to 1,508 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.18%",
+      "48.00%",
+      "103.29%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (1508 − 1460)/1460 × 100 = 3.29%.",
+    "numericAnswer": {
+      "value": 3.29,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-06",
+    "kind": "calculation",
+    "term": "3.34%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 1,525 billion to 1,576 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.24%",
+      "51.00%",
+      "103.34%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (1576 − 1525)/1525 × 100 = 3.34%.",
+    "numericAnswer": {
+      "value": 3.34,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-07",
+    "kind": "calculation",
+    "term": "3.40%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 1,590 billion to 1,644 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.28%",
+      "54.00%",
+      "103.40%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (1644 − 1590)/1590 × 100 = 3.40%.",
+    "numericAnswer": {
+      "value": 3.4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-08",
+    "kind": "calculation",
+    "term": "3.44%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 1,655 billion to 1,712 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.33%",
+      "57.00%",
+      "103.44%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (1712 − 1655)/1655 × 100 = 3.44%.",
+    "numericAnswer": {
+      "value": 3.44,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-09",
+    "kind": "calculation",
+    "term": "3.49%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 1,720 billion to 1,780 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.37%",
+      "60.00%",
+      "103.49%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (1780 − 1720)/1720 × 100 = 3.49%.",
+    "numericAnswer": {
+      "value": 3.49,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-10",
+    "kind": "calculation",
+    "term": "3.53%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 1,785 billion to 1,848 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.41%",
+      "63.00%",
+      "103.53%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (1848 − 1785)/1785 × 100 = 3.53%.",
+    "numericAnswer": {
+      "value": 3.53,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-11",
+    "kind": "calculation",
+    "term": "3.57%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 1,850 billion to 1,916 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.44%",
+      "66.00%",
+      "103.57%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (1916 − 1850)/1850 × 100 = 3.57%.",
+    "numericAnswer": {
+      "value": 3.57,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-12",
+    "kind": "calculation",
+    "term": "3.60%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 1,915 billion to 1,984 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.48%",
+      "69.00%",
+      "103.60%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (1984 − 1915)/1915 × 100 = 3.60%.",
+    "numericAnswer": {
+      "value": 3.6,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-13",
+    "kind": "calculation",
+    "term": "3.64%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 1,980 billion to 2,052 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.51%",
+      "72.00%",
+      "103.64%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (2052 − 1980)/1980 × 100 = 3.64%.",
+    "numericAnswer": {
+      "value": 3.64,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-14",
+    "kind": "calculation",
+    "term": "3.67%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 2,045 billion to 2,120 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.54%",
+      "75.00%",
+      "103.67%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (2120 − 2045)/2045 × 100 = 3.67%.",
+    "numericAnswer": {
+      "value": 3.67,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-15",
+    "kind": "calculation",
+    "term": "3.70%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 2,110 billion to 2,188 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.56%",
+      "78.00%",
+      "103.70%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (2188 − 2110)/2110 × 100 = 3.70%.",
+    "numericAnswer": {
+      "value": 3.7,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-16",
+    "kind": "calculation",
+    "term": "3.72%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 2,175 billion to 2,256 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.59%",
+      "81.00%",
+      "103.72%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (2256 − 2175)/2175 × 100 = 3.72%.",
+    "numericAnswer": {
+      "value": 3.72,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-17",
+    "kind": "calculation",
+    "term": "3.75%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 2,240 billion to 2,324 billion over a year. What is the real GDP growth rate?",
+    "distractors": [
+      "3.61%",
+      "84.00%",
+      "103.75%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (2324 − 2240)/2240 × 100 = 3.75%.",
+    "numericAnswer": {
+      "value": 3.75,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-18",
+    "kind": "calculation",
+    "term": "3.77%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 2,305 billion to 2,392 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.64%",
+      "87.00%",
+      "103.77%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (2392 − 2305)/2305 × 100 = 3.77%.",
+    "numericAnswer": {
+      "value": 3.77,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-19",
+    "kind": "calculation",
+    "term": "3.80%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 2,370 billion to 2,460 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.66%",
+      "90.00%",
+      "103.80%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (2460 − 2370)/2370 × 100 = 3.80%.",
+    "numericAnswer": {
+      "value": 3.8,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-gdp-growth-20",
+    "kind": "calculation",
+    "term": "3.82%",
+    "definition": "Real GDP, measured consistently in constant purchasing-power units, rises from 2,435 billion to 2,528 billion over a year. What is the real GDP growth rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.68%",
+      "93.00%",
+      "103.82%"
+    ],
+    "explanation": "Real GDP growth = (current − prior)/prior × 100 = (2528 − 2435)/2435 × 100 = 3.82%.",
+    "numericAnswer": {
+      "value": 3.82,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-01",
+    "kind": "calculation",
+    "term": "2.68%",
+    "definition": "Real GDP grows 3.40% while population grows 0.70% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "2.70%",
+      "4.10%",
+      "4.86%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 3.40/100)/(1 + 0.70/100) − 1] × 100 = 2.68%.",
+    "numericAnswer": {
+      "value": 2.68,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-02",
+    "kind": "calculation",
+    "term": "2.77%",
+    "definition": "Real GDP grows 3.52% while population grows 0.73% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "2.79%",
+      "4.25%",
+      "4.82%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 3.52/100)/(1 + 0.73/100) − 1] × 100 = 2.77%.",
+    "numericAnswer": {
+      "value": 2.77,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-03",
+    "kind": "calculation",
+    "term": "2.86%",
+    "definition": "Real GDP grows 3.64% while population grows 0.76% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "2.88%",
+      "4.40%",
+      "4.79%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 3.64/100)/(1 + 0.76/100) − 1] × 100 = 2.86%.",
+    "numericAnswer": {
+      "value": 2.86,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-04",
+    "kind": "calculation",
+    "term": "2.95%",
+    "definition": "Real GDP grows 3.76% while population grows 0.79% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "2.97%",
+      "4.55%",
+      "4.76%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 3.76/100)/(1 + 0.79/100) − 1] × 100 = 2.95%.",
+    "numericAnswer": {
+      "value": 2.95,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-05",
+    "kind": "calculation",
+    "term": "3.04%",
+    "definition": "Real GDP grows 3.88% while population grows 0.82% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "3.06%",
+      "4.70%",
+      "4.73%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 3.88/100)/(1 + 0.82/100) − 1] × 100 = 3.04%.",
+    "numericAnswer": {
+      "value": 3.04,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-06",
+    "kind": "calculation",
+    "term": "3.12%",
+    "definition": "Real GDP grows 4.00% while population grows 0.85% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "3.15%",
+      "4.85%",
+      "4.71%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 4.00/100)/(1 + 0.85/100) − 1] × 100 = 3.12%.",
+    "numericAnswer": {
+      "value": 3.12,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-07",
+    "kind": "calculation",
+    "term": "3.21%",
+    "definition": "Real GDP grows 4.12% while population grows 0.88% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "3.24%",
+      "5.00%",
+      "4.68%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 4.12/100)/(1 + 0.88/100) − 1] × 100 = 3.21%.",
+    "numericAnswer": {
+      "value": 3.21,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-08",
+    "kind": "calculation",
+    "term": "3.30%",
+    "definition": "Real GDP grows 4.24% while population grows 0.91% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "3.33%",
+      "5.15%",
+      "4.66%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 4.24/100)/(1 + 0.91/100) − 1] × 100 = 3.30%.",
+    "numericAnswer": {
+      "value": 3.3,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-09",
+    "kind": "calculation",
+    "term": "3.39%",
+    "definition": "Real GDP grows 4.36% while population grows 0.94% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "3.42%",
+      "5.30%",
+      "4.64%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 4.36/100)/(1 + 0.94/100) − 1] × 100 = 3.39%.",
+    "numericAnswer": {
+      "value": 3.39,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-10",
+    "kind": "calculation",
+    "term": "3.48%",
+    "definition": "Real GDP grows 4.48% while population grows 0.97% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "3.51%",
+      "5.45%",
+      "4.62%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 4.48/100)/(1 + 0.97/100) − 1] × 100 = 3.48%.",
+    "numericAnswer": {
+      "value": 3.48,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-11",
+    "kind": "calculation",
+    "term": "3.56%",
+    "definition": "Real GDP grows 4.60% while population grows 1.00% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "3.60%",
+      "5.60%",
+      "4.60%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 4.60/100)/(1 + 1.00/100) − 1] × 100 = 3.56%.",
+    "numericAnswer": {
+      "value": 3.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-12",
+    "kind": "calculation",
+    "term": "3.65%",
+    "definition": "Real GDP grows 4.72% while population grows 1.03% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "3.69%",
+      "5.75%",
+      "4.58%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 4.72/100)/(1 + 1.03/100) − 1] × 100 = 3.65%.",
+    "numericAnswer": {
+      "value": 3.65,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-13",
+    "kind": "calculation",
+    "term": "3.74%",
+    "definition": "Real GDP grows 4.84% while population grows 1.06% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "3.78%",
+      "5.90%",
+      "4.57%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 4.84/100)/(1 + 1.06/100) − 1] × 100 = 3.74%.",
+    "numericAnswer": {
+      "value": 3.74,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-14",
+    "kind": "calculation",
+    "term": "3.83%",
+    "definition": "Real GDP grows 4.96% while population grows 1.09% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "3.87%",
+      "6.05%",
+      "4.55%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 4.96/100)/(1 + 1.09/100) − 1] × 100 = 3.83%.",
+    "numericAnswer": {
+      "value": 3.83,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-15",
+    "kind": "calculation",
+    "term": "3.92%",
+    "definition": "Real GDP grows 5.08% while population grows 1.12% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "3.96%",
+      "6.20%",
+      "4.54%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 5.08/100)/(1 + 1.12/100) − 1] × 100 = 3.92%.",
+    "numericAnswer": {
+      "value": 3.92,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-16",
+    "kind": "calculation",
+    "term": "4.00%",
+    "definition": "Real GDP grows 5.20% while population grows 1.15% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "4.05%",
+      "6.35%",
+      "4.52%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 5.20/100)/(1 + 1.15/100) − 1] × 100 = 4.00%.",
+    "numericAnswer": {
+      "value": 4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-17",
+    "kind": "calculation",
+    "term": "4.09%",
+    "definition": "Real GDP grows 5.32% while population grows 1.18% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "4.14%",
+      "6.50%",
+      "4.51%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 5.32/100)/(1 + 1.18/100) − 1] × 100 = 4.09%.",
+    "numericAnswer": {
+      "value": 4.09,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-18",
+    "kind": "calculation",
+    "term": "4.18%",
+    "definition": "Real GDP grows 5.44% while population grows 1.21% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "4.23%",
+      "6.65%",
+      "4.50%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 5.44/100)/(1 + 1.21/100) − 1] × 100 = 4.18%.",
+    "numericAnswer": {
+      "value": 4.18,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-19",
+    "kind": "calculation",
+    "term": "4.27%",
+    "definition": "Real GDP grows 5.56% while population grows 1.24% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "4.32%",
+      "6.80%",
+      "4.48%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 5.56/100)/(1 + 1.24/100) − 1] × 100 = 4.27%.",
+    "numericAnswer": {
+      "value": 4.27,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-20",
+    "kind": "calculation",
+    "term": "4.35%",
+    "definition": "Real GDP grows 5.68% while population grows 1.27% over the same year. What is the exact growth rate of real GDP per person? Round to 2 decimal places.",
+    "distractors": [
+      "4.41%",
+      "6.95%",
+      "4.47%"
+    ],
+    "explanation": "Per-capita growth = [(1 + GDP growth)/(1 + population growth) − 1] × 100 = [(1 + 5.68/100)/(1 + 1.27/100) − 1] × 100 = 4.35%.",
+    "numericAnswer": {
+      "value": 4.35,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-01",
+    "kind": "calculation",
+    "term": "943.08 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 850 billion dollars. If it grows at a constant 2.1% per year for 5 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "939.25 billion dollars",
+      "867.85 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 850 × (1 + 2.1/100)^5 = 943.08 billion dollars.",
+    "numericAnswer": {
+      "value": 943.08,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-02",
+    "kind": "calculation",
+    "term": "1,016.41 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 892 billion dollars. If it grows at a constant 2.2% per year for 6 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,009.74 billion dollars",
+      "911.62 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 892 × (1 + 2.2/100)^6 = 1,016.41 billion dollars.",
+    "numericAnswer": {
+      "value": 1016.41,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-03",
+    "kind": "calculation",
+    "term": "1,095.16 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 934 billion dollars. If it grows at a constant 2.3% per year for 7 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,084.37 billion dollars",
+      "955.48 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 934 × (1 + 2.3/100)^7 = 1,095.16 billion dollars.",
+    "numericAnswer": {
+      "value": 1095.16,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-04",
+    "kind": "calculation",
+    "term": "1,179.91 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 976 billion dollars. If it grows at a constant 2.4% per year for 8 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,163.39 billion dollars",
+      "999.42 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 976 × (1 + 2.4/100)^8 = 1,179.91 billion dollars.",
+    "numericAnswer": {
+      "value": 1179.91,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-05",
+    "kind": "calculation",
+    "term": "1,271.34 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1018 billion dollars. If it grows at a constant 2.5% per year for 9 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,247.05 billion dollars",
+      "1,043.45 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1018 × (1 + 2.5/100)^9 = 1,271.34 billion dollars.",
+    "numericAnswer": {
+      "value": 1271.34,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-06",
+    "kind": "calculation",
+    "term": "1,370.19 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1060 billion dollars. If it grows at a constant 2.6% per year for 10 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,335.60 billion dollars",
+      "1,087.56 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1060 × (1 + 2.6/100)^10 = 1,370.19 billion dollars.",
+    "numericAnswer": {
+      "value": 1370.19,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-07",
+    "kind": "calculation",
+    "term": "1,259.02 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1102 billion dollars. If it grows at a constant 2.7% per year for 5 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,250.77 billion dollars",
+      "1,131.75 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1102 × (1 + 2.7/100)^5 = 1,259.02 billion dollars.",
+    "numericAnswer": {
+      "value": 1259.02,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-08",
+    "kind": "calculation",
+    "term": "1,350.16 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1144 billion dollars. If it grows at a constant 2.8% per year for 6 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,336.19 billion dollars",
+      "1,176.03 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1144 × (1 + 2.8/100)^6 = 1,350.16 billion dollars.",
+    "numericAnswer": {
+      "value": 1350.16,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-09",
+    "kind": "calculation",
+    "term": "1,448.75 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1186 billion dollars. If it grows at a constant 2.9% per year for 7 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,426.76 billion dollars",
+      "1,220.39 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1186 × (1 + 2.9/100)^7 = 1,448.75 billion dollars.",
+    "numericAnswer": {
+      "value": 1448.75,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-10",
+    "kind": "calculation",
+    "term": "1,555.59 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1228 billion dollars. If it grows at a constant 3.0% per year for 8 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,522.72 billion dollars",
+      "1,264.84 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1228 × (1 + 3.0/100)^8 = 1,555.59 billion dollars.",
+    "numericAnswer": {
+      "value": 1555.59,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-11",
+    "kind": "calculation",
+    "term": "1,671.60 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1270 billion dollars. If it grows at a constant 3.1% per year for 9 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,624.33 billion dollars",
+      "1,309.37 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1270 × (1 + 3.1/100)^9 = 1,671.60 billion dollars.",
+    "numericAnswer": {
+      "value": 1671.6,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-12",
+    "kind": "calculation",
+    "term": "1,797.76 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1312 billion dollars. If it grows at a constant 3.2% per year for 10 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,731.84 billion dollars",
+      "1,353.98 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1312 × (1 + 3.2/100)^10 = 1,797.76 billion dollars.",
+    "numericAnswer": {
+      "value": 1797.76,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-13",
+    "kind": "calculation",
+    "term": "1,592.65 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1354 billion dollars. If it grows at a constant 3.3% per year for 5 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,577.41 billion dollars",
+      "1,398.68 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1354 × (1 + 3.3/100)^5 = 1,592.65 billion dollars.",
+    "numericAnswer": {
+      "value": 1592.65,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-14",
+    "kind": "calculation",
+    "term": "1,706.12 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1396 billion dollars. If it grows at a constant 3.4% per year for 6 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,680.78 billion dollars",
+      "1,443.46 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1396 × (1 + 3.4/100)^6 = 1,706.12 billion dollars.",
+    "numericAnswer": {
+      "value": 1706.12,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-15",
+    "kind": "calculation",
+    "term": "1,829.54 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1438 billion dollars. If it grows at a constant 3.5% per year for 7 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,790.31 billion dollars",
+      "1,488.33 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1438 × (1 + 3.5/100)^7 = 1,829.54 billion dollars.",
+    "numericAnswer": {
+      "value": 1829.54,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-16",
+    "kind": "calculation",
+    "term": "1,963.99 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1480 billion dollars. If it grows at a constant 3.6% per year for 8 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,906.24 billion dollars",
+      "1,533.28 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1480 × (1 + 3.6/100)^8 = 1,963.99 billion dollars.",
+    "numericAnswer": {
+      "value": 1963.99,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-17",
+    "kind": "calculation",
+    "term": "2,110.69 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1522 billion dollars. If it grows at a constant 3.7% per year for 9 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "2,028.83 billion dollars",
+      "1,578.31 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1522 × (1 + 3.7/100)^9 = 2,110.69 billion dollars.",
+    "numericAnswer": {
+      "value": 2110.69,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-18",
+    "kind": "calculation",
+    "term": "2,270.96 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1564 billion dollars. If it grows at a constant 3.8% per year for 10 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "2,158.32 billion dollars",
+      "1,623.43 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1564 × (1 + 3.8/100)^10 = 2,270.96 billion dollars.",
+    "numericAnswer": {
+      "value": 2270.96,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-19",
+    "kind": "calculation",
+    "term": "1,944.57 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1606 billion dollars. If it grows at a constant 3.9% per year for 5 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "1,919.17 billion dollars",
+      "1,668.63 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1606 × (1 + 3.9/100)^5 = 1,944.57 billion dollars.",
+    "numericAnswer": {
+      "value": 1944.57,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-compound-output-projection-20",
+    "kind": "calculation",
+    "term": "2,085.25 billion dollars",
+    "definition": "A hypothetical economy has real annual output of 1648 billion dollars. If it grows at a constant 4.0% per year for 6 years, what will annual real output be then, in billions of dollars? Round to 2 decimal places.",
+    "distractors": [
+      "2,043.52 billion dollars",
+      "1,713.92 billion dollars",
+      "0.00 billion dollars"
+    ],
+    "explanation": "Compound growth each year: future output = 1648 × (1 + 4.0/100)^6 = 2,085.25 billion dollars.",
+    "numericAnswer": {
+      "value": 2085.25,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-01",
+    "kind": "calculation",
+    "term": "6.99%",
+    "definition": "Real annual output rises from 600 billion dollars to 900 billion dollars over 6 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "8.33%",
+      "50.00%",
+      "106.99%"
+    ],
+    "explanation": "Solve 900 = 600(1 + g)^6. Thus g = [(900/600)^(1/6) − 1] × 100 = 6.99% annually.",
+    "numericAnswer": {
+      "value": 6.99,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-02",
+    "kind": "calculation",
+    "term": "6.12%",
+    "definition": "Real annual output rises from 630 billion dollars to 955 billion dollars over 7 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "7.37%",
+      "51.59%",
+      "106.12%"
+    ],
+    "explanation": "Solve 955 = 630(1 + g)^7. Thus g = [(955/630)^(1/7) − 1] × 100 = 6.12% annually.",
+    "numericAnswer": {
+      "value": 6.12,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-03",
+    "kind": "calculation",
+    "term": "5.46%",
+    "definition": "Real annual output rises from 660 billion dollars to 1010 billion dollars over 8 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "6.63%",
+      "53.03%",
+      "105.46%"
+    ],
+    "explanation": "Solve 1010 = 660(1 + g)^8. Thus g = [(1010/660)^(1/8) − 1] × 100 = 5.46% annually.",
+    "numericAnswer": {
+      "value": 5.46,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-04",
+    "kind": "calculation",
+    "term": "4.94%",
+    "definition": "Real annual output rises from 690 billion dollars to 1065 billion dollars over 9 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "6.04%",
+      "54.35%",
+      "104.94%"
+    ],
+    "explanation": "Solve 1065 = 690(1 + g)^9. Thus g = [(1065/690)^(1/9) − 1] × 100 = 4.94% annually.",
+    "numericAnswer": {
+      "value": 4.94,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-05",
+    "kind": "calculation",
+    "term": "4.52%",
+    "definition": "Real annual output rises from 720 billion dollars to 1120 billion dollars over 10 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "5.56%",
+      "55.56%",
+      "104.52%"
+    ],
+    "explanation": "Solve 1120 = 720(1 + g)^10. Thus g = [(1120/720)^(1/10) − 1] × 100 = 4.52% annually.",
+    "numericAnswer": {
+      "value": 4.52,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-06",
+    "kind": "calculation",
+    "term": "7.77%",
+    "definition": "Real annual output rises from 750 billion dollars to 1175 billion dollars over 6 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "9.44%",
+      "56.67%",
+      "107.77%"
+    ],
+    "explanation": "Solve 1175 = 750(1 + g)^6. Thus g = [(1175/750)^(1/6) − 1] × 100 = 7.77% annually.",
+    "numericAnswer": {
+      "value": 7.77,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-07",
+    "kind": "calculation",
+    "term": "6.72%",
+    "definition": "Real annual output rises from 780 billion dollars to 1230 billion dollars over 7 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "8.24%",
+      "57.69%",
+      "106.72%"
+    ],
+    "explanation": "Solve 1230 = 780(1 + g)^7. Thus g = [(1230/780)^(1/7) − 1] × 100 = 6.72% annually.",
+    "numericAnswer": {
+      "value": 6.72,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-08",
+    "kind": "calculation",
+    "term": "5.94%",
+    "definition": "Real annual output rises from 810 billion dollars to 1285 billion dollars over 8 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "7.33%",
+      "58.64%",
+      "105.94%"
+    ],
+    "explanation": "Solve 1285 = 810(1 + g)^8. Thus g = [(1285/810)^(1/8) − 1] × 100 = 5.94% annually.",
+    "numericAnswer": {
+      "value": 5.94,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-09",
+    "kind": "calculation",
+    "term": "5.33%",
+    "definition": "Real annual output rises from 840 billion dollars to 1340 billion dollars over 9 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "6.61%",
+      "59.52%",
+      "105.33%"
+    ],
+    "explanation": "Solve 1340 = 840(1 + g)^9. Thus g = [(1340/840)^(1/9) − 1] × 100 = 5.33% annually.",
+    "numericAnswer": {
+      "value": 5.33,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-10",
+    "kind": "calculation",
+    "term": "4.83%",
+    "definition": "Real annual output rises from 870 billion dollars to 1395 billion dollars over 10 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "6.03%",
+      "60.34%",
+      "104.83%"
+    ],
+    "explanation": "Solve 1395 = 870(1 + g)^10. Thus g = [(1395/870)^(1/10) − 1] × 100 = 4.83% annually.",
+    "numericAnswer": {
+      "value": 4.83,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-11",
+    "kind": "calculation",
+    "term": "8.27%",
+    "definition": "Real annual output rises from 900 billion dollars to 1450 billion dollars over 6 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "10.19%",
+      "61.11%",
+      "108.27%"
+    ],
+    "explanation": "Solve 1450 = 900(1 + g)^6. Thus g = [(1450/900)^(1/6) − 1] × 100 = 8.27% annually.",
+    "numericAnswer": {
+      "value": 8.27,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-12",
+    "kind": "calculation",
+    "term": "7.12%",
+    "definition": "Real annual output rises from 930 billion dollars to 1505 billion dollars over 7 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "8.83%",
+      "61.83%",
+      "107.12%"
+    ],
+    "explanation": "Solve 1505 = 930(1 + g)^7. Thus g = [(1505/930)^(1/7) − 1] × 100 = 7.12% annually.",
+    "numericAnswer": {
+      "value": 7.12,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-13",
+    "kind": "calculation",
+    "term": "6.26%",
+    "definition": "Real annual output rises from 960 billion dollars to 1560 billion dollars over 8 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "7.81%",
+      "62.50%",
+      "106.26%"
+    ],
+    "explanation": "Solve 1560 = 960(1 + g)^8. Thus g = [(1560/960)^(1/8) − 1] × 100 = 6.26% annually.",
+    "numericAnswer": {
+      "value": 6.26,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-14",
+    "kind": "calculation",
+    "term": "5.59%",
+    "definition": "Real annual output rises from 990 billion dollars to 1615 billion dollars over 9 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "7.01%",
+      "63.13%",
+      "105.59%"
+    ],
+    "explanation": "Solve 1615 = 990(1 + g)^9. Thus g = [(1615/990)^(1/9) − 1] × 100 = 5.59% annually.",
+    "numericAnswer": {
+      "value": 5.59,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-15",
+    "kind": "calculation",
+    "term": "5.05%",
+    "definition": "Real annual output rises from 1020 billion dollars to 1670 billion dollars over 10 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "6.37%",
+      "63.73%",
+      "105.05%"
+    ],
+    "explanation": "Solve 1670 = 1020(1 + g)^10. Thus g = [(1670/1020)^(1/10) − 1] × 100 = 5.05% annually.",
+    "numericAnswer": {
+      "value": 5.05,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-16",
+    "kind": "calculation",
+    "term": "8.63%",
+    "definition": "Real annual output rises from 1050 billion dollars to 1725 billion dollars over 6 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "10.71%",
+      "64.29%",
+      "108.63%"
+    ],
+    "explanation": "Solve 1725 = 1050(1 + g)^6. Thus g = [(1725/1050)^(1/6) − 1] × 100 = 8.63% annually.",
+    "numericAnswer": {
+      "value": 8.63,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-17",
+    "kind": "calculation",
+    "term": "7.40%",
+    "definition": "Real annual output rises from 1080 billion dollars to 1780 billion dollars over 7 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "9.26%",
+      "64.81%",
+      "107.40%"
+    ],
+    "explanation": "Solve 1780 = 1080(1 + g)^7. Thus g = [(1780/1080)^(1/7) − 1] × 100 = 7.40% annually.",
+    "numericAnswer": {
+      "value": 7.4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-18",
+    "kind": "calculation",
+    "term": "6.49%",
+    "definition": "Real annual output rises from 1110 billion dollars to 1835 billion dollars over 8 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "8.16%",
+      "65.32%",
+      "106.49%"
+    ],
+    "explanation": "Solve 1835 = 1110(1 + g)^8. Thus g = [(1835/1110)^(1/8) − 1] × 100 = 6.49% annually.",
+    "numericAnswer": {
+      "value": 6.49,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-19",
+    "kind": "calculation",
+    "term": "5.78%",
+    "definition": "Real annual output rises from 1140 billion dollars to 1890 billion dollars over 9 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "7.31%",
+      "65.79%",
+      "105.78%"
+    ],
+    "explanation": "Solve 1890 = 1140(1 + g)^9. Thus g = [(1890/1140)^(1/9) − 1] × 100 = 5.78% annually.",
+    "numericAnswer": {
+      "value": 5.78,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-output-compound-annual-growth-rate-20",
+    "kind": "calculation",
+    "term": "5.21%",
+    "definition": "Real annual output rises from 1170 billion dollars to 1945 billion dollars over 10 years. What constant compound annual growth rate would generate this change? Round to 2 decimal places.",
+    "distractors": [
+      "6.62%",
+      "66.24%",
+      "105.21%"
+    ],
+    "explanation": "Solve 1945 = 1170(1 + g)^10. Thus g = [(1945/1170)^(1/10) − 1] × 100 = 5.21% annually.",
+    "numericAnswer": {
+      "value": 5.21,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-01",
+    "kind": "calculation",
+    "term": "1,922.00 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 1800 billion dollars. Existing capital depreciates 6.0% during the year, and 230 billion of new investment is installed at year-end. What is the end-of-year capital stock?",
+    "distractors": [
+      "2,030.00 billion dollars",
+      "1,692.00 billion dollars",
+      "1,908.20 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 1800(1 − 6.0/100) + 230 = 1,922.00 billion dollars.",
+    "numericAnswer": {
+      "value": 1922,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-02",
+    "kind": "calculation",
+    "term": "2,023.41 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 1895 billion dollars. Existing capital depreciates 6.1% during the year, and 244 billion of new investment is installed at year-end. What is the end-of-year capital stock? Round to 2 decimal places.",
+    "distractors": [
+      "2,139.00 billion dollars",
+      "1,779.41 billion dollars",
+      "2,008.52 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 1895(1 − 6.1/100) + 244 = 2,023.41 billion dollars.",
+    "numericAnswer": {
+      "value": 2023.41,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-03",
+    "kind": "calculation",
+    "term": "2,124.62 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 1990 billion dollars. Existing capital depreciates 6.2% during the year, and 258 billion of new investment is installed at year-end. What is the end-of-year capital stock?",
+    "distractors": [
+      "2,248.00 billion dollars",
+      "1,866.62 billion dollars",
+      "2,108.62 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 1990(1 − 6.2/100) + 258 = 2,124.62 billion dollars.",
+    "numericAnswer": {
+      "value": 2124.62,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-04",
+    "kind": "calculation",
+    "term": "2,225.65 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 2085 billion dollars. Existing capital depreciates 6.3% during the year, and 272 billion of new investment is installed at year-end. What is the end-of-year capital stock? Round to 2 decimal places.",
+    "distractors": [
+      "2,357.00 billion dollars",
+      "1,953.65 billion dollars",
+      "2,208.51 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 2085(1 − 6.3/100) + 272 = 2,225.65 billion dollars.",
+    "numericAnswer": {
+      "value": 2225.65,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-05",
+    "kind": "calculation",
+    "term": "2,326.48 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 2180 billion dollars. Existing capital depreciates 6.4% during the year, and 286 billion of new investment is installed at year-end. What is the end-of-year capital stock?",
+    "distractors": [
+      "2,466.00 billion dollars",
+      "2,040.48 billion dollars",
+      "2,308.18 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 2180(1 − 6.4/100) + 286 = 2,326.48 billion dollars.",
+    "numericAnswer": {
+      "value": 2326.48,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-06",
+    "kind": "calculation",
+    "term": "2,427.13 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 2275 billion dollars. Existing capital depreciates 6.5% during the year, and 300 billion of new investment is installed at year-end. What is the end-of-year capital stock? Round to 2 decimal places.",
+    "distractors": [
+      "2,575.00 billion dollars",
+      "2,127.13 billion dollars",
+      "2,407.63 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 2275(1 − 6.5/100) + 300 = 2,427.13 billion dollars.",
+    "numericAnswer": {
+      "value": 2427.13,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-07",
+    "kind": "calculation",
+    "term": "2,527.58 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 2370 billion dollars. Existing capital depreciates 6.6% during the year, and 314 billion of new investment is installed at year-end. What is the end-of-year capital stock?",
+    "distractors": [
+      "2,684.00 billion dollars",
+      "2,213.58 billion dollars",
+      "2,506.86 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 2370(1 − 6.6/100) + 314 = 2,527.58 billion dollars.",
+    "numericAnswer": {
+      "value": 2527.58,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-08",
+    "kind": "calculation",
+    "term": "2,627.85 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 2465 billion dollars. Existing capital depreciates 6.7% during the year, and 328 billion of new investment is installed at year-end. What is the end-of-year capital stock? Round to 2 decimal places.",
+    "distractors": [
+      "2,793.00 billion dollars",
+      "2,299.85 billion dollars",
+      "2,605.87 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 2465(1 − 6.7/100) + 328 = 2,627.85 billion dollars.",
+    "numericAnswer": {
+      "value": 2627.85,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-09",
+    "kind": "calculation",
+    "term": "2,727.92 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 2560 billion dollars. Existing capital depreciates 6.8% during the year, and 342 billion of new investment is installed at year-end. What is the end-of-year capital stock?",
+    "distractors": [
+      "2,902.00 billion dollars",
+      "2,385.92 billion dollars",
+      "2,704.66 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 2560(1 − 6.8/100) + 342 = 2,727.92 billion dollars.",
+    "numericAnswer": {
+      "value": 2727.92,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-10",
+    "kind": "calculation",
+    "term": "2,827.81 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 2655 billion dollars. Existing capital depreciates 6.9% during the year, and 356 billion of new investment is installed at year-end. What is the end-of-year capital stock? Round to 2 decimal places.",
+    "distractors": [
+      "3,011.00 billion dollars",
+      "2,471.81 billion dollars",
+      "2,803.24 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 2655(1 − 6.9/100) + 356 = 2,827.81 billion dollars.",
+    "numericAnswer": {
+      "value": 2827.81,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-11",
+    "kind": "calculation",
+    "term": "2,927.50 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 2750 billion dollars. Existing capital depreciates 7.0% during the year, and 370 billion of new investment is installed at year-end. What is the end-of-year capital stock?",
+    "distractors": [
+      "3,120.00 billion dollars",
+      "2,557.50 billion dollars",
+      "2,901.60 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 2750(1 − 7.0/100) + 370 = 2,927.50 billion dollars.",
+    "numericAnswer": {
+      "value": 2927.5,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-12",
+    "kind": "calculation",
+    "term": "3,027.01 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 2845 billion dollars. Existing capital depreciates 7.1% during the year, and 384 billion of new investment is installed at year-end. What is the end-of-year capital stock? Round to 2 decimal places.",
+    "distractors": [
+      "3,229.00 billion dollars",
+      "2,643.01 billion dollars",
+      "2,999.74 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 2845(1 − 7.1/100) + 384 = 3,027.01 billion dollars.",
+    "numericAnswer": {
+      "value": 3027.01,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-13",
+    "kind": "calculation",
+    "term": "3,126.32 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 2940 billion dollars. Existing capital depreciates 7.2% during the year, and 398 billion of new investment is installed at year-end. What is the end-of-year capital stock?",
+    "distractors": [
+      "3,338.00 billion dollars",
+      "2,728.32 billion dollars",
+      "3,097.66 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 2940(1 − 7.2/100) + 398 = 3,126.32 billion dollars.",
+    "numericAnswer": {
+      "value": 3126.32,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-14",
+    "kind": "calculation",
+    "term": "3,225.45 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 3035 billion dollars. Existing capital depreciates 7.3% during the year, and 412 billion of new investment is installed at year-end. What is the end-of-year capital stock? Round to 2 decimal places.",
+    "distractors": [
+      "3,447.00 billion dollars",
+      "2,813.45 billion dollars",
+      "3,195.37 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 3035(1 − 7.3/100) + 412 = 3,225.45 billion dollars.",
+    "numericAnswer": {
+      "value": 3225.45,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-15",
+    "kind": "calculation",
+    "term": "3,324.38 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 3130 billion dollars. Existing capital depreciates 7.4% during the year, and 426 billion of new investment is installed at year-end. What is the end-of-year capital stock?",
+    "distractors": [
+      "3,556.00 billion dollars",
+      "2,898.38 billion dollars",
+      "3,292.86 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 3130(1 − 7.4/100) + 426 = 3,324.38 billion dollars.",
+    "numericAnswer": {
+      "value": 3324.38,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-16",
+    "kind": "calculation",
+    "term": "3,423.13 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 3225 billion dollars. Existing capital depreciates 7.5% during the year, and 440 billion of new investment is installed at year-end. What is the end-of-year capital stock? Round to 2 decimal places.",
+    "distractors": [
+      "3,665.00 billion dollars",
+      "2,983.13 billion dollars",
+      "3,390.13 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 3225(1 − 7.5/100) + 440 = 3,423.13 billion dollars.",
+    "numericAnswer": {
+      "value": 3423.13,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-17",
+    "kind": "calculation",
+    "term": "3,521.68 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 3320 billion dollars. Existing capital depreciates 7.6% during the year, and 454 billion of new investment is installed at year-end. What is the end-of-year capital stock?",
+    "distractors": [
+      "3,774.00 billion dollars",
+      "3,067.68 billion dollars",
+      "3,487.18 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 3320(1 − 7.6/100) + 454 = 3,521.68 billion dollars.",
+    "numericAnswer": {
+      "value": 3521.68,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-18",
+    "kind": "calculation",
+    "term": "3,620.05 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 3415 billion dollars. Existing capital depreciates 7.7% during the year, and 468 billion of new investment is installed at year-end. What is the end-of-year capital stock? Round to 2 decimal places.",
+    "distractors": [
+      "3,883.00 billion dollars",
+      "3,152.05 billion dollars",
+      "3,584.01 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 3415(1 − 7.7/100) + 468 = 3,620.05 billion dollars.",
+    "numericAnswer": {
+      "value": 3620.05,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-19",
+    "kind": "calculation",
+    "term": "3,718.22 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 3510 billion dollars. Existing capital depreciates 7.8% during the year, and 482 billion of new investment is installed at year-end. What is the end-of-year capital stock?",
+    "distractors": [
+      "3,992.00 billion dollars",
+      "3,236.22 billion dollars",
+      "3,680.62 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 3510(1 − 7.8/100) + 482 = 3,718.22 billion dollars.",
+    "numericAnswer": {
+      "value": 3718.22,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-net-capital-accumulation-20",
+    "kind": "calculation",
+    "term": "3,816.21 billion dollars",
+    "definition": "An economy starts the year with a real capital stock of 3605 billion dollars. Existing capital depreciates 7.9% during the year, and 496 billion of new investment is installed at year-end. What is the end-of-year capital stock? Round to 2 decimal places.",
+    "distractors": [
+      "4,101.00 billion dollars",
+      "3,320.21 billion dollars",
+      "3,777.02 billion dollars"
+    ],
+    "explanation": "New investment is installed after existing-capital depreciation: Knext = 3605(1 − 7.9/100) + 496 = 3,816.21 billion dollars.",
+    "numericAnswer": {
+      "value": 3816.21,
+      "unit": "billion dollars"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-01",
+    "kind": "calculation",
+    "term": "36.00 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 2.0√k, the saving rate is 15.0%, and annual depreciation is 5.0%. What is the positive steady-state capital per worker k?",
+    "distractors": [
+      "6.00 capital units per worker",
+      "1,600.00 capital units per worker",
+      "0.03 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.150 × 2.0√k = 0.050k. For k > 0, k = (0.150 × 2.0/0.050)² = 36.00 capital units per worker.",
+    "numericAnswer": {
+      "value": 36,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-02",
+    "kind": "calculation",
+    "term": "40.73 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 2.1√k, the saving rate is 15.5%, and annual depreciation is 5.1%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "6.38 capital units per worker",
+      "1,695.50 capital units per worker",
+      "0.02 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.155 × 2.1√k = 0.051k. For k > 0, k = (0.155 × 2.1/0.051)² = 40.73 capital units per worker.",
+    "numericAnswer": {
+      "value": 40.73,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-03",
+    "kind": "calculation",
+    "term": "45.82 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 2.2√k, the saving rate is 16.0%, and annual depreciation is 5.2%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "6.77 capital units per worker",
+      "1,789.94 capital units per worker",
+      "0.02 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.160 × 2.2√k = 0.052k. For k > 0, k = (0.160 × 2.2/0.052)² = 45.82 capital units per worker.",
+    "numericAnswer": {
+      "value": 45.82,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-04",
+    "kind": "calculation",
+    "term": "51.27 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 2.3√k, the saving rate is 16.5%, and annual depreciation is 5.3%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "7.16 capital units per worker",
+      "1,883.23 capital units per worker",
+      "0.02 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.165 × 2.3√k = 0.053k. For k > 0, k = (0.165 × 2.3/0.053)² = 51.27 capital units per worker.",
+    "numericAnswer": {
+      "value": 51.27,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-05",
+    "kind": "calculation",
+    "term": "57.09 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 2.4√k, the saving rate is 17.0%, and annual depreciation is 5.4%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "7.56 capital units per worker",
+      "1,975.31 capital units per worker",
+      "0.02 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.170 × 2.4√k = 0.054k. For k > 0, k = (0.170 × 2.4/0.054)² = 57.09 capital units per worker.",
+    "numericAnswer": {
+      "value": 57.09,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-06",
+    "kind": "calculation",
+    "term": "63.27 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 2.5√k, the saving rate is 17.5%, and annual depreciation is 5.5%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "7.95 capital units per worker",
+      "2,066.12 capital units per worker",
+      "0.02 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.175 × 2.5√k = 0.055k. For k > 0, k = (0.175 × 2.5/0.055)² = 63.27 capital units per worker.",
+    "numericAnswer": {
+      "value": 63.27,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-07",
+    "kind": "calculation",
+    "term": "69.84 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 2.6√k, the saving rate is 18.0%, and annual depreciation is 5.6%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "8.36 capital units per worker",
+      "2,155.61 capital units per worker",
+      "0.01 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.180 × 2.6√k = 0.056k. For k > 0, k = (0.180 × 2.6/0.056)² = 69.84 capital units per worker.",
+    "numericAnswer": {
+      "value": 69.84,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-08",
+    "kind": "calculation",
+    "term": "76.79 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 2.7√k, the saving rate is 18.5%, and annual depreciation is 5.7%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "8.76 capital units per worker",
+      "2,243.77 capital units per worker",
+      "0.01 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.185 × 2.7√k = 0.057k. For k > 0, k = (0.185 × 2.7/0.057)² = 76.79 capital units per worker.",
+    "numericAnswer": {
+      "value": 76.79,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-09",
+    "kind": "calculation",
+    "term": "84.13 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 2.8√k, the saving rate is 19.0%, and annual depreciation is 5.8%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "9.17 capital units per worker",
+      "2,330.56 capital units per worker",
+      "0.01 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.190 × 2.8√k = 0.058k. For k > 0, k = (0.190 × 2.8/0.058)² = 84.13 capital units per worker.",
+    "numericAnswer": {
+      "value": 84.13,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-10",
+    "kind": "calculation",
+    "term": "91.87 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 2.9√k, the saving rate is 19.5%, and annual depreciation is 5.9%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "9.58 capital units per worker",
+      "2,415.97 capital units per worker",
+      "0.01 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.195 × 2.9√k = 0.059k. For k > 0, k = (0.195 × 2.9/0.059)² = 91.87 capital units per worker.",
+    "numericAnswer": {
+      "value": 91.87,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-11",
+    "kind": "calculation",
+    "term": "100.00 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 3.0√k, the saving rate is 20.0%, and annual depreciation is 6.0%. What is the positive steady-state capital per worker k?",
+    "distractors": [
+      "10.00 capital units per worker",
+      "2,500.00 capital units per worker",
+      "0.01 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.200 × 3.0√k = 0.060k. For k > 0, k = (0.200 × 3.0/0.060)² = 100.00 capital units per worker.",
+    "numericAnswer": {
+      "value": 100,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-12",
+    "kind": "calculation",
+    "term": "108.54 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 3.1√k, the saving rate is 20.5%, and annual depreciation is 6.1%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "10.42 capital units per worker",
+      "2,582.64 capital units per worker",
+      "0.01 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.205 × 3.1√k = 0.061k. For k > 0, k = (0.205 × 3.1/0.061)² = 108.54 capital units per worker.",
+    "numericAnswer": {
+      "value": 108.54,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-13",
+    "kind": "calculation",
+    "term": "117.48 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 3.2√k, the saving rate is 21.0%, and annual depreciation is 6.2%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "10.84 capital units per worker",
+      "2,663.89 capital units per worker",
+      "0.01 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.210 × 3.2√k = 0.062k. For k > 0, k = (0.210 × 3.2/0.062)² = 117.48 capital units per worker.",
+    "numericAnswer": {
+      "value": 117.48,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-14",
+    "kind": "calculation",
+    "term": "126.83 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 3.3√k, the saving rate is 21.5%, and annual depreciation is 6.3%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "11.26 capital units per worker",
+      "2,743.76 capital units per worker",
+      "0.01 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.215 × 3.3√k = 0.063k. For k > 0, k = (0.215 × 3.3/0.063)² = 126.83 capital units per worker.",
+    "numericAnswer": {
+      "value": 126.83,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-15",
+    "kind": "calculation",
+    "term": "136.60 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 3.4√k, the saving rate is 22.0%, and annual depreciation is 6.4%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "11.69 capital units per worker",
+      "2,822.27 capital units per worker",
+      "0.01 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.220 × 3.4√k = 0.064k. For k > 0, k = (0.220 × 3.4/0.064)² = 136.60 capital units per worker.",
+    "numericAnswer": {
+      "value": 136.6,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-16",
+    "kind": "calculation",
+    "term": "146.78 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 3.5√k, the saving rate is 22.5%, and annual depreciation is 6.5%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "12.12 capital units per worker",
+      "2,899.41 capital units per worker",
+      "0.01 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.225 × 3.5√k = 0.065k. For k > 0, k = (0.225 × 3.5/0.065)² = 146.78 capital units per worker.",
+    "numericAnswer": {
+      "value": 146.78,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-17",
+    "kind": "calculation",
+    "term": "157.39 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 3.6√k, the saving rate is 23.0%, and annual depreciation is 6.6%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "12.55 capital units per worker",
+      "2,975.21 capital units per worker",
+      "0.01 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.230 × 3.6√k = 0.066k. For k > 0, k = (0.230 × 3.6/0.066)² = 157.39 capital units per worker.",
+    "numericAnswer": {
+      "value": 157.39,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-18",
+    "kind": "calculation",
+    "term": "168.42 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 3.7√k, the saving rate is 23.5%, and annual depreciation is 6.7%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "12.98 capital units per worker",
+      "3,049.68 capital units per worker",
+      "0.01 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.235 × 3.7√k = 0.067k. For k > 0, k = (0.235 × 3.7/0.067)² = 168.42 capital units per worker.",
+    "numericAnswer": {
+      "value": 168.42,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-19",
+    "kind": "calculation",
+    "term": "179.88 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 3.8√k, the saving rate is 24.0%, and annual depreciation is 6.8%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "13.41 capital units per worker",
+      "3,122.84 capital units per worker",
+      "0.01 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.240 × 3.8√k = 0.068k. For k > 0, k = (0.240 × 3.8/0.068)² = 179.88 capital units per worker.",
+    "numericAnswer": {
+      "value": 179.88,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-solow-steady-state-capital-20",
+    "kind": "calculation",
+    "term": "191.76 capital units per worker",
+    "definition": "In a Solow model with no population or technology growth, output per worker is y = 3.9√k, the saving rate is 24.5%, and annual depreciation is 6.9%. What is the positive steady-state capital per worker k? Round to 2 decimal places.",
+    "distractors": [
+      "13.85 capital units per worker",
+      "3,194.71 capital units per worker",
+      "0.01 capital units per worker"
+    ],
+    "explanation": "At a steady state, investment equals depreciation: 0.245 × 3.9√k = 0.069k. For k > 0, k = (0.245 × 3.9/0.069)² = 191.76 capital units per worker.",
+    "numericAnswer": {
+      "value": 191.76,
+      "unit": "capital units per worker"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-01",
+    "kind": "calculation",
+    "term": "1.61%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 3.80%, capital 4.50%, and labor 1.20%; capital's share α is 0.30. What is implied total factor productivity growth gA?",
+    "distractors": [
+      "-1.90%",
+      "2.45%",
+      "2.96%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 3.80 − 0.30 × 4.50 − (1 − 0.30) × 1.20 = 1.61%.",
+    "numericAnswer": {
+      "value": 1.61,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-02",
+    "kind": "calculation",
+    "term": "1.64%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 3.92%, capital 4.60%, and labor 1.24%; capital's share α is 0.31. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-1.92%",
+      "2.49%",
+      "3.06%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 3.92 − 0.31 × 4.60 − (1 − 0.31) × 1.24 = 1.64%.",
+    "numericAnswer": {
+      "value": 1.64,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-03",
+    "kind": "calculation",
+    "term": "1.67%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 4.04%, capital 4.70%, and labor 1.28%; capital's share α is 0.32. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-1.94%",
+      "2.54%",
+      "3.17%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 4.04 − 0.32 × 4.70 − (1 − 0.32) × 1.28 = 1.67%.",
+    "numericAnswer": {
+      "value": 1.67,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-04",
+    "kind": "calculation",
+    "term": "1.69%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 4.16%, capital 4.80%, and labor 1.32%; capital's share α is 0.33. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-1.96%",
+      "2.58%",
+      "3.28%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 4.16 − 0.33 × 4.80 − (1 − 0.33) × 1.32 = 1.69%.",
+    "numericAnswer": {
+      "value": 1.69,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-05",
+    "kind": "calculation",
+    "term": "1.72%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 4.28%, capital 4.90%, and labor 1.36%; capital's share α is 0.34. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-1.98%",
+      "2.61%",
+      "3.38%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 4.28 − 0.34 × 4.90 − (1 − 0.34) × 1.36 = 1.72%.",
+    "numericAnswer": {
+      "value": 1.72,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-06",
+    "kind": "calculation",
+    "term": "1.74%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 4.40%, capital 5.00%, and labor 1.40%; capital's share α is 0.35. What is implied total factor productivity growth gA?",
+    "distractors": [
+      "-2.00%",
+      "2.65%",
+      "3.49%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 4.40 − 0.35 × 5.00 − (1 − 0.35) × 1.40 = 1.74%.",
+    "numericAnswer": {
+      "value": 1.74,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-07",
+    "kind": "calculation",
+    "term": "1.98%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 4.52%, capital 5.10%, and labor 1.44%; capital's share α is 0.30. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-2.02%",
+      "2.99%",
+      "3.51%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 4.52 − 0.30 × 5.10 − (1 − 0.30) × 1.44 = 1.98%.",
+    "numericAnswer": {
+      "value": 1.98,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-08",
+    "kind": "calculation",
+    "term": "2.01%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 4.64%, capital 5.20%, and labor 1.48%; capital's share α is 0.31. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-2.04%",
+      "3.03%",
+      "3.62%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 4.64 − 0.31 × 5.20 − (1 − 0.31) × 1.48 = 2.01%.",
+    "numericAnswer": {
+      "value": 2.01,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-09",
+    "kind": "calculation",
+    "term": "2.03%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 4.76%, capital 5.30%, and labor 1.52%; capital's share α is 0.32. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-2.06%",
+      "3.06%",
+      "3.73%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 4.76 − 0.32 × 5.30 − (1 − 0.32) × 1.52 = 2.03%.",
+    "numericAnswer": {
+      "value": 2.03,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-10",
+    "kind": "calculation",
+    "term": "2.05%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 4.88%, capital 5.40%, and labor 1.56%; capital's share α is 0.33. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-2.08%",
+      "3.10%",
+      "3.83%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 4.88 − 0.33 × 5.40 − (1 − 0.33) × 1.56 = 2.05%.",
+    "numericAnswer": {
+      "value": 2.05,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-11",
+    "kind": "calculation",
+    "term": "2.07%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 5.00%, capital 5.50%, and labor 1.60%; capital's share α is 0.34. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-2.10%",
+      "3.13%",
+      "3.94%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 5.00 − 0.34 × 5.50 − (1 − 0.34) × 1.60 = 2.07%.",
+    "numericAnswer": {
+      "value": 2.07,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-12",
+    "kind": "calculation",
+    "term": "2.09%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 5.12%, capital 5.60%, and labor 1.64%; capital's share α is 0.35. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-2.12%",
+      "3.16%",
+      "4.05%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 5.12 − 0.35 × 5.60 − (1 − 0.35) × 1.64 = 2.09%.",
+    "numericAnswer": {
+      "value": 2.09,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-13",
+    "kind": "calculation",
+    "term": "2.35%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 5.24%, capital 5.70%, and labor 1.68%; capital's share α is 0.30. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-2.14%",
+      "3.53%",
+      "4.06%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 5.24 − 0.30 × 5.70 − (1 − 0.30) × 1.68 = 2.35%.",
+    "numericAnswer": {
+      "value": 2.35,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-14",
+    "kind": "calculation",
+    "term": "2.38%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 5.36%, capital 5.80%, and labor 1.72%; capital's share α is 0.31. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-2.16%",
+      "3.56%",
+      "4.17%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 5.36 − 0.31 × 5.80 − (1 − 0.31) × 1.72 = 2.38%.",
+    "numericAnswer": {
+      "value": 2.38,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-15",
+    "kind": "calculation",
+    "term": "2.40%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 5.48%, capital 5.90%, and labor 1.76%; capital's share α is 0.32. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-2.18%",
+      "3.59%",
+      "4.28%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 5.48 − 0.32 × 5.90 − (1 − 0.32) × 1.76 = 2.40%.",
+    "numericAnswer": {
+      "value": 2.4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-16",
+    "kind": "calculation",
+    "term": "2.41%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 5.60%, capital 6.00%, and labor 1.80%; capital's share α is 0.33. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-2.20%",
+      "3.62%",
+      "4.39%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 5.60 − 0.33 × 6.00 − (1 − 0.33) × 1.80 = 2.41%.",
+    "numericAnswer": {
+      "value": 2.41,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-17",
+    "kind": "calculation",
+    "term": "2.43%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 5.72%, capital 6.10%, and labor 1.84%; capital's share α is 0.34. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-2.22%",
+      "3.65%",
+      "4.51%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 5.72 − 0.34 × 6.10 − (1 − 0.34) × 1.84 = 2.43%.",
+    "numericAnswer": {
+      "value": 2.43,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-18",
+    "kind": "calculation",
+    "term": "2.45%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 5.84%, capital 6.20%, and labor 1.88%; capital's share α is 0.35. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-2.24%",
+      "3.67%",
+      "4.62%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 5.84 − 0.35 × 6.20 − (1 − 0.35) × 1.88 = 2.45%.",
+    "numericAnswer": {
+      "value": 2.45,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-19",
+    "kind": "calculation",
+    "term": "2.73%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 5.96%, capital 6.30%, and labor 1.92%; capital's share α is 0.30. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-2.26%",
+      "4.07%",
+      "4.62%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 5.96 − 0.30 × 6.30 − (1 − 0.30) × 1.92 = 2.73%.",
+    "numericAnswer": {
+      "value": 2.73,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-growth-accounting-tfp-20",
+    "kind": "calculation",
+    "term": "2.74%",
+    "definition": "Use the growth-accounting approximation gY = gA + αgK + (1 − α)gL. Output grows 6.08%, capital 6.40%, and labor 1.96%; capital's share α is 0.31. What is implied total factor productivity growth gA? Round to 2 decimal places.",
+    "distractors": [
+      "-2.28%",
+      "4.10%",
+      "4.73%"
+    ],
+    "explanation": "Rearrange the stated approximation: gA = 6.08 − 0.31 × 6.40 − (1 − 0.31) × 1.96 = 2.74%.",
+    "numericAnswer": {
+      "value": 2.74,
+      "unit": "%"
+    }
+  }
+]

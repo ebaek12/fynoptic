@@ -6,6 +6,7 @@ export interface FlashcardCardProps {
   isFront: boolean;
   revealed: boolean;
   onReveal: () => void;
+  calculation?: boolean;
 }
 
 export function FlashcardCard({
@@ -14,6 +15,7 @@ export function FlashcardCard({
   isFront,
   revealed,
   onReveal,
+  calculation = false,
 }: FlashcardCardProps) {
   const reducedMotion = useReducedMotion();
   const transition = reducedMotion
@@ -37,7 +39,9 @@ export function FlashcardCard({
           animate={{ rotateY: isFront ? 0 : 180, opacity: isFront ? 1 : 0 }}
           transition={transition}
         >
-          <span className="session-prompt-label">Term</span>
+          <span className="session-prompt-label">
+            {calculation ? "Answer" : "Term"}
+          </span>
           <span id="term-text" className="session-card-text">
             {term || " - "}
           </span>
@@ -50,7 +54,9 @@ export function FlashcardCard({
           animate={{ rotateY: !isFront ? 0 : 180, opacity: !isFront ? 1 : 0 }}
           transition={transition}
         >
-          <span className="session-prompt-label">Definition</span>
+          <span className="session-prompt-label">
+            {calculation ? "Question" : "Definition"}
+          </span>
           <span id="def-text" className="session-card-text">
             {definition || " - "}
           </span>

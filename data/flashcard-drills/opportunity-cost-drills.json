@@ -1,0 +1,2562 @@
+[
+  {
+    "id": "drill-econ-drill-course-economic-cost-01",
+    "kind": "calculation",
+    "term": "$368.00",
+    "definition": "A short course costs $240.00 and prevents a worker from taking 8 hours of paid work at $16.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$240.00",
+      "$128.00",
+      "$256.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $240.00 + 8 × $16.00 = $368.00.",
+    "numericAnswer": {
+      "value": 368,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-02",
+    "kind": "calculation",
+    "term": "$408.00",
+    "definition": "A short course costs $255.00 and prevents a worker from taking 9 hours of paid work at $17.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$255.00",
+      "$153.00",
+      "$272.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $255.00 + 9 × $17.00 = $408.00.",
+    "numericAnswer": {
+      "value": 408,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-03",
+    "kind": "calculation",
+    "term": "$450.00",
+    "definition": "A short course costs $270.00 and prevents a worker from taking 10 hours of paid work at $18.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$270.00",
+      "$180.00",
+      "$288.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $270.00 + 10 × $18.00 = $450.00.",
+    "numericAnswer": {
+      "value": 450,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-04",
+    "kind": "calculation",
+    "term": "$494.00",
+    "definition": "A short course costs $285.00 and prevents a worker from taking 11 hours of paid work at $19.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$285.00",
+      "$209.00",
+      "$304.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $285.00 + 11 × $19.00 = $494.00.",
+    "numericAnswer": {
+      "value": 494,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-05",
+    "kind": "calculation",
+    "term": "$540.00",
+    "definition": "A short course costs $300.00 and prevents a worker from taking 12 hours of paid work at $20.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$300.00",
+      "$240.00",
+      "$320.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $300.00 + 12 × $20.00 = $540.00.",
+    "numericAnswer": {
+      "value": 540,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-06",
+    "kind": "calculation",
+    "term": "$523.00",
+    "definition": "A short course costs $315.00 and prevents a worker from taking 13 hours of paid work at $16.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$315.00",
+      "$208.00",
+      "$331.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $315.00 + 13 × $16.00 = $523.00.",
+    "numericAnswer": {
+      "value": 523,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-07",
+    "kind": "calculation",
+    "term": "$568.00",
+    "definition": "A short course costs $330.00 and prevents a worker from taking 14 hours of paid work at $17.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$330.00",
+      "$238.00",
+      "$347.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $330.00 + 14 × $17.00 = $568.00.",
+    "numericAnswer": {
+      "value": 568,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-08",
+    "kind": "calculation",
+    "term": "$615.00",
+    "definition": "A short course costs $345.00 and prevents a worker from taking 15 hours of paid work at $18.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$345.00",
+      "$270.00",
+      "$363.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $345.00 + 15 × $18.00 = $615.00.",
+    "numericAnswer": {
+      "value": 615,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-09",
+    "kind": "calculation",
+    "term": "$664.00",
+    "definition": "A short course costs $360.00 and prevents a worker from taking 16 hours of paid work at $19.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$360.00",
+      "$304.00",
+      "$379.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $360.00 + 16 × $19.00 = $664.00.",
+    "numericAnswer": {
+      "value": 664,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-10",
+    "kind": "calculation",
+    "term": "$715.00",
+    "definition": "A short course costs $375.00 and prevents a worker from taking 17 hours of paid work at $20.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$375.00",
+      "$340.00",
+      "$395.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $375.00 + 17 × $20.00 = $715.00.",
+    "numericAnswer": {
+      "value": 715,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-11",
+    "kind": "calculation",
+    "term": "$678.00",
+    "definition": "A short course costs $390.00 and prevents a worker from taking 18 hours of paid work at $16.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$390.00",
+      "$288.00",
+      "$406.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $390.00 + 18 × $16.00 = $678.00.",
+    "numericAnswer": {
+      "value": 678,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-12",
+    "kind": "calculation",
+    "term": "$728.00",
+    "definition": "A short course costs $405.00 and prevents a worker from taking 19 hours of paid work at $17.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$405.00",
+      "$323.00",
+      "$422.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $405.00 + 19 × $17.00 = $728.00.",
+    "numericAnswer": {
+      "value": 728,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-13",
+    "kind": "calculation",
+    "term": "$780.00",
+    "definition": "A short course costs $420.00 and prevents a worker from taking 20 hours of paid work at $18.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$420.00",
+      "$360.00",
+      "$438.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $420.00 + 20 × $18.00 = $780.00.",
+    "numericAnswer": {
+      "value": 780,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-14",
+    "kind": "calculation",
+    "term": "$834.00",
+    "definition": "A short course costs $435.00 and prevents a worker from taking 21 hours of paid work at $19.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$435.00",
+      "$399.00",
+      "$454.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $435.00 + 21 × $19.00 = $834.00.",
+    "numericAnswer": {
+      "value": 834,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-15",
+    "kind": "calculation",
+    "term": "$890.00",
+    "definition": "A short course costs $450.00 and prevents a worker from taking 22 hours of paid work at $20.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$450.00",
+      "$440.00",
+      "$470.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $450.00 + 22 × $20.00 = $890.00.",
+    "numericAnswer": {
+      "value": 890,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-16",
+    "kind": "calculation",
+    "term": "$833.00",
+    "definition": "A short course costs $465.00 and prevents a worker from taking 23 hours of paid work at $16.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$465.00",
+      "$368.00",
+      "$481.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $465.00 + 23 × $16.00 = $833.00.",
+    "numericAnswer": {
+      "value": 833,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-17",
+    "kind": "calculation",
+    "term": "$888.00",
+    "definition": "A short course costs $480.00 and prevents a worker from taking 24 hours of paid work at $17.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$480.00",
+      "$408.00",
+      "$497.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $480.00 + 24 × $17.00 = $888.00.",
+    "numericAnswer": {
+      "value": 888,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-18",
+    "kind": "calculation",
+    "term": "$945.00",
+    "definition": "A short course costs $495.00 and prevents a worker from taking 25 hours of paid work at $18.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$495.00",
+      "$450.00",
+      "$513.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $495.00 + 25 × $18.00 = $945.00.",
+    "numericAnswer": {
+      "value": 945,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-19",
+    "kind": "calculation",
+    "term": "$1,004.00",
+    "definition": "A short course costs $510.00 and prevents a worker from taking 26 hours of paid work at $19.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$510.00",
+      "$494.00",
+      "$529.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $510.00 + 26 × $19.00 = $1,004.00.",
+    "numericAnswer": {
+      "value": 1004,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-20",
+    "kind": "calculation",
+    "term": "$1,065.00",
+    "definition": "A short course costs $525.00 and prevents a worker from taking 27 hours of paid work at $20.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$525.00",
+      "$540.00",
+      "$545.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $525.00 + 27 × $20.00 = $1,065.00.",
+    "numericAnswer": {
+      "value": 1065,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-01",
+    "kind": "calculation",
+    "term": "3.50 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 24 robots or 84 tons of grain. What is the opportunity cost of one robot in tons of grain?",
+    "distractors": [
+      "0.29 tons of grain",
+      "84.00 tons of grain",
+      "60.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 84 tons ÷ 24 robots = 3.50 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.5,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-02",
+    "kind": "calculation",
+    "term": "3.52 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 25 robots or 88 tons of grain. What is the opportunity cost of one robot in tons of grain?",
+    "distractors": [
+      "0.28 tons of grain",
+      "88.00 tons of grain",
+      "63.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 88 tons ÷ 25 robots = 3.52 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.52,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-03",
+    "kind": "calculation",
+    "term": "3.54 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 26 robots or 92 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.28 tons of grain",
+      "92.00 tons of grain",
+      "66.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 92 tons ÷ 26 robots = 3.54 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.54,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-04",
+    "kind": "calculation",
+    "term": "3.56 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 27 robots or 96 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.28 tons of grain",
+      "96.00 tons of grain",
+      "69.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 96 tons ÷ 27 robots = 3.56 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.56,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-05",
+    "kind": "calculation",
+    "term": "3.57 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 28 robots or 100 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.28 tons of grain",
+      "100.00 tons of grain",
+      "72.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 100 tons ÷ 28 robots = 3.57 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.57,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-06",
+    "kind": "calculation",
+    "term": "3.59 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 29 robots or 104 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.28 tons of grain",
+      "104.00 tons of grain",
+      "75.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 104 tons ÷ 29 robots = 3.59 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.59,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-07",
+    "kind": "calculation",
+    "term": "3.60 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 30 robots or 108 tons of grain. What is the opportunity cost of one robot in tons of grain?",
+    "distractors": [
+      "0.28 tons of grain",
+      "108.00 tons of grain",
+      "78.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 108 tons ÷ 30 robots = 3.60 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.6,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-08",
+    "kind": "calculation",
+    "term": "3.61 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 31 robots or 112 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.28 tons of grain",
+      "112.00 tons of grain",
+      "81.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 112 tons ÷ 31 robots = 3.61 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.61,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-09",
+    "kind": "calculation",
+    "term": "3.63 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 32 robots or 116 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.28 tons of grain",
+      "116.00 tons of grain",
+      "84.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 116 tons ÷ 32 robots = 3.63 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.63,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-10",
+    "kind": "calculation",
+    "term": "3.64 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 33 robots or 120 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.28 tons of grain",
+      "120.00 tons of grain",
+      "87.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 120 tons ÷ 33 robots = 3.64 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.64,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-11",
+    "kind": "calculation",
+    "term": "3.65 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 34 robots or 124 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.27 tons of grain",
+      "124.00 tons of grain",
+      "90.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 124 tons ÷ 34 robots = 3.65 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.65,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-12",
+    "kind": "calculation",
+    "term": "3.66 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 35 robots or 128 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.27 tons of grain",
+      "128.00 tons of grain",
+      "93.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 128 tons ÷ 35 robots = 3.66 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.66,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-13",
+    "kind": "calculation",
+    "term": "3.67 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 36 robots or 132 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.27 tons of grain",
+      "132.00 tons of grain",
+      "96.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 132 tons ÷ 36 robots = 3.67 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.67,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-14",
+    "kind": "calculation",
+    "term": "3.68 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 37 robots or 136 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.27 tons of grain",
+      "136.00 tons of grain",
+      "99.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 136 tons ÷ 37 robots = 3.68 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.68,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-15",
+    "kind": "calculation",
+    "term": "3.68 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 38 robots or 140 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.27 tons of grain",
+      "140.00 tons of grain",
+      "102.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 140 tons ÷ 38 robots = 3.68 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.68,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-16",
+    "kind": "calculation",
+    "term": "3.69 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 39 robots or 144 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.27 tons of grain",
+      "144.00 tons of grain",
+      "105.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 144 tons ÷ 39 robots = 3.69 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.69,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-17",
+    "kind": "calculation",
+    "term": "3.70 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 40 robots or 148 tons of grain. What is the opportunity cost of one robot in tons of grain?",
+    "distractors": [
+      "0.27 tons of grain",
+      "148.00 tons of grain",
+      "108.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 148 tons ÷ 40 robots = 3.70 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.7,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-18",
+    "kind": "calculation",
+    "term": "3.71 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 41 robots or 152 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.27 tons of grain",
+      "152.00 tons of grain",
+      "111.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 152 tons ÷ 41 robots = 3.71 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.71,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-19",
+    "kind": "calculation",
+    "term": "3.71 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 42 robots or 156 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.27 tons of grain",
+      "156.00 tons of grain",
+      "114.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 156 tons ÷ 42 robots = 3.71 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.71,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-20",
+    "kind": "calculation",
+    "term": "3.72 tons of grain",
+    "definition": "With fixed resources and a linear production possibilities frontier, an economy can produce either 43 robots or 160 tons of grain. What is the opportunity cost of one robot in tons of grain? Round to 2 decimal places.",
+    "distractors": [
+      "0.27 tons of grain",
+      "160.00 tons of grain",
+      "117.00 tons of grain"
+    ],
+    "explanation": "A linear frontier has constant opportunity cost: 160 tons ÷ 43 robots = 3.72 tons of grain per robot.",
+    "numericAnswer": {
+      "value": 3.72,
+      "unit": "tons of grain"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-01",
+    "kind": "calculation",
+    "term": "4.50 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 12 to 16 reduces bicycles from 160 to 142. What is the average opportunity cost of each additional medical machine over this segment?",
+    "distractors": [
+      "0.22 bicycles",
+      "18.00 bicycles",
+      "8.88 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (160 − 142) ÷ (16 − 12) = 18 ÷ 4 = 4.50 bicycles per machine.",
+    "numericAnswer": {
+      "value": 4.5,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-02",
+    "kind": "calculation",
+    "term": "4.00 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 13 to 18 reduces bicycles from 167 to 147. What is the average opportunity cost of each additional medical machine over this segment?",
+    "distractors": [
+      "0.25 bicycles",
+      "20.00 bicycles",
+      "8.17 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (167 − 147) ÷ (18 − 13) = 20 ÷ 5 = 4.00 bicycles per machine.",
+    "numericAnswer": {
+      "value": 4,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-03",
+    "kind": "calculation",
+    "term": "3.67 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 14 to 20 reduces bicycles from 174 to 152. What is the average opportunity cost of each additional medical machine over this segment? Round to 2 decimal places.",
+    "distractors": [
+      "0.27 bicycles",
+      "22.00 bicycles",
+      "7.60 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (174 − 152) ÷ (20 − 14) = 22 ÷ 6 = 3.67 bicycles per machine.",
+    "numericAnswer": {
+      "value": 3.67,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-04",
+    "kind": "calculation",
+    "term": "3.43 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 15 to 22 reduces bicycles from 181 to 157. What is the average opportunity cost of each additional medical machine over this segment? Round to 2 decimal places.",
+    "distractors": [
+      "0.29 bicycles",
+      "24.00 bicycles",
+      "7.14 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (181 − 157) ÷ (22 − 15) = 24 ÷ 7 = 3.43 bicycles per machine.",
+    "numericAnswer": {
+      "value": 3.43,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-05",
+    "kind": "calculation",
+    "term": "6.50 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 16 to 20 reduces bicycles from 188 to 162. What is the average opportunity cost of each additional medical machine over this segment?",
+    "distractors": [
+      "0.15 bicycles",
+      "26.00 bicycles",
+      "8.10 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (188 − 162) ÷ (20 − 16) = 26 ÷ 4 = 6.50 bicycles per machine.",
+    "numericAnswer": {
+      "value": 6.5,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-06",
+    "kind": "calculation",
+    "term": "5.60 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 17 to 22 reduces bicycles from 195 to 167. What is the average opportunity cost of each additional medical machine over this segment?",
+    "distractors": [
+      "0.18 bicycles",
+      "28.00 bicycles",
+      "7.59 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (195 − 167) ÷ (22 − 17) = 28 ÷ 5 = 5.60 bicycles per machine.",
+    "numericAnswer": {
+      "value": 5.6,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-07",
+    "kind": "calculation",
+    "term": "5.00 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 18 to 24 reduces bicycles from 202 to 172. What is the average opportunity cost of each additional medical machine over this segment?",
+    "distractors": [
+      "0.20 bicycles",
+      "30.00 bicycles",
+      "7.17 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (202 − 172) ÷ (24 − 18) = 30 ÷ 6 = 5.00 bicycles per machine.",
+    "numericAnswer": {
+      "value": 5,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-08",
+    "kind": "calculation",
+    "term": "4.57 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 19 to 26 reduces bicycles from 209 to 177. What is the average opportunity cost of each additional medical machine over this segment? Round to 2 decimal places.",
+    "distractors": [
+      "0.22 bicycles",
+      "32.00 bicycles",
+      "6.81 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (209 − 177) ÷ (26 − 19) = 32 ÷ 7 = 4.57 bicycles per machine.",
+    "numericAnswer": {
+      "value": 4.57,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-09",
+    "kind": "calculation",
+    "term": "8.50 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 20 to 24 reduces bicycles from 216 to 182. What is the average opportunity cost of each additional medical machine over this segment?",
+    "distractors": [
+      "0.12 bicycles",
+      "34.00 bicycles",
+      "7.58 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (216 − 182) ÷ (24 − 20) = 34 ÷ 4 = 8.50 bicycles per machine.",
+    "numericAnswer": {
+      "value": 8.5,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-10",
+    "kind": "calculation",
+    "term": "7.20 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 21 to 26 reduces bicycles from 223 to 187. What is the average opportunity cost of each additional medical machine over this segment?",
+    "distractors": [
+      "0.14 bicycles",
+      "36.00 bicycles",
+      "7.19 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (223 − 187) ÷ (26 − 21) = 36 ÷ 5 = 7.20 bicycles per machine.",
+    "numericAnswer": {
+      "value": 7.2,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-11",
+    "kind": "calculation",
+    "term": "6.33 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 22 to 28 reduces bicycles from 230 to 192. What is the average opportunity cost of each additional medical machine over this segment? Round to 2 decimal places.",
+    "distractors": [
+      "0.16 bicycles",
+      "38.00 bicycles",
+      "6.86 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (230 − 192) ÷ (28 − 22) = 38 ÷ 6 = 6.33 bicycles per machine.",
+    "numericAnswer": {
+      "value": 6.33,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-12",
+    "kind": "calculation",
+    "term": "5.71 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 23 to 30 reduces bicycles from 237 to 197. What is the average opportunity cost of each additional medical machine over this segment? Round to 2 decimal places.",
+    "distractors": [
+      "0.18 bicycles",
+      "40.00 bicycles",
+      "6.57 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (237 − 197) ÷ (30 − 23) = 40 ÷ 7 = 5.71 bicycles per machine.",
+    "numericAnswer": {
+      "value": 5.71,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-13",
+    "kind": "calculation",
+    "term": "10.50 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 24 to 28 reduces bicycles from 244 to 202. What is the average opportunity cost of each additional medical machine over this segment?",
+    "distractors": [
+      "0.10 bicycles",
+      "42.00 bicycles",
+      "7.21 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (244 − 202) ÷ (28 − 24) = 42 ÷ 4 = 10.50 bicycles per machine.",
+    "numericAnswer": {
+      "value": 10.5,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-14",
+    "kind": "calculation",
+    "term": "8.80 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 25 to 30 reduces bicycles from 251 to 207. What is the average opportunity cost of each additional medical machine over this segment?",
+    "distractors": [
+      "0.11 bicycles",
+      "44.00 bicycles",
+      "6.90 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (251 − 207) ÷ (30 − 25) = 44 ÷ 5 = 8.80 bicycles per machine.",
+    "numericAnswer": {
+      "value": 8.8,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-15",
+    "kind": "calculation",
+    "term": "7.67 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 26 to 32 reduces bicycles from 258 to 212. What is the average opportunity cost of each additional medical machine over this segment? Round to 2 decimal places.",
+    "distractors": [
+      "0.13 bicycles",
+      "46.00 bicycles",
+      "6.63 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (258 − 212) ÷ (32 − 26) = 46 ÷ 6 = 7.67 bicycles per machine.",
+    "numericAnswer": {
+      "value": 7.67,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-16",
+    "kind": "calculation",
+    "term": "6.86 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 27 to 34 reduces bicycles from 265 to 217. What is the average opportunity cost of each additional medical machine over this segment? Round to 2 decimal places.",
+    "distractors": [
+      "0.15 bicycles",
+      "48.00 bicycles",
+      "6.38 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (265 − 217) ÷ (34 − 27) = 48 ÷ 7 = 6.86 bicycles per machine.",
+    "numericAnswer": {
+      "value": 6.86,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-17",
+    "kind": "calculation",
+    "term": "12.50 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 28 to 32 reduces bicycles from 272 to 222. What is the average opportunity cost of each additional medical machine over this segment?",
+    "distractors": [
+      "0.08 bicycles",
+      "50.00 bicycles",
+      "6.94 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (272 − 222) ÷ (32 − 28) = 50 ÷ 4 = 12.50 bicycles per machine.",
+    "numericAnswer": {
+      "value": 12.5,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-18",
+    "kind": "calculation",
+    "term": "10.40 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 29 to 34 reduces bicycles from 279 to 227. What is the average opportunity cost of each additional medical machine over this segment?",
+    "distractors": [
+      "0.10 bicycles",
+      "52.00 bicycles",
+      "6.68 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (279 − 227) ÷ (34 − 29) = 52 ÷ 5 = 10.40 bicycles per machine.",
+    "numericAnswer": {
+      "value": 10.4,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-19",
+    "kind": "calculation",
+    "term": "9.00 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 30 to 36 reduces bicycles from 286 to 232. What is the average opportunity cost of each additional medical machine over this segment?",
+    "distractors": [
+      "0.11 bicycles",
+      "54.00 bicycles",
+      "6.44 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (286 − 232) ÷ (36 − 30) = 54 ÷ 6 = 9.00 bicycles per machine.",
+    "numericAnswer": {
+      "value": 9,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-20",
+    "kind": "calculation",
+    "term": "8.00 bicycles",
+    "definition": "On a production frontier, increasing medical machines from 31 to 38 reduces bicycles from 293 to 237. What is the average opportunity cost of each additional medical machine over this segment?",
+    "distractors": [
+      "0.13 bicycles",
+      "56.00 bicycles",
+      "6.24 bicycles"
+    ],
+    "explanation": "Use the changes along this segment: (293 − 237) ÷ (38 − 31) = 56 ÷ 7 = 8.00 bicycles per machine.",
+    "numericAnswer": {
+      "value": 8,
+      "unit": "bicycles"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-01",
+    "kind": "calculation",
+    "term": "10.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 4 sacks of grain. Instead, the producer trades grain for 5 rolls at 2.0 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "20.0 sacks",
+      "2.0 sacks",
+      "30.0 sacks"
+    ],
+    "explanation": "Making the cloth costs 5 × 4 sacks; trading costs 5 × 2.0 sacks. The saving is 5 × (4 − 2.0) = 10.0 sacks.",
+    "numericAnswer": {
+      "value": 10,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-02",
+    "kind": "calculation",
+    "term": "15.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 5 sacks of grain. Instead, the producer trades grain for 6 rolls at 2.5 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "30.0 sacks",
+      "2.5 sacks",
+      "45.0 sacks"
+    ],
+    "explanation": "Making the cloth costs 6 × 5 sacks; trading costs 6 × 2.5 sacks. The saving is 6 × (5 − 2.5) = 15.0 sacks.",
+    "numericAnswer": {
+      "value": 15,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-03",
+    "kind": "calculation",
+    "term": "28.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 6 sacks of grain. Instead, the producer trades grain for 7 rolls at 2.0 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "42.0 sacks",
+      "14.0 sacks",
+      "4.0 sacks"
+    ],
+    "explanation": "Making the cloth costs 7 × 6 sacks; trading costs 7 × 2.0 sacks. The saving is 7 × (6 − 2.0) = 28.0 sacks.",
+    "numericAnswer": {
+      "value": 28,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-04",
+    "kind": "calculation",
+    "term": "12.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 4 sacks of grain. Instead, the producer trades grain for 8 rolls at 2.5 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "32.0 sacks",
+      "20.0 sacks",
+      "1.5 sacks"
+    ],
+    "explanation": "Making the cloth costs 8 × 4 sacks; trading costs 8 × 2.5 sacks. The saving is 8 × (4 − 2.5) = 12.0 sacks.",
+    "numericAnswer": {
+      "value": 12,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-05",
+    "kind": "calculation",
+    "term": "27.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 5 sacks of grain. Instead, the producer trades grain for 9 rolls at 2.0 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "45.0 sacks",
+      "18.0 sacks",
+      "3.0 sacks"
+    ],
+    "explanation": "Making the cloth costs 9 × 5 sacks; trading costs 9 × 2.0 sacks. The saving is 9 × (5 − 2.0) = 27.0 sacks.",
+    "numericAnswer": {
+      "value": 27,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-06",
+    "kind": "calculation",
+    "term": "35.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 6 sacks of grain. Instead, the producer trades grain for 10 rolls at 2.5 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "60.0 sacks",
+      "25.0 sacks",
+      "3.5 sacks"
+    ],
+    "explanation": "Making the cloth costs 10 × 6 sacks; trading costs 10 × 2.5 sacks. The saving is 10 × (6 − 2.5) = 35.0 sacks.",
+    "numericAnswer": {
+      "value": 35,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-07",
+    "kind": "calculation",
+    "term": "22.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 4 sacks of grain. Instead, the producer trades grain for 11 rolls at 2.0 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "44.0 sacks",
+      "2.0 sacks",
+      "66.0 sacks"
+    ],
+    "explanation": "Making the cloth costs 11 × 4 sacks; trading costs 11 × 2.0 sacks. The saving is 11 × (4 − 2.0) = 22.0 sacks.",
+    "numericAnswer": {
+      "value": 22,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-08",
+    "kind": "calculation",
+    "term": "30.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 5 sacks of grain. Instead, the producer trades grain for 12 rolls at 2.5 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "60.0 sacks",
+      "2.5 sacks",
+      "90.0 sacks"
+    ],
+    "explanation": "Making the cloth costs 12 × 5 sacks; trading costs 12 × 2.5 sacks. The saving is 12 × (5 − 2.5) = 30.0 sacks.",
+    "numericAnswer": {
+      "value": 30,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-09",
+    "kind": "calculation",
+    "term": "52.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 6 sacks of grain. Instead, the producer trades grain for 13 rolls at 2.0 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "78.0 sacks",
+      "26.0 sacks",
+      "4.0 sacks"
+    ],
+    "explanation": "Making the cloth costs 13 × 6 sacks; trading costs 13 × 2.0 sacks. The saving is 13 × (6 − 2.0) = 52.0 sacks.",
+    "numericAnswer": {
+      "value": 52,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-10",
+    "kind": "calculation",
+    "term": "21.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 4 sacks of grain. Instead, the producer trades grain for 14 rolls at 2.5 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "56.0 sacks",
+      "35.0 sacks",
+      "1.5 sacks"
+    ],
+    "explanation": "Making the cloth costs 14 × 4 sacks; trading costs 14 × 2.5 sacks. The saving is 14 × (4 − 2.5) = 21.0 sacks.",
+    "numericAnswer": {
+      "value": 21,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-11",
+    "kind": "calculation",
+    "term": "45.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 5 sacks of grain. Instead, the producer trades grain for 15 rolls at 2.0 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "75.0 sacks",
+      "30.0 sacks",
+      "3.0 sacks"
+    ],
+    "explanation": "Making the cloth costs 15 × 5 sacks; trading costs 15 × 2.0 sacks. The saving is 15 × (5 − 2.0) = 45.0 sacks.",
+    "numericAnswer": {
+      "value": 45,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-12",
+    "kind": "calculation",
+    "term": "56.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 6 sacks of grain. Instead, the producer trades grain for 16 rolls at 2.5 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "96.0 sacks",
+      "40.0 sacks",
+      "3.5 sacks"
+    ],
+    "explanation": "Making the cloth costs 16 × 6 sacks; trading costs 16 × 2.5 sacks. The saving is 16 × (6 − 2.5) = 56.0 sacks.",
+    "numericAnswer": {
+      "value": 56,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-13",
+    "kind": "calculation",
+    "term": "34.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 4 sacks of grain. Instead, the producer trades grain for 17 rolls at 2.0 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "68.0 sacks",
+      "2.0 sacks",
+      "102.0 sacks"
+    ],
+    "explanation": "Making the cloth costs 17 × 4 sacks; trading costs 17 × 2.0 sacks. The saving is 17 × (4 − 2.0) = 34.0 sacks.",
+    "numericAnswer": {
+      "value": 34,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-14",
+    "kind": "calculation",
+    "term": "45.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 5 sacks of grain. Instead, the producer trades grain for 18 rolls at 2.5 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "90.0 sacks",
+      "2.5 sacks",
+      "135.0 sacks"
+    ],
+    "explanation": "Making the cloth costs 18 × 5 sacks; trading costs 18 × 2.5 sacks. The saving is 18 × (5 − 2.5) = 45.0 sacks.",
+    "numericAnswer": {
+      "value": 45,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-15",
+    "kind": "calculation",
+    "term": "76.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 6 sacks of grain. Instead, the producer trades grain for 19 rolls at 2.0 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "114.0 sacks",
+      "38.0 sacks",
+      "4.0 sacks"
+    ],
+    "explanation": "Making the cloth costs 19 × 6 sacks; trading costs 19 × 2.0 sacks. The saving is 19 × (6 − 2.0) = 76.0 sacks.",
+    "numericAnswer": {
+      "value": 76,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-16",
+    "kind": "calculation",
+    "term": "30.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 4 sacks of grain. Instead, the producer trades grain for 20 rolls at 2.5 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "80.0 sacks",
+      "50.0 sacks",
+      "1.5 sacks"
+    ],
+    "explanation": "Making the cloth costs 20 × 4 sacks; trading costs 20 × 2.5 sacks. The saving is 20 × (4 − 2.5) = 30.0 sacks.",
+    "numericAnswer": {
+      "value": 30,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-17",
+    "kind": "calculation",
+    "term": "63.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 5 sacks of grain. Instead, the producer trades grain for 21 rolls at 2.0 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "105.0 sacks",
+      "42.0 sacks",
+      "3.0 sacks"
+    ],
+    "explanation": "Making the cloth costs 21 × 5 sacks; trading costs 21 × 2.0 sacks. The saving is 21 × (5 − 2.0) = 63.0 sacks.",
+    "numericAnswer": {
+      "value": 63,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-18",
+    "kind": "calculation",
+    "term": "77.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 6 sacks of grain. Instead, the producer trades grain for 22 rolls at 2.5 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "132.0 sacks",
+      "55.0 sacks",
+      "3.5 sacks"
+    ],
+    "explanation": "Making the cloth costs 22 × 6 sacks; trading costs 22 × 2.5 sacks. The saving is 22 × (6 − 2.5) = 77.0 sacks.",
+    "numericAnswer": {
+      "value": 77,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-19",
+    "kind": "calculation",
+    "term": "46.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 4 sacks of grain. Instead, the producer trades grain for 23 rolls at 2.0 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "92.0 sacks",
+      "2.0 sacks",
+      "138.0 sacks"
+    ],
+    "explanation": "Making the cloth costs 23 × 4 sacks; trading costs 23 × 2.0 sacks. The saving is 23 × (4 − 2.0) = 46.0 sacks.",
+    "numericAnswer": {
+      "value": 46,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-20",
+    "kind": "calculation",
+    "term": "60.0 sacks",
+    "definition": "A producer can make one roll of cloth by giving up 5 sacks of grain. Instead, the producer trades grain for 24 rolls at 2.5 sacks per roll. With constant opportunity costs and no transport costs, how many sacks of grain does trading save compared with making the cloth?",
+    "distractors": [
+      "120.0 sacks",
+      "2.5 sacks",
+      "180.0 sacks"
+    ],
+    "explanation": "Making the cloth costs 24 × 5 sacks; trading costs 24 × 2.5 sacks. The saving is 24 × (5 − 2.5) = 60.0 sacks.",
+    "numericAnswer": {
+      "value": 60,
+      "unit": "sacks"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-01",
+    "kind": "calculation",
+    "term": "$410.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $280.00 from storage, $410.00 from an office rental, or $350.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,040.00",
+      "$280.00",
+      "$350.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($280.00, $410.00, $350.00) = $410.00.",
+    "numericAnswer": {
+      "value": 410,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-02",
+    "kind": "calculation",
+    "term": "$427.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $293.00 from storage, $427.00 from an office rental, or $359.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,079.00",
+      "$293.00",
+      "$359.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($293.00, $427.00, $359.00) = $427.00.",
+    "numericAnswer": {
+      "value": 427,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-03",
+    "kind": "calculation",
+    "term": "$444.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $306.00 from storage, $444.00 from an office rental, or $368.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,118.00",
+      "$306.00",
+      "$368.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($306.00, $444.00, $368.00) = $444.00.",
+    "numericAnswer": {
+      "value": 444,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-04",
+    "kind": "calculation",
+    "term": "$461.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $319.00 from storage, $461.00 from an office rental, or $377.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,157.00",
+      "$319.00",
+      "$377.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($319.00, $461.00, $377.00) = $461.00.",
+    "numericAnswer": {
+      "value": 461,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-05",
+    "kind": "calculation",
+    "term": "$478.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $332.00 from storage, $478.00 from an office rental, or $386.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,196.00",
+      "$332.00",
+      "$386.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($332.00, $478.00, $386.00) = $478.00.",
+    "numericAnswer": {
+      "value": 478,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-06",
+    "kind": "calculation",
+    "term": "$495.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $345.00 from storage, $495.00 from an office rental, or $395.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,235.00",
+      "$345.00",
+      "$395.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($345.00, $495.00, $395.00) = $495.00.",
+    "numericAnswer": {
+      "value": 495,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-07",
+    "kind": "calculation",
+    "term": "$512.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $358.00 from storage, $512.00 from an office rental, or $404.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,274.00",
+      "$358.00",
+      "$404.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($358.00, $512.00, $404.00) = $512.00.",
+    "numericAnswer": {
+      "value": 512,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-08",
+    "kind": "calculation",
+    "term": "$529.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $371.00 from storage, $529.00 from an office rental, or $413.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,313.00",
+      "$371.00",
+      "$413.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($371.00, $529.00, $413.00) = $529.00.",
+    "numericAnswer": {
+      "value": 529,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-09",
+    "kind": "calculation",
+    "term": "$546.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $384.00 from storage, $546.00 from an office rental, or $422.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,352.00",
+      "$384.00",
+      "$422.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($384.00, $546.00, $422.00) = $546.00.",
+    "numericAnswer": {
+      "value": 546,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-10",
+    "kind": "calculation",
+    "term": "$563.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $397.00 from storage, $563.00 from an office rental, or $431.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,391.00",
+      "$397.00",
+      "$431.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($397.00, $563.00, $431.00) = $563.00.",
+    "numericAnswer": {
+      "value": 563,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-11",
+    "kind": "calculation",
+    "term": "$580.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $410.00 from storage, $580.00 from an office rental, or $440.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,430.00",
+      "$410.00",
+      "$440.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($410.00, $580.00, $440.00) = $580.00.",
+    "numericAnswer": {
+      "value": 580,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-12",
+    "kind": "calculation",
+    "term": "$597.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $423.00 from storage, $597.00 from an office rental, or $449.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,469.00",
+      "$423.00",
+      "$449.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($423.00, $597.00, $449.00) = $597.00.",
+    "numericAnswer": {
+      "value": 597,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-13",
+    "kind": "calculation",
+    "term": "$614.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $436.00 from storage, $614.00 from an office rental, or $458.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,508.00",
+      "$436.00",
+      "$458.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($436.00, $614.00, $458.00) = $614.00.",
+    "numericAnswer": {
+      "value": 614,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-14",
+    "kind": "calculation",
+    "term": "$631.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $449.00 from storage, $631.00 from an office rental, or $467.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,547.00",
+      "$449.00",
+      "$467.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($449.00, $631.00, $467.00) = $631.00.",
+    "numericAnswer": {
+      "value": 631,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-15",
+    "kind": "calculation",
+    "term": "$648.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $462.00 from storage, $648.00 from an office rental, or $476.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,586.00",
+      "$462.00",
+      "$476.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($462.00, $648.00, $476.00) = $648.00.",
+    "numericAnswer": {
+      "value": 648,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-16",
+    "kind": "calculation",
+    "term": "$665.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $475.00 from storage, $665.00 from an office rental, or $485.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,625.00",
+      "$475.00",
+      "$485.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($475.00, $665.00, $485.00) = $665.00.",
+    "numericAnswer": {
+      "value": 665,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-17",
+    "kind": "calculation",
+    "term": "$682.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $488.00 from storage, $682.00 from an office rental, or $494.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,664.00",
+      "$488.00",
+      "$494.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($488.00, $682.00, $494.00) = $682.00.",
+    "numericAnswer": {
+      "value": 682,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-18",
+    "kind": "calculation",
+    "term": "$699.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $501.00 from storage, $699.00 from an office rental, or $503.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,703.00",
+      "$501.00",
+      "$503.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($501.00, $699.00, $503.00) = $699.00.",
+    "numericAnswer": {
+      "value": 699,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-19",
+    "kind": "calculation",
+    "term": "$716.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $514.00 from storage, $716.00 from an office rental, or $512.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,742.00",
+      "$514.00",
+      "$512.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($514.00, $716.00, $512.00) = $716.00.",
+    "numericAnswer": {
+      "value": 716,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-best-forgone-alternative-20",
+    "kind": "calculation",
+    "term": "$733.00",
+    "definition": "An owner uses a room for a personal studio. The mutually exclusive alternatives would yield weekly net benefits of $527.00 from storage, $733.00 from an office rental, or $521.00 from tutoring. What is the weekly opportunity cost of the studio?",
+    "distractors": [
+      "$1,781.00",
+      "$527.00",
+      "$521.00"
+    ],
+    "explanation": "Opportunity cost is the highest net benefit forgone, not the sum of alternatives: max($527.00, $733.00, $521.00) = $733.00.",
+    "numericAnswer": {
+      "value": 733,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-01",
+    "kind": "calculation",
+    "term": "$1,300.00",
+    "definition": "A prototype has already cost $1,800.00, which cannot be recovered. Finishing it costs $900.00 and produces a sale worth $2,500.00. Abandoning it now yields $300.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$1,600.00",
+      "-$200.00",
+      "-$500.00"
+    ],
+    "explanation": "Ignore the unrecoverable $1,800.00. Finishing rather than abandoning changes net benefits by $2,500.00 − $900.00 − $300.00 = $1,300.00.",
+    "numericAnswer": {
+      "value": 1300,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-02",
+    "kind": "calculation",
+    "term": "$1,350.00",
+    "definition": "A prototype has already cost $1,860.00, which cannot be recovered. Finishing it costs $935.00 and produces a sale worth $2,595.00. Abandoning it now yields $310.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$1,660.00",
+      "-$200.00",
+      "-$510.00"
+    ],
+    "explanation": "Ignore the unrecoverable $1,860.00. Finishing rather than abandoning changes net benefits by $2,595.00 − $935.00 − $310.00 = $1,350.00.",
+    "numericAnswer": {
+      "value": 1350,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-03",
+    "kind": "calculation",
+    "term": "$1,400.00",
+    "definition": "A prototype has already cost $1,920.00, which cannot be recovered. Finishing it costs $970.00 and produces a sale worth $2,690.00. Abandoning it now yields $320.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$1,720.00",
+      "-$200.00",
+      "-$520.00"
+    ],
+    "explanation": "Ignore the unrecoverable $1,920.00. Finishing rather than abandoning changes net benefits by $2,690.00 − $970.00 − $320.00 = $1,400.00.",
+    "numericAnswer": {
+      "value": 1400,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-04",
+    "kind": "calculation",
+    "term": "$1,450.00",
+    "definition": "A prototype has already cost $1,980.00, which cannot be recovered. Finishing it costs $1,005.00 and produces a sale worth $2,785.00. Abandoning it now yields $330.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$1,780.00",
+      "-$200.00",
+      "-$530.00"
+    ],
+    "explanation": "Ignore the unrecoverable $1,980.00. Finishing rather than abandoning changes net benefits by $2,785.00 − $1,005.00 − $330.00 = $1,450.00.",
+    "numericAnswer": {
+      "value": 1450,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-05",
+    "kind": "calculation",
+    "term": "$1,500.00",
+    "definition": "A prototype has already cost $2,040.00, which cannot be recovered. Finishing it costs $1,040.00 and produces a sale worth $2,880.00. Abandoning it now yields $340.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$1,840.00",
+      "-$200.00",
+      "-$540.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,040.00. Finishing rather than abandoning changes net benefits by $2,880.00 − $1,040.00 − $340.00 = $1,500.00.",
+    "numericAnswer": {
+      "value": 1500,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-06",
+    "kind": "calculation",
+    "term": "$1,550.00",
+    "definition": "A prototype has already cost $2,100.00, which cannot be recovered. Finishing it costs $1,075.00 and produces a sale worth $2,975.00. Abandoning it now yields $350.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$1,900.00",
+      "-$200.00",
+      "-$550.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,100.00. Finishing rather than abandoning changes net benefits by $2,975.00 − $1,075.00 − $350.00 = $1,550.00.",
+    "numericAnswer": {
+      "value": 1550,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-07",
+    "kind": "calculation",
+    "term": "$1,600.00",
+    "definition": "A prototype has already cost $2,160.00, which cannot be recovered. Finishing it costs $1,110.00 and produces a sale worth $3,070.00. Abandoning it now yields $360.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$1,960.00",
+      "-$200.00",
+      "-$560.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,160.00. Finishing rather than abandoning changes net benefits by $3,070.00 − $1,110.00 − $360.00 = $1,600.00.",
+    "numericAnswer": {
+      "value": 1600,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-08",
+    "kind": "calculation",
+    "term": "$1,650.00",
+    "definition": "A prototype has already cost $2,220.00, which cannot be recovered. Finishing it costs $1,145.00 and produces a sale worth $3,165.00. Abandoning it now yields $370.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$2,020.00",
+      "-$200.00",
+      "-$570.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,220.00. Finishing rather than abandoning changes net benefits by $3,165.00 − $1,145.00 − $370.00 = $1,650.00.",
+    "numericAnswer": {
+      "value": 1650,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-09",
+    "kind": "calculation",
+    "term": "$1,700.00",
+    "definition": "A prototype has already cost $2,280.00, which cannot be recovered. Finishing it costs $1,180.00 and produces a sale worth $3,260.00. Abandoning it now yields $380.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$2,080.00",
+      "-$200.00",
+      "-$580.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,280.00. Finishing rather than abandoning changes net benefits by $3,260.00 − $1,180.00 − $380.00 = $1,700.00.",
+    "numericAnswer": {
+      "value": 1700,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-10",
+    "kind": "calculation",
+    "term": "$1,750.00",
+    "definition": "A prototype has already cost $2,340.00, which cannot be recovered. Finishing it costs $1,215.00 and produces a sale worth $3,355.00. Abandoning it now yields $390.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$2,140.00",
+      "-$200.00",
+      "-$590.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,340.00. Finishing rather than abandoning changes net benefits by $3,355.00 − $1,215.00 − $390.00 = $1,750.00.",
+    "numericAnswer": {
+      "value": 1750,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-11",
+    "kind": "calculation",
+    "term": "$1,800.00",
+    "definition": "A prototype has already cost $2,400.00, which cannot be recovered. Finishing it costs $1,250.00 and produces a sale worth $3,450.00. Abandoning it now yields $400.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$2,200.00",
+      "-$200.00",
+      "-$600.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,400.00. Finishing rather than abandoning changes net benefits by $3,450.00 − $1,250.00 − $400.00 = $1,800.00.",
+    "numericAnswer": {
+      "value": 1800,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-12",
+    "kind": "calculation",
+    "term": "$1,850.00",
+    "definition": "A prototype has already cost $2,460.00, which cannot be recovered. Finishing it costs $1,285.00 and produces a sale worth $3,545.00. Abandoning it now yields $410.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$2,260.00",
+      "-$200.00",
+      "-$610.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,460.00. Finishing rather than abandoning changes net benefits by $3,545.00 − $1,285.00 − $410.00 = $1,850.00.",
+    "numericAnswer": {
+      "value": 1850,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-13",
+    "kind": "calculation",
+    "term": "$1,900.00",
+    "definition": "A prototype has already cost $2,520.00, which cannot be recovered. Finishing it costs $1,320.00 and produces a sale worth $3,640.00. Abandoning it now yields $420.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$2,320.00",
+      "-$200.00",
+      "-$620.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,520.00. Finishing rather than abandoning changes net benefits by $3,640.00 − $1,320.00 − $420.00 = $1,900.00.",
+    "numericAnswer": {
+      "value": 1900,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-14",
+    "kind": "calculation",
+    "term": "$1,950.00",
+    "definition": "A prototype has already cost $2,580.00, which cannot be recovered. Finishing it costs $1,355.00 and produces a sale worth $3,735.00. Abandoning it now yields $430.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$2,380.00",
+      "-$200.00",
+      "-$630.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,580.00. Finishing rather than abandoning changes net benefits by $3,735.00 − $1,355.00 − $430.00 = $1,950.00.",
+    "numericAnswer": {
+      "value": 1950,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-15",
+    "kind": "calculation",
+    "term": "$2,000.00",
+    "definition": "A prototype has already cost $2,640.00, which cannot be recovered. Finishing it costs $1,390.00 and produces a sale worth $3,830.00. Abandoning it now yields $440.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$2,440.00",
+      "-$200.00",
+      "-$640.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,640.00. Finishing rather than abandoning changes net benefits by $3,830.00 − $1,390.00 − $440.00 = $2,000.00.",
+    "numericAnswer": {
+      "value": 2000,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-16",
+    "kind": "calculation",
+    "term": "$2,050.00",
+    "definition": "A prototype has already cost $2,700.00, which cannot be recovered. Finishing it costs $1,425.00 and produces a sale worth $3,925.00. Abandoning it now yields $450.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$2,500.00",
+      "-$200.00",
+      "-$650.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,700.00. Finishing rather than abandoning changes net benefits by $3,925.00 − $1,425.00 − $450.00 = $2,050.00.",
+    "numericAnswer": {
+      "value": 2050,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-17",
+    "kind": "calculation",
+    "term": "$2,100.00",
+    "definition": "A prototype has already cost $2,760.00, which cannot be recovered. Finishing it costs $1,460.00 and produces a sale worth $4,020.00. Abandoning it now yields $460.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$2,560.00",
+      "-$200.00",
+      "-$660.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,760.00. Finishing rather than abandoning changes net benefits by $4,020.00 − $1,460.00 − $460.00 = $2,100.00.",
+    "numericAnswer": {
+      "value": 2100,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-18",
+    "kind": "calculation",
+    "term": "$2,150.00",
+    "definition": "A prototype has already cost $2,820.00, which cannot be recovered. Finishing it costs $1,495.00 and produces a sale worth $4,115.00. Abandoning it now yields $470.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$2,620.00",
+      "-$200.00",
+      "-$670.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,820.00. Finishing rather than abandoning changes net benefits by $4,115.00 − $1,495.00 − $470.00 = $2,150.00.",
+    "numericAnswer": {
+      "value": 2150,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-19",
+    "kind": "calculation",
+    "term": "$2,200.00",
+    "definition": "A prototype has already cost $2,880.00, which cannot be recovered. Finishing it costs $1,530.00 and produces a sale worth $4,210.00. Abandoning it now yields $480.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$2,680.00",
+      "-$200.00",
+      "-$680.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,880.00. Finishing rather than abandoning changes net benefits by $4,210.00 − $1,530.00 − $480.00 = $2,200.00.",
+    "numericAnswer": {
+      "value": 2200,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-20",
+    "kind": "calculation",
+    "term": "$2,250.00",
+    "definition": "A prototype has already cost $2,940.00, which cannot be recovered. Finishing it costs $1,565.00 and produces a sale worth $4,305.00. Abandoning it now yields $490.00 in salvage. What is the incremental net benefit of finishing instead of abandoning?",
+    "distractors": [
+      "$2,740.00",
+      "-$200.00",
+      "-$690.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,940.00. Finishing rather than abandoning changes net benefits by $4,305.00 − $1,565.00 − $490.00 = $2,250.00.",
+    "numericAnswer": {
+      "value": 2250,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-01",
+    "kind": "calculation",
+    "term": "18 meals",
+    "definition": "A student has $150.00 for transit and meals. Each transit ride costs $3.00, and the student must buy 8 rides. Meals cost $7.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "21 meals",
+      "15 meals",
+      "20 meals"
+    ],
+    "explanation": "After transit, $150.00 − 8 × $3.00 = $126.00 remains. floor(126 ÷ 7) = 18 whole meals.",
+    "numericAnswer": {
+      "value": 18,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-02",
+    "kind": "calculation",
+    "term": "15 meals",
+    "definition": "A student has $161.00 for transit and meals. Each transit ride costs $4.00, and the student must buy 9 rides. Meals cost $8.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "16 meals",
+      "20 meals",
+      "19 meals"
+    ],
+    "explanation": "After transit, $161.00 − 9 × $4.00 = $125.00 remains. floor(125 ÷ 8) = 15 whole meals.",
+    "numericAnswer": {
+      "value": 15,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-03",
+    "kind": "calculation",
+    "term": "13 meals",
+    "definition": "A student has $172.00 for transit and meals. Each transit ride costs $5.00, and the student must buy 10 rides. Meals cost $9.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "14 meals",
+      "19 meals",
+      "18 meals"
+    ],
+    "explanation": "After transit, $172.00 − 10 × $5.00 = $122.00 remains. floor(122 ÷ 9) = 13 whole meals.",
+    "numericAnswer": {
+      "value": 13,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-04",
+    "kind": "calculation",
+    "term": "16 meals",
+    "definition": "A student has $183.00 for transit and meals. Each transit ride costs $6.00, and the student must buy 11 rides. Meals cost $7.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "17 meals",
+      "26 meals",
+      "25 meals"
+    ],
+    "explanation": "After transit, $183.00 − 11 × $6.00 = $117.00 remains. floor(117 ÷ 7) = 16 whole meals.",
+    "numericAnswer": {
+      "value": 16,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-05",
+    "kind": "calculation",
+    "term": "19 meals",
+    "definition": "A student has $194.00 for transit and meals. Each transit ride costs $3.00, and the student must buy 12 rides. Meals cost $8.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "20 meals",
+      "24 meals",
+      "23 meals"
+    ],
+    "explanation": "After transit, $194.00 − 12 × $3.00 = $158.00 remains. floor(158 ÷ 8) = 19 whole meals.",
+    "numericAnswer": {
+      "value": 19,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-06",
+    "kind": "calculation",
+    "term": "19 meals",
+    "definition": "A student has $205.00 for transit and meals. Each transit ride costs $4.00, and the student must buy 8 rides. Meals cost $9.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "20 meals",
+      "22 meals",
+      "15 meals"
+    ],
+    "explanation": "After transit, $205.00 − 8 × $4.00 = $173.00 remains. floor(173 ÷ 9) = 19 whole meals.",
+    "numericAnswer": {
+      "value": 19,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-07",
+    "kind": "calculation",
+    "term": "24 meals",
+    "definition": "A student has $216.00 for transit and meals. Each transit ride costs $5.00, and the student must buy 9 rides. Meals cost $7.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "25 meals",
+      "30 meals",
+      "18 meals"
+    ],
+    "explanation": "After transit, $216.00 − 9 × $5.00 = $171.00 remains. floor(171 ÷ 7) = 24 whole meals.",
+    "numericAnswer": {
+      "value": 24,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-08",
+    "kind": "calculation",
+    "term": "20 meals",
+    "definition": "A student has $227.00 for transit and meals. Each transit ride costs $6.00, and the student must buy 10 rides. Meals cost $8.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "21 meals",
+      "28 meals",
+      "27 meals"
+    ],
+    "explanation": "After transit, $227.00 − 10 × $6.00 = $167.00 remains. floor(167 ÷ 8) = 20 whole meals.",
+    "numericAnswer": {
+      "value": 20,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-09",
+    "kind": "calculation",
+    "term": "22 meals",
+    "definition": "A student has $238.00 for transit and meals. Each transit ride costs $3.00, and the student must buy 11 rides. Meals cost $9.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "23 meals",
+      "26 meals",
+      "19 meals"
+    ],
+    "explanation": "After transit, $238.00 − 11 × $3.00 = $205.00 remains. floor(205 ÷ 9) = 22 whole meals.",
+    "numericAnswer": {
+      "value": 22,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-10",
+    "kind": "calculation",
+    "term": "28 meals",
+    "definition": "A student has $249.00 for transit and meals. Each transit ride costs $4.00, and the student must buy 12 rides. Meals cost $7.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "29 meals",
+      "35 meals",
+      "22 meals"
+    ],
+    "explanation": "After transit, $249.00 − 12 × $4.00 = $201.00 remains. floor(201 ÷ 7) = 28 whole meals.",
+    "numericAnswer": {
+      "value": 28,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-11",
+    "kind": "calculation",
+    "term": "27 meals",
+    "definition": "A student has $260.00 for transit and meals. Each transit ride costs $5.00, and the student must buy 8 rides. Meals cost $8.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "28 meals",
+      "32 meals",
+      "31 meals"
+    ],
+    "explanation": "After transit, $260.00 − 8 × $5.00 = $220.00 remains. floor(220 ÷ 8) = 27 whole meals.",
+    "numericAnswer": {
+      "value": 27,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-12",
+    "kind": "calculation",
+    "term": "24 meals",
+    "definition": "A student has $271.00 for transit and meals. Each transit ride costs $6.00, and the student must buy 9 rides. Meals cost $9.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "25 meals",
+      "30 meals",
+      "29 meals"
+    ],
+    "explanation": "After transit, $271.00 − 9 × $6.00 = $217.00 remains. floor(217 ÷ 9) = 24 whole meals.",
+    "numericAnswer": {
+      "value": 24,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-13",
+    "kind": "calculation",
+    "term": "36 meals",
+    "definition": "A student has $282.00 for transit and meals. Each transit ride costs $3.00, and the student must buy 10 rides. Meals cost $7.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "40 meals",
+      "39 meals",
+      "28 meals"
+    ],
+    "explanation": "After transit, $282.00 − 10 × $3.00 = $252.00 remains. floor(252 ÷ 7) = 36 whole meals.",
+    "numericAnswer": {
+      "value": 36,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-14",
+    "kind": "calculation",
+    "term": "31 meals",
+    "definition": "A student has $293.00 for transit and meals. Each transit ride costs $4.00, and the student must buy 11 rides. Meals cost $8.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "32 meals",
+      "36 meals",
+      "24 meals"
+    ],
+    "explanation": "After transit, $293.00 − 11 × $4.00 = $249.00 remains. floor(249 ÷ 8) = 31 whole meals.",
+    "numericAnswer": {
+      "value": 31,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-15",
+    "kind": "calculation",
+    "term": "27 meals",
+    "definition": "A student has $304.00 for transit and meals. Each transit ride costs $5.00, and the student must buy 12 rides. Meals cost $9.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "28 meals",
+      "33 meals",
+      "21 meals"
+    ],
+    "explanation": "After transit, $304.00 − 12 × $5.00 = $244.00 remains. floor(244 ÷ 9) = 27 whole meals.",
+    "numericAnswer": {
+      "value": 27,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-16",
+    "kind": "calculation",
+    "term": "38 meals",
+    "definition": "A student has $315.00 for transit and meals. Each transit ride costs $6.00, and the student must buy 8 rides. Meals cost $7.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "39 meals",
+      "45 meals",
+      "44 meals"
+    ],
+    "explanation": "After transit, $315.00 − 8 × $6.00 = $267.00 remains. floor(267 ÷ 7) = 38 whole meals.",
+    "numericAnswer": {
+      "value": 38,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-17",
+    "kind": "calculation",
+    "term": "37 meals",
+    "definition": "A student has $326.00 for transit and meals. Each transit ride costs $3.00, and the student must buy 9 rides. Meals cost $8.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "38 meals",
+      "40 meals",
+      "29 meals"
+    ],
+    "explanation": "After transit, $326.00 − 9 × $3.00 = $299.00 remains. floor(299 ÷ 8) = 37 whole meals.",
+    "numericAnswer": {
+      "value": 37,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-18",
+    "kind": "calculation",
+    "term": "33 meals",
+    "definition": "A student has $337.00 for transit and meals. Each transit ride costs $4.00, and the student must buy 10 rides. Meals cost $9.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "37 meals",
+      "25 meals",
+      "36 meals"
+    ],
+    "explanation": "After transit, $337.00 − 10 × $4.00 = $297.00 remains. floor(297 ÷ 9) = 33 whole meals.",
+    "numericAnswer": {
+      "value": 33,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-19",
+    "kind": "calculation",
+    "term": "41 meals",
+    "definition": "A student has $348.00 for transit and meals. Each transit ride costs $5.00, and the student must buy 11 rides. Meals cost $7.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "42 meals",
+      "49 meals",
+      "29 meals"
+    ],
+    "explanation": "After transit, $348.00 − 11 × $5.00 = $293.00 remains. floor(293 ÷ 7) = 41 whole meals.",
+    "numericAnswer": {
+      "value": 41,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-20",
+    "kind": "calculation",
+    "term": "35 meals",
+    "definition": "A student has $359.00 for transit and meals. Each transit ride costs $6.00, and the student must buy 12 rides. Meals cost $8.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "36 meals",
+      "44 meals",
+      "25 meals"
+    ],
+    "explanation": "After transit, $359.00 − 12 × $6.00 = $287.00 remains. floor(287 ÷ 8) = 35 whole meals.",
+    "numericAnswer": {
+      "value": 35,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-01",
+    "kind": "calculation",
+    "term": "$384.00",
+    "definition": "An entrepreneur ties up $12,000.00 of personal savings in equipment for one year. The best alternative would earn 3.2% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$12,000.00",
+      "$12,384.00",
+      "$3,750.00"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $12,000.00 × 3.2% = $384.00 for one year.",
+    "numericAnswer": {
+      "value": 384,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-02",
+    "kind": "calculation",
+    "term": "$420.75",
+    "definition": "An entrepreneur ties up $12,750.00 of personal savings in equipment for one year. The best alternative would earn 3.3% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$12,750.00",
+      "$13,170.75",
+      "$3,863.64"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $12,750.00 × 3.3% = $420.75 for one year.",
+    "numericAnswer": {
+      "value": 420.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-03",
+    "kind": "calculation",
+    "term": "$459.00",
+    "definition": "An entrepreneur ties up $13,500.00 of personal savings in equipment for one year. The best alternative would earn 3.4% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$13,500.00",
+      "$13,959.00",
+      "$3,970.59"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $13,500.00 × 3.4% = $459.00 for one year.",
+    "numericAnswer": {
+      "value": 459,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-04",
+    "kind": "calculation",
+    "term": "$498.75",
+    "definition": "An entrepreneur ties up $14,250.00 of personal savings in equipment for one year. The best alternative would earn 3.5% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$14,250.00",
+      "$14,748.75",
+      "$4,071.43"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $14,250.00 × 3.5% = $498.75 for one year.",
+    "numericAnswer": {
+      "value": 498.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-05",
+    "kind": "calculation",
+    "term": "$540.00",
+    "definition": "An entrepreneur ties up $15,000.00 of personal savings in equipment for one year. The best alternative would earn 3.6% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$15,000.00",
+      "$15,540.00",
+      "$4,166.67"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $15,000.00 × 3.6% = $540.00 for one year.",
+    "numericAnswer": {
+      "value": 540,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-06",
+    "kind": "calculation",
+    "term": "$582.75",
+    "definition": "An entrepreneur ties up $15,750.00 of personal savings in equipment for one year. The best alternative would earn 3.7% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$15,750.00",
+      "$16,332.75",
+      "$4,256.76"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $15,750.00 × 3.7% = $582.75 for one year.",
+    "numericAnswer": {
+      "value": 582.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-07",
+    "kind": "calculation",
+    "term": "$627.00",
+    "definition": "An entrepreneur ties up $16,500.00 of personal savings in equipment for one year. The best alternative would earn 3.8% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$16,500.00",
+      "$17,127.00",
+      "$4,342.11"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $16,500.00 × 3.8% = $627.00 for one year.",
+    "numericAnswer": {
+      "value": 627,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-08",
+    "kind": "calculation",
+    "term": "$672.75",
+    "definition": "An entrepreneur ties up $17,250.00 of personal savings in equipment for one year. The best alternative would earn 3.9% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$17,250.00",
+      "$17,922.75",
+      "$4,423.08"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $17,250.00 × 3.9% = $672.75 for one year.",
+    "numericAnswer": {
+      "value": 672.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-09",
+    "kind": "calculation",
+    "term": "$720.00",
+    "definition": "An entrepreneur ties up $18,000.00 of personal savings in equipment for one year. The best alternative would earn 4.0% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$18,000.00",
+      "$18,720.00",
+      "$4,500.00"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $18,000.00 × 4.0% = $720.00 for one year.",
+    "numericAnswer": {
+      "value": 720,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-10",
+    "kind": "calculation",
+    "term": "$768.75",
+    "definition": "An entrepreneur ties up $18,750.00 of personal savings in equipment for one year. The best alternative would earn 4.1% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$18,750.00",
+      "$19,518.75",
+      "$4,573.17"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $18,750.00 × 4.1% = $768.75 for one year.",
+    "numericAnswer": {
+      "value": 768.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-11",
+    "kind": "calculation",
+    "term": "$819.00",
+    "definition": "An entrepreneur ties up $19,500.00 of personal savings in equipment for one year. The best alternative would earn 4.2% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$19,500.00",
+      "$20,319.00",
+      "$4,642.86"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $19,500.00 × 4.2% = $819.00 for one year.",
+    "numericAnswer": {
+      "value": 819,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-12",
+    "kind": "calculation",
+    "term": "$870.75",
+    "definition": "An entrepreneur ties up $20,250.00 of personal savings in equipment for one year. The best alternative would earn 4.3% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$20,250.00",
+      "$21,120.75",
+      "$4,709.30"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $20,250.00 × 4.3% = $870.75 for one year.",
+    "numericAnswer": {
+      "value": 870.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-13",
+    "kind": "calculation",
+    "term": "$924.00",
+    "definition": "An entrepreneur ties up $21,000.00 of personal savings in equipment for one year. The best alternative would earn 4.4% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$21,000.00",
+      "$21,924.00",
+      "$4,772.73"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $21,000.00 × 4.4% = $924.00 for one year.",
+    "numericAnswer": {
+      "value": 924,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-14",
+    "kind": "calculation",
+    "term": "$978.75",
+    "definition": "An entrepreneur ties up $21,750.00 of personal savings in equipment for one year. The best alternative would earn 4.5% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$21,750.00",
+      "$22,728.75",
+      "$4,833.33"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $21,750.00 × 4.5% = $978.75 for one year.",
+    "numericAnswer": {
+      "value": 978.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-15",
+    "kind": "calculation",
+    "term": "$1,035.00",
+    "definition": "An entrepreneur ties up $22,500.00 of personal savings in equipment for one year. The best alternative would earn 4.6% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$22,500.00",
+      "$23,535.00",
+      "$4,891.30"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $22,500.00 × 4.6% = $1,035.00 for one year.",
+    "numericAnswer": {
+      "value": 1035,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-16",
+    "kind": "calculation",
+    "term": "$1,092.75",
+    "definition": "An entrepreneur ties up $23,250.00 of personal savings in equipment for one year. The best alternative would earn 4.7% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$23,250.00",
+      "$24,342.75",
+      "$4,946.81"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $23,250.00 × 4.7% = $1,092.75 for one year.",
+    "numericAnswer": {
+      "value": 1092.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-17",
+    "kind": "calculation",
+    "term": "$1,152.00",
+    "definition": "An entrepreneur ties up $24,000.00 of personal savings in equipment for one year. The best alternative would earn 4.8% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$24,000.00",
+      "$25,152.00",
+      "$5,000.00"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $24,000.00 × 4.8% = $1,152.00 for one year.",
+    "numericAnswer": {
+      "value": 1152,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-18",
+    "kind": "calculation",
+    "term": "$1,212.75",
+    "definition": "An entrepreneur ties up $24,750.00 of personal savings in equipment for one year. The best alternative would earn 4.9% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$24,750.00",
+      "$25,962.75",
+      "$5,051.02"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $24,750.00 × 4.9% = $1,212.75 for one year.",
+    "numericAnswer": {
+      "value": 1212.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-19",
+    "kind": "calculation",
+    "term": "$1,275.00",
+    "definition": "An entrepreneur ties up $25,500.00 of personal savings in equipment for one year. The best alternative would earn 5.0% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$25,500.00",
+      "$26,775.00",
+      "$5,100.00"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $25,500.00 × 5.0% = $1,275.00 for one year.",
+    "numericAnswer": {
+      "value": 1275,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-capital-forgone-interest-20",
+    "kind": "calculation",
+    "term": "$1,338.75",
+    "definition": "An entrepreneur ties up $26,250.00 of personal savings in equipment for one year. The best alternative would earn 5.1% simple annual interest. Ignoring risk, tax, and depreciation, what is the year's implicit capital cost?",
+    "distractors": [
+      "$26,250.00",
+      "$27,588.75",
+      "$5,147.06"
+    ],
+    "explanation": "Implicit capital cost is the interest forgone: $26,250.00 × 5.1% = $1,338.75 for one year.",
+    "numericAnswer": {
+      "value": 1338.75,
+      "unit": "USD"
+    }
+  }
+]

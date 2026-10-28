@@ -1,0 +1,2001 @@
+{
+  "addedOn": "2026-10-27",
+  "practiceQuestions": 5000,
+  "flashcards": 5000,
+  "familyCount": 250,
+  "variantsPerFamily": 20,
+  "description": "Worked calculation drills with hypothetical inputs. Each exercise family has 20 deterministic input variants, available as a practice question and a matching question-and-answer flashcard.",
+  "families": [
+    {
+      "id": "cash-overtime-gross-pay",
+      "category": "Personal Finance",
+      "topic": "Pay and Cash Flow Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-paycheck-deductions",
+      "category": "Personal Finance",
+      "topic": "Pay and Cash Flow Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-biweekly-monthly-income",
+      "category": "Personal Finance",
+      "topic": "Pay and Cash Flow Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-tiered-sales-commission",
+      "category": "Personal Finance",
+      "topic": "Pay and Cash Flow Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-irregular-income-average",
+      "category": "Personal Finance",
+      "topic": "Pay and Cash Flow Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-cash-flow-timing-buffer",
+      "category": "Personal Finance",
+      "topic": "Pay and Cash Flow Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-raise-net-increase",
+      "category": "Personal Finance",
+      "topic": "Pay and Cash Flow Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-gig-profit-tax-reserve",
+      "category": "Personal Finance",
+      "topic": "Pay and Cash Flow Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-effective-hourly-with-commute",
+      "category": "Personal Finance",
+      "topic": "Pay and Cash Flow Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-zero-based-discretionary-budget",
+      "category": "Personal Finance",
+      "topic": "Budget Planning Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-needs-share-room",
+      "category": "Personal Finance",
+      "topic": "Budget Planning Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-irregular-bills-monthly-reserve",
+      "category": "Personal Finance",
+      "topic": "Budget Planning Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-weekly-spending-monthly-equivalent",
+      "category": "Personal Finance",
+      "topic": "Budget Planning Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-budget-overrun-percentage",
+      "category": "Personal Finance",
+      "topic": "Budget Planning Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-required-flexible-spending-cut",
+      "category": "Personal Finance",
+      "topic": "Budget Planning Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-proportional-shared-bills",
+      "category": "Personal Finance",
+      "topic": "Budget Planning Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-weighted-price-increase-budget",
+      "category": "Personal Finance",
+      "topic": "Budget Planning Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-subscription-break-even-use",
+      "category": "Personal Finance",
+      "topic": "Budget Planning Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-goal-monthly-contribution",
+      "category": "Personal Finance",
+      "topic": "Savings Goal Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-whole-months-to-goal",
+      "category": "Personal Finance",
+      "topic": "Savings Goal Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-emergency-fund-essential-target",
+      "category": "Personal Finance",
+      "topic": "Savings Goal Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-simple-interest-required-deposit",
+      "category": "Personal Finance",
+      "topic": "Savings Goal Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-monthly-compound-savings",
+      "category": "Personal Finance",
+      "topic": "Savings Goal Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-annuity-savings-deposit",
+      "category": "Personal Finance",
+      "topic": "Savings Goal Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cash-step-up-savings-plan",
+      "category": "Personal Finance",
+      "topic": "Savings Goal Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-inflating-savings-goal",
+      "category": "Personal Finance",
+      "topic": "Savings Goal Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cash-fund-withdrawal-recovery",
+      "category": "Personal Finance",
+      "topic": "Savings Goal Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-maintenance-fee-waiver-count",
+      "category": "Personal Finance",
+      "topic": "Bank Account Cost Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-atm-two-fees-reimbursement",
+      "category": "Personal Finance",
+      "topic": "Bank Account Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-tiered-bank-interest",
+      "category": "Personal Finance",
+      "topic": "Bank Account Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-capped-overdraft-fees",
+      "category": "Personal Finance",
+      "topic": "Bank Account Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-bank-reconciliation-available-cash",
+      "category": "Personal Finance",
+      "topic": "Bank Account Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-cd-early-withdrawal-net",
+      "category": "Personal Finance",
+      "topic": "Bank Account Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-interest-fee-break-even-balance",
+      "category": "Personal Finance",
+      "topic": "Bank Account Cost Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cash-transfer-fee-cap-comparison",
+      "category": "Personal Finance",
+      "topic": "Bank Account Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-net-bank-return-percentage",
+      "category": "Personal Finance",
+      "topic": "Bank Account Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-card-monthly-interest-model",
+      "category": "Personal Finance",
+      "topic": "Credit Card Math Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-card-average-daily-balance",
+      "category": "Personal Finance",
+      "topic": "Credit Card Math Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-card-minimum-payment-rule",
+      "category": "Personal Finance",
+      "topic": "Credit Card Math Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-zero-apr-transfer-payoff",
+      "category": "Personal Finance",
+      "topic": "Credit Card Math Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-two-card-balance-interest",
+      "category": "Personal Finance",
+      "topic": "Credit Card Math Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-tiered-rewards-after-annual-fee",
+      "category": "Personal Finance",
+      "topic": "Credit Card Math Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-card-statement-balance-rollforward",
+      "category": "Personal Finance",
+      "topic": "Credit Card Math Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-utilization-target-payment",
+      "category": "Personal Finance",
+      "topic": "Credit Card Math Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-balance-transfer-interest-savings",
+      "category": "Personal Finance",
+      "topic": "Credit Card Math Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-amortizing-loan-payment",
+      "category": "Personal Finance",
+      "topic": "Loan Payment Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cash-first-payment-principal",
+      "category": "Personal Finance",
+      "topic": "Loan Payment Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-scheduled-loan-total-financing-cost",
+      "category": "Personal Finance",
+      "topic": "Loan Payment Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-simple-loan-lump-sum-payoff",
+      "category": "Personal Finance",
+      "topic": "Loan Payment Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-loan-net-proceeds-gross-up",
+      "category": "Personal Finance",
+      "topic": "Loan Payment Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-debt-payment-capacity",
+      "category": "Personal Finance",
+      "topic": "Loan Payment Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-refinance-fee-recovery-months",
+      "category": "Personal Finance",
+      "topic": "Loan Payment Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-extra-principal-next-interest",
+      "category": "Personal Finance",
+      "topic": "Loan Payment Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-full-monthly-home-payment",
+      "category": "Personal Finance",
+      "topic": "Housing Cost Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-home-cash-to-close-credit",
+      "category": "Personal Finance",
+      "topic": "Housing Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-home-price-cash-constraint",
+      "category": "Personal Finance",
+      "topic": "Housing Cost Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cash-rent-concession-effective-monthly",
+      "category": "Personal Finance",
+      "topic": "Housing Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-roommate-prorated-utilities",
+      "category": "Personal Finance",
+      "topic": "Housing Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-home-loan-to-value",
+      "category": "Personal Finance",
+      "topic": "Housing Cost Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-home-sale-net-cash",
+      "category": "Personal Finance",
+      "topic": "Housing Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-cash-out-refinance-proceeds",
+      "category": "Personal Finance",
+      "topic": "Housing Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-car-fuel-monthly-cost",
+      "category": "Personal Finance",
+      "topic": "Car Ownership Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-auto-financed-amount-trade-equity",
+      "category": "Personal Finance",
+      "topic": "Car Ownership Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-lease-full-period-monthly-cost",
+      "category": "Personal Finance",
+      "topic": "Car Ownership Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-car-depreciation-resale-value",
+      "category": "Personal Finance",
+      "topic": "Car Ownership Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-car-operating-cost-per-mile",
+      "category": "Personal Finance",
+      "topic": "Car Ownership Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-ev-versus-gas-energy-savings",
+      "category": "Personal Finance",
+      "topic": "Car Ownership Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-car-maintenance-distance-reserve",
+      "category": "Personal Finance",
+      "topic": "Car Ownership Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-cash-car-ownership-cost",
+      "category": "Personal Finance",
+      "topic": "Car Ownership Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-college-net-price-not-loans",
+      "category": "Personal Finance",
+      "topic": "College Cost Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-college-tuition-flat-band",
+      "category": "Personal Finance",
+      "topic": "College Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-college-funding-gap",
+      "category": "Personal Finance",
+      "topic": "College Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-college-weekly-work-hours",
+      "category": "Personal Finance",
+      "topic": "College Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-four-year-rising-tuition-total",
+      "category": "Personal Finance",
+      "topic": "College Cost Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cash-student-loan-in-school-interest",
+      "category": "Personal Finance",
+      "topic": "College Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-tuition-installment-after-deposit",
+      "category": "Personal Finance",
+      "topic": "College Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-textbook-resale-versus-rental",
+      "category": "Personal Finance",
+      "topic": "College Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-insurance-deductible-claim-payment",
+      "category": "Personal Finance",
+      "topic": "Insurance Cost Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cash-health-deductible-coinsurance",
+      "category": "Personal Finance",
+      "topic": "Insurance Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-health-annual-out-of-pocket-cap",
+      "category": "Personal Finance",
+      "topic": "Insurance Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-insurance-plan-total-cost-comparison",
+      "category": "Personal Finance",
+      "topic": "Insurance Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-insurance-sequential-discounts",
+      "category": "Personal Finance",
+      "topic": "Insurance Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-insurance-expected-annual-cash-cost",
+      "category": "Personal Finance",
+      "topic": "Insurance Cost Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cash-life-coverage-capital-needs",
+      "category": "Personal Finance",
+      "topic": "Insurance Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cash-disability-benefit-cap-wait",
+      "category": "Personal Finance",
+      "topic": "Insurance Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-sale-price-sales-tax",
+      "category": "Personal Finance",
+      "topic": "Shopping Price Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-successive-discount-equivalent",
+      "category": "Personal Finance",
+      "topic": "Shopping Price Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-coupon-tax-order",
+      "category": "Personal Finance",
+      "topic": "Shopping Price Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-unit-price-weight-conversion",
+      "category": "Personal Finance",
+      "topic": "Shopping Price Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-reverse-taxed-sale-price",
+      "category": "Personal Finance",
+      "topic": "Shopping Price Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-bundle-free-items-effective-cost",
+      "category": "Personal Finance",
+      "topic": "Shopping Price Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-cashback-eligible-spending-cap",
+      "category": "Personal Finance",
+      "topic": "Shopping Price Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-delivery-threshold-total",
+      "category": "Personal Finance",
+      "topic": "Shopping Price Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-membership-purchases-break-even",
+      "category": "Personal Finance",
+      "topic": "Shopping Price Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-annual-prepayment-savings",
+      "category": "Personal Finance",
+      "topic": "Subscription Value Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-introductory-rate-year-cost",
+      "category": "Personal Finance",
+      "topic": "Subscription Value Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-included-usage-overage",
+      "category": "Personal Finance",
+      "topic": "Subscription Value Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-actual-use-cost",
+      "category": "Personal Finance",
+      "topic": "Subscription Value Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-unlimited-plan-strict-break-even",
+      "category": "Personal Finance",
+      "topic": "Subscription Value Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-prorated-cancellation-refund",
+      "category": "Personal Finance",
+      "topic": "Subscription Value Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-minimum-seat-billing",
+      "category": "Personal Finance",
+      "topic": "Subscription Value Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-pause-versus-reactivation",
+      "category": "Personal Finance",
+      "topic": "Subscription Value Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-compounded-renewal-total",
+      "category": "Personal Finance",
+      "topic": "Subscription Value Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-contribution-per-unit",
+      "category": "Personal Finance",
+      "topic": "Small Business Cash Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-fixed-cost-break-even-units",
+      "category": "Personal Finance",
+      "topic": "Small Business Cash Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-cash-versus-invoiced-sales",
+      "category": "Personal Finance",
+      "topic": "Small Business Cash Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-runway-full-months",
+      "category": "Personal Finance",
+      "topic": "Small Business Cash Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-early-payment-discount-annualized",
+      "category": "Personal Finance",
+      "topic": "Small Business Cash Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-cash-conversion-cycle",
+      "category": "Personal Finance",
+      "topic": "Small Business Cash Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-gross-margin-versus-markup",
+      "category": "Personal Finance",
+      "topic": "Small Business Cash Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-merchant-processing-net-deposit",
+      "category": "Personal Finance",
+      "topic": "Small Business Cash Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-working-capital-classification",
+      "category": "Personal Finance",
+      "topic": "Small Business Cash Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-expense-ratio-dollar-cost",
+      "category": "Personal Finance",
+      "topic": "Fund Fee Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-weighted-fund-expense-ratio",
+      "category": "Personal Finance",
+      "topic": "Fund Fee Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-front-load-invested-shares",
+      "category": "Personal Finance",
+      "topic": "Fund Fee Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-deferred-load-lesser-base",
+      "category": "Personal Finance",
+      "topic": "Fund Fee Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-tiered-advisory-fee",
+      "category": "Personal Finance",
+      "topic": "Fund Fee Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-fee-day-proration",
+      "category": "Personal Finance",
+      "topic": "Fund Fee Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-multiyear-fee-drag",
+      "category": "Personal Finance",
+      "topic": "Fund Fee Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-temporary-expense-waiver",
+      "category": "Personal Finance",
+      "topic": "Fund Fee Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-fixed-and-percentage-fee-crossover",
+      "category": "Personal Finance",
+      "topic": "Fund Fee Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-target-allocation-dollar-holding",
+      "category": "Personal Finance",
+      "topic": "Portfolio Allocation Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-rebalance-by-selling-overweight",
+      "category": "Personal Finance",
+      "topic": "Portfolio Allocation Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-rebalance-with-new-money-only",
+      "category": "Personal Finance",
+      "topic": "Portfolio Allocation Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-allocation-drift-after-returns",
+      "category": "Personal Finance",
+      "topic": "Portfolio Allocation Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-weighted-portfolio-period-return",
+      "category": "Personal Finance",
+      "topic": "Portfolio Allocation Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-fund-look-through-stock-exposure",
+      "category": "Personal Finance",
+      "topic": "Portfolio Allocation Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-withdrawal-and-target-allocation",
+      "category": "Personal Finance",
+      "topic": "Portfolio Allocation Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-whole-share-allocation-cash-remainder",
+      "category": "Personal Finance",
+      "topic": "Portfolio Allocation Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-two-asset-portfolio-volatility",
+      "category": "Personal Finance",
+      "topic": "Portfolio Allocation Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-holding-return-dividends-trading-costs",
+      "category": "Personal Finance",
+      "topic": "Investment Return Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-compound-annual-growth-rate",
+      "category": "Personal Finance",
+      "topic": "Investment Return Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-exact-inflation-adjusted-return",
+      "category": "Personal Finance",
+      "topic": "Investment Return Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-two-period-cumulative-return",
+      "category": "Personal Finance",
+      "topic": "Investment Return Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-drawdown-recovery-return",
+      "category": "Personal Finance",
+      "topic": "Investment Return Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-equal-dollar-purchase-average-cost",
+      "category": "Personal Finance",
+      "topic": "Investment Return Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-dividend-reinvestment-ending-value",
+      "category": "Personal Finance",
+      "topic": "Investment Return Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-foreign-investment-home-currency-return",
+      "category": "Personal Finance",
+      "topic": "Investment Return Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-semiannual-coupon-payment",
+      "category": "Personal Finance",
+      "topic": "Bond Cash Flow Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-bond-current-yield",
+      "category": "Personal Finance",
+      "topic": "Bond Cash Flow Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-bond-clean-price-accrued-total",
+      "category": "Personal Finance",
+      "topic": "Bond Cash Flow Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-maturity-final-cash-flow",
+      "category": "Personal Finance",
+      "topic": "Bond Cash Flow Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-zero-coupon-present-value",
+      "category": "Personal Finance",
+      "topic": "Bond Cash Flow Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-coupon-bond-discounted-price",
+      "category": "Personal Finance",
+      "topic": "Bond Cash Flow Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-bond-sale-return-accrual",
+      "category": "Personal Finance",
+      "topic": "Bond Cash Flow Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-bond-ladder-year-cash-flow",
+      "category": "Personal Finance",
+      "topic": "Bond Cash Flow Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-capped-employer-match",
+      "category": "Personal Finance",
+      "topic": "Retirement Saving Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-tiered-employer-match",
+      "category": "Personal Finance",
+      "topic": "Retirement Saving Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-vested-retirement-balance",
+      "category": "Personal Finance",
+      "topic": "Retirement Saving Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-retirement-saving-gap-no-growth",
+      "category": "Personal Finance",
+      "topic": "Retirement Saving Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "invest-monthly-retirement-annuity-future-value",
+      "category": "Personal Finance",
+      "topic": "Retirement Saving Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-required-yearly-retirement-contribution",
+      "category": "Personal Finance",
+      "topic": "Retirement Saving Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-future-retirement-spending-inflation",
+      "category": "Personal Finance",
+      "topic": "Retirement Saving Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-gross-withdrawal-for-net-cash",
+      "category": "Personal Finance",
+      "topic": "Retirement Saving Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-foreign-card-purchase-fee",
+      "category": "Personal Finance",
+      "topic": "Payment and Currency Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-remittance-fixed-budget-net-recipient",
+      "category": "Personal Finance",
+      "topic": "Payment and Currency Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-remittance-target-reverse-conversion",
+      "category": "Personal Finance",
+      "topic": "Payment and Currency Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-remittance-fee-and-rate-comparison",
+      "category": "Personal Finance",
+      "topic": "Payment and Currency Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-reward-card-annual-net-benefit",
+      "category": "Personal Finance",
+      "topic": "Payment and Currency Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-daily-card-interest-simple-period",
+      "category": "Personal Finance",
+      "topic": "Payment and Currency Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-installment-price-extra-percent",
+      "category": "Personal Finance",
+      "topic": "Payment and Currency Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-currency-roundtrip-spread-loss",
+      "category": "Personal Finance",
+      "topic": "Payment and Currency Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-insurance-deductible-payout-limit",
+      "category": "Personal Finance",
+      "topic": "Consumer Risk Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-health-cost-sharing-out-of-pocket-cap",
+      "category": "Personal Finance",
+      "topic": "Consumer Risk Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-expected-uninsured-event-loss",
+      "category": "Personal Finance",
+      "topic": "Consumer Risk Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-warranty-break-even-probability",
+      "category": "Personal Finance",
+      "topic": "Consumer Risk Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-deductible-premium-expected-cost",
+      "category": "Personal Finance",
+      "topic": "Consumer Risk Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "invest-emergency-fund-income-gap-duration",
+      "category": "Personal Finance",
+      "topic": "Consumer Risk Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-variable-rate-interest-payment-shock",
+      "category": "Personal Finance",
+      "topic": "Consumer Risk Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "invest-utilization-target-payment",
+      "category": "Personal Finance",
+      "topic": "Consumer Risk Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-course-economic-cost",
+      "category": "Economics",
+      "topic": "Opportunity Cost Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-linear-ppf-unit-cost",
+      "category": "Economics",
+      "topic": "Opportunity Cost Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-ppf-segment-sacrifice",
+      "category": "Economics",
+      "topic": "Opportunity Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-specialization-trade-gain",
+      "category": "Economics",
+      "topic": "Opportunity Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-best-forgone-alternative",
+      "category": "Economics",
+      "topic": "Opportunity Cost Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-sunk-cost-continuation",
+      "category": "Economics",
+      "topic": "Opportunity Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-budget-feasible-units",
+      "category": "Economics",
+      "topic": "Opportunity Cost Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-capital-forgone-interest",
+      "category": "Economics",
+      "topic": "Opportunity Cost Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-marginal-product-labor",
+      "category": "Economics",
+      "topic": "Production and Cost Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-average-product-labor",
+      "category": "Economics",
+      "topic": "Production and Cost Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-marginal-cost-increment",
+      "category": "Economics",
+      "topic": "Production and Cost Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-average-total-cost",
+      "category": "Economics",
+      "topic": "Production and Cost Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-recover-fixed-cost",
+      "category": "Economics",
+      "topic": "Production and Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-cobb-douglas-output",
+      "category": "Economics",
+      "topic": "Production and Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-competitive-labor-hiring",
+      "category": "Economics",
+      "topic": "Production and Cost Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "econ-drill-scale-cost-elasticity",
+      "category": "Economics",
+      "topic": "Production and Cost Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-linear-market-clearing-price",
+      "category": "Economics",
+      "topic": "Supply and Demand Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-demand-shift-quantity-effect",
+      "category": "Economics",
+      "topic": "Supply and Demand Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-binding-ceiling-shortage",
+      "category": "Economics",
+      "topic": "Supply and Demand Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-binding-floor-surplus",
+      "category": "Economics",
+      "topic": "Supply and Demand Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-midpoint-demand-elasticity",
+      "category": "Economics",
+      "topic": "Supply and Demand Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-cross-price-elasticity",
+      "category": "Economics",
+      "topic": "Supply and Demand Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-income-elasticity-forecast",
+      "category": "Economics",
+      "topic": "Supply and Demand Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-linear-consumer-surplus",
+      "category": "Economics",
+      "topic": "Supply and Demand Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-linear-monopoly-output",
+      "category": "Economics",
+      "topic": "Market Structure Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "econ-drill-monopoly-deadweight-loss",
+      "category": "Economics",
+      "topic": "Market Structure Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "econ-drill-herfindahl-market-shares",
+      "category": "Economics",
+      "topic": "Market Structure Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-four-firm-concentration",
+      "category": "Economics",
+      "topic": "Market Structure Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-lerner-markup",
+      "category": "Economics",
+      "topic": "Market Structure Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "econ-drill-symmetric-cournot-output",
+      "category": "Economics",
+      "topic": "Market Structure Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "econ-drill-strategic-expected-profit",
+      "category": "Economics",
+      "topic": "Market Structure Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-segmented-pricing-revenue",
+      "category": "Economics",
+      "topic": "Market Structure Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-hypothetical-progressive-tax",
+      "category": "Economics",
+      "topic": "Public Finance Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-effective-tax-after-credit",
+      "category": "Economics",
+      "topic": "Public Finance Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-unit-tax-equilibrium-revenue",
+      "category": "Economics",
+      "topic": "Public Finance Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "econ-drill-tax-incidence-consumer-share",
+      "category": "Economics",
+      "topic": "Public Finance Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "econ-drill-simple-spending-multiplier",
+      "category": "Economics",
+      "topic": "Public Finance Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-balanced-budget-output-effect",
+      "category": "Economics",
+      "topic": "Public Finance Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "econ-drill-overall-budget-deficit",
+      "category": "Economics",
+      "topic": "Public Finance Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-public-good-efficient-quantity",
+      "category": "Economics",
+      "topic": "Public Finance Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "econ-drill-fixed-basket-price-index",
+      "category": "Economics",
+      "topic": "Inflation Measurement Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-price-index-inflation-rate",
+      "category": "Economics",
+      "topic": "Inflation Measurement Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-deflated-real-hourly-wage",
+      "category": "Economics",
+      "topic": "Inflation Measurement Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-two-year-compound-inflation",
+      "category": "Economics",
+      "topic": "Inflation Measurement Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-cost-of-living-salary-adjustment",
+      "category": "Economics",
+      "topic": "Inflation Measurement Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-price-index-rebasing",
+      "category": "Economics",
+      "topic": "Inflation Measurement Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-fixed-weight-inflation-contribution",
+      "category": "Economics",
+      "topic": "Inflation Measurement Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-exact-real-interest-rate",
+      "category": "Economics",
+      "topic": "Inflation Measurement Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-unemployment-labor-force-denominator",
+      "category": "Economics",
+      "topic": "Labor Data Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-labor-force-participation",
+      "category": "Economics",
+      "topic": "Labor Data Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-employment-population-ratio",
+      "category": "Economics",
+      "topic": "Labor Data Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-new-jobseekers-unemployment-rate",
+      "category": "Economics",
+      "topic": "Labor Data Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-broad-u6-underutilization",
+      "category": "Economics",
+      "topic": "Labor Data Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "econ-drill-real-output-per-hour",
+      "category": "Economics",
+      "topic": "Labor Data Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-worker-separation-rate",
+      "category": "Economics",
+      "topic": "Labor Data Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-weekly-earnings-hours",
+      "category": "Economics",
+      "topic": "Labor Data Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-goods-services-net-exports",
+      "category": "Economics",
+      "topic": "Trade Data Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-foreign-invoice-conversion",
+      "category": "Economics",
+      "topic": "Trade Data Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-reciprocal-currency-appreciation",
+      "category": "Economics",
+      "topic": "Trade Data Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-terms-of-trade-index",
+      "category": "Economics",
+      "topic": "Trade Data Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-small-country-tariff-revenue",
+      "category": "Economics",
+      "topic": "Trade Data Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "econ-drill-import-quota-rent",
+      "category": "Economics",
+      "topic": "Trade Data Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-effective-protection-value-added",
+      "category": "Economics",
+      "topic": "Trade Data Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "econ-drill-current-account-components",
+      "category": "Economics",
+      "topic": "Trade Data Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-expenditure-gdp",
+      "category": "Economics",
+      "topic": "Economic Growth Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-real-gdp-growth",
+      "category": "Economics",
+      "topic": "Economic Growth Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-real-per-capita-growth",
+      "category": "Economics",
+      "topic": "Economic Growth Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-compound-output-projection",
+      "category": "Economics",
+      "topic": "Economic Growth Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-output-compound-annual-growth-rate",
+      "category": "Economics",
+      "topic": "Economic Growth Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-net-capital-accumulation",
+      "category": "Economics",
+      "topic": "Economic Growth Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-solow-steady-state-capital",
+      "category": "Economics",
+      "topic": "Economic Growth Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "econ-drill-growth-accounting-tfp",
+      "category": "Economics",
+      "topic": "Economic Growth Drills",
+      "difficulty": "hard"
+    },
+    {
+      "id": "econ-drill-employment-weighted-mean-wage",
+      "category": "Economics",
+      "topic": "Statistics Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-median-household-spending",
+      "category": "Economics",
+      "topic": "Statistics Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-population-variance-output",
+      "category": "Economics",
+      "topic": "Statistics Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-sample-mean-standard-error",
+      "category": "Economics",
+      "topic": "Statistics Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-confidence-interval-upper-limit",
+      "category": "Economics",
+      "topic": "Statistics Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-conditional-training-employment",
+      "category": "Economics",
+      "topic": "Statistics Drills",
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ-drill-linear-regression-consumption-prediction",
+      "category": "Economics",
+      "topic": "Statistics Drills",
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ-drill-sample-covariance-growth",
+      "category": "Economics",
+      "topic": "Statistics Drills",
+      "difficulty": "hard"
+    }
+  ],
+  "sources": {
+    "cash": {
+      "verifiedOn": "2026-10-27",
+      "scope": "85 original applied calculation families, each with 20 deterministic variants. Sources check the underlying principles; the exercises use their own explicitly stated hypothetical amounts, rates, fees, time periods, coverage terms, and decision rules. They do not quote current tax rates, legal limits, eligibility rules, or product offers.",
+      "sources": [
+        {
+          "id": "irs-withholding",
+          "title": "IRS — Tax withholding",
+          "url": "https://www.irs.gov/payments/tax-withholding",
+          "principle": "Withholding is deducted from employee pay. Exercise withholding percentages and freelancer reserves are hypothetical, not tax-liability estimates."
+        },
+        {
+          "id": "cfpb-cash-flow",
+          "title": "CFPB — Creating a cash flow budget",
+          "url": "https://www.consumerfinance.gov/documents/10038/cfpb_creating-cash-flow-budget_tool_2021-08.pdf",
+          "principle": "Cash-flow planning tracks both income and the timing of expenses; a positive month-end total does not remove an earlier cash shortfall."
+        },
+        {
+          "id": "cfpb-budget",
+          "title": "CFPB — Assess your spending",
+          "url": "https://www.consumerfinance.gov/owning-a-home/prepare/assess-your-spending/",
+          "principle": "Compare a complete spending plan with take-home income and include savings and less frequent expenses."
+        },
+        {
+          "id": "cfpb-compounding",
+          "title": "CFPB — How does compound interest work?",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-does-compound-interest-work-en-1683/",
+          "principle": "Compound interest earns interest on prior interest as well as principal. Frequency and rate must match the calculation periods."
+        },
+        {
+          "id": "investor-compound-calculator",
+          "title": "Investor.gov — Compound Interest Calculator",
+          "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+          "principle": "Savings growth depends on opening principal, contributions, rate, duration, and compounding frequency. Exercise contributions explicitly use month-end timing."
+        },
+        {
+          "id": "fdic-account-fees",
+          "title": "FDIC — Overdraft and Account Fees",
+          "url": "https://www.fdic.gov/consumer-resource-center/2021-12/overdraft-and-account-fees",
+          "principle": "Account costs may include maintenance, overdraft, and extended-overdraft fees; fee waivers and transfer arrangements depend on account terms. Exercise amounts and caps are stated assumptions."
+        },
+        {
+          "id": "cfpb-overdraft",
+          "title": "CFPB — Know your overdraft options",
+          "url": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/know-your-overdraft-options/",
+          "principle": "Account balances and transaction timing matter for overdrafts; some providers cap daily fees. The drills do not assert that an unspecified real bank may impose a fee."
+        },
+        {
+          "id": "cfpb-card-interest",
+          "title": "CFPB — How does my credit card company calculate the amount of interest I owe?",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-does-my-credit-card-company-calculate-the-amount-of-interest-i-owe-en-51/",
+          "principle": "Cards may use average daily balances and separate rates for purchases and cash advances. Simplified APR/12 exercises explicitly say so and exclude grace periods and intra-month compounding."
+        },
+        {
+          "id": "cfpb-card-contract",
+          "title": "CFPB — Credit card contract definitions",
+          "url": "https://www.consumerfinance.gov/data-research/credit-card-data/know-you-owe-credit-cards/credit-card-contract-definitions/",
+          "principle": "Card calculations depend on contract definitions for balances, periodic rates, fees, and payments. The minimum-payment and transfer-fee rules are specified in each relevant exercise."
+        },
+        {
+          "id": "cfpb-simple-loan",
+          "title": "CFPB — What's the difference between a simple interest rate and precomputed interest on an auto loan?",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/whats-the-difference-between-a-simple-interest-rate-and-precomputed-interest-on-an-auto-loan-en-841/",
+          "principle": "Balance-based simple loan interest differs from precomputed interest, and additional principal can reduce future balance-based interest. Exercises specify the interest convention."
+        },
+        {
+          "id": "cfpb-auto-terms",
+          "title": "CFPB — Auto loan answers: key terms",
+          "url": "https://www.consumerfinance.gov/consumer-tools/auto-loans/answers/key-terms/",
+          "principle": "Amortization gradually repays debt; down payments reduce financing. Interest rate and APR are distinct when financing fees apply. Payment formulas use a stated nominal interest rate, not a fee-inclusive APR."
+        },
+        {
+          "id": "cfpb-home-costs",
+          "title": "CFPB — Figure out how much you want to spend",
+          "url": "https://www.consumerfinance.gov/owning-a-home/prepare/figure-out-how-much-you-want-to-spend/",
+          "principle": "Home budgets include principal, interest, taxes, insurance, and applicable association charges. Purchase cash must cover down payment and closing costs while preserving selected reserves."
+        },
+        {
+          "id": "cfpb-college-financing",
+          "title": "CFPB — What are the different ways to pay for college or graduate school?",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-the-different-ways-to-pay-for-college-or-graduate-school-en-545/",
+          "principle": "College can be funded through savings, grants, scholarships, earnings, and loans. Tuition payment plans can have fees; exercises disclose the hypothetical fee and installment terms."
+        },
+        {
+          "id": "fsa-net-price",
+          "title": "Federal Student Aid — How To Evaluate Your Aid Offers",
+          "url": "https://studentaid.gov/articles/evaluating-financial-aid-offers/",
+          "principle": "Net price subtracts grants and scholarships from complete college cost. Repayable loans provide financing rather than lowering net price."
+        },
+        {
+          "id": "cfpb-financial-literacy-risk",
+          "title": "CFPB-hosted National Standards for Personal Financial Education — Managing Risk",
+          "url": "https://files.consumerfinance.gov/f/documents/2021_Natl_Standards_Downloadable_final.pdf",
+          "principle": "Insurance risk-sharing exercises distinguish premiums, deductibles, copayments, and coinsurance. Coverage needs and expected costs require clearly stated assumptions."
+        },
+        {
+          "id": "healthcare-coinsurance",
+          "title": "HealthCare.gov — Coinsurance",
+          "url": "https://www.healthcare.gov/glossary/co-insurance/",
+          "principle": "Coinsurance is a share of covered allowed costs, typically applied after the deductible under the stated policy terms."
+        },
+        {
+          "id": "healthcare-out-of-pocket",
+          "title": "HealthCare.gov — Out-of-pocket maximum/limit",
+          "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/",
+          "principle": "Qualifying in-network cost sharing counts toward the stated annual maximum; premiums are separate. The exercises use hypothetical maxima and do not reproduce legal annual limits."
+        }
+      ],
+      "topicMapping": [
+        {
+          "topic": "Pay and Cash Flow Drills",
+          "familyCount": 9,
+          "sourceIds": [
+            "irs-withholding",
+            "cfpb-cash-flow"
+          ]
+        },
+        {
+          "topic": "Budget Planning Drills",
+          "familyCount": 9,
+          "sourceIds": [
+            "cfpb-budget",
+            "cfpb-cash-flow"
+          ]
+        },
+        {
+          "topic": "Savings Goal Drills",
+          "familyCount": 9,
+          "sourceIds": [
+            "cfpb-compounding",
+            "investor-compound-calculator",
+            "cfpb-budget"
+          ]
+        },
+        {
+          "topic": "Bank Account Cost Drills",
+          "familyCount": 9,
+          "sourceIds": [
+            "fdic-account-fees",
+            "cfpb-overdraft",
+            "cfpb-compounding"
+          ]
+        },
+        {
+          "topic": "Credit Card Math Drills",
+          "familyCount": 9,
+          "sourceIds": [
+            "cfpb-card-interest",
+            "cfpb-card-contract"
+          ]
+        },
+        {
+          "topic": "Loan Payment Drills",
+          "familyCount": 8,
+          "sourceIds": [
+            "cfpb-simple-loan",
+            "cfpb-auto-terms"
+          ]
+        },
+        {
+          "topic": "Housing Cost Drills",
+          "familyCount": 8,
+          "sourceIds": [
+            "cfpb-home-costs"
+          ]
+        },
+        {
+          "topic": "Car Ownership Drills",
+          "familyCount": 8,
+          "sourceIds": [
+            "cfpb-auto-terms",
+            "cfpb-simple-loan",
+            "cfpb-budget"
+          ]
+        },
+        {
+          "topic": "College Cost Drills",
+          "familyCount": 8,
+          "sourceIds": [
+            "cfpb-college-financing",
+            "fsa-net-price"
+          ]
+        },
+        {
+          "topic": "Insurance Cost Drills",
+          "familyCount": 8,
+          "sourceIds": [
+            "cfpb-financial-literacy-risk",
+            "healthcare-coinsurance",
+            "healthcare-out-of-pocket"
+          ]
+        }
+      ]
+    },
+    "investing": {
+      "checkedOn": "2026-10-27",
+      "scope": "Principle checks for 85 authored calculation families and 20 deterministic input variants per family. Numerical prices, rates, returns, exchange rates, probabilities, fees, policy terms, and plan terms are hypothetical inputs, not quoted market data, predictions, tax limits, or claims about actual contracts.",
+      "sources": [
+        {
+          "publisher": "U.S. Securities and Exchange Commission / Investor.gov",
+          "title": "How Fees and Expenses Affect Your Investment Portfolio – Investor Bulletin",
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated",
+          "principlesChecked": [
+            "Expense ratios represent annual fund operating expenses as a percentage of assets.",
+            "Sales charges, account charges, and ongoing expenses have different calculation bases.",
+            "Fees reduce the amount available to compound."
+          ],
+          "topics": [
+            "Fund Fee Drills"
+          ]
+        },
+        {
+          "publisher": "U.S. Securities and Exchange Commission / Investor.gov",
+          "title": "Asset Allocation and Diversification",
+          "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+          "principlesChecked": [
+            "Asset allocation divides holdings among asset classes.",
+            "Rebalancing brings portfolio weights back toward a chosen allocation.",
+            "Allocation and diversification do not guarantee returns."
+          ],
+          "topics": [
+            "Portfolio Allocation Drills"
+          ]
+        },
+        {
+          "publisher": "U.S. Securities and Exchange Commission / Investor.gov",
+          "title": "Compound Interest Calculator",
+          "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+          "principlesChecked": [
+            "A projection depends on starting value, contribution amounts, time, assumed interest rate, and compounding frequency.",
+            "The rate in a projection is an estimate; exercise returns are explicitly hypothetical."
+          ],
+          "topics": [
+            "Investment Return Drills",
+            "Retirement Saving Drills"
+          ]
+        },
+        {
+          "publisher": "U.S. Securities and Exchange Commission / Investor.gov",
+          "title": "Current Yield",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/current-yield",
+          "principlesChecked": [
+            "Bond current yield uses annual coupon dollars divided by current market price; it is not yield to maturity."
+          ],
+          "topics": [
+            "Bond Cash Flow Drills"
+          ]
+        },
+        {
+          "publisher": "U.S. Securities and Exchange Commission / Investor.gov",
+          "title": "Corporate Bonds",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products",
+          "principlesChecked": [
+            "Bond coupon payments, face value, maturity, and purchase price are distinct quantities.",
+            "Zero-coupon bonds have a maturity payment rather than periodic coupons.",
+            "Scheduled payments are conditional on the issuer meeting its obligations; exercise prompts state the assumed payment performance."
+          ],
+          "topics": [
+            "Bond Cash Flow Drills"
+          ]
+        },
+        {
+          "publisher": "Internal Revenue Service",
+          "title": "Matching contributions help you save more for retirement",
+          "url": "https://www.irs.gov/retirement-plans/matching-contributions-help-you-save-more-for-retirement",
+          "principlesChecked": [
+            "Employer matching formulas may match only contributions up to a percentage of eligible pay.",
+            "Matching formula and eligibility depend on plan terms; all exercise plan formulas are hypothetical."
+          ],
+          "topics": [
+            "Retirement Saving Drills"
+          ]
+        },
+        {
+          "publisher": "Internal Revenue Service",
+          "title": "Retirement topics – Vesting",
+          "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-vesting",
+          "principlesChecked": [
+            "Vesting concerns ownership of retirement-plan benefits.",
+            "Employee and employer portions can have different vesting treatment; the exercise states the ownership percentages and includes associated earnings."
+          ],
+          "topics": [
+            "Retirement Saving Drills"
+          ]
+        },
+        {
+          "publisher": "Federal Trade Commission",
+          "title": "Getting In and Out of Free Trials, Auto-Renewals, and Negative Option Subscriptions",
+          "url": "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
+          "principlesChecked": [
+            "Promotional periods and renewal charges can differ.",
+            "Cancellation and renewal terms matter to subscription cost; exercise refund and pause rules are explicitly assumed contract terms."
+          ],
+          "topics": [
+            "Subscription Value Drills",
+            "Shopping Price Drills"
+          ]
+        },
+        {
+          "publisher": "Consumer Financial Protection Bureau",
+          "title": "Problems sending money to another country?",
+          "url": "https://www.consumerfinance.gov/consumer-tools/sending-money/",
+          "principlesChecked": [
+            "Sender fees, exchange rates, and recipient fees can all affect a remittance's total cost and amount received.",
+            "Comparisons must use a consistent sender budget and include stated charges."
+          ],
+          "topics": [
+            "Payment and Currency Drills"
+          ]
+        },
+        {
+          "publisher": "Consumer Financial Protection Bureau",
+          "title": "What is a grace period for a credit card?",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-grace-period-for-a-credit-card-en-47/",
+          "principlesChecked": [
+            "Interest on new purchases can be avoided under an applicable grace period by paying the full balance on time.",
+            "The interest exercise explicitly assumes an interest-bearing balance with no grace period; reward-card arithmetic explicitly excludes interest."
+          ],
+          "topics": [
+            "Payment and Currency Drills"
+          ]
+        },
+        {
+          "publisher": "HealthCare.gov / Centers for Medicare & Medicaid Services",
+          "title": "Coinsurance",
+          "url": "https://www.healthcare.gov/glossary/co-insurance/",
+          "principlesChecked": [
+            "Patient coinsurance is applied after the deductible under the described coverage structure.",
+            "Eligible deductible and coinsurance payments count toward the out-of-pocket maximum; premiums are separate."
+          ],
+          "topics": [
+            "Consumer Risk Drills"
+          ]
+        }
+      ],
+      "authoringConventions": [
+        "Prices and rates in prompts are the complete inputs; no current tax brackets, retirement contribution limits, exchange quotes, product pricing, or market forecasts are required.",
+        "Shopping prompts state the order and base for discounts, taxes, cashback, and shipping thresholds.",
+        "Business prompts distinguish collected cash from invoices and state variable and fixed costs separately.",
+        "All fund fee bases and proration periods are explicit; constant-balance and return-reduction models are labeled as assumptions.",
+        "Bond accrued interest uses the explicitly stated actual-days/365 formula; coupon frequency and principal payment timing are supplied.",
+        "Retirement projections state contribution timing and compounding frequency. Withholding examples are cash-flow assumptions rather than final tax calculations.",
+        "Currency prompts state units per dollar or dollars per unit and identify when fees are deducted.",
+        "Expected-loss and insurance examples use stated hypothetical event probabilities and coverage terms and do not prescribe a personal insurance decision."
+      ]
+    },
+    "economics": {
+      "verifiedOn": "2026-10-27",
+      "scope": "Original hypothetical calculation exercises. Sources verify underlying definitions and economic principles; they are not sources of current numerical observations or tax schedules. Linear markets, Cournot behavior, fixed price multipliers, fixed baskets, Solow production, and simple random sampling are explicit teaching assumptions, not claims that real economies or official statistics use every simplified model.",
+      "sources": [
+        {
+          "publisher": "Federal Reserve Bank of St. Louis",
+          "title": "Scope and Sequence for Economic Content",
+          "url": "https://www.stlouisfed.org/-/media/project/frbstl/stlouisfed/education/tools/pdf/scope_and_sequence_economics.pdf?la=en",
+          "topics": [
+            "Opportunity Cost Drills",
+            "Production and Cost Drills"
+          ],
+          "principlesVerified": "Scarcity, opportunity cost, resource allocation, production, and comparative advantage based on lower opportunity cost. Numerical production functions and incremental cost examples are original applications."
+        },
+        {
+          "publisher": "Federal Reserve Education",
+          "title": "The PPF: Increasing Opportunity Cost",
+          "url": "https://www.federalreserveeducation.org/teaching-resources/economics/scarcity/the-production-possibilities-frontier-increasing-opportunity-cost",
+          "topics": [
+            "Opportunity Cost Drills"
+          ],
+          "principlesVerified": "Moving along a production frontier entails a tradeoff, and the opportunity cost of an incremental change is the forgone production over that segment."
+        },
+        {
+          "publisher": "Federal Reserve Bank of St. Louis",
+          "title": "Price Elasticity of Demand Explained",
+          "url": "https://www.stlouisfed.org/open-vault/2024/june/price-elasticity-demand-explained",
+          "topics": [
+            "Supply and Demand Drills"
+          ],
+          "principlesVerified": "Demand elasticity measures relative quantity response to a price change. The exercises explicitly specify midpoint calculations or supplied percentage changes so denominators are unambiguous."
+        },
+        {
+          "publisher": "Federal Reserve Bank of Minneapolis",
+          "title": "A widget example of the Herfindahl-Hirschman Index",
+          "url": "https://www.minneapolisfed.org/article/2000/a-widget-example-of-the-herfindahlhirschman-index",
+          "topics": [
+            "Market Structure Drills"
+          ],
+          "principlesVerified": "HHI sums the squares of firms' market shares; percentage shares produce the 0-to-10,000 scale. No contemporary merger-review thresholds are used."
+        },
+        {
+          "publisher": "Federal Reserve Bank of St. Louis",
+          "title": "Understanding Fiscal Policy, Michael T. Owyang",
+          "url": "https://www.stlouisfed.org/~/media/Education/Presentations/Understanding-Fiscal-Policy-Owyang.pdf?la=en",
+          "topics": [
+            "Public Finance Drills",
+            "Economic Growth Drills"
+          ],
+          "principlesVerified": "The simple expenditure model yields spending multiplier 1/(1-MPC), lump-sum tax multiplier -MPC/(1-MPC), and balanced-budget multiplier one. Government transfers are excluded from government purchases in GDP. Exercises state fixed prices, closed economy, and no crowding out."
+        },
+        {
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "title": "Consumer Price Index: Calculation",
+          "url": "https://www.bls.gov/opub/hom/cpi/calculation.htm",
+          "topics": [
+            "Inflation Measurement Drills"
+          ],
+          "principlesVerified": "Price aggregation depends on expenditure or quantity weights. Official CPI construction uses multiple stages and formulas; the exercises specifically call their fixed-basket or fixed-base weighted indexes simplified examples."
+        },
+        {
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "title": "Consumer Price Index Frequently Asked Questions",
+          "url": "https://www.bls.gov/cpi/questions-and-answers.htm",
+          "topics": [
+            "Inflation Measurement Drills"
+          ],
+          "principlesVerified": "Inflation uses the percentage change in the price index, and a change in index points differs from a percentage change. Index ratios support purchasing-power comparisons and rebasing."
+        },
+        {
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "title": "Concepts and Definitions: Current Population Survey",
+          "url": "https://www.bls.gov/cps/definitions.htm",
+          "topics": [
+            "Labor Data Drills"
+          ],
+          "principlesVerified": "Labor force is employed plus unemployed. Unemployment divides by the labor force; participation and employment-population ratios use the civilian noninstitutional population age 16+. U-6 adds marginal attachment and involuntary part-time work with the appropriate expanded denominator."
+        },
+        {
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "title": "Office of Productivity and Technology: Concepts",
+          "url": "https://www.bls.gov/opub/hom/opt/concepts.htm",
+          "topics": [
+            "Labor Data Drills",
+            "Economic Growth Drills"
+          ],
+          "principlesVerified": "Labor productivity compares real output with hours worked. Total factor productivity measures output growth beyond the contributions of measured inputs; the exercises supply their growth-accounting approximation explicitly."
+        },
+        {
+          "publisher": "U.S. Census Bureau",
+          "title": "Common Trade Definitions",
+          "url": "https://www2.census.gov/programs-surveys/trade/reference/definitions/index.html",
+          "topics": [
+            "Trade Data Drills"
+          ],
+          "principlesVerified": "The trade balance is exports less imports. Positive balances are surpluses and negative balances are deficits. The exercises distinguish goods, services, and income accounts."
+        },
+        {
+          "publisher": "U.S. Bureau of Economic Analysis",
+          "title": "International Transactions",
+          "url": "https://www.bea.gov/data/intl-trade-investment/international-transactions",
+          "topics": [
+            "Trade Data Drills"
+          ],
+          "principlesVerified": "International transactions accounts cover goods, services, income, and international transfers. Only these accounting categories are used; all exercise amounts are invented."
+        },
+        {
+          "publisher": "U.S. Bureau of Economic Analysis",
+          "title": "The Expenditures Approach to Measuring GDP",
+          "url": "https://www.bea.gov/news/blog/2025-06-03/expenditures-approach-measuring-gdp",
+          "topics": [
+            "Economic Growth Drills"
+          ],
+          "principlesVerified": "GDP by expenditures is C + I + G + X - M; subtracting imports excludes foreign production already included in spending components."
+        },
+        {
+          "publisher": "U.S. Bureau of Economic Analysis",
+          "title": "Gross Domestic Product Release: Additional Information",
+          "url": "https://www.bea.gov/news/gdp-release-additional-information",
+          "topics": [
+            "Economic Growth Drills"
+          ],
+          "principlesVerified": "Real values remove price effects, while nominal values use current prices. Growth exercises identify whether quantities are real, aggregate, or per person."
+        },
+        {
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "title": "Understanding Standard Errors and Confidence Intervals",
+          "url": "https://www.bls.gov/cps/factsheets/understanding-standard-errors-and-confidence-intervals.htm",
+          "topics": [
+            "Statistics Drills"
+          ],
+          "principlesVerified": "A confidence interval combines an estimate, standard error, and appropriate critical value. The exercises explicitly supply a normal 95% critical value and specify simple-random-sample assumptions where s/sqrt(n) is used; they do not apply that simplification to complex CPS survey estimates."
+        },
+        {
+          "publisher": "U.S. Census Bureau",
+          "title": "Statistical Quality Standard E1: Analyzing Data",
+          "url": "https://www.census.gov/about/policies/quality/standards/standarde1.html",
+          "topics": [
+            "Statistics Drills"
+          ],
+          "principlesVerified": "Statistical analysis should identify uncertainty and the confidence level used. Population versus sample denominators and conditional probability populations are specified directly in the exercises."
+        }
+      ]
+    }
+  }
+}

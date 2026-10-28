@@ -10,8 +10,9 @@
 // plain data or booleans, they never confirm() or render anything).
 //
 // Preserved exactly (I3/I4, Appendix D/E):
-//   - The `${unit}::${term}` deck id — flashcard.ts:586 — is the
-//     localStorage key; buildDeck below is that line, unchanged.
+//   - Vocabulary cards retain the `${unit}::${term}` localStorage key.
+//     Calculation cards use `${unit}::${id}` so repeated numeric answers
+//     have separate progress records.
 //   - The fill-in-the-blank comparison's asymmetry (flashcard.ts:756-764):
 //     the input is trimmed, the target is NOT, both lowercased. In
 //     production `els.caseInsensitive` was always null (`#case-insensitive`
@@ -57,6 +58,7 @@ import { z } from "zod";
 import { FLASHCARD_UNITS } from "../data/flashcard-units";
 import { shuffle } from "../lib/shuffle";
 import { showToast } from "../lib/toast";
+import { checkCalculationAnswer } from "../lib/flashcard-answer";
 import type { Flashcard, FlashcardUnit } from "../types";
 
 const STORAGE_KEY = "fynoptic.flashcards.v1";
@@ -121,7 +123,7 @@ export function buildDeck(
   const deck: DeckCard[] = [];
   units.forEach((u) => {
     (flashcardUnits[u] ?? []).forEach((card) => {
-      deck.push({ ...card, unit: u, id: `${u}::${card.term}` });
+      deck.push({ ...card, unit: u, id: `${u}::${card.id ?? card.term}` });
     });
   });
   return deck;
@@ -152,7 +154,7 @@ export function checkFitbAnswer(rawInput: string, target: string): boolean {
 export function unitProgress(
   answers: Record<string, AnswerRecord>,
   unit: string,
-  cards: Flashcard[],
+  cards: Flashcard[] | number,
 ): { done: number; correct: number; total: number; pct: number } {
   const prefix = `${unit}::`;
   let done = 0;
@@ -162,7 +164,7 @@ export function unitProgress(
     done++;
     if (a.correct) correct++;
   }
-  const total = cards.length;
+  const total = typeof cards === "number" ? cards : cards.length;
   const pct = total ? Math.round((correct / total) * 100) : 0;
   return { done, correct, total, pct };
 }
@@ -177,8 +179,12 @@ export function buildMcOptions(
   pool: Flashcard[],
   useTermAnswers: boolean,
 ): string[] {
+  if (card.kind === "calculation" && card.distractors) {
+    return shuffle([card.term, ...card.distractors]);
+  }
   const correctValue = useTermAnswers ? card.term : card.definition;
   const candidates = pool
+    .filter((candidate) => candidate.kind !== "calculation")
     .map((c) => (useTermAnswers ? c.term : c.definition))
     .filter((v) => v && v !== correctValue);
 
@@ -317,7 +323,11 @@ export interface UseFlashcardDeckResult {
   accuracyPct: number;
 
   /** Builds a fresh deck from the selected units and starts a session. Returns false (and toasts) if `units` is empty. */
-  buildDeck(units: string[], opts: BuildDeckOptions): boolean;
+  buildDeck(
+    units: string[],
+    opts: BuildDeckOptions,
+    flashcardUnits?: FlashcardUnit,
+  ): boolean;
   /** Reveals the current card. Toasts and no-ops if it's already revealed. */
   flip(): void;
   /** Selects an option without grading or saving progress. */
@@ -343,12 +353,11 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
   const [state, setState] = useState<EngineState>(createInitialState);
 
   const current = state.deck[state.index];
+  const calculation = current?.kind === "calculation";
+  const mcAnswer = calculation ? "term" : state.mcAnswer;
+  const fitbAnswer = calculation ? "term" : state.fitbAnswer;
   const revealedCurrent = current ? state.revealed.has(current.id) : false;
-  const frontIsTerm = computeFrontIsTerm(
-    state.mode,
-    state.mcAnswer,
-    state.fitbAnswer,
-  );
+  const frontIsTerm = computeFrontIsTerm(state.mode, mcAnswer, fitbAnswer);
   const isFront = revealedCurrent ? !frontIsTerm : frontIsTerm;
   const locked = revealedCurrent;
 
@@ -357,9 +366,9 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
     const pool: Flashcard[] = state.deck.length
       ? state.deck
       : Object.values(FLASHCARD_UNITS).flat();
-    return buildMcOptions(current, pool, state.mcAnswer === "term");
+    return buildMcOptions(current, pool, mcAnswer === "term");
     // eslint-disable-next-line react-hooks/exhaustive-deps -- deliberately keyed on the displayed card + mode/answer-target, matching renderCard's call sites (buildDeck, next/prev/restart, toggleAnswerTarget), not on every render — see the module comment on the MC lock.
-  }, [current, state.mode, state.mcAnswer, state.deck]);
+  }, [current, state.mode, mcAnswer, state.deck]);
 
   const crumbs = `${Math.min(state.index + 1, state.deck.length)} / ${state.deck.length}`;
   const progressPct = state.stats.total
@@ -371,12 +380,16 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
     state.stats.total,
   );
 
-  function buildDeckAction(units: string[], opts: BuildDeckOptions): boolean {
+  function buildDeckAction(
+    units: string[],
+    opts: BuildDeckOptions,
+    flashcardUnits = FLASHCARD_UNITS,
+  ): boolean {
     if (!units.length) {
       showToast("Select at least one unit.");
       return false;
     }
-    let deck = buildDeck(units, FLASHCARD_UNITS);
+    let deck = buildDeck(units, flashcardUnits);
     if (opts.shuffleDeck) deck = shuffle(deck);
 
     const saved = readStorage();
@@ -450,7 +463,7 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
       showToast("You revealed this card; answering is disabled.");
       return;
     }
-    const useTermAnswers = state.mcAnswer === "term";
+    const useTermAnswers = mcAnswer === "term";
     const correctValue = useTermAnswers ? current.term : current.definition;
     const correct = value === correctValue;
 
@@ -473,9 +486,11 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
     const val = (rawInput || "").trim();
     if (!val) return;
 
-    const target =
-      state.fitbAnswer === "term" ? current.term : current.definition;
-    const correct = checkFitbAnswer(rawInput, target);
+    const target = fitbAnswer === "term" ? current.term : current.definition;
+    const correct =
+      calculation && current.numericAnswer
+        ? checkCalculationAnswer(rawInput, current.numericAnswer)
+        : checkFitbAnswer(rawInput, target);
 
     const next: EngineState = {
       ...state,
@@ -489,14 +504,14 @@ export function useFlashcardDeck(): UseFlashcardDeckResult {
 
   function showHint(): void {
     if (!current) return;
-    const target =
-      state.fitbAnswer === "term" ? current.term : current.definition;
+    const target = fitbAnswer === "term" ? current.term : current.definition;
     const visible = Math.max(1, Math.ceil(target.length / 3));
     const hint = target.slice(0, visible) + "…";
     setState({ ...state, feedback: { kind: "hint", hint } });
   }
 
   function toggleAnswerTarget(): void {
+    if (calculation) return;
     if (state.mode === "mc") {
       setState({
         ...state,

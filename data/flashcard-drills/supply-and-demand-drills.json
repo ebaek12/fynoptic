@@ -1,0 +1,2562 @@
+[
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-01",
+    "kind": "calculation",
+    "term": "$33.60",
+    "definition": "A market has Qd = 190 − 3P and Qs = 22 + 2P, where P is dollars per unit. What is the competitive equilibrium price?",
+    "distractors": [
+      "$42.40",
+      "$56.00",
+      "$84.00"
+    ],
+    "explanation": "Set Qd = Qs: 190 − 3P = 22 + 2P. Therefore P = (190 − 22) ÷ (3 + 2) = $33.60.",
+    "numericAnswer": {
+      "value": 33.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-02",
+    "kind": "calculation",
+    "term": "$25.29",
+    "definition": "A market has Qd = 201 − 4P and Qs = 24 + 3P, where P is dollars per unit. What is the competitive equilibrium price? Round to the nearest cent.",
+    "distractors": [
+      "$32.14",
+      "$44.25",
+      "$59.00"
+    ],
+    "explanation": "Set Qd = Qs: 201 − 4P = 24 + 3P. Therefore P = (201 − 24) ÷ (4 + 3) = $25.29.",
+    "numericAnswer": {
+      "value": 25.29,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-03",
+    "kind": "calculation",
+    "term": "$20.67",
+    "definition": "A market has Qd = 212 − 5P and Qs = 26 + 4P, where P is dollars per unit. What is the competitive equilibrium price? Round to the nearest cent.",
+    "distractors": [
+      "$26.44",
+      "$37.20",
+      "$46.50"
+    ],
+    "explanation": "Set Qd = Qs: 212 − 5P = 26 + 4P. Therefore P = (212 − 26) ÷ (5 + 4) = $20.67.",
+    "numericAnswer": {
+      "value": 20.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-04",
+    "kind": "calculation",
+    "term": "$24.38",
+    "definition": "A market has Qd = 223 − 3P and Qs = 28 + 5P, where P is dollars per unit. What is the competitive equilibrium price? Round to the nearest cent.",
+    "distractors": [
+      "$31.38",
+      "$65.00",
+      "$39.00"
+    ],
+    "explanation": "Set Qd = Qs: 223 − 3P = 28 + 5P. Therefore P = (223 − 28) ÷ (3 + 5) = $24.38.",
+    "numericAnswer": {
+      "value": 24.38,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-05",
+    "kind": "calculation",
+    "term": "$34.00",
+    "definition": "A market has Qd = 234 − 4P and Qs = 30 + 2P, where P is dollars per unit. What is the competitive equilibrium price?",
+    "distractors": [
+      "$44.00",
+      "$51.00",
+      "$102.00"
+    ],
+    "explanation": "Set Qd = Qs: 234 − 4P = 30 + 2P. Therefore P = (234 − 30) ÷ (4 + 2) = $34.00.",
+    "numericAnswer": {
+      "value": 34,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-06",
+    "kind": "calculation",
+    "term": "$26.63",
+    "definition": "A market has Qd = 245 − 5P and Qs = 32 + 3P, where P is dollars per unit. What is the competitive equilibrium price? Round to the nearest cent.",
+    "distractors": [
+      "$34.63",
+      "$42.60",
+      "$71.00"
+    ],
+    "explanation": "Set Qd = Qs: 245 − 5P = 32 + 3P. Therefore P = (245 − 32) ÷ (5 + 3) = $26.63.",
+    "numericAnswer": {
+      "value": 26.63,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-07",
+    "kind": "calculation",
+    "term": "$31.71",
+    "definition": "A market has Qd = 256 − 3P and Qs = 34 + 4P, where P is dollars per unit. What is the competitive equilibrium price? Round to the nearest cent.",
+    "distractors": [
+      "$41.43",
+      "$74.00",
+      "$55.50"
+    ],
+    "explanation": "Set Qd = Qs: 256 − 3P = 34 + 4P. Therefore P = (256 − 34) ÷ (3 + 4) = $31.71.",
+    "numericAnswer": {
+      "value": 31.71,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-08",
+    "kind": "calculation",
+    "term": "$25.67",
+    "definition": "A market has Qd = 267 − 4P and Qs = 36 + 5P, where P is dollars per unit. What is the competitive equilibrium price? Round to the nearest cent.",
+    "distractors": [
+      "$33.67",
+      "$57.75",
+      "$46.20"
+    ],
+    "explanation": "Set Qd = Qs: 267 − 4P = 36 + 5P. Therefore P = (267 − 36) ÷ (4 + 5) = $25.67.",
+    "numericAnswer": {
+      "value": 25.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-09",
+    "kind": "calculation",
+    "term": "$34.29",
+    "definition": "A market has Qd = 278 − 5P and Qs = 38 + 2P, where P is dollars per unit. What is the competitive equilibrium price? Round to the nearest cent.",
+    "distractors": [
+      "$45.14",
+      "$48.00",
+      "$120.00"
+    ],
+    "explanation": "Set Qd = Qs: 278 − 5P = 38 + 2P. Therefore P = (278 − 38) ÷ (5 + 2) = $34.29.",
+    "numericAnswer": {
+      "value": 34.29,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-10",
+    "kind": "calculation",
+    "term": "$41.50",
+    "definition": "A market has Qd = 289 − 3P and Qs = 40 + 3P, where P is dollars per unit. What is the competitive equilibrium price?",
+    "distractors": [
+      "$54.83",
+      "$83.00",
+      "$48.17"
+    ],
+    "explanation": "Set Qd = Qs: 289 − 3P = 40 + 3P. Therefore P = (289 − 40) ÷ (3 + 3) = $41.50.",
+    "numericAnswer": {
+      "value": 41.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-11",
+    "kind": "calculation",
+    "term": "$32.25",
+    "definition": "A market has Qd = 300 − 4P and Qs = 42 + 4P, where P is dollars per unit. What is the competitive equilibrium price?",
+    "distractors": [
+      "$42.75",
+      "$64.50",
+      "$37.50"
+    ],
+    "explanation": "Set Qd = Qs: 300 − 4P = 42 + 4P. Therefore P = (300 − 42) ÷ (4 + 4) = $32.25.",
+    "numericAnswer": {
+      "value": 32.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-12",
+    "kind": "calculation",
+    "term": "$26.70",
+    "definition": "A market has Qd = 311 − 5P and Qs = 44 + 5P, where P is dollars per unit. What is the competitive equilibrium price?",
+    "distractors": [
+      "$35.50",
+      "$53.40",
+      "$31.10"
+    ],
+    "explanation": "Set Qd = Qs: 311 − 5P = 44 + 5P. Therefore P = (311 − 44) ÷ (5 + 5) = $26.70.",
+    "numericAnswer": {
+      "value": 26.7,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-13",
+    "kind": "calculation",
+    "term": "$55.20",
+    "definition": "A market has Qd = 322 − 3P and Qs = 46 + 2P, where P is dollars per unit. What is the competitive equilibrium price?",
+    "distractors": [
+      "$73.60",
+      "$92.00",
+      "$138.00"
+    ],
+    "explanation": "Set Qd = Qs: 322 − 3P = 46 + 2P. Therefore P = (322 − 46) ÷ (3 + 2) = $55.20.",
+    "numericAnswer": {
+      "value": 55.2,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-14",
+    "kind": "calculation",
+    "term": "$40.71",
+    "definition": "A market has Qd = 333 − 4P and Qs = 48 + 3P, where P is dollars per unit. What is the competitive equilibrium price? Round to the nearest cent.",
+    "distractors": [
+      "$54.43",
+      "$71.25",
+      "$95.00"
+    ],
+    "explanation": "Set Qd = Qs: 333 − 4P = 48 + 3P. Therefore P = (333 − 48) ÷ (4 + 3) = $40.71.",
+    "numericAnswer": {
+      "value": 40.71,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-15",
+    "kind": "calculation",
+    "term": "$32.67",
+    "definition": "A market has Qd = 344 − 5P and Qs = 50 + 4P, where P is dollars per unit. What is the competitive equilibrium price? Round to the nearest cent.",
+    "distractors": [
+      "$43.78",
+      "$58.80",
+      "$73.50"
+    ],
+    "explanation": "Set Qd = Qs: 344 − 5P = 50 + 4P. Therefore P = (344 − 50) ÷ (5 + 4) = $32.67.",
+    "numericAnswer": {
+      "value": 32.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-16",
+    "kind": "calculation",
+    "term": "$37.88",
+    "definition": "A market has Qd = 355 − 3P and Qs = 52 + 5P, where P is dollars per unit. What is the competitive equilibrium price? Round to the nearest cent.",
+    "distractors": [
+      "$50.88",
+      "$101.00",
+      "$60.60"
+    ],
+    "explanation": "Set Qd = Qs: 355 − 3P = 52 + 5P. Therefore P = (355 − 52) ÷ (3 + 5) = $37.88.",
+    "numericAnswer": {
+      "value": 37.88,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-17",
+    "kind": "calculation",
+    "term": "$52.00",
+    "definition": "A market has Qd = 366 − 4P and Qs = 54 + 2P, where P is dollars per unit. What is the competitive equilibrium price?",
+    "distractors": [
+      "$70.00",
+      "$78.00",
+      "$156.00"
+    ],
+    "explanation": "Set Qd = Qs: 366 − 4P = 54 + 2P. Therefore P = (366 − 54) ÷ (4 + 2) = $52.00.",
+    "numericAnswer": {
+      "value": 52,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-18",
+    "kind": "calculation",
+    "term": "$40.13",
+    "definition": "A market has Qd = 377 − 5P and Qs = 56 + 3P, where P is dollars per unit. What is the competitive equilibrium price? Round to the nearest cent.",
+    "distractors": [
+      "$54.13",
+      "$64.20",
+      "$107.00"
+    ],
+    "explanation": "Set Qd = Qs: 377 − 5P = 56 + 3P. Therefore P = (377 − 56) ÷ (5 + 3) = $40.13.",
+    "numericAnswer": {
+      "value": 40.13,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-19",
+    "kind": "calculation",
+    "term": "$47.14",
+    "definition": "A market has Qd = 388 − 3P and Qs = 58 + 4P, where P is dollars per unit. What is the competitive equilibrium price? Round to the nearest cent.",
+    "distractors": [
+      "$63.71",
+      "$110.00",
+      "$82.50"
+    ],
+    "explanation": "Set Qd = Qs: 388 − 3P = 58 + 4P. Therefore P = (388 − 58) ÷ (3 + 4) = $47.14.",
+    "numericAnswer": {
+      "value": 47.14,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-market-clearing-price-20",
+    "kind": "calculation",
+    "term": "$37.67",
+    "definition": "A market has Qd = 399 − 4P and Qs = 60 + 5P, where P is dollars per unit. What is the competitive equilibrium price? Round to the nearest cent.",
+    "distractors": [
+      "$51.00",
+      "$84.75",
+      "$67.80"
+    ],
+    "explanation": "Set Qd = Qs: 399 − 4P = 60 + 5P. Therefore P = (399 − 60) ÷ (4 + 5) = $37.67.",
+    "numericAnswer": {
+      "value": 37.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-01",
+    "kind": "calculation",
+    "term": "14.40 units",
+    "definition": "Initially Qd = 160 − 2P and Qs = 20 + 3P. Demand then increases to Qd = 184 − 2P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "24.00 units",
+      "4.80 units",
+      "9.60 units"
+    ],
+    "explanation": "The demand intercept rises by 24. ΔP = 24/(2 + 3); supply then rises by ΔQ = 3 × 24/(2 + 3) = 14.40 units.",
+    "numericAnswer": {
+      "value": 14.4,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-02",
+    "kind": "calculation",
+    "term": "15.43 units",
+    "definition": "Initially Qd = 169 − 3P and Qs = 21 + 4P. Demand then increases to Qd = 196 − 3P, with supply unchanged. How much does equilibrium quantity increase? Round to 2 decimal places.",
+    "distractors": [
+      "27.00 units",
+      "3.86 units",
+      "11.57 units"
+    ],
+    "explanation": "The demand intercept rises by 27. ΔP = 27/(3 + 4); supply then rises by ΔQ = 4 × 27/(3 + 4) = 15.43 units.",
+    "numericAnswer": {
+      "value": 15.43,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-03",
+    "kind": "calculation",
+    "term": "16.67 units",
+    "definition": "Initially Qd = 178 − 4P and Qs = 22 + 5P. Demand then increases to Qd = 208 − 4P, with supply unchanged. How much does equilibrium quantity increase? Round to 2 decimal places.",
+    "distractors": [
+      "30.00 units",
+      "3.33 units",
+      "13.33 units"
+    ],
+    "explanation": "The demand intercept rises by 30. ΔP = 30/(4 + 5); supply then rises by ΔQ = 5 × 30/(4 + 5) = 16.67 units.",
+    "numericAnswer": {
+      "value": 16.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-04",
+    "kind": "calculation",
+    "term": "24.75 units",
+    "definition": "Initially Qd = 187 − 2P and Qs = 23 + 6P. Demand then increases to Qd = 220 − 2P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "33.00 units",
+      "4.13 units",
+      "8.25 units"
+    ],
+    "explanation": "The demand intercept rises by 33. ΔP = 33/(2 + 6); supply then rises by ΔQ = 6 × 33/(2 + 6) = 24.75 units.",
+    "numericAnswer": {
+      "value": 24.75,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-05",
+    "kind": "calculation",
+    "term": "18.00 units",
+    "definition": "Initially Qd = 196 − 3P and Qs = 24 + 3P. Demand then increases to Qd = 232 − 3P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "36.00 units",
+      "6.00 units",
+      "216.00 units"
+    ],
+    "explanation": "The demand intercept rises by 36. ΔP = 36/(3 + 3); supply then rises by ΔQ = 3 × 36/(3 + 3) = 18.00 units.",
+    "numericAnswer": {
+      "value": 18,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-06",
+    "kind": "calculation",
+    "term": "19.50 units",
+    "definition": "Initially Qd = 205 − 4P and Qs = 25 + 4P. Demand then increases to Qd = 244 − 4P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "39.00 units",
+      "4.88 units",
+      "312.00 units"
+    ],
+    "explanation": "The demand intercept rises by 39. ΔP = 39/(4 + 4); supply then rises by ΔQ = 4 × 39/(4 + 4) = 19.50 units.",
+    "numericAnswer": {
+      "value": 19.5,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-07",
+    "kind": "calculation",
+    "term": "30.00 units",
+    "definition": "Initially Qd = 214 − 2P and Qs = 26 + 5P. Demand then increases to Qd = 256 − 2P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "42.00 units",
+      "6.00 units",
+      "12.00 units"
+    ],
+    "explanation": "The demand intercept rises by 42. ΔP = 42/(2 + 5); supply then rises by ΔQ = 5 × 42/(2 + 5) = 30.00 units.",
+    "numericAnswer": {
+      "value": 30,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-08",
+    "kind": "calculation",
+    "term": "30.00 units",
+    "definition": "Initially Qd = 223 − 3P and Qs = 27 + 6P. Demand then increases to Qd = 268 − 3P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "45.00 units",
+      "5.00 units",
+      "15.00 units"
+    ],
+    "explanation": "The demand intercept rises by 45. ΔP = 45/(3 + 6); supply then rises by ΔQ = 6 × 45/(3 + 6) = 30.00 units.",
+    "numericAnswer": {
+      "value": 30,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-09",
+    "kind": "calculation",
+    "term": "20.57 units",
+    "definition": "Initially Qd = 232 − 4P and Qs = 28 + 3P. Demand then increases to Qd = 280 − 4P, with supply unchanged. How much does equilibrium quantity increase? Round to 2 decimal places.",
+    "distractors": [
+      "48.00 units",
+      "6.86 units",
+      "27.43 units"
+    ],
+    "explanation": "The demand intercept rises by 48. ΔP = 48/(4 + 3); supply then rises by ΔQ = 3 × 48/(4 + 3) = 20.57 units.",
+    "numericAnswer": {
+      "value": 20.57,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-10",
+    "kind": "calculation",
+    "term": "34.00 units",
+    "definition": "Initially Qd = 241 − 2P and Qs = 29 + 4P. Demand then increases to Qd = 292 − 2P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "51.00 units",
+      "8.50 units",
+      "17.00 units"
+    ],
+    "explanation": "The demand intercept rises by 51. ΔP = 51/(2 + 4); supply then rises by ΔQ = 4 × 51/(2 + 4) = 34.00 units.",
+    "numericAnswer": {
+      "value": 34,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-11",
+    "kind": "calculation",
+    "term": "33.75 units",
+    "definition": "Initially Qd = 250 − 3P and Qs = 30 + 5P. Demand then increases to Qd = 304 − 3P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "54.00 units",
+      "6.75 units",
+      "20.25 units"
+    ],
+    "explanation": "The demand intercept rises by 54. ΔP = 54/(3 + 5); supply then rises by ΔQ = 5 × 54/(3 + 5) = 33.75 units.",
+    "numericAnswer": {
+      "value": 33.75,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-12",
+    "kind": "calculation",
+    "term": "34.20 units",
+    "definition": "Initially Qd = 259 − 4P and Qs = 31 + 6P. Demand then increases to Qd = 316 − 4P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "57.00 units",
+      "5.70 units",
+      "22.80 units"
+    ],
+    "explanation": "The demand intercept rises by 57. ΔP = 57/(4 + 6); supply then rises by ΔQ = 6 × 57/(4 + 6) = 34.20 units.",
+    "numericAnswer": {
+      "value": 34.2,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-13",
+    "kind": "calculation",
+    "term": "36.00 units",
+    "definition": "Initially Qd = 268 − 2P and Qs = 32 + 3P. Demand then increases to Qd = 328 − 2P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "60.00 units",
+      "12.00 units",
+      "24.00 units"
+    ],
+    "explanation": "The demand intercept rises by 60. ΔP = 60/(2 + 3); supply then rises by ΔQ = 3 × 60/(2 + 3) = 36.00 units.",
+    "numericAnswer": {
+      "value": 36,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-14",
+    "kind": "calculation",
+    "term": "36.00 units",
+    "definition": "Initially Qd = 277 − 3P and Qs = 33 + 4P. Demand then increases to Qd = 340 − 3P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "63.00 units",
+      "9.00 units",
+      "27.00 units"
+    ],
+    "explanation": "The demand intercept rises by 63. ΔP = 63/(3 + 4); supply then rises by ΔQ = 4 × 63/(3 + 4) = 36.00 units.",
+    "numericAnswer": {
+      "value": 36,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-15",
+    "kind": "calculation",
+    "term": "36.67 units",
+    "definition": "Initially Qd = 286 − 4P and Qs = 34 + 5P. Demand then increases to Qd = 352 − 4P, with supply unchanged. How much does equilibrium quantity increase? Round to 2 decimal places.",
+    "distractors": [
+      "66.00 units",
+      "7.33 units",
+      "29.33 units"
+    ],
+    "explanation": "The demand intercept rises by 66. ΔP = 66/(4 + 5); supply then rises by ΔQ = 5 × 66/(4 + 5) = 36.67 units.",
+    "numericAnswer": {
+      "value": 36.67,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-16",
+    "kind": "calculation",
+    "term": "51.75 units",
+    "definition": "Initially Qd = 295 − 2P and Qs = 35 + 6P. Demand then increases to Qd = 364 − 2P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "69.00 units",
+      "8.63 units",
+      "17.25 units"
+    ],
+    "explanation": "The demand intercept rises by 69. ΔP = 69/(2 + 6); supply then rises by ΔQ = 6 × 69/(2 + 6) = 51.75 units.",
+    "numericAnswer": {
+      "value": 51.75,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-17",
+    "kind": "calculation",
+    "term": "36.00 units",
+    "definition": "Initially Qd = 304 − 3P and Qs = 36 + 3P. Demand then increases to Qd = 376 − 3P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "72.00 units",
+      "12.00 units",
+      "432.00 units"
+    ],
+    "explanation": "The demand intercept rises by 72. ΔP = 72/(3 + 3); supply then rises by ΔQ = 3 × 72/(3 + 3) = 36.00 units.",
+    "numericAnswer": {
+      "value": 36,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-18",
+    "kind": "calculation",
+    "term": "37.50 units",
+    "definition": "Initially Qd = 313 − 4P and Qs = 37 + 4P. Demand then increases to Qd = 388 − 4P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "75.00 units",
+      "9.38 units",
+      "600.00 units"
+    ],
+    "explanation": "The demand intercept rises by 75. ΔP = 75/(4 + 4); supply then rises by ΔQ = 4 × 75/(4 + 4) = 37.50 units.",
+    "numericAnswer": {
+      "value": 37.5,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-19",
+    "kind": "calculation",
+    "term": "55.71 units",
+    "definition": "Initially Qd = 322 − 2P and Qs = 38 + 5P. Demand then increases to Qd = 400 − 2P, with supply unchanged. How much does equilibrium quantity increase? Round to 2 decimal places.",
+    "distractors": [
+      "78.00 units",
+      "11.14 units",
+      "22.29 units"
+    ],
+    "explanation": "The demand intercept rises by 78. ΔP = 78/(2 + 5); supply then rises by ΔQ = 5 × 78/(2 + 5) = 55.71 units.",
+    "numericAnswer": {
+      "value": 55.71,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-demand-shift-quantity-effect-20",
+    "kind": "calculation",
+    "term": "54.00 units",
+    "definition": "Initially Qd = 331 − 3P and Qs = 39 + 6P. Demand then increases to Qd = 412 − 3P, with supply unchanged. How much does equilibrium quantity increase?",
+    "distractors": [
+      "81.00 units",
+      "9.00 units",
+      "27.00 units"
+    ],
+    "explanation": "The demand intercept rises by 81. ΔP = 81/(3 + 6); supply then rises by ΔQ = 6 × 81/(3 + 6) = 54.00 units.",
+    "numericAnswer": {
+      "value": 54,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-01",
+    "kind": "calculation",
+    "term": "110 units",
+    "definition": "At a binding price ceiling of $20.00, demand is Qd = 240 − 3P and supply is Qs = 30 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "180 units",
+      "70 units",
+      "250 units"
+    ],
+    "explanation": "At P = 20, Qd = 240 − 3 × 20 = 180, and Qs = 30 + 2 × 20 = 70. Shortage = 180 − 70 = 110 units.",
+    "numericAnswer": {
+      "value": 110,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-02",
+    "kind": "calculation",
+    "term": "116 units",
+    "definition": "At a binding price ceiling of $21.00, demand is Qd = 252 − 3P and supply is Qs = 31 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "189 units",
+      "73 units",
+      "262 units"
+    ],
+    "explanation": "At P = 21, Qd = 252 − 3 × 21 = 189, and Qs = 31 + 2 × 21 = 73. Shortage = 189 − 73 = 116 units.",
+    "numericAnswer": {
+      "value": 116,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-03",
+    "kind": "calculation",
+    "term": "122 units",
+    "definition": "At a binding price ceiling of $22.00, demand is Qd = 264 − 3P and supply is Qs = 32 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "198 units",
+      "76 units",
+      "274 units"
+    ],
+    "explanation": "At P = 22, Qd = 264 − 3 × 22 = 198, and Qs = 32 + 2 × 22 = 76. Shortage = 198 − 76 = 122 units.",
+    "numericAnswer": {
+      "value": 122,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-04",
+    "kind": "calculation",
+    "term": "128 units",
+    "definition": "At a binding price ceiling of $23.00, demand is Qd = 276 − 3P and supply is Qs = 33 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "207 units",
+      "79 units",
+      "286 units"
+    ],
+    "explanation": "At P = 23, Qd = 276 − 3 × 23 = 207, and Qs = 33 + 2 × 23 = 79. Shortage = 207 − 79 = 128 units.",
+    "numericAnswer": {
+      "value": 128,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-05",
+    "kind": "calculation",
+    "term": "134 units",
+    "definition": "At a binding price ceiling of $24.00, demand is Qd = 288 − 3P and supply is Qs = 34 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "216 units",
+      "82 units",
+      "298 units"
+    ],
+    "explanation": "At P = 24, Qd = 288 − 3 × 24 = 216, and Qs = 34 + 2 × 24 = 82. Shortage = 216 − 82 = 134 units.",
+    "numericAnswer": {
+      "value": 134,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-06",
+    "kind": "calculation",
+    "term": "140 units",
+    "definition": "At a binding price ceiling of $25.00, demand is Qd = 300 − 3P and supply is Qs = 35 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "225 units",
+      "85 units",
+      "310 units"
+    ],
+    "explanation": "At P = 25, Qd = 300 − 3 × 25 = 225, and Qs = 35 + 2 × 25 = 85. Shortage = 225 − 85 = 140 units.",
+    "numericAnswer": {
+      "value": 140,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-07",
+    "kind": "calculation",
+    "term": "146 units",
+    "definition": "At a binding price ceiling of $26.00, demand is Qd = 312 − 3P and supply is Qs = 36 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "234 units",
+      "88 units",
+      "322 units"
+    ],
+    "explanation": "At P = 26, Qd = 312 − 3 × 26 = 234, and Qs = 36 + 2 × 26 = 88. Shortage = 234 − 88 = 146 units.",
+    "numericAnswer": {
+      "value": 146,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-08",
+    "kind": "calculation",
+    "term": "152 units",
+    "definition": "At a binding price ceiling of $27.00, demand is Qd = 324 − 3P and supply is Qs = 37 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "243 units",
+      "91 units",
+      "334 units"
+    ],
+    "explanation": "At P = 27, Qd = 324 − 3 × 27 = 243, and Qs = 37 + 2 × 27 = 91. Shortage = 243 − 91 = 152 units.",
+    "numericAnswer": {
+      "value": 152,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-09",
+    "kind": "calculation",
+    "term": "158 units",
+    "definition": "At a binding price ceiling of $28.00, demand is Qd = 336 − 3P and supply is Qs = 38 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "252 units",
+      "94 units",
+      "346 units"
+    ],
+    "explanation": "At P = 28, Qd = 336 − 3 × 28 = 252, and Qs = 38 + 2 × 28 = 94. Shortage = 252 − 94 = 158 units.",
+    "numericAnswer": {
+      "value": 158,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-10",
+    "kind": "calculation",
+    "term": "164 units",
+    "definition": "At a binding price ceiling of $29.00, demand is Qd = 348 − 3P and supply is Qs = 39 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "261 units",
+      "97 units",
+      "358 units"
+    ],
+    "explanation": "At P = 29, Qd = 348 − 3 × 29 = 261, and Qs = 39 + 2 × 29 = 97. Shortage = 261 − 97 = 164 units.",
+    "numericAnswer": {
+      "value": 164,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-11",
+    "kind": "calculation",
+    "term": "170 units",
+    "definition": "At a binding price ceiling of $30.00, demand is Qd = 360 − 3P and supply is Qs = 40 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "270 units",
+      "100 units",
+      "370 units"
+    ],
+    "explanation": "At P = 30, Qd = 360 − 3 × 30 = 270, and Qs = 40 + 2 × 30 = 100. Shortage = 270 − 100 = 170 units.",
+    "numericAnswer": {
+      "value": 170,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-12",
+    "kind": "calculation",
+    "term": "176 units",
+    "definition": "At a binding price ceiling of $31.00, demand is Qd = 372 − 3P and supply is Qs = 41 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "279 units",
+      "103 units",
+      "382 units"
+    ],
+    "explanation": "At P = 31, Qd = 372 − 3 × 31 = 279, and Qs = 41 + 2 × 31 = 103. Shortage = 279 − 103 = 176 units.",
+    "numericAnswer": {
+      "value": 176,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-13",
+    "kind": "calculation",
+    "term": "182 units",
+    "definition": "At a binding price ceiling of $32.00, demand is Qd = 384 − 3P and supply is Qs = 42 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "288 units",
+      "106 units",
+      "394 units"
+    ],
+    "explanation": "At P = 32, Qd = 384 − 3 × 32 = 288, and Qs = 42 + 2 × 32 = 106. Shortage = 288 − 106 = 182 units.",
+    "numericAnswer": {
+      "value": 182,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-14",
+    "kind": "calculation",
+    "term": "188 units",
+    "definition": "At a binding price ceiling of $33.00, demand is Qd = 396 − 3P and supply is Qs = 43 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "297 units",
+      "109 units",
+      "406 units"
+    ],
+    "explanation": "At P = 33, Qd = 396 − 3 × 33 = 297, and Qs = 43 + 2 × 33 = 109. Shortage = 297 − 109 = 188 units.",
+    "numericAnswer": {
+      "value": 188,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-15",
+    "kind": "calculation",
+    "term": "194 units",
+    "definition": "At a binding price ceiling of $34.00, demand is Qd = 408 − 3P and supply is Qs = 44 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "306 units",
+      "112 units",
+      "418 units"
+    ],
+    "explanation": "At P = 34, Qd = 408 − 3 × 34 = 306, and Qs = 44 + 2 × 34 = 112. Shortage = 306 − 112 = 194 units.",
+    "numericAnswer": {
+      "value": 194,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-16",
+    "kind": "calculation",
+    "term": "200 units",
+    "definition": "At a binding price ceiling of $35.00, demand is Qd = 420 − 3P and supply is Qs = 45 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "315 units",
+      "115 units",
+      "430 units"
+    ],
+    "explanation": "At P = 35, Qd = 420 − 3 × 35 = 315, and Qs = 45 + 2 × 35 = 115. Shortage = 315 − 115 = 200 units.",
+    "numericAnswer": {
+      "value": 200,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-17",
+    "kind": "calculation",
+    "term": "206 units",
+    "definition": "At a binding price ceiling of $36.00, demand is Qd = 432 − 3P and supply is Qs = 46 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "324 units",
+      "118 units",
+      "442 units"
+    ],
+    "explanation": "At P = 36, Qd = 432 − 3 × 36 = 324, and Qs = 46 + 2 × 36 = 118. Shortage = 324 − 118 = 206 units.",
+    "numericAnswer": {
+      "value": 206,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-18",
+    "kind": "calculation",
+    "term": "212 units",
+    "definition": "At a binding price ceiling of $37.00, demand is Qd = 444 − 3P and supply is Qs = 47 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "333 units",
+      "121 units",
+      "454 units"
+    ],
+    "explanation": "At P = 37, Qd = 444 − 3 × 37 = 333, and Qs = 47 + 2 × 37 = 121. Shortage = 333 − 121 = 212 units.",
+    "numericAnswer": {
+      "value": 212,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-19",
+    "kind": "calculation",
+    "term": "218 units",
+    "definition": "At a binding price ceiling of $38.00, demand is Qd = 456 − 3P and supply is Qs = 48 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "342 units",
+      "124 units",
+      "466 units"
+    ],
+    "explanation": "At P = 38, Qd = 456 − 3 × 38 = 342, and Qs = 48 + 2 × 38 = 124. Shortage = 342 − 124 = 218 units.",
+    "numericAnswer": {
+      "value": 218,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-ceiling-shortage-20",
+    "kind": "calculation",
+    "term": "224 units",
+    "definition": "At a binding price ceiling of $39.00, demand is Qd = 468 − 3P and supply is Qs = 49 + 2P. What is the resulting shortage?",
+    "distractors": [
+      "351 units",
+      "127 units",
+      "478 units"
+    ],
+    "explanation": "At P = 39, Qd = 468 − 3 × 39 = 351, and Qs = 49 + 2 × 39 = 127. Shortage = 351 − 127 = 224 units.",
+    "numericAnswer": {
+      "value": 224,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-01",
+    "kind": "calculation",
+    "term": "50 units",
+    "definition": "A market has Qd = 220 − 2P and Qs = 20 + 3P. A binding price floor sets P at $50.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "120 units",
+      "170 units",
+      "290 units"
+    ],
+    "explanation": "At P = 50, quantity supplied is 20 + 3 × 50 = 170; quantity demanded is 220 − 2 × 50 = 120. Excess supply = 170 − 120 = 50 units.",
+    "numericAnswer": {
+      "value": 50,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-02",
+    "kind": "calculation",
+    "term": "52 units",
+    "definition": "A market has Qd = 229 − 2P and Qs = 21 + 3P. A binding price floor sets P at $52.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "125 units",
+      "177 units",
+      "302 units"
+    ],
+    "explanation": "At P = 52, quantity supplied is 21 + 3 × 52 = 177; quantity demanded is 229 − 2 × 52 = 125. Excess supply = 177 − 125 = 52 units.",
+    "numericAnswer": {
+      "value": 52,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-03",
+    "kind": "calculation",
+    "term": "54 units",
+    "definition": "A market has Qd = 238 − 2P and Qs = 22 + 3P. A binding price floor sets P at $54.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "130 units",
+      "184 units",
+      "314 units"
+    ],
+    "explanation": "At P = 54, quantity supplied is 22 + 3 × 54 = 184; quantity demanded is 238 − 2 × 54 = 130. Excess supply = 184 − 130 = 54 units.",
+    "numericAnswer": {
+      "value": 54,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-04",
+    "kind": "calculation",
+    "term": "56 units",
+    "definition": "A market has Qd = 247 − 2P and Qs = 23 + 3P. A binding price floor sets P at $56.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "135 units",
+      "191 units",
+      "326 units"
+    ],
+    "explanation": "At P = 56, quantity supplied is 23 + 3 × 56 = 191; quantity demanded is 247 − 2 × 56 = 135. Excess supply = 191 − 135 = 56 units.",
+    "numericAnswer": {
+      "value": 56,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-05",
+    "kind": "calculation",
+    "term": "58 units",
+    "definition": "A market has Qd = 256 − 2P and Qs = 24 + 3P. A binding price floor sets P at $58.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "140 units",
+      "198 units",
+      "338 units"
+    ],
+    "explanation": "At P = 58, quantity supplied is 24 + 3 × 58 = 198; quantity demanded is 256 − 2 × 58 = 140. Excess supply = 198 − 140 = 58 units.",
+    "numericAnswer": {
+      "value": 58,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-06",
+    "kind": "calculation",
+    "term": "60 units",
+    "definition": "A market has Qd = 265 − 2P and Qs = 25 + 3P. A binding price floor sets P at $60.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "145 units",
+      "205 units",
+      "350 units"
+    ],
+    "explanation": "At P = 60, quantity supplied is 25 + 3 × 60 = 205; quantity demanded is 265 − 2 × 60 = 145. Excess supply = 205 − 145 = 60 units.",
+    "numericAnswer": {
+      "value": 60,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-07",
+    "kind": "calculation",
+    "term": "62 units",
+    "definition": "A market has Qd = 274 − 2P and Qs = 26 + 3P. A binding price floor sets P at $62.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "150 units",
+      "212 units",
+      "362 units"
+    ],
+    "explanation": "At P = 62, quantity supplied is 26 + 3 × 62 = 212; quantity demanded is 274 − 2 × 62 = 150. Excess supply = 212 − 150 = 62 units.",
+    "numericAnswer": {
+      "value": 62,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-08",
+    "kind": "calculation",
+    "term": "64 units",
+    "definition": "A market has Qd = 283 − 2P and Qs = 27 + 3P. A binding price floor sets P at $64.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "155 units",
+      "219 units",
+      "374 units"
+    ],
+    "explanation": "At P = 64, quantity supplied is 27 + 3 × 64 = 219; quantity demanded is 283 − 2 × 64 = 155. Excess supply = 219 − 155 = 64 units.",
+    "numericAnswer": {
+      "value": 64,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-09",
+    "kind": "calculation",
+    "term": "66 units",
+    "definition": "A market has Qd = 292 − 2P and Qs = 28 + 3P. A binding price floor sets P at $66.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "160 units",
+      "226 units",
+      "386 units"
+    ],
+    "explanation": "At P = 66, quantity supplied is 28 + 3 × 66 = 226; quantity demanded is 292 − 2 × 66 = 160. Excess supply = 226 − 160 = 66 units.",
+    "numericAnswer": {
+      "value": 66,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-10",
+    "kind": "calculation",
+    "term": "68 units",
+    "definition": "A market has Qd = 301 − 2P and Qs = 29 + 3P. A binding price floor sets P at $68.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "165 units",
+      "233 units",
+      "398 units"
+    ],
+    "explanation": "At P = 68, quantity supplied is 29 + 3 × 68 = 233; quantity demanded is 301 − 2 × 68 = 165. Excess supply = 233 − 165 = 68 units.",
+    "numericAnswer": {
+      "value": 68,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-11",
+    "kind": "calculation",
+    "term": "70 units",
+    "definition": "A market has Qd = 310 − 2P and Qs = 30 + 3P. A binding price floor sets P at $70.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "170 units",
+      "240 units",
+      "410 units"
+    ],
+    "explanation": "At P = 70, quantity supplied is 30 + 3 × 70 = 240; quantity demanded is 310 − 2 × 70 = 170. Excess supply = 240 − 170 = 70 units.",
+    "numericAnswer": {
+      "value": 70,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-12",
+    "kind": "calculation",
+    "term": "72 units",
+    "definition": "A market has Qd = 319 − 2P and Qs = 31 + 3P. A binding price floor sets P at $72.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "175 units",
+      "247 units",
+      "422 units"
+    ],
+    "explanation": "At P = 72, quantity supplied is 31 + 3 × 72 = 247; quantity demanded is 319 − 2 × 72 = 175. Excess supply = 247 − 175 = 72 units.",
+    "numericAnswer": {
+      "value": 72,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-13",
+    "kind": "calculation",
+    "term": "74 units",
+    "definition": "A market has Qd = 328 − 2P and Qs = 32 + 3P. A binding price floor sets P at $74.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "180 units",
+      "254 units",
+      "434 units"
+    ],
+    "explanation": "At P = 74, quantity supplied is 32 + 3 × 74 = 254; quantity demanded is 328 − 2 × 74 = 180. Excess supply = 254 − 180 = 74 units.",
+    "numericAnswer": {
+      "value": 74,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-14",
+    "kind": "calculation",
+    "term": "76 units",
+    "definition": "A market has Qd = 337 − 2P and Qs = 33 + 3P. A binding price floor sets P at $76.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "185 units",
+      "261 units",
+      "446 units"
+    ],
+    "explanation": "At P = 76, quantity supplied is 33 + 3 × 76 = 261; quantity demanded is 337 − 2 × 76 = 185. Excess supply = 261 − 185 = 76 units.",
+    "numericAnswer": {
+      "value": 76,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-15",
+    "kind": "calculation",
+    "term": "78 units",
+    "definition": "A market has Qd = 346 − 2P and Qs = 34 + 3P. A binding price floor sets P at $78.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "190 units",
+      "268 units",
+      "458 units"
+    ],
+    "explanation": "At P = 78, quantity supplied is 34 + 3 × 78 = 268; quantity demanded is 346 − 2 × 78 = 190. Excess supply = 268 − 190 = 78 units.",
+    "numericAnswer": {
+      "value": 78,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-16",
+    "kind": "calculation",
+    "term": "80 units",
+    "definition": "A market has Qd = 355 − 2P and Qs = 35 + 3P. A binding price floor sets P at $80.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "195 units",
+      "275 units",
+      "470 units"
+    ],
+    "explanation": "At P = 80, quantity supplied is 35 + 3 × 80 = 275; quantity demanded is 355 − 2 × 80 = 195. Excess supply = 275 − 195 = 80 units.",
+    "numericAnswer": {
+      "value": 80,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-17",
+    "kind": "calculation",
+    "term": "82 units",
+    "definition": "A market has Qd = 364 − 2P and Qs = 36 + 3P. A binding price floor sets P at $82.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "200 units",
+      "282 units",
+      "482 units"
+    ],
+    "explanation": "At P = 82, quantity supplied is 36 + 3 × 82 = 282; quantity demanded is 364 − 2 × 82 = 200. Excess supply = 282 − 200 = 82 units.",
+    "numericAnswer": {
+      "value": 82,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-18",
+    "kind": "calculation",
+    "term": "84 units",
+    "definition": "A market has Qd = 373 − 2P and Qs = 37 + 3P. A binding price floor sets P at $84.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "205 units",
+      "289 units",
+      "494 units"
+    ],
+    "explanation": "At P = 84, quantity supplied is 37 + 3 × 84 = 289; quantity demanded is 373 − 2 × 84 = 205. Excess supply = 289 − 205 = 84 units.",
+    "numericAnswer": {
+      "value": 84,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-19",
+    "kind": "calculation",
+    "term": "86 units",
+    "definition": "A market has Qd = 382 − 2P and Qs = 38 + 3P. A binding price floor sets P at $86.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "210 units",
+      "296 units",
+      "506 units"
+    ],
+    "explanation": "At P = 86, quantity supplied is 38 + 3 × 86 = 296; quantity demanded is 382 − 2 × 86 = 210. Excess supply = 296 − 210 = 86 units.",
+    "numericAnswer": {
+      "value": 86,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-binding-floor-surplus-20",
+    "kind": "calculation",
+    "term": "88 units",
+    "definition": "A market has Qd = 391 − 2P and Qs = 39 + 3P. A binding price floor sets P at $88.00. Before any government purchases, what is the excess quantity supplied?",
+    "distractors": [
+      "215 units",
+      "303 units",
+      "518 units"
+    ],
+    "explanation": "At P = 88, quantity supplied is 39 + 3 × 88 = 303; quantity demanded is 391 − 2 × 88 = 215. Excess supply = 303 − 215 = 88 units.",
+    "numericAnswer": {
+      "value": 88,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-01",
+    "kind": "calculation",
+    "term": "0.71",
+    "definition": "When price rises from $12.00 to $15.00, quantity demanded falls from 220 to 188. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "0.58",
+      "1.42",
+      "10.67"
+    ],
+    "explanation": "Midpoint elasticity = |(188 − 220)/((188 + 220)/2)| ÷ |(15 − 12)/((15 + 12)/2)| = 0.71.",
+    "numericAnswer": {
+      "value": 0.71,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-02",
+    "kind": "calculation",
+    "term": "0.60",
+    "definition": "When price rises from $13.00 to $17.00, quantity demanded falls from 228 to 194. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "0.48",
+      "1.65",
+      "8.50"
+    ],
+    "explanation": "Midpoint elasticity = |(194 − 228)/((194 + 228)/2)| ÷ |(17 − 13)/((17 + 13)/2)| = 0.60.",
+    "numericAnswer": {
+      "value": 0.6,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-03",
+    "kind": "calculation",
+    "term": "0.54",
+    "definition": "When price rises from $14.00 to $19.00, quantity demanded falls from 236 to 200. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "0.43",
+      "1.84",
+      "7.20"
+    ],
+    "explanation": "Midpoint elasticity = |(200 − 236)/((200 + 236)/2)| ÷ |(19 − 14)/((19 + 14)/2)| = 0.54.",
+    "numericAnswer": {
+      "value": 0.54,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-04",
+    "kind": "calculation",
+    "term": "0.93",
+    "definition": "When price rises from $15.00 to $18.00, quantity demanded falls from 244 to 206. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "0.78",
+      "1.08",
+      "12.67"
+    ],
+    "explanation": "Midpoint elasticity = |(206 − 244)/((206 + 244)/2)| ÷ |(18 − 15)/((18 + 15)/2)| = 0.93.",
+    "numericAnswer": {
+      "value": 0.93,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-05",
+    "kind": "calculation",
+    "term": "0.78",
+    "definition": "When price rises from $16.00 to $20.00, quantity demanded falls from 252 to 212. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "0.63",
+      "1.29",
+      "10.00"
+    ],
+    "explanation": "Midpoint elasticity = |(212 − 252)/((212 + 252)/2)| ÷ |(20 − 16)/((20 + 16)/2)| = 0.78.",
+    "numericAnswer": {
+      "value": 0.78,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-06",
+    "kind": "calculation",
+    "term": "0.69",
+    "definition": "When price rises from $17.00 to $22.00, quantity demanded falls from 260 to 218. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "0.55",
+      "1.46",
+      "8.40"
+    ],
+    "explanation": "Midpoint elasticity = |(218 − 260)/((218 + 260)/2)| ÷ |(22 − 17)/((22 + 17)/2)| = 0.69.",
+    "numericAnswer": {
+      "value": 0.69,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-07",
+    "kind": "calculation",
+    "term": "1.16",
+    "definition": "When price rises from $18.00 to $21.00, quantity demanded falls from 268 to 224. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "0.99",
+      "0.86",
+      "14.67"
+    ],
+    "explanation": "Midpoint elasticity = |(224 − 268)/((224 + 268)/2)| ÷ |(21 − 18)/((21 + 18)/2)| = 1.16.",
+    "numericAnswer": {
+      "value": 1.16,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-08",
+    "kind": "calculation",
+    "term": "0.95",
+    "definition": "When price rises from $19.00 to $23.00, quantity demanded falls from 276 to 230. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "0.79",
+      "1.05",
+      "11.50"
+    ],
+    "explanation": "Midpoint elasticity = |(230 − 276)/((230 + 276)/2)| ÷ |(23 − 19)/((23 + 19)/2)| = 0.95.",
+    "numericAnswer": {
+      "value": 0.95,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-09",
+    "kind": "calculation",
+    "term": "0.83",
+    "definition": "When price rises from $20.00 to $25.00, quantity demanded falls from 284 to 236. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "0.68",
+      "1.20",
+      "9.60"
+    ],
+    "explanation": "Midpoint elasticity = |(236 − 284)/((236 + 284)/2)| ÷ |(25 − 20)/((25 + 20)/2)| = 0.83.",
+    "numericAnswer": {
+      "value": 0.83,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-10",
+    "kind": "calculation",
+    "term": "1.40",
+    "definition": "When price rises from $21.00 to $24.00, quantity demanded falls from 292 to 242. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "1.20",
+      "0.71",
+      "16.67"
+    ],
+    "explanation": "Midpoint elasticity = |(242 − 292)/((242 + 292)/2)| ÷ |(24 − 21)/((24 + 21)/2)| = 1.40.",
+    "numericAnswer": {
+      "value": 1.4,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-11",
+    "kind": "calculation",
+    "term": "1.14",
+    "definition": "When price rises from $22.00 to $26.00, quantity demanded falls from 300 to 248. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "0.95",
+      "0.88",
+      "13.00"
+    ],
+    "explanation": "Midpoint elasticity = |(248 − 300)/((248 + 300)/2)| ÷ |(26 − 22)/((26 + 22)/2)| = 1.14.",
+    "numericAnswer": {
+      "value": 1.14,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-12",
+    "kind": "calculation",
+    "term": "0.98",
+    "definition": "When price rises from $23.00 to $28.00, quantity demanded falls from 308 to 254. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "0.81",
+      "1.02",
+      "10.80"
+    ],
+    "explanation": "Midpoint elasticity = |(254 − 308)/((254 + 308)/2)| ÷ |(28 − 23)/((28 + 23)/2)| = 0.98.",
+    "numericAnswer": {
+      "value": 0.98,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-13",
+    "kind": "calculation",
+    "term": "1.65",
+    "definition": "When price rises from $24.00 to $27.00, quantity demanded falls from 316 to 260. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "1.42",
+      "0.61",
+      "18.67"
+    ],
+    "explanation": "Midpoint elasticity = |(260 − 316)/((260 + 316)/2)| ÷ |(27 − 24)/((27 + 24)/2)| = 1.65.",
+    "numericAnswer": {
+      "value": 1.65,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-14",
+    "kind": "calculation",
+    "term": "1.33",
+    "definition": "When price rises from $25.00 to $29.00, quantity demanded falls from 324 to 266. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "1.12",
+      "0.75",
+      "14.50"
+    ],
+    "explanation": "Midpoint elasticity = |(266 − 324)/((266 + 324)/2)| ÷ |(29 − 25)/((29 + 25)/2)| = 1.33.",
+    "numericAnswer": {
+      "value": 1.33,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-15",
+    "kind": "calculation",
+    "term": "1.13",
+    "definition": "When price rises from $26.00 to $31.00, quantity demanded falls from 332 to 272. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "0.94",
+      "0.88",
+      "12.00"
+    ],
+    "explanation": "Midpoint elasticity = |(272 − 332)/((272 + 332)/2)| ÷ |(31 − 26)/((31 + 26)/2)| = 1.13.",
+    "numericAnswer": {
+      "value": 1.13,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-16",
+    "kind": "calculation",
+    "term": "1.91",
+    "definition": "When price rises from $27.00 to $30.00, quantity demanded falls from 340 to 278. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "1.64",
+      "0.52",
+      "20.67"
+    ],
+    "explanation": "Midpoint elasticity = |(278 − 340)/((278 + 340)/2)| ÷ |(30 − 27)/((30 + 27)/2)| = 1.91.",
+    "numericAnswer": {
+      "value": 1.91,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-17",
+    "kind": "calculation",
+    "term": "1.52",
+    "definition": "When price rises from $28.00 to $32.00, quantity demanded falls from 348 to 284. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "1.29",
+      "0.66",
+      "16.00"
+    ],
+    "explanation": "Midpoint elasticity = |(284 − 348)/((284 + 348)/2)| ÷ |(32 − 28)/((32 + 28)/2)| = 1.52.",
+    "numericAnswer": {
+      "value": 1.52,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-18",
+    "kind": "calculation",
+    "term": "1.29",
+    "definition": "When price rises from $29.00 to $34.00, quantity demanded falls from 356 to 290. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "1.08",
+      "0.78",
+      "13.20"
+    ],
+    "explanation": "Midpoint elasticity = |(290 − 356)/((290 + 356)/2)| ÷ |(34 − 29)/((34 + 29)/2)| = 1.29.",
+    "numericAnswer": {
+      "value": 1.29,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-19",
+    "kind": "calculation",
+    "term": "2.16",
+    "definition": "When price rises from $30.00 to $33.00, quantity demanded falls from 364 to 296. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "1.87",
+      "0.46",
+      "22.67"
+    ],
+    "explanation": "Midpoint elasticity = |(296 − 364)/((296 + 364)/2)| ÷ |(33 − 30)/((33 + 30)/2)| = 2.16.",
+    "numericAnswer": {
+      "value": 2.16,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-midpoint-demand-elasticity-20",
+    "kind": "calculation",
+    "term": "1.71",
+    "definition": "When price rises from $31.00 to $35.00, quantity demanded falls from 372 to 302. What is the absolute price elasticity of demand using the midpoint method? Round to 2 decimal places.",
+    "distractors": [
+      "1.46",
+      "0.58",
+      "17.50"
+    ],
+    "explanation": "Midpoint elasticity = |(302 − 372)/((302 + 372)/2)| ÷ |(35 − 31)/((35 + 31)/2)| = 1.71.",
+    "numericAnswer": {
+      "value": 1.71,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-01",
+    "kind": "calculation",
+    "term": "1.60",
+    "definition": "Holding other factors fixed, a 5.0% increase in the price of rail travel is associated with a 8.0% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price?",
+    "distractors": [
+      "0.63",
+      "-1.60",
+      "3.00"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 8.0% ÷ 5.0% = 1.60. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.6,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-02",
+    "kind": "calculation",
+    "term": "1.61",
+    "definition": "Holding other factors fixed, a 5.4% increase in the price of rail travel is associated with a 8.7% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.62",
+      "-1.61",
+      "3.30"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 8.7% ÷ 5.4% = 1.61. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.61,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-03",
+    "kind": "calculation",
+    "term": "1.62",
+    "definition": "Holding other factors fixed, a 5.8% increase in the price of rail travel is associated with a 9.4% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.62",
+      "-1.62",
+      "3.60"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 9.4% ÷ 5.8% = 1.62. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.62,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-04",
+    "kind": "calculation",
+    "term": "1.63",
+    "definition": "Holding other factors fixed, a 6.2% increase in the price of rail travel is associated with a 10.1% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.61",
+      "-1.63",
+      "3.90"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 10.1% ÷ 6.2% = 1.63. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.63,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-05",
+    "kind": "calculation",
+    "term": "1.64",
+    "definition": "Holding other factors fixed, a 6.6% increase in the price of rail travel is associated with a 10.8% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.61",
+      "-1.64",
+      "4.20"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 10.8% ÷ 6.6% = 1.64. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.64,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-06",
+    "kind": "calculation",
+    "term": "1.64",
+    "definition": "Holding other factors fixed, a 7.0% increase in the price of rail travel is associated with a 11.5% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.61",
+      "-1.64",
+      "4.50"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 11.5% ÷ 7.0% = 1.64. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.64,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-07",
+    "kind": "calculation",
+    "term": "1.65",
+    "definition": "Holding other factors fixed, a 7.4% increase in the price of rail travel is associated with a 12.2% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.61",
+      "-1.65",
+      "4.80"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 12.2% ÷ 7.4% = 1.65. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.65,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-08",
+    "kind": "calculation",
+    "term": "1.65",
+    "definition": "Holding other factors fixed, a 7.8% increase in the price of rail travel is associated with a 12.9% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.60",
+      "-1.65",
+      "5.10"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 12.9% ÷ 7.8% = 1.65. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.65,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-09",
+    "kind": "calculation",
+    "term": "1.66",
+    "definition": "Holding other factors fixed, a 8.2% increase in the price of rail travel is associated with a 13.6% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.60",
+      "-1.66",
+      "5.40"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 13.6% ÷ 8.2% = 1.66. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.66,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-10",
+    "kind": "calculation",
+    "term": "1.66",
+    "definition": "Holding other factors fixed, a 8.6% increase in the price of rail travel is associated with a 14.3% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.60",
+      "-1.66",
+      "5.70"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 14.3% ÷ 8.6% = 1.66. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.66,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-11",
+    "kind": "calculation",
+    "term": "1.67",
+    "definition": "Holding other factors fixed, a 9.0% increase in the price of rail travel is associated with a 15.0% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.60",
+      "-1.67",
+      "6.00"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 15.0% ÷ 9.0% = 1.67. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.67,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-12",
+    "kind": "calculation",
+    "term": "1.67",
+    "definition": "Holding other factors fixed, a 9.4% increase in the price of rail travel is associated with a 15.7% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.60",
+      "-1.67",
+      "6.30"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 15.7% ÷ 9.4% = 1.67. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.67,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-13",
+    "kind": "calculation",
+    "term": "1.67",
+    "definition": "Holding other factors fixed, a 9.8% increase in the price of rail travel is associated with a 16.4% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.60",
+      "-1.67",
+      "6.60"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 16.4% ÷ 9.8% = 1.67. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.67,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-14",
+    "kind": "calculation",
+    "term": "1.68",
+    "definition": "Holding other factors fixed, a 10.2% increase in the price of rail travel is associated with a 17.1% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.60",
+      "-1.68",
+      "6.90"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 17.1% ÷ 10.2% = 1.68. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.68,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-15",
+    "kind": "calculation",
+    "term": "1.68",
+    "definition": "Holding other factors fixed, a 10.6% increase in the price of rail travel is associated with a 17.8% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.60",
+      "-1.68",
+      "7.20"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 17.8% ÷ 10.6% = 1.68. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.68,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-16",
+    "kind": "calculation",
+    "term": "1.68",
+    "definition": "Holding other factors fixed, a 11.0% increase in the price of rail travel is associated with a 18.5% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.59",
+      "-1.68",
+      "7.50"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 18.5% ÷ 11.0% = 1.68. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.68,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-17",
+    "kind": "calculation",
+    "term": "1.68",
+    "definition": "Holding other factors fixed, a 11.4% increase in the price of rail travel is associated with a 19.2% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.59",
+      "-1.68",
+      "7.80"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 19.2% ÷ 11.4% = 1.68. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.68,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-18",
+    "kind": "calculation",
+    "term": "1.69",
+    "definition": "Holding other factors fixed, a 11.8% increase in the price of rail travel is associated with a 19.9% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.59",
+      "-1.69",
+      "8.10"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 19.9% ÷ 11.8% = 1.69. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.69,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-19",
+    "kind": "calculation",
+    "term": "1.69",
+    "definition": "Holding other factors fixed, a 12.2% increase in the price of rail travel is associated with a 20.6% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.59",
+      "-1.69",
+      "8.40"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 20.6% ÷ 12.2% = 1.69. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.69,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-cross-price-elasticity-20",
+    "kind": "calculation",
+    "term": "1.69",
+    "definition": "Holding other factors fixed, a 12.6% increase in the price of rail travel is associated with a 21.3% increase in bus trips demanded. Using the supplied percentage changes, what is bus demand's cross-price elasticity with respect to the rail price? Round to 2 decimal places.",
+    "distractors": [
+      "0.59",
+      "-1.69",
+      "8.70"
+    ],
+    "explanation": "Cross-price elasticity = percentage change in bus quantity ÷ percentage change in rail price = 21.3% ÷ 12.6% = 1.69. Its positive sign indicates substitutes in this example.",
+    "numericAnswer": {
+      "value": 1.69,
+      "unit": ""
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-01",
+    "kind": "calculation",
+    "term": "407.20 units",
+    "definition": "Initial demand is 400 units. Income rises 3.0% and the income elasticity of demand is 0.60. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand?",
+    "distractors": [
+      "412.00 units",
+      "7.20 units",
+      "420.00 units"
+    ],
+    "explanation": "%ΔQ = 0.60 × 3% = 1.80%. Forecast Q = 400 × [1 + (0.60 × 3/100)] = 407.20 units.",
+    "numericAnswer": {
+      "value": 407.2,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-02",
+    "kind": "calculation",
+    "term": "427.84 units",
+    "definition": "Initial demand is 417 units. Income rises 4.0% and the income elasticity of demand is 0.65. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand? Round to 2 decimal places.",
+    "distractors": [
+      "433.68 units",
+      "10.84 units",
+      "442.66 units"
+    ],
+    "explanation": "%ΔQ = 0.65 × 4% = 2.60%. Forecast Q = 417 × [1 + (0.65 × 4/100)] = 427.84 units.",
+    "numericAnswer": {
+      "value": 427.84,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-03",
+    "kind": "calculation",
+    "term": "449.19 units",
+    "definition": "Initial demand is 434 units. Income rises 5.0% and the income elasticity of demand is 0.70. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand?",
+    "distractors": [
+      "455.70 units",
+      "15.19 units",
+      "465.00 units"
+    ],
+    "explanation": "%ΔQ = 0.70 × 5% = 3.50%. Forecast Q = 434 × [1 + (0.70 × 5/100)] = 449.19 units.",
+    "numericAnswer": {
+      "value": 449.19,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-04",
+    "kind": "calculation",
+    "term": "471.30 units",
+    "definition": "Initial demand is 451 units. Income rises 6.0% and the income elasticity of demand is 0.75. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand? Round to 2 decimal places.",
+    "distractors": [
+      "478.06 units",
+      "20.30 units",
+      "487.08 units"
+    ],
+    "explanation": "%ΔQ = 0.75 × 6% = 4.50%. Forecast Q = 451 × [1 + (0.75 × 6/100)] = 471.30 units.",
+    "numericAnswer": {
+      "value": 471.3,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-05",
+    "kind": "calculation",
+    "term": "494.21 units",
+    "definition": "Initial demand is 468 units. Income rises 7.0% and the income elasticity of demand is 0.80. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand? Round to 2 decimal places.",
+    "distractors": [
+      "500.76 units",
+      "26.21 units",
+      "508.95 units"
+    ],
+    "explanation": "%ΔQ = 0.80 × 7% = 5.60%. Forecast Q = 468 × [1 + (0.80 × 7/100)] = 494.21 units.",
+    "numericAnswer": {
+      "value": 494.21,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-06",
+    "kind": "calculation",
+    "term": "497.37 units",
+    "definition": "Initial demand is 485 units. Income rises 3.0% and the income elasticity of demand is 0.85. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand? Round to 2 decimal places.",
+    "distractors": [
+      "499.55 units",
+      "12.37 units",
+      "502.12 units"
+    ],
+    "explanation": "%ΔQ = 0.85 × 3% = 2.55%. Forecast Q = 485 × [1 + (0.85 × 3/100)] = 497.37 units.",
+    "numericAnswer": {
+      "value": 497.37,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-07",
+    "kind": "calculation",
+    "term": "520.07 units",
+    "definition": "Initial demand is 502 units. Income rises 4.0% and the income elasticity of demand is 0.90. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand? Round to 2 decimal places.",
+    "distractors": [
+      "522.08 units",
+      "18.07 units",
+      "524.31 units"
+    ],
+    "explanation": "%ΔQ = 0.90 × 4% = 3.60%. Forecast Q = 502 × [1 + (0.90 × 4/100)] = 520.07 units.",
+    "numericAnswer": {
+      "value": 520.07,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-08",
+    "kind": "calculation",
+    "term": "543.65 units",
+    "definition": "Initial demand is 519 units. Income rises 5.0% and the income elasticity of demand is 0.95. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand? Round to 2 decimal places.",
+    "distractors": [
+      "544.95 units",
+      "24.65 units",
+      "546.32 units"
+    ],
+    "explanation": "%ΔQ = 0.95 × 5% = 4.75%. Forecast Q = 519 × [1 + (0.95 × 5/100)] = 543.65 units.",
+    "numericAnswer": {
+      "value": 543.65,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-09",
+    "kind": "calculation",
+    "term": "568.16 units",
+    "definition": "Initial demand is 536 units. Income rises 6.0% and the income elasticity of demand is 1.00. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand?",
+    "distractors": [
+      "32.16 units",
+      "503.84 units",
+      "3,752.00 units"
+    ],
+    "explanation": "%ΔQ = 1.00 × 6% = 6.00%. Forecast Q = 536 × [1 + (1.00 × 6/100)] = 568.16 units.",
+    "numericAnswer": {
+      "value": 568.16,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-10",
+    "kind": "calculation",
+    "term": "593.65 units",
+    "definition": "Initial demand is 553 units. Income rises 7.0% and the income elasticity of demand is 1.05. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand? Round to 2 decimal places.",
+    "distractors": [
+      "591.71 units",
+      "40.65 units",
+      "589.87 units"
+    ],
+    "explanation": "%ΔQ = 1.05 × 7% = 7.35%. Forecast Q = 553 × [1 + (1.05 × 7/100)] = 593.65 units.",
+    "numericAnswer": {
+      "value": 593.65,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-11",
+    "kind": "calculation",
+    "term": "588.81 units",
+    "definition": "Initial demand is 570 units. Income rises 3.0% and the income elasticity of demand is 1.10. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand?",
+    "distractors": [
+      "587.10 units",
+      "18.81 units",
+      "585.55 units"
+    ],
+    "explanation": "%ΔQ = 1.10 × 3% = 3.30%. Forecast Q = 570 × [1 + (1.10 × 3/100)] = 588.81 units.",
+    "numericAnswer": {
+      "value": 588.81,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-12",
+    "kind": "calculation",
+    "term": "614.00 units",
+    "definition": "Initial demand is 587 units. Income rises 4.0% and the income elasticity of demand is 1.15. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand? Round to 2 decimal places.",
+    "distractors": [
+      "610.48 units",
+      "27.00 units",
+      "607.42 units"
+    ],
+    "explanation": "%ΔQ = 1.15 × 4% = 4.60%. Forecast Q = 587 × [1 + (1.15 × 4/100)] = 614.00 units.",
+    "numericAnswer": {
+      "value": 614,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-13",
+    "kind": "calculation",
+    "term": "640.24 units",
+    "definition": "Initial demand is 604 units. Income rises 5.0% and the income elasticity of demand is 1.20. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand?",
+    "distractors": [
+      "634.20 units",
+      "36.24 units",
+      "629.17 units"
+    ],
+    "explanation": "%ΔQ = 1.20 × 5% = 6.00%. Forecast Q = 604 × [1 + (1.20 × 5/100)] = 640.24 units.",
+    "numericAnswer": {
+      "value": 640.24,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-14",
+    "kind": "calculation",
+    "term": "667.58 units",
+    "definition": "Initial demand is 621 units. Income rises 6.0% and the income elasticity of demand is 1.25. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand? Round to 2 decimal places.",
+    "distractors": [
+      "658.26 units",
+      "46.58 units",
+      "650.81 units"
+    ],
+    "explanation": "%ΔQ = 1.25 × 6% = 7.50%. Forecast Q = 621 × [1 + (1.25 × 6/100)] = 667.58 units.",
+    "numericAnswer": {
+      "value": 667.58,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-15",
+    "kind": "calculation",
+    "term": "696.06 units",
+    "definition": "Initial demand is 638 units. Income rises 7.0% and the income elasticity of demand is 1.30. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand? Round to 2 decimal places.",
+    "distractors": [
+      "682.66 units",
+      "58.06 units",
+      "672.35 units"
+    ],
+    "explanation": "%ΔQ = 1.30 × 7% = 9.10%. Forecast Q = 638 × [1 + (1.30 × 7/100)] = 696.06 units.",
+    "numericAnswer": {
+      "value": 696.06,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-16",
+    "kind": "calculation",
+    "term": "681.53 units",
+    "definition": "Initial demand is 655 units. Income rises 3.0% and the income elasticity of demand is 1.35. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand? Round to 2 decimal places.",
+    "distractors": [
+      "674.65 units",
+      "26.53 units",
+      "669.56 units"
+    ],
+    "explanation": "%ΔQ = 1.35 × 3% = 4.05%. Forecast Q = 655 × [1 + (1.35 × 3/100)] = 681.53 units.",
+    "numericAnswer": {
+      "value": 681.53,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-17",
+    "kind": "calculation",
+    "term": "709.63 units",
+    "definition": "Initial demand is 672 units. Income rises 4.0% and the income elasticity of demand is 1.40. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand? Round to 2 decimal places.",
+    "distractors": [
+      "698.88 units",
+      "37.63 units",
+      "691.20 units"
+    ],
+    "explanation": "%ΔQ = 1.40 × 4% = 5.60%. Forecast Q = 672 × [1 + (1.40 × 4/100)] = 709.63 units.",
+    "numericAnswer": {
+      "value": 709.63,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-18",
+    "kind": "calculation",
+    "term": "738.95 units",
+    "definition": "Initial demand is 689 units. Income rises 5.0% and the income elasticity of demand is 1.45. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand? Round to 2 decimal places.",
+    "distractors": [
+      "723.45 units",
+      "49.95 units",
+      "712.76 units"
+    ],
+    "explanation": "%ΔQ = 1.45 × 5% = 7.25%. Forecast Q = 689 × [1 + (1.45 × 5/100)] = 738.95 units.",
+    "numericAnswer": {
+      "value": 738.95,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-19",
+    "kind": "calculation",
+    "term": "769.54 units",
+    "definition": "Initial demand is 706 units. Income rises 6.0% and the income elasticity of demand is 1.50. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand?",
+    "distractors": [
+      "748.36 units",
+      "63.54 units",
+      "734.24 units"
+    ],
+    "explanation": "%ΔQ = 1.50 × 6% = 9.00%. Forecast Q = 706 × [1 + (1.50 × 6/100)] = 769.54 units.",
+    "numericAnswer": {
+      "value": 769.54,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-income-elasticity-forecast-20",
+    "kind": "calculation",
+    "term": "801.45 units",
+    "definition": "Initial demand is 723 units. Income rises 7.0% and the income elasticity of demand is 1.55. Use the approximation %ΔQ = income elasticity × %Δincome, holding other factors fixed. What is forecast demand? Round to 2 decimal places.",
+    "distractors": [
+      "773.61 units",
+      "78.45 units",
+      "755.65 units"
+    ],
+    "explanation": "%ΔQ = 1.55 × 7% = 10.85%. Forecast Q = 723 × [1 + (1.55 × 7/100)] = 801.45 units.",
+    "numericAnswer": {
+      "value": 801.45,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-01",
+    "kind": "calculation",
+    "term": "$1,600.00",
+    "definition": "Inverse demand is P = 65 − 0.5Q. Consumers can buy any desired quantity at a market price of $25.00. What is total consumer surplus?",
+    "distractors": [
+      "$3,200.00",
+      "$2,000.00",
+      "$2,600.00"
+    ],
+    "explanation": "Demand at the market price is Q = (65 − 25)/0.5 = 80.00. The surplus triangle is ½ × (65 − 25) × [(65 − 25)/0.5] = $1,600.00.",
+    "numericAnswer": {
+      "value": 1600,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-02",
+    "kind": "calculation",
+    "term": "$1,470.00",
+    "definition": "Inverse demand is P = 68 − 0.6Q. Consumers can buy any desired quantity at a market price of $26.00. What is total consumer surplus?",
+    "distractors": [
+      "$2,940.00",
+      "$1,820.00",
+      "$2,380.00"
+    ],
+    "explanation": "Demand at the market price is Q = (68 − 26)/0.6 = 70.00. The surplus triangle is ½ × (68 − 26) × [(68 − 26)/0.6] = $1,470.00.",
+    "numericAnswer": {
+      "value": 1470,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-03",
+    "kind": "calculation",
+    "term": "$1,382.86",
+    "definition": "Inverse demand is P = 71 − 0.7Q. Consumers can buy any desired quantity at a market price of $27.00. What is total consumer surplus? Round to the nearest cent.",
+    "distractors": [
+      "$2,765.71",
+      "$1,697.14",
+      "$2,231.43"
+    ],
+    "explanation": "Demand at the market price is Q = (71 − 27)/0.7 = 62.86. The surplus triangle is ½ × (71 − 27) × [(71 − 27)/0.7] = $1,382.86.",
+    "numericAnswer": {
+      "value": 1382.86,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-04",
+    "kind": "calculation",
+    "term": "$2,116.00",
+    "definition": "Inverse demand is P = 74 − 0.5Q. Consumers can buy any desired quantity at a market price of $28.00. What is total consumer surplus?",
+    "distractors": [
+      "$4,232.00",
+      "$2,576.00",
+      "$3,404.00"
+    ],
+    "explanation": "Demand at the market price is Q = (74 − 28)/0.5 = 92.00. The surplus triangle is ½ × (74 − 28) × [(74 − 28)/0.5] = $2,116.00.",
+    "numericAnswer": {
+      "value": 2116,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-05",
+    "kind": "calculation",
+    "term": "$1,920.00",
+    "definition": "Inverse demand is P = 77 − 0.6Q. Consumers can buy any desired quantity at a market price of $29.00. What is total consumer surplus?",
+    "distractors": [
+      "$3,840.00",
+      "$2,320.00",
+      "$3,080.00"
+    ],
+    "explanation": "Demand at the market price is Q = (77 − 29)/0.6 = 80.00. The surplus triangle is ½ × (77 − 29) × [(77 − 29)/0.6] = $1,920.00.",
+    "numericAnswer": {
+      "value": 1920,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-06",
+    "kind": "calculation",
+    "term": "$1,785.71",
+    "definition": "Inverse demand is P = 80 − 0.7Q. Consumers can buy any desired quantity at a market price of $30.00. What is total consumer surplus? Round to the nearest cent.",
+    "distractors": [
+      "$3,571.43",
+      "$2,142.86",
+      "$2,857.14"
+    ],
+    "explanation": "Demand at the market price is Q = (80 − 30)/0.7 = 71.43. The surplus triangle is ½ × (80 − 30) × [(80 − 30)/0.7] = $1,785.71.",
+    "numericAnswer": {
+      "value": 1785.71,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-07",
+    "kind": "calculation",
+    "term": "$2,704.00",
+    "definition": "Inverse demand is P = 83 − 0.5Q. Consumers can buy any desired quantity at a market price of $31.00. What is total consumer surplus?",
+    "distractors": [
+      "$5,408.00",
+      "$3,224.00",
+      "$4,316.00"
+    ],
+    "explanation": "Demand at the market price is Q = (83 − 31)/0.5 = 104.00. The surplus triangle is ½ × (83 − 31) × [(83 − 31)/0.5] = $2,704.00.",
+    "numericAnswer": {
+      "value": 2704,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-08",
+    "kind": "calculation",
+    "term": "$2,430.00",
+    "definition": "Inverse demand is P = 86 − 0.6Q. Consumers can buy any desired quantity at a market price of $32.00. What is total consumer surplus?",
+    "distractors": [
+      "$4,860.00",
+      "$2,880.00",
+      "$3,870.00"
+    ],
+    "explanation": "Demand at the market price is Q = (86 − 32)/0.6 = 90.00. The surplus triangle is ½ × (86 − 32) × [(86 − 32)/0.6] = $2,430.00.",
+    "numericAnswer": {
+      "value": 2430,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-09",
+    "kind": "calculation",
+    "term": "$2,240.00",
+    "definition": "Inverse demand is P = 89 − 0.7Q. Consumers can buy any desired quantity at a market price of $33.00. What is total consumer surplus?",
+    "distractors": [
+      "$4,480.00",
+      "$2,640.00",
+      "$3,560.00"
+    ],
+    "explanation": "Demand at the market price is Q = (89 − 33)/0.7 = 80.00. The surplus triangle is ½ × (89 − 33) × [(89 − 33)/0.7] = $2,240.00.",
+    "numericAnswer": {
+      "value": 2240,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-10",
+    "kind": "calculation",
+    "term": "$3,364.00",
+    "definition": "Inverse demand is P = 92 − 0.5Q. Consumers can buy any desired quantity at a market price of $34.00. What is total consumer surplus?",
+    "distractors": [
+      "$6,728.00",
+      "$3,944.00",
+      "$5,336.00"
+    ],
+    "explanation": "Demand at the market price is Q = (92 − 34)/0.5 = 116.00. The surplus triangle is ½ × (92 − 34) × [(92 − 34)/0.5] = $3,364.00.",
+    "numericAnswer": {
+      "value": 3364,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-11",
+    "kind": "calculation",
+    "term": "$3,000.00",
+    "definition": "Inverse demand is P = 95 − 0.6Q. Consumers can buy any desired quantity at a market price of $35.00. What is total consumer surplus?",
+    "distractors": [
+      "$6,000.00",
+      "$3,500.00",
+      "$4,750.00"
+    ],
+    "explanation": "Demand at the market price is Q = (95 − 35)/0.6 = 100.00. The surplus triangle is ½ × (95 − 35) × [(95 − 35)/0.6] = $3,000.00.",
+    "numericAnswer": {
+      "value": 3000,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-12",
+    "kind": "calculation",
+    "term": "$2,745.71",
+    "definition": "Inverse demand is P = 98 − 0.7Q. Consumers can buy any desired quantity at a market price of $36.00. What is total consumer surplus? Round to the nearest cent.",
+    "distractors": [
+      "$5,491.43",
+      "$3,188.57",
+      "$4,340.00"
+    ],
+    "explanation": "Demand at the market price is Q = (98 − 36)/0.7 = 88.57. The surplus triangle is ½ × (98 − 36) × [(98 − 36)/0.7] = $2,745.71.",
+    "numericAnswer": {
+      "value": 2745.71,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-13",
+    "kind": "calculation",
+    "term": "$4,096.00",
+    "definition": "Inverse demand is P = 101 − 0.5Q. Consumers can buy any desired quantity at a market price of $37.00. What is total consumer surplus?",
+    "distractors": [
+      "$8,192.00",
+      "$4,736.00",
+      "$6,464.00"
+    ],
+    "explanation": "Demand at the market price is Q = (101 − 37)/0.5 = 128.00. The surplus triangle is ½ × (101 − 37) × [(101 − 37)/0.5] = $4,096.00.",
+    "numericAnswer": {
+      "value": 4096,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-14",
+    "kind": "calculation",
+    "term": "$3,630.00",
+    "definition": "Inverse demand is P = 104 − 0.6Q. Consumers can buy any desired quantity at a market price of $38.00. What is total consumer surplus?",
+    "distractors": [
+      "$7,260.00",
+      "$4,180.00",
+      "$5,720.00"
+    ],
+    "explanation": "Demand at the market price is Q = (104 − 38)/0.6 = 110.00. The surplus triangle is ½ × (104 − 38) × [(104 − 38)/0.6] = $3,630.00.",
+    "numericAnswer": {
+      "value": 3630,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-15",
+    "kind": "calculation",
+    "term": "$3,302.86",
+    "definition": "Inverse demand is P = 107 − 0.7Q. Consumers can buy any desired quantity at a market price of $39.00. What is total consumer surplus? Round to the nearest cent.",
+    "distractors": [
+      "$6,605.71",
+      "$3,788.57",
+      "$5,197.14"
+    ],
+    "explanation": "Demand at the market price is Q = (107 − 39)/0.7 = 97.14. The surplus triangle is ½ × (107 − 39) × [(107 − 39)/0.7] = $3,302.86.",
+    "numericAnswer": {
+      "value": 3302.86,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-16",
+    "kind": "calculation",
+    "term": "$4,900.00",
+    "definition": "Inverse demand is P = 110 − 0.5Q. Consumers can buy any desired quantity at a market price of $40.00. What is total consumer surplus?",
+    "distractors": [
+      "$9,800.00",
+      "$5,600.00",
+      "$7,700.00"
+    ],
+    "explanation": "Demand at the market price is Q = (110 − 40)/0.5 = 140.00. The surplus triangle is ½ × (110 − 40) × [(110 − 40)/0.5] = $4,900.00.",
+    "numericAnswer": {
+      "value": 4900,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-17",
+    "kind": "calculation",
+    "term": "$4,320.00",
+    "definition": "Inverse demand is P = 113 − 0.6Q. Consumers can buy any desired quantity at a market price of $41.00. What is total consumer surplus?",
+    "distractors": [
+      "$8,640.00",
+      "$4,920.00",
+      "$6,780.00"
+    ],
+    "explanation": "Demand at the market price is Q = (113 − 41)/0.6 = 120.00. The surplus triangle is ½ × (113 − 41) × [(113 − 41)/0.6] = $4,320.00.",
+    "numericAnswer": {
+      "value": 4320,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-18",
+    "kind": "calculation",
+    "term": "$3,911.43",
+    "definition": "Inverse demand is P = 116 − 0.7Q. Consumers can buy any desired quantity at a market price of $42.00. What is total consumer surplus? Round to the nearest cent.",
+    "distractors": [
+      "$7,822.86",
+      "$4,440.00",
+      "$6,131.43"
+    ],
+    "explanation": "Demand at the market price is Q = (116 − 42)/0.7 = 105.71. The surplus triangle is ½ × (116 − 42) × [(116 − 42)/0.7] = $3,911.43.",
+    "numericAnswer": {
+      "value": 3911.43,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-19",
+    "kind": "calculation",
+    "term": "$5,776.00",
+    "definition": "Inverse demand is P = 119 − 0.5Q. Consumers can buy any desired quantity at a market price of $43.00. What is total consumer surplus?",
+    "distractors": [
+      "$11,552.00",
+      "$6,536.00",
+      "$9,044.00"
+    ],
+    "explanation": "Demand at the market price is Q = (119 − 43)/0.5 = 152.00. The surplus triangle is ½ × (119 − 43) × [(119 − 43)/0.5] = $5,776.00.",
+    "numericAnswer": {
+      "value": 5776,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-20",
+    "kind": "calculation",
+    "term": "$5,070.00",
+    "definition": "Inverse demand is P = 122 − 0.6Q. Consumers can buy any desired quantity at a market price of $44.00. What is total consumer surplus?",
+    "distractors": [
+      "$10,140.00",
+      "$5,720.00",
+      "$7,930.00"
+    ],
+    "explanation": "Demand at the market price is Q = (122 − 44)/0.6 = 130.00. The surplus triangle is ½ × (122 − 44) × [(122 − 44)/0.6] = $5,070.00.",
+    "numericAnswer": {
+      "value": 5070,
+      "unit": "USD"
+    }
+  }
+]

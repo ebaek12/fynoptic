@@ -1,0 +1,2562 @@
+[
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-01",
+    "kind": "calculation",
+    "term": "5.62%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 84,000 people are employed, 5,000 are jobless and actively seeking available work, and 33,000 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.10%",
+      "5.95%",
+      "27.05%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 5,000/(84,000 + 5,000) × 100 = 5.62%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-02",
+    "kind": "calculation",
+    "term": "5.65%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 86,300 people are employed, 5,170 are jobless and actively seeking available work, and 34,100 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.12%",
+      "5.99%",
+      "27.16%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 5,170/(86,300 + 5,170) × 100 = 5.65%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.65,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-03",
+    "kind": "calculation",
+    "term": "5.68%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 88,600 people are employed, 5,340 are jobless and actively seeking available work, and 35,200 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.14%",
+      "6.03%",
+      "27.26%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 5,340/(88,600 + 5,340) × 100 = 5.68%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.68,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-04",
+    "kind": "calculation",
+    "term": "5.72%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 90,900 people are employed, 5,510 are jobless and actively seeking available work, and 36,300 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.15%",
+      "6.06%",
+      "27.35%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 5,510/(90,900 + 5,510) × 100 = 5.72%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.72,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-05",
+    "kind": "calculation",
+    "term": "5.74%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 93,200 people are employed, 5,680 are jobless and actively seeking available work, and 37,400 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.17%",
+      "6.09%",
+      "27.44%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 5,680/(93,200 + 5,680) × 100 = 5.74%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.74,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-06",
+    "kind": "calculation",
+    "term": "5.77%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 95,500 people are employed, 5,850 are jobless and actively seeking available work, and 38,500 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.18%",
+      "6.13%",
+      "27.53%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 5,850/(95,500 + 5,850) × 100 = 5.77%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.77,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-07",
+    "kind": "calculation",
+    "term": "5.80%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 97,800 people are employed, 6,020 are jobless and actively seeking available work, and 39,600 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.20%",
+      "6.16%",
+      "27.61%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 6,020/(97,800 + 6,020) × 100 = 5.80%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.8,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-08",
+    "kind": "calculation",
+    "term": "5.82%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 100,100 people are employed, 6,190 are jobless and actively seeking available work, and 40,700 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.21%",
+      "6.18%",
+      "27.69%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 6,190/(100,100 + 6,190) × 100 = 5.82%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.82,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-09",
+    "kind": "calculation",
+    "term": "5.85%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 102,400 people are employed, 6,360 are jobless and actively seeking available work, and 41,800 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.22%",
+      "6.21%",
+      "27.76%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 6,360/(102,400 + 6,360) × 100 = 5.85%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.85,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-10",
+    "kind": "calculation",
+    "term": "5.87%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 104,700 people are employed, 6,530 are jobless and actively seeking available work, and 42,900 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.24%",
+      "6.24%",
+      "27.83%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 6,530/(104,700 + 6,530) × 100 = 5.87%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.87,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-11",
+    "kind": "calculation",
+    "term": "5.89%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 107,000 people are employed, 6,700 are jobless and actively seeking available work, and 44,000 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.25%",
+      "6.26%",
+      "27.90%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 6,700/(107,000 + 6,700) × 100 = 5.89%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.89,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-12",
+    "kind": "calculation",
+    "term": "5.91%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 109,300 people are employed, 6,870 are jobless and actively seeking available work, and 45,100 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.26%",
+      "6.29%",
+      "27.97%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 6,870/(109,300 + 6,870) × 100 = 5.91%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.91,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-13",
+    "kind": "calculation",
+    "term": "5.93%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 111,600 people are employed, 7,040 are jobless and actively seeking available work, and 46,200 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.27%",
+      "6.31%",
+      "28.03%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 7,040/(111,600 + 7,040) × 100 = 5.93%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.93,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-14",
+    "kind": "calculation",
+    "term": "5.95%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 113,900 people are employed, 7,210 are jobless and actively seeking available work, and 47,300 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.28%",
+      "6.33%",
+      "28.09%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 7,210/(113,900 + 7,210) × 100 = 5.95%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.95,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-15",
+    "kind": "calculation",
+    "term": "5.97%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 116,200 people are employed, 7,380 are jobless and actively seeking available work, and 48,400 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.29%",
+      "6.35%",
+      "28.14%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 7,380/(116,200 + 7,380) × 100 = 5.97%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.97,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-16",
+    "kind": "calculation",
+    "term": "5.99%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 118,500 people are employed, 7,550 are jobless and actively seeking available work, and 49,500 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.30%",
+      "6.37%",
+      "28.20%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 7,550/(118,500 + 7,550) × 100 = 5.99%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 5.99,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-17",
+    "kind": "calculation",
+    "term": "6.01%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 120,800 people are employed, 7,720 are jobless and actively seeking available work, and 50,600 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.31%",
+      "6.39%",
+      "28.25%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 7,720/(120,800 + 7,720) × 100 = 6.01%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 6.01,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-18",
+    "kind": "calculation",
+    "term": "6.02%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 123,100 people are employed, 7,890 are jobless and actively seeking available work, and 51,700 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.32%",
+      "6.41%",
+      "28.30%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 7,890/(123,100 + 7,890) × 100 = 6.02%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 6.02,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-19",
+    "kind": "calculation",
+    "term": "6.04%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 125,400 people are employed, 8,060 are jobless and actively seeking available work, and 52,800 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.33%",
+      "6.43%",
+      "28.35%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 8,060/(125,400 + 8,060) × 100 = 6.04%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 6.04,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-20",
+    "kind": "calculation",
+    "term": "6.05%",
+    "definition": "In a hypothetical civilian noninstitutional population age 16+, 127,700 people are employed, 8,230 are jobless and actively seeking available work, and 53,900 are outside the labor force. What is the unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "4.34%",
+      "6.44%",
+      "28.39%"
+    ],
+    "explanation": "The labor force includes employed plus unemployed, so the rate is 8,230/(127,700 + 8,230) × 100 = 6.05%. People outside the labor force do not enter this denominator.",
+    "numericAnswer": {
+      "value": 6.05,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-01",
+    "kind": "calculation",
+    "term": "65.33%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 150,000. It has 92,000 employed people and 6,000 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.33%",
+      "6.12%",
+      "34.67%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (92,000 + 6,000)/150,000 × 100 = 65.33%.",
+    "numericAnswer": {
+      "value": 65.33,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-02",
+    "kind": "calculation",
+    "term": "65.34%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 154,700. It has 94,900 employed people and 6,180 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.34%",
+      "6.11%",
+      "34.66%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (94,900 + 6,180)/154,700 × 100 = 65.34%.",
+    "numericAnswer": {
+      "value": 65.34,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-03",
+    "kind": "calculation",
+    "term": "65.35%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 159,400. It has 97,800 employed people and 6,360 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.36%",
+      "6.11%",
+      "34.65%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (97,800 + 6,360)/159,400 × 100 = 65.35%.",
+    "numericAnswer": {
+      "value": 65.35,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-04",
+    "kind": "calculation",
+    "term": "65.35%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 164,100. It has 100,700 employed people and 6,540 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.37%",
+      "6.10%",
+      "34.65%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (100,700 + 6,540)/164,100 × 100 = 65.35%.",
+    "numericAnswer": {
+      "value": 65.35,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-05",
+    "kind": "calculation",
+    "term": "65.36%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 168,800. It has 103,600 employed people and 6,720 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.37%",
+      "6.09%",
+      "34.64%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (103,600 + 6,720)/168,800 × 100 = 65.36%.",
+    "numericAnswer": {
+      "value": 65.36,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-06",
+    "kind": "calculation",
+    "term": "65.36%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 173,500. It has 106,500 employed people and 6,900 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.38%",
+      "6.08%",
+      "34.64%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (106,500 + 6,900)/173,500 × 100 = 65.36%.",
+    "numericAnswer": {
+      "value": 65.36,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-07",
+    "kind": "calculation",
+    "term": "65.36%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 178,200. It has 109,400 employed people and 7,080 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.39%",
+      "6.08%",
+      "34.64%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (109,400 + 7,080)/178,200 × 100 = 65.36%.",
+    "numericAnswer": {
+      "value": 65.36,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-08",
+    "kind": "calculation",
+    "term": "65.37%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 182,900. It has 112,300 employed people and 7,260 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.40%",
+      "6.07%",
+      "34.63%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (112,300 + 7,260)/182,900 × 100 = 65.37%.",
+    "numericAnswer": {
+      "value": 65.37,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-09",
+    "kind": "calculation",
+    "term": "65.37%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 187,600. It has 115,200 employed people and 7,440 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.41%",
+      "6.07%",
+      "34.63%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (115,200 + 7,440)/187,600 × 100 = 65.37%.",
+    "numericAnswer": {
+      "value": 65.37,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-10",
+    "kind": "calculation",
+    "term": "65.38%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 192,300. It has 118,100 employed people and 7,620 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.41%",
+      "6.06%",
+      "34.62%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (118,100 + 7,620)/192,300 × 100 = 65.38%.",
+    "numericAnswer": {
+      "value": 65.38,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-11",
+    "kind": "calculation",
+    "term": "65.38%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 197,000. It has 121,000 employed people and 7,800 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.42%",
+      "6.06%",
+      "34.62%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (121,000 + 7,800)/197,000 × 100 = 65.38%.",
+    "numericAnswer": {
+      "value": 65.38,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-12",
+    "kind": "calculation",
+    "term": "65.38%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 201,700. It has 123,900 employed people and 7,980 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.43%",
+      "6.05%",
+      "34.62%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (123,900 + 7,980)/201,700 × 100 = 65.38%.",
+    "numericAnswer": {
+      "value": 65.38,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-13",
+    "kind": "calculation",
+    "term": "65.39%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 206,400. It has 126,800 employed people and 8,160 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.43%",
+      "6.05%",
+      "34.61%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (126,800 + 8,160)/206,400 × 100 = 65.39%.",
+    "numericAnswer": {
+      "value": 65.39,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-14",
+    "kind": "calculation",
+    "term": "65.39%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 211,100. It has 129,700 employed people and 8,340 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.44%",
+      "6.04%",
+      "34.61%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (129,700 + 8,340)/211,100 × 100 = 65.39%.",
+    "numericAnswer": {
+      "value": 65.39,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-15",
+    "kind": "calculation",
+    "term": "65.39%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 215,800. It has 132,600 employed people and 8,520 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.45%",
+      "6.04%",
+      "34.61%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (132,600 + 8,520)/215,800 × 100 = 65.39%.",
+    "numericAnswer": {
+      "value": 65.39,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-16",
+    "kind": "calculation",
+    "term": "65.40%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 220,500. It has 135,500 employed people and 8,700 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.45%",
+      "6.03%",
+      "34.60%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (135,500 + 8,700)/220,500 × 100 = 65.40%.",
+    "numericAnswer": {
+      "value": 65.4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-17",
+    "kind": "calculation",
+    "term": "65.40%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 225,200. It has 138,400 employed people and 8,880 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.46%",
+      "6.03%",
+      "34.60%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (138,400 + 8,880)/225,200 × 100 = 65.40%.",
+    "numericAnswer": {
+      "value": 65.4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-18",
+    "kind": "calculation",
+    "term": "65.40%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 229,900. It has 141,300 employed people and 9,060 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.46%",
+      "6.03%",
+      "34.60%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (141,300 + 9,060)/229,900 × 100 = 65.40%.",
+    "numericAnswer": {
+      "value": 65.4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-19",
+    "kind": "calculation",
+    "term": "65.40%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 234,600. It has 144,200 employed people and 9,240 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.47%",
+      "6.02%",
+      "34.60%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (144,200 + 9,240)/234,600 × 100 = 65.40%.",
+    "numericAnswer": {
+      "value": 65.4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-20",
+    "kind": "calculation",
+    "term": "65.41%",
+    "definition": "A region's civilian noninstitutional population age 16+ is 239,300. It has 147,100 employed people and 9,420 unemployed people who meet the active-search definition. What is its labor force participation rate? Round to 2 decimal places.",
+    "distractors": [
+      "61.47%",
+      "6.02%",
+      "34.59%"
+    ],
+    "explanation": "Participation rate = (employed + unemployed)/eligible population × 100 = (147,100 + 9,420)/239,300 × 100 = 65.41%.",
+    "numericAnswer": {
+      "value": 65.41,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-01",
+    "kind": "calculation",
+    "term": "59.82%",
+    "definition": "A hypothetical area has 67,000 employed residents, 4,200 unemployed residents, and 112,000 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.57%",
+      "94.10%",
+      "3.75%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 67,000/112,000 × 100 = 59.82%.",
+    "numericAnswer": {
+      "value": 59.82,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-02",
+    "kind": "calculation",
+    "term": "59.78%",
+    "definition": "A hypothetical area has 69,100 employed residents, 4,340 unemployed residents, and 115,600 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.53%",
+      "94.09%",
+      "3.75%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 69,100/115,600 × 100 = 59.78%.",
+    "numericAnswer": {
+      "value": 59.78,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-03",
+    "kind": "calculation",
+    "term": "59.73%",
+    "definition": "A hypothetical area has 71,200 employed residents, 4,480 unemployed residents, and 119,200 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.49%",
+      "94.08%",
+      "3.76%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 71,200/119,200 × 100 = 59.73%.",
+    "numericAnswer": {
+      "value": 59.73,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-04",
+    "kind": "calculation",
+    "term": "59.69%",
+    "definition": "A hypothetical area has 73,300 employed residents, 4,620 unemployed residents, and 122,800 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.45%",
+      "94.07%",
+      "3.76%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 73,300/122,800 × 100 = 59.69%.",
+    "numericAnswer": {
+      "value": 59.69,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-05",
+    "kind": "calculation",
+    "term": "59.65%",
+    "definition": "A hypothetical area has 75,400 employed residents, 4,760 unemployed residents, and 126,400 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.42%",
+      "94.06%",
+      "3.77%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 75,400/126,400 × 100 = 59.65%.",
+    "numericAnswer": {
+      "value": 59.65,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-06",
+    "kind": "calculation",
+    "term": "59.62%",
+    "definition": "A hypothetical area has 77,500 employed residents, 4,900 unemployed residents, and 130,000 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.38%",
+      "94.05%",
+      "3.77%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 77,500/130,000 × 100 = 59.62%.",
+    "numericAnswer": {
+      "value": 59.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-07",
+    "kind": "calculation",
+    "term": "59.58%",
+    "definition": "A hypothetical area has 79,600 employed residents, 5,040 unemployed residents, and 133,600 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.35%",
+      "94.05%",
+      "3.77%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 79,600/133,600 × 100 = 59.58%.",
+    "numericAnswer": {
+      "value": 59.58,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-08",
+    "kind": "calculation",
+    "term": "59.55%",
+    "definition": "A hypothetical area has 81,700 employed residents, 5,180 unemployed residents, and 137,200 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.32%",
+      "94.04%",
+      "3.78%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 81,700/137,200 × 100 = 59.55%.",
+    "numericAnswer": {
+      "value": 59.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-09",
+    "kind": "calculation",
+    "term": "59.52%",
+    "definition": "A hypothetical area has 83,800 employed residents, 5,320 unemployed residents, and 140,800 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.30%",
+      "94.03%",
+      "3.78%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 83,800/140,800 × 100 = 59.52%.",
+    "numericAnswer": {
+      "value": 59.52,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-10",
+    "kind": "calculation",
+    "term": "59.49%",
+    "definition": "A hypothetical area has 85,900 employed residents, 5,460 unemployed residents, and 144,400 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.27%",
+      "94.02%",
+      "3.78%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 85,900/144,400 × 100 = 59.49%.",
+    "numericAnswer": {
+      "value": 59.49,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-11",
+    "kind": "calculation",
+    "term": "59.46%",
+    "definition": "A hypothetical area has 88,000 employed residents, 5,600 unemployed residents, and 148,000 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.24%",
+      "94.02%",
+      "3.78%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 88,000/148,000 × 100 = 59.46%.",
+    "numericAnswer": {
+      "value": 59.46,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-12",
+    "kind": "calculation",
+    "term": "59.43%",
+    "definition": "A hypothetical area has 90,100 employed residents, 5,740 unemployed residents, and 151,600 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.22%",
+      "94.01%",
+      "3.79%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 90,100/151,600 × 100 = 59.43%.",
+    "numericAnswer": {
+      "value": 59.43,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-13",
+    "kind": "calculation",
+    "term": "59.41%",
+    "definition": "A hypothetical area has 92,200 employed residents, 5,880 unemployed residents, and 155,200 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.20%",
+      "94.00%",
+      "3.79%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 92,200/155,200 × 100 = 59.41%.",
+    "numericAnswer": {
+      "value": 59.41,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-14",
+    "kind": "calculation",
+    "term": "59.38%",
+    "definition": "A hypothetical area has 94,300 employed residents, 6,020 unemployed residents, and 158,800 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.17%",
+      "94.00%",
+      "3.79%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 94,300/158,800 × 100 = 59.38%.",
+    "numericAnswer": {
+      "value": 59.38,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-15",
+    "kind": "calculation",
+    "term": "59.36%",
+    "definition": "A hypothetical area has 96,400 employed residents, 6,160 unemployed residents, and 162,400 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.15%",
+      "93.99%",
+      "3.79%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 96,400/162,400 × 100 = 59.36%.",
+    "numericAnswer": {
+      "value": 59.36,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-16",
+    "kind": "calculation",
+    "term": "59.34%",
+    "definition": "A hypothetical area has 98,500 employed residents, 6,300 unemployed residents, and 166,000 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.13%",
+      "93.99%",
+      "3.80%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 98,500/166,000 × 100 = 59.34%.",
+    "numericAnswer": {
+      "value": 59.34,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-17",
+    "kind": "calculation",
+    "term": "59.32%",
+    "definition": "A hypothetical area has 100,600 employed residents, 6,440 unemployed residents, and 169,600 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.11%",
+      "93.98%",
+      "3.80%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 100,600/169,600 × 100 = 59.32%.",
+    "numericAnswer": {
+      "value": 59.32,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-18",
+    "kind": "calculation",
+    "term": "59.30%",
+    "definition": "A hypothetical area has 102,700 employed residents, 6,580 unemployed residents, and 173,200 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.09%",
+      "93.98%",
+      "3.80%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 102,700/173,200 × 100 = 59.30%.",
+    "numericAnswer": {
+      "value": 59.3,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-19",
+    "kind": "calculation",
+    "term": "59.28%",
+    "definition": "A hypothetical area has 104,800 employed residents, 6,720 unemployed residents, and 176,800 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.08%",
+      "93.97%",
+      "3.80%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 104,800/176,800 × 100 = 59.28%.",
+    "numericAnswer": {
+      "value": 59.28,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-20",
+    "kind": "calculation",
+    "term": "59.26%",
+    "definition": "A hypothetical area has 106,900 employed residents, 6,860 unemployed residents, and 180,400 total civilian noninstitutional residents age 16+. What is the employment–population ratio? Round to 2 decimal places.",
+    "distractors": [
+      "63.06%",
+      "93.97%",
+      "3.80%"
+    ],
+    "explanation": "Employment–population ratio uses employed people in the numerator: 106,900/180,400 × 100 = 59.26%.",
+    "numericAnswer": {
+      "value": 59.26,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-01",
+    "kind": "calculation",
+    "term": "6.89%",
+    "definition": "Initially 50,000 people are employed and 3,000 unemployed. Then 700 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.59%",
+      "5.66%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (3,000 + 700)/(50,000 + 3,000 + 700) × 100 = 6.89%.",
+    "numericAnswer": {
+      "value": 6.89,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-02",
+    "kind": "calculation",
+    "term": "6.89%",
+    "definition": "Initially 51,700 people are employed and 3,090 unemployed. Then 735 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.57%",
+      "5.64%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (3,090 + 735)/(51,700 + 3,090 + 735) × 100 = 6.89%.",
+    "numericAnswer": {
+      "value": 6.89,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-03",
+    "kind": "calculation",
+    "term": "6.89%",
+    "definition": "Initially 53,400 people are employed and 3,180 unemployed. Then 770 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.54%",
+      "5.62%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (3,180 + 770)/(53,400 + 3,180 + 770) × 100 = 6.89%.",
+    "numericAnswer": {
+      "value": 6.89,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-04",
+    "kind": "calculation",
+    "term": "6.89%",
+    "definition": "Initially 55,100 people are employed and 3,270 unemployed. Then 805 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.53%",
+      "5.60%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (3,270 + 805)/(55,100 + 3,270 + 805) × 100 = 6.89%.",
+    "numericAnswer": {
+      "value": 6.89,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-05",
+    "kind": "calculation",
+    "term": "6.89%",
+    "definition": "Initially 56,800 people are employed and 3,360 unemployed. Then 840 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.51%",
+      "5.59%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (3,360 + 840)/(56,800 + 3,360 + 840) × 100 = 6.89%.",
+    "numericAnswer": {
+      "value": 6.89,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-06",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Initially 58,500 people are employed and 3,450 unemployed. Then 875 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.49%",
+      "5.57%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (3,450 + 875)/(58,500 + 3,450 + 875) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-07",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Initially 60,200 people are employed and 3,540 unemployed. Then 910 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.48%",
+      "5.55%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (3,540 + 910)/(60,200 + 3,540 + 910) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-08",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Initially 61,900 people are employed and 3,630 unemployed. Then 945 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.46%",
+      "5.54%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (3,630 + 945)/(61,900 + 3,630 + 945) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-09",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Initially 63,600 people are employed and 3,720 unemployed. Then 980 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.45%",
+      "5.53%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (3,720 + 980)/(63,600 + 3,720 + 980) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-10",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Initially 65,300 people are employed and 3,810 unemployed. Then 1,015 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.43%",
+      "5.51%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (3,810 + 1,015)/(65,300 + 3,810 + 1,015) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-11",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Initially 67,000 people are employed and 3,900 unemployed. Then 1,050 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.42%",
+      "5.50%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (3,900 + 1,050)/(67,000 + 3,900 + 1,050) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-12",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Initially 68,700 people are employed and 3,990 unemployed. Then 1,085 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.41%",
+      "5.49%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (3,990 + 1,085)/(68,700 + 3,990 + 1,085) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-13",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Initially 70,400 people are employed and 4,080 unemployed. Then 1,120 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.40%",
+      "5.48%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (4,080 + 1,120)/(70,400 + 4,080 + 1,120) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-14",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Initially 72,100 people are employed and 4,170 unemployed. Then 1,155 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.39%",
+      "5.47%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (4,170 + 1,155)/(72,100 + 4,170 + 1,155) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-15",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Initially 73,800 people are employed and 4,260 unemployed. Then 1,190 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.38%",
+      "5.46%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (4,260 + 1,190)/(73,800 + 4,260 + 1,190) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-16",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Initially 75,500 people are employed and 4,350 unemployed. Then 1,225 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.37%",
+      "5.45%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (4,350 + 1,225)/(75,500 + 4,350 + 1,225) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-17",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Initially 77,200 people are employed and 4,440 unemployed. Then 1,260 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.36%",
+      "5.44%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (4,440 + 1,260)/(77,200 + 4,440 + 1,260) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-18",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Initially 78,900 people are employed and 4,530 unemployed. Then 1,295 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.35%",
+      "5.43%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (4,530 + 1,295)/(78,900 + 4,530 + 1,295) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-19",
+    "kind": "calculation",
+    "term": "6.87%",
+    "definition": "Initially 80,600 people are employed and 4,620 unemployed. Then 1,330 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.34%",
+      "5.42%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (4,620 + 1,330)/(80,600 + 4,620 + 1,330) × 100 = 6.87%.",
+    "numericAnswer": {
+      "value": 6.87,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-20",
+    "kind": "calculation",
+    "term": "6.87%",
+    "definition": "Initially 82,300 people are employed and 4,710 unemployed. Then 1,365 people previously outside the labor force begin actively searching and are available for work, but none has a job yet. With no other changes, what is the new unemployment rate? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.33%",
+      "5.41%"
+    ],
+    "explanation": "New jobseekers enter both unemployment and the labor force: (4,710 + 1,365)/(82,300 + 4,710 + 1,365) × 100 = 6.87%.",
+    "numericAnswer": {
+      "value": 6.87,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-01",
+    "kind": "calculation",
+    "term": "11.56%",
+    "definition": "A hypothetical survey counts 75,000 employed people, including 3,100 working part time for economic reasons; 4,500 unemployed; and 1,800 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.66%",
+      "7.75%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (4,500 + 1,800 + 3,100)/(75,000 + 4,500 + 1,800) × 100 = 11.56%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-02",
+    "kind": "calculation",
+    "term": "11.56%",
+    "definition": "A hypothetical survey counts 77,200 employed people, including 3,180 working part time for economic reasons; 4,630 unemployed; and 1,865 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.66%",
+      "7.76%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (4,630 + 1,865 + 3,180)/(77,200 + 4,630 + 1,865) × 100 = 11.56%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-03",
+    "kind": "calculation",
+    "term": "11.56%",
+    "definition": "A hypothetical survey counts 79,400 employed people, including 3,260 working part time for economic reasons; 4,760 unemployed; and 1,930 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.66%",
+      "7.77%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (4,760 + 1,930 + 3,260)/(79,400 + 4,760 + 1,930) × 100 = 11.56%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-04",
+    "kind": "calculation",
+    "term": "11.56%",
+    "definition": "A hypothetical survey counts 81,600 employed people, including 3,340 working part time for economic reasons; 4,890 unemployed; and 1,995 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.65%",
+      "7.78%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (4,890 + 1,995 + 3,340)/(81,600 + 4,890 + 1,995) × 100 = 11.56%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-05",
+    "kind": "calculation",
+    "term": "11.55%",
+    "definition": "A hypothetical survey counts 83,800 employed people, including 3,420 working part time for economic reasons; 5,020 unemployed; and 2,060 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.65%",
+      "7.79%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (5,020 + 2,060 + 3,420)/(83,800 + 5,020 + 2,060) × 100 = 11.55%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-06",
+    "kind": "calculation",
+    "term": "11.55%",
+    "definition": "A hypothetical survey counts 86,000 employed people, including 3,500 working part time for economic reasons; 5,150 unemployed; and 2,125 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.65%",
+      "7.80%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (5,150 + 2,125 + 3,500)/(86,000 + 5,150 + 2,125) × 100 = 11.55%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-07",
+    "kind": "calculation",
+    "term": "11.55%",
+    "definition": "A hypothetical survey counts 88,200 employed people, including 3,580 working part time for economic reasons; 5,280 unemployed; and 2,190 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.65%",
+      "7.81%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (5,280 + 2,190 + 3,580)/(88,200 + 5,280 + 2,190) × 100 = 11.55%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-08",
+    "kind": "calculation",
+    "term": "11.55%",
+    "definition": "A hypothetical survey counts 90,400 employed people, including 3,660 working part time for economic reasons; 5,410 unemployed; and 2,255 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.65%",
+      "7.82%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (5,410 + 2,255 + 3,660)/(90,400 + 5,410 + 2,255) × 100 = 11.55%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-09",
+    "kind": "calculation",
+    "term": "11.55%",
+    "definition": "A hypothetical survey counts 92,600 employed people, including 3,740 working part time for economic reasons; 5,540 unemployed; and 2,320 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.82%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (5,540 + 2,320 + 3,740)/(92,600 + 5,540 + 2,320) × 100 = 11.55%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-10",
+    "kind": "calculation",
+    "term": "11.55%",
+    "definition": "A hypothetical survey counts 94,800 employed people, including 3,820 working part time for economic reasons; 5,670 unemployed; and 2,385 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.83%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (5,670 + 2,385 + 3,820)/(94,800 + 5,670 + 2,385) × 100 = 11.55%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-11",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "A hypothetical survey counts 97,000 employed people, including 3,900 working part time for economic reasons; 5,800 unemployed; and 2,450 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.84%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (5,800 + 2,450 + 3,900)/(97,000 + 5,800 + 2,450) × 100 = 11.54%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-12",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "A hypothetical survey counts 99,200 employed people, including 3,980 working part time for economic reasons; 5,930 unemployed; and 2,515 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.85%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (5,930 + 2,515 + 3,980)/(99,200 + 5,930 + 2,515) × 100 = 11.54%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-13",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "A hypothetical survey counts 101,400 employed people, including 4,060 working part time for economic reasons; 6,060 unemployed; and 2,580 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.85%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (6,060 + 2,580 + 4,060)/(101,400 + 6,060 + 2,580) × 100 = 11.54%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-14",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "A hypothetical survey counts 103,600 employed people, including 4,140 working part time for economic reasons; 6,190 unemployed; and 2,645 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.86%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (6,190 + 2,645 + 4,140)/(103,600 + 6,190 + 2,645) × 100 = 11.54%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-15",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "A hypothetical survey counts 105,800 employed people, including 4,220 working part time for economic reasons; 6,320 unemployed; and 2,710 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.86%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (6,320 + 2,710 + 4,220)/(105,800 + 6,320 + 2,710) × 100 = 11.54%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-16",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "A hypothetical survey counts 108,000 employed people, including 4,300 working part time for economic reasons; 6,450 unemployed; and 2,775 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.87%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (6,450 + 2,775 + 4,300)/(108,000 + 6,450 + 2,775) × 100 = 11.54%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-17",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "A hypothetical survey counts 110,200 employed people, including 4,380 working part time for economic reasons; 6,580 unemployed; and 2,840 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.63%",
+      "7.87%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (6,580 + 2,840 + 4,380)/(110,200 + 6,580 + 2,840) × 100 = 11.54%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-18",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "A hypothetical survey counts 112,400 employed people, including 4,460 working part time for economic reasons; 6,710 unemployed; and 2,905 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.63%",
+      "7.88%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (6,710 + 2,905 + 4,460)/(112,400 + 6,710 + 2,905) × 100 = 11.54%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-19",
+    "kind": "calculation",
+    "term": "11.53%",
+    "definition": "A hypothetical survey counts 114,600 employed people, including 4,540 working part time for economic reasons; 6,840 unemployed; and 2,970 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.63%",
+      "7.89%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (6,840 + 2,970 + 4,540)/(114,600 + 6,840 + 2,970) × 100 = 11.53%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.53,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-20",
+    "kind": "calculation",
+    "term": "11.53%",
+    "definition": "A hypothetical survey counts 116,800 employed people, including 4,620 working part time for economic reasons; 6,970 unemployed; and 3,035 marginally attached people outside the labor force. What is U-6 labor underutilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.63%",
+      "7.89%"
+    ],
+    "explanation": "U-6 = (unemployed + marginally attached + involuntary part-time)/(labor force + marginally attached). Thus (6,970 + 3,035 + 4,620)/(116,800 + 6,970 + 3,035) × 100 = 11.53%. Part-time workers are already included among employed people.",
+    "numericAnswer": {
+      "value": 11.53,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-01",
+    "kind": "calculation",
+    "term": "$60.00",
+    "definition": "An industry produces $1,800,000.00 of real value added in a month using 30,000 total labor hours. What is labor productivity in real dollars per hour?",
+    "distractors": [
+      "$0.02",
+      "$7.50",
+      "$54,000,000,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $1,800,000.00/30,000 = $60.00 per hour.",
+    "numericAnswer": {
+      "value": 60,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-02",
+    "kind": "calculation",
+    "term": "$61.57",
+    "definition": "An industry produces $1,927,000.00 of real value added in a month using 31,300 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.02",
+      "$7.70",
+      "$60,315,100,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $1,927,000.00/31,300 = $61.57 per hour.",
+    "numericAnswer": {
+      "value": 61.57,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-03",
+    "kind": "calculation",
+    "term": "$63.01",
+    "definition": "An industry produces $2,054,000.00 of real value added in a month using 32,600 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.02",
+      "$7.88",
+      "$66,960,400,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $2,054,000.00/32,600 = $63.01 per hour.",
+    "numericAnswer": {
+      "value": 63.01,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-04",
+    "kind": "calculation",
+    "term": "$64.34",
+    "definition": "An industry produces $2,181,000.00 of real value added in a month using 33,900 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.02",
+      "$8.04",
+      "$73,935,900,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $2,181,000.00/33,900 = $64.34 per hour.",
+    "numericAnswer": {
+      "value": 64.34,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-05",
+    "kind": "calculation",
+    "term": "$65.57",
+    "definition": "An industry produces $2,308,000.00 of real value added in a month using 35,200 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.02",
+      "$8.20",
+      "$81,241,600,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $2,308,000.00/35,200 = $65.57 per hour.",
+    "numericAnswer": {
+      "value": 65.57,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-06",
+    "kind": "calculation",
+    "term": "$66.71",
+    "definition": "An industry produces $2,435,000.00 of real value added in a month using 36,500 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$8.34",
+      "$88,877,500,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $2,435,000.00/36,500 = $66.71 per hour.",
+    "numericAnswer": {
+      "value": 66.71,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-07",
+    "kind": "calculation",
+    "term": "$67.78",
+    "definition": "An industry produces $2,562,000.00 of real value added in a month using 37,800 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$8.47",
+      "$96,843,600,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $2,562,000.00/37,800 = $67.78 per hour.",
+    "numericAnswer": {
+      "value": 67.78,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-08",
+    "kind": "calculation",
+    "term": "$68.77",
+    "definition": "An industry produces $2,689,000.00 of real value added in a month using 39,100 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$8.60",
+      "$105,139,900,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $2,689,000.00/39,100 = $68.77 per hour.",
+    "numericAnswer": {
+      "value": 68.77,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-09",
+    "kind": "calculation",
+    "term": "$69.70",
+    "definition": "An industry produces $2,816,000.00 of real value added in a month using 40,400 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$8.71",
+      "$113,766,400,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $2,816,000.00/40,400 = $69.70 per hour.",
+    "numericAnswer": {
+      "value": 69.7,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-10",
+    "kind": "calculation",
+    "term": "$70.58",
+    "definition": "An industry produces $2,943,000.00 of real value added in a month using 41,700 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$8.82",
+      "$122,723,100,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $2,943,000.00/41,700 = $70.58 per hour.",
+    "numericAnswer": {
+      "value": 70.58,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-11",
+    "kind": "calculation",
+    "term": "$71.40",
+    "definition": "An industry produces $3,070,000.00 of real value added in a month using 43,000 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$8.92",
+      "$132,010,000,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $3,070,000.00/43,000 = $71.40 per hour.",
+    "numericAnswer": {
+      "value": 71.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-12",
+    "kind": "calculation",
+    "term": "$72.17",
+    "definition": "An industry produces $3,197,000.00 of real value added in a month using 44,300 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$9.02",
+      "$141,627,100,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $3,197,000.00/44,300 = $72.17 per hour.",
+    "numericAnswer": {
+      "value": 72.17,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-13",
+    "kind": "calculation",
+    "term": "$72.89",
+    "definition": "An industry produces $3,324,000.00 of real value added in a month using 45,600 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$9.11",
+      "$151,574,400,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $3,324,000.00/45,600 = $72.89 per hour.",
+    "numericAnswer": {
+      "value": 72.89,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-14",
+    "kind": "calculation",
+    "term": "$73.58",
+    "definition": "An industry produces $3,451,000.00 of real value added in a month using 46,900 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$9.20",
+      "$161,851,900,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $3,451,000.00/46,900 = $73.58 per hour.",
+    "numericAnswer": {
+      "value": 73.58,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-15",
+    "kind": "calculation",
+    "term": "$74.23",
+    "definition": "An industry produces $3,578,000.00 of real value added in a month using 48,200 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$9.28",
+      "$172,459,600,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $3,578,000.00/48,200 = $74.23 per hour.",
+    "numericAnswer": {
+      "value": 74.23,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-16",
+    "kind": "calculation",
+    "term": "$74.85",
+    "definition": "An industry produces $3,705,000.00 of real value added in a month using 49,500 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$9.36",
+      "$183,397,500,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $3,705,000.00/49,500 = $74.85 per hour.",
+    "numericAnswer": {
+      "value": 74.85,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-17",
+    "kind": "calculation",
+    "term": "$75.43",
+    "definition": "An industry produces $3,832,000.00 of real value added in a month using 50,800 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$9.43",
+      "$194,665,600,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $3,832,000.00/50,800 = $75.43 per hour.",
+    "numericAnswer": {
+      "value": 75.43,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-18",
+    "kind": "calculation",
+    "term": "$75.99",
+    "definition": "An industry produces $3,959,000.00 of real value added in a month using 52,100 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$9.50",
+      "$206,263,900,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $3,959,000.00/52,100 = $75.99 per hour.",
+    "numericAnswer": {
+      "value": 75.99,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-19",
+    "kind": "calculation",
+    "term": "$76.52",
+    "definition": "An industry produces $4,086,000.00 of real value added in a month using 53,400 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$9.56",
+      "$218,192,400,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $4,086,000.00/53,400 = $76.52 per hour.",
+    "numericAnswer": {
+      "value": 76.52,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-output-per-hour-20",
+    "kind": "calculation",
+    "term": "$77.02",
+    "definition": "An industry produces $4,213,000.00 of real value added in a month using 54,700 total labor hours. What is labor productivity in real dollars per hour? Round to the nearest cent.",
+    "distractors": [
+      "$0.01",
+      "$9.63",
+      "$230,451,100,000.00"
+    ],
+    "explanation": "Labor productivity = real output/labor hours = $4,213,000.00/54,700 = $77.02 per hour.",
+    "numericAnswer": {
+      "value": 77.02,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-01",
+    "kind": "calculation",
+    "term": "2.63%",
+    "definition": "A firm group begins the month with 16,000 employees. During the month, 420 employees separate and 510 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.19%",
+      "-0.56%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 420/16,000 × 100 = 2.63%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.63,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-02",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 16,650 employees. During the month, 437 employees separate and 531 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.19%",
+      "-0.56%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 437/16,650 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-03",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 17,300 employees. During the month, 454 employees separate and 552 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.19%",
+      "-0.57%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 454/17,300 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-04",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 17,950 employees. During the month, 471 employees separate and 573 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.19%",
+      "-0.57%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 471/17,950 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-05",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 18,600 employees. During the month, 488 employees separate and 594 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.19%",
+      "-0.57%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 488/18,600 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-06",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 19,250 employees. During the month, 505 employees separate and 615 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.19%",
+      "-0.57%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 505/19,250 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-07",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 19,900 employees. During the month, 522 employees separate and 636 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.20%",
+      "-0.57%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 522/19,900 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-08",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 20,550 employees. During the month, 539 employees separate and 657 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.20%",
+      "-0.57%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 539/20,550 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-09",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 21,200 employees. During the month, 556 employees separate and 678 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.20%",
+      "-0.58%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 556/21,200 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-10",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 21,850 employees. During the month, 573 employees separate and 699 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.20%",
+      "-0.58%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 573/21,850 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-11",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 22,500 employees. During the month, 590 employees separate and 720 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.20%",
+      "-0.58%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 590/22,500 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-12",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 23,150 employees. During the month, 607 employees separate and 741 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.20%",
+      "-0.58%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 607/23,150 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-13",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 23,800 employees. During the month, 624 employees separate and 762 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.20%",
+      "-0.58%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 624/23,800 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-14",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 24,450 employees. During the month, 641 employees separate and 783 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.20%",
+      "-0.58%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 641/24,450 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-15",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 25,100 employees. During the month, 658 employees separate and 804 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.20%",
+      "-0.58%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 658/25,100 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-16",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 25,750 employees. During the month, 675 employees separate and 825 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.20%",
+      "-0.58%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 675/25,750 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-17",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 26,400 employees. During the month, 692 employees separate and 846 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.20%",
+      "-0.58%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 692/26,400 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-18",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 27,050 employees. During the month, 709 employees separate and 867 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.21%",
+      "-0.58%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 709/27,050 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-19",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 27,700 employees. During the month, 726 employees separate and 888 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.21%",
+      "-0.58%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 726/27,700 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-worker-separation-rate-20",
+    "kind": "calculation",
+    "term": "2.62%",
+    "definition": "A firm group begins the month with 28,350 employees. During the month, 743 employees separate and 909 are hired. Define the monthly separation rate here as separations divided by start-of-month employment. What is the rate? Round to 2 decimal places.",
+    "distractors": [
+      "3.21%",
+      "-0.59%",
+      "2.61%"
+    ],
+    "explanation": "Use the stated beginning-employment denominator: 743/28,350 × 100 = 2.62%. Hiring does not enter this defined rate.",
+    "numericAnswer": {
+      "value": 2.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-01",
+    "kind": "calculation",
+    "term": "$688.00",
+    "definition": "A worker earns $21.50 per hour for 32.00 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings?",
+    "distractors": [
+      "$860.00",
+      "$1,118.00",
+      "$53.50"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $21.50 × 32.00 = $688.00.",
+    "numericAnswer": {
+      "value": 688,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-02",
+    "kind": "calculation",
+    "term": "$714.34",
+    "definition": "A worker earns $22.15 per hour for 32.25 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings? Round to the nearest cent.",
+    "distractors": [
+      "$886.00",
+      "$1,151.80",
+      "$54.40"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $22.15 × 32.25 = $714.34.",
+    "numericAnswer": {
+      "value": 714.34,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-03",
+    "kind": "calculation",
+    "term": "$741.00",
+    "definition": "A worker earns $22.80 per hour for 32.50 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings?",
+    "distractors": [
+      "$912.00",
+      "$1,185.60",
+      "$55.30"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $22.80 × 32.50 = $741.00.",
+    "numericAnswer": {
+      "value": 741,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-04",
+    "kind": "calculation",
+    "term": "$767.99",
+    "definition": "A worker earns $23.45 per hour for 32.75 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings? Round to the nearest cent.",
+    "distractors": [
+      "$938.00",
+      "$1,219.40",
+      "$56.20"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $23.45 × 32.75 = $767.99.",
+    "numericAnswer": {
+      "value": 767.99,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-05",
+    "kind": "calculation",
+    "term": "$795.30",
+    "definition": "A worker earns $24.10 per hour for 33.00 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings?",
+    "distractors": [
+      "$964.00",
+      "$1,253.20",
+      "$57.10"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $24.10 × 33.00 = $795.30.",
+    "numericAnswer": {
+      "value": 795.3,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-06",
+    "kind": "calculation",
+    "term": "$822.94",
+    "definition": "A worker earns $24.75 per hour for 33.25 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings? Round to the nearest cent.",
+    "distractors": [
+      "$990.00",
+      "$1,287.00",
+      "$58.00"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $24.75 × 33.25 = $822.94.",
+    "numericAnswer": {
+      "value": 822.94,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-07",
+    "kind": "calculation",
+    "term": "$850.90",
+    "definition": "A worker earns $25.40 per hour for 33.50 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings?",
+    "distractors": [
+      "$1,016.00",
+      "$1,320.80",
+      "$58.90"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $25.40 × 33.50 = $850.90.",
+    "numericAnswer": {
+      "value": 850.9,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-08",
+    "kind": "calculation",
+    "term": "$879.19",
+    "definition": "A worker earns $26.05 per hour for 33.75 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings? Round to the nearest cent.",
+    "distractors": [
+      "$1,042.00",
+      "$1,354.60",
+      "$59.80"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $26.05 × 33.75 = $879.19.",
+    "numericAnswer": {
+      "value": 879.19,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-09",
+    "kind": "calculation",
+    "term": "$907.80",
+    "definition": "A worker earns $26.70 per hour for 34.00 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings?",
+    "distractors": [
+      "$1,068.00",
+      "$1,388.40",
+      "$60.70"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $26.70 × 34.00 = $907.80.",
+    "numericAnswer": {
+      "value": 907.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-10",
+    "kind": "calculation",
+    "term": "$936.74",
+    "definition": "A worker earns $27.35 per hour for 34.25 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings? Round to the nearest cent.",
+    "distractors": [
+      "$1,094.00",
+      "$1,422.20",
+      "$61.60"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $27.35 × 34.25 = $936.74.",
+    "numericAnswer": {
+      "value": 936.74,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-11",
+    "kind": "calculation",
+    "term": "$966.00",
+    "definition": "A worker earns $28.00 per hour for 34.50 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings?",
+    "distractors": [
+      "$1,120.00",
+      "$1,456.00",
+      "$62.50"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $28.00 × 34.50 = $966.00.",
+    "numericAnswer": {
+      "value": 966,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-12",
+    "kind": "calculation",
+    "term": "$995.59",
+    "definition": "A worker earns $28.65 per hour for 34.75 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings? Round to the nearest cent.",
+    "distractors": [
+      "$1,146.00",
+      "$1,489.80",
+      "$63.40"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $28.65 × 34.75 = $995.59.",
+    "numericAnswer": {
+      "value": 995.59,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-13",
+    "kind": "calculation",
+    "term": "$1,025.50",
+    "definition": "A worker earns $29.30 per hour for 35.00 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings?",
+    "distractors": [
+      "$1,172.00",
+      "$1,523.60",
+      "$64.30"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $29.30 × 35.00 = $1,025.50.",
+    "numericAnswer": {
+      "value": 1025.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-14",
+    "kind": "calculation",
+    "term": "$1,055.74",
+    "definition": "A worker earns $29.95 per hour for 35.25 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings? Round to the nearest cent.",
+    "distractors": [
+      "$1,198.00",
+      "$1,557.40",
+      "$65.20"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $29.95 × 35.25 = $1,055.74.",
+    "numericAnswer": {
+      "value": 1055.74,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-15",
+    "kind": "calculation",
+    "term": "$1,086.30",
+    "definition": "A worker earns $30.60 per hour for 35.50 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings?",
+    "distractors": [
+      "$1,224.00",
+      "$1,591.20",
+      "$66.10"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $30.60 × 35.50 = $1,086.30.",
+    "numericAnswer": {
+      "value": 1086.3,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-16",
+    "kind": "calculation",
+    "term": "$1,117.19",
+    "definition": "A worker earns $31.25 per hour for 35.75 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings? Round to the nearest cent.",
+    "distractors": [
+      "$1,250.00",
+      "$1,625.00",
+      "$67.00"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $31.25 × 35.75 = $1,117.19.",
+    "numericAnswer": {
+      "value": 1117.19,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-17",
+    "kind": "calculation",
+    "term": "$1,148.40",
+    "definition": "A worker earns $31.90 per hour for 36.00 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings?",
+    "distractors": [
+      "$1,276.00",
+      "$1,658.80",
+      "$67.90"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $31.90 × 36.00 = $1,148.40.",
+    "numericAnswer": {
+      "value": 1148.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-18",
+    "kind": "calculation",
+    "term": "$1,179.94",
+    "definition": "A worker earns $32.55 per hour for 36.25 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings? Round to the nearest cent.",
+    "distractors": [
+      "$1,302.00",
+      "$1,692.60",
+      "$68.80"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $32.55 × 36.25 = $1,179.94.",
+    "numericAnswer": {
+      "value": 1179.94,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-19",
+    "kind": "calculation",
+    "term": "$1,211.80",
+    "definition": "A worker earns $33.20 per hour for 36.50 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings?",
+    "distractors": [
+      "$1,328.00",
+      "$1,726.40",
+      "$69.70"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $33.20 × 36.50 = $1,211.80.",
+    "numericAnswer": {
+      "value": 1211.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-weekly-earnings-hours-20",
+    "kind": "calculation",
+    "term": "$1,243.99",
+    "definition": "A worker earns $33.85 per hour for 36.75 hours in a week. All hours are paid at the regular rate, and there are no bonuses. What are gross weekly earnings? Round to the nearest cent.",
+    "distractors": [
+      "$1,354.00",
+      "$1,760.20",
+      "$70.60"
+    ],
+    "explanation": "Gross weekly earnings = hourly wage × paid hours = $33.85 × 36.75 = $1,243.99.",
+    "numericAnswer": {
+      "value": 1243.99,
+      "unit": "USD"
+    }
+  }
+]

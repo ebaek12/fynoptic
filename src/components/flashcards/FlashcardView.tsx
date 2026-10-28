@@ -40,6 +40,7 @@ export function FlashcardView({
   const stageRef = useRef<HTMLDivElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
   const isMc = mode === "mc";
+  const calculation = current?.kind === "calculation";
   const answerTarget = isMc ? mcAnswer : fitbAnswer;
   const mcFeedback = feedback?.kind === "mc" ? feedback : null;
   const fitbFeedback = feedback?.kind === "fitb" ? feedback : null;
@@ -148,19 +149,22 @@ export function FlashcardView({
               isFront={isFront}
               revealed={locked}
               onReveal={engine.flip}
+              calculation={calculation}
             />
           )}
           <div id="answer-area" className="session-answer-area">
             <div className="session-answer-heading">
               <span>{isMc ? "Choose an answer" : "Type your answer"}</span>
-              <button
-                id="mc-toggle-answer"
-                className="session-text-button"
-                type="button"
-                onClick={engine.toggleAnswerTarget}
-              >
-                Answer with {answerTarget === "term" ? "Term" : "Definition"}
-              </button>
+              {!calculation && (
+                <button
+                  id="mc-toggle-answer"
+                  className="session-text-button"
+                  type="button"
+                  onClick={engine.toggleAnswerTarget}
+                >
+                  Answer with {answerTarget === "term" ? "Term" : "Definition"}
+                </button>
+              )}
             </div>
             {isMc ? (
               <div
@@ -219,9 +223,11 @@ export function FlashcardView({
                   ref={inputRef}
                   type="text"
                   placeholder={
-                    answerTarget === "term"
-                      ? "Type the term…"
-                      : "Type the definition…"
+                    calculation
+                      ? "Type the answer…"
+                      : answerTarget === "term"
+                        ? "Type the term…"
+                        : "Type the definition…"
                   }
                   autoComplete="off"
                   disabled={locked}
@@ -282,6 +288,9 @@ export function FlashcardView({
             {locked &&
               !feedback &&
               "Answer revealed. Move to the next card when you’re ready."}
+            {current?.explanation && (locked || mcFeedback || fitbFeedback) && (
+              <p tabIndex={0}>{current.explanation}</p>
+            )}
           </div>
         </div>
         <div className="session-navigation">

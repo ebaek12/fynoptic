@@ -19,6 +19,8 @@ function toPlainText(html: string): string {
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;|&#39;|&#x27;/gi, "'")
     .replace(/&#8217;|&rsquo;/g, '’')
     .replace(/\s+/g, ' ')
     .trim();
@@ -32,7 +34,9 @@ export function computeReadMins(html: string): number {
 
 /** First ~160 characters of body text, cut on a word boundary. */
 export function deriveBlurb(html: string): string {
-  const text = toPlainText(html);
+  // Attribution belongs in the reader; the catalog preview should describe
+  // the article itself even when a source note precedes the guide.
+  const text = toPlainText(html.replace(/<p\b[^>]*\bclass=["'][^"']*\barticle-source-note\b[^"']*["'][^>]*>[\s\S]*?<\/p>/gi, ' '));
   if (text.length <= BLURB_CHARS) return text;
   const cut = text.slice(0, BLURB_CHARS);
   const lastSpace = cut.lastIndexOf(' ');

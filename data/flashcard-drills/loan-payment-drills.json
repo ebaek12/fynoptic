@@ -1,0 +1,2562 @@
+[
+  {
+    "id": "drill-cash-amortizing-loan-payment-01",
+    "kind": "calculation",
+    "term": "$288.08",
+    "definition": "A fixed-rate loan advances $6,500.00, charges a nominal 6.0% annual interest rate, and has 24 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$270.83",
+      "$303.33",
+      "$32.50"
+    ],
+    "explanation": "Use P = $6,500.00, r = 6/1200, and n = 24. Payment = $6,500.00 × (6/1200) ÷ [1 − (1 + 6/1200)^(−24)] = $288.08.",
+    "numericAnswer": {
+      "value": 288.08,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-02",
+    "kind": "calculation",
+    "term": "$255.25",
+    "definition": "A fixed-rate loan advances $7,050.00, charges a nominal 6.5% annual interest rate, and has 30 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$235.00",
+      "$273.19",
+      "$38.19"
+    ],
+    "explanation": "Use P = $7,050.00, r = 6.5/1200, and n = 30. Payment = $7,050.00 × (6.5/1200) ÷ [1 − (1 + 6.5/1200)^(−30)] = $255.25.",
+    "numericAnswer": {
+      "value": 255.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-03",
+    "kind": "calculation",
+    "term": "$234.67",
+    "definition": "A fixed-rate loan advances $7,600.00, charges a nominal 7.0% annual interest rate, and has 36 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$211.11",
+      "$255.44",
+      "$44.33"
+    ],
+    "explanation": "Use P = $7,600.00, r = 7/1200, and n = 36. Payment = $7,600.00 × (7/1200) ÷ [1 − (1 + 7/1200)^(−36)] = $234.67.",
+    "numericAnswer": {
+      "value": 234.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-04",
+    "kind": "calculation",
+    "term": "$221.23",
+    "definition": "A fixed-rate loan advances $8,150.00, charges a nominal 7.5% annual interest rate, and has 42 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$194.05",
+      "$244.99",
+      "$50.94"
+    ],
+    "explanation": "Use P = $8,150.00, r = 7.5/1200, and n = 42. Payment = $8,150.00 × (7.5/1200) ÷ [1 − (1 + 7.5/1200)^(−42)] = $221.23.",
+    "numericAnswer": {
+      "value": 221.23,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-05",
+    "kind": "calculation",
+    "term": "$212.39",
+    "definition": "A fixed-rate loan advances $8,700.00, charges a nominal 8.0% annual interest rate, and has 48 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$181.25",
+      "$239.25",
+      "$58.00"
+    ],
+    "explanation": "Use P = $8,700.00, r = 8/1200, and n = 48. Payment = $8,700.00 × (8/1200) ÷ [1 − (1 + 8/1200)^(−48)] = $212.39.",
+    "numericAnswer": {
+      "value": 212.39,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-06",
+    "kind": "calculation",
+    "term": "$420.46",
+    "definition": "A fixed-rate loan advances $9,250.00, charges a nominal 8.5% annual interest rate, and has 24 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$385.42",
+      "$450.94",
+      "$65.52"
+    ],
+    "explanation": "Use P = $9,250.00, r = 8.5/1200, and n = 24. Payment = $9,250.00 × (8.5/1200) ÷ [1 − (1 + 8.5/1200)^(−24)] = $420.46.",
+    "numericAnswer": {
+      "value": 420.46,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-07",
+    "kind": "calculation",
+    "term": "$352.59",
+    "definition": "A fixed-rate loan advances $9,800.00, charges a nominal 6.0% annual interest rate, and has 30 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$326.67",
+      "$375.67",
+      "$49.00"
+    ],
+    "explanation": "Use P = $9,800.00, r = 6/1200, and n = 30. Payment = $9,800.00 × (6/1200) ÷ [1 − (1 + 6/1200)^(−30)] = $352.59.",
+    "numericAnswer": {
+      "value": 352.59,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-08",
+    "kind": "calculation",
+    "term": "$317.22",
+    "definition": "A fixed-rate loan advances $10,350.00, charges a nominal 6.5% annual interest rate, and has 36 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$287.50",
+      "$343.56",
+      "$56.06"
+    ],
+    "explanation": "Use P = $10,350.00, r = 6.5/1200, and n = 36. Payment = $10,350.00 × (6.5/1200) ÷ [1 − (1 + 6.5/1200)^(−36)] = $317.22.",
+    "numericAnswer": {
+      "value": 317.22,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-09",
+    "kind": "calculation",
+    "term": "$293.36",
+    "definition": "A fixed-rate loan advances $10,900.00, charges a nominal 7.0% annual interest rate, and has 42 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$259.52",
+      "$323.11",
+      "$63.58"
+    ],
+    "explanation": "Use P = $10,900.00, r = 7/1200, and n = 42. Payment = $10,900.00 × (7/1200) ÷ [1 − (1 + 7/1200)^(−42)] = $293.36.",
+    "numericAnswer": {
+      "value": 293.36,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-10",
+    "kind": "calculation",
+    "term": "$276.85",
+    "definition": "A fixed-rate loan advances $11,450.00, charges a nominal 7.5% annual interest rate, and has 48 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$238.54",
+      "$310.10",
+      "$71.56"
+    ],
+    "explanation": "Use P = $11,450.00, r = 7.5/1200, and n = 48. Payment = $11,450.00 × (7.5/1200) ÷ [1 − (1 + 7.5/1200)^(−48)] = $276.85.",
+    "numericAnswer": {
+      "value": 276.85,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-11",
+    "kind": "calculation",
+    "term": "$542.73",
+    "definition": "A fixed-rate loan advances $12,000.00, charges a nominal 8.0% annual interest rate, and has 24 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$500.00",
+      "$580.00",
+      "$80.00"
+    ],
+    "explanation": "Use P = $12,000.00, r = 8/1200, and n = 24. Payment = $12,000.00 × (8/1200) ÷ [1 − (1 + 8/1200)^(−24)] = $542.73.",
+    "numericAnswer": {
+      "value": 542.73,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-12",
+    "kind": "calculation",
+    "term": "$465.83",
+    "definition": "A fixed-rate loan advances $12,550.00, charges a nominal 8.5% annual interest rate, and has 30 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$418.33",
+      "$507.23",
+      "$88.90"
+    ],
+    "explanation": "Use P = $12,550.00, r = 8.5/1200, and n = 30. Payment = $12,550.00 × (8.5/1200) ÷ [1 − (1 + 8.5/1200)^(−30)] = $465.83.",
+    "numericAnswer": {
+      "value": 465.83,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-13",
+    "kind": "calculation",
+    "term": "$398.53",
+    "definition": "A fixed-rate loan advances $13,100.00, charges a nominal 6.0% annual interest rate, and has 36 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$363.89",
+      "$429.39",
+      "$65.50"
+    ],
+    "explanation": "Use P = $13,100.00, r = 6/1200, and n = 36. Payment = $13,100.00 × (6/1200) ÷ [1 − (1 + 6/1200)^(−36)] = $398.53.",
+    "numericAnswer": {
+      "value": 398.53,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-14",
+    "kind": "calculation",
+    "term": "$364.24",
+    "definition": "A fixed-rate loan advances $13,650.00, charges a nominal 6.5% annual interest rate, and has 42 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$325.00",
+      "$398.94",
+      "$73.94"
+    ],
+    "explanation": "Use P = $13,650.00, r = 6.5/1200, and n = 42. Payment = $13,650.00 × (6.5/1200) ÷ [1 − (1 + 6.5/1200)^(−42)] = $364.24.",
+    "numericAnswer": {
+      "value": 364.24,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-15",
+    "kind": "calculation",
+    "term": "$340.04",
+    "definition": "A fixed-rate loan advances $14,200.00, charges a nominal 7.0% annual interest rate, and has 48 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$295.83",
+      "$378.67",
+      "$82.83"
+    ],
+    "explanation": "Use P = $14,200.00, r = 7/1200, and n = 48. Payment = $14,200.00 × (7/1200) ÷ [1 − (1 + 7/1200)^(−48)] = $340.04.",
+    "numericAnswer": {
+      "value": 340.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-16",
+    "kind": "calculation",
+    "term": "$663.74",
+    "definition": "A fixed-rate loan advances $14,750.00, charges a nominal 7.5% annual interest rate, and has 24 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$614.58",
+      "$706.77",
+      "$92.19"
+    ],
+    "explanation": "Use P = $14,750.00, r = 7.5/1200, and n = 24. Payment = $14,750.00 × (7.5/1200) ÷ [1 − (1 + 7.5/1200)^(−24)] = $663.74.",
+    "numericAnswer": {
+      "value": 663.74,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-17",
+    "kind": "calculation",
+    "term": "$564.39",
+    "definition": "A fixed-rate loan advances $15,300.00, charges a nominal 8.0% annual interest rate, and has 30 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$510.00",
+      "$612.00",
+      "$102.00"
+    ],
+    "explanation": "Use P = $15,300.00, r = 8/1200, and n = 30. Payment = $15,300.00 × (8/1200) ÷ [1 − (1 + 8/1200)^(−30)] = $564.39.",
+    "numericAnswer": {
+      "value": 564.39,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-18",
+    "kind": "calculation",
+    "term": "$500.35",
+    "definition": "A fixed-rate loan advances $15,850.00, charges a nominal 8.5% annual interest rate, and has 36 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$440.28",
+      "$552.55",
+      "$112.27"
+    ],
+    "explanation": "Use P = $15,850.00, r = 8.5/1200, and n = 36. Payment = $15,850.00 × (8.5/1200) ÷ [1 − (1 + 8.5/1200)^(−36)] = $500.35.",
+    "numericAnswer": {
+      "value": 500.35,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-19",
+    "kind": "calculation",
+    "term": "$433.88",
+    "definition": "A fixed-rate loan advances $16,400.00, charges a nominal 6.0% annual interest rate, and has 42 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$390.48",
+      "$472.48",
+      "$82.00"
+    ],
+    "explanation": "Use P = $16,400.00, r = 6/1200, and n = 42. Payment = $16,400.00 × (6/1200) ÷ [1 − (1 + 6/1200)^(−42)] = $433.88.",
+    "numericAnswer": {
+      "value": 433.88,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-amortizing-loan-payment-20",
+    "kind": "calculation",
+    "term": "$401.97",
+    "definition": "A fixed-rate loan advances $16,950.00, charges a nominal 6.5% annual interest rate, and has 48 equal month-end payments. Interest is charged monthly on the unpaid balance at annual rate/12, with no fees. Using payment = P × r / [1 − (1 + r)^(−n)], what is the monthly payment? Keep full precision until the final answer. Round to the nearest cent.",
+    "distractors": [
+      "$353.13",
+      "$444.94",
+      "$91.81"
+    ],
+    "explanation": "Use P = $16,950.00, r = 6.5/1200, and n = 48. Payment = $16,950.00 × (6.5/1200) ÷ [1 − (1 + 6.5/1200)^(−48)] = $401.97.",
+    "numericAnswer": {
+      "value": 401.97,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-01",
+    "kind": "calculation",
+    "term": "$374.00",
+    "definition": "A loan starts the month with $9,200.00 of principal and a nominal 6.0% annual interest rate. One month's interest is charged at annual rate/12. A $420.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$420.00",
+      "$46.00",
+      "$466.00"
+    ],
+    "explanation": "Interest = $9,200.00 × 6/1200 = $46.00. Principal repaid = $420.00 − $46.00 = $374.00.",
+    "numericAnswer": {
+      "value": 374,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-02",
+    "kind": "calculation",
+    "term": "$391.10",
+    "definition": "A loan starts the month with $9,800.00 of principal and a nominal 6.6% annual interest rate. One month's interest is charged at annual rate/12. A $445.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$445.00",
+      "$53.90",
+      "$498.90"
+    ],
+    "explanation": "Interest = $9,800.00 × 6.6/1200 = $53.90. Principal repaid = $445.00 − $53.90 = $391.10.",
+    "numericAnswer": {
+      "value": 391.1,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-03",
+    "kind": "calculation",
+    "term": "$407.60",
+    "definition": "A loan starts the month with $10,400.00 of principal and a nominal 7.2% annual interest rate. One month's interest is charged at annual rate/12. A $470.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$470.00",
+      "$62.40",
+      "$532.40"
+    ],
+    "explanation": "Interest = $10,400.00 × 7.2/1200 = $62.40. Principal repaid = $470.00 − $62.40 = $407.60.",
+    "numericAnswer": {
+      "value": 407.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-04",
+    "kind": "calculation",
+    "term": "$423.50",
+    "definition": "A loan starts the month with $11,000.00 of principal and a nominal 7.8% annual interest rate. One month's interest is charged at annual rate/12. A $495.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$495.00",
+      "$71.50",
+      "$566.50"
+    ],
+    "explanation": "Interest = $11,000.00 × 7.8/1200 = $71.50. Principal repaid = $495.00 − $71.50 = $423.50.",
+    "numericAnswer": {
+      "value": 423.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-05",
+    "kind": "calculation",
+    "term": "$438.80",
+    "definition": "A loan starts the month with $11,600.00 of principal and a nominal 8.4% annual interest rate. One month's interest is charged at annual rate/12. A $520.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$520.00",
+      "$81.20",
+      "$601.20"
+    ],
+    "explanation": "Interest = $11,600.00 × 8.4/1200 = $81.20. Principal repaid = $520.00 − $81.20 = $438.80.",
+    "numericAnswer": {
+      "value": 438.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-06",
+    "kind": "calculation",
+    "term": "$484.00",
+    "definition": "A loan starts the month with $12,200.00 of principal and a nominal 6.0% annual interest rate. One month's interest is charged at annual rate/12. A $545.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$545.00",
+      "$61.00",
+      "$606.00"
+    ],
+    "explanation": "Interest = $12,200.00 × 6/1200 = $61.00. Principal repaid = $545.00 − $61.00 = $484.00.",
+    "numericAnswer": {
+      "value": 484,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-07",
+    "kind": "calculation",
+    "term": "$499.60",
+    "definition": "A loan starts the month with $12,800.00 of principal and a nominal 6.6% annual interest rate. One month's interest is charged at annual rate/12. A $570.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$570.00",
+      "$70.40",
+      "$640.40"
+    ],
+    "explanation": "Interest = $12,800.00 × 6.6/1200 = $70.40. Principal repaid = $570.00 − $70.40 = $499.60.",
+    "numericAnswer": {
+      "value": 499.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-08",
+    "kind": "calculation",
+    "term": "$514.60",
+    "definition": "A loan starts the month with $13,400.00 of principal and a nominal 7.2% annual interest rate. One month's interest is charged at annual rate/12. A $595.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$595.00",
+      "$80.40",
+      "$675.40"
+    ],
+    "explanation": "Interest = $13,400.00 × 7.2/1200 = $80.40. Principal repaid = $595.00 − $80.40 = $514.60.",
+    "numericAnswer": {
+      "value": 514.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-09",
+    "kind": "calculation",
+    "term": "$529.00",
+    "definition": "A loan starts the month with $14,000.00 of principal and a nominal 7.8% annual interest rate. One month's interest is charged at annual rate/12. A $620.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$620.00",
+      "$91.00",
+      "$711.00"
+    ],
+    "explanation": "Interest = $14,000.00 × 7.8/1200 = $91.00. Principal repaid = $620.00 − $91.00 = $529.00.",
+    "numericAnswer": {
+      "value": 529,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-10",
+    "kind": "calculation",
+    "term": "$542.80",
+    "definition": "A loan starts the month with $14,600.00 of principal and a nominal 8.4% annual interest rate. One month's interest is charged at annual rate/12. A $645.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$645.00",
+      "$102.20",
+      "$747.20"
+    ],
+    "explanation": "Interest = $14,600.00 × 8.4/1200 = $102.20. Principal repaid = $645.00 − $102.20 = $542.80.",
+    "numericAnswer": {
+      "value": 542.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-11",
+    "kind": "calculation",
+    "term": "$594.00",
+    "definition": "A loan starts the month with $15,200.00 of principal and a nominal 6.0% annual interest rate. One month's interest is charged at annual rate/12. A $670.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$670.00",
+      "$76.00",
+      "$746.00"
+    ],
+    "explanation": "Interest = $15,200.00 × 6/1200 = $76.00. Principal repaid = $670.00 − $76.00 = $594.00.",
+    "numericAnswer": {
+      "value": 594,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-12",
+    "kind": "calculation",
+    "term": "$608.10",
+    "definition": "A loan starts the month with $15,800.00 of principal and a nominal 6.6% annual interest rate. One month's interest is charged at annual rate/12. A $695.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$695.00",
+      "$86.90",
+      "$781.90"
+    ],
+    "explanation": "Interest = $15,800.00 × 6.6/1200 = $86.90. Principal repaid = $695.00 − $86.90 = $608.10.",
+    "numericAnswer": {
+      "value": 608.1,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-13",
+    "kind": "calculation",
+    "term": "$621.60",
+    "definition": "A loan starts the month with $16,400.00 of principal and a nominal 7.2% annual interest rate. One month's interest is charged at annual rate/12. A $720.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$720.00",
+      "$98.40",
+      "$818.40"
+    ],
+    "explanation": "Interest = $16,400.00 × 7.2/1200 = $98.40. Principal repaid = $720.00 − $98.40 = $621.60.",
+    "numericAnswer": {
+      "value": 621.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-14",
+    "kind": "calculation",
+    "term": "$634.50",
+    "definition": "A loan starts the month with $17,000.00 of principal and a nominal 7.8% annual interest rate. One month's interest is charged at annual rate/12. A $745.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$745.00",
+      "$110.50",
+      "$855.50"
+    ],
+    "explanation": "Interest = $17,000.00 × 7.8/1200 = $110.50. Principal repaid = $745.00 − $110.50 = $634.50.",
+    "numericAnswer": {
+      "value": 634.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-15",
+    "kind": "calculation",
+    "term": "$646.80",
+    "definition": "A loan starts the month with $17,600.00 of principal and a nominal 8.4% annual interest rate. One month's interest is charged at annual rate/12. A $770.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$770.00",
+      "$123.20",
+      "$893.20"
+    ],
+    "explanation": "Interest = $17,600.00 × 8.4/1200 = $123.20. Principal repaid = $770.00 − $123.20 = $646.80.",
+    "numericAnswer": {
+      "value": 646.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-16",
+    "kind": "calculation",
+    "term": "$704.00",
+    "definition": "A loan starts the month with $18,200.00 of principal and a nominal 6.0% annual interest rate. One month's interest is charged at annual rate/12. A $795.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$795.00",
+      "$91.00",
+      "$886.00"
+    ],
+    "explanation": "Interest = $18,200.00 × 6/1200 = $91.00. Principal repaid = $795.00 − $91.00 = $704.00.",
+    "numericAnswer": {
+      "value": 704,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-17",
+    "kind": "calculation",
+    "term": "$716.60",
+    "definition": "A loan starts the month with $18,800.00 of principal and a nominal 6.6% annual interest rate. One month's interest is charged at annual rate/12. A $820.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$820.00",
+      "$103.40",
+      "$923.40"
+    ],
+    "explanation": "Interest = $18,800.00 × 6.6/1200 = $103.40. Principal repaid = $820.00 − $103.40 = $716.60.",
+    "numericAnswer": {
+      "value": 716.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-18",
+    "kind": "calculation",
+    "term": "$728.60",
+    "definition": "A loan starts the month with $19,400.00 of principal and a nominal 7.2% annual interest rate. One month's interest is charged at annual rate/12. A $845.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$845.00",
+      "$116.40",
+      "$961.40"
+    ],
+    "explanation": "Interest = $19,400.00 × 7.2/1200 = $116.40. Principal repaid = $845.00 − $116.40 = $728.60.",
+    "numericAnswer": {
+      "value": 728.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-19",
+    "kind": "calculation",
+    "term": "$740.00",
+    "definition": "A loan starts the month with $20,000.00 of principal and a nominal 7.8% annual interest rate. One month's interest is charged at annual rate/12. A $870.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$870.00",
+      "$130.00",
+      "$1,000.00"
+    ],
+    "explanation": "Interest = $20,000.00 × 7.8/1200 = $130.00. Principal repaid = $870.00 − $130.00 = $740.00.",
+    "numericAnswer": {
+      "value": 740,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-first-payment-principal-20",
+    "kind": "calculation",
+    "term": "$750.80",
+    "definition": "A loan starts the month with $20,600.00 of principal and a nominal 8.4% annual interest rate. One month's interest is charged at annual rate/12. A $895.00 payment first covers all that interest, and the rest reduces principal. With no fees, how much principal does this payment repay?",
+    "distractors": [
+      "$895.00",
+      "$144.20",
+      "$1,039.20"
+    ],
+    "explanation": "Interest = $20,600.00 × 8.4/1200 = $144.20. Principal repaid = $895.00 − $144.20 = $750.80.",
+    "numericAnswer": {
+      "value": 750.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-01",
+    "kind": "calculation",
+    "term": "$1,280.08",
+    "definition": "You receive a $8,000.00 loan and make exactly 36 payments of $252.78, with no separate final adjustment. A $180.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$1,100.08",
+      "$9,280.08",
+      "$920.08"
+    ],
+    "explanation": "All payments total 36 × $252.78 = $9,100.08. Financing cost = payments − principal + upfront fee = $9,100.08 − $8,000.00 + $180.00 = $1,280.08.",
+    "numericAnswer": {
+      "value": 1280.08,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-02",
+    "kind": "calculation",
+    "term": "$1,387.04",
+    "definition": "You receive a $8,500.00 loan and make exactly 48 payments of $201.98, with no separate final adjustment. A $192.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$1,195.04",
+      "$9,887.04",
+      "$1,003.04"
+    ],
+    "explanation": "All payments total 48 × $201.98 = $9,695.04. Financing cost = payments − principal + upfront fee = $9,695.04 − $8,500.00 + $192.00 = $1,387.04.",
+    "numericAnswer": {
+      "value": 1387.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-03",
+    "kind": "calculation",
+    "term": "$1,494.00",
+    "definition": "You receive a $9,000.00 loan and make exactly 60 payments of $171.50, with no separate final adjustment. A $204.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$1,290.00",
+      "$10,494.00",
+      "$1,086.00"
+    ],
+    "explanation": "All payments total 60 × $171.50 = $10,290.00. Financing cost = payments − principal + upfront fee = $10,290.00 − $9,000.00 + $204.00 = $1,494.00.",
+    "numericAnswer": {
+      "value": 1494,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-04",
+    "kind": "calculation",
+    "term": "$1,600.96",
+    "definition": "You receive a $9,500.00 loan and make exactly 36 payments of $302.36, with no separate final adjustment. A $216.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$1,384.96",
+      "$11,100.96",
+      "$1,168.96"
+    ],
+    "explanation": "All payments total 36 × $302.36 = $10,884.96. Financing cost = payments − principal + upfront fee = $10,884.96 − $9,500.00 + $216.00 = $1,600.96.",
+    "numericAnswer": {
+      "value": 1600.96,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-05",
+    "kind": "calculation",
+    "term": "$1,708.16",
+    "definition": "You receive a $10,000.00 loan and make exactly 48 payments of $239.17, with no separate final adjustment. A $228.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$1,480.16",
+      "$11,708.16",
+      "$1,252.16"
+    ],
+    "explanation": "All payments total 48 × $239.17 = $11,480.16. Financing cost = payments − principal + upfront fee = $11,480.16 − $10,000.00 + $228.00 = $1,708.16.",
+    "numericAnswer": {
+      "value": 1708.16,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-06",
+    "kind": "calculation",
+    "term": "$1,815.00",
+    "definition": "You receive a $10,500.00 loan and make exactly 60 payments of $201.25, with no separate final adjustment. A $240.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$1,575.00",
+      "$12,315.00",
+      "$1,335.00"
+    ],
+    "explanation": "All payments total 60 × $201.25 = $12,075.00. Financing cost = payments − principal + upfront fee = $12,075.00 − $10,500.00 + $240.00 = $1,815.00.",
+    "numericAnswer": {
+      "value": 1815,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-07",
+    "kind": "calculation",
+    "term": "$1,921.84",
+    "definition": "You receive a $11,000.00 loan and make exactly 36 payments of $351.94, with no separate final adjustment. A $252.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$1,669.84",
+      "$12,921.84",
+      "$1,417.84"
+    ],
+    "explanation": "All payments total 36 × $351.94 = $12,669.84. Financing cost = payments − principal + upfront fee = $12,669.84 − $11,000.00 + $252.00 = $1,921.84.",
+    "numericAnswer": {
+      "value": 1921.84,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-08",
+    "kind": "calculation",
+    "term": "$2,028.80",
+    "definition": "You receive a $11,500.00 loan and make exactly 48 payments of $276.35, with no separate final adjustment. A $264.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$1,764.80",
+      "$13,528.80",
+      "$1,500.80"
+    ],
+    "explanation": "All payments total 48 × $276.35 = $13,264.80. Financing cost = payments − principal + upfront fee = $13,264.80 − $11,500.00 + $264.00 = $2,028.80.",
+    "numericAnswer": {
+      "value": 2028.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-09",
+    "kind": "calculation",
+    "term": "$2,136.00",
+    "definition": "You receive a $12,000.00 loan and make exactly 60 payments of $231.00, with no separate final adjustment. A $276.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$1,860.00",
+      "$14,136.00",
+      "$1,584.00"
+    ],
+    "explanation": "All payments total 60 × $231.00 = $13,860.00. Financing cost = payments − principal + upfront fee = $13,860.00 − $12,000.00 + $276.00 = $2,136.00.",
+    "numericAnswer": {
+      "value": 2136,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-10",
+    "kind": "calculation",
+    "term": "$2,243.08",
+    "definition": "You receive a $12,500.00 loan and make exactly 36 payments of $401.53, with no separate final adjustment. A $288.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$1,955.08",
+      "$14,743.08",
+      "$1,667.08"
+    ],
+    "explanation": "All payments total 36 × $401.53 = $14,455.08. Financing cost = payments − principal + upfront fee = $14,455.08 − $12,500.00 + $288.00 = $2,243.08.",
+    "numericAnswer": {
+      "value": 2243.08,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-11",
+    "kind": "calculation",
+    "term": "$2,349.92",
+    "definition": "You receive a $13,000.00 loan and make exactly 48 payments of $313.54, with no separate final adjustment. A $300.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$2,049.92",
+      "$15,349.92",
+      "$1,749.92"
+    ],
+    "explanation": "All payments total 48 × $313.54 = $15,049.92. Financing cost = payments − principal + upfront fee = $15,049.92 − $13,000.00 + $300.00 = $2,349.92.",
+    "numericAnswer": {
+      "value": 2349.92,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-12",
+    "kind": "calculation",
+    "term": "$2,457.00",
+    "definition": "You receive a $13,500.00 loan and make exactly 60 payments of $260.75, with no separate final adjustment. A $312.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$2,145.00",
+      "$15,957.00",
+      "$1,833.00"
+    ],
+    "explanation": "All payments total 60 × $260.75 = $15,645.00. Financing cost = payments − principal + upfront fee = $15,645.00 − $13,500.00 + $312.00 = $2,457.00.",
+    "numericAnswer": {
+      "value": 2457,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-13",
+    "kind": "calculation",
+    "term": "$2,563.96",
+    "definition": "You receive a $14,000.00 loan and make exactly 36 payments of $451.11, with no separate final adjustment. A $324.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$2,239.96",
+      "$16,563.96",
+      "$1,915.96"
+    ],
+    "explanation": "All payments total 36 × $451.11 = $16,239.96. Financing cost = payments − principal + upfront fee = $16,239.96 − $14,000.00 + $324.00 = $2,563.96.",
+    "numericAnswer": {
+      "value": 2563.96,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-14",
+    "kind": "calculation",
+    "term": "$2,671.04",
+    "definition": "You receive a $14,500.00 loan and make exactly 48 payments of $350.73, with no separate final adjustment. A $336.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$2,335.04",
+      "$17,171.04",
+      "$1,999.04"
+    ],
+    "explanation": "All payments total 48 × $350.73 = $16,835.04. Financing cost = payments − principal + upfront fee = $16,835.04 − $14,500.00 + $336.00 = $2,671.04.",
+    "numericAnswer": {
+      "value": 2671.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-15",
+    "kind": "calculation",
+    "term": "$2,778.00",
+    "definition": "You receive a $15,000.00 loan and make exactly 60 payments of $290.50, with no separate final adjustment. A $348.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$2,430.00",
+      "$17,778.00",
+      "$2,082.00"
+    ],
+    "explanation": "All payments total 60 × $290.50 = $17,430.00. Financing cost = payments − principal + upfront fee = $17,430.00 − $15,000.00 + $348.00 = $2,778.00.",
+    "numericAnswer": {
+      "value": 2778,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-16",
+    "kind": "calculation",
+    "term": "$2,884.84",
+    "definition": "You receive a $15,500.00 loan and make exactly 36 payments of $500.69, with no separate final adjustment. A $360.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$2,524.84",
+      "$18,384.84",
+      "$2,164.84"
+    ],
+    "explanation": "All payments total 36 × $500.69 = $18,024.84. Financing cost = payments − principal + upfront fee = $18,024.84 − $15,500.00 + $360.00 = $2,884.84.",
+    "numericAnswer": {
+      "value": 2884.84,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-17",
+    "kind": "calculation",
+    "term": "$2,992.16",
+    "definition": "You receive a $16,000.00 loan and make exactly 48 payments of $387.92, with no separate final adjustment. A $372.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$2,620.16",
+      "$18,992.16",
+      "$2,248.16"
+    ],
+    "explanation": "All payments total 48 × $387.92 = $18,620.16. Financing cost = payments − principal + upfront fee = $18,620.16 − $16,000.00 + $372.00 = $2,992.16.",
+    "numericAnswer": {
+      "value": 2992.16,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-18",
+    "kind": "calculation",
+    "term": "$3,099.00",
+    "definition": "You receive a $16,500.00 loan and make exactly 60 payments of $320.25, with no separate final adjustment. A $384.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$2,715.00",
+      "$19,599.00",
+      "$2,331.00"
+    ],
+    "explanation": "All payments total 60 × $320.25 = $19,215.00. Financing cost = payments − principal + upfront fee = $19,215.00 − $16,500.00 + $384.00 = $3,099.00.",
+    "numericAnswer": {
+      "value": 3099,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-19",
+    "kind": "calculation",
+    "term": "$3,206.08",
+    "definition": "You receive a $17,000.00 loan and make exactly 36 payments of $550.28, with no separate final adjustment. A $396.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$2,810.08",
+      "$20,206.08",
+      "$2,414.08"
+    ],
+    "explanation": "All payments total 36 × $550.28 = $19,810.08. Financing cost = payments − principal + upfront fee = $19,810.08 − $17,000.00 + $396.00 = $3,206.08.",
+    "numericAnswer": {
+      "value": 3206.08,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-scheduled-loan-total-financing-cost-20",
+    "kind": "calculation",
+    "term": "$3,312.80",
+    "definition": "You receive a $17,500.00 loan and make exactly 48 payments of $425.10, with no separate final adjustment. A $408.00 origination fee is paid in cash at the start, outside those payments. What is total financing cost above the amount borrowed?",
+    "distractors": [
+      "$2,904.80",
+      "$20,812.80",
+      "$2,496.80"
+    ],
+    "explanation": "All payments total 48 × $425.10 = $20,404.80. Financing cost = payments − principal + upfront fee = $20,404.80 − $17,500.00 + $408.00 = $3,312.80.",
+    "numericAnswer": {
+      "value": 3312.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-01",
+    "kind": "calculation",
+    "term": "$1,440.83",
+    "definition": "Borrow $1,400.00 for exactly 5/12 years at 7.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment? Round to the nearest cent.",
+    "distractors": [
+      "$40.83",
+      "$1,498.00",
+      "$1,890.00"
+    ],
+    "explanation": "Interest = $1,400.00 × 7/100 × 5/12 = $40.83. Add the principal to obtain $1,440.83.",
+    "numericAnswer": {
+      "value": 1440.83,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-02",
+    "kind": "calculation",
+    "term": "$1,586.00",
+    "definition": "Borrow $1,525.00 for exactly 6/12 years at 8.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment?",
+    "distractors": [
+      "$61.00",
+      "$1,647.00",
+      "$2,257.00"
+    ],
+    "explanation": "Interest = $1,525.00 × 8/100 × 6/12 = $61.00. Add the principal to obtain $1,586.00.",
+    "numericAnswer": {
+      "value": 1586,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-03",
+    "kind": "calculation",
+    "term": "$1,736.63",
+    "definition": "Borrow $1,650.00 for exactly 7/12 years at 9.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment? Round to the nearest cent.",
+    "distractors": [
+      "$86.63",
+      "$1,798.50",
+      "$2,689.50"
+    ],
+    "explanation": "Interest = $1,650.00 × 9/100 × 7/12 = $86.63. Add the principal to obtain $1,736.63.",
+    "numericAnswer": {
+      "value": 1736.63,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-04",
+    "kind": "calculation",
+    "term": "$1,893.33",
+    "definition": "Borrow $1,775.00 for exactly 8/12 years at 10.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment? Round to the nearest cent.",
+    "distractors": [
+      "$118.33",
+      "$1,952.50",
+      "$3,195.00"
+    ],
+    "explanation": "Interest = $1,775.00 × 10/100 × 8/12 = $118.33. Add the principal to obtain $1,893.33.",
+    "numericAnswer": {
+      "value": 1893.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-05",
+    "kind": "calculation",
+    "term": "$2,056.75",
+    "definition": "Borrow $1,900.00 for exactly 9/12 years at 11.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment?",
+    "distractors": [
+      "$156.75",
+      "$2,109.00",
+      "$3,781.00"
+    ],
+    "explanation": "Interest = $1,900.00 × 11/100 × 9/12 = $156.75. Add the principal to obtain $2,056.75.",
+    "numericAnswer": {
+      "value": 2056.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-06",
+    "kind": "calculation",
+    "term": "$2,143.13",
+    "definition": "Borrow $2,025.00 for exactly 10/12 years at 7.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment? Round to the nearest cent.",
+    "distractors": [
+      "$118.13",
+      "$2,166.75",
+      "$3,442.50"
+    ],
+    "explanation": "Interest = $2,025.00 × 7/100 × 10/12 = $118.13. Add the principal to obtain $2,143.13.",
+    "numericAnswer": {
+      "value": 2143.13,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-07",
+    "kind": "calculation",
+    "term": "$2,307.67",
+    "definition": "Borrow $2,150.00 for exactly 11/12 years at 8.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment? Round to the nearest cent.",
+    "distractors": [
+      "$157.67",
+      "$2,322.00",
+      "$4,042.00"
+    ],
+    "explanation": "Interest = $2,150.00 × 8/100 × 11/12 = $157.67. Add the principal to obtain $2,307.67.",
+    "numericAnswer": {
+      "value": 2307.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-08",
+    "kind": "calculation",
+    "term": "$2,479.75",
+    "definition": "Borrow $2,275.00 for exactly 12/12 years at 9.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment?",
+    "distractors": [
+      "$204.75",
+      "$4,732.00",
+      "$394.33"
+    ],
+    "explanation": "Interest = $2,275.00 × 9/100 × 12/12 = $204.75. Add the principal to obtain $2,479.75.",
+    "numericAnswer": {
+      "value": 2479.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-09",
+    "kind": "calculation",
+    "term": "$2,660.00",
+    "definition": "Borrow $2,400.00 for exactly 13/12 years at 10.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment?",
+    "distractors": [
+      "$260.00",
+      "$2,640.00",
+      "$5,520.00"
+    ],
+    "explanation": "Interest = $2,400.00 × 10/100 × 13/12 = $260.00. Add the principal to obtain $2,660.00.",
+    "numericAnswer": {
+      "value": 2660,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-10",
+    "kind": "calculation",
+    "term": "$2,849.04",
+    "definition": "Borrow $2,525.00 for exactly 14/12 years at 11.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment? Round to the nearest cent.",
+    "distractors": [
+      "$324.04",
+      "$2,802.75",
+      "$6,413.50"
+    ],
+    "explanation": "Interest = $2,525.00 × 11/100 × 14/12 = $324.04. Add the principal to obtain $2,849.04.",
+    "numericAnswer": {
+      "value": 2849.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-11",
+    "kind": "calculation",
+    "term": "$2,727.29",
+    "definition": "Borrow $2,650.00 for exactly 5/12 years at 7.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment? Round to the nearest cent.",
+    "distractors": [
+      "$77.29",
+      "$2,835.50",
+      "$3,577.50"
+    ],
+    "explanation": "Interest = $2,650.00 × 7/100 × 5/12 = $77.29. Add the principal to obtain $2,727.29.",
+    "numericAnswer": {
+      "value": 2727.29,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-12",
+    "kind": "calculation",
+    "term": "$2,886.00",
+    "definition": "Borrow $2,775.00 for exactly 6/12 years at 8.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment?",
+    "distractors": [
+      "$111.00",
+      "$2,997.00",
+      "$4,107.00"
+    ],
+    "explanation": "Interest = $2,775.00 × 8/100 × 6/12 = $111.00. Add the principal to obtain $2,886.00.",
+    "numericAnswer": {
+      "value": 2886,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-13",
+    "kind": "calculation",
+    "term": "$3,052.25",
+    "definition": "Borrow $2,900.00 for exactly 7/12 years at 9.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment?",
+    "distractors": [
+      "$152.25",
+      "$3,161.00",
+      "$4,727.00"
+    ],
+    "explanation": "Interest = $2,900.00 × 9/100 × 7/12 = $152.25. Add the principal to obtain $3,052.25.",
+    "numericAnswer": {
+      "value": 3052.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-14",
+    "kind": "calculation",
+    "term": "$3,226.67",
+    "definition": "Borrow $3,025.00 for exactly 8/12 years at 10.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment? Round to the nearest cent.",
+    "distractors": [
+      "$201.67",
+      "$3,327.50",
+      "$5,445.00"
+    ],
+    "explanation": "Interest = $3,025.00 × 10/100 × 8/12 = $201.67. Add the principal to obtain $3,226.67.",
+    "numericAnswer": {
+      "value": 3226.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-15",
+    "kind": "calculation",
+    "term": "$3,409.88",
+    "definition": "Borrow $3,150.00 for exactly 9/12 years at 11.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment? Round to the nearest cent.",
+    "distractors": [
+      "$259.88",
+      "$3,496.50",
+      "$6,268.50"
+    ],
+    "explanation": "Interest = $3,150.00 × 11/100 × 9/12 = $259.88. Add the principal to obtain $3,409.88.",
+    "numericAnswer": {
+      "value": 3409.88,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-16",
+    "kind": "calculation",
+    "term": "$3,466.04",
+    "definition": "Borrow $3,275.00 for exactly 10/12 years at 7.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment? Round to the nearest cent.",
+    "distractors": [
+      "$191.04",
+      "$3,504.25",
+      "$5,567.50"
+    ],
+    "explanation": "Interest = $3,275.00 × 7/100 × 10/12 = $191.04. Add the principal to obtain $3,466.04.",
+    "numericAnswer": {
+      "value": 3466.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-17",
+    "kind": "calculation",
+    "term": "$3,649.33",
+    "definition": "Borrow $3,400.00 for exactly 11/12 years at 8.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment? Round to the nearest cent.",
+    "distractors": [
+      "$249.33",
+      "$3,672.00",
+      "$6,392.00"
+    ],
+    "explanation": "Interest = $3,400.00 × 8/100 × 11/12 = $249.33. Add the principal to obtain $3,649.33.",
+    "numericAnswer": {
+      "value": 3649.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-18",
+    "kind": "calculation",
+    "term": "$3,842.25",
+    "definition": "Borrow $3,525.00 for exactly 12/12 years at 9.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment?",
+    "distractors": [
+      "$317.25",
+      "$7,332.00",
+      "$611.00"
+    ],
+    "explanation": "Interest = $3,525.00 × 9/100 × 12/12 = $317.25. Add the principal to obtain $3,842.25.",
+    "numericAnswer": {
+      "value": 3842.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-19",
+    "kind": "calculation",
+    "term": "$4,045.42",
+    "definition": "Borrow $3,650.00 for exactly 13/12 years at 10.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment? Round to the nearest cent.",
+    "distractors": [
+      "$395.42",
+      "$4,015.00",
+      "$8,395.00"
+    ],
+    "explanation": "Interest = $3,650.00 × 10/100 × 13/12 = $395.42. Add the principal to obtain $4,045.42.",
+    "numericAnswer": {
+      "value": 4045.42,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-simple-loan-lump-sum-payoff-20",
+    "kind": "calculation",
+    "term": "$4,259.46",
+    "definition": "Borrow $3,775.00 for exactly 14/12 years at 11.0% annual simple interest. No installments, compounding, or fees apply; principal and interest are paid together at maturity. What is the maturity payment? Round to the nearest cent.",
+    "distractors": [
+      "$484.46",
+      "$4,190.25",
+      "$9,588.50"
+    ],
+    "explanation": "Interest = $3,775.00 × 11/100 × 14/12 = $484.46. Add the principal to obtain $4,259.46.",
+    "numericAnswer": {
+      "value": 4259.46,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-01",
+    "kind": "calculation",
+    "term": "$3,571.43",
+    "definition": "You need exactly $3,500.00 in usable loan proceeds. A lender withholds a 2.0% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$3,570.00",
+      "$3,430.00",
+      "$175,000.00"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 2/100). Solve face amount = $3,500.00 ÷ (1 − 2/100) = $3,571.43. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 3571.43,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-02",
+    "kind": "calculation",
+    "term": "$3,825.64",
+    "definition": "You need exactly $3,730.00 in usable loan proceeds. A lender withholds a 2.5% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$3,823.25",
+      "$3,636.75",
+      "$149,200.00"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 2.5/100). Solve face amount = $3,730.00 ÷ (1 − 2.5/100) = $3,825.64. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 3825.64,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-03",
+    "kind": "calculation",
+    "term": "$4,082.47",
+    "definition": "You need exactly $3,960.00 in usable loan proceeds. A lender withholds a 3.0% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$4,078.80",
+      "$3,841.20",
+      "$132,000.00"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 3/100). Solve face amount = $3,960.00 ÷ (1 − 3/100) = $4,082.47. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 4082.47,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-04",
+    "kind": "calculation",
+    "term": "$4,341.97",
+    "definition": "You need exactly $4,190.00 in usable loan proceeds. A lender withholds a 3.5% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$4,336.65",
+      "$4,043.35",
+      "$119,714.29"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 3.5/100). Solve face amount = $4,190.00 ÷ (1 − 3.5/100) = $4,341.97. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 4341.97,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-05",
+    "kind": "calculation",
+    "term": "$4,604.17",
+    "definition": "You need exactly $4,420.00 in usable loan proceeds. A lender withholds a 4.0% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$4,596.80",
+      "$4,243.20",
+      "$110,500.00"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 4/100). Solve face amount = $4,420.00 ÷ (1 − 4/100) = $4,604.17. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 4604.17,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-06",
+    "kind": "calculation",
+    "term": "$4,744.90",
+    "definition": "You need exactly $4,650.00 in usable loan proceeds. A lender withholds a 2.0% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$4,743.00",
+      "$4,557.00",
+      "$232,500.00"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 2/100). Solve face amount = $4,650.00 ÷ (1 − 2/100) = $4,744.90. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 4744.9,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-07",
+    "kind": "calculation",
+    "term": "$5,005.13",
+    "definition": "You need exactly $4,880.00 in usable loan proceeds. A lender withholds a 2.5% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$5,002.00",
+      "$4,758.00",
+      "$195,200.00"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 2.5/100). Solve face amount = $4,880.00 ÷ (1 − 2.5/100) = $5,005.13. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 5005.13,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-08",
+    "kind": "calculation",
+    "term": "$5,268.04",
+    "definition": "You need exactly $5,110.00 in usable loan proceeds. A lender withholds a 3.0% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$5,263.30",
+      "$4,956.70",
+      "$170,333.33"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 3/100). Solve face amount = $5,110.00 ÷ (1 − 3/100) = $5,268.04. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 5268.04,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-09",
+    "kind": "calculation",
+    "term": "$5,533.68",
+    "definition": "You need exactly $5,340.00 in usable loan proceeds. A lender withholds a 3.5% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$5,526.90",
+      "$5,153.10",
+      "$152,571.43"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 3.5/100). Solve face amount = $5,340.00 ÷ (1 − 3.5/100) = $5,533.68. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 5533.68,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-10",
+    "kind": "calculation",
+    "term": "$5,802.08",
+    "definition": "You need exactly $5,570.00 in usable loan proceeds. A lender withholds a 4.0% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$5,792.80",
+      "$5,347.20",
+      "$139,250.00"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 4/100). Solve face amount = $5,570.00 ÷ (1 − 4/100) = $5,802.08. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 5802.08,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-11",
+    "kind": "calculation",
+    "term": "$5,918.37",
+    "definition": "You need exactly $5,800.00 in usable loan proceeds. A lender withholds a 2.0% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$5,916.00",
+      "$5,684.00",
+      "$290,000.00"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 2/100). Solve face amount = $5,800.00 ÷ (1 − 2/100) = $5,918.37. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 5918.37,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-12",
+    "kind": "calculation",
+    "term": "$6,184.62",
+    "definition": "You need exactly $6,030.00 in usable loan proceeds. A lender withholds a 2.5% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$6,180.75",
+      "$5,879.25",
+      "$241,200.00"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 2.5/100). Solve face amount = $6,030.00 ÷ (1 − 2.5/100) = $6,184.62. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 6184.62,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-13",
+    "kind": "calculation",
+    "term": "$6,453.61",
+    "definition": "You need exactly $6,260.00 in usable loan proceeds. A lender withholds a 3.0% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$6,447.80",
+      "$6,072.20",
+      "$208,666.67"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 3/100). Solve face amount = $6,260.00 ÷ (1 − 3/100) = $6,453.61. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 6453.61,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-14",
+    "kind": "calculation",
+    "term": "$6,725.39",
+    "definition": "You need exactly $6,490.00 in usable loan proceeds. A lender withholds a 3.5% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$6,717.15",
+      "$6,262.85",
+      "$185,428.57"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 3.5/100). Solve face amount = $6,490.00 ÷ (1 − 3.5/100) = $6,725.39. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 6725.39,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-15",
+    "kind": "calculation",
+    "term": "$7,000.00",
+    "definition": "You need exactly $6,720.00 in usable loan proceeds. A lender withholds a 4.0% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required?",
+    "distractors": [
+      "$6,988.80",
+      "$6,451.20",
+      "$168,000.00"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 4/100). Solve face amount = $6,720.00 ÷ (1 − 4/100) = $7,000.00. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 7000,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-16",
+    "kind": "calculation",
+    "term": "$7,091.84",
+    "definition": "You need exactly $6,950.00 in usable loan proceeds. A lender withholds a 2.0% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$7,089.00",
+      "$6,811.00",
+      "$347,500.00"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 2/100). Solve face amount = $6,950.00 ÷ (1 − 2/100) = $7,091.84. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 7091.84,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-17",
+    "kind": "calculation",
+    "term": "$7,364.10",
+    "definition": "You need exactly $7,180.00 in usable loan proceeds. A lender withholds a 2.5% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$7,359.50",
+      "$7,000.50",
+      "$287,200.00"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 2.5/100). Solve face amount = $7,180.00 ÷ (1 − 2.5/100) = $7,364.10. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 7364.1,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-18",
+    "kind": "calculation",
+    "term": "$7,639.18",
+    "definition": "You need exactly $7,410.00 in usable loan proceeds. A lender withholds a 3.0% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$7,632.30",
+      "$7,187.70",
+      "$247,000.00"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 3/100). Solve face amount = $7,410.00 ÷ (1 − 3/100) = $7,639.18. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 7639.18,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-19",
+    "kind": "calculation",
+    "term": "$7,917.10",
+    "definition": "You need exactly $7,640.00 in usable loan proceeds. A lender withholds a 3.5% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$7,907.40",
+      "$7,372.60",
+      "$218,285.71"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 3.5/100). Solve face amount = $7,640.00 ÷ (1 − 3.5/100) = $7,917.10. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 7917.1,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-loan-net-proceeds-gross-up-20",
+    "kind": "calculation",
+    "term": "$8,197.92",
+    "definition": "You need exactly $7,870.00 in usable loan proceeds. A lender withholds a 4.0% origination fee from the face amount when funding the loan. With no other deductions, what face amount is required? Round to the nearest cent.",
+    "distractors": [
+      "$8,184.80",
+      "$7,555.20",
+      "$196,750.00"
+    ],
+    "explanation": "Usable proceeds = face amount × (1 − 4/100). Solve face amount = $7,870.00 ÷ (1 − 4/100) = $8,197.92. This face amount, before fees, is the principal owed.",
+    "numericAnswer": {
+      "value": 8197.92,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-01",
+    "kind": "calculation",
+    "term": "$284.00",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 32.0% of $4,200.00 gross monthly income. Existing housing debt payments are $900.00 and other debt payments are $160.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$1,344.00",
+      "$1,184.00",
+      "$444.00"
+    ],
+    "explanation": "Total allowed = $4,200.00 × 32.0% = $1,344.00. Subtract existing debt payments: $1,344.00 − $900.00 − $160.00 = $284.00.",
+    "numericAnswer": {
+      "value": 284,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-02",
+    "kind": "calculation",
+    "term": "$350.10",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 33.0% of $4,370.00 gross monthly income. Existing housing debt payments are $925.00 and other debt payments are $167.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$1,442.10",
+      "$1,275.10",
+      "$517.10"
+    ],
+    "explanation": "Total allowed = $4,370.00 × 33.0% = $1,442.10. Subtract existing debt payments: $1,442.10 − $925.00 − $167.00 = $350.10.",
+    "numericAnswer": {
+      "value": 350.1,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-03",
+    "kind": "calculation",
+    "term": "$419.60",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 34.0% of $4,540.00 gross monthly income. Existing housing debt payments are $950.00 and other debt payments are $174.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$1,543.60",
+      "$1,369.60",
+      "$593.60"
+    ],
+    "explanation": "Total allowed = $4,540.00 × 34.0% = $1,543.60. Subtract existing debt payments: $1,543.60 − $950.00 − $174.00 = $419.60.",
+    "numericAnswer": {
+      "value": 419.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-04",
+    "kind": "calculation",
+    "term": "$492.50",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 35.0% of $4,710.00 gross monthly income. Existing housing debt payments are $975.00 and other debt payments are $181.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$1,648.50",
+      "$1,467.50",
+      "$673.50"
+    ],
+    "explanation": "Total allowed = $4,710.00 × 35.0% = $1,648.50. Subtract existing debt payments: $1,648.50 − $975.00 − $181.00 = $492.50.",
+    "numericAnswer": {
+      "value": 492.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-05",
+    "kind": "calculation",
+    "term": "$568.80",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 36.0% of $4,880.00 gross monthly income. Existing housing debt payments are $1,000.00 and other debt payments are $188.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$1,756.80",
+      "$1,568.80",
+      "$756.80"
+    ],
+    "explanation": "Total allowed = $4,880.00 × 36.0% = $1,756.80. Subtract existing debt payments: $1,756.80 − $1,000.00 − $188.00 = $568.80.",
+    "numericAnswer": {
+      "value": 568.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-06",
+    "kind": "calculation",
+    "term": "$396.00",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 32.0% of $5,050.00 gross monthly income. Existing housing debt payments are $1,025.00 and other debt payments are $195.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$1,616.00",
+      "$1,421.00",
+      "$591.00"
+    ],
+    "explanation": "Total allowed = $5,050.00 × 32.0% = $1,616.00. Subtract existing debt payments: $1,616.00 − $1,025.00 − $195.00 = $396.00.",
+    "numericAnswer": {
+      "value": 396,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-07",
+    "kind": "calculation",
+    "term": "$470.60",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 33.0% of $5,220.00 gross monthly income. Existing housing debt payments are $1,050.00 and other debt payments are $202.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$1,722.60",
+      "$1,520.60",
+      "$672.60"
+    ],
+    "explanation": "Total allowed = $5,220.00 × 33.0% = $1,722.60. Subtract existing debt payments: $1,722.60 − $1,050.00 − $202.00 = $470.60.",
+    "numericAnswer": {
+      "value": 470.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-08",
+    "kind": "calculation",
+    "term": "$548.60",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 34.0% of $5,390.00 gross monthly income. Existing housing debt payments are $1,075.00 and other debt payments are $209.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$1,832.60",
+      "$1,623.60",
+      "$757.60"
+    ],
+    "explanation": "Total allowed = $5,390.00 × 34.0% = $1,832.60. Subtract existing debt payments: $1,832.60 − $1,075.00 − $209.00 = $548.60.",
+    "numericAnswer": {
+      "value": 548.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-09",
+    "kind": "calculation",
+    "term": "$630.00",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 35.0% of $5,560.00 gross monthly income. Existing housing debt payments are $1,100.00 and other debt payments are $216.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$1,946.00",
+      "$1,730.00",
+      "$846.00"
+    ],
+    "explanation": "Total allowed = $5,560.00 × 35.0% = $1,946.00. Subtract existing debt payments: $1,946.00 − $1,100.00 − $216.00 = $630.00.",
+    "numericAnswer": {
+      "value": 630,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-10",
+    "kind": "calculation",
+    "term": "$714.80",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 36.0% of $5,730.00 gross monthly income. Existing housing debt payments are $1,125.00 and other debt payments are $223.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$2,062.80",
+      "$1,839.80",
+      "$937.80"
+    ],
+    "explanation": "Total allowed = $5,730.00 × 36.0% = $2,062.80. Subtract existing debt payments: $2,062.80 − $1,125.00 − $223.00 = $714.80.",
+    "numericAnswer": {
+      "value": 714.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-11",
+    "kind": "calculation",
+    "term": "$508.00",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 32.0% of $5,900.00 gross monthly income. Existing housing debt payments are $1,150.00 and other debt payments are $230.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$1,888.00",
+      "$1,658.00",
+      "$738.00"
+    ],
+    "explanation": "Total allowed = $5,900.00 × 32.0% = $1,888.00. Subtract existing debt payments: $1,888.00 − $1,150.00 − $230.00 = $508.00.",
+    "numericAnswer": {
+      "value": 508,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-12",
+    "kind": "calculation",
+    "term": "$591.10",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 33.0% of $6,070.00 gross monthly income. Existing housing debt payments are $1,175.00 and other debt payments are $237.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$2,003.10",
+      "$1,766.10",
+      "$828.10"
+    ],
+    "explanation": "Total allowed = $6,070.00 × 33.0% = $2,003.10. Subtract existing debt payments: $2,003.10 − $1,175.00 − $237.00 = $591.10.",
+    "numericAnswer": {
+      "value": 591.1,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-13",
+    "kind": "calculation",
+    "term": "$677.60",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 34.0% of $6,240.00 gross monthly income. Existing housing debt payments are $1,200.00 and other debt payments are $244.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$2,121.60",
+      "$1,877.60",
+      "$921.60"
+    ],
+    "explanation": "Total allowed = $6,240.00 × 34.0% = $2,121.60. Subtract existing debt payments: $2,121.60 − $1,200.00 − $244.00 = $677.60.",
+    "numericAnswer": {
+      "value": 677.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-14",
+    "kind": "calculation",
+    "term": "$767.50",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 35.0% of $6,410.00 gross monthly income. Existing housing debt payments are $1,225.00 and other debt payments are $251.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$2,243.50",
+      "$1,992.50",
+      "$1,018.50"
+    ],
+    "explanation": "Total allowed = $6,410.00 × 35.0% = $2,243.50. Subtract existing debt payments: $2,243.50 − $1,225.00 − $251.00 = $767.50.",
+    "numericAnswer": {
+      "value": 767.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-15",
+    "kind": "calculation",
+    "term": "$860.80",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 36.0% of $6,580.00 gross monthly income. Existing housing debt payments are $1,250.00 and other debt payments are $258.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$2,368.80",
+      "$2,110.80",
+      "$1,118.80"
+    ],
+    "explanation": "Total allowed = $6,580.00 × 36.0% = $2,368.80. Subtract existing debt payments: $2,368.80 − $1,250.00 − $258.00 = $860.80.",
+    "numericAnswer": {
+      "value": 860.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-16",
+    "kind": "calculation",
+    "term": "$620.00",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 32.0% of $6,750.00 gross monthly income. Existing housing debt payments are $1,275.00 and other debt payments are $265.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$2,160.00",
+      "$1,895.00",
+      "$885.00"
+    ],
+    "explanation": "Total allowed = $6,750.00 × 32.0% = $2,160.00. Subtract existing debt payments: $2,160.00 − $1,275.00 − $265.00 = $620.00.",
+    "numericAnswer": {
+      "value": 620,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-17",
+    "kind": "calculation",
+    "term": "$711.60",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 33.0% of $6,920.00 gross monthly income. Existing housing debt payments are $1,300.00 and other debt payments are $272.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$2,283.60",
+      "$2,011.60",
+      "$983.60"
+    ],
+    "explanation": "Total allowed = $6,920.00 × 33.0% = $2,283.60. Subtract existing debt payments: $2,283.60 − $1,300.00 − $272.00 = $711.60.",
+    "numericAnswer": {
+      "value": 711.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-18",
+    "kind": "calculation",
+    "term": "$806.60",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 34.0% of $7,090.00 gross monthly income. Existing housing debt payments are $1,325.00 and other debt payments are $279.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$2,410.60",
+      "$2,131.60",
+      "$1,085.60"
+    ],
+    "explanation": "Total allowed = $7,090.00 × 34.0% = $2,410.60. Subtract existing debt payments: $2,410.60 − $1,325.00 − $279.00 = $806.60.",
+    "numericAnswer": {
+      "value": 806.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-19",
+    "kind": "calculation",
+    "term": "$905.00",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 35.0% of $7,260.00 gross monthly income. Existing housing debt payments are $1,350.00 and other debt payments are $286.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$2,541.00",
+      "$2,255.00",
+      "$1,191.00"
+    ],
+    "explanation": "Total allowed = $7,260.00 × 35.0% = $2,541.00. Subtract existing debt payments: $2,541.00 − $1,350.00 − $286.00 = $905.00.",
+    "numericAnswer": {
+      "value": 905,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-debt-payment-capacity-20",
+    "kind": "calculation",
+    "term": "$1,006.80",
+    "definition": "For this exercise, a lender caps total monthly debt payments at 36.0% of $7,430.00 gross monthly income. Existing housing debt payments are $1,375.00 and other debt payments are $293.00. Under this hypothetical rule, what is the largest additional monthly loan payment allowed?",
+    "distractors": [
+      "$2,674.80",
+      "$2,381.80",
+      "$1,299.80"
+    ],
+    "explanation": "Total allowed = $7,430.00 × 36.0% = $2,674.80. Subtract existing debt payments: $2,674.80 − $1,375.00 − $293.00 = $1,006.80.",
+    "numericAnswer": {
+      "value": 1006.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-01",
+    "kind": "calculation",
+    "term": "16 months",
+    "definition": "Refinancing changes a payment from $420.00 to $377.00 each month and costs $650.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "15 months",
+      "2 months",
+      "17 months"
+    ],
+    "explanation": "Monthly savings = $420.00 − $377.00 = $43.00. $650.00 ÷ $43.00 = 15.116 months, so recovery needs 16 whole months.",
+    "numericAnswer": {
+      "value": 16,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-02",
+    "kind": "calculation",
+    "term": "16 months",
+    "definition": "Refinancing changes a payment from $436.00 to $390.00 each month and costs $705.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "15 months",
+      "2 months",
+      "17 months"
+    ],
+    "explanation": "Monthly savings = $436.00 − $390.00 = $46.00. $705.00 ÷ $46.00 = 15.326 months, so recovery needs 16 whole months.",
+    "numericAnswer": {
+      "value": 16,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-03",
+    "kind": "calculation",
+    "term": "16 months",
+    "definition": "Refinancing changes a payment from $452.00 to $403.00 each month and costs $760.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "15 months",
+      "2 months",
+      "17 months"
+    ],
+    "explanation": "Monthly savings = $452.00 − $403.00 = $49.00. $760.00 ÷ $49.00 = 15.510 months, so recovery needs 16 whole months.",
+    "numericAnswer": {
+      "value": 16,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-04",
+    "kind": "calculation",
+    "term": "16 months",
+    "definition": "Refinancing changes a payment from $468.00 to $416.00 each month and costs $815.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "15 months",
+      "2 months",
+      "17 months"
+    ],
+    "explanation": "Monthly savings = $468.00 − $416.00 = $52.00. $815.00 ÷ $52.00 = 15.673 months, so recovery needs 16 whole months.",
+    "numericAnswer": {
+      "value": 16,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-05",
+    "kind": "calculation",
+    "term": "16 months",
+    "definition": "Refinancing changes a payment from $484.00 to $429.00 each month and costs $870.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "15 months",
+      "3 months",
+      "2 months"
+    ],
+    "explanation": "Monthly savings = $484.00 − $429.00 = $55.00. $870.00 ÷ $55.00 = 15.818 months, so recovery needs 16 whole months.",
+    "numericAnswer": {
+      "value": 16,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-06",
+    "kind": "calculation",
+    "term": "16 months",
+    "definition": "Refinancing changes a payment from $500.00 to $442.00 each month and costs $925.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "15 months",
+      "3 months",
+      "2 months"
+    ],
+    "explanation": "Monthly savings = $500.00 − $442.00 = $58.00. $925.00 ÷ $58.00 = 15.948 months, so recovery needs 16 whole months.",
+    "numericAnswer": {
+      "value": 16,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-07",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "Refinancing changes a payment from $516.00 to $455.00 each month and costs $980.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "16 months",
+      "3 months",
+      "2 months"
+    ],
+    "explanation": "Monthly savings = $516.00 − $455.00 = $61.00. $980.00 ÷ $61.00 = 16.066 months, so recovery needs 17 whole months.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-08",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "Refinancing changes a payment from $532.00 to $468.00 each month and costs $1,035.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "16 months",
+      "3 months",
+      "2 months"
+    ],
+    "explanation": "Monthly savings = $532.00 − $468.00 = $64.00. $1,035.00 ÷ $64.00 = 16.172 months, so recovery needs 17 whole months.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-09",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "Refinancing changes a payment from $548.00 to $481.00 each month and costs $1,090.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "16 months",
+      "3 months",
+      "2 months"
+    ],
+    "explanation": "Monthly savings = $548.00 − $481.00 = $67.00. $1,090.00 ÷ $67.00 = 16.269 months, so recovery needs 17 whole months.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-10",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "Refinancing changes a payment from $564.00 to $494.00 each month and costs $1,145.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "16 months",
+      "3 months",
+      "18 months"
+    ],
+    "explanation": "Monthly savings = $564.00 − $494.00 = $70.00. $1,145.00 ÷ $70.00 = 16.357 months, so recovery needs 17 whole months.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-11",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "Refinancing changes a payment from $580.00 to $507.00 each month and costs $1,200.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "16 months",
+      "3 months",
+      "18 months"
+    ],
+    "explanation": "Monthly savings = $580.00 − $507.00 = $73.00. $1,200.00 ÷ $73.00 = 16.438 months, so recovery needs 17 whole months.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-12",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "Refinancing changes a payment from $596.00 to $520.00 each month and costs $1,255.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "16 months",
+      "3 months",
+      "18 months"
+    ],
+    "explanation": "Monthly savings = $596.00 − $520.00 = $76.00. $1,255.00 ÷ $76.00 = 16.513 months, so recovery needs 17 whole months.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-13",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "Refinancing changes a payment from $612.00 to $533.00 each month and costs $1,310.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "16 months",
+      "3 months",
+      "18 months"
+    ],
+    "explanation": "Monthly savings = $612.00 − $533.00 = $79.00. $1,310.00 ÷ $79.00 = 16.582 months, so recovery needs 17 whole months.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-14",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "Refinancing changes a payment from $628.00 to $546.00 each month and costs $1,365.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "16 months",
+      "3 months",
+      "18 months"
+    ],
+    "explanation": "Monthly savings = $628.00 − $546.00 = $82.00. $1,365.00 ÷ $82.00 = 16.646 months, so recovery needs 17 whole months.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-15",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "Refinancing changes a payment from $644.00 to $559.00 each month and costs $1,420.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "16 months",
+      "3 months",
+      "18 months"
+    ],
+    "explanation": "Monthly savings = $644.00 − $559.00 = $85.00. $1,420.00 ÷ $85.00 = 16.706 months, so recovery needs 17 whole months.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-16",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "Refinancing changes a payment from $660.00 to $572.00 each month and costs $1,475.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "16 months",
+      "3 months",
+      "18 months"
+    ],
+    "explanation": "Monthly savings = $660.00 − $572.00 = $88.00. $1,475.00 ÷ $88.00 = 16.761 months, so recovery needs 17 whole months.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-17",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "Refinancing changes a payment from $676.00 to $585.00 each month and costs $1,530.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "16 months",
+      "3 months",
+      "18 months"
+    ],
+    "explanation": "Monthly savings = $676.00 − $585.00 = $91.00. $1,530.00 ÷ $91.00 = 16.813 months, so recovery needs 17 whole months.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-18",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "Refinancing changes a payment from $692.00 to $598.00 each month and costs $1,585.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "16 months",
+      "3 months",
+      "18 months"
+    ],
+    "explanation": "Monthly savings = $692.00 − $598.00 = $94.00. $1,585.00 ÷ $94.00 = 16.862 months, so recovery needs 17 whole months.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-19",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "Refinancing changes a payment from $708.00 to $611.00 each month and costs $1,640.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "16 months",
+      "3 months",
+      "18 months"
+    ],
+    "explanation": "Monthly savings = $708.00 − $611.00 = $97.00. $1,640.00 ÷ $97.00 = 16.907 months, so recovery needs 17 whole months.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-refinance-fee-recovery-months-20",
+    "kind": "calculation",
+    "term": "17 months",
+    "definition": "Refinancing changes a payment from $724.00 to $624.00 each month and costs $1,695.00 upfront. Both loans have the same remaining term, which is long enough to recover the cost. Ignoring discounting and any other differences, after how many whole monthly savings is cumulative payment savings at least the upfront cost?",
+    "distractors": [
+      "16 months",
+      "3 months",
+      "18 months"
+    ],
+    "explanation": "Monthly savings = $724.00 − $624.00 = $100.00. $1,695.00 ÷ $100.00 = 16.950 months, so recovery needs 17 whole months.",
+    "numericAnswer": {
+      "value": 17,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-01",
+    "kind": "calculation",
+    "term": "$3.60",
+    "definition": "Immediately before a new monthly interest period, a loan has $7,400.00 principal. You make an extra $600.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 7.2%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference.",
+    "distractors": [
+      "$43.20",
+      "$40.80",
+      "$44.40"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$7,400.00 − ($7,400.00 − $600.00)] × 7.2/1200 = $600.00 × 7.2/1200, which rounds to $3.60 saved next month.",
+    "numericAnswer": {
+      "value": 3.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-02",
+    "kind": "calculation",
+    "term": "$4.26",
+    "definition": "Immediately before a new monthly interest period, a loan has $7,820.00 principal. You make an extra $655.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 7.8%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference. Round to the nearest cent.",
+    "distractors": [
+      "$51.09",
+      "$46.57",
+      "$50.83"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$7,820.00 − ($7,820.00 − $655.00)] × 7.8/1200 = $655.00 × 7.8/1200, which rounds to $4.26 saved next month.",
+    "numericAnswer": {
+      "value": 4.26,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-03",
+    "kind": "calculation",
+    "term": "$4.97",
+    "definition": "Immediately before a new monthly interest period, a loan has $8,240.00 principal. You make an extra $710.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 8.4%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference.",
+    "distractors": [
+      "$59.64",
+      "$52.71",
+      "$57.68"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$8,240.00 − ($8,240.00 − $710.00)] × 8.4/1200 = $710.00 × 8.4/1200, which rounds to $4.97 saved next month.",
+    "numericAnswer": {
+      "value": 4.97,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-04",
+    "kind": "calculation",
+    "term": "$5.74",
+    "definition": "Immediately before a new monthly interest period, a loan has $8,660.00 principal. You make an extra $765.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 9.0%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference. Round to the nearest cent.",
+    "distractors": [
+      "$68.85",
+      "$59.21",
+      "$64.95"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$8,660.00 − ($8,660.00 − $765.00)] × 9/1200 = $765.00 × 9/1200, which rounds to $5.74 saved next month.",
+    "numericAnswer": {
+      "value": 5.74,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-05",
+    "kind": "calculation",
+    "term": "$6.56",
+    "definition": "Immediately before a new monthly interest period, a loan has $9,080.00 principal. You make an extra $820.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 9.6%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference.",
+    "distractors": [
+      "$78.72",
+      "$66.08",
+      "$72.64"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$9,080.00 − ($9,080.00 − $820.00)] × 9.6/1200 = $820.00 × 9.6/1200, which rounds to $6.56 saved next month.",
+    "numericAnswer": {
+      "value": 6.56,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-06",
+    "kind": "calculation",
+    "term": "$5.25",
+    "definition": "Immediately before a new monthly interest period, a loan has $9,500.00 principal. You make an extra $875.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 7.2%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference.",
+    "distractors": [
+      "$63.00",
+      "$51.75",
+      "$57.00"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$9,500.00 − ($9,500.00 − $875.00)] × 7.2/1200 = $875.00 × 7.2/1200, which rounds to $5.25 saved next month.",
+    "numericAnswer": {
+      "value": 5.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-07",
+    "kind": "calculation",
+    "term": "$6.05",
+    "definition": "Immediately before a new monthly interest period, a loan has $9,920.00 principal. You make an extra $930.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 7.8%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference. Round to the nearest cent.",
+    "distractors": [
+      "$72.54",
+      "$58.44",
+      "$64.48"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$9,920.00 − ($9,920.00 − $930.00)] × 7.8/1200 = $930.00 × 7.8/1200, which rounds to $6.05 saved next month.",
+    "numericAnswer": {
+      "value": 6.05,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-08",
+    "kind": "calculation",
+    "term": "$6.90",
+    "definition": "Immediately before a new monthly interest period, a loan has $10,340.00 principal. You make an extra $985.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 8.4%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference. Round to the nearest cent.",
+    "distractors": [
+      "$82.74",
+      "$65.49",
+      "$72.38"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$10,340.00 − ($10,340.00 − $985.00)] × 8.4/1200 = $985.00 × 8.4/1200, which rounds to $6.90 saved next month.",
+    "numericAnswer": {
+      "value": 6.9,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-09",
+    "kind": "calculation",
+    "term": "$7.80",
+    "definition": "Immediately before a new monthly interest period, a loan has $10,760.00 principal. You make an extra $1,040.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 9.0%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference.",
+    "distractors": [
+      "$93.60",
+      "$72.90",
+      "$80.70"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$10,760.00 − ($10,760.00 − $1,040.00)] × 9/1200 = $1,040.00 × 9/1200, which rounds to $7.80 saved next month.",
+    "numericAnswer": {
+      "value": 7.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-10",
+    "kind": "calculation",
+    "term": "$8.76",
+    "definition": "Immediately before a new monthly interest period, a loan has $11,180.00 principal. You make an extra $1,095.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 9.6%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference.",
+    "distractors": [
+      "$105.12",
+      "$80.68",
+      "$89.44"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$11,180.00 − ($11,180.00 − $1,095.00)] × 9.6/1200 = $1,095.00 × 9.6/1200, which rounds to $8.76 saved next month.",
+    "numericAnswer": {
+      "value": 8.76,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-11",
+    "kind": "calculation",
+    "term": "$6.90",
+    "definition": "Immediately before a new monthly interest period, a loan has $11,600.00 principal. You make an extra $1,150.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 7.2%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference.",
+    "distractors": [
+      "$82.80",
+      "$62.70",
+      "$69.60"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$11,600.00 − ($11,600.00 − $1,150.00)] × 7.2/1200 = $1,150.00 × 7.2/1200, which rounds to $6.90 saved next month.",
+    "numericAnswer": {
+      "value": 6.9,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-12",
+    "kind": "calculation",
+    "term": "$7.83",
+    "definition": "Immediately before a new monthly interest period, a loan has $12,020.00 principal. You make an extra $1,205.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 7.8%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference. Round to the nearest cent.",
+    "distractors": [
+      "$93.99",
+      "$70.30",
+      "$78.13"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$12,020.00 − ($12,020.00 − $1,205.00)] × 7.8/1200 = $1,205.00 × 7.8/1200, which rounds to $7.83 saved next month.",
+    "numericAnswer": {
+      "value": 7.83,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-13",
+    "kind": "calculation",
+    "term": "$8.82",
+    "definition": "Immediately before a new monthly interest period, a loan has $12,440.00 principal. You make an extra $1,260.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 8.4%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference.",
+    "distractors": [
+      "$105.84",
+      "$78.26",
+      "$87.08"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$12,440.00 − ($12,440.00 − $1,260.00)] × 8.4/1200 = $1,260.00 × 8.4/1200, which rounds to $8.82 saved next month.",
+    "numericAnswer": {
+      "value": 8.82,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-14",
+    "kind": "calculation",
+    "term": "$9.86",
+    "definition": "Immediately before a new monthly interest period, a loan has $12,860.00 principal. You make an extra $1,315.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 9.0%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference. Round to the nearest cent.",
+    "distractors": [
+      "$118.35",
+      "$86.59",
+      "$96.45"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$12,860.00 − ($12,860.00 − $1,315.00)] × 9/1200 = $1,315.00 × 9/1200, which rounds to $9.86 saved next month.",
+    "numericAnswer": {
+      "value": 9.86,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-15",
+    "kind": "calculation",
+    "term": "$10.96",
+    "definition": "Immediately before a new monthly interest period, a loan has $13,280.00 principal. You make an extra $1,370.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 9.6%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference.",
+    "distractors": [
+      "$131.52",
+      "$95.28",
+      "$106.24"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$13,280.00 − ($13,280.00 − $1,370.00)] × 9.6/1200 = $1,370.00 × 9.6/1200, which rounds to $10.96 saved next month.",
+    "numericAnswer": {
+      "value": 10.96,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-16",
+    "kind": "calculation",
+    "term": "$8.55",
+    "definition": "Immediately before a new monthly interest period, a loan has $13,700.00 principal. You make an extra $1,425.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 7.2%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference.",
+    "distractors": [
+      "$102.60",
+      "$73.65",
+      "$82.20"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$13,700.00 − ($13,700.00 − $1,425.00)] × 7.2/1200 = $1,425.00 × 7.2/1200, which rounds to $8.55 saved next month.",
+    "numericAnswer": {
+      "value": 8.55,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-17",
+    "kind": "calculation",
+    "term": "$9.62",
+    "definition": "Immediately before a new monthly interest period, a loan has $14,120.00 principal. You make an extra $1,480.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 7.8%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference.",
+    "distractors": [
+      "$115.44",
+      "$82.16",
+      "$91.78"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$14,120.00 − ($14,120.00 − $1,480.00)] × 7.8/1200 = $1,480.00 × 7.8/1200, which rounds to $9.62 saved next month.",
+    "numericAnswer": {
+      "value": 9.62,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-18",
+    "kind": "calculation",
+    "term": "$10.75",
+    "definition": "Immediately before a new monthly interest period, a loan has $14,540.00 principal. You make an extra $1,535.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 8.4%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference. Round to the nearest cent.",
+    "distractors": [
+      "$128.94",
+      "$91.04",
+      "$101.78"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$14,540.00 − ($14,540.00 − $1,535.00)] × 8.4/1200 = $1,535.00 × 8.4/1200, which rounds to $10.75 saved next month.",
+    "numericAnswer": {
+      "value": 10.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-19",
+    "kind": "calculation",
+    "term": "$11.93",
+    "definition": "Immediately before a new monthly interest period, a loan has $14,960.00 principal. You make an extra $1,590.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 9.0%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference. Round to the nearest cent.",
+    "distractors": [
+      "$143.10",
+      "$100.28",
+      "$112.20"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$14,960.00 − ($14,960.00 − $1,590.00)] × 9/1200 = $1,590.00 × 9/1200, which rounds to $11.93 saved next month.",
+    "numericAnswer": {
+      "value": 11.93,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-extra-principal-next-interest-20",
+    "kind": "calculation",
+    "term": "$13.16",
+    "definition": "Immediately before a new monthly interest period, a loan has $15,380.00 principal. You make an extra $1,645.00 payment applied entirely to principal, with no penalty. The nominal annual interest rate is 9.6%, and next month's interest uses annual rate/12 on opening principal. How much lower is that next month's interest? Use unrounded interest amounts and round only the final difference.",
+    "distractors": [
+      "$157.92",
+      "$109.88",
+      "$123.04"
+    ],
+    "explanation": "Only the extra principal changes interest. The unrounded difference is [$15,380.00 − ($15,380.00 − $1,645.00)] × 9.6/1200 = $1,645.00 × 9.6/1200, which rounds to $13.16 saved next month.",
+    "numericAnswer": {
+      "value": 13.16,
+      "unit": "USD"
+    }
+  }
+]

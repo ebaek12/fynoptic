@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FLASHCARD_UNITS } from "../../data/flashcard-units";
+import { FLASHCARD_COUNTS } from "../../lib/flashcard-catalog";
 import {
   readStorage,
   unitProgress,
@@ -18,6 +18,7 @@ export interface FlashcardWizardProps {
   shuffleDeck: boolean;
   onShuffleDeckChange: (next: boolean) => void;
   onStart: () => void;
+  starting?: boolean;
 }
 
 export function FlashcardWizard({
@@ -29,6 +30,7 @@ export function FlashcardWizard({
   shuffleDeck,
   onShuffleDeckChange,
   onStart,
+  starting = false,
 }: FlashcardWizardProps) {
   const [step, setStep] = useState<1 | 2>(1);
   const [answers, setAnswers] = useState<Record<string, AnswerRecord>>({});
@@ -51,13 +53,14 @@ export function FlashcardWizard({
   }
   const count = unitsSelected.size;
   const cardCount = [...unitsSelected].reduce(
-    (sum, unit) => sum + (FLASHCARD_UNITS[unit]?.length ?? 0),
+    (sum, unit) => sum + (FLASHCARD_COUNTS[unit] ?? 0),
     0,
   );
 
   return (
     <StudySetup
       id="flashcard-setup"
+      busy={starting}
       step={step}
       labels={["Choose topics", "Choose a mode"]}
       title={
@@ -110,8 +113,15 @@ export function FlashcardWizard({
               className="study-primary"
               type="button"
               onClick={onStart}
+              disabled={starting}
             >
-              Start Session <span aria-hidden="true">→</span>
+              {starting ? (
+                "Loading cards…"
+              ) : (
+                <>
+                  Start Session <span aria-hidden="true">→</span>
+                </>
+              )}
             </button>
           </>
         )
@@ -134,7 +144,7 @@ export function FlashcardWizard({
             aria-label="Flashcard topics"
           >
             {allUnits.map((unit) => {
-              const cards = FLASHCARD_UNITS[unit] ?? [];
+              const cards = FLASHCARD_COUNTS[unit] ?? 0;
               const progress = unitProgress(answers, unit, cards);
               const checked = unitsSelected.has(unit);
               return (
@@ -148,13 +158,13 @@ export function FlashcardWizard({
                     type="checkbox"
                     checked={checked}
                     onChange={() => toggleUnit(unit)}
-                    aria-label={`${unit}, ${cards.length} cards, ${progress.pct}% mastered`}
+                    aria-label={`${unit}, ${cards} cards, ${progress.pct}% mastered`}
                   />
                   <SelectionMark />
                   <span className="study-topic-copy">
                     <span className="unit-name">{unit}</span>
                     <span className="study-meta">
-                      {cards.length} cards
+                      {cards} cards
                       {progress.pct > 0 && (
                         <span className="study-mastery">
                           {" "}

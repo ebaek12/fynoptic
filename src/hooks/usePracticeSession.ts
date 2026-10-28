@@ -18,14 +18,13 @@
 //   - The three divergent accuracy formulas (correct/asked,
 //     correct/(asked||1), and a ternary-guarded percent in the end-session
 //     modal) collapse into computeAccuracyPct below.
-//   - `explanation` is always '' in the shipped data, so the dead
-//     `q.explanation ? ... : ...` branches in the old markResponse are not
-//     ported — see Session.tsx's feedback text, which is just 'Correct!' /
-//     'Not quite.'.
+// New banks may provide explanations, which remain attached to timeline entries
+// so feedback stays the same when reviewing an earlier answer.
 import { useEffect, useRef, useState } from "react";
 import { shuffle } from "../lib/shuffle";
 import { showToast } from "../lib/toast";
-import { parseEconBank, parsePfBank } from "../schemas";
+import { parsePracticeBank } from "../schemas";
+import { mergePracticeBanks, PRACTICE_BANK_PATHS } from "../lib/practice-banks";
 import type { PracticeBank, PracticeDifficulty, PracticeItem } from "../types";
 
 export interface NormalizedQuestion {
@@ -172,7 +171,7 @@ export function normalizeQuestion(raw: PracticeItem): NormalizedQuestion {
     prompt: raw.question,
     choices,
     answerIndex,
-    explanation: "",
+    explanation: raw.explanation ?? "",
   };
 }
 
@@ -225,28 +224,14 @@ function pushTimelineEntry(session: Session, q: NormalizedQuestion): void {
   });
 }
 
-async function loadPF(): Promise<PracticeBank | null> {
+async function loadBank(path: string): Promise<PracticeBank | null> {
   try {
-    const res = await fetch("/data/pf_bank_modules_1of6.json");
+    const res = await fetch(path);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return parsePfBank(await res.json());
+    return parsePracticeBank(await res.json(), path);
   } catch (err) {
-    console.error("loadPF error:", err);
-    showToast("Could not load the question bank (check file path/name).");
-    return null;
-  }
-}
-
-async function loadEconomics(): Promise<PracticeBank | null> {
-  try {
-    const res = await fetch(
-      "/data/econ_grouped_by_module_unit_with_choices.json",
-    );
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return parseEconBank(await res.json());
-  } catch (err) {
-    console.error("loadEconomics error:", err);
-    showToast("Could not load Economics bank (check path).");
+    console.error(`Question bank failed to load: ${path}`, err);
+    showToast("Some practice questions could not load. Reload the page to try again.");
     return null;
   }
 }
@@ -254,7 +239,7 @@ async function loadEconomics(): Promise<PracticeBank | null> {
 export interface UsePracticeSessionResult {
   /** Merged question bank, keyed category -> topic -> difficulty -> items. */
   questions: PracticeBank;
-  /** True until both bank fetches have settled. */
+  /** True until all bank fetches have settled. */
   banksLoading: boolean;
   /** The live engine session, or null when no session is running. */
   session: Session | null;
@@ -287,9 +272,9 @@ export function usePracticeSession(): UsePracticeSessionResult {
 
   useEffect(() => {
     let cancelled = false;
-    void Promise.all([loadPF(), loadEconomics()]).then(([pf, econ]) => {
+    void Promise.all(PRACTICE_BANK_PATHS.map(loadBank)).then((banks) => {
       if (cancelled) return;
-      const merged = { ...(pf || {}), ...(econ || {}) };
+      const merged = mergePracticeBanks(banks);
       questionsRef.current = merged;
       setQuestions(merged);
       setBanksLoading(false);

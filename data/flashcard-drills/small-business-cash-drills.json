@@ -1,0 +1,2882 @@
+[
+  {
+    "id": "drill-invest-contribution-per-unit-01",
+    "kind": "calculation",
+    "term": "$2,250.00",
+    "definition": "A small business sells 90 units for $45.00 each. Each unit incurs $12.00 in materials and $8.00 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$4,050.00",
+      "$2,970.00",
+      "$3,330.00"
+    ],
+    "explanation": "Contribution per unit = $45.00 − $12.00 − $8.00 = $25.00. Total contribution = $25.00 × 90 = $2,250.00.",
+    "numericAnswer": {
+      "value": 2250,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-02",
+    "kind": "calculation",
+    "term": "$2,470.00",
+    "definition": "A small business sells 95 units for $47.00 each. Each unit incurs $12.70 in materials and $8.30 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$4,465.00",
+      "$3,258.50",
+      "$3,676.50"
+    ],
+    "explanation": "Contribution per unit = $47.00 − $12.70 − $8.30 = $26.00. Total contribution = $26.00 × 95 = $2,470.00.",
+    "numericAnswer": {
+      "value": 2470,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-03",
+    "kind": "calculation",
+    "term": "$2,700.00",
+    "definition": "A small business sells 100 units for $49.00 each. Each unit incurs $13.40 in materials and $8.60 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$4,900.00",
+      "$3,560.00",
+      "$4,040.00"
+    ],
+    "explanation": "Contribution per unit = $49.00 − $13.40 − $8.60 = $27.00. Total contribution = $27.00 × 100 = $2,700.00.",
+    "numericAnswer": {
+      "value": 2700,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-04",
+    "kind": "calculation",
+    "term": "$2,940.00",
+    "definition": "A small business sells 105 units for $51.00 each. Each unit incurs $14.10 in materials and $8.90 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$5,355.00",
+      "$3,874.50",
+      "$4,420.50"
+    ],
+    "explanation": "Contribution per unit = $51.00 − $14.10 − $8.90 = $28.00. Total contribution = $28.00 × 105 = $2,940.00.",
+    "numericAnswer": {
+      "value": 2940,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-05",
+    "kind": "calculation",
+    "term": "$3,190.00",
+    "definition": "A small business sells 110 units for $53.00 each. Each unit incurs $14.80 in materials and $9.20 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$5,830.00",
+      "$4,202.00",
+      "$4,818.00"
+    ],
+    "explanation": "Contribution per unit = $53.00 − $14.80 − $9.20 = $29.00. Total contribution = $29.00 × 110 = $3,190.00.",
+    "numericAnswer": {
+      "value": 3190,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-06",
+    "kind": "calculation",
+    "term": "$3,450.00",
+    "definition": "A small business sells 115 units for $55.00 each. Each unit incurs $15.50 in materials and $9.50 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$6,325.00",
+      "$4,542.50",
+      "$5,232.50"
+    ],
+    "explanation": "Contribution per unit = $55.00 − $15.50 − $9.50 = $30.00. Total contribution = $30.00 × 115 = $3,450.00.",
+    "numericAnswer": {
+      "value": 3450,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-07",
+    "kind": "calculation",
+    "term": "$3,720.00",
+    "definition": "A small business sells 120 units for $57.00 each. Each unit incurs $16.20 in materials and $9.80 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$6,840.00",
+      "$4,896.00",
+      "$5,664.00"
+    ],
+    "explanation": "Contribution per unit = $57.00 − $16.20 − $9.80 = $31.00. Total contribution = $31.00 × 120 = $3,720.00.",
+    "numericAnswer": {
+      "value": 3720,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-08",
+    "kind": "calculation",
+    "term": "$4,000.00",
+    "definition": "A small business sells 125 units for $59.00 each. Each unit incurs $16.90 in materials and $10.10 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$7,375.00",
+      "$5,262.50",
+      "$6,112.50"
+    ],
+    "explanation": "Contribution per unit = $59.00 − $16.90 − $10.10 = $32.00. Total contribution = $32.00 × 125 = $4,000.00.",
+    "numericAnswer": {
+      "value": 4000,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-09",
+    "kind": "calculation",
+    "term": "$4,290.00",
+    "definition": "A small business sells 130 units for $61.00 each. Each unit incurs $17.60 in materials and $10.40 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$7,930.00",
+      "$5,642.00",
+      "$6,578.00"
+    ],
+    "explanation": "Contribution per unit = $61.00 − $17.60 − $10.40 = $33.00. Total contribution = $33.00 × 130 = $4,290.00.",
+    "numericAnswer": {
+      "value": 4290,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-10",
+    "kind": "calculation",
+    "term": "$4,590.00",
+    "definition": "A small business sells 135 units for $63.00 each. Each unit incurs $18.30 in materials and $10.70 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$8,505.00",
+      "$6,034.50",
+      "$7,060.50"
+    ],
+    "explanation": "Contribution per unit = $63.00 − $18.30 − $10.70 = $34.00. Total contribution = $34.00 × 135 = $4,590.00.",
+    "numericAnswer": {
+      "value": 4590,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-11",
+    "kind": "calculation",
+    "term": "$4,900.00",
+    "definition": "A small business sells 140 units for $65.00 each. Each unit incurs $19.00 in materials and $11.00 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$9,100.00",
+      "$6,440.00",
+      "$7,560.00"
+    ],
+    "explanation": "Contribution per unit = $65.00 − $19.00 − $11.00 = $35.00. Total contribution = $35.00 × 140 = $4,900.00.",
+    "numericAnswer": {
+      "value": 4900,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-12",
+    "kind": "calculation",
+    "term": "$5,220.00",
+    "definition": "A small business sells 145 units for $67.00 each. Each unit incurs $19.70 in materials and $11.30 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$9,715.00",
+      "$6,858.50",
+      "$8,076.50"
+    ],
+    "explanation": "Contribution per unit = $67.00 − $19.70 − $11.30 = $36.00. Total contribution = $36.00 × 145 = $5,220.00.",
+    "numericAnswer": {
+      "value": 5220,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-13",
+    "kind": "calculation",
+    "term": "$5,550.00",
+    "definition": "A small business sells 150 units for $69.00 each. Each unit incurs $20.40 in materials and $11.60 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$10,350.00",
+      "$7,290.00",
+      "$8,610.00"
+    ],
+    "explanation": "Contribution per unit = $69.00 − $20.40 − $11.60 = $37.00. Total contribution = $37.00 × 150 = $5,550.00.",
+    "numericAnswer": {
+      "value": 5550,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-14",
+    "kind": "calculation",
+    "term": "$5,890.00",
+    "definition": "A small business sells 155 units for $71.00 each. Each unit incurs $21.10 in materials and $11.90 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$11,005.00",
+      "$7,734.50",
+      "$9,160.50"
+    ],
+    "explanation": "Contribution per unit = $71.00 − $21.10 − $11.90 = $38.00. Total contribution = $38.00 × 155 = $5,890.00.",
+    "numericAnswer": {
+      "value": 5890,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-15",
+    "kind": "calculation",
+    "term": "$6,240.00",
+    "definition": "A small business sells 160 units for $73.00 each. Each unit incurs $21.80 in materials and $12.20 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$11,680.00",
+      "$8,192.00",
+      "$9,728.00"
+    ],
+    "explanation": "Contribution per unit = $73.00 − $21.80 − $12.20 = $39.00. Total contribution = $39.00 × 160 = $6,240.00.",
+    "numericAnswer": {
+      "value": 6240,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-16",
+    "kind": "calculation",
+    "term": "$6,600.00",
+    "definition": "A small business sells 165 units for $75.00 each. Each unit incurs $22.50 in materials and $12.50 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$12,375.00",
+      "$8,662.50",
+      "$10,312.50"
+    ],
+    "explanation": "Contribution per unit = $75.00 − $22.50 − $12.50 = $40.00. Total contribution = $40.00 × 165 = $6,600.00.",
+    "numericAnswer": {
+      "value": 6600,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-17",
+    "kind": "calculation",
+    "term": "$6,970.00",
+    "definition": "A small business sells 170 units for $77.00 each. Each unit incurs $23.20 in materials and $12.80 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$13,090.00",
+      "$9,146.00",
+      "$10,914.00"
+    ],
+    "explanation": "Contribution per unit = $77.00 − $23.20 − $12.80 = $41.00. Total contribution = $41.00 × 170 = $6,970.00.",
+    "numericAnswer": {
+      "value": 6970,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-18",
+    "kind": "calculation",
+    "term": "$7,350.00",
+    "definition": "A small business sells 175 units for $79.00 each. Each unit incurs $23.90 in materials and $13.10 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$13,825.00",
+      "$9,642.50",
+      "$11,532.50"
+    ],
+    "explanation": "Contribution per unit = $79.00 − $23.90 − $13.10 = $42.00. Total contribution = $42.00 × 175 = $7,350.00.",
+    "numericAnswer": {
+      "value": 7350,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-19",
+    "kind": "calculation",
+    "term": "$7,740.00",
+    "definition": "A small business sells 180 units for $81.00 each. Each unit incurs $24.60 in materials and $13.40 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$14,580.00",
+      "$10,152.00",
+      "$12,168.00"
+    ],
+    "explanation": "Contribution per unit = $81.00 − $24.60 − $13.40 = $43.00. Total contribution = $43.00 × 180 = $7,740.00.",
+    "numericAnswer": {
+      "value": 7740,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-contribution-per-unit-20",
+    "kind": "calculation",
+    "term": "$8,140.00",
+    "definition": "A small business sells 185 units for $83.00 each. Each unit incurs $25.30 in materials and $13.70 in variable labor. Before fixed costs and tax, what total contribution is available to cover fixed costs and profit?",
+    "distractors": [
+      "$15,355.00",
+      "$10,674.50",
+      "$12,820.50"
+    ],
+    "explanation": "Contribution per unit = $83.00 − $25.30 − $13.70 = $44.00. Total contribution = $44.00 × 185 = $8,140.00.",
+    "numericAnswer": {
+      "value": 8140,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-01",
+    "kind": "calculation",
+    "term": "100 units",
+    "definition": "Monthly fixed costs are $1,500.00. A business receives $32.00 per unit sold and pays $17.00 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "47 units",
+      "89 units",
+      "48 units"
+    ],
+    "explanation": "Each unit contributes $32.00 − $17.00 = $15.00. Break-even units = ceiling($1,500.00 ÷ $15.00) = 100.",
+    "numericAnswer": {
+      "value": 100,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-02",
+    "kind": "calculation",
+    "term": "105 units",
+    "definition": "Monthly fixed costs are $1,637.00. A business receives $33.00 per unit sold and pays $17.40 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "104 units",
+      "50 units",
+      "95 units"
+    ],
+    "explanation": "Each unit contributes $33.00 − $17.40 = $15.60. Break-even units = ceiling($1,637.00 ÷ $15.60) = 105.",
+    "numericAnswer": {
+      "value": 105,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-03",
+    "kind": "calculation",
+    "term": "110 units",
+    "definition": "Monthly fixed costs are $1,774.00. A business receives $34.00 per unit sold and pays $17.80 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "109 units",
+      "53 units",
+      "100 units"
+    ],
+    "explanation": "Each unit contributes $34.00 − $17.80 = $16.20. Break-even units = ceiling($1,774.00 ÷ $16.20) = 110.",
+    "numericAnswer": {
+      "value": 110,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-04",
+    "kind": "calculation",
+    "term": "114 units",
+    "definition": "Monthly fixed costs are $1,911.00. A business receives $35.00 per unit sold and pays $18.20 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "113 units",
+      "55 units",
+      "105 units"
+    ],
+    "explanation": "Each unit contributes $35.00 − $18.20 = $16.80. Break-even units = ceiling($1,911.00 ÷ $16.80) = 114.",
+    "numericAnswer": {
+      "value": 114,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-05",
+    "kind": "calculation",
+    "term": "118 units",
+    "definition": "Monthly fixed costs are $2,048.00. A business receives $36.00 per unit sold and pays $18.60 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "117 units",
+      "57 units",
+      "111 units"
+    ],
+    "explanation": "Each unit contributes $36.00 − $18.60 = $17.40. Break-even units = ceiling($2,048.00 ÷ $17.40) = 118.",
+    "numericAnswer": {
+      "value": 118,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-06",
+    "kind": "calculation",
+    "term": "122 units",
+    "definition": "Monthly fixed costs are $2,185.00. A business receives $37.00 per unit sold and pays $19.00 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "121 units",
+      "60 units",
+      "115 units"
+    ],
+    "explanation": "Each unit contributes $37.00 − $19.00 = $18.00. Break-even units = ceiling($2,185.00 ÷ $18.00) = 122.",
+    "numericAnswer": {
+      "value": 122,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-07",
+    "kind": "calculation",
+    "term": "125 units",
+    "definition": "Monthly fixed costs are $2,322.00. A business receives $38.00 per unit sold and pays $19.40 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "124 units",
+      "62 units",
+      "120 units"
+    ],
+    "explanation": "Each unit contributes $38.00 − $19.40 = $18.60. Break-even units = ceiling($2,322.00 ÷ $18.60) = 125.",
+    "numericAnswer": {
+      "value": 125,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-08",
+    "kind": "calculation",
+    "term": "129 units",
+    "definition": "Monthly fixed costs are $2,459.00. A business receives $39.00 per unit sold and pays $19.80 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "128 units",
+      "64 units",
+      "125 units"
+    ],
+    "explanation": "Each unit contributes $39.00 − $19.80 = $19.20. Break-even units = ceiling($2,459.00 ÷ $19.20) = 129.",
+    "numericAnswer": {
+      "value": 129,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-09",
+    "kind": "calculation",
+    "term": "132 units",
+    "definition": "Monthly fixed costs are $2,596.00. A business receives $40.00 per unit sold and pays $20.20 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "131 units",
+      "65 units",
+      "129 units"
+    ],
+    "explanation": "Each unit contributes $40.00 − $20.20 = $19.80. Break-even units = ceiling($2,596.00 ÷ $19.80) = 132.",
+    "numericAnswer": {
+      "value": 132,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-10",
+    "kind": "calculation",
+    "term": "134 units",
+    "definition": "Monthly fixed costs are $2,733.00. A business receives $41.00 per unit sold and pays $20.60 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "133 units",
+      "67 units",
+      "68 units"
+    ],
+    "explanation": "Each unit contributes $41.00 − $20.60 = $20.40. Break-even units = ceiling($2,733.00 ÷ $20.40) = 134.",
+    "numericAnswer": {
+      "value": 134,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-11",
+    "kind": "calculation",
+    "term": "137 units",
+    "definition": "Monthly fixed costs are $2,870.00. A business receives $42.00 per unit sold and pays $21.00 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "136 units",
+      "69 units",
+      "138 units"
+    ],
+    "explanation": "Each unit contributes $42.00 − $21.00 = $21.00. Break-even units = ceiling($2,870.00 ÷ $21.00) = 137.",
+    "numericAnswer": {
+      "value": 137,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-12",
+    "kind": "calculation",
+    "term": "140 units",
+    "definition": "Monthly fixed costs are $3,007.00. A business receives $43.00 per unit sold and pays $21.40 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "139 units",
+      "70 units",
+      "141 units"
+    ],
+    "explanation": "Each unit contributes $43.00 − $21.40 = $21.60. Break-even units = ceiling($3,007.00 ÷ $21.60) = 140.",
+    "numericAnswer": {
+      "value": 140,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-13",
+    "kind": "calculation",
+    "term": "142 units",
+    "definition": "Monthly fixed costs are $3,144.00. A business receives $44.00 per unit sold and pays $21.80 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "141 units",
+      "72 units",
+      "145 units"
+    ],
+    "explanation": "Each unit contributes $44.00 − $21.80 = $22.20. Break-even units = ceiling($3,144.00 ÷ $22.20) = 142.",
+    "numericAnswer": {
+      "value": 142,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-14",
+    "kind": "calculation",
+    "term": "144 units",
+    "definition": "Monthly fixed costs are $3,281.00. A business receives $45.00 per unit sold and pays $22.20 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "143 units",
+      "73 units",
+      "148 units"
+    ],
+    "explanation": "Each unit contributes $45.00 − $22.20 = $22.80. Break-even units = ceiling($3,281.00 ÷ $22.80) = 144.",
+    "numericAnswer": {
+      "value": 144,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-15",
+    "kind": "calculation",
+    "term": "147 units",
+    "definition": "Monthly fixed costs are $3,418.00. A business receives $46.00 per unit sold and pays $22.60 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "146 units",
+      "75 units",
+      "152 units"
+    ],
+    "explanation": "Each unit contributes $46.00 − $22.60 = $23.40. Break-even units = ceiling($3,418.00 ÷ $23.40) = 147.",
+    "numericAnswer": {
+      "value": 147,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-16",
+    "kind": "calculation",
+    "term": "149 units",
+    "definition": "Monthly fixed costs are $3,555.00. A business receives $47.00 per unit sold and pays $23.00 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "148 units",
+      "76 units",
+      "155 units"
+    ],
+    "explanation": "Each unit contributes $47.00 − $23.00 = $24.00. Break-even units = ceiling($3,555.00 ÷ $24.00) = 149.",
+    "numericAnswer": {
+      "value": 149,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-17",
+    "kind": "calculation",
+    "term": "151 units",
+    "definition": "Monthly fixed costs are $3,692.00. A business receives $48.00 per unit sold and pays $23.40 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "150 units",
+      "77 units",
+      "158 units"
+    ],
+    "explanation": "Each unit contributes $48.00 − $23.40 = $24.60. Break-even units = ceiling($3,692.00 ÷ $24.60) = 151.",
+    "numericAnswer": {
+      "value": 151,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-18",
+    "kind": "calculation",
+    "term": "152 units",
+    "definition": "Monthly fixed costs are $3,829.00. A business receives $49.00 per unit sold and pays $23.80 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "151 units",
+      "79 units",
+      "161 units"
+    ],
+    "explanation": "Each unit contributes $49.00 − $23.80 = $25.20. Break-even units = ceiling($3,829.00 ÷ $25.20) = 152.",
+    "numericAnswer": {
+      "value": 152,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-19",
+    "kind": "calculation",
+    "term": "154 units",
+    "definition": "Monthly fixed costs are $3,966.00. A business receives $50.00 per unit sold and pays $24.20 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "153 units",
+      "80 units",
+      "164 units"
+    ],
+    "explanation": "Each unit contributes $50.00 − $24.20 = $25.80. Break-even units = ceiling($3,966.00 ÷ $25.80) = 154.",
+    "numericAnswer": {
+      "value": 154,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-fixed-cost-break-even-units-20",
+    "kind": "calculation",
+    "term": "156 units",
+    "definition": "Monthly fixed costs are $4,103.00. A business receives $51.00 per unit sold and pays $24.60 in variable cost per unit. Ignoring tax, what minimum whole number of units covers all monthly costs?",
+    "distractors": [
+      "155 units",
+      "81 units",
+      "167 units"
+    ],
+    "explanation": "Each unit contributes $51.00 − $24.60 = $26.40. Break-even units = ceiling($4,103.00 ÷ $26.40) = 156.",
+    "numericAnswer": {
+      "value": 156,
+      "unit": "units"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-01",
+    "kind": "calculation",
+    "term": "$3,800.00",
+    "definition": "A business starts the month with $4,200.00 cash. It makes $3,100.00 of cash sales, issues $1,900.00 of new invoices that remain unpaid, collects $1,400.00 on older invoices, and pays $4,900.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$5,700.00",
+      "$2,400.00",
+      "$4,300.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $4,200.00 + $3,100.00 + $1,400.00 − $4,900.00 = $3,800.00.",
+    "numericAnswer": {
+      "value": 3800,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-02",
+    "kind": "calculation",
+    "term": "$4,015.00",
+    "definition": "A business starts the month with $4,350.00 cash. It makes $3,270.00 of cash sales, issues $2,010.00 of new invoices that remain unpaid, collects $1,475.00 on older invoices, and pays $5,080.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$6,025.00",
+      "$2,540.00",
+      "$4,550.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $4,350.00 + $3,270.00 + $1,475.00 − $5,080.00 = $4,015.00.",
+    "numericAnswer": {
+      "value": 4015,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-03",
+    "kind": "calculation",
+    "term": "$4,230.00",
+    "definition": "A business starts the month with $4,500.00 cash. It makes $3,440.00 of cash sales, issues $2,120.00 of new invoices that remain unpaid, collects $1,550.00 on older invoices, and pays $5,260.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$6,350.00",
+      "$2,680.00",
+      "$4,800.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $4,500.00 + $3,440.00 + $1,550.00 − $5,260.00 = $4,230.00.",
+    "numericAnswer": {
+      "value": 4230,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-04",
+    "kind": "calculation",
+    "term": "$4,445.00",
+    "definition": "A business starts the month with $4,650.00 cash. It makes $3,610.00 of cash sales, issues $2,230.00 of new invoices that remain unpaid, collects $1,625.00 on older invoices, and pays $5,440.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$6,675.00",
+      "$2,820.00",
+      "$5,050.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $4,650.00 + $3,610.00 + $1,625.00 − $5,440.00 = $4,445.00.",
+    "numericAnswer": {
+      "value": 4445,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-05",
+    "kind": "calculation",
+    "term": "$4,660.00",
+    "definition": "A business starts the month with $4,800.00 cash. It makes $3,780.00 of cash sales, issues $2,340.00 of new invoices that remain unpaid, collects $1,700.00 on older invoices, and pays $5,620.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$7,000.00",
+      "$2,960.00",
+      "$5,300.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $4,800.00 + $3,780.00 + $1,700.00 − $5,620.00 = $4,660.00.",
+    "numericAnswer": {
+      "value": 4660,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-06",
+    "kind": "calculation",
+    "term": "$4,875.00",
+    "definition": "A business starts the month with $4,950.00 cash. It makes $3,950.00 of cash sales, issues $2,450.00 of new invoices that remain unpaid, collects $1,775.00 on older invoices, and pays $5,800.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$7,325.00",
+      "$3,100.00",
+      "$5,550.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $4,950.00 + $3,950.00 + $1,775.00 − $5,800.00 = $4,875.00.",
+    "numericAnswer": {
+      "value": 4875,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-07",
+    "kind": "calculation",
+    "term": "$5,090.00",
+    "definition": "A business starts the month with $5,100.00 cash. It makes $4,120.00 of cash sales, issues $2,560.00 of new invoices that remain unpaid, collects $1,850.00 on older invoices, and pays $5,980.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$7,650.00",
+      "$3,240.00",
+      "$5,800.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $5,100.00 + $4,120.00 + $1,850.00 − $5,980.00 = $5,090.00.",
+    "numericAnswer": {
+      "value": 5090,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-08",
+    "kind": "calculation",
+    "term": "$5,305.00",
+    "definition": "A business starts the month with $5,250.00 cash. It makes $4,290.00 of cash sales, issues $2,670.00 of new invoices that remain unpaid, collects $1,925.00 on older invoices, and pays $6,160.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$7,975.00",
+      "$3,380.00",
+      "$6,050.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $5,250.00 + $4,290.00 + $1,925.00 − $6,160.00 = $5,305.00.",
+    "numericAnswer": {
+      "value": 5305,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-09",
+    "kind": "calculation",
+    "term": "$5,520.00",
+    "definition": "A business starts the month with $5,400.00 cash. It makes $4,460.00 of cash sales, issues $2,780.00 of new invoices that remain unpaid, collects $2,000.00 on older invoices, and pays $6,340.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$8,300.00",
+      "$3,520.00",
+      "$6,300.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $5,400.00 + $4,460.00 + $2,000.00 − $6,340.00 = $5,520.00.",
+    "numericAnswer": {
+      "value": 5520,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-10",
+    "kind": "calculation",
+    "term": "$5,735.00",
+    "definition": "A business starts the month with $5,550.00 cash. It makes $4,630.00 of cash sales, issues $2,890.00 of new invoices that remain unpaid, collects $2,075.00 on older invoices, and pays $6,520.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$8,625.00",
+      "$3,660.00",
+      "$6,550.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $5,550.00 + $4,630.00 + $2,075.00 − $6,520.00 = $5,735.00.",
+    "numericAnswer": {
+      "value": 5735,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-11",
+    "kind": "calculation",
+    "term": "$5,950.00",
+    "definition": "A business starts the month with $5,700.00 cash. It makes $4,800.00 of cash sales, issues $3,000.00 of new invoices that remain unpaid, collects $2,150.00 on older invoices, and pays $6,700.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$8,950.00",
+      "$3,800.00",
+      "$6,800.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $5,700.00 + $4,800.00 + $2,150.00 − $6,700.00 = $5,950.00.",
+    "numericAnswer": {
+      "value": 5950,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-12",
+    "kind": "calculation",
+    "term": "$6,165.00",
+    "definition": "A business starts the month with $5,850.00 cash. It makes $4,970.00 of cash sales, issues $3,110.00 of new invoices that remain unpaid, collects $2,225.00 on older invoices, and pays $6,880.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$9,275.00",
+      "$3,940.00",
+      "$7,050.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $5,850.00 + $4,970.00 + $2,225.00 − $6,880.00 = $6,165.00.",
+    "numericAnswer": {
+      "value": 6165,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-13",
+    "kind": "calculation",
+    "term": "$6,380.00",
+    "definition": "A business starts the month with $6,000.00 cash. It makes $5,140.00 of cash sales, issues $3,220.00 of new invoices that remain unpaid, collects $2,300.00 on older invoices, and pays $7,060.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$9,600.00",
+      "$4,080.00",
+      "$7,300.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $6,000.00 + $5,140.00 + $2,300.00 − $7,060.00 = $6,380.00.",
+    "numericAnswer": {
+      "value": 6380,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-14",
+    "kind": "calculation",
+    "term": "$6,595.00",
+    "definition": "A business starts the month with $6,150.00 cash. It makes $5,310.00 of cash sales, issues $3,330.00 of new invoices that remain unpaid, collects $2,375.00 on older invoices, and pays $7,240.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$9,925.00",
+      "$4,220.00",
+      "$7,550.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $6,150.00 + $5,310.00 + $2,375.00 − $7,240.00 = $6,595.00.",
+    "numericAnswer": {
+      "value": 6595,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-15",
+    "kind": "calculation",
+    "term": "$6,810.00",
+    "definition": "A business starts the month with $6,300.00 cash. It makes $5,480.00 of cash sales, issues $3,440.00 of new invoices that remain unpaid, collects $2,450.00 on older invoices, and pays $7,420.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$10,250.00",
+      "$4,360.00",
+      "$7,800.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $6,300.00 + $5,480.00 + $2,450.00 − $7,420.00 = $6,810.00.",
+    "numericAnswer": {
+      "value": 6810,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-16",
+    "kind": "calculation",
+    "term": "$7,025.00",
+    "definition": "A business starts the month with $6,450.00 cash. It makes $5,650.00 of cash sales, issues $3,550.00 of new invoices that remain unpaid, collects $2,525.00 on older invoices, and pays $7,600.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$10,575.00",
+      "$4,500.00",
+      "$8,050.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $6,450.00 + $5,650.00 + $2,525.00 − $7,600.00 = $7,025.00.",
+    "numericAnswer": {
+      "value": 7025,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-17",
+    "kind": "calculation",
+    "term": "$7,240.00",
+    "definition": "A business starts the month with $6,600.00 cash. It makes $5,820.00 of cash sales, issues $3,660.00 of new invoices that remain unpaid, collects $2,600.00 on older invoices, and pays $7,780.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$10,900.00",
+      "$4,640.00",
+      "$8,300.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $6,600.00 + $5,820.00 + $2,600.00 − $7,780.00 = $7,240.00.",
+    "numericAnswer": {
+      "value": 7240,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-18",
+    "kind": "calculation",
+    "term": "$7,455.00",
+    "definition": "A business starts the month with $6,750.00 cash. It makes $5,990.00 of cash sales, issues $3,770.00 of new invoices that remain unpaid, collects $2,675.00 on older invoices, and pays $7,960.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$11,225.00",
+      "$4,780.00",
+      "$8,550.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $6,750.00 + $5,990.00 + $2,675.00 − $7,960.00 = $7,455.00.",
+    "numericAnswer": {
+      "value": 7455,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-19",
+    "kind": "calculation",
+    "term": "$7,670.00",
+    "definition": "A business starts the month with $6,900.00 cash. It makes $6,160.00 of cash sales, issues $3,880.00 of new invoices that remain unpaid, collects $2,750.00 on older invoices, and pays $8,140.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$11,550.00",
+      "$4,920.00",
+      "$8,800.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $6,900.00 + $6,160.00 + $2,750.00 − $8,140.00 = $7,670.00.",
+    "numericAnswer": {
+      "value": 7670,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-cash-versus-invoiced-sales-20",
+    "kind": "calculation",
+    "term": "$7,885.00",
+    "definition": "A business starts the month with $7,050.00 cash. It makes $6,330.00 of cash sales, issues $3,990.00 of new invoices that remain unpaid, collects $2,825.00 on older invoices, and pays $8,320.00 in cash expenses. With no other cash flows, what is ending cash?",
+    "distractors": [
+      "$11,875.00",
+      "$5,060.00",
+      "$9,050.00"
+    ],
+    "explanation": "Unpaid new invoices do not add cash. Ending cash = $7,050.00 + $6,330.00 + $2,825.00 − $8,320.00 = $7,885.00.",
+    "numericAnswer": {
+      "value": 7885,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-01",
+    "kind": "calculation",
+    "term": "6 months",
+    "definition": "A business has $18,000.00 in usable cash. At each month-end it receives $2,200.00 and pays $4,800.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "7 months",
+      "3 months",
+      "8 months"
+    ],
+    "explanation": "Monthly net cash use = $4,800.00 − $2,200.00 = $2,600.00. Complete funded months = floor($18,000.00 ÷ $2,600.00) = 6.",
+    "numericAnswer": {
+      "value": 6,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-02",
+    "kind": "calculation",
+    "term": "7 months",
+    "definition": "A business has $18,850.00 in usable cash. At each month-end it receives $2,255.00 and pays $4,920.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "8 months",
+      "3 months",
+      "2 months"
+    ],
+    "explanation": "Monthly net cash use = $4,920.00 − $2,255.00 = $2,665.00. Complete funded months = floor($18,850.00 ÷ $2,665.00) = 7.",
+    "numericAnswer": {
+      "value": 7,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-03",
+    "kind": "calculation",
+    "term": "7 months",
+    "definition": "A business has $19,700.00 in usable cash. At each month-end it receives $2,310.00 and pays $5,040.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "8 months",
+      "3 months",
+      "2 months"
+    ],
+    "explanation": "Monthly net cash use = $5,040.00 − $2,310.00 = $2,730.00. Complete funded months = floor($19,700.00 ÷ $2,730.00) = 7.",
+    "numericAnswer": {
+      "value": 7,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-04",
+    "kind": "calculation",
+    "term": "7 months",
+    "definition": "A business has $20,550.00 in usable cash. At each month-end it receives $2,365.00 and pays $5,160.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "8 months",
+      "3 months",
+      "2 months"
+    ],
+    "explanation": "Monthly net cash use = $5,160.00 − $2,365.00 = $2,795.00. Complete funded months = floor($20,550.00 ÷ $2,795.00) = 7.",
+    "numericAnswer": {
+      "value": 7,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-05",
+    "kind": "calculation",
+    "term": "7 months",
+    "definition": "A business has $21,400.00 in usable cash. At each month-end it receives $2,420.00 and pays $5,280.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "8 months",
+      "4 months",
+      "2 months"
+    ],
+    "explanation": "Monthly net cash use = $5,280.00 − $2,420.00 = $2,860.00. Complete funded months = floor($21,400.00 ÷ $2,860.00) = 7.",
+    "numericAnswer": {
+      "value": 7,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-06",
+    "kind": "calculation",
+    "term": "7 months",
+    "definition": "A business has $22,250.00 in usable cash. At each month-end it receives $2,475.00 and pays $5,400.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "8 months",
+      "4 months",
+      "2 months"
+    ],
+    "explanation": "Monthly net cash use = $5,400.00 − $2,475.00 = $2,925.00. Complete funded months = floor($22,250.00 ÷ $2,925.00) = 7.",
+    "numericAnswer": {
+      "value": 7,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-07",
+    "kind": "calculation",
+    "term": "7 months",
+    "definition": "A business has $23,100.00 in usable cash. At each month-end it receives $2,530.00 and pays $5,520.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "8 months",
+      "4 months",
+      "9 months"
+    ],
+    "explanation": "Monthly net cash use = $5,520.00 − $2,530.00 = $2,990.00. Complete funded months = floor($23,100.00 ÷ $2,990.00) = 7.",
+    "numericAnswer": {
+      "value": 7,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-08",
+    "kind": "calculation",
+    "term": "7 months",
+    "definition": "A business has $23,950.00 in usable cash. At each month-end it receives $2,585.00 and pays $5,640.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "8 months",
+      "4 months",
+      "9 months"
+    ],
+    "explanation": "Monthly net cash use = $5,640.00 − $2,585.00 = $3,055.00. Complete funded months = floor($23,950.00 ÷ $3,055.00) = 7.",
+    "numericAnswer": {
+      "value": 7,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-09",
+    "kind": "calculation",
+    "term": "7 months",
+    "definition": "A business has $24,800.00 in usable cash. At each month-end it receives $2,640.00 and pays $5,760.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "8 months",
+      "4 months",
+      "9 months"
+    ],
+    "explanation": "Monthly net cash use = $5,760.00 − $2,640.00 = $3,120.00. Complete funded months = floor($24,800.00 ÷ $3,120.00) = 7.",
+    "numericAnswer": {
+      "value": 7,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-10",
+    "kind": "calculation",
+    "term": "8 months",
+    "definition": "A business has $25,650.00 in usable cash. At each month-end it receives $2,695.00 and pays $5,880.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "9 months",
+      "4 months",
+      "2 months"
+    ],
+    "explanation": "Monthly net cash use = $5,880.00 − $2,695.00 = $3,185.00. Complete funded months = floor($25,650.00 ÷ $3,185.00) = 8.",
+    "numericAnswer": {
+      "value": 8,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-11",
+    "kind": "calculation",
+    "term": "8 months",
+    "definition": "A business has $26,500.00 in usable cash. At each month-end it receives $2,750.00 and pays $6,000.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "9 months",
+      "4 months",
+      "3 months"
+    ],
+    "explanation": "Monthly net cash use = $6,000.00 − $2,750.00 = $3,250.00. Complete funded months = floor($26,500.00 ÷ $3,250.00) = 8.",
+    "numericAnswer": {
+      "value": 8,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-12",
+    "kind": "calculation",
+    "term": "8 months",
+    "definition": "A business has $27,350.00 in usable cash. At each month-end it receives $2,805.00 and pays $6,120.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "9 months",
+      "4 months",
+      "3 months"
+    ],
+    "explanation": "Monthly net cash use = $6,120.00 − $2,805.00 = $3,315.00. Complete funded months = floor($27,350.00 ÷ $3,315.00) = 8.",
+    "numericAnswer": {
+      "value": 8,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-13",
+    "kind": "calculation",
+    "term": "8 months",
+    "definition": "A business has $28,200.00 in usable cash. At each month-end it receives $2,860.00 and pays $6,240.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "9 months",
+      "4 months",
+      "3 months"
+    ],
+    "explanation": "Monthly net cash use = $6,240.00 − $2,860.00 = $3,380.00. Complete funded months = floor($28,200.00 ÷ $3,380.00) = 8.",
+    "numericAnswer": {
+      "value": 8,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-14",
+    "kind": "calculation",
+    "term": "8 months",
+    "definition": "A business has $29,050.00 in usable cash. At each month-end it receives $2,915.00 and pays $6,360.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "9 months",
+      "4 months",
+      "3 months"
+    ],
+    "explanation": "Monthly net cash use = $6,360.00 − $2,915.00 = $3,445.00. Complete funded months = floor($29,050.00 ÷ $3,445.00) = 8.",
+    "numericAnswer": {
+      "value": 8,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-15",
+    "kind": "calculation",
+    "term": "8 months",
+    "definition": "A business has $29,900.00 in usable cash. At each month-end it receives $2,970.00 and pays $6,480.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "9 months",
+      "4 months",
+      "10 months"
+    ],
+    "explanation": "Monthly net cash use = $6,480.00 − $2,970.00 = $3,510.00. Complete funded months = floor($29,900.00 ÷ $3,510.00) = 8.",
+    "numericAnswer": {
+      "value": 8,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-16",
+    "kind": "calculation",
+    "term": "8 months",
+    "definition": "A business has $30,750.00 in usable cash. At each month-end it receives $3,025.00 and pays $6,600.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "9 months",
+      "4 months",
+      "10 months"
+    ],
+    "explanation": "Monthly net cash use = $6,600.00 − $3,025.00 = $3,575.00. Complete funded months = floor($30,750.00 ÷ $3,575.00) = 8.",
+    "numericAnswer": {
+      "value": 8,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-17",
+    "kind": "calculation",
+    "term": "8 months",
+    "definition": "A business has $31,600.00 in usable cash. At each month-end it receives $3,080.00 and pays $6,720.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "9 months",
+      "4 months",
+      "10 months"
+    ],
+    "explanation": "Monthly net cash use = $6,720.00 − $3,080.00 = $3,640.00. Complete funded months = floor($31,600.00 ÷ $3,640.00) = 8.",
+    "numericAnswer": {
+      "value": 8,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-18",
+    "kind": "calculation",
+    "term": "8 months",
+    "definition": "A business has $32,450.00 in usable cash. At each month-end it receives $3,135.00 and pays $6,840.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "9 months",
+      "4 months",
+      "10 months"
+    ],
+    "explanation": "Monthly net cash use = $6,840.00 − $3,135.00 = $3,705.00. Complete funded months = floor($32,450.00 ÷ $3,705.00) = 8.",
+    "numericAnswer": {
+      "value": 8,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-19",
+    "kind": "calculation",
+    "term": "8 months",
+    "definition": "A business has $33,300.00 in usable cash. At each month-end it receives $3,190.00 and pays $6,960.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "9 months",
+      "4 months",
+      "10 months"
+    ],
+    "explanation": "Monthly net cash use = $6,960.00 − $3,190.00 = $3,770.00. Complete funded months = floor($33,300.00 ÷ $3,770.00) = 8.",
+    "numericAnswer": {
+      "value": 8,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-runway-full-months-20",
+    "kind": "calculation",
+    "term": "8 months",
+    "definition": "A business has $34,150.00 in usable cash. At each month-end it receives $3,245.00 and pays $7,080.00. Assume both amounts stay fixed, cash is sufficient within each month, no borrowing, and no other cash flows. How many complete months can it fund before it cannot cover the next month's net cash use?",
+    "distractors": [
+      "9 months",
+      "4 months",
+      "10 months"
+    ],
+    "explanation": "Monthly net cash use = $7,080.00 − $3,245.00 = $3,835.00. Complete funded months = floor($34,150.00 ÷ $3,835.00) = 8.",
+    "numericAnswer": {
+      "value": 8,
+      "unit": "months"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-01",
+    "kind": "calculation",
+    "term": "12.29%",
+    "definition": "A supplier offers a 1.0% discount if an invoice is paid on day 10; otherwise the full amount is due on day 40. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "12.17%",
+      "1.01%",
+      "9.13%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.0/(100 − 1.0). Credit lasts 40 − 10 = 30 days. Simple annualized cost = [1.0/99.0] × (365/30) × 100 = 12.29%.",
+    "numericAnswer": {
+      "value": 12.29,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-02",
+    "kind": "calculation",
+    "term": "13.53%",
+    "definition": "A supplier offers a 1.1% discount if an invoice is paid on day 11; otherwise the full amount is due on day 41. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "13.38%",
+      "1.11%",
+      "9.79%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.1/(100 − 1.1). Credit lasts 41 − 11 = 30 days. Simple annualized cost = [1.1/98.9] × (365/30) × 100 = 13.53%.",
+    "numericAnswer": {
+      "value": 13.53,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-03",
+    "kind": "calculation",
+    "term": "14.78%",
+    "definition": "A supplier offers a 1.2% discount if an invoice is paid on day 12; otherwise the full amount is due on day 42. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "14.60%",
+      "1.21%",
+      "10.43%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.2/(100 − 1.2). Credit lasts 42 − 12 = 30 days. Simple annualized cost = [1.2/98.8] × (365/30) × 100 = 14.78%.",
+    "numericAnswer": {
+      "value": 14.78,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-04",
+    "kind": "calculation",
+    "term": "16.02%",
+    "definition": "A supplier offers a 1.3% discount if an invoice is paid on day 13; otherwise the full amount is due on day 43. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "15.82%",
+      "1.32%",
+      "11.03%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.3/(100 − 1.3). Credit lasts 43 − 13 = 30 days. Simple annualized cost = [1.3/98.7] × (365/30) × 100 = 16.02%.",
+    "numericAnswer": {
+      "value": 16.02,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-05",
+    "kind": "calculation",
+    "term": "15.24%",
+    "definition": "A supplier offers a 1.4% discount if an invoice is paid on day 10; otherwise the full amount is due on day 44. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "15.03%",
+      "1.42%",
+      "11.61%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.4/(100 − 1.4). Credit lasts 44 − 10 = 34 days. Simple annualized cost = [1.4/98.6] × (365/34) × 100 = 15.24%.",
+    "numericAnswer": {
+      "value": 15.24,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-06",
+    "kind": "calculation",
+    "term": "16.35%",
+    "definition": "A supplier offers a 1.5% discount if an invoice is paid on day 11; otherwise the full amount is due on day 45. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "16.10%",
+      "1.52%",
+      "12.17%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.5/(100 − 1.5). Credit lasts 45 − 11 = 34 days. Simple annualized cost = [1.5/98.5] × (365/34) × 100 = 16.35%.",
+    "numericAnswer": {
+      "value": 16.35,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-07",
+    "kind": "calculation",
+    "term": "17.46%",
+    "definition": "A supplier offers a 1.6% discount if an invoice is paid on day 12; otherwise the full amount is due on day 46. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "17.18%",
+      "1.63%",
+      "12.70%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.6/(100 − 1.6). Credit lasts 46 − 12 = 34 days. Simple annualized cost = [1.6/98.4] × (365/34) × 100 = 17.46%.",
+    "numericAnswer": {
+      "value": 17.46,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-08",
+    "kind": "calculation",
+    "term": "18.57%",
+    "definition": "A supplier offers a 1.7% discount if an invoice is paid on day 13; otherwise the full amount is due on day 47. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "18.25%",
+      "1.73%",
+      "13.20%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.7/(100 − 1.7). Credit lasts 47 − 13 = 34 days. Simple annualized cost = [1.7/98.3] × (365/34) × 100 = 18.57%.",
+    "numericAnswer": {
+      "value": 18.57,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-09",
+    "kind": "calculation",
+    "term": "17.61%",
+    "definition": "A supplier offers a 1.8% discount if an invoice is paid on day 10; otherwise the full amount is due on day 48. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "17.29%",
+      "1.83%",
+      "13.69%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.8/(100 − 1.8). Credit lasts 48 − 10 = 38 days. Simple annualized cost = [1.8/98.2] × (365/38) × 100 = 17.61%.",
+    "numericAnswer": {
+      "value": 17.61,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-10",
+    "kind": "calculation",
+    "term": "18.60%",
+    "definition": "A supplier offers a 1.9% discount if an invoice is paid on day 11; otherwise the full amount is due on day 49. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "18.25%",
+      "1.94%",
+      "14.15%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.9/(100 − 1.9). Credit lasts 49 − 11 = 38 days. Simple annualized cost = [1.9/98.1] × (365/38) × 100 = 18.60%.",
+    "numericAnswer": {
+      "value": 18.6,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-11",
+    "kind": "calculation",
+    "term": "19.60%",
+    "definition": "A supplier offers a 2.0% discount if an invoice is paid on day 12; otherwise the full amount is due on day 50. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "19.21%",
+      "2.04%",
+      "14.60%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.0/(100 − 2.0). Credit lasts 50 − 12 = 38 days. Simple annualized cost = [2.0/98.0] × (365/38) × 100 = 19.60%.",
+    "numericAnswer": {
+      "value": 19.6,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-12",
+    "kind": "calculation",
+    "term": "20.60%",
+    "definition": "A supplier offers a 2.1% discount if an invoice is paid on day 13; otherwise the full amount is due on day 51. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "20.17%",
+      "2.15%",
+      "15.03%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.1/(100 − 2.1). Credit lasts 51 − 13 = 38 days. Simple annualized cost = [2.1/97.9] × (365/38) × 100 = 20.60%.",
+    "numericAnswer": {
+      "value": 20.6,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-13",
+    "kind": "calculation",
+    "term": "19.55%",
+    "definition": "A supplier offers a 2.2% discount if an invoice is paid on day 10; otherwise the full amount is due on day 52. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "19.12%",
+      "2.25%",
+      "15.44%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.2/(100 − 2.2). Credit lasts 52 − 10 = 42 days. Simple annualized cost = [2.2/97.8] × (365/42) × 100 = 19.55%.",
+    "numericAnswer": {
+      "value": 19.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-14",
+    "kind": "calculation",
+    "term": "20.46%",
+    "definition": "A supplier offers a 2.3% discount if an invoice is paid on day 11; otherwise the full amount is due on day 53. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "19.99%",
+      "2.35%",
+      "15.84%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.3/(100 − 2.3). Credit lasts 53 − 11 = 42 days. Simple annualized cost = [2.3/97.7] × (365/42) × 100 = 20.46%.",
+    "numericAnswer": {
+      "value": 20.46,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-15",
+    "kind": "calculation",
+    "term": "21.37%",
+    "definition": "A supplier offers a 2.4% discount if an invoice is paid on day 12; otherwise the full amount is due on day 54. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "20.86%",
+      "2.46%",
+      "16.22%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.4/(100 − 2.4). Credit lasts 54 − 12 = 42 days. Simple annualized cost = [2.4/97.6] × (365/42) × 100 = 21.37%.",
+    "numericAnswer": {
+      "value": 21.37,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-16",
+    "kind": "calculation",
+    "term": "22.28%",
+    "definition": "A supplier offers a 2.5% discount if an invoice is paid on day 13; otherwise the full amount is due on day 55. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "21.73%",
+      "2.56%",
+      "16.59%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.5/(100 − 2.5). Credit lasts 55 − 13 = 42 days. Simple annualized cost = [2.5/97.5] × (365/42) × 100 = 22.28%.",
+    "numericAnswer": {
+      "value": 22.28,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-17",
+    "kind": "calculation",
+    "term": "21.18%",
+    "definition": "A supplier offers a 2.6% discount if an invoice is paid on day 10; otherwise the full amount is due on day 56. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "20.63%",
+      "2.67%",
+      "16.95%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.6/(100 − 2.6). Credit lasts 56 − 10 = 46 days. Simple annualized cost = [2.6/97.4] × (365/46) × 100 = 21.18%.",
+    "numericAnswer": {
+      "value": 21.18,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-18",
+    "kind": "calculation",
+    "term": "22.02%",
+    "definition": "A supplier offers a 2.7% discount if an invoice is paid on day 11; otherwise the full amount is due on day 57. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "21.42%",
+      "2.77%",
+      "17.29%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.7/(100 − 2.7). Credit lasts 57 − 11 = 46 days. Simple annualized cost = [2.7/97.3] × (365/46) × 100 = 22.02%.",
+    "numericAnswer": {
+      "value": 22.02,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-19",
+    "kind": "calculation",
+    "term": "22.86%",
+    "definition": "A supplier offers a 2.8% discount if an invoice is paid on day 12; otherwise the full amount is due on day 58. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "22.22%",
+      "2.88%",
+      "17.62%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.8/(100 − 2.8). Credit lasts 58 − 12 = 46 days. Simple annualized cost = [2.8/97.2] × (365/46) × 100 = 22.86%.",
+    "numericAnswer": {
+      "value": 22.86,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-20",
+    "kind": "calculation",
+    "term": "23.70%",
+    "definition": "A supplier offers a 2.9% discount if an invoice is paid on day 13; otherwise the full amount is due on day 59. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "23.01%",
+      "2.99%",
+      "17.94%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.9/(100 − 2.9). Credit lasts 59 − 13 = 46 days. Simple annualized cost = [2.9/97.1] × (365/46) × 100 = 23.70%.",
+    "numericAnswer": {
+      "value": 23.7,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-01",
+    "kind": "calculation",
+    "term": "40 days",
+    "definition": "A business holds inventory an average of 35 days before sale, collects customers 19 days after sale, and pays suppliers 14 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "68 days",
+      "54 days",
+      "30 days"
+    ],
+    "explanation": "Collection occurs 35 + 19 = 54 days after purchase. Supplier payment occurs on day 14. Cash conversion cycle = 35 + 19 − 14 = 40 days.",
+    "numericAnswer": {
+      "value": 40,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-02",
+    "kind": "calculation",
+    "term": "41 days",
+    "definition": "A business holds inventory an average of 36 days before sale, collects customers 20 days after sale, and pays suppliers 15 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "71 days",
+      "56 days",
+      "31 days"
+    ],
+    "explanation": "Collection occurs 36 + 20 = 56 days after purchase. Supplier payment occurs on day 15. Cash conversion cycle = 36 + 20 − 15 = 41 days.",
+    "numericAnswer": {
+      "value": 41,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-03",
+    "kind": "calculation",
+    "term": "42 days",
+    "definition": "A business holds inventory an average of 37 days before sale, collects customers 21 days after sale, and pays suppliers 16 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "74 days",
+      "58 days",
+      "32 days"
+    ],
+    "explanation": "Collection occurs 37 + 21 = 58 days after purchase. Supplier payment occurs on day 16. Cash conversion cycle = 37 + 21 − 16 = 42 days.",
+    "numericAnswer": {
+      "value": 42,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-04",
+    "kind": "calculation",
+    "term": "43 days",
+    "definition": "A business holds inventory an average of 38 days before sale, collects customers 22 days after sale, and pays suppliers 17 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "77 days",
+      "60 days",
+      "33 days"
+    ],
+    "explanation": "Collection occurs 38 + 22 = 60 days after purchase. Supplier payment occurs on day 17. Cash conversion cycle = 38 + 22 − 17 = 43 days.",
+    "numericAnswer": {
+      "value": 43,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-05",
+    "kind": "calculation",
+    "term": "44 days",
+    "definition": "A business holds inventory an average of 39 days before sale, collects customers 23 days after sale, and pays suppliers 18 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "80 days",
+      "62 days",
+      "34 days"
+    ],
+    "explanation": "Collection occurs 39 + 23 = 62 days after purchase. Supplier payment occurs on day 18. Cash conversion cycle = 39 + 23 − 18 = 44 days.",
+    "numericAnswer": {
+      "value": 44,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-06",
+    "kind": "calculation",
+    "term": "45 days",
+    "definition": "A business holds inventory an average of 40 days before sale, collects customers 24 days after sale, and pays suppliers 19 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "83 days",
+      "64 days",
+      "35 days"
+    ],
+    "explanation": "Collection occurs 40 + 24 = 64 days after purchase. Supplier payment occurs on day 19. Cash conversion cycle = 40 + 24 − 19 = 45 days.",
+    "numericAnswer": {
+      "value": 45,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-07",
+    "kind": "calculation",
+    "term": "52 days",
+    "definition": "A business holds inventory an average of 41 days before sale, collects customers 25 days after sale, and pays suppliers 14 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "80 days",
+      "66 days",
+      "30 days"
+    ],
+    "explanation": "Collection occurs 41 + 25 = 66 days after purchase. Supplier payment occurs on day 14. Cash conversion cycle = 41 + 25 − 14 = 52 days.",
+    "numericAnswer": {
+      "value": 52,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-08",
+    "kind": "calculation",
+    "term": "53 days",
+    "definition": "A business holds inventory an average of 42 days before sale, collects customers 26 days after sale, and pays suppliers 15 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "83 days",
+      "68 days",
+      "31 days"
+    ],
+    "explanation": "Collection occurs 42 + 26 = 68 days after purchase. Supplier payment occurs on day 15. Cash conversion cycle = 42 + 26 − 15 = 53 days.",
+    "numericAnswer": {
+      "value": 53,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-09",
+    "kind": "calculation",
+    "term": "46 days",
+    "definition": "A business holds inventory an average of 43 days before sale, collects customers 19 days after sale, and pays suppliers 16 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "78 days",
+      "62 days",
+      "40 days"
+    ],
+    "explanation": "Collection occurs 43 + 19 = 62 days after purchase. Supplier payment occurs on day 16. Cash conversion cycle = 43 + 19 − 16 = 46 days.",
+    "numericAnswer": {
+      "value": 46,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-10",
+    "kind": "calculation",
+    "term": "47 days",
+    "definition": "A business holds inventory an average of 44 days before sale, collects customers 20 days after sale, and pays suppliers 17 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "81 days",
+      "64 days",
+      "41 days"
+    ],
+    "explanation": "Collection occurs 44 + 20 = 64 days after purchase. Supplier payment occurs on day 17. Cash conversion cycle = 44 + 20 − 17 = 47 days.",
+    "numericAnswer": {
+      "value": 47,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-11",
+    "kind": "calculation",
+    "term": "48 days",
+    "definition": "A business holds inventory an average of 45 days before sale, collects customers 21 days after sale, and pays suppliers 18 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "84 days",
+      "66 days",
+      "42 days"
+    ],
+    "explanation": "Collection occurs 45 + 21 = 66 days after purchase. Supplier payment occurs on day 18. Cash conversion cycle = 45 + 21 − 18 = 48 days.",
+    "numericAnswer": {
+      "value": 48,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-12",
+    "kind": "calculation",
+    "term": "49 days",
+    "definition": "A business holds inventory an average of 46 days before sale, collects customers 22 days after sale, and pays suppliers 19 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "87 days",
+      "68 days",
+      "43 days"
+    ],
+    "explanation": "Collection occurs 46 + 22 = 68 days after purchase. Supplier payment occurs on day 19. Cash conversion cycle = 46 + 22 − 19 = 49 days.",
+    "numericAnswer": {
+      "value": 49,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-13",
+    "kind": "calculation",
+    "term": "56 days",
+    "definition": "A business holds inventory an average of 47 days before sale, collects customers 23 days after sale, and pays suppliers 14 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "84 days",
+      "70 days",
+      "38 days"
+    ],
+    "explanation": "Collection occurs 47 + 23 = 70 days after purchase. Supplier payment occurs on day 14. Cash conversion cycle = 47 + 23 − 14 = 56 days.",
+    "numericAnswer": {
+      "value": 56,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-14",
+    "kind": "calculation",
+    "term": "57 days",
+    "definition": "A business holds inventory an average of 48 days before sale, collects customers 24 days after sale, and pays suppliers 15 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "87 days",
+      "72 days",
+      "39 days"
+    ],
+    "explanation": "Collection occurs 48 + 24 = 72 days after purchase. Supplier payment occurs on day 15. Cash conversion cycle = 48 + 24 − 15 = 57 days.",
+    "numericAnswer": {
+      "value": 57,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-15",
+    "kind": "calculation",
+    "term": "58 days",
+    "definition": "A business holds inventory an average of 49 days before sale, collects customers 25 days after sale, and pays suppliers 16 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "90 days",
+      "74 days",
+      "40 days"
+    ],
+    "explanation": "Collection occurs 49 + 25 = 74 days after purchase. Supplier payment occurs on day 16. Cash conversion cycle = 49 + 25 − 16 = 58 days.",
+    "numericAnswer": {
+      "value": 58,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-16",
+    "kind": "calculation",
+    "term": "59 days",
+    "definition": "A business holds inventory an average of 50 days before sale, collects customers 26 days after sale, and pays suppliers 17 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "93 days",
+      "76 days",
+      "41 days"
+    ],
+    "explanation": "Collection occurs 50 + 26 = 76 days after purchase. Supplier payment occurs on day 17. Cash conversion cycle = 50 + 26 − 17 = 59 days.",
+    "numericAnswer": {
+      "value": 59,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-17",
+    "kind": "calculation",
+    "term": "52 days",
+    "definition": "A business holds inventory an average of 51 days before sale, collects customers 19 days after sale, and pays suppliers 18 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "88 days",
+      "70 days",
+      "50 days"
+    ],
+    "explanation": "Collection occurs 51 + 19 = 70 days after purchase. Supplier payment occurs on day 18. Cash conversion cycle = 51 + 19 − 18 = 52 days.",
+    "numericAnswer": {
+      "value": 52,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-18",
+    "kind": "calculation",
+    "term": "53 days",
+    "definition": "A business holds inventory an average of 52 days before sale, collects customers 20 days after sale, and pays suppliers 19 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "91 days",
+      "72 days",
+      "51 days"
+    ],
+    "explanation": "Collection occurs 52 + 20 = 72 days after purchase. Supplier payment occurs on day 19. Cash conversion cycle = 52 + 20 − 19 = 53 days.",
+    "numericAnswer": {
+      "value": 53,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-19",
+    "kind": "calculation",
+    "term": "60 days",
+    "definition": "A business holds inventory an average of 53 days before sale, collects customers 21 days after sale, and pays suppliers 14 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "88 days",
+      "74 days",
+      "46 days"
+    ],
+    "explanation": "Collection occurs 53 + 21 = 74 days after purchase. Supplier payment occurs on day 14. Cash conversion cycle = 53 + 21 − 14 = 60 days.",
+    "numericAnswer": {
+      "value": 60,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-cash-conversion-cycle-20",
+    "kind": "calculation",
+    "term": "61 days",
+    "definition": "A business holds inventory an average of 54 days before sale, collects customers 22 days after sale, and pays suppliers 15 days after inventory purchase. Under these steady timing assumptions, how many days elapse between paying suppliers and collecting customers?",
+    "distractors": [
+      "91 days",
+      "76 days",
+      "47 days"
+    ],
+    "explanation": "Collection occurs 54 + 22 = 76 days after purchase. Supplier payment occurs on day 15. Cash conversion cycle = 54 + 22 − 15 = 61 days.",
+    "numericAnswer": {
+      "value": 61,
+      "unit": "days"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-01",
+    "kind": "calculation",
+    "term": "20.00%",
+    "definition": "A product costs a business $24.00 and is priced by adding a 25.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price?",
+    "distractors": [
+      "25.00%",
+      "75.00%",
+      "33.33%"
+    ],
+    "explanation": "Selling price = $24.00 × (1 + 25/100) = $30.00. Margin = ($30.00 − $24.00) ÷ $30.00 × 100 = 20.00%.",
+    "numericAnswer": {
+      "value": 20,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-02",
+    "kind": "calculation",
+    "term": "20.63%",
+    "definition": "A product costs a business $26.00 and is priced by adding a 26.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "26.00%",
+      "74.00%",
+      "35.14%"
+    ],
+    "explanation": "Selling price = $26.00 × (1 + 26/100) = $32.76. Margin = ($32.76 − $26.00) ÷ $32.76 × 100 = 20.63%.",
+    "numericAnswer": {
+      "value": 20.63,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-03",
+    "kind": "calculation",
+    "term": "21.26%",
+    "definition": "A product costs a business $28.00 and is priced by adding a 27.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "27.00%",
+      "73.00%",
+      "36.99%"
+    ],
+    "explanation": "Selling price = $28.00 × (1 + 27/100) = $35.56. Margin = ($35.56 − $28.00) ÷ $35.56 × 100 = 21.26%.",
+    "numericAnswer": {
+      "value": 21.26,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-04",
+    "kind": "calculation",
+    "term": "21.88%",
+    "definition": "A product costs a business $30.00 and is priced by adding a 28.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "28.00%",
+      "72.00%",
+      "38.89%"
+    ],
+    "explanation": "Selling price = $30.00 × (1 + 28/100) = $38.40. Margin = ($38.40 − $30.00) ÷ $38.40 × 100 = 21.88%.",
+    "numericAnswer": {
+      "value": 21.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-05",
+    "kind": "calculation",
+    "term": "22.48%",
+    "definition": "A product costs a business $32.00 and is priced by adding a 29.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "29.00%",
+      "71.00%",
+      "40.85%"
+    ],
+    "explanation": "Selling price = $32.00 × (1 + 29/100) = $41.28. Margin = ($41.28 − $32.00) ÷ $41.28 × 100 = 22.48%.",
+    "numericAnswer": {
+      "value": 22.48,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-06",
+    "kind": "calculation",
+    "term": "23.08%",
+    "definition": "A product costs a business $34.00 and is priced by adding a 30.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "30.00%",
+      "70.00%",
+      "42.86%"
+    ],
+    "explanation": "Selling price = $34.00 × (1 + 30/100) = $44.20. Margin = ($44.20 − $34.00) ÷ $44.20 × 100 = 23.08%.",
+    "numericAnswer": {
+      "value": 23.08,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-07",
+    "kind": "calculation",
+    "term": "23.66%",
+    "definition": "A product costs a business $36.00 and is priced by adding a 31.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "31.00%",
+      "69.00%",
+      "44.93%"
+    ],
+    "explanation": "Selling price = $36.00 × (1 + 31/100) = $47.16. Margin = ($47.16 − $36.00) ÷ $47.16 × 100 = 23.66%.",
+    "numericAnswer": {
+      "value": 23.66,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-08",
+    "kind": "calculation",
+    "term": "24.24%",
+    "definition": "A product costs a business $38.00 and is priced by adding a 32.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "32.00%",
+      "68.00%",
+      "47.06%"
+    ],
+    "explanation": "Selling price = $38.00 × (1 + 32/100) = $50.16. Margin = ($50.16 − $38.00) ÷ $50.16 × 100 = 24.24%.",
+    "numericAnswer": {
+      "value": 24.24,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-09",
+    "kind": "calculation",
+    "term": "24.81%",
+    "definition": "A product costs a business $40.00 and is priced by adding a 33.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "33.00%",
+      "67.00%",
+      "49.25%"
+    ],
+    "explanation": "Selling price = $40.00 × (1 + 33/100) = $53.20. Margin = ($53.20 − $40.00) ÷ $53.20 × 100 = 24.81%.",
+    "numericAnswer": {
+      "value": 24.81,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-10",
+    "kind": "calculation",
+    "term": "25.37%",
+    "definition": "A product costs a business $42.00 and is priced by adding a 34.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "34.00%",
+      "66.00%",
+      "51.52%"
+    ],
+    "explanation": "Selling price = $42.00 × (1 + 34/100) = $56.28. Margin = ($56.28 − $42.00) ÷ $56.28 × 100 = 25.37%.",
+    "numericAnswer": {
+      "value": 25.37,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-11",
+    "kind": "calculation",
+    "term": "25.93%",
+    "definition": "A product costs a business $44.00 and is priced by adding a 35.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "35.00%",
+      "65.00%",
+      "53.85%"
+    ],
+    "explanation": "Selling price = $44.00 × (1 + 35/100) = $59.40. Margin = ($59.40 − $44.00) ÷ $59.40 × 100 = 25.93%.",
+    "numericAnswer": {
+      "value": 25.93,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-12",
+    "kind": "calculation",
+    "term": "26.47%",
+    "definition": "A product costs a business $46.00 and is priced by adding a 36.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "36.00%",
+      "64.00%",
+      "56.25%"
+    ],
+    "explanation": "Selling price = $46.00 × (1 + 36/100) = $62.56. Margin = ($62.56 − $46.00) ÷ $62.56 × 100 = 26.47%.",
+    "numericAnswer": {
+      "value": 26.47,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-13",
+    "kind": "calculation",
+    "term": "27.01%",
+    "definition": "A product costs a business $48.00 and is priced by adding a 37.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "37.00%",
+      "63.00%",
+      "58.73%"
+    ],
+    "explanation": "Selling price = $48.00 × (1 + 37/100) = $65.76. Margin = ($65.76 − $48.00) ÷ $65.76 × 100 = 27.01%.",
+    "numericAnswer": {
+      "value": 27.01,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-14",
+    "kind": "calculation",
+    "term": "27.54%",
+    "definition": "A product costs a business $50.00 and is priced by adding a 38.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "38.00%",
+      "62.00%",
+      "61.29%"
+    ],
+    "explanation": "Selling price = $50.00 × (1 + 38/100) = $69.00. Margin = ($69.00 − $50.00) ÷ $69.00 × 100 = 27.54%.",
+    "numericAnswer": {
+      "value": 27.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-15",
+    "kind": "calculation",
+    "term": "28.06%",
+    "definition": "A product costs a business $52.00 and is priced by adding a 39.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "39.00%",
+      "61.00%",
+      "63.93%"
+    ],
+    "explanation": "Selling price = $52.00 × (1 + 39/100) = $72.28. Margin = ($72.28 − $52.00) ÷ $72.28 × 100 = 28.06%.",
+    "numericAnswer": {
+      "value": 28.06,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-16",
+    "kind": "calculation",
+    "term": "28.57%",
+    "definition": "A product costs a business $54.00 and is priced by adding a 40.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "40.00%",
+      "60.00%",
+      "66.67%"
+    ],
+    "explanation": "Selling price = $54.00 × (1 + 40/100) = $75.60. Margin = ($75.60 − $54.00) ÷ $75.60 × 100 = 28.57%.",
+    "numericAnswer": {
+      "value": 28.57,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-17",
+    "kind": "calculation",
+    "term": "29.08%",
+    "definition": "A product costs a business $56.00 and is priced by adding a 41.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "41.00%",
+      "59.00%",
+      "69.49%"
+    ],
+    "explanation": "Selling price = $56.00 × (1 + 41/100) = $78.96. Margin = ($78.96 − $56.00) ÷ $78.96 × 100 = 29.08%.",
+    "numericAnswer": {
+      "value": 29.08,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-18",
+    "kind": "calculation",
+    "term": "29.58%",
+    "definition": "A product costs a business $58.00 and is priced by adding a 42.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "42.00%",
+      "58.00%",
+      "72.41%"
+    ],
+    "explanation": "Selling price = $58.00 × (1 + 42/100) = $82.36. Margin = ($82.36 − $58.00) ÷ $82.36 × 100 = 29.58%.",
+    "numericAnswer": {
+      "value": 29.58,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-19",
+    "kind": "calculation",
+    "term": "30.07%",
+    "definition": "A product costs a business $60.00 and is priced by adding a 43.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "43.00%",
+      "57.00%",
+      "75.44%"
+    ],
+    "explanation": "Selling price = $60.00 × (1 + 43/100) = $85.80. Margin = ($85.80 − $60.00) ÷ $85.80 × 100 = 30.07%.",
+    "numericAnswer": {
+      "value": 30.07,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-gross-margin-versus-markup-20",
+    "kind": "calculation",
+    "term": "30.56%",
+    "definition": "A product costs a business $62.00 and is priced by adding a 44.0% markup on cost. Ignoring other costs and tax, what is its gross profit margin as a percentage of the selling price? Round to 2 decimal places.",
+    "distractors": [
+      "44.00%",
+      "56.00%",
+      "78.57%"
+    ],
+    "explanation": "Selling price = $62.00 × (1 + 44/100) = $89.28. Margin = ($89.28 − $62.00) ÷ $89.28 × 100 = 30.56%.",
+    "numericAnswer": {
+      "value": 30.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-01",
+    "kind": "calculation",
+    "term": "$1,054.30",
+    "definition": "A merchant processes 52 card sales of $21.00 each. The processor deducts 2.5% of sales plus $0.20 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited?",
+    "distractors": [
+      "$1,092.00",
+      "$1,064.50",
+      "$1,081.60"
+    ],
+    "explanation": "Gross sales = 52 × $21.00 = $1,092.00. Fees = $1,092.00 × 2.5/100 + 52 × $0.20. Net deposit = $1,092.00 − $37.70 = $1,054.30.",
+    "numericAnswer": {
+      "value": 1054.3,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-02",
+    "kind": "calculation",
+    "term": "$1,249.50",
+    "definition": "A merchant processes 59 card sales of $22.00 each. The processor deducts 2.6% of sales plus $0.25 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited? Round to the nearest cent.",
+    "distractors": [
+      "$1,298.00",
+      "$1,264.00",
+      "$1,283.25"
+    ],
+    "explanation": "Gross sales = 59 × $22.00 = $1,298.00. Fees = $1,298.00 × 2.6/100 + 59 × $0.25. Net deposit = $1,298.00 − $48.50 = $1,249.50.",
+    "numericAnswer": {
+      "value": 1249.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-03",
+    "kind": "calculation",
+    "term": "$1,457.21",
+    "definition": "A merchant processes 66 card sales of $23.00 each. The processor deducts 2.7% of sales plus $0.30 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited? Round to the nearest cent.",
+    "distractors": [
+      "$1,518.00",
+      "$1,476.71",
+      "$1,498.20"
+    ],
+    "explanation": "Gross sales = 66 × $23.00 = $1,518.00. Fees = $1,518.00 × 2.7/100 + 66 × $0.30. Net deposit = $1,518.00 − $60.79 = $1,457.21.",
+    "numericAnswer": {
+      "value": 1457.21,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-04",
+    "kind": "calculation",
+    "term": "$1,688.34",
+    "definition": "A merchant processes 73 card sales of $24.00 each. The processor deducts 2.8% of sales plus $0.20 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited? Round to the nearest cent.",
+    "distractors": [
+      "$1,752.00",
+      "$1,702.74",
+      "$1,737.40"
+    ],
+    "explanation": "Gross sales = 73 × $24.00 = $1,752.00. Fees = $1,752.00 × 2.8/100 + 73 × $0.20. Net deposit = $1,752.00 − $63.66 = $1,688.34.",
+    "numericAnswer": {
+      "value": 1688.34,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-05",
+    "kind": "calculation",
+    "term": "$1,930.00",
+    "definition": "A merchant processes 80 card sales of $25.00 each. The processor deducts 2.5% of sales plus $0.25 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited?",
+    "distractors": [
+      "$2,000.00",
+      "$1,949.75",
+      "$1,980.00"
+    ],
+    "explanation": "Gross sales = 80 × $25.00 = $2,000.00. Fees = $2,000.00 × 2.5/100 + 80 × $0.25. Net deposit = $2,000.00 − $70.00 = $1,930.00.",
+    "numericAnswer": {
+      "value": 1930,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-06",
+    "kind": "calculation",
+    "term": "$2,177.09",
+    "definition": "A merchant processes 87 card sales of $26.00 each. The processor deducts 2.6% of sales plus $0.30 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited? Round to the nearest cent.",
+    "distractors": [
+      "$2,262.00",
+      "$2,202.89",
+      "$2,235.90"
+    ],
+    "explanation": "Gross sales = 87 × $26.00 = $2,262.00. Fees = $2,262.00 × 2.6/100 + 87 × $0.30. Net deposit = $2,262.00 − $84.91 = $2,177.09.",
+    "numericAnswer": {
+      "value": 2177.09,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-07",
+    "kind": "calculation",
+    "term": "$2,450.67",
+    "definition": "A merchant processes 94 card sales of $27.00 each. The processor deducts 2.7% of sales plus $0.20 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited? Round to the nearest cent.",
+    "distractors": [
+      "$2,538.00",
+      "$2,469.27",
+      "$2,519.20"
+    ],
+    "explanation": "Gross sales = 94 × $27.00 = $2,538.00. Fees = $2,538.00 × 2.7/100 + 94 × $0.20. Net deposit = $2,538.00 − $87.33 = $2,450.67.",
+    "numericAnswer": {
+      "value": 2450.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-08",
+    "kind": "calculation",
+    "term": "$2,723.57",
+    "definition": "A merchant processes 101 card sales of $28.00 each. The processor deducts 2.8% of sales plus $0.25 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited? Round to the nearest cent.",
+    "distractors": [
+      "$2,828.00",
+      "$2,748.57",
+      "$2,802.75"
+    ],
+    "explanation": "Gross sales = 101 × $28.00 = $2,828.00. Fees = $2,828.00 × 2.8/100 + 101 × $0.25. Net deposit = $2,828.00 − $104.43 = $2,723.57.",
+    "numericAnswer": {
+      "value": 2723.57,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-09",
+    "kind": "calculation",
+    "term": "$3,021.30",
+    "definition": "A merchant processes 108 card sales of $29.00 each. The processor deducts 2.5% of sales plus $0.30 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited?",
+    "distractors": [
+      "$3,132.00",
+      "$3,053.40",
+      "$3,099.60"
+    ],
+    "explanation": "Gross sales = 108 × $29.00 = $3,132.00. Fees = $3,132.00 × 2.5/100 + 108 × $0.30. Net deposit = $3,132.00 − $110.70 = $3,021.30.",
+    "numericAnswer": {
+      "value": 3021.3,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-10",
+    "kind": "calculation",
+    "term": "$3,337.30",
+    "definition": "A merchant processes 115 card sales of $30.00 each. The processor deducts 2.6% of sales plus $0.20 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited?",
+    "distractors": [
+      "$3,450.00",
+      "$3,360.10",
+      "$3,427.00"
+    ],
+    "explanation": "Gross sales = 115 × $30.00 = $3,450.00. Fees = $3,450.00 × 2.6/100 + 115 × $0.20. Net deposit = $3,450.00 − $112.70 = $3,337.30.",
+    "numericAnswer": {
+      "value": 3337.3,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-11",
+    "kind": "calculation",
+    "term": "$3,649.39",
+    "definition": "A merchant processes 122 card sales of $31.00 each. The processor deducts 2.7% of sales plus $0.25 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited? Round to the nearest cent.",
+    "distractors": [
+      "$3,782.00",
+      "$3,679.64",
+      "$3,751.50"
+    ],
+    "explanation": "Gross sales = 122 × $31.00 = $3,782.00. Fees = $3,782.00 × 2.7/100 + 122 × $0.25. Net deposit = $3,782.00 − $132.61 = $3,649.39.",
+    "numericAnswer": {
+      "value": 3649.39,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-12",
+    "kind": "calculation",
+    "term": "$3,973.72",
+    "definition": "A merchant processes 129 card sales of $32.00 each. The processor deducts 2.8% of sales plus $0.30 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited? Round to the nearest cent.",
+    "distractors": [
+      "$4,128.00",
+      "$4,012.12",
+      "$4,089.30"
+    ],
+    "explanation": "Gross sales = 129 × $32.00 = $4,128.00. Fees = $4,128.00 × 2.8/100 + 129 × $0.30. Net deposit = $4,128.00 − $154.28 = $3,973.72.",
+    "numericAnswer": {
+      "value": 3973.72,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-13",
+    "kind": "calculation",
+    "term": "$4,348.60",
+    "definition": "A merchant processes 136 card sales of $33.00 each. The processor deducts 2.5% of sales plus $0.20 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited?",
+    "distractors": [
+      "$4,488.00",
+      "$4,375.60",
+      "$4,460.80"
+    ],
+    "explanation": "Gross sales = 136 × $33.00 = $4,488.00. Fees = $4,488.00 × 2.5/100 + 136 × $0.20. Net deposit = $4,488.00 − $139.40 = $4,348.60.",
+    "numericAnswer": {
+      "value": 4348.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-14",
+    "kind": "calculation",
+    "term": "$4,699.84",
+    "definition": "A merchant processes 143 card sales of $34.00 each. The processor deducts 2.6% of sales plus $0.25 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited? Round to the nearest cent.",
+    "distractors": [
+      "$4,862.00",
+      "$4,735.34",
+      "$4,826.25"
+    ],
+    "explanation": "Gross sales = 143 × $34.00 = $4,862.00. Fees = $4,862.00 × 2.6/100 + 143 × $0.25. Net deposit = $4,862.00 − $162.16 = $4,699.84.",
+    "numericAnswer": {
+      "value": 4699.84,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-15",
+    "kind": "calculation",
+    "term": "$5,063.25",
+    "definition": "A merchant processes 150 card sales of $35.00 each. The processor deducts 2.7% of sales plus $0.30 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited?",
+    "distractors": [
+      "$5,250.00",
+      "$5,107.95",
+      "$5,205.00"
+    ],
+    "explanation": "Gross sales = 150 × $35.00 = $5,250.00. Fees = $5,250.00 × 2.7/100 + 150 × $0.30. Net deposit = $5,250.00 − $186.75 = $5,063.25.",
+    "numericAnswer": {
+      "value": 5063.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-16",
+    "kind": "calculation",
+    "term": "$5,462.34",
+    "definition": "A merchant processes 157 card sales of $36.00 each. The processor deducts 2.8% of sales plus $0.20 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited? Round to the nearest cent.",
+    "distractors": [
+      "$5,652.00",
+      "$5,493.54",
+      "$5,620.60"
+    ],
+    "explanation": "Gross sales = 157 × $36.00 = $5,652.00. Fees = $5,652.00 × 2.8/100 + 157 × $0.20. Net deposit = $5,652.00 − $189.66 = $5,462.34.",
+    "numericAnswer": {
+      "value": 5462.34,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-17",
+    "kind": "calculation",
+    "term": "$5,875.30",
+    "definition": "A merchant processes 164 card sales of $37.00 each. The processor deducts 2.5% of sales plus $0.25 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited?",
+    "distractors": [
+      "$6,068.00",
+      "$5,916.05",
+      "$6,027.00"
+    ],
+    "explanation": "Gross sales = 164 × $37.00 = $6,068.00. Fees = $6,068.00 × 2.5/100 + 164 × $0.25. Net deposit = $6,068.00 − $192.70 = $5,875.30.",
+    "numericAnswer": {
+      "value": 5875.3,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-18",
+    "kind": "calculation",
+    "term": "$6,277.75",
+    "definition": "A merchant processes 171 card sales of $38.00 each. The processor deducts 2.6% of sales plus $0.30 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited? Round to the nearest cent.",
+    "distractors": [
+      "$6,498.00",
+      "$6,328.75",
+      "$6,446.70"
+    ],
+    "explanation": "Gross sales = 171 × $38.00 = $6,498.00. Fees = $6,498.00 × 2.6/100 + 171 × $0.30. Net deposit = $6,498.00 − $220.25 = $6,277.75.",
+    "numericAnswer": {
+      "value": 6277.75,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-19",
+    "kind": "calculation",
+    "term": "$6,718.97",
+    "definition": "A merchant processes 178 card sales of $39.00 each. The processor deducts 2.7% of sales plus $0.20 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited? Round to the nearest cent.",
+    "distractors": [
+      "$6,942.00",
+      "$6,754.37",
+      "$6,906.40"
+    ],
+    "explanation": "Gross sales = 178 × $39.00 = $6,942.00. Fees = $6,942.00 × 2.7/100 + 178 × $0.20. Net deposit = $6,942.00 − $223.03 = $6,718.97.",
+    "numericAnswer": {
+      "value": 6718.97,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-merchant-processing-net-deposit-20",
+    "kind": "calculation",
+    "term": "$7,146.55",
+    "definition": "A merchant processes 185 card sales of $40.00 each. The processor deducts 2.8% of sales plus $0.25 for each transaction. No refunds, tax withholding, or other fees apply. What net amount is deposited?",
+    "distractors": [
+      "$7,400.00",
+      "$7,192.55",
+      "$7,353.75"
+    ],
+    "explanation": "Gross sales = 185 × $40.00 = $7,400.00. Fees = $7,400.00 × 2.8/100 + 185 × $0.25. Net deposit = $7,400.00 − $253.45 = $7,146.55.",
+    "numericAnswer": {
+      "value": 7146.55,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-01",
+    "kind": "calculation",
+    "term": "$5,400.00",
+    "definition": "A business has cash of $3,500.00, receivables collectible within a year of $2,800.00, inventory expected to sell within a year of $4,100.00, and long-term equipment of $12,000.00. Its only current liabilities are $3,700.00 of payables and $1,300.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$17,400.00",
+      "-$1,500.00",
+      "$10,400.00"
+    ],
+    "explanation": "Current assets = $3,500.00 + $2,800.00 + $4,100.00; long-term equipment is excluded. Current liabilities = $3,700.00 + $1,300.00. Working capital = $10,400.00 − $5,000.00 = $5,400.00.",
+    "numericAnswer": {
+      "value": 5400,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-02",
+    "kind": "calculation",
+    "term": "$5,715.00",
+    "definition": "A business has cash of $3,675.00, receivables collectible within a year of $2,930.00, inventory expected to sell within a year of $4,310.00, and long-term equipment of $12,400.00. Its only current liabilities are $3,840.00 of payables and $1,360.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$18,115.00",
+      "-$1,525.00",
+      "$10,915.00"
+    ],
+    "explanation": "Current assets = $3,675.00 + $2,930.00 + $4,310.00; long-term equipment is excluded. Current liabilities = $3,840.00 + $1,360.00. Working capital = $10,915.00 − $5,200.00 = $5,715.00.",
+    "numericAnswer": {
+      "value": 5715,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-03",
+    "kind": "calculation",
+    "term": "$6,030.00",
+    "definition": "A business has cash of $3,850.00, receivables collectible within a year of $3,060.00, inventory expected to sell within a year of $4,520.00, and long-term equipment of $12,800.00. Its only current liabilities are $3,980.00 of payables and $1,420.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$18,830.00",
+      "-$1,550.00",
+      "$11,430.00"
+    ],
+    "explanation": "Current assets = $3,850.00 + $3,060.00 + $4,520.00; long-term equipment is excluded. Current liabilities = $3,980.00 + $1,420.00. Working capital = $11,430.00 − $5,400.00 = $6,030.00.",
+    "numericAnswer": {
+      "value": 6030,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-04",
+    "kind": "calculation",
+    "term": "$6,345.00",
+    "definition": "A business has cash of $4,025.00, receivables collectible within a year of $3,190.00, inventory expected to sell within a year of $4,730.00, and long-term equipment of $13,200.00. Its only current liabilities are $4,120.00 of payables and $1,480.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$19,545.00",
+      "-$1,575.00",
+      "$11,945.00"
+    ],
+    "explanation": "Current assets = $4,025.00 + $3,190.00 + $4,730.00; long-term equipment is excluded. Current liabilities = $4,120.00 + $1,480.00. Working capital = $11,945.00 − $5,600.00 = $6,345.00.",
+    "numericAnswer": {
+      "value": 6345,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-05",
+    "kind": "calculation",
+    "term": "$6,660.00",
+    "definition": "A business has cash of $4,200.00, receivables collectible within a year of $3,320.00, inventory expected to sell within a year of $4,940.00, and long-term equipment of $13,600.00. Its only current liabilities are $4,260.00 of payables and $1,540.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$20,260.00",
+      "-$1,600.00",
+      "$12,460.00"
+    ],
+    "explanation": "Current assets = $4,200.00 + $3,320.00 + $4,940.00; long-term equipment is excluded. Current liabilities = $4,260.00 + $1,540.00. Working capital = $12,460.00 − $5,800.00 = $6,660.00.",
+    "numericAnswer": {
+      "value": 6660,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-06",
+    "kind": "calculation",
+    "term": "$6,975.00",
+    "definition": "A business has cash of $4,375.00, receivables collectible within a year of $3,450.00, inventory expected to sell within a year of $5,150.00, and long-term equipment of $14,000.00. Its only current liabilities are $4,400.00 of payables and $1,600.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$20,975.00",
+      "-$1,625.00",
+      "$12,975.00"
+    ],
+    "explanation": "Current assets = $4,375.00 + $3,450.00 + $5,150.00; long-term equipment is excluded. Current liabilities = $4,400.00 + $1,600.00. Working capital = $12,975.00 − $6,000.00 = $6,975.00.",
+    "numericAnswer": {
+      "value": 6975,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-07",
+    "kind": "calculation",
+    "term": "$7,290.00",
+    "definition": "A business has cash of $4,550.00, receivables collectible within a year of $3,580.00, inventory expected to sell within a year of $5,360.00, and long-term equipment of $14,400.00. Its only current liabilities are $4,540.00 of payables and $1,660.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$21,690.00",
+      "-$1,650.00",
+      "$13,490.00"
+    ],
+    "explanation": "Current assets = $4,550.00 + $3,580.00 + $5,360.00; long-term equipment is excluded. Current liabilities = $4,540.00 + $1,660.00. Working capital = $13,490.00 − $6,200.00 = $7,290.00.",
+    "numericAnswer": {
+      "value": 7290,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-08",
+    "kind": "calculation",
+    "term": "$7,605.00",
+    "definition": "A business has cash of $4,725.00, receivables collectible within a year of $3,710.00, inventory expected to sell within a year of $5,570.00, and long-term equipment of $14,800.00. Its only current liabilities are $4,680.00 of payables and $1,720.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$22,405.00",
+      "-$1,675.00",
+      "$14,005.00"
+    ],
+    "explanation": "Current assets = $4,725.00 + $3,710.00 + $5,570.00; long-term equipment is excluded. Current liabilities = $4,680.00 + $1,720.00. Working capital = $14,005.00 − $6,400.00 = $7,605.00.",
+    "numericAnswer": {
+      "value": 7605,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-09",
+    "kind": "calculation",
+    "term": "$7,920.00",
+    "definition": "A business has cash of $4,900.00, receivables collectible within a year of $3,840.00, inventory expected to sell within a year of $5,780.00, and long-term equipment of $15,200.00. Its only current liabilities are $4,820.00 of payables and $1,780.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$23,120.00",
+      "-$1,700.00",
+      "$14,520.00"
+    ],
+    "explanation": "Current assets = $4,900.00 + $3,840.00 + $5,780.00; long-term equipment is excluded. Current liabilities = $4,820.00 + $1,780.00. Working capital = $14,520.00 − $6,600.00 = $7,920.00.",
+    "numericAnswer": {
+      "value": 7920,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-10",
+    "kind": "calculation",
+    "term": "$8,235.00",
+    "definition": "A business has cash of $5,075.00, receivables collectible within a year of $3,970.00, inventory expected to sell within a year of $5,990.00, and long-term equipment of $15,600.00. Its only current liabilities are $4,960.00 of payables and $1,840.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$23,835.00",
+      "-$1,725.00",
+      "$15,035.00"
+    ],
+    "explanation": "Current assets = $5,075.00 + $3,970.00 + $5,990.00; long-term equipment is excluded. Current liabilities = $4,960.00 + $1,840.00. Working capital = $15,035.00 − $6,800.00 = $8,235.00.",
+    "numericAnswer": {
+      "value": 8235,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-11",
+    "kind": "calculation",
+    "term": "$8,550.00",
+    "definition": "A business has cash of $5,250.00, receivables collectible within a year of $4,100.00, inventory expected to sell within a year of $6,200.00, and long-term equipment of $16,000.00. Its only current liabilities are $5,100.00 of payables and $1,900.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$24,550.00",
+      "-$1,750.00",
+      "$15,550.00"
+    ],
+    "explanation": "Current assets = $5,250.00 + $4,100.00 + $6,200.00; long-term equipment is excluded. Current liabilities = $5,100.00 + $1,900.00. Working capital = $15,550.00 − $7,000.00 = $8,550.00.",
+    "numericAnswer": {
+      "value": 8550,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-12",
+    "kind": "calculation",
+    "term": "$8,865.00",
+    "definition": "A business has cash of $5,425.00, receivables collectible within a year of $4,230.00, inventory expected to sell within a year of $6,410.00, and long-term equipment of $16,400.00. Its only current liabilities are $5,240.00 of payables and $1,960.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$25,265.00",
+      "-$1,775.00",
+      "$16,065.00"
+    ],
+    "explanation": "Current assets = $5,425.00 + $4,230.00 + $6,410.00; long-term equipment is excluded. Current liabilities = $5,240.00 + $1,960.00. Working capital = $16,065.00 − $7,200.00 = $8,865.00.",
+    "numericAnswer": {
+      "value": 8865,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-13",
+    "kind": "calculation",
+    "term": "$9,180.00",
+    "definition": "A business has cash of $5,600.00, receivables collectible within a year of $4,360.00, inventory expected to sell within a year of $6,620.00, and long-term equipment of $16,800.00. Its only current liabilities are $5,380.00 of payables and $2,020.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$25,980.00",
+      "-$1,800.00",
+      "$16,580.00"
+    ],
+    "explanation": "Current assets = $5,600.00 + $4,360.00 + $6,620.00; long-term equipment is excluded. Current liabilities = $5,380.00 + $2,020.00. Working capital = $16,580.00 − $7,400.00 = $9,180.00.",
+    "numericAnswer": {
+      "value": 9180,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-14",
+    "kind": "calculation",
+    "term": "$9,495.00",
+    "definition": "A business has cash of $5,775.00, receivables collectible within a year of $4,490.00, inventory expected to sell within a year of $6,830.00, and long-term equipment of $17,200.00. Its only current liabilities are $5,520.00 of payables and $2,080.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$26,695.00",
+      "-$1,825.00",
+      "$17,095.00"
+    ],
+    "explanation": "Current assets = $5,775.00 + $4,490.00 + $6,830.00; long-term equipment is excluded. Current liabilities = $5,520.00 + $2,080.00. Working capital = $17,095.00 − $7,600.00 = $9,495.00.",
+    "numericAnswer": {
+      "value": 9495,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-15",
+    "kind": "calculation",
+    "term": "$9,810.00",
+    "definition": "A business has cash of $5,950.00, receivables collectible within a year of $4,620.00, inventory expected to sell within a year of $7,040.00, and long-term equipment of $17,600.00. Its only current liabilities are $5,660.00 of payables and $2,140.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$27,410.00",
+      "-$1,850.00",
+      "$17,610.00"
+    ],
+    "explanation": "Current assets = $5,950.00 + $4,620.00 + $7,040.00; long-term equipment is excluded. Current liabilities = $5,660.00 + $2,140.00. Working capital = $17,610.00 − $7,800.00 = $9,810.00.",
+    "numericAnswer": {
+      "value": 9810,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-16",
+    "kind": "calculation",
+    "term": "$10,125.00",
+    "definition": "A business has cash of $6,125.00, receivables collectible within a year of $4,750.00, inventory expected to sell within a year of $7,250.00, and long-term equipment of $18,000.00. Its only current liabilities are $5,800.00 of payables and $2,200.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$28,125.00",
+      "-$1,875.00",
+      "$18,125.00"
+    ],
+    "explanation": "Current assets = $6,125.00 + $4,750.00 + $7,250.00; long-term equipment is excluded. Current liabilities = $5,800.00 + $2,200.00. Working capital = $18,125.00 − $8,000.00 = $10,125.00.",
+    "numericAnswer": {
+      "value": 10125,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-17",
+    "kind": "calculation",
+    "term": "$10,440.00",
+    "definition": "A business has cash of $6,300.00, receivables collectible within a year of $4,880.00, inventory expected to sell within a year of $7,460.00, and long-term equipment of $18,400.00. Its only current liabilities are $5,940.00 of payables and $2,260.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$28,840.00",
+      "-$1,900.00",
+      "$18,640.00"
+    ],
+    "explanation": "Current assets = $6,300.00 + $4,880.00 + $7,460.00; long-term equipment is excluded. Current liabilities = $5,940.00 + $2,260.00. Working capital = $18,640.00 − $8,200.00 = $10,440.00.",
+    "numericAnswer": {
+      "value": 10440,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-18",
+    "kind": "calculation",
+    "term": "$10,755.00",
+    "definition": "A business has cash of $6,475.00, receivables collectible within a year of $5,010.00, inventory expected to sell within a year of $7,670.00, and long-term equipment of $18,800.00. Its only current liabilities are $6,080.00 of payables and $2,320.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$29,555.00",
+      "-$1,925.00",
+      "$19,155.00"
+    ],
+    "explanation": "Current assets = $6,475.00 + $5,010.00 + $7,670.00; long-term equipment is excluded. Current liabilities = $6,080.00 + $2,320.00. Working capital = $19,155.00 − $8,400.00 = $10,755.00.",
+    "numericAnswer": {
+      "value": 10755,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-19",
+    "kind": "calculation",
+    "term": "$11,070.00",
+    "definition": "A business has cash of $6,650.00, receivables collectible within a year of $5,140.00, inventory expected to sell within a year of $7,880.00, and long-term equipment of $19,200.00. Its only current liabilities are $6,220.00 of payables and $2,380.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$30,270.00",
+      "-$1,950.00",
+      "$19,670.00"
+    ],
+    "explanation": "Current assets = $6,650.00 + $5,140.00 + $7,880.00; long-term equipment is excluded. Current liabilities = $6,220.00 + $2,380.00. Working capital = $19,670.00 − $8,600.00 = $11,070.00.",
+    "numericAnswer": {
+      "value": 11070,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-working-capital-classification-20",
+    "kind": "calculation",
+    "term": "$11,385.00",
+    "definition": "A business has cash of $6,825.00, receivables collectible within a year of $5,270.00, inventory expected to sell within a year of $8,090.00, and long-term equipment of $19,600.00. Its only current liabilities are $6,360.00 of payables and $2,440.00 of debt due within a year. What is working capital, defined as current assets minus current liabilities?",
+    "distractors": [
+      "$30,985.00",
+      "-$1,975.00",
+      "$20,185.00"
+    ],
+    "explanation": "Current assets = $6,825.00 + $5,270.00 + $8,090.00; long-term equipment is excluded. Current liabilities = $6,360.00 + $2,440.00. Working capital = $20,185.00 − $8,800.00 = $11,385.00.",
+    "numericAnswer": {
+      "value": 11385,
+      "unit": "USD"
+    }
+  }
+]

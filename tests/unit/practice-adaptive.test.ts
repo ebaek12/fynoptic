@@ -459,9 +459,14 @@ describe("normalizeQuestion", () => {
     expect(q.answerIndex).toBe(0);
   });
 
-  it("explanation is always the empty string", () => {
+  it("defaults to an empty explanation for older questions", () => {
     const q = normalizeQuestion(item());
     expect(q.explanation).toBe("");
+  });
+
+  it("preserves the explanation when shuffling a new question", () => {
+    const q = normalizeQuestion(item({ explanation: "Compare total cost, including fees." }));
+    expect(q.explanation).toBe("Compare total cost, including fees.");
   });
 
   it("randomizes answer placement without mutating the source question or losing its answer", () => {
