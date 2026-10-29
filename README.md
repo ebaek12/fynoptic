@@ -91,7 +91,7 @@ Source references are recorded in `src/data/study-expansion-sources.json`.
 Content tests check counts, uniqueness, answer validity, and session coverage.
 The course catalog has one available course and twelve clearly marked placeholders.
 
-The next expansion adds 5,000 worked calculation drills and 5,000 matching
+The next expansion adds 5,000 worked calculation drills and 5,000
 question-and-answer flashcards: 250 exercise families with 20 distinct input
 cases each. Their hypothetical assumptions and worked calculations appear in
 the prompts and explanations. Recipes and references live in
@@ -99,10 +99,21 @@ the prompts and explanations. Recipes and references live in
 Run `npm run generate:study-drills` after editing recipes, and
 `npm run check:study-drills` to verify the committed output is current.
 Practice banks are stored in `data/practice-drills-*.json`. Calculation
-flashcards are split into 30 files under `data/flashcard-drills/` and fetched
-only for selected topics; the initial screen uses a small count/path catalog.
+flashcards are split into 12 files under `data/flashcard-drills/` and fetched
+only for selected original units, then combined with each unit's vocabulary.
 Stable card IDs preserve separate progress when numeric answers repeat, and
 typed answers accept equivalent numeric formatting while checking units.
+
+All study additions now use the original 12 flashcard units and 16 practice
+categories (six Personal Finance and ten Economics), listed in
+`src/data/study-units.json`. The totals remain 6,611 cards and 7,286 questions.
+`src/data/study-reorganization.json` records the content review, reassignments,
+rewrites, and sources. `scripts/study-drills/unit-routing.json` and the context
+overrides keep generated questions within those curricula; the generator also
+removes superseded unit files. Saved mastery follows unchanged cards into their
+original units through `src/data/flashcard-progress-migration.json`. Rewritten
+material starts without inherited mastery; the earlier answer records remain
+stored. Existing cards and their progress identifiers remain intact.
 
 ## Deploy
 

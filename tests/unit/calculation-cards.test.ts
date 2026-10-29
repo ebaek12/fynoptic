@@ -12,6 +12,7 @@ import {
   unitProgress,
 } from "../../src/hooks/useFlashcardDeck";
 import drillCatalog from "../../src/data/flashcard-drill-catalog.json";
+import { FLASHCARD_UNITS } from "../../src/data/flashcard-units";
 import type { Flashcard } from "../../src/types";
 
 const card: Flashcard = {
@@ -153,16 +154,14 @@ describe("topic-based flashcard loading", () => {
   const [unit, entry] = Object.entries(drillCatalog)[0]!;
   const data = JSON.parse(readFileSync(resolve(entry.path.slice(1)), "utf8"));
 
-  it("loads only selected new topics, caches them, and leaves original topics local", async () => {
+  it("loads calculations only for selected original units, merges vocabulary, and caches requests", async () => {
     const fetcher = vi
       .fn<typeof fetch>()
       .mockImplementation(async () => new Response(JSON.stringify(data)));
     const load = createFlashcardLoader(fetcher);
-    const old = await load(["Banking"]);
-    expect(old.Banking).toHaveLength(50);
-    expect(fetcher).not.toHaveBeenCalled();
     const [first, second] = await Promise.all([load([unit]), load([unit])]);
-    expect(first[unit]).toHaveLength(entry.count);
+    expect(first[unit]).toHaveLength(entry.count + FLASHCARD_UNITS[unit]!.length);
+    expect(first[unit]!.slice(0, FLASHCARD_UNITS[unit]!.length)).toEqual(FLASHCARD_UNITS[unit]);
     expect(second).toEqual(first);
     expect(fetcher).toHaveBeenCalledTimes(1);
     expect(fetcher.mock.calls[0]![0]).toBe(entry.path);
@@ -175,7 +174,7 @@ describe("topic-based flashcard loading", () => {
       .mockResolvedValueOnce(new Response(JSON.stringify(data)));
     const load = createFlashcardLoader(fetcher);
     await expect(load([unit])).rejects.toThrow("HTTP 503");
-    expect((await load([unit]))[unit]).toHaveLength(entry.count);
+    expect((await load([unit]))[unit]).toHaveLength(entry.count + FLASHCARD_UNITS[unit]!.length);
     expect(fetcher).toHaveBeenCalledTimes(2);
     await expect(load(["Unknown topic"])).rejects.toThrow(
       "Unknown flashcard topic",

@@ -92,6 +92,7 @@ for (const viewport of [
         await expectCompactSetup(page);
         await page.locator("#unit-list .study-topic").first().click();
         await page.locator("#confirm-units").click();
+        await page.locator("#shuffle").uncheck();
         await expectCompactSetup(page);
         if (mode === "fitb")
           await page

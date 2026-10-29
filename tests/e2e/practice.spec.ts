@@ -1,4 +1,5 @@
 import { test, expect, type Page } from "@playwright/test";
+import { combinedPractice } from "./helpers/study-content";
 
 for (const category of ["Personal Finance", "Economics"]) {
   test(`${category} distributes correct answers and preserves each question's shuffled order`, async ({
@@ -178,17 +179,18 @@ test("clicking a bank card selects it and updates body[data-cat] (I3)", async ({
   await expect(page.locator("body")).toHaveAttribute("data-cat", "Economics");
 });
 
-// Each topic chip gains a trailing count. Personal Finance's 36 topics
-// sum to 4,290 questions across its three difficulty buckets — summing
-// the rendered counts is a stronger check than just "some number renders".
+// The original six Personal Finance categories contain the expanded question pool.
 test("topic chips show per-topic question counts", async ({ page }) => {
   await goToStep2(page);
   const counts = await page
     .locator("#topics-list .topic-btn-count")
     .allTextContents();
-  expect(counts).toHaveLength(36); // Personal Finance is the default category
+  expect(counts).toHaveLength(6); // Personal Finance is the default category
   const sum = counts.reduce((total, c) => total + Number(c), 0);
-  expect(sum).toBe(4290);
+  const expected = Object.values(combinedPractice["Personal Finance"]!).flatMap(
+    (levels) => Object.values(levels).flat(),
+  ).length;
+  expect(sum).toBe(expected);
 });
 
 // §7.4: role="checkbox" now pairs with aria-checked, not the mismatched

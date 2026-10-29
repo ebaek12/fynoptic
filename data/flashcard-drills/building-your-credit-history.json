@@ -1,0 +1,2562 @@
+[
+  {
+    "id": "drill-cash-utilization-target-payment-01",
+    "kind": "calculation",
+    "term": "$1,300.00",
+    "definition": "A card has a $4,000.00 limit and a $2,100.00 reported balance. You choose a utilization target of exactly 20.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$420.00",
+      "$800.00",
+      "$1,680.00"
+    ],
+    "explanation": "Target balance = $4,000.00 × 20.0% = $800.00. Required payment = $2,100.00 − $800.00 = $1,300.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 1300,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-02",
+    "kind": "calculation",
+    "term": "$1,377.50",
+    "definition": "A card has a $4,250.00 limit and a $2,270.00 reported balance. You choose a utilization target of exactly 21.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$476.70",
+      "$892.50",
+      "$1,793.30"
+    ],
+    "explanation": "Target balance = $4,250.00 × 21.0% = $892.50. Required payment = $2,270.00 − $892.50 = $1,377.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 1377.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-03",
+    "kind": "calculation",
+    "term": "$1,450.00",
+    "definition": "A card has a $4,500.00 limit and a $2,440.00 reported balance. You choose a utilization target of exactly 22.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$536.80",
+      "$990.00",
+      "$1,903.20"
+    ],
+    "explanation": "Target balance = $4,500.00 × 22.0% = $990.00. Required payment = $2,440.00 − $990.00 = $1,450.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 1450,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-04",
+    "kind": "calculation",
+    "term": "$1,517.50",
+    "definition": "A card has a $4,750.00 limit and a $2,610.00 reported balance. You choose a utilization target of exactly 23.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$600.30",
+      "$1,092.50",
+      "$2,009.70"
+    ],
+    "explanation": "Target balance = $4,750.00 × 23.0% = $1,092.50. Required payment = $2,610.00 − $1,092.50 = $1,517.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 1517.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-05",
+    "kind": "calculation",
+    "term": "$1,580.00",
+    "definition": "A card has a $5,000.00 limit and a $2,780.00 reported balance. You choose a utilization target of exactly 24.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$667.20",
+      "$1,200.00",
+      "$2,112.80"
+    ],
+    "explanation": "Target balance = $5,000.00 × 24.0% = $1,200.00. Required payment = $2,780.00 − $1,200.00 = $1,580.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 1580,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-06",
+    "kind": "calculation",
+    "term": "$1,637.50",
+    "definition": "A card has a $5,250.00 limit and a $2,950.00 reported balance. You choose a utilization target of exactly 25.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$737.50",
+      "$1,312.50",
+      "$2,212.50"
+    ],
+    "explanation": "Target balance = $5,250.00 × 25.0% = $1,312.50. Required payment = $2,950.00 − $1,312.50 = $1,637.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 1637.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-07",
+    "kind": "calculation",
+    "term": "$2,020.00",
+    "definition": "A card has a $5,500.00 limit and a $3,120.00 reported balance. You choose a utilization target of exactly 20.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$624.00",
+      "$1,100.00",
+      "$2,496.00"
+    ],
+    "explanation": "Target balance = $5,500.00 × 20.0% = $1,100.00. Required payment = $3,120.00 − $1,100.00 = $2,020.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2020,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-08",
+    "kind": "calculation",
+    "term": "$2,082.50",
+    "definition": "A card has a $5,750.00 limit and a $3,290.00 reported balance. You choose a utilization target of exactly 21.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$690.90",
+      "$1,207.50",
+      "$2,599.10"
+    ],
+    "explanation": "Target balance = $5,750.00 × 21.0% = $1,207.50. Required payment = $3,290.00 − $1,207.50 = $2,082.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2082.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-09",
+    "kind": "calculation",
+    "term": "$2,140.00",
+    "definition": "A card has a $6,000.00 limit and a $3,460.00 reported balance. You choose a utilization target of exactly 22.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$761.20",
+      "$1,320.00",
+      "$2,698.80"
+    ],
+    "explanation": "Target balance = $6,000.00 × 22.0% = $1,320.00. Required payment = $3,460.00 − $1,320.00 = $2,140.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2140,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-10",
+    "kind": "calculation",
+    "term": "$2,192.50",
+    "definition": "A card has a $6,250.00 limit and a $3,630.00 reported balance. You choose a utilization target of exactly 23.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$834.90",
+      "$1,437.50",
+      "$2,795.10"
+    ],
+    "explanation": "Target balance = $6,250.00 × 23.0% = $1,437.50. Required payment = $3,630.00 − $1,437.50 = $2,192.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2192.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-11",
+    "kind": "calculation",
+    "term": "$2,240.00",
+    "definition": "A card has a $6,500.00 limit and a $3,800.00 reported balance. You choose a utilization target of exactly 24.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$912.00",
+      "$1,560.00",
+      "$2,888.00"
+    ],
+    "explanation": "Target balance = $6,500.00 × 24.0% = $1,560.00. Required payment = $3,800.00 − $1,560.00 = $2,240.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2240,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-12",
+    "kind": "calculation",
+    "term": "$2,282.50",
+    "definition": "A card has a $6,750.00 limit and a $3,970.00 reported balance. You choose a utilization target of exactly 25.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$992.50",
+      "$1,687.50",
+      "$2,977.50"
+    ],
+    "explanation": "Target balance = $6,750.00 × 25.0% = $1,687.50. Required payment = $3,970.00 − $1,687.50 = $2,282.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2282.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-13",
+    "kind": "calculation",
+    "term": "$2,740.00",
+    "definition": "A card has a $7,000.00 limit and a $4,140.00 reported balance. You choose a utilization target of exactly 20.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$828.00",
+      "$1,400.00",
+      "$3,312.00"
+    ],
+    "explanation": "Target balance = $7,000.00 × 20.0% = $1,400.00. Required payment = $4,140.00 − $1,400.00 = $2,740.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2740,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-14",
+    "kind": "calculation",
+    "term": "$2,787.50",
+    "definition": "A card has a $7,250.00 limit and a $4,310.00 reported balance. You choose a utilization target of exactly 21.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$905.10",
+      "$1,522.50",
+      "$3,404.90"
+    ],
+    "explanation": "Target balance = $7,250.00 × 21.0% = $1,522.50. Required payment = $4,310.00 − $1,522.50 = $2,787.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2787.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-15",
+    "kind": "calculation",
+    "term": "$2,830.00",
+    "definition": "A card has a $7,500.00 limit and a $4,480.00 reported balance. You choose a utilization target of exactly 22.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$985.60",
+      "$1,650.00",
+      "$3,494.40"
+    ],
+    "explanation": "Target balance = $7,500.00 × 22.0% = $1,650.00. Required payment = $4,480.00 − $1,650.00 = $2,830.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2830,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-16",
+    "kind": "calculation",
+    "term": "$2,867.50",
+    "definition": "A card has a $7,750.00 limit and a $4,650.00 reported balance. You choose a utilization target of exactly 23.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$1,069.50",
+      "$1,782.50",
+      "$3,580.50"
+    ],
+    "explanation": "Target balance = $7,750.00 × 23.0% = $1,782.50. Required payment = $4,650.00 − $1,782.50 = $2,867.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2867.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-17",
+    "kind": "calculation",
+    "term": "$2,900.00",
+    "definition": "A card has a $8,000.00 limit and a $4,820.00 reported balance. You choose a utilization target of exactly 24.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$1,156.80",
+      "$1,920.00",
+      "$3,663.20"
+    ],
+    "explanation": "Target balance = $8,000.00 × 24.0% = $1,920.00. Required payment = $4,820.00 − $1,920.00 = $2,900.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2900,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-18",
+    "kind": "calculation",
+    "term": "$2,927.50",
+    "definition": "A card has a $8,250.00 limit and a $4,990.00 reported balance. You choose a utilization target of exactly 25.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$1,247.50",
+      "$2,062.50",
+      "$3,742.50"
+    ],
+    "explanation": "Target balance = $8,250.00 × 25.0% = $2,062.50. Required payment = $4,990.00 − $2,062.50 = $2,927.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 2927.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-19",
+    "kind": "calculation",
+    "term": "$3,460.00",
+    "definition": "A card has a $8,500.00 limit and a $5,160.00 reported balance. You choose a utilization target of exactly 20.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$1,032.00",
+      "$1,700.00",
+      "$4,128.00"
+    ],
+    "explanation": "Target balance = $8,500.00 × 20.0% = $1,700.00. Required payment = $5,160.00 − $1,700.00 = $3,460.00. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 3460,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-cash-utilization-target-payment-20",
+    "kind": "calculation",
+    "term": "$3,492.50",
+    "definition": "A card has a $8,750.00 limit and a $5,330.00 reported balance. You choose a utilization target of exactly 21.0% for that card. With no new charges, fees, or interest, how much must you pay to reach that target?",
+    "distractors": [
+      "$1,119.30",
+      "$1,837.50",
+      "$4,210.70"
+    ],
+    "explanation": "Target balance = $8,750.00 × 21.0% = $1,837.50. Required payment = $5,330.00 − $1,837.50 = $3,492.50. This is a chosen target, not a promised credit-score result.",
+    "numericAnswer": {
+      "value": 3492.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-01",
+    "kind": "calculation",
+    "term": "$1,080.00",
+    "definition": "A credit card has a $4,000.00 limit and a reported balance of $2,080.00. The cardholder chooses a utilization target of 25.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$520.00",
+      "$1,000.00",
+      "$1,560.00"
+    ],
+    "explanation": "Target balance = $4,000.00 × 25% = $1,000.00. Required payment = $2,080.00 − $1,000.00 = $1,080.00.",
+    "numericAnswer": {
+      "value": 1080,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-02",
+    "kind": "calculation",
+    "term": "$1,215.00",
+    "definition": "A credit card has a $4,500.00 limit and a reported balance of $2,385.00. The cardholder chooses a utilization target of 26.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$620.10",
+      "$1,170.00",
+      "$1,764.90"
+    ],
+    "explanation": "Target balance = $4,500.00 × 26% = $1,170.00. Required payment = $2,385.00 − $1,170.00 = $1,215.00.",
+    "numericAnswer": {
+      "value": 1215,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-03",
+    "kind": "calculation",
+    "term": "$1,350.00",
+    "definition": "A credit card has a $5,000.00 limit and a reported balance of $2,700.00. The cardholder chooses a utilization target of 27.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$729.00",
+      "$1,971.00",
+      "$621.00"
+    ],
+    "explanation": "Target balance = $5,000.00 × 27% = $1,350.00. Required payment = $2,700.00 − $1,350.00 = $1,350.00.",
+    "numericAnswer": {
+      "value": 1350,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-04",
+    "kind": "calculation",
+    "term": "$1,485.00",
+    "definition": "A credit card has a $5,500.00 limit and a reported balance of $3,025.00. The cardholder chooses a utilization target of 28.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$847.00",
+      "$1,540.00",
+      "$2,178.00"
+    ],
+    "explanation": "Target balance = $5,500.00 × 28% = $1,540.00. Required payment = $3,025.00 − $1,540.00 = $1,485.00.",
+    "numericAnswer": {
+      "value": 1485,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-05",
+    "kind": "calculation",
+    "term": "$1,620.00",
+    "definition": "A credit card has a $6,000.00 limit and a reported balance of $3,360.00. The cardholder chooses a utilization target of 29.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$974.40",
+      "$1,740.00",
+      "$2,385.60"
+    ],
+    "explanation": "Target balance = $6,000.00 × 29% = $1,740.00. Required payment = $3,360.00 − $1,740.00 = $1,620.00.",
+    "numericAnswer": {
+      "value": 1620,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-06",
+    "kind": "calculation",
+    "term": "$1,755.00",
+    "definition": "A credit card has a $6,500.00 limit and a reported balance of $3,705.00. The cardholder chooses a utilization target of 30.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,111.50",
+      "$1,950.00",
+      "$2,593.50"
+    ],
+    "explanation": "Target balance = $6,500.00 × 30% = $1,950.00. Required payment = $3,705.00 − $1,950.00 = $1,755.00.",
+    "numericAnswer": {
+      "value": 1755,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-07",
+    "kind": "calculation",
+    "term": "$2,310.00",
+    "definition": "A credit card has a $7,000.00 limit and a reported balance of $4,060.00. The cardholder chooses a utilization target of 25.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,015.00",
+      "$1,750.00",
+      "$3,045.00"
+    ],
+    "explanation": "Target balance = $7,000.00 × 25% = $1,750.00. Required payment = $4,060.00 − $1,750.00 = $2,310.00.",
+    "numericAnswer": {
+      "value": 2310,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-08",
+    "kind": "calculation",
+    "term": "$2,475.00",
+    "definition": "A credit card has a $7,500.00 limit and a reported balance of $4,425.00. The cardholder chooses a utilization target of 26.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,150.50",
+      "$1,950.00",
+      "$3,274.50"
+    ],
+    "explanation": "Target balance = $7,500.00 × 26% = $1,950.00. Required payment = $4,425.00 − $1,950.00 = $2,475.00.",
+    "numericAnswer": {
+      "value": 2475,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-09",
+    "kind": "calculation",
+    "term": "$2,000.00",
+    "definition": "A credit card has a $8,000.00 limit and a reported balance of $4,160.00. The cardholder chooses a utilization target of 27.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,123.20",
+      "$2,160.00",
+      "$3,036.80"
+    ],
+    "explanation": "Target balance = $8,000.00 × 27% = $2,160.00. Required payment = $4,160.00 − $2,160.00 = $2,000.00.",
+    "numericAnswer": {
+      "value": 2000,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-10",
+    "kind": "calculation",
+    "term": "$2,125.00",
+    "definition": "A credit card has a $8,500.00 limit and a reported balance of $4,505.00. The cardholder chooses a utilization target of 28.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,261.40",
+      "$2,380.00",
+      "$3,243.60"
+    ],
+    "explanation": "Target balance = $8,500.00 × 28% = $2,380.00. Required payment = $4,505.00 − $2,380.00 = $2,125.00.",
+    "numericAnswer": {
+      "value": 2125,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-11",
+    "kind": "calculation",
+    "term": "$2,250.00",
+    "definition": "A credit card has a $9,000.00 limit and a reported balance of $4,860.00. The cardholder chooses a utilization target of 29.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,409.40",
+      "$2,610.00",
+      "$3,450.60"
+    ],
+    "explanation": "Target balance = $9,000.00 × 29% = $2,610.00. Required payment = $4,860.00 − $2,610.00 = $2,250.00.",
+    "numericAnswer": {
+      "value": 2250,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-12",
+    "kind": "calculation",
+    "term": "$2,375.00",
+    "definition": "A credit card has a $9,500.00 limit and a reported balance of $5,225.00. The cardholder chooses a utilization target of 30.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,567.50",
+      "$2,850.00",
+      "$3,657.50"
+    ],
+    "explanation": "Target balance = $9,500.00 × 30% = $2,850.00. Required payment = $5,225.00 − $2,850.00 = $2,375.00.",
+    "numericAnswer": {
+      "value": 2375,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-13",
+    "kind": "calculation",
+    "term": "$3,100.00",
+    "definition": "A credit card has a $10,000.00 limit and a reported balance of $5,600.00. The cardholder chooses a utilization target of 25.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,400.00",
+      "$2,500.00",
+      "$4,200.00"
+    ],
+    "explanation": "Target balance = $10,000.00 × 25% = $2,500.00. Required payment = $5,600.00 − $2,500.00 = $3,100.00.",
+    "numericAnswer": {
+      "value": 3100,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-14",
+    "kind": "calculation",
+    "term": "$3,255.00",
+    "definition": "A credit card has a $10,500.00 limit and a reported balance of $5,985.00. The cardholder chooses a utilization target of 26.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,556.10",
+      "$2,730.00",
+      "$4,428.90"
+    ],
+    "explanation": "Target balance = $10,500.00 × 26% = $2,730.00. Required payment = $5,985.00 − $2,730.00 = $3,255.00.",
+    "numericAnswer": {
+      "value": 3255,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-15",
+    "kind": "calculation",
+    "term": "$3,410.00",
+    "definition": "A credit card has a $11,000.00 limit and a reported balance of $6,380.00. The cardholder chooses a utilization target of 27.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,722.60",
+      "$2,970.00",
+      "$4,657.40"
+    ],
+    "explanation": "Target balance = $11,000.00 × 27% = $2,970.00. Required payment = $6,380.00 − $2,970.00 = $3,410.00.",
+    "numericAnswer": {
+      "value": 3410,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-16",
+    "kind": "calculation",
+    "term": "$3,565.00",
+    "definition": "A credit card has a $11,500.00 limit and a reported balance of $6,785.00. The cardholder chooses a utilization target of 28.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,899.80",
+      "$3,220.00",
+      "$4,885.20"
+    ],
+    "explanation": "Target balance = $11,500.00 × 28% = $3,220.00. Required payment = $6,785.00 − $3,220.00 = $3,565.00.",
+    "numericAnswer": {
+      "value": 3565,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-17",
+    "kind": "calculation",
+    "term": "$2,760.00",
+    "definition": "A credit card has a $12,000.00 limit and a reported balance of $6,240.00. The cardholder chooses a utilization target of 29.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,809.60",
+      "$3,480.00",
+      "$4,430.40"
+    ],
+    "explanation": "Target balance = $12,000.00 × 29% = $3,480.00. Required payment = $6,240.00 − $3,480.00 = $2,760.00.",
+    "numericAnswer": {
+      "value": 2760,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-18",
+    "kind": "calculation",
+    "term": "$2,875.00",
+    "definition": "A credit card has a $12,500.00 limit and a reported balance of $6,625.00. The cardholder chooses a utilization target of 30.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,987.50",
+      "$3,750.00",
+      "$4,637.50"
+    ],
+    "explanation": "Target balance = $12,500.00 × 30% = $3,750.00. Required payment = $6,625.00 − $3,750.00 = $2,875.00.",
+    "numericAnswer": {
+      "value": 2875,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-19",
+    "kind": "calculation",
+    "term": "$3,770.00",
+    "definition": "A credit card has a $13,000.00 limit and a reported balance of $7,020.00. The cardholder chooses a utilization target of 25.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,755.00",
+      "$3,250.00",
+      "$5,265.00"
+    ],
+    "explanation": "Target balance = $13,000.00 × 25% = $3,250.00. Required payment = $7,020.00 − $3,250.00 = $3,770.00.",
+    "numericAnswer": {
+      "value": 3770,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-invest-utilization-target-payment-20",
+    "kind": "calculation",
+    "term": "$3,915.00",
+    "definition": "A credit card has a $13,500.00 limit and a reported balance of $7,425.00. The cardholder chooses a utilization target of 26.0% of the limit. Assuming no new charges, interest, fees, or limit changes, what payment reduces the balance exactly to that target? The target is a personal assumption, not a promised credit-score threshold.",
+    "distractors": [
+      "$1,930.50",
+      "$3,510.00",
+      "$5,494.50"
+    ],
+    "explanation": "Target balance = $13,500.00 × 26% = $3,510.00. Required payment = $7,425.00 − $3,510.00 = $3,915.00.",
+    "numericAnswer": {
+      "value": 3915,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-01",
+    "kind": "calculation",
+    "term": "5.62%",
+    "definition": "Your revolving accounts show $500.00 used and $8,400.00 available, together making the total credit limit. A separate mortgage balance is $3,300.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.10%",
+      "5.95%",
+      "27.05%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $500.00 ÷ ($500.00 + $8,400.00) × 100 = 5.62%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-02",
+    "kind": "calculation",
+    "term": "5.65%",
+    "definition": "Your revolving accounts show $517.00 used and $8,630.00 available, together making the total credit limit. A separate mortgage balance is $3,410.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.12%",
+      "5.99%",
+      "27.16%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $517.00 ÷ ($517.00 + $8,630.00) × 100 = 5.65%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.65,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-03",
+    "kind": "calculation",
+    "term": "5.68%",
+    "definition": "Your revolving accounts show $534.00 used and $8,860.00 available, together making the total credit limit. A separate mortgage balance is $3,520.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.14%",
+      "6.03%",
+      "27.26%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $534.00 ÷ ($534.00 + $8,860.00) × 100 = 5.68%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.68,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-04",
+    "kind": "calculation",
+    "term": "5.72%",
+    "definition": "Your revolving accounts show $551.00 used and $9,090.00 available, together making the total credit limit. A separate mortgage balance is $3,630.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.15%",
+      "6.06%",
+      "27.35%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $551.00 ÷ ($551.00 + $9,090.00) × 100 = 5.72%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.72,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-05",
+    "kind": "calculation",
+    "term": "5.74%",
+    "definition": "Your revolving accounts show $568.00 used and $9,320.00 available, together making the total credit limit. A separate mortgage balance is $3,740.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.17%",
+      "6.09%",
+      "27.44%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $568.00 ÷ ($568.00 + $9,320.00) × 100 = 5.74%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.74,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-06",
+    "kind": "calculation",
+    "term": "5.77%",
+    "definition": "Your revolving accounts show $585.00 used and $9,550.00 available, together making the total credit limit. A separate mortgage balance is $3,850.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.18%",
+      "6.13%",
+      "27.53%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $585.00 ÷ ($585.00 + $9,550.00) × 100 = 5.77%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.77,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-07",
+    "kind": "calculation",
+    "term": "5.80%",
+    "definition": "Your revolving accounts show $602.00 used and $9,780.00 available, together making the total credit limit. A separate mortgage balance is $3,960.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.20%",
+      "6.16%",
+      "27.61%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $602.00 ÷ ($602.00 + $9,780.00) × 100 = 5.80%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.8,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-08",
+    "kind": "calculation",
+    "term": "5.82%",
+    "definition": "Your revolving accounts show $619.00 used and $10,010.00 available, together making the total credit limit. A separate mortgage balance is $4,070.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.21%",
+      "6.18%",
+      "27.69%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $619.00 ÷ ($619.00 + $10,010.00) × 100 = 5.82%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.82,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-09",
+    "kind": "calculation",
+    "term": "5.85%",
+    "definition": "Your revolving accounts show $636.00 used and $10,240.00 available, together making the total credit limit. A separate mortgage balance is $4,180.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.22%",
+      "6.21%",
+      "27.76%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $636.00 ÷ ($636.00 + $10,240.00) × 100 = 5.85%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.85,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-10",
+    "kind": "calculation",
+    "term": "5.87%",
+    "definition": "Your revolving accounts show $653.00 used and $10,470.00 available, together making the total credit limit. A separate mortgage balance is $4,290.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.24%",
+      "6.24%",
+      "27.83%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $653.00 ÷ ($653.00 + $10,470.00) × 100 = 5.87%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.87,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-11",
+    "kind": "calculation",
+    "term": "5.89%",
+    "definition": "Your revolving accounts show $670.00 used and $10,700.00 available, together making the total credit limit. A separate mortgage balance is $4,400.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.25%",
+      "6.26%",
+      "27.90%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $670.00 ÷ ($670.00 + $10,700.00) × 100 = 5.89%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.89,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-12",
+    "kind": "calculation",
+    "term": "5.91%",
+    "definition": "Your revolving accounts show $687.00 used and $10,930.00 available, together making the total credit limit. A separate mortgage balance is $4,510.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.26%",
+      "6.29%",
+      "27.97%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $687.00 ÷ ($687.00 + $10,930.00) × 100 = 5.91%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.91,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-13",
+    "kind": "calculation",
+    "term": "5.93%",
+    "definition": "Your revolving accounts show $704.00 used and $11,160.00 available, together making the total credit limit. A separate mortgage balance is $4,620.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.27%",
+      "6.31%",
+      "28.03%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $704.00 ÷ ($704.00 + $11,160.00) × 100 = 5.93%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.93,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-14",
+    "kind": "calculation",
+    "term": "5.95%",
+    "definition": "Your revolving accounts show $721.00 used and $11,390.00 available, together making the total credit limit. A separate mortgage balance is $4,730.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.28%",
+      "6.33%",
+      "28.09%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $721.00 ÷ ($721.00 + $11,390.00) × 100 = 5.95%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.95,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-15",
+    "kind": "calculation",
+    "term": "5.97%",
+    "definition": "Your revolving accounts show $738.00 used and $11,620.00 available, together making the total credit limit. A separate mortgage balance is $4,840.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.29%",
+      "6.35%",
+      "28.14%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $738.00 ÷ ($738.00 + $11,620.00) × 100 = 5.97%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.97,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-16",
+    "kind": "calculation",
+    "term": "5.99%",
+    "definition": "Your revolving accounts show $755.00 used and $11,850.00 available, together making the total credit limit. A separate mortgage balance is $4,950.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.30%",
+      "6.37%",
+      "28.20%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $755.00 ÷ ($755.00 + $11,850.00) × 100 = 5.99%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 5.99,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-17",
+    "kind": "calculation",
+    "term": "6.01%",
+    "definition": "Your revolving accounts show $772.00 used and $12,080.00 available, together making the total credit limit. A separate mortgage balance is $5,060.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.31%",
+      "6.39%",
+      "28.25%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $772.00 ÷ ($772.00 + $12,080.00) × 100 = 6.01%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 6.01,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-18",
+    "kind": "calculation",
+    "term": "6.02%",
+    "definition": "Your revolving accounts show $789.00 used and $12,310.00 available, together making the total credit limit. A separate mortgage balance is $5,170.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.32%",
+      "6.41%",
+      "28.30%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $789.00 ÷ ($789.00 + $12,310.00) × 100 = 6.02%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 6.02,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-19",
+    "kind": "calculation",
+    "term": "6.04%",
+    "definition": "Your revolving accounts show $806.00 used and $12,540.00 available, together making the total credit limit. A separate mortgage balance is $5,280.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.33%",
+      "6.43%",
+      "28.35%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $806.00 ÷ ($806.00 + $12,540.00) × 100 = 6.04%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 6.04,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unemployment-labor-force-denominator-20",
+    "kind": "calculation",
+    "term": "6.05%",
+    "definition": "Your revolving accounts show $823.00 used and $12,770.00 available, together making the total credit limit. A separate mortgage balance is $5,390.00. What is aggregate revolving utilization, excluding the mortgage? Round to 2 decimal places.",
+    "distractors": [
+      "4.34%",
+      "6.44%",
+      "28.39%"
+    ],
+    "explanation": "Total revolving limit = used + available. Utilization = $823.00 ÷ ($823.00 + $12,770.00) × 100 = 6.05%. The mortgage is outside this revolving-credit ratio; no score change is implied.",
+    "numericAnswer": {
+      "value": 6.05,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-01",
+    "kind": "calculation",
+    "term": "65.33%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $15,000.00. Reported balances are $9,200.00 on one group of cards and $600.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.33%",
+      "6.12%",
+      "34.67%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($9,200.00 + $600.00) ÷ $15,000.00 × 100 = 65.33%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.33,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-02",
+    "kind": "calculation",
+    "term": "65.34%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $15,470.00. Reported balances are $9,490.00 on one group of cards and $618.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.34%",
+      "6.11%",
+      "34.66%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($9,490.00 + $618.00) ÷ $15,470.00 × 100 = 65.34%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.34,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-03",
+    "kind": "calculation",
+    "term": "65.35%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $15,940.00. Reported balances are $9,780.00 on one group of cards and $636.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.36%",
+      "6.11%",
+      "34.65%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($9,780.00 + $636.00) ÷ $15,940.00 × 100 = 65.35%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.35,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-04",
+    "kind": "calculation",
+    "term": "65.35%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $16,410.00. Reported balances are $10,070.00 on one group of cards and $654.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.37%",
+      "6.10%",
+      "34.65%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($10,070.00 + $654.00) ÷ $16,410.00 × 100 = 65.35%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.35,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-05",
+    "kind": "calculation",
+    "term": "65.36%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $16,880.00. Reported balances are $10,360.00 on one group of cards and $672.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.37%",
+      "6.09%",
+      "34.64%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($10,360.00 + $672.00) ÷ $16,880.00 × 100 = 65.36%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.36,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-06",
+    "kind": "calculation",
+    "term": "65.36%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $17,350.00. Reported balances are $10,650.00 on one group of cards and $690.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.38%",
+      "6.08%",
+      "34.64%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($10,650.00 + $690.00) ÷ $17,350.00 × 100 = 65.36%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.36,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-07",
+    "kind": "calculation",
+    "term": "65.36%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $17,820.00. Reported balances are $10,940.00 on one group of cards and $708.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.39%",
+      "6.08%",
+      "34.64%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($10,940.00 + $708.00) ÷ $17,820.00 × 100 = 65.36%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.36,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-08",
+    "kind": "calculation",
+    "term": "65.37%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $18,290.00. Reported balances are $11,230.00 on one group of cards and $726.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.40%",
+      "6.07%",
+      "34.63%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($11,230.00 + $726.00) ÷ $18,290.00 × 100 = 65.37%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.37,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-09",
+    "kind": "calculation",
+    "term": "65.37%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $18,760.00. Reported balances are $11,520.00 on one group of cards and $744.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.41%",
+      "6.07%",
+      "34.63%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($11,520.00 + $744.00) ÷ $18,760.00 × 100 = 65.37%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.37,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-10",
+    "kind": "calculation",
+    "term": "65.38%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $19,230.00. Reported balances are $11,810.00 on one group of cards and $762.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.41%",
+      "6.06%",
+      "34.62%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($11,810.00 + $762.00) ÷ $19,230.00 × 100 = 65.38%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.38,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-11",
+    "kind": "calculation",
+    "term": "65.38%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $19,700.00. Reported balances are $12,100.00 on one group of cards and $780.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.42%",
+      "6.06%",
+      "34.62%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($12,100.00 + $780.00) ÷ $19,700.00 × 100 = 65.38%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.38,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-12",
+    "kind": "calculation",
+    "term": "65.38%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $20,170.00. Reported balances are $12,390.00 on one group of cards and $798.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.43%",
+      "6.05%",
+      "34.62%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($12,390.00 + $798.00) ÷ $20,170.00 × 100 = 65.38%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.38,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-13",
+    "kind": "calculation",
+    "term": "65.39%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $20,640.00. Reported balances are $12,680.00 on one group of cards and $816.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.43%",
+      "6.05%",
+      "34.61%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($12,680.00 + $816.00) ÷ $20,640.00 × 100 = 65.39%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.39,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-14",
+    "kind": "calculation",
+    "term": "65.39%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $21,110.00. Reported balances are $12,970.00 on one group of cards and $834.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.44%",
+      "6.04%",
+      "34.61%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($12,970.00 + $834.00) ÷ $21,110.00 × 100 = 65.39%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.39,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-15",
+    "kind": "calculation",
+    "term": "65.39%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $21,580.00. Reported balances are $13,260.00 on one group of cards and $852.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.45%",
+      "6.04%",
+      "34.61%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($13,260.00 + $852.00) ÷ $21,580.00 × 100 = 65.39%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.39,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-16",
+    "kind": "calculation",
+    "term": "65.40%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $22,050.00. Reported balances are $13,550.00 on one group of cards and $870.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.45%",
+      "6.03%",
+      "34.60%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($13,550.00 + $870.00) ÷ $22,050.00 × 100 = 65.40%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-17",
+    "kind": "calculation",
+    "term": "65.40%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $22,520.00. Reported balances are $13,840.00 on one group of cards and $888.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.46%",
+      "6.03%",
+      "34.60%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($13,840.00 + $888.00) ÷ $22,520.00 × 100 = 65.40%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-18",
+    "kind": "calculation",
+    "term": "65.40%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $22,990.00. Reported balances are $14,130.00 on one group of cards and $906.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.46%",
+      "6.03%",
+      "34.60%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($14,130.00 + $906.00) ÷ $22,990.00 × 100 = 65.40%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-19",
+    "kind": "calculation",
+    "term": "65.40%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $23,460.00. Reported balances are $14,420.00 on one group of cards and $924.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.47%",
+      "6.02%",
+      "34.60%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($14,420.00 + $924.00) ÷ $23,460.00 × 100 = 65.40%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-labor-force-participation-20",
+    "kind": "calculation",
+    "term": "65.41%",
+    "definition": "Across your revolving accounts, the combined reported credit limit is $23,930.00. Reported balances are $14,710.00 on one group of cards and $942.00 on the remaining cards. What is aggregate utilization? Round to 2 decimal places.",
+    "distractors": [
+      "61.47%",
+      "6.02%",
+      "34.59%"
+    ],
+    "explanation": "Add every reported revolving balance, then divide by the combined limit: ($14,710.00 + $942.00) ÷ $23,930.00 × 100 = 65.41%. This measures utilization, not a credit score.",
+    "numericAnswer": {
+      "value": 65.41,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-01",
+    "kind": "calculation",
+    "term": "59.82%",
+    "definition": "Your revolving-credit report shows total balances of $6,700.00 and total limits of $11,200.00. It also lists a separate $420.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.57%",
+      "94.10%",
+      "3.75%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $6,700.00 ÷ $11,200.00 × 100 = 59.82%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.82,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-02",
+    "kind": "calculation",
+    "term": "59.78%",
+    "definition": "Your revolving-credit report shows total balances of $6,910.00 and total limits of $11,560.00. It also lists a separate $434.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.53%",
+      "94.09%",
+      "3.75%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $6,910.00 ÷ $11,560.00 × 100 = 59.78%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.78,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-03",
+    "kind": "calculation",
+    "term": "59.73%",
+    "definition": "Your revolving-credit report shows total balances of $7,120.00 and total limits of $11,920.00. It also lists a separate $448.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.49%",
+      "94.08%",
+      "3.76%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $7,120.00 ÷ $11,920.00 × 100 = 59.73%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.73,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-04",
+    "kind": "calculation",
+    "term": "59.69%",
+    "definition": "Your revolving-credit report shows total balances of $7,330.00 and total limits of $12,280.00. It also lists a separate $462.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.45%",
+      "94.07%",
+      "3.76%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $7,330.00 ÷ $12,280.00 × 100 = 59.69%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.69,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-05",
+    "kind": "calculation",
+    "term": "59.65%",
+    "definition": "Your revolving-credit report shows total balances of $7,540.00 and total limits of $12,640.00. It also lists a separate $476.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.42%",
+      "94.06%",
+      "3.77%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $7,540.00 ÷ $12,640.00 × 100 = 59.65%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.65,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-06",
+    "kind": "calculation",
+    "term": "59.62%",
+    "definition": "Your revolving-credit report shows total balances of $7,750.00 and total limits of $13,000.00. It also lists a separate $490.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.38%",
+      "94.05%",
+      "3.77%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $7,750.00 ÷ $13,000.00 × 100 = 59.62%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-07",
+    "kind": "calculation",
+    "term": "59.58%",
+    "definition": "Your revolving-credit report shows total balances of $7,960.00 and total limits of $13,360.00. It also lists a separate $504.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.35%",
+      "94.05%",
+      "3.77%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $7,960.00 ÷ $13,360.00 × 100 = 59.58%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.58,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-08",
+    "kind": "calculation",
+    "term": "59.55%",
+    "definition": "Your revolving-credit report shows total balances of $8,170.00 and total limits of $13,720.00. It also lists a separate $518.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.32%",
+      "94.04%",
+      "3.78%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $8,170.00 ÷ $13,720.00 × 100 = 59.55%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-09",
+    "kind": "calculation",
+    "term": "59.52%",
+    "definition": "Your revolving-credit report shows total balances of $8,380.00 and total limits of $14,080.00. It also lists a separate $532.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.30%",
+      "94.03%",
+      "3.78%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $8,380.00 ÷ $14,080.00 × 100 = 59.52%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.52,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-10",
+    "kind": "calculation",
+    "term": "59.49%",
+    "definition": "Your revolving-credit report shows total balances of $8,590.00 and total limits of $14,440.00. It also lists a separate $546.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.27%",
+      "94.02%",
+      "3.78%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $8,590.00 ÷ $14,440.00 × 100 = 59.49%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.49,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-11",
+    "kind": "calculation",
+    "term": "59.46%",
+    "definition": "Your revolving-credit report shows total balances of $8,800.00 and total limits of $14,800.00. It also lists a separate $560.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.24%",
+      "94.02%",
+      "3.78%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $8,800.00 ÷ $14,800.00 × 100 = 59.46%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.46,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-12",
+    "kind": "calculation",
+    "term": "59.43%",
+    "definition": "Your revolving-credit report shows total balances of $9,010.00 and total limits of $15,160.00. It also lists a separate $574.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.22%",
+      "94.01%",
+      "3.79%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $9,010.00 ÷ $15,160.00 × 100 = 59.43%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.43,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-13",
+    "kind": "calculation",
+    "term": "59.41%",
+    "definition": "Your revolving-credit report shows total balances of $9,220.00 and total limits of $15,520.00. It also lists a separate $588.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.20%",
+      "94.00%",
+      "3.79%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $9,220.00 ÷ $15,520.00 × 100 = 59.41%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.41,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-14",
+    "kind": "calculation",
+    "term": "59.38%",
+    "definition": "Your revolving-credit report shows total balances of $9,430.00 and total limits of $15,880.00. It also lists a separate $602.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.17%",
+      "94.00%",
+      "3.79%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $9,430.00 ÷ $15,880.00 × 100 = 59.38%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.38,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-15",
+    "kind": "calculation",
+    "term": "59.36%",
+    "definition": "Your revolving-credit report shows total balances of $9,640.00 and total limits of $16,240.00. It also lists a separate $616.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.15%",
+      "93.99%",
+      "3.79%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $9,640.00 ÷ $16,240.00 × 100 = 59.36%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.36,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-16",
+    "kind": "calculation",
+    "term": "59.34%",
+    "definition": "Your revolving-credit report shows total balances of $9,850.00 and total limits of $16,600.00. It also lists a separate $630.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.13%",
+      "93.99%",
+      "3.80%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $9,850.00 ÷ $16,600.00 × 100 = 59.34%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.34,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-17",
+    "kind": "calculation",
+    "term": "59.32%",
+    "definition": "Your revolving-credit report shows total balances of $10,060.00 and total limits of $16,960.00. It also lists a separate $644.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.11%",
+      "93.98%",
+      "3.80%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $10,060.00 ÷ $16,960.00 × 100 = 59.32%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.32,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-18",
+    "kind": "calculation",
+    "term": "59.30%",
+    "definition": "Your revolving-credit report shows total balances of $10,270.00 and total limits of $17,320.00. It also lists a separate $658.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.09%",
+      "93.98%",
+      "3.80%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $10,270.00 ÷ $17,320.00 × 100 = 59.30%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.3,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-19",
+    "kind": "calculation",
+    "term": "59.28%",
+    "definition": "Your revolving-credit report shows total balances of $10,480.00 and total limits of $17,680.00. It also lists a separate $672.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.08%",
+      "93.97%",
+      "3.80%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $10,480.00 ÷ $17,680.00 × 100 = 59.28%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.28,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-employment-population-ratio-20",
+    "kind": "calculation",
+    "term": "59.26%",
+    "definition": "Your revolving-credit report shows total balances of $10,690.00 and total limits of $18,040.00. It also lists a separate $686.00 installment loan. What is revolving utilization when that installment debt is excluded? Round to 2 decimal places.",
+    "distractors": [
+      "63.06%",
+      "93.97%",
+      "3.80%"
+    ],
+    "explanation": "Use revolving balances and revolving limits only: $10,690.00 ÷ $18,040.00 × 100 = 59.26%. Adding the installment loan would answer a different question.",
+    "numericAnswer": {
+      "value": 59.26,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-01",
+    "kind": "calculation",
+    "term": "6.89%",
+    "definition": "Your existing revolving accounts have $300.00 reported balances and $5,000.00 unused credit. A new card reports a $70.00 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.59%",
+      "5.66%"
+    ],
+    "explanation": "Both total balances and limits rise by $70.00. Utilization = ($300.00 + $70.00) ÷ ($5,000.00 + $300.00 + $70.00) × 100 = 6.89%.",
+    "numericAnswer": {
+      "value": 6.89,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-02",
+    "kind": "calculation",
+    "term": "6.89%",
+    "definition": "Your existing revolving accounts have $309.00 reported balances and $5,170.00 unused credit. A new card reports a $73.50 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.57%",
+      "5.64%"
+    ],
+    "explanation": "Both total balances and limits rise by $73.50. Utilization = ($309.00 + $73.50) ÷ ($5,170.00 + $309.00 + $73.50) × 100 = 6.89%.",
+    "numericAnswer": {
+      "value": 6.89,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-03",
+    "kind": "calculation",
+    "term": "6.89%",
+    "definition": "Your existing revolving accounts have $318.00 reported balances and $5,340.00 unused credit. A new card reports a $77.00 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.54%",
+      "5.62%"
+    ],
+    "explanation": "Both total balances and limits rise by $77.00. Utilization = ($318.00 + $77.00) ÷ ($5,340.00 + $318.00 + $77.00) × 100 = 6.89%.",
+    "numericAnswer": {
+      "value": 6.89,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-04",
+    "kind": "calculation",
+    "term": "6.89%",
+    "definition": "Your existing revolving accounts have $327.00 reported balances and $5,510.00 unused credit. A new card reports a $80.50 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.53%",
+      "5.60%"
+    ],
+    "explanation": "Both total balances and limits rise by $80.50. Utilization = ($327.00 + $80.50) ÷ ($5,510.00 + $327.00 + $80.50) × 100 = 6.89%.",
+    "numericAnswer": {
+      "value": 6.89,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-05",
+    "kind": "calculation",
+    "term": "6.89%",
+    "definition": "Your existing revolving accounts have $336.00 reported balances and $5,680.00 unused credit. A new card reports a $84.00 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.51%",
+      "5.59%"
+    ],
+    "explanation": "Both total balances and limits rise by $84.00. Utilization = ($336.00 + $84.00) ÷ ($5,680.00 + $336.00 + $84.00) × 100 = 6.89%.",
+    "numericAnswer": {
+      "value": 6.89,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-06",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Your existing revolving accounts have $345.00 reported balances and $5,850.00 unused credit. A new card reports a $87.50 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.49%",
+      "5.57%"
+    ],
+    "explanation": "Both total balances and limits rise by $87.50. Utilization = ($345.00 + $87.50) ÷ ($5,850.00 + $345.00 + $87.50) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-07",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Your existing revolving accounts have $354.00 reported balances and $6,020.00 unused credit. A new card reports a $91.00 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.48%",
+      "5.55%"
+    ],
+    "explanation": "Both total balances and limits rise by $91.00. Utilization = ($354.00 + $91.00) ÷ ($6,020.00 + $354.00 + $91.00) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-08",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Your existing revolving accounts have $363.00 reported balances and $6,190.00 unused credit. A new card reports a $94.50 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.46%",
+      "5.54%"
+    ],
+    "explanation": "Both total balances and limits rise by $94.50. Utilization = ($363.00 + $94.50) ÷ ($6,190.00 + $363.00 + $94.50) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-09",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Your existing revolving accounts have $372.00 reported balances and $6,360.00 unused credit. A new card reports a $98.00 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.45%",
+      "5.53%"
+    ],
+    "explanation": "Both total balances and limits rise by $98.00. Utilization = ($372.00 + $98.00) ÷ ($6,360.00 + $372.00 + $98.00) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-10",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Your existing revolving accounts have $381.00 reported balances and $6,530.00 unused credit. A new card reports a $101.50 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.43%",
+      "5.51%"
+    ],
+    "explanation": "Both total balances and limits rise by $101.50. Utilization = ($381.00 + $101.50) ÷ ($6,530.00 + $381.00 + $101.50) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-11",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Your existing revolving accounts have $390.00 reported balances and $6,700.00 unused credit. A new card reports a $105.00 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.42%",
+      "5.50%"
+    ],
+    "explanation": "Both total balances and limits rise by $105.00. Utilization = ($390.00 + $105.00) ÷ ($6,700.00 + $390.00 + $105.00) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-12",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Your existing revolving accounts have $399.00 reported balances and $6,870.00 unused credit. A new card reports a $108.50 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.41%",
+      "5.49%"
+    ],
+    "explanation": "Both total balances and limits rise by $108.50. Utilization = ($399.00 + $108.50) ÷ ($6,870.00 + $399.00 + $108.50) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-13",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Your existing revolving accounts have $408.00 reported balances and $7,040.00 unused credit. A new card reports a $112.00 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.40%",
+      "5.48%"
+    ],
+    "explanation": "Both total balances and limits rise by $112.00. Utilization = ($408.00 + $112.00) ÷ ($7,040.00 + $408.00 + $112.00) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-14",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Your existing revolving accounts have $417.00 reported balances and $7,210.00 unused credit. A new card reports a $115.50 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.39%",
+      "5.47%"
+    ],
+    "explanation": "Both total balances and limits rise by $115.50. Utilization = ($417.00 + $115.50) ÷ ($7,210.00 + $417.00 + $115.50) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-15",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Your existing revolving accounts have $426.00 reported balances and $7,380.00 unused credit. A new card reports a $119.00 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.38%",
+      "5.46%"
+    ],
+    "explanation": "Both total balances and limits rise by $119.00. Utilization = ($426.00 + $119.00) ÷ ($7,380.00 + $426.00 + $119.00) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-16",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Your existing revolving accounts have $435.00 reported balances and $7,550.00 unused credit. A new card reports a $122.50 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.37%",
+      "5.45%"
+    ],
+    "explanation": "Both total balances and limits rise by $122.50. Utilization = ($435.00 + $122.50) ÷ ($7,550.00 + $435.00 + $122.50) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-17",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Your existing revolving accounts have $444.00 reported balances and $7,720.00 unused credit. A new card reports a $126.00 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.36%",
+      "5.44%"
+    ],
+    "explanation": "Both total balances and limits rise by $126.00. Utilization = ($444.00 + $126.00) ÷ ($7,720.00 + $444.00 + $126.00) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-18",
+    "kind": "calculation",
+    "term": "6.88%",
+    "definition": "Your existing revolving accounts have $453.00 reported balances and $7,890.00 unused credit. A new card reports a $129.50 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.35%",
+      "5.43%"
+    ],
+    "explanation": "Both total balances and limits rise by $129.50. Utilization = ($453.00 + $129.50) ÷ ($7,890.00 + $453.00 + $129.50) × 100 = 6.88%.",
+    "numericAnswer": {
+      "value": 6.88,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-19",
+    "kind": "calculation",
+    "term": "6.87%",
+    "definition": "Your existing revolving accounts have $462.00 reported balances and $8,060.00 unused credit. A new card reports a $133.00 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.34%",
+      "5.42%"
+    ],
+    "explanation": "Both total balances and limits rise by $133.00. Utilization = ($462.00 + $133.00) ÷ ($8,060.00 + $462.00 + $133.00) × 100 = 6.87%.",
+    "numericAnswer": {
+      "value": 6.87,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-new-jobseekers-unemployment-rate-20",
+    "kind": "calculation",
+    "term": "6.87%",
+    "definition": "Your existing revolving accounts have $471.00 reported balances and $8,230.00 unused credit. A new card reports a $136.50 limit and a balance equal to that entire limit. Nothing else changes. What is aggregate utilization across old and new accounts? Round to 2 decimal places.",
+    "distractors": [
+      "6.98%",
+      "5.33%",
+      "5.41%"
+    ],
+    "explanation": "Both total balances and limits rise by $136.50. Utilization = ($471.00 + $136.50) ÷ ($8,230.00 + $471.00 + $136.50) × 100 = 6.87%.",
+    "numericAnswer": {
+      "value": 6.87,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-01",
+    "kind": "calculation",
+    "term": "11.56%",
+    "definition": "Card A reports a $7,500.00 limit and a $310.00 balance. Card B has a $450.00 limit and the same $450.00 balance; Card C has a $180.00 limit and the same $180.00 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.66%",
+      "7.75%"
+    ],
+    "explanation": "Add balances separately from limits: ($310.00 + $450.00 + $180.00) ÷ ($7,500.00 + $450.00 + $180.00) × 100 = 11.56%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-02",
+    "kind": "calculation",
+    "term": "11.56%",
+    "definition": "Card A reports a $7,720.00 limit and a $318.00 balance. Card B has a $463.00 limit and the same $463.00 balance; Card C has a $186.50 limit and the same $186.50 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.66%",
+      "7.76%"
+    ],
+    "explanation": "Add balances separately from limits: ($318.00 + $463.00 + $186.50) ÷ ($7,720.00 + $463.00 + $186.50) × 100 = 11.56%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-03",
+    "kind": "calculation",
+    "term": "11.56%",
+    "definition": "Card A reports a $7,940.00 limit and a $326.00 balance. Card B has a $476.00 limit and the same $476.00 balance; Card C has a $193.00 limit and the same $193.00 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.66%",
+      "7.77%"
+    ],
+    "explanation": "Add balances separately from limits: ($326.00 + $476.00 + $193.00) ÷ ($7,940.00 + $476.00 + $193.00) × 100 = 11.56%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-04",
+    "kind": "calculation",
+    "term": "11.56%",
+    "definition": "Card A reports a $8,160.00 limit and a $334.00 balance. Card B has a $489.00 limit and the same $489.00 balance; Card C has a $199.50 limit and the same $199.50 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.65%",
+      "7.78%"
+    ],
+    "explanation": "Add balances separately from limits: ($334.00 + $489.00 + $199.50) ÷ ($8,160.00 + $489.00 + $199.50) × 100 = 11.56%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-05",
+    "kind": "calculation",
+    "term": "11.55%",
+    "definition": "Card A reports a $8,380.00 limit and a $342.00 balance. Card B has a $502.00 limit and the same $502.00 balance; Card C has a $206.00 limit and the same $206.00 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.65%",
+      "7.79%"
+    ],
+    "explanation": "Add balances separately from limits: ($342.00 + $502.00 + $206.00) ÷ ($8,380.00 + $502.00 + $206.00) × 100 = 11.55%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-06",
+    "kind": "calculation",
+    "term": "11.55%",
+    "definition": "Card A reports a $8,600.00 limit and a $350.00 balance. Card B has a $515.00 limit and the same $515.00 balance; Card C has a $212.50 limit and the same $212.50 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.65%",
+      "7.80%"
+    ],
+    "explanation": "Add balances separately from limits: ($350.00 + $515.00 + $212.50) ÷ ($8,600.00 + $515.00 + $212.50) × 100 = 11.55%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-07",
+    "kind": "calculation",
+    "term": "11.55%",
+    "definition": "Card A reports a $8,820.00 limit and a $358.00 balance. Card B has a $528.00 limit and the same $528.00 balance; Card C has a $219.00 limit and the same $219.00 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.65%",
+      "7.81%"
+    ],
+    "explanation": "Add balances separately from limits: ($358.00 + $528.00 + $219.00) ÷ ($8,820.00 + $528.00 + $219.00) × 100 = 11.55%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-08",
+    "kind": "calculation",
+    "term": "11.55%",
+    "definition": "Card A reports a $9,040.00 limit and a $366.00 balance. Card B has a $541.00 limit and the same $541.00 balance; Card C has a $225.50 limit and the same $225.50 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.65%",
+      "7.82%"
+    ],
+    "explanation": "Add balances separately from limits: ($366.00 + $541.00 + $225.50) ÷ ($9,040.00 + $541.00 + $225.50) × 100 = 11.55%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-09",
+    "kind": "calculation",
+    "term": "11.55%",
+    "definition": "Card A reports a $9,260.00 limit and a $374.00 balance. Card B has a $554.00 limit and the same $554.00 balance; Card C has a $232.00 limit and the same $232.00 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.82%"
+    ],
+    "explanation": "Add balances separately from limits: ($374.00 + $554.00 + $232.00) ÷ ($9,260.00 + $554.00 + $232.00) × 100 = 11.55%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-10",
+    "kind": "calculation",
+    "term": "11.55%",
+    "definition": "Card A reports a $9,480.00 limit and a $382.00 balance. Card B has a $567.00 limit and the same $567.00 balance; Card C has a $238.50 limit and the same $238.50 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.83%"
+    ],
+    "explanation": "Add balances separately from limits: ($382.00 + $567.00 + $238.50) ÷ ($9,480.00 + $567.00 + $238.50) × 100 = 11.55%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-11",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "Card A reports a $9,700.00 limit and a $390.00 balance. Card B has a $580.00 limit and the same $580.00 balance; Card C has a $245.00 limit and the same $245.00 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.84%"
+    ],
+    "explanation": "Add balances separately from limits: ($390.00 + $580.00 + $245.00) ÷ ($9,700.00 + $580.00 + $245.00) × 100 = 11.54%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-12",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "Card A reports a $9,920.00 limit and a $398.00 balance. Card B has a $593.00 limit and the same $593.00 balance; Card C has a $251.50 limit and the same $251.50 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.85%"
+    ],
+    "explanation": "Add balances separately from limits: ($398.00 + $593.00 + $251.50) ÷ ($9,920.00 + $593.00 + $251.50) × 100 = 11.54%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-13",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "Card A reports a $10,140.00 limit and a $406.00 balance. Card B has a $606.00 limit and the same $606.00 balance; Card C has a $258.00 limit and the same $258.00 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.85%"
+    ],
+    "explanation": "Add balances separately from limits: ($406.00 + $606.00 + $258.00) ÷ ($10,140.00 + $606.00 + $258.00) × 100 = 11.54%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-14",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "Card A reports a $10,360.00 limit and a $414.00 balance. Card B has a $619.00 limit and the same $619.00 balance; Card C has a $264.50 limit and the same $264.50 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.86%"
+    ],
+    "explanation": "Add balances separately from limits: ($414.00 + $619.00 + $264.50) ÷ ($10,360.00 + $619.00 + $264.50) × 100 = 11.54%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-15",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "Card A reports a $10,580.00 limit and a $422.00 balance. Card B has a $632.00 limit and the same $632.00 balance; Card C has a $271.00 limit and the same $271.00 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.86%"
+    ],
+    "explanation": "Add balances separately from limits: ($422.00 + $632.00 + $271.00) ÷ ($10,580.00 + $632.00 + $271.00) × 100 = 11.54%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-16",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "Card A reports a $10,800.00 limit and a $430.00 balance. Card B has a $645.00 limit and the same $645.00 balance; Card C has a $277.50 limit and the same $277.50 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.64%",
+      "7.87%"
+    ],
+    "explanation": "Add balances separately from limits: ($430.00 + $645.00 + $277.50) ÷ ($10,800.00 + $645.00 + $277.50) × 100 = 11.54%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-17",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "Card A reports a $11,020.00 limit and a $438.00 balance. Card B has a $658.00 limit and the same $658.00 balance; Card C has a $284.00 limit and the same $284.00 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.63%",
+      "7.87%"
+    ],
+    "explanation": "Add balances separately from limits: ($438.00 + $658.00 + $284.00) ÷ ($11,020.00 + $658.00 + $284.00) × 100 = 11.54%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-18",
+    "kind": "calculation",
+    "term": "11.54%",
+    "definition": "Card A reports a $11,240.00 limit and a $446.00 balance. Card B has a $671.00 limit and the same $671.00 balance; Card C has a $290.50 limit and the same $290.50 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.63%",
+      "7.88%"
+    ],
+    "explanation": "Add balances separately from limits: ($446.00 + $671.00 + $290.50) ÷ ($11,240.00 + $671.00 + $290.50) × 100 = 11.54%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.54,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-19",
+    "kind": "calculation",
+    "term": "11.53%",
+    "definition": "Card A reports a $11,460.00 limit and a $454.00 balance. Card B has a $684.00 limit and the same $684.00 balance; Card C has a $297.00 limit and the same $297.00 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.63%",
+      "7.89%"
+    ],
+    "explanation": "Add balances separately from limits: ($454.00 + $684.00 + $297.00) ÷ ($11,460.00 + $684.00 + $297.00) × 100 = 11.53%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.53,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-broad-u6-underutilization-20",
+    "kind": "calculation",
+    "term": "11.53%",
+    "definition": "Card A reports a $11,680.00 limit and a $462.00 balance. Card B has a $697.00 limit and the same $697.00 balance; Card C has a $303.50 limit and the same $303.50 balance. What is combined revolving utilization? Round to 2 decimal places.",
+    "distractors": [
+      "11.82%",
+      "5.63%",
+      "7.89%"
+    ],
+    "explanation": "Add balances separately from limits: ($462.00 + $697.00 + $303.50) ÷ ($11,680.00 + $697.00 + $303.50) × 100 = 11.53%. Card A's balance is already within its limit, so it must not be added to the denominator again.",
+    "numericAnswer": {
+      "value": 11.53,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-01",
+    "kind": "calculation",
+    "term": "80.00%",
+    "definition": "Your saved payment records show 80 on-time and 20 late payments for Account A, and 95 on-time and 45 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model.",
+    "distractors": [
+      "33.33%",
+      "45.71%",
+      "72.92%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 80 ÷ (80 + 20) × 100 = 80.00%.",
+    "numericAnswer": {
+      "value": 80,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-02",
+    "kind": "calculation",
+    "term": "79.25%",
+    "definition": "Your saved payment records show 84 on-time and 22 late payments for Account A, and 98 on-time and 47 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "33.47%",
+      "46.15%",
+      "72.51%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 84 ÷ (84 + 22) × 100 = 79.25%.",
+    "numericAnswer": {
+      "value": 79.25,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-03",
+    "kind": "calculation",
+    "term": "78.57%",
+    "definition": "Your saved payment records show 88 on-time and 24 late payments for Account A, and 101 on-time and 49 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "33.59%",
+      "46.56%",
+      "72.14%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 88 ÷ (88 + 24) × 100 = 78.57%.",
+    "numericAnswer": {
+      "value": 78.57,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-04",
+    "kind": "calculation",
+    "term": "77.97%",
+    "definition": "Your saved payment records show 92 on-time and 26 late payments for Account A, and 104 on-time and 51 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "33.70%",
+      "46.94%",
+      "71.79%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 92 ÷ (92 + 26) × 100 = 77.97%.",
+    "numericAnswer": {
+      "value": 77.97,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-05",
+    "kind": "calculation",
+    "term": "77.42%",
+    "definition": "Your saved payment records show 96 on-time and 28 late payments for Account A, and 107 on-time and 53 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "33.80%",
+      "47.29%",
+      "71.48%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 96 ÷ (96 + 28) × 100 = 77.42%.",
+    "numericAnswer": {
+      "value": 77.42,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-06",
+    "kind": "calculation",
+    "term": "76.92%",
+    "definition": "Your saved payment records show 100 on-time and 30 late payments for Account A, and 110 on-time and 55 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "33.90%",
+      "47.62%",
+      "71.19%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 100 ÷ (100 + 30) × 100 = 76.92%.",
+    "numericAnswer": {
+      "value": 76.92,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-07",
+    "kind": "calculation",
+    "term": "76.47%",
+    "definition": "Your saved payment records show 104 on-time and 32 late payments for Account A, and 113 on-time and 57 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "33.99%",
+      "47.93%",
+      "70.92%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 104 ÷ (104 + 32) × 100 = 76.47%.",
+    "numericAnswer": {
+      "value": 76.47,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-08",
+    "kind": "calculation",
+    "term": "76.06%",
+    "definition": "Your saved payment records show 108 on-time and 34 late payments for Account A, and 116 on-time and 59 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "34.07%",
+      "48.21%",
+      "70.66%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 108 ÷ (108 + 34) × 100 = 76.06%.",
+    "numericAnswer": {
+      "value": 76.06,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-09",
+    "kind": "calculation",
+    "term": "75.68%",
+    "definition": "Your saved payment records show 112 on-time and 36 late payments for Account A, and 119 on-time and 61 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "34.15%",
+      "48.48%",
+      "70.43%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 112 ÷ (112 + 36) × 100 = 75.68%.",
+    "numericAnswer": {
+      "value": 75.68,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-10",
+    "kind": "calculation",
+    "term": "75.32%",
+    "definition": "Your saved payment records show 116 on-time and 38 late payments for Account A, and 122 on-time and 63 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "34.22%",
+      "48.74%",
+      "70.21%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 116 ÷ (116 + 38) × 100 = 75.32%.",
+    "numericAnswer": {
+      "value": 75.32,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-11",
+    "kind": "calculation",
+    "term": "75.00%",
+    "definition": "Your saved payment records show 120 on-time and 40 late payments for Account A, and 125 on-time and 65 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model.",
+    "distractors": [
+      "34.29%",
+      "48.98%",
+      "70.00%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 120 ÷ (120 + 40) × 100 = 75.00%.",
+    "numericAnswer": {
+      "value": 75,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-12",
+    "kind": "calculation",
+    "term": "74.70%",
+    "definition": "Your saved payment records show 124 on-time and 42 late payments for Account A, and 128 on-time and 67 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "34.35%",
+      "49.21%",
+      "69.81%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 124 ÷ (124 + 42) × 100 = 74.70%.",
+    "numericAnswer": {
+      "value": 74.7,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-13",
+    "kind": "calculation",
+    "term": "74.42%",
+    "definition": "Your saved payment records show 128 on-time and 44 late payments for Account A, and 131 on-time and 69 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "34.41%",
+      "49.42%",
+      "69.62%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 128 ÷ (128 + 44) × 100 = 74.42%.",
+    "numericAnswer": {
+      "value": 74.42,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-14",
+    "kind": "calculation",
+    "term": "74.16%",
+    "definition": "Your saved payment records show 132 on-time and 46 late payments for Account A, and 134 on-time and 71 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "34.46%",
+      "49.62%",
+      "69.45%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 132 ÷ (132 + 46) × 100 = 74.16%.",
+    "numericAnswer": {
+      "value": 74.16,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-15",
+    "kind": "calculation",
+    "term": "73.91%",
+    "definition": "Your saved payment records show 136 on-time and 48 late payments for Account A, and 137 on-time and 73 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "34.52%",
+      "49.82%",
+      "69.29%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 136 ÷ (136 + 48) × 100 = 73.91%.",
+    "numericAnswer": {
+      "value": 73.91,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-16",
+    "kind": "calculation",
+    "term": "73.68%",
+    "definition": "Your saved payment records show 140 on-time and 50 late payments for Account A, and 140 on-time and 75 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "34.57%",
+      "50.00%",
+      "69.14%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 140 ÷ (140 + 50) × 100 = 73.68%.",
+    "numericAnswer": {
+      "value": 73.68,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-17",
+    "kind": "calculation",
+    "term": "73.47%",
+    "definition": "Your saved payment records show 144 on-time and 52 late payments for Account A, and 143 on-time and 77 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "34.62%",
+      "50.17%",
+      "68.99%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 144 ÷ (144 + 52) × 100 = 73.47%.",
+    "numericAnswer": {
+      "value": 73.47,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-18",
+    "kind": "calculation",
+    "term": "73.27%",
+    "definition": "Your saved payment records show 148 on-time and 54 late payments for Account A, and 146 on-time and 79 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "34.66%",
+      "50.34%",
+      "68.85%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 148 ÷ (148 + 54) × 100 = 73.27%.",
+    "numericAnswer": {
+      "value": 73.27,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-19",
+    "kind": "calculation",
+    "term": "73.08%",
+    "definition": "Your saved payment records show 152 on-time and 56 late payments for Account A, and 149 on-time and 81 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "34.70%",
+      "50.50%",
+      "68.72%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 152 ÷ (152 + 56) × 100 = 73.08%.",
+    "numericAnswer": {
+      "value": 73.08,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-conditional-training-employment-20",
+    "kind": "calculation",
+    "term": "72.90%",
+    "definition": "Your saved payment records show 156 on-time and 58 late payments for Account A, and 152 on-time and 83 late payments for Account B. If one Account A record is selected uniformly at random, what is the probability that it is on time? This is a record-summary calculation, not a credit-score model. Round to 2 decimal places.",
+    "distractors": [
+      "34.74%",
+      "50.65%",
+      "68.60%"
+    ],
+    "explanation": "Condition on Account A: only its records belong in the denominator. Probability = 156 ÷ (156 + 58) × 100 = 72.90%.",
+    "numericAnswer": {
+      "value": 72.9,
+      "unit": "%"
+    }
+  }
+]

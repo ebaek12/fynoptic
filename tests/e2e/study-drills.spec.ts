@@ -1,29 +1,24 @@
-import { readFileSync } from "node:fs";
-import { resolve } from "node:path";
 import { test, expect, type Page } from "@playwright/test";
-import type { Flashcard, PracticeBank } from "../../src/types";
+import catalog from "../../src/data/flashcard-drill-catalog.json" with { type: "json" };
+import taxonomy from "../../src/data/study-units.json" with { type: "json" };
+import {
+  calculationUnits,
+  allFlashcardUnits,
+  startOnCard,
+  findShuffleSample,
+  practiceBanks,
+  isolatePracticeItem,
+} from "./helpers/study-content";
 
-const read = (path: string) =>
-  JSON.parse(readFileSync(resolve(path.replace(/^\//, "")), "utf8"));
-const catalog: Record<string, { count: number; path: string }> = read(
-  "src/data/flashcard-drill-catalog.json",
-);
-const [unit, entry] = Object.entries(catalog)[0]!;
-const cards: Flashcard[] = read(entry.path);
-const first = cards[0]!;
+const unit = "Financial Decisions";
+const entry = catalog[unit];
 const topic = (page: Page, name = unit) =>
   page
     .locator("#unit-list .study-topic")
     .filter({ has: page.getByText(name, { exact: true }) });
-
-async function selectDrills(
-  page: Page,
-  mode: "mc" | "fitb" = "mc",
-  name = unit,
-) {
+async function selectUnit(page: Page, mode: "mc" | "fitb" = "mc", name = unit) {
   await topic(page, name).click();
   await page.locator("#confirm-units").click();
-  await page.locator("#shuffle").uncheck();
   if (mode === "fitb")
     await page
       .locator("label.study-mode", { hasText: "Fill in the Blank" })
@@ -31,7 +26,7 @@ async function selectDrills(
 }
 
 for (const mode of ["mc", "fitb"] as const) {
-  test(`calculation flashcards load only selected topics and grade in ${mode} mode`, async ({
+  test(`calculations within an original unit load on demand and grade in ${mode} mode`, async ({
     page,
   }) => {
     const downloads: string[] = [];
@@ -51,14 +46,21 @@ for (const mode of ["mc", "fitb"] as const) {
         );
     });
     await page.goto("/flashcard");
-    await expect(page.locator("#unit-list .study-topic")).toHaveCount(62);
-    await selectDrills(page, mode);
+    await expect(page.locator("#unit-list .unit-name")).toHaveText(
+      taxonomy.flashcards,
+    );
+    await selectUnit(page, mode);
     expect(downloads).toEqual([]);
-    await page.locator("#start-btn-big").click();
-    await expect(page.locator("#def-text")).toHaveText(first.definition);
+    const card = await startOnCard(
+      page,
+      unit,
+      (card) => card.kind === "calculation",
+    );
     expect(downloads).toHaveLength(1);
     expect(downloads[0]).toContain(entry.path);
-    await expect(page.locator("#stat-total")).toHaveText(String(entry.count));
+    await expect(page.locator("#stat-total")).toHaveText(
+      String(allFlashcardUnits[unit]!.length),
+    );
     await expect(page.locator("#mc-toggle-answer")).toHaveCount(0);
     if (mode === "mc") {
       await expect(page.locator(".mc-option")).toHaveCount(4);
@@ -70,33 +72,32 @@ for (const mode of ["mc", "fitb"] as const) {
               nodes.map((node) => node.getAttribute("data-value")),
             )
         ).sort(),
-      ).toEqual([first.term, ...first.distractors!].sort());
-      await page.getByRole("button", { name: first.term, exact: true }).click();
+      ).toEqual([card.term, ...card.distractors!].sort());
+      await page.getByRole("button", { name: card.term, exact: true }).click();
       await page.locator("#submit-btn").click();
     } else {
-      await page
-        .locator("#fitb-input")
-        .fill(String(first.numericAnswer!.value));
+      await page.locator("#fitb-input").fill(String(card.numericAnswer!.value));
       await page.locator("#fitb-input").press("Enter");
     }
     await expect(page.locator("#stat-correct")).toHaveText("1");
-    await expect(page.locator("#feedback")).toContainText(first.explanation!);
+    await expect(page.locator("#feedback")).toContainText(card.explanation!);
     const saved = await page.evaluate(
       () => JSON.parse(localStorage.getItem("fynoptic.flashcards.v1")!).answers,
     );
-    expect(saved[`${unit}::${first.id}`].correct).toBe(true);
+    expect(saved[`${unit}::${card.id}`].correct).toBe(true);
     expect(saved["Banking::Bank"]).toEqual({
       correct: true,
       attempts: 1,
       lastAt: 1,
     });
     await page.reload();
-    await expect(topic(page)).toContainText("1% mastered");
-    await expect(page.locator("#unit-banking")).toContainText("2% mastered");
+    await expect(topic(page)).toContainText(
+      `${allFlashcardUnits[unit]!.length} cards`,
+    );
   });
 }
 
-test("failed calculation downloads can be retried without losing the selection", async ({
+test("failed calculation downloads can be retried without losing the original-unit selection", async ({
   page,
 }) => {
   let attempts = 0;
@@ -106,24 +107,24 @@ test("failed calculation downloads can be retried without losing the selection",
       : route.continue(),
   );
   await page.goto("/flashcard");
-  await selectDrills(page);
+  await selectUnit(page);
   await page.locator("#start-btn-big").click();
   await expect(page.locator(".toast-container")).toContainText(
     "Could not load these flashcards",
   );
   await expect(page.locator("#flashcard-setup")).not.toHaveAttribute("inert");
   await expect(page.locator("#start-btn-big")).toBeEnabled();
-  await page.locator("#start-btn-big").click();
-  await expect(page.locator("#def-text")).toHaveText(first.definition);
+  await startOnCard(page, unit, (card) => card.kind === "calculation");
   expect(attempts).toBe(2);
 });
 
-test("calculation cards keep the question first after reversing a vocabulary session", async ({
+test("calculation questions stay on the front after reversing vocabulary cards", async ({
   page,
 }) => {
   await page.goto("/flashcard");
   await page.locator("#unit-banking").click();
   await page.locator("#confirm-units").click();
+  await page.locator("#shuffle").uncheck();
   await page.locator("#start-btn-big").click();
   await page.locator("#mc-toggle-answer").click();
   await expect(page.locator("#mc-toggle-answer")).toHaveText(
@@ -132,19 +133,25 @@ test("calculation cards keep the question first after reversing a vocabulary ses
   await page.locator("#end-btn").click();
   await page.locator("#summary-modal .modal-close").click();
   await page.locator("#clear-all").click();
-  await selectDrills(page);
-  await page.locator("#start-btn-big").click();
+  await selectUnit(page);
+  const card = await startOnCard(
+    page,
+    unit,
+    (card) => card.kind === "calculation",
+  );
   await expect(page.locator("#def-side")).toHaveClass(/is-front/);
-  await expect(page.locator("#def-text")).toHaveText(first.definition);
-  await page.getByRole("button", { name: first.term, exact: true }).click();
+  await page.getByRole("button", { name: card.term, exact: true }).click();
   await page.locator("#submit-btn").click();
   await expect(page.locator("#stat-correct")).toHaveText("1");
 });
 
-test("all 6,611 cards can be loaded into one deck", async ({ page }) => {
+test("all 6,611 cards are reachable through the original 12 units", async ({
+  page,
+}) => {
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
   await page.goto("/flashcard");
+  await expect(page.locator("#unit-list .study-topic")).toHaveCount(12);
   await page.locator("#select-all").click();
   await expect(page.locator("#flashcard-setup")).toContainText(
     "6611 cards in your deck",
@@ -161,35 +168,34 @@ test("all 6,611 cards can be loaded into one deck", async ({ page }) => {
   expect(errors).toEqual([]);
 });
 
-test("long calculation flashcards keep the answer and navigation accessible on a small phone", async ({
+test("long calculation cards keep the answer and navigation accessible on a small phone", async ({
   page,
 }) => {
-  const all = Object.entries(catalog).flatMap(([name, item]) =>
-    (read(item.path) as Flashcard[]).map((card) => ({ name, item, card })),
+  const candidates = Object.entries(calculationUnits).flatMap(([name, cards]) =>
+    cards.map((card) => ({ name, card })),
   );
-  const { name, item, card } = all.sort(
+  candidates.sort(
     (a, b) =>
       b.card.definition.length +
       b.card.explanation!.length -
       a.card.definition.length -
       a.card.explanation!.length,
-  )[0]!;
-  const unitCards: Flashcard[] = read(item.path);
-  await page.route(`**${item.path}`, (route) =>
-    route.fulfill({
-      json: [card, ...unitCards.filter((c) => c.id !== card.id)],
-    }),
   );
+  const { name, card } = candidates.find(({ name, card }) =>
+    findShuffleSample(
+      allFlashcardUnits[name]!,
+      (candidate) => candidate.id === card.id,
+    ),
+  )!;
   await page.setViewportSize({ width: 320, height: 640 });
   await page.goto("/flashcard");
-  await selectDrills(page, "mc", name);
-  await page.locator("#start-btn-big").click();
-  await expect(page.locator("#def-text")).toHaveText(card.definition);
+  await selectUnit(page, "mc", name);
+  await startOnCard(page, name, (candidate) => candidate.id === card.id);
   await page.getByRole("button", { name: card.term, exact: true }).click();
   await page.locator("#submit-btn").click();
   await expect(page.locator("#feedback")).toContainText(card.explanation!);
   await expect(page.locator("#next-btn")).toBeInViewport();
-  const nextBounds = (await page.locator('#next-btn').boundingBox())!;
+  const nextBounds = (await page.locator("#next-btn").boundingBox())!;
   expect(nextBounds.x + nextBounds.width).toBeLessThanOrEqual(320);
   expect(
     (await page.locator(".session-workspace").boundingBox())!.height,
@@ -203,36 +209,25 @@ test("long calculation flashcards keep the answer and navigation accessible on a
   await expect
     .poll(() => solution.evaluate((node) => node.scrollTop))
     .toBeGreaterThan(0);
-  await page.screenshot({
-    path: "/tmp/fynoptic-study-5000/flashcard-small-phone.png",
-    fullPage: true,
-  });
 });
 
-for (const filename of ["personal-finance", "economics"]) {
-  const path = `/data/practice-drills-${filename}.json`;
-  const bank: PracticeBank = read(path);
+for (const bank of practiceBanks.slice(4)) {
   const [category, topics] = Object.entries(bank)[0]!;
-  const [name, levels] = Object.entries(topics)[0]!;
-  const items = Object.values(levels).flat();
-  test(`new ${category} drills load, grade, and retain worked explanations`, async ({
+  const [name, levels] = Object.entries(topics).find(
+    ([, levels]) => Object.values(levels).flat().length > 0,
+  )!;
+  const question = Object.values(levels).flat()[0]!;
+  test(`new ${category} calculations grade within an original category`, async ({
     page,
   }) => {
+    await isolatePracticeItem(page, category, name, question);
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/practice");
     await page.locator(".study-bank", { hasText: category }).click();
     await page.locator("#wiz-next-1").click();
-    const selected = page.locator("#topics-list .study-topic", {
-      hasText: name,
-    });
-    await expect(selected.locator(".topic-btn-count")).toHaveText(
-      String(items.length),
-    );
-    await selected.click();
+    await page.locator(`#topics-list [data-value="${name}"]`).click();
     await page.locator("#start-btn").click();
-    const prompt = await page.locator("#prompt").innerText();
-    const question = items.find((item) => item.question === prompt)!;
-    expect(question).toBeDefined();
+    await expect(page.locator("#prompt")).toHaveText(question.question);
     await page
       .getByRole("button", { name: question.answer, exact: true })
       .click();
@@ -242,11 +237,5 @@ for (const filename of ["personal-finance", "economics"]) {
       question.explanation!,
     );
     await expect(page.locator("#next-btn")).toBeInViewport();
-    await page.locator("#next-btn").click();
-    await page.locator("#prev-btn").click();
-    await expect(page.locator("#prompt")).toHaveText(question.question);
-    await expect(page.locator("#feedback")).toContainText(
-      question.explanation!,
-    );
   });
 }

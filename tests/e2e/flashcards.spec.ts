@@ -106,6 +106,8 @@ async function selectFirstUnitAndStart(
   await chip.click();
   const unitLabel = await chip.locator(".unit-name").textContent();
   await page.locator("#confirm-units").click();
+  // Characterize vocabulary controls; calculation cards are tested separately.
+  await page.locator("#shuffle").uncheck();
   if (mode === "fitb") {
     await page
       .locator("label.study-mode", { hasText: "Fill in the Blank" })

@@ -30,7 +30,7 @@ export const RACK_ITEMS: readonly RackItem[] = [
   {
     id: 'flashcards',
     statPrimary: '6,611 Cards',
-    statSecondary: '62 Topics',
+    statSecondary: '12 Topics',
     accent: '#6FE0B8',
     title: 'Flashcards',
     description: 'Review financial concepts and practice calculations from bills, budgets, and investments.',
@@ -39,7 +39,7 @@ export const RACK_ITEMS: readonly RackItem[] = [
   {
     id: 'practice',
     statPrimary: '7,286 Questions',
-    statSecondary: '66 Topics',
+    statSecondary: '16 Topics',
     accent: '#F17EA0',
     title: 'Practice',
     description: 'Answer finance and economics questions, check the explanations, and review your mistakes.',

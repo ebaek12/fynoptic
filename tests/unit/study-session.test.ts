@@ -4,6 +4,7 @@ import { act, createElement } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { FlashcardView } from "../../src/components/flashcards/FlashcardView";
 import { useFlashcardDeck } from "../../src/hooks/useFlashcardDeck";
+import { BASE_FLASHCARD_UNITS } from "../../src/data/flashcard-units";
 import {
   Session as PracticeSession,
   type SessionProps,
@@ -62,7 +63,7 @@ function mountDeck(mode: "mc" | "fitb") {
                 shuffleDeck: false,
                 mcAnswer: "term",
                 fitbAnswer: "term",
-              }),
+              }, BASE_FLASHCARD_UNITS),
           },
           "Start",
         );

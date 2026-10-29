@@ -2558,5 +2558,1925 @@
       "value": 13.16,
       "unit": "USD"
     }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-01",
+    "kind": "calculation",
+    "term": "73.08%",
+    "definition": "A property is currently appraised at $260,000.00, was purchased for $248,000.00, and has a $190,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "76.61%",
+      "26.92%",
+      "136.84%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $190,000.00 ÷ $260,000.00 × 100 = 73.08%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 73.08,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-02",
+    "kind": "calculation",
+    "term": "72.55%",
+    "definition": "A property is currently appraised at $275,000.00, was purchased for $262,600.00, and has a $199,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "75.97%",
+      "27.45%",
+      "137.84%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $199,500.00 ÷ $275,000.00 × 100 = 72.55%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 72.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-03",
+    "kind": "calculation",
+    "term": "72.07%",
+    "definition": "A property is currently appraised at $290,000.00, was purchased for $277,200.00, and has a $209,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "75.40%",
+      "27.93%",
+      "138.76%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $209,000.00 ÷ $290,000.00 × 100 = 72.07%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 72.07,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-04",
+    "kind": "calculation",
+    "term": "71.64%",
+    "definition": "A property is currently appraised at $305,000.00, was purchased for $291,800.00, and has a $218,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "74.88%",
+      "28.36%",
+      "139.59%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $218,500.00 ÷ $305,000.00 × 100 = 71.64%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 71.64,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-05",
+    "kind": "calculation",
+    "term": "71.25%",
+    "definition": "A property is currently appraised at $320,000.00, was purchased for $306,400.00, and has a $228,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV?",
+    "distractors": [
+      "74.41%",
+      "28.75%",
+      "140.35%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $228,000.00 ÷ $320,000.00 × 100 = 71.25%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 71.25,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-06",
+    "kind": "calculation",
+    "term": "70.90%",
+    "definition": "A property is currently appraised at $335,000.00, was purchased for $321,000.00, and has a $237,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "73.99%",
+      "29.10%",
+      "141.05%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $237,500.00 ÷ $335,000.00 × 100 = 70.90%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 70.9,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-07",
+    "kind": "calculation",
+    "term": "70.57%",
+    "definition": "A property is currently appraised at $350,000.00, was purchased for $335,600.00, and has a $247,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "73.60%",
+      "29.43%",
+      "141.70%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $247,000.00 ÷ $350,000.00 × 100 = 70.57%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 70.57,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-08",
+    "kind": "calculation",
+    "term": "70.27%",
+    "definition": "A property is currently appraised at $365,000.00, was purchased for $350,200.00, and has a $256,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "73.24%",
+      "29.73%",
+      "142.30%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $256,500.00 ÷ $365,000.00 × 100 = 70.27%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 70.27,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-09",
+    "kind": "calculation",
+    "term": "70.00%",
+    "definition": "A property is currently appraised at $380,000.00, was purchased for $364,800.00, and has a $266,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV?",
+    "distractors": [
+      "72.92%",
+      "30.00%",
+      "142.86%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $266,000.00 ÷ $380,000.00 × 100 = 70.00%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 70,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-10",
+    "kind": "calculation",
+    "term": "69.75%",
+    "definition": "A property is currently appraised at $395,000.00, was purchased for $379,400.00, and has a $275,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "72.61%",
+      "30.25%",
+      "143.38%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $275,500.00 ÷ $395,000.00 × 100 = 69.75%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 69.75,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-11",
+    "kind": "calculation",
+    "term": "69.51%",
+    "definition": "A property is currently appraised at $410,000.00, was purchased for $394,000.00, and has a $285,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "72.34%",
+      "30.49%",
+      "143.86%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $285,000.00 ÷ $410,000.00 × 100 = 69.51%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 69.51,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-12",
+    "kind": "calculation",
+    "term": "69.29%",
+    "definition": "A property is currently appraised at $425,000.00, was purchased for $408,600.00, and has a $294,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "72.08%",
+      "30.71%",
+      "144.31%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $294,500.00 ÷ $425,000.00 × 100 = 69.29%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 69.29,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-13",
+    "kind": "calculation",
+    "term": "69.09%",
+    "definition": "A property is currently appraised at $440,000.00, was purchased for $423,200.00, and has a $304,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "71.83%",
+      "30.91%",
+      "144.74%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $304,000.00 ÷ $440,000.00 × 100 = 69.09%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 69.09,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-14",
+    "kind": "calculation",
+    "term": "68.90%",
+    "definition": "A property is currently appraised at $455,000.00, was purchased for $437,800.00, and has a $313,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "71.61%",
+      "31.10%",
+      "145.14%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $313,500.00 ÷ $455,000.00 × 100 = 68.90%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 68.9,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-15",
+    "kind": "calculation",
+    "term": "68.72%",
+    "definition": "A property is currently appraised at $470,000.00, was purchased for $452,400.00, and has a $323,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "71.40%",
+      "31.28%",
+      "145.51%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $323,000.00 ÷ $470,000.00 × 100 = 68.72%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 68.72,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-16",
+    "kind": "calculation",
+    "term": "68.56%",
+    "definition": "A property is currently appraised at $485,000.00, was purchased for $467,000.00, and has a $332,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "71.20%",
+      "31.44%",
+      "145.86%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $332,500.00 ÷ $485,000.00 × 100 = 68.56%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 68.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-17",
+    "kind": "calculation",
+    "term": "68.40%",
+    "definition": "A property is currently appraised at $500,000.00, was purchased for $481,600.00, and has a $342,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV?",
+    "distractors": [
+      "71.01%",
+      "31.60%",
+      "146.20%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $342,000.00 ÷ $500,000.00 × 100 = 68.40%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 68.4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-18",
+    "kind": "calculation",
+    "term": "68.25%",
+    "definition": "A property is currently appraised at $515,000.00, was purchased for $496,200.00, and has a $351,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "70.84%",
+      "31.75%",
+      "146.51%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $351,500.00 ÷ $515,000.00 × 100 = 68.25%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 68.25,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-19",
+    "kind": "calculation",
+    "term": "68.11%",
+    "definition": "A property is currently appraised at $530,000.00, was purchased for $510,800.00, and has a $361,000.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "70.67%",
+      "31.89%",
+      "146.81%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $361,000.00 ÷ $530,000.00 × 100 = 68.11%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 68.11,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-cash-home-loan-to-value-20",
+    "kind": "calculation",
+    "term": "67.98%",
+    "definition": "A property is currently appraised at $545,000.00, was purchased for $525,400.00, and has a $370,500.00 mortgage balance. Define current loan-to-value as mortgage balance divided by current appraised value. What is current LTV? Round to 2 decimal places.",
+    "distractors": [
+      "70.52%",
+      "32.02%",
+      "147.10%"
+    ],
+    "explanation": "Current LTV uses the current appraisal: $370,500.00 ÷ $545,000.00 × 100 = 67.98%. The old purchase price is not the denominator.",
+    "numericAnswer": {
+      "value": 67.98,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-01",
+    "kind": "calculation",
+    "term": "12.29%",
+    "definition": "A supplier for your freelance work offers a 1.0% discount if an invoice is paid on day 10; otherwise the full amount is due on day 40. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "12.17%",
+      "1.01%",
+      "9.13%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.0/(100 − 1.0). Credit lasts 40 − 10 = 30 days. Simple annualized cost = [1.0/99.0] × (365/30) × 100 = 12.29%.",
+    "numericAnswer": {
+      "value": 12.29,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-02",
+    "kind": "calculation",
+    "term": "13.53%",
+    "definition": "A supplier for your freelance work offers a 1.1% discount if an invoice is paid on day 11; otherwise the full amount is due on day 41. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "13.38%",
+      "1.11%",
+      "9.79%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.1/(100 − 1.1). Credit lasts 41 − 11 = 30 days. Simple annualized cost = [1.1/98.9] × (365/30) × 100 = 13.53%.",
+    "numericAnswer": {
+      "value": 13.53,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-03",
+    "kind": "calculation",
+    "term": "14.78%",
+    "definition": "A supplier for your freelance work offers a 1.2% discount if an invoice is paid on day 12; otherwise the full amount is due on day 42. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "14.60%",
+      "1.21%",
+      "10.43%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.2/(100 − 1.2). Credit lasts 42 − 12 = 30 days. Simple annualized cost = [1.2/98.8] × (365/30) × 100 = 14.78%.",
+    "numericAnswer": {
+      "value": 14.78,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-04",
+    "kind": "calculation",
+    "term": "16.02%",
+    "definition": "A supplier for your freelance work offers a 1.3% discount if an invoice is paid on day 13; otherwise the full amount is due on day 43. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "15.82%",
+      "1.32%",
+      "11.03%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.3/(100 − 1.3). Credit lasts 43 − 13 = 30 days. Simple annualized cost = [1.3/98.7] × (365/30) × 100 = 16.02%.",
+    "numericAnswer": {
+      "value": 16.02,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-05",
+    "kind": "calculation",
+    "term": "15.24%",
+    "definition": "A supplier for your freelance work offers a 1.4% discount if an invoice is paid on day 10; otherwise the full amount is due on day 44. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "15.03%",
+      "1.42%",
+      "11.61%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.4/(100 − 1.4). Credit lasts 44 − 10 = 34 days. Simple annualized cost = [1.4/98.6] × (365/34) × 100 = 15.24%.",
+    "numericAnswer": {
+      "value": 15.24,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-06",
+    "kind": "calculation",
+    "term": "16.35%",
+    "definition": "A supplier for your freelance work offers a 1.5% discount if an invoice is paid on day 11; otherwise the full amount is due on day 45. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "16.10%",
+      "1.52%",
+      "12.17%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.5/(100 − 1.5). Credit lasts 45 − 11 = 34 days. Simple annualized cost = [1.5/98.5] × (365/34) × 100 = 16.35%.",
+    "numericAnswer": {
+      "value": 16.35,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-07",
+    "kind": "calculation",
+    "term": "17.46%",
+    "definition": "A supplier for your freelance work offers a 1.6% discount if an invoice is paid on day 12; otherwise the full amount is due on day 46. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "17.18%",
+      "1.63%",
+      "12.70%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.6/(100 − 1.6). Credit lasts 46 − 12 = 34 days. Simple annualized cost = [1.6/98.4] × (365/34) × 100 = 17.46%.",
+    "numericAnswer": {
+      "value": 17.46,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-08",
+    "kind": "calculation",
+    "term": "18.57%",
+    "definition": "A supplier for your freelance work offers a 1.7% discount if an invoice is paid on day 13; otherwise the full amount is due on day 47. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "18.25%",
+      "1.73%",
+      "13.20%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.7/(100 − 1.7). Credit lasts 47 − 13 = 34 days. Simple annualized cost = [1.7/98.3] × (365/34) × 100 = 18.57%.",
+    "numericAnswer": {
+      "value": 18.57,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-09",
+    "kind": "calculation",
+    "term": "17.61%",
+    "definition": "A supplier for your freelance work offers a 1.8% discount if an invoice is paid on day 10; otherwise the full amount is due on day 48. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "17.29%",
+      "1.83%",
+      "13.69%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.8/(100 − 1.8). Credit lasts 48 − 10 = 38 days. Simple annualized cost = [1.8/98.2] × (365/38) × 100 = 17.61%.",
+    "numericAnswer": {
+      "value": 17.61,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-10",
+    "kind": "calculation",
+    "term": "18.60%",
+    "definition": "A supplier for your freelance work offers a 1.9% discount if an invoice is paid on day 11; otherwise the full amount is due on day 49. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "18.25%",
+      "1.94%",
+      "14.15%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 1.9/(100 − 1.9). Credit lasts 49 − 11 = 38 days. Simple annualized cost = [1.9/98.1] × (365/38) × 100 = 18.60%.",
+    "numericAnswer": {
+      "value": 18.6,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-11",
+    "kind": "calculation",
+    "term": "19.60%",
+    "definition": "A supplier for your freelance work offers a 2.0% discount if an invoice is paid on day 12; otherwise the full amount is due on day 50. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "19.21%",
+      "2.04%",
+      "14.60%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.0/(100 − 2.0). Credit lasts 50 − 12 = 38 days. Simple annualized cost = [2.0/98.0] × (365/38) × 100 = 19.60%.",
+    "numericAnswer": {
+      "value": 19.6,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-12",
+    "kind": "calculation",
+    "term": "20.60%",
+    "definition": "A supplier for your freelance work offers a 2.1% discount if an invoice is paid on day 13; otherwise the full amount is due on day 51. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "20.17%",
+      "2.15%",
+      "15.03%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.1/(100 − 2.1). Credit lasts 51 − 13 = 38 days. Simple annualized cost = [2.1/97.9] × (365/38) × 100 = 20.60%.",
+    "numericAnswer": {
+      "value": 20.6,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-13",
+    "kind": "calculation",
+    "term": "19.55%",
+    "definition": "A supplier for your freelance work offers a 2.2% discount if an invoice is paid on day 10; otherwise the full amount is due on day 52. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "19.12%",
+      "2.25%",
+      "15.44%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.2/(100 − 2.2). Credit lasts 52 − 10 = 42 days. Simple annualized cost = [2.2/97.8] × (365/42) × 100 = 19.55%.",
+    "numericAnswer": {
+      "value": 19.55,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-14",
+    "kind": "calculation",
+    "term": "20.46%",
+    "definition": "A supplier for your freelance work offers a 2.3% discount if an invoice is paid on day 11; otherwise the full amount is due on day 53. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "19.99%",
+      "2.35%",
+      "15.84%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.3/(100 − 2.3). Credit lasts 53 − 11 = 42 days. Simple annualized cost = [2.3/97.7] × (365/42) × 100 = 20.46%.",
+    "numericAnswer": {
+      "value": 20.46,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-15",
+    "kind": "calculation",
+    "term": "21.37%",
+    "definition": "A supplier for your freelance work offers a 2.4% discount if an invoice is paid on day 12; otherwise the full amount is due on day 54. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "20.86%",
+      "2.46%",
+      "16.22%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.4/(100 − 2.4). Credit lasts 54 − 12 = 42 days. Simple annualized cost = [2.4/97.6] × (365/42) × 100 = 21.37%.",
+    "numericAnswer": {
+      "value": 21.37,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-16",
+    "kind": "calculation",
+    "term": "22.28%",
+    "definition": "A supplier for your freelance work offers a 2.5% discount if an invoice is paid on day 13; otherwise the full amount is due on day 55. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "21.73%",
+      "2.56%",
+      "16.59%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.5/(100 − 2.5). Credit lasts 55 − 13 = 42 days. Simple annualized cost = [2.5/97.5] × (365/42) × 100 = 22.28%.",
+    "numericAnswer": {
+      "value": 22.28,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-17",
+    "kind": "calculation",
+    "term": "21.18%",
+    "definition": "A supplier for your freelance work offers a 2.6% discount if an invoice is paid on day 10; otherwise the full amount is due on day 56. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "20.63%",
+      "2.67%",
+      "16.95%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.6/(100 − 2.6). Credit lasts 56 − 10 = 46 days. Simple annualized cost = [2.6/97.4] × (365/46) × 100 = 21.18%.",
+    "numericAnswer": {
+      "value": 21.18,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-18",
+    "kind": "calculation",
+    "term": "22.02%",
+    "definition": "A supplier for your freelance work offers a 2.7% discount if an invoice is paid on day 11; otherwise the full amount is due on day 57. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "21.42%",
+      "2.77%",
+      "17.29%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.7/(100 − 2.7). Credit lasts 57 − 11 = 46 days. Simple annualized cost = [2.7/97.3] × (365/46) × 100 = 22.02%.",
+    "numericAnswer": {
+      "value": 22.02,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-19",
+    "kind": "calculation",
+    "term": "22.86%",
+    "definition": "A supplier for your freelance work offers a 2.8% discount if an invoice is paid on day 12; otherwise the full amount is due on day 58. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "22.22%",
+      "2.88%",
+      "17.62%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.8/(100 − 2.8). Credit lasts 58 − 12 = 46 days. Simple annualized cost = [2.8/97.2] × (365/46) × 100 = 22.86%.",
+    "numericAnswer": {
+      "value": 22.86,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-early-payment-discount-annualized-20",
+    "kind": "calculation",
+    "term": "23.70%",
+    "definition": "A supplier for your freelance work offers a 2.9% discount if an invoice is paid on day 13; otherwise the full amount is due on day 59. Using a 365-day year and simple annualization, what is the annualized cost of giving up the discount, measured against the discounted amount that could have been paid? Ignore compounding. Round to 2 decimal places.",
+    "distractors": [
+      "23.01%",
+      "2.99%",
+      "17.94%"
+    ],
+    "explanation": "The extra payment relative to the discounted payment is 2.9/(100 − 2.9). Credit lasts 59 − 13 = 46 days. Simple annualized cost = [2.9/97.1] × (365/46) × 100 = 23.70%.",
+    "numericAnswer": {
+      "value": 23.7,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-01",
+    "kind": "calculation",
+    "term": "10.29%",
+    "definition": "An item costs $680.00 if paid in cash. An installment offer requires $80.00 upfront and 10 monthly payments of $67.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "11.67%",
+      "110.29%",
+      "-1.47%"
+    ],
+    "explanation": "Installment total = $80.00 + 10 × $67.00 = $750.00. Extra cost = $750.00 − $680.00 = $70.00. Percentage extra = $70.00/$680.00 × 100 = 10.29%.",
+    "numericAnswer": {
+      "value": 10.29,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-02",
+    "kind": "calculation",
+    "term": "13.33%",
+    "definition": "An item costs $735.00 if paid in cash. An installment offer requires $85.00 upfront and 11 monthly payments of $68.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "15.08%",
+      "113.33%",
+      "1.77%"
+    ],
+    "explanation": "Installment total = $85.00 + 11 × $68.00 = $833.00. Extra cost = $833.00 − $735.00 = $98.00. Percentage extra = $98.00/$735.00 × 100 = 13.33%.",
+    "numericAnswer": {
+      "value": 13.33,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-03",
+    "kind": "calculation",
+    "term": "14.68%",
+    "definition": "An item costs $790.00 if paid in cash. An installment offer requires $90.00 upfront and 12 monthly payments of $68.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "16.57%",
+      "114.68%",
+      "3.29%"
+    ],
+    "explanation": "Installment total = $90.00 + 12 × $68.00 = $906.00. Extra cost = $906.00 − $790.00 = $116.00. Percentage extra = $116.00/$790.00 × 100 = 14.68%.",
+    "numericAnswer": {
+      "value": 14.68,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-04",
+    "kind": "calculation",
+    "term": "15.86%",
+    "definition": "An item costs $845.00 if paid in cash. An installment offer requires $95.00 upfront and 13 monthly payments of $68.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "17.87%",
+      "115.86%",
+      "4.62%"
+    ],
+    "explanation": "Installment total = $95.00 + 13 × $68.00 = $979.00. Extra cost = $979.00 − $845.00 = $134.00. Percentage extra = $134.00/$845.00 × 100 = 15.86%.",
+    "numericAnswer": {
+      "value": 15.86,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-05",
+    "kind": "calculation",
+    "term": "12.22%",
+    "definition": "An item costs $900.00 if paid in cash. An installment offer requires $100.00 upfront and 14 monthly payments of $65.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "13.75%",
+      "112.22%",
+      "1.11%"
+    ],
+    "explanation": "Installment total = $100.00 + 14 × $65.00 = $1,010.00. Extra cost = $1,010.00 − $900.00 = $110.00. Percentage extra = $110.00/$900.00 × 100 = 12.22%.",
+    "numericAnswer": {
+      "value": 12.22,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-06",
+    "kind": "calculation",
+    "term": "8.38%",
+    "definition": "An item costs $955.00 if paid in cash. An installment offer requires $105.00 upfront and 10 monthly payments of $93.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "9.41%",
+      "108.38%",
+      "-2.62%"
+    ],
+    "explanation": "Installment total = $105.00 + 10 × $93.00 = $1,035.00. Extra cost = $1,035.00 − $955.00 = $80.00. Percentage extra = $80.00/$955.00 × 100 = 8.38%.",
+    "numericAnswer": {
+      "value": 8.38,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-07",
+    "kind": "calculation",
+    "term": "10.00%",
+    "definition": "An item costs $1,010.00 if paid in cash. An installment offer requires $110.00 upfront and 11 monthly payments of $91.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR.",
+    "distractors": [
+      "11.22%",
+      "110.00%",
+      "-0.89%"
+    ],
+    "explanation": "Installment total = $110.00 + 11 × $91.00 = $1,111.00. Extra cost = $1,111.00 − $1,010.00 = $101.00. Percentage extra = $101.00/$1,010.00 × 100 = 10.00%.",
+    "numericAnswer": {
+      "value": 10,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-08",
+    "kind": "calculation",
+    "term": "12.21%",
+    "definition": "An item costs $1,065.00 if paid in cash. An installment offer requires $115.00 upfront and 12 monthly payments of $90.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "13.68%",
+      "112.21%",
+      "1.41%"
+    ],
+    "explanation": "Installment total = $115.00 + 12 × $90.00 = $1,195.00. Extra cost = $1,195.00 − $1,065.00 = $130.00. Percentage extra = $130.00/$1,065.00 × 100 = 12.21%.",
+    "numericAnswer": {
+      "value": 12.21,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-09",
+    "kind": "calculation",
+    "term": "8.21%",
+    "definition": "An item costs $1,120.00 if paid in cash. An installment offer requires $120.00 upfront and 13 monthly payments of $84.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "9.20%",
+      "108.21%",
+      "-2.50%"
+    ],
+    "explanation": "Installment total = $120.00 + 13 × $84.00 = $1,212.00. Extra cost = $1,212.00 − $1,120.00 = $92.00. Percentage extra = $92.00/$1,120.00 × 100 = 8.21%.",
+    "numericAnswer": {
+      "value": 8.21,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-10",
+    "kind": "calculation",
+    "term": "9.53%",
+    "definition": "An item costs $1,175.00 if paid in cash. An installment offer requires $125.00 upfront and 14 monthly payments of $83.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "10.67%",
+      "109.53%",
+      "-1.11%"
+    ],
+    "explanation": "Installment total = $125.00 + 14 × $83.00 = $1,287.00. Extra cost = $1,287.00 − $1,175.00 = $112.00. Percentage extra = $112.00/$1,175.00 × 100 = 9.53%.",
+    "numericAnswer": {
+      "value": 9.53,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-11",
+    "kind": "calculation",
+    "term": "7.32%",
+    "definition": "An item costs $1,230.00 if paid in cash. An installment offer requires $130.00 upfront and 10 monthly payments of $119.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "8.18%",
+      "107.32%",
+      "-3.25%"
+    ],
+    "explanation": "Installment total = $130.00 + 10 × $119.00 = $1,320.00. Extra cost = $1,320.00 − $1,230.00 = $90.00. Percentage extra = $90.00/$1,230.00 × 100 = 7.32%.",
+    "numericAnswer": {
+      "value": 7.32,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-12",
+    "kind": "calculation",
+    "term": "8.95%",
+    "definition": "An item costs $1,285.00 if paid in cash. An installment offer requires $135.00 upfront and 11 monthly payments of $115.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "10.00%",
+      "108.95%",
+      "-1.56%"
+    ],
+    "explanation": "Installment total = $135.00 + 11 × $115.00 = $1,400.00. Extra cost = $1,400.00 − $1,285.00 = $115.00. Percentage extra = $115.00/$1,285.00 × 100 = 8.95%.",
+    "numericAnswer": {
+      "value": 8.95,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-13",
+    "kind": "calculation",
+    "term": "6.27%",
+    "definition": "An item costs $1,340.00 if paid in cash. An installment offer requires $140.00 upfront and 12 monthly payments of $107.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "7.00%",
+      "106.27%",
+      "-4.18%"
+    ],
+    "explanation": "Installment total = $140.00 + 12 × $107.00 = $1,424.00. Extra cost = $1,424.00 − $1,340.00 = $84.00. Percentage extra = $84.00/$1,340.00 × 100 = 6.27%.",
+    "numericAnswer": {
+      "value": 6.27,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-14",
+    "kind": "calculation",
+    "term": "8.24%",
+    "definition": "An item costs $1,395.00 if paid in cash. An installment offer requires $145.00 upfront and 13 monthly payments of $105.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "9.20%",
+      "108.24%",
+      "-2.15%"
+    ],
+    "explanation": "Installment total = $145.00 + 13 × $105.00 = $1,510.00. Extra cost = $1,510.00 − $1,395.00 = $115.00. Percentage extra = $115.00/$1,395.00 × 100 = 8.24%.",
+    "numericAnswer": {
+      "value": 8.24,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-15",
+    "kind": "calculation",
+    "term": "8.83%",
+    "definition": "An item costs $1,450.00 if paid in cash. An installment offer requires $150.00 upfront and 14 monthly payments of $102.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "9.85%",
+      "108.83%",
+      "-1.52%"
+    ],
+    "explanation": "Installment total = $150.00 + 14 × $102.00 = $1,578.00. Extra cost = $1,578.00 − $1,450.00 = $128.00. Percentage extra = $128.00/$1,450.00 × 100 = 8.83%.",
+    "numericAnswer": {
+      "value": 8.83,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-16",
+    "kind": "calculation",
+    "term": "6.64%",
+    "definition": "An item costs $1,505.00 if paid in cash. An installment offer requires $155.00 upfront and 10 monthly payments of $145.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "7.41%",
+      "106.64%",
+      "-3.65%"
+    ],
+    "explanation": "Installment total = $155.00 + 10 × $145.00 = $1,605.00. Extra cost = $1,605.00 − $1,505.00 = $100.00. Percentage extra = $100.00/$1,505.00 × 100 = 6.64%.",
+    "numericAnswer": {
+      "value": 6.64,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-17",
+    "kind": "calculation",
+    "term": "5.45%",
+    "definition": "An item costs $1,560.00 if paid in cash. An installment offer requires $160.00 upfront and 11 monthly payments of $135.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "6.07%",
+      "105.45%",
+      "-4.81%"
+    ],
+    "explanation": "Installment total = $160.00 + 11 × $135.00 = $1,645.00. Extra cost = $1,645.00 − $1,560.00 = $85.00. Percentage extra = $85.00/$1,560.00 × 100 = 5.45%.",
+    "numericAnswer": {
+      "value": 5.45,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-18",
+    "kind": "calculation",
+    "term": "6.07%",
+    "definition": "An item costs $1,615.00 if paid in cash. An installment offer requires $165.00 upfront and 12 monthly payments of $129.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "6.76%",
+      "106.07%",
+      "-4.15%"
+    ],
+    "explanation": "Installment total = $165.00 + 12 × $129.00 = $1,713.00. Extra cost = $1,713.00 − $1,615.00 = $98.00. Percentage extra = $98.00/$1,615.00 × 100 = 6.07%.",
+    "numericAnswer": {
+      "value": 6.07,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-19",
+    "kind": "calculation",
+    "term": "7.49%",
+    "definition": "An item costs $1,670.00 if paid in cash. An installment offer requires $170.00 upfront and 13 monthly payments of $125.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "8.33%",
+      "107.49%",
+      "-2.69%"
+    ],
+    "explanation": "Installment total = $170.00 + 13 × $125.00 = $1,795.00. Extra cost = $1,795.00 − $1,670.00 = $125.00. Percentage extra = $125.00/$1,670.00 × 100 = 7.49%.",
+    "numericAnswer": {
+      "value": 7.49,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-installment-price-extra-percent-20",
+    "kind": "calculation",
+    "term": "8.35%",
+    "definition": "An item costs $1,725.00 if paid in cash. An installment offer requires $175.00 upfront and 14 monthly payments of $121.00. There are no other charges. What is the installment plan's total extra cost as a percentage of the cash price? This asks for total markup, not APR. Round to 2 decimal places.",
+    "distractors": [
+      "9.29%",
+      "108.35%",
+      "-1.80%"
+    ],
+    "explanation": "Installment total = $175.00 + 14 × $121.00 = $1,869.00. Extra cost = $1,869.00 − $1,725.00 = $144.00. Percentage extra = $144.00/$1,725.00 × 100 = 8.35%.",
+    "numericAnswer": {
+      "value": 8.35,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-01",
+    "kind": "calculation",
+    "term": "$30.00 per month",
+    "definition": "An interest-only credit line has a constant $18,000.00 balance. Its nominal annual rate rises from 5.5% to 7.5%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$112.50 per month",
+      "$82.50 per month",
+      "$360.00 per month"
+    ],
+    "explanation": "Monthly increase = $18,000.00 × [(7.5 − 5.5)/100] ÷ 12 = $30.00. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 30,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-02",
+    "kind": "calculation",
+    "term": "$34.65 per month",
+    "definition": "An interest-only credit line has a constant $19,800.00 balance. Its nominal annual rate rises from 5.6% to 7.7%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$127.05 per month",
+      "$92.40 per month",
+      "$415.80 per month"
+    ],
+    "explanation": "Monthly increase = $19,800.00 × [(7.7 − 5.6)/100] ÷ 12 = $34.65. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 34.65,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-03",
+    "kind": "calculation",
+    "term": "$39.60 per month",
+    "definition": "An interest-only credit line has a constant $21,600.00 balance. Its nominal annual rate rises from 5.7% to 7.9%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$142.20 per month",
+      "$102.60 per month",
+      "$475.20 per month"
+    ],
+    "explanation": "Monthly increase = $21,600.00 × [(7.9 − 5.7)/100] ÷ 12 = $39.60. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 39.6,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-04",
+    "kind": "calculation",
+    "term": "$44.85 per month",
+    "definition": "An interest-only credit line has a constant $23,400.00 balance. Its nominal annual rate rises from 5.8% to 8.1%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$157.95 per month",
+      "$113.10 per month",
+      "$538.20 per month"
+    ],
+    "explanation": "Monthly increase = $23,400.00 × [(8.1 − 5.8)/100] ÷ 12 = $44.85. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 44.85,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-05",
+    "kind": "calculation",
+    "term": "$50.40 per month",
+    "definition": "An interest-only credit line has a constant $25,200.00 balance. Its nominal annual rate rises from 5.9% to 8.3%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$174.30 per month",
+      "$123.90 per month",
+      "$604.80 per month"
+    ],
+    "explanation": "Monthly increase = $25,200.00 × [(8.3 − 5.9)/100] ÷ 12 = $50.40. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 50.4,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-06",
+    "kind": "calculation",
+    "term": "$56.25 per month",
+    "definition": "An interest-only credit line has a constant $27,000.00 balance. Its nominal annual rate rises from 6.0% to 8.5%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$191.25 per month",
+      "$135.00 per month",
+      "$675.00 per month"
+    ],
+    "explanation": "Monthly increase = $27,000.00 × [(8.5 − 6.0)/100] ÷ 12 = $56.25. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 56.25,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-07",
+    "kind": "calculation",
+    "term": "$48.00 per month",
+    "definition": "An interest-only credit line has a constant $28,800.00 balance. Its nominal annual rate rises from 6.1% to 8.1%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$194.40 per month",
+      "$146.40 per month",
+      "$576.00 per month"
+    ],
+    "explanation": "Monthly increase = $28,800.00 × [(8.1 − 6.1)/100] ÷ 12 = $48.00. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 48,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-08",
+    "kind": "calculation",
+    "term": "$53.55 per month",
+    "definition": "An interest-only credit line has a constant $30,600.00 balance. Its nominal annual rate rises from 6.2% to 8.3%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$211.65 per month",
+      "$158.10 per month",
+      "$642.60 per month"
+    ],
+    "explanation": "Monthly increase = $30,600.00 × [(8.3 − 6.2)/100] ÷ 12 = $53.55. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 53.55,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-09",
+    "kind": "calculation",
+    "term": "$59.40 per month",
+    "definition": "An interest-only credit line has a constant $32,400.00 balance. Its nominal annual rate rises from 6.3% to 8.5%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$229.50 per month",
+      "$170.10 per month",
+      "$712.80 per month"
+    ],
+    "explanation": "Monthly increase = $32,400.00 × [(8.5 − 6.3)/100] ÷ 12 = $59.40. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 59.4,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-10",
+    "kind": "calculation",
+    "term": "$65.55 per month",
+    "definition": "An interest-only credit line has a constant $34,200.00 balance. Its nominal annual rate rises from 6.4% to 8.7%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$247.95 per month",
+      "$182.40 per month",
+      "$786.60 per month"
+    ],
+    "explanation": "Monthly increase = $34,200.00 × [(8.7 − 6.4)/100] ÷ 12 = $65.55. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 65.55,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-11",
+    "kind": "calculation",
+    "term": "$72.00 per month",
+    "definition": "An interest-only credit line has a constant $36,000.00 balance. Its nominal annual rate rises from 6.5% to 8.9%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$267.00 per month",
+      "$195.00 per month",
+      "$864.00 per month"
+    ],
+    "explanation": "Monthly increase = $36,000.00 × [(8.9 − 6.5)/100] ÷ 12 = $72.00. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 72,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-12",
+    "kind": "calculation",
+    "term": "$78.75 per month",
+    "definition": "An interest-only credit line has a constant $37,800.00 balance. Its nominal annual rate rises from 6.6% to 9.1%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$286.65 per month",
+      "$207.90 per month",
+      "$945.00 per month"
+    ],
+    "explanation": "Monthly increase = $37,800.00 × [(9.1 − 6.6)/100] ÷ 12 = $78.75. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 78.75,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-13",
+    "kind": "calculation",
+    "term": "$66.00 per month",
+    "definition": "An interest-only credit line has a constant $39,600.00 balance. Its nominal annual rate rises from 6.7% to 8.7%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$287.10 per month",
+      "$221.10 per month",
+      "$792.00 per month"
+    ],
+    "explanation": "Monthly increase = $39,600.00 × [(8.7 − 6.7)/100] ÷ 12 = $66.00. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 66,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-14",
+    "kind": "calculation",
+    "term": "$72.45 per month",
+    "definition": "An interest-only credit line has a constant $41,400.00 balance. Its nominal annual rate rises from 6.8% to 8.9%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$307.05 per month",
+      "$234.60 per month",
+      "$869.40 per month"
+    ],
+    "explanation": "Monthly increase = $41,400.00 × [(8.9 − 6.8)/100] ÷ 12 = $72.45. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 72.45,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-15",
+    "kind": "calculation",
+    "term": "$79.20 per month",
+    "definition": "An interest-only credit line has a constant $43,200.00 balance. Its nominal annual rate rises from 6.9% to 9.1%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$327.60 per month",
+      "$248.40 per month",
+      "$950.40 per month"
+    ],
+    "explanation": "Monthly increase = $43,200.00 × [(9.1 − 6.9)/100] ÷ 12 = $79.20. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 79.2,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-16",
+    "kind": "calculation",
+    "term": "$86.25 per month",
+    "definition": "An interest-only credit line has a constant $45,000.00 balance. Its nominal annual rate rises from 7.0% to 9.3%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$348.75 per month",
+      "$262.50 per month",
+      "$1,035.00 per month"
+    ],
+    "explanation": "Monthly increase = $45,000.00 × [(9.3 − 7.0)/100] ÷ 12 = $86.25. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 86.25,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-17",
+    "kind": "calculation",
+    "term": "$93.60 per month",
+    "definition": "An interest-only credit line has a constant $46,800.00 balance. Its nominal annual rate rises from 7.1% to 9.5%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$370.50 per month",
+      "$276.90 per month",
+      "$1,123.20 per month"
+    ],
+    "explanation": "Monthly increase = $46,800.00 × [(9.5 − 7.1)/100] ÷ 12 = $93.60. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 93.6,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-18",
+    "kind": "calculation",
+    "term": "$101.25 per month",
+    "definition": "An interest-only credit line has a constant $48,600.00 balance. Its nominal annual rate rises from 7.2% to 9.7%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$392.85 per month",
+      "$291.60 per month",
+      "$1,215.00 per month"
+    ],
+    "explanation": "Monthly increase = $48,600.00 × [(9.7 − 7.2)/100] ÷ 12 = $101.25. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 101.25,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-19",
+    "kind": "calculation",
+    "term": "$84.00 per month",
+    "definition": "An interest-only credit line has a constant $50,400.00 balance. Its nominal annual rate rises from 7.3% to 9.3%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$390.60 per month",
+      "$306.60 per month",
+      "$1,008.00 per month"
+    ],
+    "explanation": "Monthly increase = $50,400.00 × [(9.3 − 7.3)/100] ÷ 12 = $84.00. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 84,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-invest-variable-rate-interest-payment-shock-20",
+    "kind": "calculation",
+    "term": "$91.35 per month",
+    "definition": "An interest-only credit line has a constant $52,200.00 balance. Its nominal annual rate rises from 7.4% to 9.5%. The contract calculates each monthly payment as balance × annual rate/12, with no principal payment or other fees. How much does the monthly payment increase?",
+    "distractors": [
+      "$413.25 per month",
+      "$321.90 per month",
+      "$1,096.20 per month"
+    ],
+    "explanation": "Monthly increase = $52,200.00 × [(9.5 − 7.4)/100] ÷ 12 = $91.35. This follows the stated interest-only payment rule.",
+    "numericAnswer": {
+      "value": 91.35,
+      "unit": "USD per month"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-01",
+    "kind": "calculation",
+    "term": "55.56%",
+    "definition": "Your monthly take-home income is exactly 1.80 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "180.00%",
+      "125.00%",
+      "44.44%"
+    ],
+    "explanation": "If income/payment = 1.80, then payment/income = 1/1.80. Multiply by 100 to obtain 55.56%.",
+    "numericAnswer": {
+      "value": 55.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-02",
+    "kind": "calculation",
+    "term": "51.28%",
+    "definition": "Your monthly take-home income is exactly 1.95 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "195.00%",
+      "105.26%",
+      "48.72%"
+    ],
+    "explanation": "If income/payment = 1.95, then payment/income = 1/1.95. Multiply by 100 to obtain 51.28%.",
+    "numericAnswer": {
+      "value": 51.28,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-03",
+    "kind": "calculation",
+    "term": "47.62%",
+    "definition": "Your monthly take-home income is exactly 2.10 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "210.00%",
+      "90.91%",
+      "52.38%"
+    ],
+    "explanation": "If income/payment = 2.10, then payment/income = 1/2.10. Multiply by 100 to obtain 47.62%.",
+    "numericAnswer": {
+      "value": 47.62,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-04",
+    "kind": "calculation",
+    "term": "44.44%",
+    "definition": "Your monthly take-home income is exactly 2.25 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "225.00%",
+      "80.00%",
+      "55.56%"
+    ],
+    "explanation": "If income/payment = 2.25, then payment/income = 1/2.25. Multiply by 100 to obtain 44.44%.",
+    "numericAnswer": {
+      "value": 44.44,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-05",
+    "kind": "calculation",
+    "term": "41.67%",
+    "definition": "Your monthly take-home income is exactly 2.40 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "240.00%",
+      "71.43%",
+      "58.33%"
+    ],
+    "explanation": "If income/payment = 2.40, then payment/income = 1/2.40. Multiply by 100 to obtain 41.67%.",
+    "numericAnswer": {
+      "value": 41.67,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-06",
+    "kind": "calculation",
+    "term": "39.22%",
+    "definition": "Your monthly take-home income is exactly 2.55 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "255.00%",
+      "64.52%",
+      "60.78%"
+    ],
+    "explanation": "If income/payment = 2.55, then payment/income = 1/2.55. Multiply by 100 to obtain 39.22%.",
+    "numericAnswer": {
+      "value": 39.22,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-07",
+    "kind": "calculation",
+    "term": "37.04%",
+    "definition": "Your monthly take-home income is exactly 2.70 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "270.00%",
+      "58.82%",
+      "62.96%"
+    ],
+    "explanation": "If income/payment = 2.70, then payment/income = 1/2.70. Multiply by 100 to obtain 37.04%.",
+    "numericAnswer": {
+      "value": 37.04,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-08",
+    "kind": "calculation",
+    "term": "35.09%",
+    "definition": "Your monthly take-home income is exactly 2.85 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "285.00%",
+      "54.05%",
+      "64.91%"
+    ],
+    "explanation": "If income/payment = 2.85, then payment/income = 1/2.85. Multiply by 100 to obtain 35.09%.",
+    "numericAnswer": {
+      "value": 35.09,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-09",
+    "kind": "calculation",
+    "term": "33.33%",
+    "definition": "Your monthly take-home income is exactly 3.00 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "300.00%",
+      "50.00%",
+      "66.67%"
+    ],
+    "explanation": "If income/payment = 3.00, then payment/income = 1/3.00. Multiply by 100 to obtain 33.33%.",
+    "numericAnswer": {
+      "value": 33.33,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-10",
+    "kind": "calculation",
+    "term": "31.75%",
+    "definition": "Your monthly take-home income is exactly 3.15 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "315.00%",
+      "46.51%",
+      "68.25%"
+    ],
+    "explanation": "If income/payment = 3.15, then payment/income = 1/3.15. Multiply by 100 to obtain 31.75%.",
+    "numericAnswer": {
+      "value": 31.75,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-11",
+    "kind": "calculation",
+    "term": "30.30%",
+    "definition": "Your monthly take-home income is exactly 3.30 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "330.00%",
+      "43.48%",
+      "69.70%"
+    ],
+    "explanation": "If income/payment = 3.30, then payment/income = 1/3.30. Multiply by 100 to obtain 30.30%.",
+    "numericAnswer": {
+      "value": 30.3,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-12",
+    "kind": "calculation",
+    "term": "28.99%",
+    "definition": "Your monthly take-home income is exactly 3.45 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "345.00%",
+      "40.82%",
+      "71.01%"
+    ],
+    "explanation": "If income/payment = 3.45, then payment/income = 1/3.45. Multiply by 100 to obtain 28.99%.",
+    "numericAnswer": {
+      "value": 28.99,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-13",
+    "kind": "calculation",
+    "term": "27.78%",
+    "definition": "Your monthly take-home income is exactly 3.60 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "360.00%",
+      "38.46%",
+      "72.22%"
+    ],
+    "explanation": "If income/payment = 3.60, then payment/income = 1/3.60. Multiply by 100 to obtain 27.78%.",
+    "numericAnswer": {
+      "value": 27.78,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-14",
+    "kind": "calculation",
+    "term": "26.67%",
+    "definition": "Your monthly take-home income is exactly 3.75 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "375.00%",
+      "36.36%",
+      "73.33%"
+    ],
+    "explanation": "If income/payment = 3.75, then payment/income = 1/3.75. Multiply by 100 to obtain 26.67%.",
+    "numericAnswer": {
+      "value": 26.67,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-15",
+    "kind": "calculation",
+    "term": "25.64%",
+    "definition": "Your monthly take-home income is exactly 3.90 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "390.00%",
+      "34.48%",
+      "74.36%"
+    ],
+    "explanation": "If income/payment = 3.90, then payment/income = 1/3.90. Multiply by 100 to obtain 25.64%.",
+    "numericAnswer": {
+      "value": 25.64,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-16",
+    "kind": "calculation",
+    "term": "24.69%",
+    "definition": "Your monthly take-home income is exactly 4.05 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "405.00%",
+      "32.79%",
+      "75.31%"
+    ],
+    "explanation": "If income/payment = 4.05, then payment/income = 1/4.05. Multiply by 100 to obtain 24.69%.",
+    "numericAnswer": {
+      "value": 24.69,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-17",
+    "kind": "calculation",
+    "term": "23.81%",
+    "definition": "Your monthly take-home income is exactly 4.20 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "420.00%",
+      "31.25%",
+      "76.19%"
+    ],
+    "explanation": "If income/payment = 4.20, then payment/income = 1/4.20. Multiply by 100 to obtain 23.81%.",
+    "numericAnswer": {
+      "value": 23.81,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-18",
+    "kind": "calculation",
+    "term": "22.99%",
+    "definition": "Your monthly take-home income is exactly 4.35 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "435.00%",
+      "29.85%",
+      "77.01%"
+    ],
+    "explanation": "If income/payment = 4.35, then payment/income = 1/4.35. Multiply by 100 to obtain 22.99%.",
+    "numericAnswer": {
+      "value": 22.99,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-19",
+    "kind": "calculation",
+    "term": "22.22%",
+    "definition": "Your monthly take-home income is exactly 4.50 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "450.00%",
+      "28.57%",
+      "77.78%"
+    ],
+    "explanation": "If income/payment = 4.50, then payment/income = 1/4.50. Multiply by 100 to obtain 22.22%.",
+    "numericAnswer": {
+      "value": 22.22,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-lerner-markup-20",
+    "kind": "calculation",
+    "term": "21.51%",
+    "definition": "Your monthly take-home income is exactly 4.65 times your monthly debt payment. Using take-home income as the denominator, what percentage of that income goes to the payment? This is a budget ratio, not a lender's approval rule. Round to 2 decimal places.",
+    "distractors": [
+      "465.00%",
+      "27.40%",
+      "78.49%"
+    ],
+    "explanation": "If income/payment = 4.65, then payment/income = 1/4.65. Multiply by 100 to obtain 21.51%.",
+    "numericAnswer": {
+      "value": 21.51,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-01",
+    "kind": "calculation",
+    "term": "$40.00",
+    "definition": "You have 2 identical interest-free balances of $140.00 each and immediately pay $20.00 toward each one. The remaining total will be split into 2 equal payments per month for 3 months, with no fees. What is each scheduled payment?",
+    "distractors": [
+      "$20.00",
+      "$60.00",
+      "$30.00"
+    ],
+    "explanation": "Remaining total = 2 × ($140.00 − $20.00). There are 2 × 3 payments. Divide: 2(140 − 20)/[2(3)] = $40.00.",
+    "numericAnswer": {
+      "value": 40,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-02",
+    "kind": "calculation",
+    "term": "$31.25",
+    "definition": "You have 3 identical interest-free balances of $147.00 each and immediately pay $22.00 toward each one. The remaining total will be split into 3 equal payments per month for 4 months, with no fees. What is each scheduled payment?",
+    "distractors": [
+      "$10.42",
+      "$41.67",
+      "$20.83"
+    ],
+    "explanation": "Remaining total = 3 × ($147.00 − $22.00). There are 3 × 4 payments. Divide: 3(147 − 22)/[3(4)] = $31.25.",
+    "numericAnswer": {
+      "value": 31.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-03",
+    "kind": "calculation",
+    "term": "$26.00",
+    "definition": "You have 4 identical interest-free balances of $154.00 each and immediately pay $24.00 toward each one. The remaining total will be split into 4 equal payments per month for 5 months, with no fees. What is each scheduled payment?",
+    "distractors": [
+      "$6.50",
+      "$32.50",
+      "$16.25"
+    ],
+    "explanation": "Remaining total = 4 × ($154.00 − $24.00). There are 4 × 5 payments. Divide: 4(154 − 24)/[4(5)] = $26.00.",
+    "numericAnswer": {
+      "value": 26,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-04",
+    "kind": "calculation",
+    "term": "$56.25",
+    "definition": "You have 5 identical interest-free balances of $161.00 each and immediately pay $26.00 toward each one. The remaining total will be split into 2 equal payments per month for 6 months, with no fees. What is each scheduled payment?",
+    "distractors": [
+      "$11.25",
+      "$67.50",
+      "$33.75"
+    ],
+    "explanation": "Remaining total = 5 × ($161.00 − $26.00). There are 2 × 6 payments. Divide: 5(161 − 26)/[2(6)] = $56.25.",
+    "numericAnswer": {
+      "value": 56.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-05",
+    "kind": "calculation",
+    "term": "$31.11",
+    "definition": "You have 2 identical interest-free balances of $168.00 each and immediately pay $28.00 toward each one. The remaining total will be split into 3 equal payments per month for 3 months, with no fees. What is each scheduled payment? Round to the nearest cent.",
+    "distractors": [
+      "$15.56",
+      "$46.67",
+      "$23.33"
+    ],
+    "explanation": "Remaining total = 2 × ($168.00 − $28.00). There are 3 × 3 payments. Divide: 2(168 − 28)/[3(3)] = $31.11.",
+    "numericAnswer": {
+      "value": 31.11,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-06",
+    "kind": "calculation",
+    "term": "$27.19",
+    "definition": "You have 3 identical interest-free balances of $175.00 each and immediately pay $30.00 toward each one. The remaining total will be split into 4 equal payments per month for 4 months, with no fees. What is each scheduled payment? Round to the nearest cent.",
+    "distractors": [
+      "$9.06",
+      "$36.25",
+      "$18.13"
+    ],
+    "explanation": "Remaining total = 3 × ($175.00 − $30.00). There are 4 × 4 payments. Divide: 3(175 − 30)/[4(4)] = $27.19.",
+    "numericAnswer": {
+      "value": 27.19,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-07",
+    "kind": "calculation",
+    "term": "$60.00",
+    "definition": "You have 4 identical interest-free balances of $182.00 each and immediately pay $32.00 toward each one. The remaining total will be split into 2 equal payments per month for 5 months, with no fees. What is each scheduled payment?",
+    "distractors": [
+      "$15.00",
+      "$75.00",
+      "$37.50"
+    ],
+    "explanation": "Remaining total = 4 × ($182.00 − $32.00). There are 2 × 5 payments. Divide: 4(182 − 32)/[2(5)] = $60.00.",
+    "numericAnswer": {
+      "value": 60,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-08",
+    "kind": "calculation",
+    "term": "$43.06",
+    "definition": "You have 5 identical interest-free balances of $189.00 each and immediately pay $34.00 toward each one. The remaining total will be split into 3 equal payments per month for 6 months, with no fees. What is each scheduled payment? Round to the nearest cent.",
+    "distractors": [
+      "$8.61",
+      "$51.67",
+      "$25.83"
+    ],
+    "explanation": "Remaining total = 5 × ($189.00 − $34.00). There are 3 × 6 payments. Divide: 5(189 − 34)/[3(6)] = $43.06.",
+    "numericAnswer": {
+      "value": 43.06,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-09",
+    "kind": "calculation",
+    "term": "$26.67",
+    "definition": "You have 2 identical interest-free balances of $196.00 each and immediately pay $36.00 toward each one. The remaining total will be split into 4 equal payments per month for 3 months, with no fees. What is each scheduled payment? Round to the nearest cent.",
+    "distractors": [
+      "$13.33",
+      "$40.00",
+      "$20.00"
+    ],
+    "explanation": "Remaining total = 2 × ($196.00 − $36.00). There are 4 × 3 payments. Divide: 2(196 − 36)/[4(3)] = $26.67.",
+    "numericAnswer": {
+      "value": 26.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-10",
+    "kind": "calculation",
+    "term": "$61.88",
+    "definition": "You have 3 identical interest-free balances of $203.00 each and immediately pay $38.00 toward each one. The remaining total will be split into 2 equal payments per month for 4 months, with no fees. What is each scheduled payment? Round to the nearest cent.",
+    "distractors": [
+      "$20.63",
+      "$82.50",
+      "$41.25"
+    ],
+    "explanation": "Remaining total = 3 × ($203.00 − $38.00). There are 2 × 4 payments. Divide: 3(203 − 38)/[2(4)] = $61.88.",
+    "numericAnswer": {
+      "value": 61.88,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-11",
+    "kind": "calculation",
+    "term": "$45.33",
+    "definition": "You have 4 identical interest-free balances of $210.00 each and immediately pay $40.00 toward each one. The remaining total will be split into 3 equal payments per month for 5 months, with no fees. What is each scheduled payment? Round to the nearest cent.",
+    "distractors": [
+      "$11.33",
+      "$56.67",
+      "$28.33"
+    ],
+    "explanation": "Remaining total = 4 × ($210.00 − $40.00). There are 3 × 5 payments. Divide: 4(210 − 40)/[3(5)] = $45.33.",
+    "numericAnswer": {
+      "value": 45.33,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-12",
+    "kind": "calculation",
+    "term": "$36.46",
+    "definition": "You have 5 identical interest-free balances of $217.00 each and immediately pay $42.00 toward each one. The remaining total will be split into 4 equal payments per month for 6 months, with no fees. What is each scheduled payment? Round to the nearest cent.",
+    "distractors": [
+      "$7.29",
+      "$43.75",
+      "$21.88"
+    ],
+    "explanation": "Remaining total = 5 × ($217.00 − $42.00). There are 4 × 6 payments. Divide: 5(217 − 42)/[4(6)] = $36.46.",
+    "numericAnswer": {
+      "value": 36.46,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-13",
+    "kind": "calculation",
+    "term": "$60.00",
+    "definition": "You have 2 identical interest-free balances of $224.00 each and immediately pay $44.00 toward each one. The remaining total will be split into 2 equal payments per month for 3 months, with no fees. What is each scheduled payment?",
+    "distractors": [
+      "$30.00",
+      "$90.00",
+      "$45.00"
+    ],
+    "explanation": "Remaining total = 2 × ($224.00 − $44.00). There are 2 × 3 payments. Divide: 2(224 − 44)/[2(3)] = $60.00.",
+    "numericAnswer": {
+      "value": 60,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-14",
+    "kind": "calculation",
+    "term": "$46.25",
+    "definition": "You have 3 identical interest-free balances of $231.00 each and immediately pay $46.00 toward each one. The remaining total will be split into 3 equal payments per month for 4 months, with no fees. What is each scheduled payment?",
+    "distractors": [
+      "$15.42",
+      "$61.67",
+      "$30.83"
+    ],
+    "explanation": "Remaining total = 3 × ($231.00 − $46.00). There are 3 × 4 payments. Divide: 3(231 − 46)/[3(4)] = $46.25.",
+    "numericAnswer": {
+      "value": 46.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-15",
+    "kind": "calculation",
+    "term": "$38.00",
+    "definition": "You have 4 identical interest-free balances of $238.00 each and immediately pay $48.00 toward each one. The remaining total will be split into 4 equal payments per month for 5 months, with no fees. What is each scheduled payment?",
+    "distractors": [
+      "$9.50",
+      "$47.50",
+      "$23.75"
+    ],
+    "explanation": "Remaining total = 4 × ($238.00 − $48.00). There are 4 × 5 payments. Divide: 4(238 − 48)/[4(5)] = $38.00.",
+    "numericAnswer": {
+      "value": 38,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-16",
+    "kind": "calculation",
+    "term": "$81.25",
+    "definition": "You have 5 identical interest-free balances of $245.00 each and immediately pay $50.00 toward each one. The remaining total will be split into 2 equal payments per month for 6 months, with no fees. What is each scheduled payment?",
+    "distractors": [
+      "$16.25",
+      "$97.50",
+      "$48.75"
+    ],
+    "explanation": "Remaining total = 5 × ($245.00 − $50.00). There are 2 × 6 payments. Divide: 5(245 − 50)/[2(6)] = $81.25.",
+    "numericAnswer": {
+      "value": 81.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-17",
+    "kind": "calculation",
+    "term": "$44.44",
+    "definition": "You have 2 identical interest-free balances of $252.00 each and immediately pay $52.00 toward each one. The remaining total will be split into 3 equal payments per month for 3 months, with no fees. What is each scheduled payment? Round to the nearest cent.",
+    "distractors": [
+      "$22.22",
+      "$66.67",
+      "$33.33"
+    ],
+    "explanation": "Remaining total = 2 × ($252.00 − $52.00). There are 3 × 3 payments. Divide: 2(252 − 52)/[3(3)] = $44.44.",
+    "numericAnswer": {
+      "value": 44.44,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-18",
+    "kind": "calculation",
+    "term": "$38.44",
+    "definition": "You have 3 identical interest-free balances of $259.00 each and immediately pay $54.00 toward each one. The remaining total will be split into 4 equal payments per month for 4 months, with no fees. What is each scheduled payment? Round to the nearest cent.",
+    "distractors": [
+      "$12.81",
+      "$51.25",
+      "$25.63"
+    ],
+    "explanation": "Remaining total = 3 × ($259.00 − $54.00). There are 4 × 4 payments. Divide: 3(259 − 54)/[4(4)] = $38.44.",
+    "numericAnswer": {
+      "value": 38.44,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-19",
+    "kind": "calculation",
+    "term": "$84.00",
+    "definition": "You have 4 identical interest-free balances of $266.00 each and immediately pay $56.00 toward each one. The remaining total will be split into 2 equal payments per month for 5 months, with no fees. What is each scheduled payment?",
+    "distractors": [
+      "$21.00",
+      "$105.00",
+      "$52.50"
+    ],
+    "explanation": "Remaining total = 4 × ($266.00 − $56.00). There are 2 × 5 payments. Divide: 4(266 − 56)/[2(5)] = $84.00.",
+    "numericAnswer": {
+      "value": 84,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-symmetric-cournot-output-20",
+    "kind": "calculation",
+    "term": "$59.72",
+    "definition": "You have 5 identical interest-free balances of $273.00 each and immediately pay $58.00 toward each one. The remaining total will be split into 3 equal payments per month for 6 months, with no fees. What is each scheduled payment? Round to the nearest cent.",
+    "distractors": [
+      "$11.94",
+      "$71.67",
+      "$35.83"
+    ],
+    "explanation": "Remaining total = 5 × ($273.00 − $58.00). There are 3 × 6 payments. Divide: 5(273 − 58)/[3(6)] = $59.72.",
+    "numericAnswer": {
+      "value": 59.72,
+      "unit": "USD"
+    }
   }
 ]

@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { FLASHCARD_UNITS } from "../data/flashcard-units";
-import drillCatalog from "../data/flashcard-drill-catalog.json";
+import drillCatalog from "../data/flashcard-drill-catalog.json" with { type: "json" };
 import type { Flashcard, FlashcardUnit } from "../types";
 import { checkCalculationAnswer } from "./flashcard-answer";
 
@@ -8,11 +8,9 @@ export const FLASHCARD_COUNTS: Record<string, number> = {
   ...Object.fromEntries(
     Object.entries(FLASHCARD_UNITS).map(([unit, cards]) => [
       unit,
-      cards.length,
+      cards.length +
+        ((drillCatalog as Record<string, { count: number }>)[unit]?.count ?? 0),
     ]),
-  ),
-  ...Object.fromEntries(
-    Object.entries(drillCatalog).map(([unit, entry]) => [unit, entry.count]),
   ),
 };
 
@@ -45,7 +43,7 @@ export function parseDrillCards(
   return cards;
 }
 
-/** Fetch selected drill topics only; failed requests can be retried. */
+/** Add each selected unit's calculations to its existing vocabulary cards. */
 export function createFlashcardLoader(
   fetcher: typeof fetch = (...args) => fetch(...args),
 ) {
@@ -54,10 +52,10 @@ export function createFlashcardLoader(
   return async function load(units: string[]): Promise<FlashcardUnit> {
     const entries = await Promise.all(
       units.map(async (unit) => {
-        if (FLASHCARD_UNITS[unit])
-          return [unit, FLASHCARD_UNITS[unit]!] as const;
+        const vocabulary = FLASHCARD_UNITS[unit];
+        if (!vocabulary) throw new Error(`Unknown flashcard topic: ${unit}`);
         const entry = catalog[unit];
-        if (!entry) throw new Error(`Unknown flashcard topic: ${unit}`);
+        if (!entry) return [unit, vocabulary] as const;
         if (!pending.has(unit)) {
           const request = (async () => {
             const controller = new AbortController();
@@ -77,7 +75,11 @@ export function createFlashcardLoader(
           });
           pending.set(unit, request);
         }
-        return [unit, await pending.get(unit)!] as const;
+        const combined: Flashcard[] = [
+          ...vocabulary,
+          ...(await pending.get(unit)!),
+        ];
+        return [unit, combined] as const;
       }),
     );
     return Object.fromEntries(entries);

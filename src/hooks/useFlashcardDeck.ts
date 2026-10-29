@@ -59,6 +59,7 @@ import { FLASHCARD_UNITS } from "../data/flashcard-units";
 import { shuffle } from "../lib/shuffle";
 import { showToast } from "../lib/toast";
 import { checkCalculationAnswer } from "../lib/flashcard-answer";
+import { migrateFlashcardProgress } from "../lib/flashcard-progress";
 import type { Flashcard, FlashcardUnit } from "../types";
 
 const STORAGE_KEY = "fynoptic.flashcards.v1";
@@ -230,7 +231,10 @@ export function readStorage(): { answers: Record<string, AnswerRecord> } {
     const raw = localStorage.getItem(STORAGE_KEY);
     const parsed: unknown = raw ? JSON.parse(raw) : {};
     const result = storedDataSchema.safeParse(parsed);
-    return result.success ? result.data : { answers: {} };
+    if (!result.success) return { answers: {} };
+    const migrated = migrateFlashcardProgress(result.data.answers);
+    if (migrated.changed) persistProgress(migrated.answers);
+    return { answers: migrated.answers };
   } catch {
     return { answers: {} };
   }

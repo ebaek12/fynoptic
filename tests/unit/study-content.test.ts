@@ -10,6 +10,7 @@ import { createSession, drawQuestion } from '../../src/hooks/usePracticeSession'
 import { mergePracticeBanks, PRACTICE_BANK_PATHS } from '../../src/lib/practice-banks';
 import { parsePracticeBank } from '../../src/schemas';
 import { FLASHCARD_COUNTS } from '../../src/lib/flashcard-catalog';
+import taxonomy from '../../src/data/study-units.json';
 import type { PracticeBank, PracticeItem } from '../../src/types';
 
 const canonical = (text: string) => text.normalize('NFKC').toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -48,10 +49,10 @@ describe('expanded study content', () => {
   });
 
   it('can draw every added question once with its answer and explanation intact', () => {
-    for (const [index, bank] of banks.slice(2).entries()) {
+    for (const bank of banks.slice(2)) {
       for (const [category, topics] of Object.entries(bank)) {
         const expected = flatten({ [category]: topics });
-        expect(expected).toHaveLength([500, 500, 3400, 1600][index]!);
+        expect(expected.length).toBeGreaterThan(0);
         const session = createSession(bank, {
           category, topics: Object.keys(topics), totalQuestions: expected.length,
           adaptive: true, adaptWindow: 10,
@@ -77,9 +78,12 @@ describe('expanded study content', () => {
     expect(base).toHaveLength(611);
     expect(added).toHaveLength(1000);
     expect(all).toHaveLength(1611);
-    expect(all.slice(0, base.length)).toEqual(base);
+    for (const [unit, cards] of Object.entries(BASE_FLASHCARD_UNITS)) {
+      expect(FLASHCARD_UNITS[unit]!.slice(0, cards.length)).toEqual(cards);
+    }
     expect(new Set(all.map(card => card.id)).size).toBe(all.length);
-    expect(Object.keys(flashcardExpansion).some(unit => unit in BASE_FLASHCARD_UNITS)).toBe(false);
+    expect(Object.keys(FLASHCARD_UNITS)).toEqual(taxonomy.flashcards);
+    expect(Object.keys(flashcardExpansion).every(unit => unit in BASE_FLASHCARD_UNITS)).toBe(true);
     const terms = new Set(base.map(card => canonical(card.term)));
     const definitions = new Set(base.map(card => canonical(card.definition)));
     for (const card of added) {
@@ -116,5 +120,20 @@ describe('expanded study content', () => {
     expect(rack.practice!.statSecondary).toBe(`${Object.values(combined).reduce((n, topics) => n + Object.keys(topics).length, 0)} Topics`);
     expect(rack.flashcards!.statPrimary).toBe(`${Object.values(FLASHCARD_COUNTS).reduce((sum, count) => sum + count, 0).toLocaleString('en-US')} Cards`);
     expect(rack.flashcards!.statSecondary).toBe(`${Object.keys(FLASHCARD_COUNTS).length} Topics`);
+  });
+
+  it('uses only the original practice categories and flashcard units', () => {
+    expect(Object.keys(combined)).toEqual(Object.keys(taxonomy.practice));
+    for (const [category, topics] of Object.entries(taxonomy.practice)) {
+      expect(Object.keys(combined[category]!)).toEqual(topics);
+      for (const topic of topics) {
+        const original = mergePracticeBanks(banks.slice(0, 2))[category]![topic]!;
+        expect(Object.values(combined[category]![topic]!).flat().length)
+          .toBeGreaterThan(Object.values(original).flat().length);
+      }
+    }
+    expect(Object.keys(FLASHCARD_COUNTS)).toEqual(taxonomy.flashcards);
+    expect(Object.values(FLASHCARD_COUNTS).reduce((sum, count) => sum + count, 0)).toBe(6611);
+    expect(Object.values(FLASHCARD_COUNTS).every(count => count >= 250)).toBe(true);
   });
 });

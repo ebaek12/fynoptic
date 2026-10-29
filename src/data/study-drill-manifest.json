@@ -2,1509 +2,2510 @@
   "addedOn": "2026-10-27",
   "practiceQuestions": 5000,
   "flashcards": 5000,
+  "reorganizedOn": "2026-10-29",
   "familyCount": 250,
   "variantsPerFamily": 20,
-  "description": "Worked calculation drills with hypothetical inputs. Each exercise family has 20 deterministic input variants, available as a practice question and a matching question-and-answer flashcard.",
+  "description": "Worked calculations with hypothetical inputs, organized only under the original practice and flashcard units. Each family has 20 deterministic variants. Practice and flashcard contexts differ where needed to fit their respective curricula.",
   "families": [
     {
       "id": "cash-overtime-gross-pay",
+      "difficulty": "easy",
       "category": "Personal Finance",
-      "topic": "Pay and Cash Flow Drills",
-      "difficulty": "easy"
+      "topic": "Monetary Policy",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-paycheck-deductions",
+      "difficulty": "easy",
       "category": "Personal Finance",
-      "topic": "Pay and Cash Flow Drills",
-      "difficulty": "easy"
+      "topic": "Monetary Policy",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-biweekly-monthly-income",
-      "category": "Personal Finance",
-      "topic": "Pay and Cash Flow Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-tiered-sales-commission",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Pay and Cash Flow Drills",
-      "difficulty": "medium"
+      "topic": "Monetary Policy",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-irregular-income-average",
-      "category": "Personal Finance",
-      "topic": "Pay and Cash Flow Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-cash-flow-timing-buffer",
-      "category": "Personal Finance",
-      "topic": "Pay and Cash Flow Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-raise-net-increase",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Pay and Cash Flow Drills",
-      "difficulty": "medium"
+      "topic": "Monetary Policy",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-gig-profit-tax-reserve",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Pay and Cash Flow Drills",
-      "difficulty": "medium"
+      "topic": "Monetary Policy",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-effective-hourly-with-commute",
-      "category": "Personal Finance",
-      "topic": "Pay and Cash Flow Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-zero-based-discretionary-budget",
+      "difficulty": "easy",
       "category": "Personal Finance",
-      "topic": "Budget Planning Drills",
-      "difficulty": "easy"
+      "topic": "Regulatory & Exchange Bodies",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-needs-share-room",
+      "difficulty": "easy",
       "category": "Personal Finance",
-      "topic": "Budget Planning Drills",
-      "difficulty": "easy"
+      "topic": "Regulatory & Exchange Bodies",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-irregular-bills-monthly-reserve",
-      "category": "Personal Finance",
-      "topic": "Budget Planning Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-weekly-spending-monthly-equivalent",
-      "category": "Personal Finance",
-      "topic": "Budget Planning Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-budget-overrun-percentage",
-      "category": "Personal Finance",
-      "topic": "Budget Planning Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-required-flexible-spending-cut",
-      "category": "Personal Finance",
-      "topic": "Budget Planning Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-proportional-shared-bills",
-      "category": "Personal Finance",
-      "topic": "Budget Planning Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-weighted-price-increase-budget",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Budget Planning Drills",
-      "difficulty": "medium"
+      "topic": "Regulatory & Exchange Bodies",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-subscription-break-even-use",
-      "category": "Personal Finance",
-      "topic": "Budget Planning Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-goal-monthly-contribution",
-      "category": "Personal Finance",
-      "topic": "Savings Goal Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-whole-months-to-goal",
-      "category": "Personal Finance",
-      "topic": "Savings Goal Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-emergency-fund-essential-target",
-      "category": "Personal Finance",
-      "topic": "Savings Goal Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-simple-interest-required-deposit",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Savings Goal Drills",
-      "difficulty": "medium"
+      "topic": "Money Market Instruments",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-monthly-compound-savings",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Savings Goal Drills",
-      "difficulty": "medium"
+      "topic": "Money Market Instruments",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-annuity-savings-deposit",
-      "category": "Personal Finance",
-      "topic": "Savings Goal Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-step-up-savings-plan",
-      "category": "Personal Finance",
-      "topic": "Savings Goal Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-inflating-savings-goal",
-      "category": "Personal Finance",
-      "topic": "Savings Goal Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-fund-withdrawal-recovery",
-      "category": "Personal Finance",
-      "topic": "Savings Goal Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-maintenance-fee-waiver-count",
+      "difficulty": "easy",
       "category": "Personal Finance",
-      "topic": "Bank Account Cost Drills",
-      "difficulty": "easy"
+      "topic": "Money Market Instruments",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-atm-two-fees-reimbursement",
-      "category": "Personal Finance",
-      "topic": "Bank Account Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-tiered-bank-interest",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Bank Account Cost Drills",
-      "difficulty": "medium"
+      "topic": "Money Market Instruments",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-capped-overdraft-fees",
-      "category": "Personal Finance",
-      "topic": "Bank Account Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-bank-reconciliation-available-cash",
-      "category": "Personal Finance",
-      "topic": "Bank Account Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-cd-early-withdrawal-net",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Bank Account Cost Drills",
-      "difficulty": "medium"
+      "topic": "Money Market Instruments",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-interest-fee-break-even-balance",
+      "difficulty": "hard",
       "category": "Personal Finance",
-      "topic": "Bank Account Cost Drills",
-      "difficulty": "hard"
+      "topic": "Money Market Instruments",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-transfer-fee-cap-comparison",
-      "category": "Personal Finance",
-      "topic": "Bank Account Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-net-bank-return-percentage",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Bank Account Cost Drills",
-      "difficulty": "medium"
+      "topic": "Money Market Instruments",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-card-monthly-interest-model",
-      "category": "Personal Finance",
-      "topic": "Credit Card Math Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Credit Cards",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-card-average-daily-balance",
-      "category": "Personal Finance",
-      "topic": "Credit Card Math Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Credit Cards",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-card-minimum-payment-rule",
-      "category": "Personal Finance",
-      "topic": "Credit Card Math Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Credit Cards",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-zero-apr-transfer-payoff",
-      "category": "Personal Finance",
-      "topic": "Credit Card Math Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Credit Cards",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-two-card-balance-interest",
-      "category": "Personal Finance",
-      "topic": "Credit Card Math Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Credit Cards",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-tiered-rewards-after-annual-fee",
-      "category": "Personal Finance",
-      "topic": "Credit Card Math Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Credit Cards",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-card-statement-balance-rollforward",
-      "category": "Personal Finance",
-      "topic": "Credit Card Math Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Credit Cards",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-utilization-target-payment",
-      "category": "Personal Finance",
-      "topic": "Credit Card Math Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Building Your Credit History",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-balance-transfer-interest-savings",
-      "category": "Personal Finance",
-      "topic": "Credit Card Math Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Credit Cards",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-amortizing-loan-payment",
+      "difficulty": "hard",
       "category": "Personal Finance",
-      "topic": "Loan Payment Drills",
-      "difficulty": "hard"
+      "topic": "Fixed Income & Bonds",
+      "flashcardUnit": "Borrowing Basics",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-first-payment-principal",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Loan Payment Drills",
-      "difficulty": "medium"
+      "topic": "Fixed Income & Bonds",
+      "flashcardUnit": "Borrowing Basics",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-scheduled-loan-total-financing-cost",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Loan Payment Drills",
-      "difficulty": "medium"
+      "topic": "Fixed Income & Bonds",
+      "flashcardUnit": "Borrowing Basics",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-simple-loan-lump-sum-payoff",
-      "category": "Personal Finance",
-      "topic": "Loan Payment Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Borrowing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-loan-net-proceeds-gross-up",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Loan Payment Drills",
-      "difficulty": "medium"
+      "topic": "Money Market Instruments",
+      "flashcardUnit": "Borrowing Basics",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-debt-payment-capacity",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Loan Payment Drills",
-      "difficulty": "medium"
+      "topic": "Fixed Income & Bonds",
+      "flashcardUnit": "Borrowing Basics",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-refinance-fee-recovery-months",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Loan Payment Drills",
-      "difficulty": "medium"
+      "topic": "Fixed Income & Bonds",
+      "flashcardUnit": "Borrowing Basics",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-extra-principal-next-interest",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Loan Payment Drills",
-      "difficulty": "medium"
+      "topic": "Fixed Income & Bonds",
+      "flashcardUnit": "Borrowing Basics",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-full-monthly-home-payment",
-      "category": "Personal Finance",
-      "topic": "Housing Cost Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-home-cash-to-close-credit",
-      "category": "Personal Finance",
-      "topic": "Housing Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-home-price-cash-constraint",
-      "category": "Personal Finance",
-      "topic": "Housing Cost Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-rent-concession-effective-monthly",
-      "category": "Personal Finance",
-      "topic": "Housing Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-roommate-prorated-utilities",
-      "category": "Personal Finance",
-      "topic": "Housing Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-home-loan-to-value",
-      "category": "Personal Finance",
-      "topic": "Housing Cost Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Borrowing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-home-sale-net-cash",
-      "category": "Personal Finance",
-      "topic": "Housing Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-cash-out-refinance-proceeds",
-      "category": "Personal Finance",
-      "topic": "Housing Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-car-fuel-monthly-cost",
-      "category": "Personal Finance",
-      "topic": "Car Ownership Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Buying a Car",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-auto-financed-amount-trade-equity",
-      "category": "Personal Finance",
-      "topic": "Car Ownership Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Buying a Car",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-lease-full-period-monthly-cost",
-      "category": "Personal Finance",
-      "topic": "Car Ownership Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Buying a Car",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-car-depreciation-resale-value",
-      "category": "Personal Finance",
-      "topic": "Car Ownership Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Buying a Car",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-car-operating-cost-per-mile",
-      "category": "Personal Finance",
-      "topic": "Car Ownership Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Buying a Car",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-ev-versus-gas-energy-savings",
-      "category": "Personal Finance",
-      "topic": "Car Ownership Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Buying a Car",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-car-maintenance-distance-reserve",
-      "category": "Personal Finance",
-      "topic": "Car Ownership Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Buying a Car",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-cash-car-ownership-cost",
-      "category": "Personal Finance",
-      "topic": "Car Ownership Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Buying a Car",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-college-net-price-not-loans",
-      "category": "Personal Finance",
-      "topic": "College Cost Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-college-tuition-flat-band",
-      "category": "Personal Finance",
-      "topic": "College Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-college-funding-gap",
-      "category": "Personal Finance",
-      "topic": "College Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-college-weekly-work-hours",
-      "category": "Personal Finance",
-      "topic": "College Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-four-year-rising-tuition-total",
-      "category": "Personal Finance",
-      "topic": "College Cost Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-student-loan-in-school-interest",
-      "category": "Personal Finance",
-      "topic": "College Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-tuition-installment-after-deposit",
-      "category": "Personal Finance",
-      "topic": "College Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-textbook-resale-versus-rental",
-      "category": "Personal Finance",
-      "topic": "College Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-insurance-deductible-claim-payment",
+      "difficulty": "easy",
       "category": "Personal Finance",
-      "topic": "Insurance Cost Drills",
-      "difficulty": "easy"
+      "topic": "Derivatives & Options",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-health-deductible-coinsurance",
-      "category": "Personal Finance",
-      "topic": "Insurance Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-health-annual-out-of-pocket-cap",
-      "category": "Personal Finance",
-      "topic": "Insurance Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-insurance-plan-total-cost-comparison",
-      "category": "Personal Finance",
-      "topic": "Insurance Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-insurance-sequential-discounts",
-      "category": "Personal Finance",
-      "topic": "Insurance Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-insurance-expected-annual-cash-cost",
-      "category": "Personal Finance",
-      "topic": "Insurance Cost Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-life-coverage-capital-needs",
-      "category": "Personal Finance",
-      "topic": "Insurance Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "cash-disability-benefit-cap-wait",
-      "category": "Personal Finance",
-      "topic": "Insurance Cost Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-sale-price-sales-tax",
-      "category": "Personal Finance",
-      "topic": "Shopping Price Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-successive-discount-equivalent",
-      "category": "Personal Finance",
-      "topic": "Shopping Price Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-coupon-tax-order",
-      "category": "Personal Finance",
-      "topic": "Shopping Price Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-unit-price-weight-conversion",
-      "category": "Personal Finance",
-      "topic": "Shopping Price Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-reverse-taxed-sale-price",
-      "category": "Personal Finance",
-      "topic": "Shopping Price Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-bundle-free-items-effective-cost",
-      "category": "Personal Finance",
-      "topic": "Shopping Price Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-cashback-eligible-spending-cap",
-      "category": "Personal Finance",
-      "topic": "Shopping Price Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Credit Cards",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-delivery-threshold-total",
-      "category": "Personal Finance",
-      "topic": "Shopping Price Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-membership-purchases-break-even",
-      "category": "Personal Finance",
-      "topic": "Shopping Price Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-annual-prepayment-savings",
-      "category": "Personal Finance",
-      "topic": "Subscription Value Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-introductory-rate-year-cost",
-      "category": "Personal Finance",
-      "topic": "Subscription Value Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-included-usage-overage",
-      "category": "Personal Finance",
-      "topic": "Subscription Value Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-actual-use-cost",
-      "category": "Personal Finance",
-      "topic": "Subscription Value Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-unlimited-plan-strict-break-even",
-      "category": "Personal Finance",
-      "topic": "Subscription Value Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-prorated-cancellation-refund",
-      "category": "Personal Finance",
-      "topic": "Subscription Value Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-minimum-seat-billing",
-      "category": "Personal Finance",
-      "topic": "Subscription Value Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-pause-versus-reactivation",
-      "category": "Personal Finance",
-      "topic": "Subscription Value Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-compounded-renewal-total",
-      "category": "Personal Finance",
-      "topic": "Subscription Value Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-contribution-per-unit",
-      "category": "Personal Finance",
-      "topic": "Small Business Cash Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "invest-fixed-cost-break-even-units",
-      "category": "Personal Finance",
-      "topic": "Small Business Cash Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "invest-cash-versus-invoiced-sales",
-      "category": "Personal Finance",
-      "topic": "Small Business Cash Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "invest-runway-full-months",
-      "category": "Personal Finance",
-      "topic": "Small Business Cash Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "invest-early-payment-discount-annualized",
-      "category": "Personal Finance",
-      "topic": "Small Business Cash Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Borrowing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "invest-cash-conversion-cycle",
-      "category": "Personal Finance",
-      "topic": "Small Business Cash Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "invest-gross-margin-versus-markup",
-      "category": "Personal Finance",
-      "topic": "Small Business Cash Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "invest-merchant-processing-net-deposit",
-      "category": "Personal Finance",
-      "topic": "Small Business Cash Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "invest-working-capital-classification",
-      "category": "Personal Finance",
-      "topic": "Small Business Cash Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "invest-expense-ratio-dollar-cost",
-      "category": "Personal Finance",
-      "topic": "Fund Fee Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-weighted-fund-expense-ratio",
-      "category": "Personal Finance",
-      "topic": "Fund Fee Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-front-load-invested-shares",
-      "category": "Personal Finance",
-      "topic": "Fund Fee Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-deferred-load-lesser-base",
-      "category": "Personal Finance",
-      "topic": "Fund Fee Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-tiered-advisory-fee",
-      "category": "Personal Finance",
-      "topic": "Fund Fee Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-fee-day-proration",
-      "category": "Personal Finance",
-      "topic": "Fund Fee Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-multiyear-fee-drag",
-      "category": "Personal Finance",
-      "topic": "Fund Fee Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-temporary-expense-waiver",
-      "category": "Personal Finance",
-      "topic": "Fund Fee Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-fixed-and-percentage-fee-crossover",
-      "category": "Personal Finance",
-      "topic": "Fund Fee Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-target-allocation-dollar-holding",
-      "category": "Personal Finance",
-      "topic": "Portfolio Allocation Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-rebalance-by-selling-overweight",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Portfolio Allocation Drills",
-      "difficulty": "medium"
+      "topic": "Equities & Stock Market Mechanics",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-rebalance-with-new-money-only",
+      "difficulty": "hard",
       "category": "Personal Finance",
-      "topic": "Portfolio Allocation Drills",
-      "difficulty": "hard"
+      "topic": "Equities & Stock Market Mechanics",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-allocation-drift-after-returns",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Portfolio Allocation Drills",
-      "difficulty": "medium"
+      "topic": "Equities & Stock Market Mechanics",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-weighted-portfolio-period-return",
-      "category": "Personal Finance",
-      "topic": "Portfolio Allocation Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-fund-look-through-stock-exposure",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Portfolio Allocation Drills",
-      "difficulty": "medium"
+      "topic": "Equities & Stock Market Mechanics",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-withdrawal-and-target-allocation",
+      "difficulty": "hard",
       "category": "Personal Finance",
-      "topic": "Portfolio Allocation Drills",
-      "difficulty": "hard"
+      "topic": "Equities & Stock Market Mechanics",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-whole-share-allocation-cash-remainder",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Portfolio Allocation Drills",
-      "difficulty": "medium"
+      "topic": "Equities & Stock Market Mechanics",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-two-asset-portfolio-volatility",
-      "category": "Personal Finance",
-      "topic": "Portfolio Allocation Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-holding-return-dividends-trading-costs",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Investment Return Drills",
-      "difficulty": "medium"
+      "topic": "Equities & Stock Market Mechanics",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-compound-annual-growth-rate",
-      "category": "Personal Finance",
-      "topic": "Investment Return Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-exact-inflation-adjusted-return",
-      "category": "Personal Finance",
-      "topic": "Investment Return Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-two-period-cumulative-return",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Investment Return Drills",
-      "difficulty": "medium"
+      "topic": "Equities & Stock Market Mechanics",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-drawdown-recovery-return",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Investment Return Drills",
-      "difficulty": "medium"
+      "topic": "Equities & Stock Market Mechanics",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-equal-dollar-purchase-average-cost",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Investment Return Drills",
-      "difficulty": "medium"
+      "topic": "Equities & Stock Market Mechanics",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-dividend-reinvestment-ending-value",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Investment Return Drills",
-      "difficulty": "medium"
+      "topic": "Equities & Stock Market Mechanics",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-foreign-investment-home-currency-return",
-      "category": "Personal Finance",
-      "topic": "Investment Return Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "International Economics & Trade",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-semiannual-coupon-payment",
+      "difficulty": "easy",
       "category": "Personal Finance",
-      "topic": "Bond Cash Flow Drills",
-      "difficulty": "easy"
+      "topic": "Fixed Income & Bonds",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-bond-current-yield",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Bond Cash Flow Drills",
-      "difficulty": "medium"
+      "topic": "Fixed Income & Bonds",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-bond-clean-price-accrued-total",
+      "difficulty": "hard",
       "category": "Personal Finance",
-      "topic": "Bond Cash Flow Drills",
-      "difficulty": "hard"
+      "topic": "Fixed Income & Bonds",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-maturity-final-cash-flow",
+      "difficulty": "easy",
       "category": "Personal Finance",
-      "topic": "Bond Cash Flow Drills",
-      "difficulty": "easy"
+      "topic": "Fixed Income & Bonds",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-zero-coupon-present-value",
+      "difficulty": "hard",
       "category": "Personal Finance",
-      "topic": "Bond Cash Flow Drills",
-      "difficulty": "hard"
+      "topic": "Fixed Income & Bonds",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-coupon-bond-discounted-price",
+      "difficulty": "hard",
       "category": "Personal Finance",
-      "topic": "Bond Cash Flow Drills",
-      "difficulty": "hard"
+      "topic": "Fixed Income & Bonds",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-bond-sale-return-accrual",
+      "difficulty": "hard",
       "category": "Personal Finance",
-      "topic": "Bond Cash Flow Drills",
-      "difficulty": "hard"
+      "topic": "Fixed Income & Bonds",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-bond-ladder-year-cash-flow",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Bond Cash Flow Drills",
-      "difficulty": "medium"
+      "topic": "Fixed Income & Bonds",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-capped-employer-match",
-      "category": "Personal Finance",
-      "topic": "Retirement Saving Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-tiered-employer-match",
-      "category": "Personal Finance",
-      "topic": "Retirement Saving Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-vested-retirement-balance",
-      "category": "Personal Finance",
-      "topic": "Retirement Saving Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-retirement-saving-gap-no-growth",
-      "category": "Personal Finance",
-      "topic": "Retirement Saving Drills",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-monthly-retirement-annuity-future-value",
-      "category": "Personal Finance",
-      "topic": "Retirement Saving Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-required-yearly-retirement-contribution",
-      "category": "Personal Finance",
-      "topic": "Retirement Saving Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-future-retirement-spending-inflation",
-      "category": "Personal Finance",
-      "topic": "Retirement Saving Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-gross-withdrawal-for-net-cash",
-      "category": "Personal Finance",
-      "topic": "Retirement Saving Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Fiscal Policy and Government",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-foreign-card-purchase-fee",
-      "category": "Personal Finance",
-      "topic": "Payment and Currency Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "International Economics & Trade",
+      "flashcardUnit": "Credit Cards",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-remittance-fixed-budget-net-recipient",
-      "category": "Personal Finance",
-      "topic": "Payment and Currency Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "International Economics & Trade",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-remittance-target-reverse-conversion",
-      "category": "Personal Finance",
-      "topic": "Payment and Currency Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "International Economics & Trade",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-remittance-fee-and-rate-comparison",
-      "category": "Personal Finance",
-      "topic": "Payment and Currency Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "International Economics & Trade",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-reward-card-annual-net-benefit",
-      "category": "Personal Finance",
-      "topic": "Payment and Currency Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Credit Cards",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-daily-card-interest-simple-period",
-      "category": "Personal Finance",
-      "topic": "Payment and Currency Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Credit Cards",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-installment-price-extra-percent",
-      "category": "Personal Finance",
-      "topic": "Payment and Currency Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Borrowing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-currency-roundtrip-spread-loss",
-      "category": "Personal Finance",
-      "topic": "Payment and Currency Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "International Economics & Trade",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-insurance-deductible-payout-limit",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Consumer Risk Drills",
-      "difficulty": "medium"
+      "topic": "Derivatives & Options",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-health-cost-sharing-out-of-pocket-cap",
-      "category": "Personal Finance",
-      "topic": "Consumer Risk Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-expected-uninsured-event-loss",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Consumer Risk Drills",
-      "difficulty": "medium"
+      "topic": "Derivatives & Options",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-warranty-break-even-probability",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Consumer Risk Drills",
-      "difficulty": "medium"
+      "topic": "Derivatives & Options",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-deductible-premium-expected-cost",
-      "category": "Personal Finance",
-      "topic": "Consumer Risk Drills",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-emergency-fund-income-gap-duration",
-      "category": "Personal Finance",
-      "topic": "Consumer Risk Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-variable-rate-interest-payment-shock",
+      "difficulty": "medium",
       "category": "Personal Finance",
-      "topic": "Consumer Risk Drills",
-      "difficulty": "medium"
+      "topic": "Monetary Policy",
+      "flashcardUnit": "Borrowing Basics",
+      "rewrittenPractice": true,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "invest-utilization-target-payment",
-      "category": "Personal Finance",
-      "topic": "Consumer Risk Drills",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "category": "Economics",
+      "topic": "Financial Markets & Instruments",
+      "flashcardUnit": "Building Your Credit History",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-course-economic-cost",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Opportunity Cost Drills",
-      "difficulty": "easy"
+      "topic": "Economic Theory and Thought",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-linear-ppf-unit-cost",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Opportunity Cost Drills",
-      "difficulty": "easy"
+      "topic": "Economic Theory and Thought",
+      "flashcardUnit": "Buying a Car",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-ppf-segment-sacrifice",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Opportunity Cost Drills",
-      "difficulty": "medium"
+      "topic": "Economic Theory and Thought",
+      "flashcardUnit": "Buying a Car",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-specialization-trade-gain",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Opportunity Cost Drills",
-      "difficulty": "medium"
+      "topic": "Economic Theory and Thought",
+      "flashcardUnit": "Buying a Car",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-best-forgone-alternative",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Opportunity Cost Drills",
-      "difficulty": "easy"
+      "topic": "Economic Theory and Thought",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-sunk-cost-continuation",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Opportunity Cost Drills",
-      "difficulty": "medium"
+      "topic": "Economic Theory and Thought",
+      "flashcardUnit": "Buying a Car",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-budget-feasible-units",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Opportunity Cost Drills",
-      "difficulty": "easy"
+      "topic": "Economic Theory and Thought",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-capital-forgone-interest",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Opportunity Cost Drills",
-      "difficulty": "easy"
+      "topic": "Economic Theory and Thought",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-marginal-product-labor",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Production and Cost Drills",
-      "difficulty": "easy"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-average-product-labor",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Production and Cost Drills",
-      "difficulty": "easy"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-marginal-cost-increment",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Production and Cost Drills",
-      "difficulty": "easy"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-average-total-cost",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Production and Cost Drills",
-      "difficulty": "easy"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-recover-fixed-cost",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Production and Cost Drills",
-      "difficulty": "medium"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-cobb-douglas-output",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Production and Cost Drills",
-      "difficulty": "medium"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-competitive-labor-hiring",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Production and Cost Drills",
-      "difficulty": "hard"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-scale-cost-elasticity",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Production and Cost Drills",
-      "difficulty": "medium"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-linear-market-clearing-price",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Supply and Demand Drills",
-      "difficulty": "medium"
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-demand-shift-quantity-effect",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Supply and Demand Drills",
-      "difficulty": "medium"
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-binding-ceiling-shortage",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Supply and Demand Drills",
-      "difficulty": "easy"
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-binding-floor-surplus",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Supply and Demand Drills",
-      "difficulty": "easy"
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-midpoint-demand-elasticity",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Supply and Demand Drills",
-      "difficulty": "medium"
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-cross-price-elasticity",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Supply and Demand Drills",
-      "difficulty": "medium"
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-income-elasticity-forecast",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Supply and Demand Drills",
-      "difficulty": "medium"
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-linear-consumer-surplus",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Supply and Demand Drills",
-      "difficulty": "medium"
+      "topic": "Consumer & Producer Theory",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-linear-monopoly-output",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Market Structure Drills",
-      "difficulty": "hard"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-monopoly-deadweight-loss",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Market Structure Drills",
-      "difficulty": "hard"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-herfindahl-market-shares",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Market Structure Drills",
-      "difficulty": "medium"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-four-firm-concentration",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Market Structure Drills",
-      "difficulty": "medium"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-lerner-markup",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Market Structure Drills",
-      "difficulty": "hard"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Borrowing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-symmetric-cournot-output",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Market Structure Drills",
-      "difficulty": "hard"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Borrowing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-strategic-expected-profit",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Market Structure Drills",
-      "difficulty": "medium"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-segmented-pricing-revenue",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Market Structure Drills",
-      "difficulty": "medium"
+      "topic": "Market Structures & Costs",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-hypothetical-progressive-tax",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Public Finance Drills",
-      "difficulty": "medium"
+      "topic": "Fiscal Policy and Government",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-effective-tax-after-credit",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Public Finance Drills",
-      "difficulty": "medium"
+      "topic": "Fiscal Policy and Government",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-unit-tax-equilibrium-revenue",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Public Finance Drills",
-      "difficulty": "hard"
+      "topic": "Fiscal Policy and Government",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-tax-incidence-consumer-share",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Public Finance Drills",
-      "difficulty": "hard"
+      "topic": "Fiscal Policy and Government",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-simple-spending-multiplier",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Public Finance Drills",
-      "difficulty": "medium"
+      "topic": "Fiscal Policy and Government",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-balanced-budget-output-effect",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Public Finance Drills",
-      "difficulty": "hard"
+      "topic": "Fiscal Policy and Government",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-overall-budget-deficit",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Public Finance Drills",
-      "difficulty": "easy"
+      "topic": "Fiscal Policy and Government",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-public-good-efficient-quantity",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Public Finance Drills",
-      "difficulty": "hard"
+      "topic": "Fiscal Policy and Government",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-fixed-basket-price-index",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Inflation Measurement Drills",
-      "difficulty": "medium"
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-price-index-inflation-rate",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Inflation Measurement Drills",
-      "difficulty": "easy"
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-deflated-real-hourly-wage",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Inflation Measurement Drills",
-      "difficulty": "easy"
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-two-year-compound-inflation",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Inflation Measurement Drills",
-      "difficulty": "medium"
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-cost-of-living-salary-adjustment",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Inflation Measurement Drills",
-      "difficulty": "easy"
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-price-index-rebasing",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Inflation Measurement Drills",
-      "difficulty": "medium"
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-fixed-weight-inflation-contribution",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Inflation Measurement Drills",
-      "difficulty": "medium"
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-exact-real-interest-rate",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Inflation Measurement Drills",
-      "difficulty": "medium"
+      "topic": "Banking and Monetary Policy",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-unemployment-labor-force-denominator",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Labor Data Drills",
-      "difficulty": "easy"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Building Your Credit History",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-labor-force-participation",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Labor Data Drills",
-      "difficulty": "easy"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Building Your Credit History",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-employment-population-ratio",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Labor Data Drills",
-      "difficulty": "easy"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Building Your Credit History",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-new-jobseekers-unemployment-rate",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Labor Data Drills",
-      "difficulty": "medium"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Building Your Credit History",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-broad-u6-underutilization",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Labor Data Drills",
-      "difficulty": "hard"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Building Your Credit History",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-real-output-per-hour",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Labor Data Drills",
-      "difficulty": "easy"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-worker-separation-rate",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Labor Data Drills",
-      "difficulty": "easy"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Credit Cards",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-weekly-earnings-hours",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Labor Data Drills",
-      "difficulty": "easy"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": false,
+      "variants": 20
     },
     {
       "id": "econ-drill-goods-services-net-exports",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Trade Data Drills",
-      "difficulty": "easy"
+      "topic": "International Economics & Trade",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-foreign-invoice-conversion",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Trade Data Drills",
-      "difficulty": "easy"
+      "topic": "International Economics & Trade",
+      "flashcardUnit": "Paying for College",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-reciprocal-currency-appreciation",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Trade Data Drills",
-      "difficulty": "medium"
+      "topic": "International Economics & Trade",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-terms-of-trade-index",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Trade Data Drills",
-      "difficulty": "medium"
+      "topic": "International Economics & Trade",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-small-country-tariff-revenue",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Trade Data Drills",
-      "difficulty": "hard"
+      "topic": "International Economics & Trade",
+      "flashcardUnit": "Buying a Car",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-import-quota-rent",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Trade Data Drills",
-      "difficulty": "medium"
+      "topic": "International Economics & Trade",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-effective-protection-value-added",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Trade Data Drills",
-      "difficulty": "hard"
+      "topic": "International Economics & Trade",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-current-account-components",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Trade Data Drills",
-      "difficulty": "medium"
+      "topic": "International Economics & Trade",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-expenditure-gdp",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Economic Growth Drills",
-      "difficulty": "easy"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Banking",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-real-gdp-growth",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Economic Growth Drills",
-      "difficulty": "easy"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-real-per-capita-growth",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Economic Growth Drills",
-      "difficulty": "medium"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Buying a Car",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-compound-output-projection",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Economic Growth Drills",
-      "difficulty": "medium"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-output-compound-annual-growth-rate",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Economic Growth Drills",
-      "difficulty": "medium"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-net-capital-accumulation",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Economic Growth Drills",
-      "difficulty": "medium"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Saving Goals and Future",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-solow-steady-state-capital",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Economic Growth Drills",
-      "difficulty": "hard"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Protecting Your Money and Identity",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-growth-accounting-tfp",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Economic Growth Drills",
-      "difficulty": "hard"
+      "topic": "Macroeconomic Theory",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-employment-weighted-mean-wage",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Statistics Drills",
-      "difficulty": "medium"
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Making the Most of Your Income",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-median-household-spending",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Statistics Drills",
-      "difficulty": "easy"
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-population-variance-output",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Statistics Drills",
-      "difficulty": "medium"
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-sample-mean-standard-error",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Statistics Drills",
-      "difficulty": "medium"
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-confidence-interval-upper-limit",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Statistics Drills",
-      "difficulty": "medium"
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Financial Decisions",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-conditional-training-employment",
+      "difficulty": "medium",
       "category": "Economics",
-      "topic": "Statistics Drills",
-      "difficulty": "medium"
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Building Your Credit History",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-linear-regression-consumption-prediction",
+      "difficulty": "easy",
       "category": "Economics",
-      "topic": "Statistics Drills",
-      "difficulty": "easy"
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Spending & Saving Plan",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     },
     {
       "id": "econ-drill-sample-covariance-growth",
+      "difficulty": "hard",
       "category": "Economics",
-      "topic": "Statistics Drills",
-      "difficulty": "hard"
+      "topic": "Quantitative & Data Skills",
+      "flashcardUnit": "Investing Basics",
+      "rewrittenPractice": false,
+      "rewrittenFlashcards": true,
+      "variants": 20
     }
   ],
   "sources": {

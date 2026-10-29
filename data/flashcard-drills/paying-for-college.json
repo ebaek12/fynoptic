@@ -2558,5 +2558,2885 @@
       "value": 91.25,
       "unit": "USD"
     }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-01",
+    "kind": "calculation",
+    "term": "$368.00",
+    "definition": "A short course costs $240.00 and prevents a worker from taking 8 hours of paid work at $16.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$240.00",
+      "$128.00",
+      "$256.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $240.00 + 8 × $16.00 = $368.00.",
+    "numericAnswer": {
+      "value": 368,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-02",
+    "kind": "calculation",
+    "term": "$408.00",
+    "definition": "A short course costs $255.00 and prevents a worker from taking 9 hours of paid work at $17.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$255.00",
+      "$153.00",
+      "$272.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $255.00 + 9 × $17.00 = $408.00.",
+    "numericAnswer": {
+      "value": 408,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-03",
+    "kind": "calculation",
+    "term": "$450.00",
+    "definition": "A short course costs $270.00 and prevents a worker from taking 10 hours of paid work at $18.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$270.00",
+      "$180.00",
+      "$288.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $270.00 + 10 × $18.00 = $450.00.",
+    "numericAnswer": {
+      "value": 450,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-04",
+    "kind": "calculation",
+    "term": "$494.00",
+    "definition": "A short course costs $285.00 and prevents a worker from taking 11 hours of paid work at $19.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$285.00",
+      "$209.00",
+      "$304.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $285.00 + 11 × $19.00 = $494.00.",
+    "numericAnswer": {
+      "value": 494,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-05",
+    "kind": "calculation",
+    "term": "$540.00",
+    "definition": "A short course costs $300.00 and prevents a worker from taking 12 hours of paid work at $20.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$300.00",
+      "$240.00",
+      "$320.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $300.00 + 12 × $20.00 = $540.00.",
+    "numericAnswer": {
+      "value": 540,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-06",
+    "kind": "calculation",
+    "term": "$523.00",
+    "definition": "A short course costs $315.00 and prevents a worker from taking 13 hours of paid work at $16.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$315.00",
+      "$208.00",
+      "$331.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $315.00 + 13 × $16.00 = $523.00.",
+    "numericAnswer": {
+      "value": 523,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-07",
+    "kind": "calculation",
+    "term": "$568.00",
+    "definition": "A short course costs $330.00 and prevents a worker from taking 14 hours of paid work at $17.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$330.00",
+      "$238.00",
+      "$347.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $330.00 + 14 × $17.00 = $568.00.",
+    "numericAnswer": {
+      "value": 568,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-08",
+    "kind": "calculation",
+    "term": "$615.00",
+    "definition": "A short course costs $345.00 and prevents a worker from taking 15 hours of paid work at $18.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$345.00",
+      "$270.00",
+      "$363.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $345.00 + 15 × $18.00 = $615.00.",
+    "numericAnswer": {
+      "value": 615,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-09",
+    "kind": "calculation",
+    "term": "$664.00",
+    "definition": "A short course costs $360.00 and prevents a worker from taking 16 hours of paid work at $19.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$360.00",
+      "$304.00",
+      "$379.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $360.00 + 16 × $19.00 = $664.00.",
+    "numericAnswer": {
+      "value": 664,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-10",
+    "kind": "calculation",
+    "term": "$715.00",
+    "definition": "A short course costs $375.00 and prevents a worker from taking 17 hours of paid work at $20.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$375.00",
+      "$340.00",
+      "$395.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $375.00 + 17 × $20.00 = $715.00.",
+    "numericAnswer": {
+      "value": 715,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-11",
+    "kind": "calculation",
+    "term": "$678.00",
+    "definition": "A short course costs $390.00 and prevents a worker from taking 18 hours of paid work at $16.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$390.00",
+      "$288.00",
+      "$406.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $390.00 + 18 × $16.00 = $678.00.",
+    "numericAnswer": {
+      "value": 678,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-12",
+    "kind": "calculation",
+    "term": "$728.00",
+    "definition": "A short course costs $405.00 and prevents a worker from taking 19 hours of paid work at $17.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$405.00",
+      "$323.00",
+      "$422.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $405.00 + 19 × $17.00 = $728.00.",
+    "numericAnswer": {
+      "value": 728,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-13",
+    "kind": "calculation",
+    "term": "$780.00",
+    "definition": "A short course costs $420.00 and prevents a worker from taking 20 hours of paid work at $18.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$420.00",
+      "$360.00",
+      "$438.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $420.00 + 20 × $18.00 = $780.00.",
+    "numericAnswer": {
+      "value": 780,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-14",
+    "kind": "calculation",
+    "term": "$834.00",
+    "definition": "A short course costs $435.00 and prevents a worker from taking 21 hours of paid work at $19.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$435.00",
+      "$399.00",
+      "$454.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $435.00 + 21 × $19.00 = $834.00.",
+    "numericAnswer": {
+      "value": 834,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-15",
+    "kind": "calculation",
+    "term": "$890.00",
+    "definition": "A short course costs $450.00 and prevents a worker from taking 22 hours of paid work at $20.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$450.00",
+      "$440.00",
+      "$470.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $450.00 + 22 × $20.00 = $890.00.",
+    "numericAnswer": {
+      "value": 890,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-16",
+    "kind": "calculation",
+    "term": "$833.00",
+    "definition": "A short course costs $465.00 and prevents a worker from taking 23 hours of paid work at $16.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$465.00",
+      "$368.00",
+      "$481.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $465.00 + 23 × $16.00 = $833.00.",
+    "numericAnswer": {
+      "value": 833,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-17",
+    "kind": "calculation",
+    "term": "$888.00",
+    "definition": "A short course costs $480.00 and prevents a worker from taking 24 hours of paid work at $17.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$480.00",
+      "$408.00",
+      "$497.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $480.00 + 24 × $17.00 = $888.00.",
+    "numericAnswer": {
+      "value": 888,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-18",
+    "kind": "calculation",
+    "term": "$945.00",
+    "definition": "A short course costs $495.00 and prevents a worker from taking 25 hours of paid work at $18.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$495.00",
+      "$450.00",
+      "$513.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $495.00 + 25 × $18.00 = $945.00.",
+    "numericAnswer": {
+      "value": 945,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-19",
+    "kind": "calculation",
+    "term": "$1,004.00",
+    "definition": "A short course costs $510.00 and prevents a worker from taking 26 hours of paid work at $19.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$510.00",
+      "$494.00",
+      "$529.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $510.00 + 26 × $19.00 = $1,004.00.",
+    "numericAnswer": {
+      "value": 1004,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-course-economic-cost-20",
+    "kind": "calculation",
+    "term": "$1,065.00",
+    "definition": "A short course costs $525.00 and prevents a worker from taking 27 hours of paid work at $20.00 per hour. With no taxes or other costs, what is the course's total economic cost?",
+    "distractors": [
+      "$525.00",
+      "$540.00",
+      "$545.00"
+    ],
+    "explanation": "Economic cost includes the fee and forgone earnings: $525.00 + 27 × $20.00 = $1,065.00.",
+    "numericAnswer": {
+      "value": 1065,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-01",
+    "kind": "calculation",
+    "term": "18 meals",
+    "definition": "A student has $150.00 for transit and meals. Each transit ride costs $3.00, and the student must buy 8 rides. Meals cost $7.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "21 meals",
+      "15 meals",
+      "20 meals"
+    ],
+    "explanation": "After transit, $150.00 − 8 × $3.00 = $126.00 remains. floor(126 ÷ 7) = 18 whole meals.",
+    "numericAnswer": {
+      "value": 18,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-02",
+    "kind": "calculation",
+    "term": "15 meals",
+    "definition": "A student has $161.00 for transit and meals. Each transit ride costs $4.00, and the student must buy 9 rides. Meals cost $8.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "16 meals",
+      "20 meals",
+      "19 meals"
+    ],
+    "explanation": "After transit, $161.00 − 9 × $4.00 = $125.00 remains. floor(125 ÷ 8) = 15 whole meals.",
+    "numericAnswer": {
+      "value": 15,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-03",
+    "kind": "calculation",
+    "term": "13 meals",
+    "definition": "A student has $172.00 for transit and meals. Each transit ride costs $5.00, and the student must buy 10 rides. Meals cost $9.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "14 meals",
+      "19 meals",
+      "18 meals"
+    ],
+    "explanation": "After transit, $172.00 − 10 × $5.00 = $122.00 remains. floor(122 ÷ 9) = 13 whole meals.",
+    "numericAnswer": {
+      "value": 13,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-04",
+    "kind": "calculation",
+    "term": "16 meals",
+    "definition": "A student has $183.00 for transit and meals. Each transit ride costs $6.00, and the student must buy 11 rides. Meals cost $7.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "17 meals",
+      "26 meals",
+      "25 meals"
+    ],
+    "explanation": "After transit, $183.00 − 11 × $6.00 = $117.00 remains. floor(117 ÷ 7) = 16 whole meals.",
+    "numericAnswer": {
+      "value": 16,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-05",
+    "kind": "calculation",
+    "term": "19 meals",
+    "definition": "A student has $194.00 for transit and meals. Each transit ride costs $3.00, and the student must buy 12 rides. Meals cost $8.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "20 meals",
+      "24 meals",
+      "23 meals"
+    ],
+    "explanation": "After transit, $194.00 − 12 × $3.00 = $158.00 remains. floor(158 ÷ 8) = 19 whole meals.",
+    "numericAnswer": {
+      "value": 19,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-06",
+    "kind": "calculation",
+    "term": "19 meals",
+    "definition": "A student has $205.00 for transit and meals. Each transit ride costs $4.00, and the student must buy 8 rides. Meals cost $9.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "20 meals",
+      "22 meals",
+      "15 meals"
+    ],
+    "explanation": "After transit, $205.00 − 8 × $4.00 = $173.00 remains. floor(173 ÷ 9) = 19 whole meals.",
+    "numericAnswer": {
+      "value": 19,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-07",
+    "kind": "calculation",
+    "term": "24 meals",
+    "definition": "A student has $216.00 for transit and meals. Each transit ride costs $5.00, and the student must buy 9 rides. Meals cost $7.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "25 meals",
+      "30 meals",
+      "18 meals"
+    ],
+    "explanation": "After transit, $216.00 − 9 × $5.00 = $171.00 remains. floor(171 ÷ 7) = 24 whole meals.",
+    "numericAnswer": {
+      "value": 24,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-08",
+    "kind": "calculation",
+    "term": "20 meals",
+    "definition": "A student has $227.00 for transit and meals. Each transit ride costs $6.00, and the student must buy 10 rides. Meals cost $8.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "21 meals",
+      "28 meals",
+      "27 meals"
+    ],
+    "explanation": "After transit, $227.00 − 10 × $6.00 = $167.00 remains. floor(167 ÷ 8) = 20 whole meals.",
+    "numericAnswer": {
+      "value": 20,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-09",
+    "kind": "calculation",
+    "term": "22 meals",
+    "definition": "A student has $238.00 for transit and meals. Each transit ride costs $3.00, and the student must buy 11 rides. Meals cost $9.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "23 meals",
+      "26 meals",
+      "19 meals"
+    ],
+    "explanation": "After transit, $238.00 − 11 × $3.00 = $205.00 remains. floor(205 ÷ 9) = 22 whole meals.",
+    "numericAnswer": {
+      "value": 22,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-10",
+    "kind": "calculation",
+    "term": "28 meals",
+    "definition": "A student has $249.00 for transit and meals. Each transit ride costs $4.00, and the student must buy 12 rides. Meals cost $7.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "29 meals",
+      "35 meals",
+      "22 meals"
+    ],
+    "explanation": "After transit, $249.00 − 12 × $4.00 = $201.00 remains. floor(201 ÷ 7) = 28 whole meals.",
+    "numericAnswer": {
+      "value": 28,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-11",
+    "kind": "calculation",
+    "term": "27 meals",
+    "definition": "A student has $260.00 for transit and meals. Each transit ride costs $5.00, and the student must buy 8 rides. Meals cost $8.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "28 meals",
+      "32 meals",
+      "31 meals"
+    ],
+    "explanation": "After transit, $260.00 − 8 × $5.00 = $220.00 remains. floor(220 ÷ 8) = 27 whole meals.",
+    "numericAnswer": {
+      "value": 27,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-12",
+    "kind": "calculation",
+    "term": "24 meals",
+    "definition": "A student has $271.00 for transit and meals. Each transit ride costs $6.00, and the student must buy 9 rides. Meals cost $9.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "25 meals",
+      "30 meals",
+      "29 meals"
+    ],
+    "explanation": "After transit, $271.00 − 9 × $6.00 = $217.00 remains. floor(217 ÷ 9) = 24 whole meals.",
+    "numericAnswer": {
+      "value": 24,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-13",
+    "kind": "calculation",
+    "term": "36 meals",
+    "definition": "A student has $282.00 for transit and meals. Each transit ride costs $3.00, and the student must buy 10 rides. Meals cost $7.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "40 meals",
+      "39 meals",
+      "28 meals"
+    ],
+    "explanation": "After transit, $282.00 − 10 × $3.00 = $252.00 remains. floor(252 ÷ 7) = 36 whole meals.",
+    "numericAnswer": {
+      "value": 36,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-14",
+    "kind": "calculation",
+    "term": "31 meals",
+    "definition": "A student has $293.00 for transit and meals. Each transit ride costs $4.00, and the student must buy 11 rides. Meals cost $8.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "32 meals",
+      "36 meals",
+      "24 meals"
+    ],
+    "explanation": "After transit, $293.00 − 11 × $4.00 = $249.00 remains. floor(249 ÷ 8) = 31 whole meals.",
+    "numericAnswer": {
+      "value": 31,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-15",
+    "kind": "calculation",
+    "term": "27 meals",
+    "definition": "A student has $304.00 for transit and meals. Each transit ride costs $5.00, and the student must buy 12 rides. Meals cost $9.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "28 meals",
+      "33 meals",
+      "21 meals"
+    ],
+    "explanation": "After transit, $304.00 − 12 × $5.00 = $244.00 remains. floor(244 ÷ 9) = 27 whole meals.",
+    "numericAnswer": {
+      "value": 27,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-16",
+    "kind": "calculation",
+    "term": "38 meals",
+    "definition": "A student has $315.00 for transit and meals. Each transit ride costs $6.00, and the student must buy 8 rides. Meals cost $7.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "39 meals",
+      "45 meals",
+      "44 meals"
+    ],
+    "explanation": "After transit, $315.00 − 8 × $6.00 = $267.00 remains. floor(267 ÷ 7) = 38 whole meals.",
+    "numericAnswer": {
+      "value": 38,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-17",
+    "kind": "calculation",
+    "term": "37 meals",
+    "definition": "A student has $326.00 for transit and meals. Each transit ride costs $3.00, and the student must buy 9 rides. Meals cost $8.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "38 meals",
+      "40 meals",
+      "29 meals"
+    ],
+    "explanation": "After transit, $326.00 − 9 × $3.00 = $299.00 remains. floor(299 ÷ 8) = 37 whole meals.",
+    "numericAnswer": {
+      "value": 37,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-18",
+    "kind": "calculation",
+    "term": "33 meals",
+    "definition": "A student has $337.00 for transit and meals. Each transit ride costs $4.00, and the student must buy 10 rides. Meals cost $9.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "37 meals",
+      "25 meals",
+      "36 meals"
+    ],
+    "explanation": "After transit, $337.00 − 10 × $4.00 = $297.00 remains. floor(297 ÷ 9) = 33 whole meals.",
+    "numericAnswer": {
+      "value": 33,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-19",
+    "kind": "calculation",
+    "term": "41 meals",
+    "definition": "A student has $348.00 for transit and meals. Each transit ride costs $5.00, and the student must buy 11 rides. Meals cost $7.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "42 meals",
+      "49 meals",
+      "29 meals"
+    ],
+    "explanation": "After transit, $348.00 − 11 × $5.00 = $293.00 remains. floor(293 ÷ 7) = 41 whole meals.",
+    "numericAnswer": {
+      "value": 41,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-budget-feasible-units-20",
+    "kind": "calculation",
+    "term": "35 meals",
+    "definition": "A student has $359.00 for transit and meals. Each transit ride costs $6.00, and the student must buy 12 rides. Meals cost $8.00 each. What is the maximum whole number of meals affordable?",
+    "distractors": [
+      "36 meals",
+      "44 meals",
+      "25 meals"
+    ],
+    "explanation": "After transit, $359.00 − 12 × $6.00 = $287.00 remains. floor(287 ÷ 8) = 35 whole meals.",
+    "numericAnswer": {
+      "value": 35,
+      "unit": "meals"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-01",
+    "kind": "calculation",
+    "term": "$18.00",
+    "definition": "A training provider quotes $1,500.00 for a 80-hour program and $1,680.00 for a 90-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour?",
+    "distractors": [
+      "$180.00",
+      "$18.67",
+      "$18.75"
+    ],
+    "explanation": "Compare the differences: ($1,680.00 − $1,500.00) ÷ (90 − 80) = $18.00 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 18,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-02",
+    "kind": "calculation",
+    "term": "$18.09",
+    "definition": "A training provider quotes $1,587.00 for a 84-hour program and $1,786.00 for a 95-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$199.00",
+      "$18.80",
+      "$18.89"
+    ],
+    "explanation": "Compare the differences: ($1,786.00 − $1,587.00) ÷ (95 − 84) = $18.09 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 18.09,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-03",
+    "kind": "calculation",
+    "term": "$18.17",
+    "definition": "A training provider quotes $1,674.00 for a 88-hour program and $1,892.00 for a 100-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$218.00",
+      "$18.92",
+      "$19.02"
+    ],
+    "explanation": "Compare the differences: ($1,892.00 − $1,674.00) ÷ (100 − 88) = $18.17 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 18.17,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-04",
+    "kind": "calculation",
+    "term": "$18.23",
+    "definition": "A training provider quotes $1,761.00 for a 92-hour program and $1,998.00 for a 105-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$237.00",
+      "$19.03",
+      "$19.14"
+    ],
+    "explanation": "Compare the differences: ($1,998.00 − $1,761.00) ÷ (105 − 92) = $18.23 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 18.23,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-05",
+    "kind": "calculation",
+    "term": "$25.60",
+    "definition": "A training provider quotes $1,848.00 for a 96-hour program and $2,104.00 for a 106-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour?",
+    "distractors": [
+      "$256.00",
+      "$19.85",
+      "$19.25"
+    ],
+    "explanation": "Compare the differences: ($2,104.00 − $1,848.00) ÷ (106 − 96) = $25.60 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 25.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-06",
+    "kind": "calculation",
+    "term": "$25.00",
+    "definition": "A training provider quotes $1,935.00 for a 100-hour program and $2,210.00 for a 111-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour?",
+    "distractors": [
+      "$275.00",
+      "$19.91",
+      "$19.35"
+    ],
+    "explanation": "Compare the differences: ($2,210.00 − $1,935.00) ÷ (111 − 100) = $25.00 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-07",
+    "kind": "calculation",
+    "term": "$24.50",
+    "definition": "A training provider quotes $2,022.00 for a 104-hour program and $2,316.00 for a 116-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour?",
+    "distractors": [
+      "$294.00",
+      "$19.97",
+      "$19.44"
+    ],
+    "explanation": "Compare the differences: ($2,316.00 − $2,022.00) ÷ (116 − 104) = $24.50 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 24.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-08",
+    "kind": "calculation",
+    "term": "$24.08",
+    "definition": "A training provider quotes $2,109.00 for a 108-hour program and $2,422.00 for a 121-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$313.00",
+      "$20.02",
+      "$19.53"
+    ],
+    "explanation": "Compare the differences: ($2,422.00 − $2,109.00) ÷ (121 − 108) = $24.08 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 24.08,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-09",
+    "kind": "calculation",
+    "term": "$33.20",
+    "definition": "A training provider quotes $2,196.00 for a 112-hour program and $2,528.00 for a 122-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour?",
+    "distractors": [
+      "$332.00",
+      "$20.72",
+      "$19.61"
+    ],
+    "explanation": "Compare the differences: ($2,528.00 − $2,196.00) ÷ (122 − 112) = $33.20 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 33.2,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-10",
+    "kind": "calculation",
+    "term": "$31.91",
+    "definition": "A training provider quotes $2,283.00 for a 116-hour program and $2,634.00 for a 127-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$351.00",
+      "$20.74",
+      "$19.68"
+    ],
+    "explanation": "Compare the differences: ($2,634.00 − $2,283.00) ÷ (127 − 116) = $31.91 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 31.91,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-11",
+    "kind": "calculation",
+    "term": "$30.83",
+    "definition": "A training provider quotes $2,370.00 for a 120-hour program and $2,740.00 for a 132-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$370.00",
+      "$20.76",
+      "$19.75"
+    ],
+    "explanation": "Compare the differences: ($2,740.00 − $2,370.00) ÷ (132 − 120) = $30.83 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 30.83,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-12",
+    "kind": "calculation",
+    "term": "$29.92",
+    "definition": "A training provider quotes $2,457.00 for a 124-hour program and $2,846.00 for a 137-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$389.00",
+      "$20.77",
+      "$19.81"
+    ],
+    "explanation": "Compare the differences: ($2,846.00 − $2,457.00) ÷ (137 − 124) = $29.92 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 29.92,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-13",
+    "kind": "calculation",
+    "term": "$40.80",
+    "definition": "A training provider quotes $2,544.00 for a 128-hour program and $2,952.00 for a 138-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour?",
+    "distractors": [
+      "$408.00",
+      "$21.39",
+      "$19.88"
+    ],
+    "explanation": "Compare the differences: ($2,952.00 − $2,544.00) ÷ (138 − 128) = $40.80 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 40.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-14",
+    "kind": "calculation",
+    "term": "$38.82",
+    "definition": "A training provider quotes $2,631.00 for a 132-hour program and $3,058.00 for a 143-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$427.00",
+      "$21.38",
+      "$19.93"
+    ],
+    "explanation": "Compare the differences: ($3,058.00 − $2,631.00) ÷ (143 − 132) = $38.82 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 38.82,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-15",
+    "kind": "calculation",
+    "term": "$37.17",
+    "definition": "A training provider quotes $2,718.00 for a 136-hour program and $3,164.00 for a 148-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$446.00",
+      "$21.38",
+      "$19.99"
+    ],
+    "explanation": "Compare the differences: ($3,164.00 − $2,718.00) ÷ (148 − 136) = $37.17 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 37.17,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-16",
+    "kind": "calculation",
+    "term": "$35.77",
+    "definition": "A training provider quotes $2,805.00 for a 140-hour program and $3,270.00 for a 153-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$465.00",
+      "$21.37",
+      "$20.04"
+    ],
+    "explanation": "Compare the differences: ($3,270.00 − $2,805.00) ÷ (153 − 140) = $35.77 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 35.77,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-17",
+    "kind": "calculation",
+    "term": "$48.40",
+    "definition": "A training provider quotes $2,892.00 for a 144-hour program and $3,376.00 for a 154-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour?",
+    "distractors": [
+      "$484.00",
+      "$21.92",
+      "$20.08"
+    ],
+    "explanation": "Compare the differences: ($3,376.00 − $2,892.00) ÷ (154 − 144) = $48.40 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 48.4,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-18",
+    "kind": "calculation",
+    "term": "$45.73",
+    "definition": "A training provider quotes $2,979.00 for a 148-hour program and $3,482.00 for a 159-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$503.00",
+      "$21.90",
+      "$20.13"
+    ],
+    "explanation": "Compare the differences: ($3,482.00 − $2,979.00) ÷ (159 − 148) = $45.73 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 45.73,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-19",
+    "kind": "calculation",
+    "term": "$43.50",
+    "definition": "A training provider quotes $3,066.00 for a 152-hour program and $3,588.00 for a 164-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour?",
+    "distractors": [
+      "$522.00",
+      "$21.88",
+      "$20.17"
+    ],
+    "explanation": "Compare the differences: ($3,588.00 − $3,066.00) ÷ (164 − 152) = $43.50 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 43.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-marginal-cost-increment-20",
+    "kind": "calculation",
+    "term": "$41.62",
+    "definition": "A training provider quotes $3,153.00 for a 156-hour program and $3,694.00 for a 169-hour program, with identical terms otherwise. What is the average extra tuition per additional instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$541.00",
+      "$21.86",
+      "$20.21"
+    ],
+    "explanation": "Compare the differences: ($3,694.00 − $3,153.00) ÷ (169 − 156) = $41.62 per additional instruction hour.",
+    "numericAnswer": {
+      "value": 41.62,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-01",
+    "kind": "calculation",
+    "term": "$21.00",
+    "definition": "A college training course charges a one-time $840.00 enrollment fee plus $9.00 per instruction hour. You take 70 hours. Excluding books and other costs, what is average total course cost per instruction hour?",
+    "distractors": [
+      "$9.00",
+      "$12.00",
+      "$849.00"
+    ],
+    "explanation": "Total tuition is $840.00 + $9.00 × 70. Divide by 70 hours: fixed fee per hour plus hourly charge = $21.00.",
+    "numericAnswer": {
+      "value": 21,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-02",
+    "kind": "calculation",
+    "term": "$22.26",
+    "definition": "A college training course charges a one-time $895.00 enrollment fee plus $10.00 per instruction hour. You take 73 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$10.00",
+      "$12.26",
+      "$905.00"
+    ],
+    "explanation": "Total tuition is $895.00 + $10.00 × 73. Divide by 73 hours: fixed fee per hour plus hourly charge = $22.26.",
+    "numericAnswer": {
+      "value": 22.26,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-03",
+    "kind": "calculation",
+    "term": "$23.50",
+    "definition": "A college training course charges a one-time $950.00 enrollment fee plus $11.00 per instruction hour. You take 76 hours. Excluding books and other costs, what is average total course cost per instruction hour?",
+    "distractors": [
+      "$11.00",
+      "$12.50",
+      "$961.00"
+    ],
+    "explanation": "Total tuition is $950.00 + $11.00 × 76. Divide by 76 hours: fixed fee per hour plus hourly charge = $23.50.",
+    "numericAnswer": {
+      "value": 23.5,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-04",
+    "kind": "calculation",
+    "term": "$24.72",
+    "definition": "A college training course charges a one-time $1,005.00 enrollment fee plus $12.00 per instruction hour. You take 79 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$12.00",
+      "$12.72",
+      "$1,017.00"
+    ],
+    "explanation": "Total tuition is $1,005.00 + $12.00 × 79. Divide by 79 hours: fixed fee per hour plus hourly charge = $24.72.",
+    "numericAnswer": {
+      "value": 24.72,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-05",
+    "kind": "calculation",
+    "term": "$25.93",
+    "definition": "A college training course charges a one-time $1,060.00 enrollment fee plus $13.00 per instruction hour. You take 82 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$13.00",
+      "$12.93",
+      "$1,073.00"
+    ],
+    "explanation": "Total tuition is $1,060.00 + $13.00 × 82. Divide by 82 hours: fixed fee per hour plus hourly charge = $25.93.",
+    "numericAnswer": {
+      "value": 25.93,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-06",
+    "kind": "calculation",
+    "term": "$27.12",
+    "definition": "A college training course charges a one-time $1,115.00 enrollment fee plus $14.00 per instruction hour. You take 85 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$14.00",
+      "$13.12",
+      "$1,129.00"
+    ],
+    "explanation": "Total tuition is $1,115.00 + $14.00 × 85. Divide by 85 hours: fixed fee per hour plus hourly charge = $27.12.",
+    "numericAnswer": {
+      "value": 27.12,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-07",
+    "kind": "calculation",
+    "term": "$22.30",
+    "definition": "A college training course charges a one-time $1,170.00 enrollment fee plus $9.00 per instruction hour. You take 88 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$9.00",
+      "$13.30",
+      "$1,179.00"
+    ],
+    "explanation": "Total tuition is $1,170.00 + $9.00 × 88. Divide by 88 hours: fixed fee per hour plus hourly charge = $22.30.",
+    "numericAnswer": {
+      "value": 22.3,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-08",
+    "kind": "calculation",
+    "term": "$23.46",
+    "definition": "A college training course charges a one-time $1,225.00 enrollment fee plus $10.00 per instruction hour. You take 91 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$10.00",
+      "$13.46",
+      "$1,235.00"
+    ],
+    "explanation": "Total tuition is $1,225.00 + $10.00 × 91. Divide by 91 hours: fixed fee per hour plus hourly charge = $23.46.",
+    "numericAnswer": {
+      "value": 23.46,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-09",
+    "kind": "calculation",
+    "term": "$24.62",
+    "definition": "A college training course charges a one-time $1,280.00 enrollment fee plus $11.00 per instruction hour. You take 94 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$11.00",
+      "$13.62",
+      "$1,291.00"
+    ],
+    "explanation": "Total tuition is $1,280.00 + $11.00 × 94. Divide by 94 hours: fixed fee per hour plus hourly charge = $24.62.",
+    "numericAnswer": {
+      "value": 24.62,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-10",
+    "kind": "calculation",
+    "term": "$25.76",
+    "definition": "A college training course charges a one-time $1,335.00 enrollment fee plus $12.00 per instruction hour. You take 97 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$12.00",
+      "$13.76",
+      "$1,347.00"
+    ],
+    "explanation": "Total tuition is $1,335.00 + $12.00 × 97. Divide by 97 hours: fixed fee per hour plus hourly charge = $25.76.",
+    "numericAnswer": {
+      "value": 25.76,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-11",
+    "kind": "calculation",
+    "term": "$26.90",
+    "definition": "A college training course charges a one-time $1,390.00 enrollment fee plus $13.00 per instruction hour. You take 100 hours. Excluding books and other costs, what is average total course cost per instruction hour?",
+    "distractors": [
+      "$13.00",
+      "$13.90",
+      "$1,403.00"
+    ],
+    "explanation": "Total tuition is $1,390.00 + $13.00 × 100. Divide by 100 hours: fixed fee per hour plus hourly charge = $26.90.",
+    "numericAnswer": {
+      "value": 26.9,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-12",
+    "kind": "calculation",
+    "term": "$28.03",
+    "definition": "A college training course charges a one-time $1,445.00 enrollment fee plus $14.00 per instruction hour. You take 103 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$14.00",
+      "$14.03",
+      "$1,459.00"
+    ],
+    "explanation": "Total tuition is $1,445.00 + $14.00 × 103. Divide by 103 hours: fixed fee per hour plus hourly charge = $28.03.",
+    "numericAnswer": {
+      "value": 28.03,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-13",
+    "kind": "calculation",
+    "term": "$23.15",
+    "definition": "A college training course charges a one-time $1,500.00 enrollment fee plus $9.00 per instruction hour. You take 106 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$9.00",
+      "$14.15",
+      "$1,509.00"
+    ],
+    "explanation": "Total tuition is $1,500.00 + $9.00 × 106. Divide by 106 hours: fixed fee per hour plus hourly charge = $23.15.",
+    "numericAnswer": {
+      "value": 23.15,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-14",
+    "kind": "calculation",
+    "term": "$24.27",
+    "definition": "A college training course charges a one-time $1,555.00 enrollment fee plus $10.00 per instruction hour. You take 109 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$10.00",
+      "$14.27",
+      "$1,565.00"
+    ],
+    "explanation": "Total tuition is $1,555.00 + $10.00 × 109. Divide by 109 hours: fixed fee per hour plus hourly charge = $24.27.",
+    "numericAnswer": {
+      "value": 24.27,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-15",
+    "kind": "calculation",
+    "term": "$25.38",
+    "definition": "A college training course charges a one-time $1,610.00 enrollment fee plus $11.00 per instruction hour. You take 112 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$11.00",
+      "$14.38",
+      "$1,621.00"
+    ],
+    "explanation": "Total tuition is $1,610.00 + $11.00 × 112. Divide by 112 hours: fixed fee per hour plus hourly charge = $25.38.",
+    "numericAnswer": {
+      "value": 25.38,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-16",
+    "kind": "calculation",
+    "term": "$26.48",
+    "definition": "A college training course charges a one-time $1,665.00 enrollment fee plus $12.00 per instruction hour. You take 115 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$12.00",
+      "$14.48",
+      "$1,677.00"
+    ],
+    "explanation": "Total tuition is $1,665.00 + $12.00 × 115. Divide by 115 hours: fixed fee per hour plus hourly charge = $26.48.",
+    "numericAnswer": {
+      "value": 26.48,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-17",
+    "kind": "calculation",
+    "term": "$27.58",
+    "definition": "A college training course charges a one-time $1,720.00 enrollment fee plus $13.00 per instruction hour. You take 118 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$13.00",
+      "$14.58",
+      "$1,733.00"
+    ],
+    "explanation": "Total tuition is $1,720.00 + $13.00 × 118. Divide by 118 hours: fixed fee per hour plus hourly charge = $27.58.",
+    "numericAnswer": {
+      "value": 27.58,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-18",
+    "kind": "calculation",
+    "term": "$28.67",
+    "definition": "A college training course charges a one-time $1,775.00 enrollment fee plus $14.00 per instruction hour. You take 121 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$14.00",
+      "$14.67",
+      "$1,789.00"
+    ],
+    "explanation": "Total tuition is $1,775.00 + $14.00 × 121. Divide by 121 hours: fixed fee per hour plus hourly charge = $28.67.",
+    "numericAnswer": {
+      "value": 28.67,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-19",
+    "kind": "calculation",
+    "term": "$23.76",
+    "definition": "A college training course charges a one-time $1,830.00 enrollment fee plus $9.00 per instruction hour. You take 124 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$9.00",
+      "$14.76",
+      "$1,839.00"
+    ],
+    "explanation": "Total tuition is $1,830.00 + $9.00 × 124. Divide by 124 hours: fixed fee per hour plus hourly charge = $23.76.",
+    "numericAnswer": {
+      "value": 23.76,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-average-total-cost-20",
+    "kind": "calculation",
+    "term": "$24.84",
+    "definition": "A college training course charges a one-time $1,885.00 enrollment fee plus $10.00 per instruction hour. You take 127 hours. Excluding books and other costs, what is average total course cost per instruction hour? Round to the nearest cent.",
+    "distractors": [
+      "$10.00",
+      "$14.84",
+      "$1,895.00"
+    ],
+    "explanation": "Total tuition is $1,885.00 + $10.00 × 127. Divide by 127 hours: fixed fee per hour plus hourly charge = $24.84.",
+    "numericAnswer": {
+      "value": 24.84,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-01",
+    "kind": "calculation",
+    "term": "$720.00",
+    "definition": "Across a 120-hour training program, average total tuition is $20.00 per hour. The variable instruction charge is $14.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$6.00",
+      "$2,400.00",
+      "$1,680.00"
+    ],
+    "explanation": "Average fixed charge = $20.00 − $14.00 = $6.00 per hour. Multiply by 120 hours to recover the one-time fee: $720.00.",
+    "numericAnswer": {
+      "value": 720,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-02",
+    "kind": "calculation",
+    "term": "$889.00",
+    "definition": "Across a 127-hour training program, average total tuition is $22.00 per hour. The variable instruction charge is $15.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$7.00",
+      "$2,794.00",
+      "$1,905.00"
+    ],
+    "explanation": "Average fixed charge = $22.00 − $15.00 = $7.00 per hour. Multiply by 127 hours to recover the one-time fee: $889.00.",
+    "numericAnswer": {
+      "value": 889,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-03",
+    "kind": "calculation",
+    "term": "$1,072.00",
+    "definition": "Across a 134-hour training program, average total tuition is $24.00 per hour. The variable instruction charge is $16.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$8.00",
+      "$3,216.00",
+      "$2,144.00"
+    ],
+    "explanation": "Average fixed charge = $24.00 − $16.00 = $8.00 per hour. Multiply by 134 hours to recover the one-time fee: $1,072.00.",
+    "numericAnswer": {
+      "value": 1072,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-04",
+    "kind": "calculation",
+    "term": "$1,269.00",
+    "definition": "Across a 141-hour training program, average total tuition is $26.00 per hour. The variable instruction charge is $17.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$9.00",
+      "$3,666.00",
+      "$2,397.00"
+    ],
+    "explanation": "Average fixed charge = $26.00 − $17.00 = $9.00 per hour. Multiply by 141 hours to recover the one-time fee: $1,269.00.",
+    "numericAnswer": {
+      "value": 1269,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-05",
+    "kind": "calculation",
+    "term": "$888.00",
+    "definition": "Across a 148-hour training program, average total tuition is $24.00 per hour. The variable instruction charge is $18.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$6.00",
+      "$3,552.00",
+      "$2,664.00"
+    ],
+    "explanation": "Average fixed charge = $24.00 − $18.00 = $6.00 per hour. Multiply by 148 hours to recover the one-time fee: $888.00.",
+    "numericAnswer": {
+      "value": 888,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-06",
+    "kind": "calculation",
+    "term": "$1,085.00",
+    "definition": "Across a 155-hour training program, average total tuition is $21.00 per hour. The variable instruction charge is $14.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$7.00",
+      "$3,255.00",
+      "$2,170.00"
+    ],
+    "explanation": "Average fixed charge = $21.00 − $14.00 = $7.00 per hour. Multiply by 155 hours to recover the one-time fee: $1,085.00.",
+    "numericAnswer": {
+      "value": 1085,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-07",
+    "kind": "calculation",
+    "term": "$1,296.00",
+    "definition": "Across a 162-hour training program, average total tuition is $23.00 per hour. The variable instruction charge is $15.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$8.00",
+      "$3,726.00",
+      "$2,430.00"
+    ],
+    "explanation": "Average fixed charge = $23.00 − $15.00 = $8.00 per hour. Multiply by 162 hours to recover the one-time fee: $1,296.00.",
+    "numericAnswer": {
+      "value": 1296,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-08",
+    "kind": "calculation",
+    "term": "$1,521.00",
+    "definition": "Across a 169-hour training program, average total tuition is $25.00 per hour. The variable instruction charge is $16.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$9.00",
+      "$4,225.00",
+      "$2,704.00"
+    ],
+    "explanation": "Average fixed charge = $25.00 − $16.00 = $9.00 per hour. Multiply by 169 hours to recover the one-time fee: $1,521.00.",
+    "numericAnswer": {
+      "value": 1521,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-09",
+    "kind": "calculation",
+    "term": "$1,056.00",
+    "definition": "Across a 176-hour training program, average total tuition is $23.00 per hour. The variable instruction charge is $17.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$6.00",
+      "$4,048.00",
+      "$2,992.00"
+    ],
+    "explanation": "Average fixed charge = $23.00 − $17.00 = $6.00 per hour. Multiply by 176 hours to recover the one-time fee: $1,056.00.",
+    "numericAnswer": {
+      "value": 1056,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-10",
+    "kind": "calculation",
+    "term": "$1,281.00",
+    "definition": "Across a 183-hour training program, average total tuition is $25.00 per hour. The variable instruction charge is $18.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$7.00",
+      "$4,575.00",
+      "$3,294.00"
+    ],
+    "explanation": "Average fixed charge = $25.00 − $18.00 = $7.00 per hour. Multiply by 183 hours to recover the one-time fee: $1,281.00.",
+    "numericAnswer": {
+      "value": 1281,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-11",
+    "kind": "calculation",
+    "term": "$1,520.00",
+    "definition": "Across a 190-hour training program, average total tuition is $22.00 per hour. The variable instruction charge is $14.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$8.00",
+      "$4,180.00",
+      "$2,660.00"
+    ],
+    "explanation": "Average fixed charge = $22.00 − $14.00 = $8.00 per hour. Multiply by 190 hours to recover the one-time fee: $1,520.00.",
+    "numericAnswer": {
+      "value": 1520,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-12",
+    "kind": "calculation",
+    "term": "$1,773.00",
+    "definition": "Across a 197-hour training program, average total tuition is $24.00 per hour. The variable instruction charge is $15.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$9.00",
+      "$4,728.00",
+      "$2,955.00"
+    ],
+    "explanation": "Average fixed charge = $24.00 − $15.00 = $9.00 per hour. Multiply by 197 hours to recover the one-time fee: $1,773.00.",
+    "numericAnswer": {
+      "value": 1773,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-13",
+    "kind": "calculation",
+    "term": "$1,224.00",
+    "definition": "Across a 204-hour training program, average total tuition is $22.00 per hour. The variable instruction charge is $16.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$6.00",
+      "$4,488.00",
+      "$3,264.00"
+    ],
+    "explanation": "Average fixed charge = $22.00 − $16.00 = $6.00 per hour. Multiply by 204 hours to recover the one-time fee: $1,224.00.",
+    "numericAnswer": {
+      "value": 1224,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-14",
+    "kind": "calculation",
+    "term": "$1,477.00",
+    "definition": "Across a 211-hour training program, average total tuition is $24.00 per hour. The variable instruction charge is $17.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$7.00",
+      "$5,064.00",
+      "$3,587.00"
+    ],
+    "explanation": "Average fixed charge = $24.00 − $17.00 = $7.00 per hour. Multiply by 211 hours to recover the one-time fee: $1,477.00.",
+    "numericAnswer": {
+      "value": 1477,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-15",
+    "kind": "calculation",
+    "term": "$1,744.00",
+    "definition": "Across a 218-hour training program, average total tuition is $26.00 per hour. The variable instruction charge is $18.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$8.00",
+      "$5,668.00",
+      "$3,924.00"
+    ],
+    "explanation": "Average fixed charge = $26.00 − $18.00 = $8.00 per hour. Multiply by 218 hours to recover the one-time fee: $1,744.00.",
+    "numericAnswer": {
+      "value": 1744,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-16",
+    "kind": "calculation",
+    "term": "$2,025.00",
+    "definition": "Across a 225-hour training program, average total tuition is $23.00 per hour. The variable instruction charge is $14.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$9.00",
+      "$5,175.00",
+      "$3,150.00"
+    ],
+    "explanation": "Average fixed charge = $23.00 − $14.00 = $9.00 per hour. Multiply by 225 hours to recover the one-time fee: $2,025.00.",
+    "numericAnswer": {
+      "value": 2025,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-17",
+    "kind": "calculation",
+    "term": "$1,392.00",
+    "definition": "Across a 232-hour training program, average total tuition is $21.00 per hour. The variable instruction charge is $15.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$6.00",
+      "$4,872.00",
+      "$3,480.00"
+    ],
+    "explanation": "Average fixed charge = $21.00 − $15.00 = $6.00 per hour. Multiply by 232 hours to recover the one-time fee: $1,392.00.",
+    "numericAnswer": {
+      "value": 1392,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-18",
+    "kind": "calculation",
+    "term": "$1,673.00",
+    "definition": "Across a 239-hour training program, average total tuition is $23.00 per hour. The variable instruction charge is $16.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$7.00",
+      "$5,497.00",
+      "$3,824.00"
+    ],
+    "explanation": "Average fixed charge = $23.00 − $16.00 = $7.00 per hour. Multiply by 239 hours to recover the one-time fee: $1,673.00.",
+    "numericAnswer": {
+      "value": 1673,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-19",
+    "kind": "calculation",
+    "term": "$1,968.00",
+    "definition": "Across a 246-hour training program, average total tuition is $25.00 per hour. The variable instruction charge is $17.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$8.00",
+      "$6,150.00",
+      "$4,182.00"
+    ],
+    "explanation": "Average fixed charge = $25.00 − $17.00 = $8.00 per hour. Multiply by 246 hours to recover the one-time fee: $1,968.00.",
+    "numericAnswer": {
+      "value": 1968,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-recover-fixed-cost-20",
+    "kind": "calculation",
+    "term": "$2,277.00",
+    "definition": "Across a 253-hour training program, average total tuition is $27.00 per hour. The variable instruction charge is $18.00 per hour; all remaining tuition is a one-time enrollment fee. What is that fixed fee?",
+    "distractors": [
+      "$9.00",
+      "$6,831.00",
+      "$4,554.00"
+    ],
+    "explanation": "Average fixed charge = $27.00 − $18.00 = $9.00 per hour. Multiply by 253 hours to recover the one-time fee: $2,277.00.",
+    "numericAnswer": {
+      "value": 2277,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-01",
+    "kind": "calculation",
+    "term": "$1,600.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 65 − 0.5Q dollars. Tutoring costs $25.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$3,200.00",
+      "$2,000.00",
+      "$2,600.00"
+    ],
+    "explanation": "Chosen hours = (65 − 25)/0.5. Surplus is the triangle between willingness to pay and price: ½ × (65 − 25) × [(65 − 25)/0.5] = $1,600.00.",
+    "numericAnswer": {
+      "value": 1600,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-02",
+    "kind": "calculation",
+    "term": "$1,470.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 68 − 0.6Q dollars. Tutoring costs $26.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$2,940.00",
+      "$1,820.00",
+      "$2,380.00"
+    ],
+    "explanation": "Chosen hours = (68 − 26)/0.6. Surplus is the triangle between willingness to pay and price: ½ × (68 − 26) × [(68 − 26)/0.6] = $1,470.00.",
+    "numericAnswer": {
+      "value": 1470,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-03",
+    "kind": "calculation",
+    "term": "$1,382.86",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 71 − 0.7Q dollars. Tutoring costs $27.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)? Round to the nearest cent.",
+    "distractors": [
+      "$2,765.71",
+      "$1,697.14",
+      "$2,231.43"
+    ],
+    "explanation": "Chosen hours = (71 − 27)/0.7. Surplus is the triangle between willingness to pay and price: ½ × (71 − 27) × [(71 − 27)/0.7] = $1,382.86.",
+    "numericAnswer": {
+      "value": 1382.86,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-04",
+    "kind": "calculation",
+    "term": "$2,116.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 74 − 0.5Q dollars. Tutoring costs $28.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$4,232.00",
+      "$2,576.00",
+      "$3,404.00"
+    ],
+    "explanation": "Chosen hours = (74 − 28)/0.5. Surplus is the triangle between willingness to pay and price: ½ × (74 − 28) × [(74 − 28)/0.5] = $2,116.00.",
+    "numericAnswer": {
+      "value": 2116,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-05",
+    "kind": "calculation",
+    "term": "$1,920.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 77 − 0.6Q dollars. Tutoring costs $29.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$3,840.00",
+      "$2,320.00",
+      "$3,080.00"
+    ],
+    "explanation": "Chosen hours = (77 − 29)/0.6. Surplus is the triangle between willingness to pay and price: ½ × (77 − 29) × [(77 − 29)/0.6] = $1,920.00.",
+    "numericAnswer": {
+      "value": 1920,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-06",
+    "kind": "calculation",
+    "term": "$1,785.71",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 80 − 0.7Q dollars. Tutoring costs $30.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)? Round to the nearest cent.",
+    "distractors": [
+      "$3,571.43",
+      "$2,142.86",
+      "$2,857.14"
+    ],
+    "explanation": "Chosen hours = (80 − 30)/0.7. Surplus is the triangle between willingness to pay and price: ½ × (80 − 30) × [(80 − 30)/0.7] = $1,785.71.",
+    "numericAnswer": {
+      "value": 1785.71,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-07",
+    "kind": "calculation",
+    "term": "$2,704.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 83 − 0.5Q dollars. Tutoring costs $31.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$5,408.00",
+      "$3,224.00",
+      "$4,316.00"
+    ],
+    "explanation": "Chosen hours = (83 − 31)/0.5. Surplus is the triangle between willingness to pay and price: ½ × (83 − 31) × [(83 − 31)/0.5] = $2,704.00.",
+    "numericAnswer": {
+      "value": 2704,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-08",
+    "kind": "calculation",
+    "term": "$2,430.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 86 − 0.6Q dollars. Tutoring costs $32.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$4,860.00",
+      "$2,880.00",
+      "$3,870.00"
+    ],
+    "explanation": "Chosen hours = (86 − 32)/0.6. Surplus is the triangle between willingness to pay and price: ½ × (86 − 32) × [(86 − 32)/0.6] = $2,430.00.",
+    "numericAnswer": {
+      "value": 2430,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-09",
+    "kind": "calculation",
+    "term": "$2,240.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 89 − 0.7Q dollars. Tutoring costs $33.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$4,480.00",
+      "$2,640.00",
+      "$3,560.00"
+    ],
+    "explanation": "Chosen hours = (89 − 33)/0.7. Surplus is the triangle between willingness to pay and price: ½ × (89 − 33) × [(89 − 33)/0.7] = $2,240.00.",
+    "numericAnswer": {
+      "value": 2240,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-10",
+    "kind": "calculation",
+    "term": "$3,364.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 92 − 0.5Q dollars. Tutoring costs $34.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$6,728.00",
+      "$3,944.00",
+      "$5,336.00"
+    ],
+    "explanation": "Chosen hours = (92 − 34)/0.5. Surplus is the triangle between willingness to pay and price: ½ × (92 − 34) × [(92 − 34)/0.5] = $3,364.00.",
+    "numericAnswer": {
+      "value": 3364,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-11",
+    "kind": "calculation",
+    "term": "$3,000.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 95 − 0.6Q dollars. Tutoring costs $35.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$6,000.00",
+      "$3,500.00",
+      "$4,750.00"
+    ],
+    "explanation": "Chosen hours = (95 − 35)/0.6. Surplus is the triangle between willingness to pay and price: ½ × (95 − 35) × [(95 − 35)/0.6] = $3,000.00.",
+    "numericAnswer": {
+      "value": 3000,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-12",
+    "kind": "calculation",
+    "term": "$2,745.71",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 98 − 0.7Q dollars. Tutoring costs $36.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)? Round to the nearest cent.",
+    "distractors": [
+      "$5,491.43",
+      "$3,188.57",
+      "$4,340.00"
+    ],
+    "explanation": "Chosen hours = (98 − 36)/0.7. Surplus is the triangle between willingness to pay and price: ½ × (98 − 36) × [(98 − 36)/0.7] = $2,745.71.",
+    "numericAnswer": {
+      "value": 2745.71,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-13",
+    "kind": "calculation",
+    "term": "$4,096.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 101 − 0.5Q dollars. Tutoring costs $37.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$8,192.00",
+      "$4,736.00",
+      "$6,464.00"
+    ],
+    "explanation": "Chosen hours = (101 − 37)/0.5. Surplus is the triangle between willingness to pay and price: ½ × (101 − 37) × [(101 − 37)/0.5] = $4,096.00.",
+    "numericAnswer": {
+      "value": 4096,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-14",
+    "kind": "calculation",
+    "term": "$3,630.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 104 − 0.6Q dollars. Tutoring costs $38.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$7,260.00",
+      "$4,180.00",
+      "$5,720.00"
+    ],
+    "explanation": "Chosen hours = (104 − 38)/0.6. Surplus is the triangle between willingness to pay and price: ½ × (104 − 38) × [(104 − 38)/0.6] = $3,630.00.",
+    "numericAnswer": {
+      "value": 3630,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-15",
+    "kind": "calculation",
+    "term": "$3,302.86",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 107 − 0.7Q dollars. Tutoring costs $39.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)? Round to the nearest cent.",
+    "distractors": [
+      "$6,605.71",
+      "$3,788.57",
+      "$5,197.14"
+    ],
+    "explanation": "Chosen hours = (107 − 39)/0.7. Surplus is the triangle between willingness to pay and price: ½ × (107 − 39) × [(107 − 39)/0.7] = $3,302.86.",
+    "numericAnswer": {
+      "value": 3302.86,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-16",
+    "kind": "calculation",
+    "term": "$4,900.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 110 − 0.5Q dollars. Tutoring costs $40.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$9,800.00",
+      "$5,600.00",
+      "$7,700.00"
+    ],
+    "explanation": "Chosen hours = (110 − 40)/0.5. Surplus is the triangle between willingness to pay and price: ½ × (110 − 40) × [(110 − 40)/0.5] = $4,900.00.",
+    "numericAnswer": {
+      "value": 4900,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-17",
+    "kind": "calculation",
+    "term": "$4,320.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 113 − 0.6Q dollars. Tutoring costs $41.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$8,640.00",
+      "$4,920.00",
+      "$6,780.00"
+    ],
+    "explanation": "Chosen hours = (113 − 41)/0.6. Surplus is the triangle between willingness to pay and price: ½ × (113 − 41) × [(113 − 41)/0.6] = $4,320.00.",
+    "numericAnswer": {
+      "value": 4320,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-18",
+    "kind": "calculation",
+    "term": "$3,911.43",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 116 − 0.7Q dollars. Tutoring costs $42.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)? Round to the nearest cent.",
+    "distractors": [
+      "$7,822.86",
+      "$4,440.00",
+      "$6,131.43"
+    ],
+    "explanation": "Chosen hours = (116 − 42)/0.7. Surplus is the triangle between willingness to pay and price: ½ × (116 − 42) × [(116 − 42)/0.7] = $3,911.43.",
+    "numericAnswer": {
+      "value": 3911.43,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-19",
+    "kind": "calculation",
+    "term": "$5,776.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 119 − 0.5Q dollars. Tutoring costs $43.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$11,552.00",
+      "$6,536.00",
+      "$9,044.00"
+    ],
+    "explanation": "Chosen hours = (119 − 43)/0.5. Surplus is the triangle between willingness to pay and price: ½ × (119 − 43) × [(119 − 43)/0.5] = $5,776.00.",
+    "numericAnswer": {
+      "value": 5776,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-consumer-surplus-20",
+    "kind": "calculation",
+    "term": "$5,070.00",
+    "definition": "For a hypothetical college tutoring decision, your marginal willingness to pay for hour Q is 122 − 0.6Q dollars. Tutoring costs $44.00 per hour, and fractional hours are allowed. If you buy until marginal benefit equals price, what is total willingness to pay above the amount paid (consumer surplus)?",
+    "distractors": [
+      "$10,140.00",
+      "$5,720.00",
+      "$7,930.00"
+    ],
+    "explanation": "Chosen hours = (122 − 44)/0.6. Surplus is the triangle between willingness to pay and price: ½ × (122 − 44) × [(122 − 44)/0.6] = $5,070.00.",
+    "numericAnswer": {
+      "value": 5070,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-01",
+    "kind": "calculation",
+    "term": "$690.00",
+    "definition": "Across a degree program, 30 lab credits carry a $48.00 materials fee per credit and 55 other credits carry a $25.00 fee. How much more are total materials fees than if every credit carried only the $25.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$2,815.00",
+      "$2,125.00",
+      "$1,955.00"
+    ],
+    "explanation": "Only the 30 lab credits create an extra fee: 30 × ($48.00 − $25.00) = $690.00.",
+    "numericAnswer": {
+      "value": 690,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-02",
+    "kind": "calculation",
+    "term": "$713.00",
+    "definition": "Across a degree program, 31 lab credits carry a $49.00 materials fee per credit and 57 other credits carry a $26.00 fee. How much more are total materials fees than if every credit carried only the $26.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$3,001.00",
+      "$2,288.00",
+      "$2,024.00"
+    ],
+    "explanation": "Only the 31 lab credits create an extra fee: 31 × ($49.00 − $26.00) = $713.00.",
+    "numericAnswer": {
+      "value": 713,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-03",
+    "kind": "calculation",
+    "term": "$736.00",
+    "definition": "Across a degree program, 32 lab credits carry a $50.00 materials fee per credit and 59 other credits carry a $27.00 fee. How much more are total materials fees than if every credit carried only the $27.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$3,193.00",
+      "$2,457.00",
+      "$2,093.00"
+    ],
+    "explanation": "Only the 32 lab credits create an extra fee: 32 × ($50.00 − $27.00) = $736.00.",
+    "numericAnswer": {
+      "value": 736,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-04",
+    "kind": "calculation",
+    "term": "$759.00",
+    "definition": "Across a degree program, 33 lab credits carry a $51.00 materials fee per credit and 61 other credits carry a $28.00 fee. How much more are total materials fees than if every credit carried only the $28.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$3,391.00",
+      "$2,632.00",
+      "$2,162.00"
+    ],
+    "explanation": "Only the 33 lab credits create an extra fee: 33 × ($51.00 − $28.00) = $759.00.",
+    "numericAnswer": {
+      "value": 759,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-05",
+    "kind": "calculation",
+    "term": "$782.00",
+    "definition": "Across a degree program, 34 lab credits carry a $52.00 materials fee per credit and 63 other credits carry a $29.00 fee. How much more are total materials fees than if every credit carried only the $29.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$3,595.00",
+      "$2,813.00",
+      "$2,231.00"
+    ],
+    "explanation": "Only the 34 lab credits create an extra fee: 34 × ($52.00 − $29.00) = $782.00.",
+    "numericAnswer": {
+      "value": 782,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-06",
+    "kind": "calculation",
+    "term": "$980.00",
+    "definition": "Across a degree program, 35 lab credits carry a $53.00 materials fee per credit and 65 other credits carry a $25.00 fee. How much more are total materials fees than if every credit carried only the $25.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$3,480.00",
+      "$2,500.00",
+      "$2,800.00"
+    ],
+    "explanation": "Only the 35 lab credits create an extra fee: 35 × ($53.00 − $25.00) = $980.00.",
+    "numericAnswer": {
+      "value": 980,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-07",
+    "kind": "calculation",
+    "term": "$1,008.00",
+    "definition": "Across a degree program, 36 lab credits carry a $54.00 materials fee per credit and 67 other credits carry a $26.00 fee. How much more are total materials fees than if every credit carried only the $26.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$3,686.00",
+      "$2,678.00",
+      "$2,884.00"
+    ],
+    "explanation": "Only the 36 lab credits create an extra fee: 36 × ($54.00 − $26.00) = $1,008.00.",
+    "numericAnswer": {
+      "value": 1008,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-08",
+    "kind": "calculation",
+    "term": "$1,036.00",
+    "definition": "Across a degree program, 37 lab credits carry a $55.00 materials fee per credit and 69 other credits carry a $27.00 fee. How much more are total materials fees than if every credit carried only the $27.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$3,898.00",
+      "$2,862.00",
+      "$2,968.00"
+    ],
+    "explanation": "Only the 37 lab credits create an extra fee: 37 × ($55.00 − $27.00) = $1,036.00.",
+    "numericAnswer": {
+      "value": 1036,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-09",
+    "kind": "calculation",
+    "term": "$1,064.00",
+    "definition": "Across a degree program, 38 lab credits carry a $56.00 materials fee per credit and 71 other credits carry a $28.00 fee. How much more are total materials fees than if every credit carried only the $28.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$4,116.00",
+      "$3,052.00",
+      "$1,988.00"
+    ],
+    "explanation": "Only the 38 lab credits create an extra fee: 38 × ($56.00 − $28.00) = $1,064.00.",
+    "numericAnswer": {
+      "value": 1064,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-10",
+    "kind": "calculation",
+    "term": "$1,092.00",
+    "definition": "Across a degree program, 39 lab credits carry a $57.00 materials fee per credit and 73 other credits carry a $29.00 fee. How much more are total materials fees than if every credit carried only the $29.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$4,340.00",
+      "$3,248.00",
+      "$3,136.00"
+    ],
+    "explanation": "Only the 39 lab credits create an extra fee: 39 × ($57.00 − $29.00) = $1,092.00.",
+    "numericAnswer": {
+      "value": 1092,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-11",
+    "kind": "calculation",
+    "term": "$1,320.00",
+    "definition": "Across a degree program, 40 lab credits carry a $58.00 materials fee per credit and 75 other credits carry a $25.00 fee. How much more are total materials fees than if every credit carried only the $25.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$4,195.00",
+      "$2,875.00",
+      "$3,795.00"
+    ],
+    "explanation": "Only the 40 lab credits create an extra fee: 40 × ($58.00 − $25.00) = $1,320.00.",
+    "numericAnswer": {
+      "value": 1320,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-12",
+    "kind": "calculation",
+    "term": "$1,353.00",
+    "definition": "Across a degree program, 41 lab credits carry a $59.00 materials fee per credit and 77 other credits carry a $26.00 fee. How much more are total materials fees than if every credit carried only the $26.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$4,421.00",
+      "$3,068.00",
+      "$3,894.00"
+    ],
+    "explanation": "Only the 41 lab credits create an extra fee: 41 × ($59.00 − $26.00) = $1,353.00.",
+    "numericAnswer": {
+      "value": 1353,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-13",
+    "kind": "calculation",
+    "term": "$1,386.00",
+    "definition": "Across a degree program, 42 lab credits carry a $60.00 materials fee per credit and 79 other credits carry a $27.00 fee. How much more are total materials fees than if every credit carried only the $27.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$4,653.00",
+      "$3,267.00",
+      "$3,993.00"
+    ],
+    "explanation": "Only the 42 lab credits create an extra fee: 42 × ($60.00 − $27.00) = $1,386.00.",
+    "numericAnswer": {
+      "value": 1386,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-14",
+    "kind": "calculation",
+    "term": "$1,419.00",
+    "definition": "Across a degree program, 43 lab credits carry a $61.00 materials fee per credit and 81 other credits carry a $28.00 fee. How much more are total materials fees than if every credit carried only the $28.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$4,891.00",
+      "$3,472.00",
+      "$4,092.00"
+    ],
+    "explanation": "Only the 43 lab credits create an extra fee: 43 × ($61.00 − $28.00) = $1,419.00.",
+    "numericAnswer": {
+      "value": 1419,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-15",
+    "kind": "calculation",
+    "term": "$1,452.00",
+    "definition": "Across a degree program, 44 lab credits carry a $62.00 materials fee per credit and 83 other credits carry a $29.00 fee. How much more are total materials fees than if every credit carried only the $29.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$5,135.00",
+      "$3,683.00",
+      "$4,191.00"
+    ],
+    "explanation": "Only the 44 lab credits create an extra fee: 44 × ($62.00 − $29.00) = $1,452.00.",
+    "numericAnswer": {
+      "value": 1452,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-16",
+    "kind": "calculation",
+    "term": "$1,710.00",
+    "definition": "Across a degree program, 45 lab credits carry a $63.00 materials fee per credit and 85 other credits carry a $25.00 fee. How much more are total materials fees than if every credit carried only the $25.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$4,960.00",
+      "$3,250.00",
+      "$4,940.00"
+    ],
+    "explanation": "Only the 45 lab credits create an extra fee: 45 × ($63.00 − $25.00) = $1,710.00.",
+    "numericAnswer": {
+      "value": 1710,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-17",
+    "kind": "calculation",
+    "term": "$1,748.00",
+    "definition": "Across a degree program, 46 lab credits carry a $64.00 materials fee per credit and 87 other credits carry a $26.00 fee. How much more are total materials fees than if every credit carried only the $26.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$5,206.00",
+      "$3,458.00",
+      "$5,054.00"
+    ],
+    "explanation": "Only the 46 lab credits create an extra fee: 46 × ($64.00 − $26.00) = $1,748.00.",
+    "numericAnswer": {
+      "value": 1748,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-18",
+    "kind": "calculation",
+    "term": "$1,786.00",
+    "definition": "Across a degree program, 47 lab credits carry a $65.00 materials fee per credit and 89 other credits carry a $27.00 fee. How much more are total materials fees than if every credit carried only the $27.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$5,458.00",
+      "$3,672.00",
+      "$5,168.00"
+    ],
+    "explanation": "Only the 47 lab credits create an extra fee: 47 × ($65.00 − $27.00) = $1,786.00.",
+    "numericAnswer": {
+      "value": 1786,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-19",
+    "kind": "calculation",
+    "term": "$1,824.00",
+    "definition": "Across a degree program, 48 lab credits carry a $66.00 materials fee per credit and 91 other credits carry a $28.00 fee. How much more are total materials fees than if every credit carried only the $28.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$5,716.00",
+      "$3,892.00",
+      "$5,282.00"
+    ],
+    "explanation": "Only the 48 lab credits create an extra fee: 48 × ($66.00 − $28.00) = $1,824.00.",
+    "numericAnswer": {
+      "value": 1824,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-segmented-pricing-revenue-20",
+    "kind": "calculation",
+    "term": "$1,862.00",
+    "definition": "Across a degree program, 49 lab credits carry a $67.00 materials fee per credit and 93 other credits carry a $29.00 fee. How much more are total materials fees than if every credit carried only the $29.00 fee? Ignore tuition and other charges.",
+    "distractors": [
+      "$5,980.00",
+      "$4,118.00",
+      "$5,396.00"
+    ],
+    "explanation": "Only the 49 lab credits create an extra fee: 49 × ($67.00 − $29.00) = $1,862.00.",
+    "numericAnswer": {
+      "value": 1862,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-01",
+    "kind": "calculation",
+    "term": "$444.80",
+    "definition": "A training course includes exactly 111.20 lab hours. A separate mandatory lab charge is $4.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$464.00",
+      "$111.20",
+      "$1,040.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 111.20 × $4.00 = $444.80. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 444.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-02",
+    "kind": "calculation",
+    "term": "$577.00",
+    "definition": "A training course includes exactly 115.40 lab hours. A separate mandatory lab charge is $5.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$607.00",
+      "$115.40",
+      "$1,360.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 115.40 × $5.00 = $577.00. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 577,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-03",
+    "kind": "calculation",
+    "term": "$717.60",
+    "definition": "A training course includes exactly 119.60 lab hours. A separate mandatory lab charge is $6.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$760.80",
+      "$119.60",
+      "$1,704.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 119.60 × $6.00 = $717.60. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 717.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-04",
+    "kind": "calculation",
+    "term": "$866.60",
+    "definition": "A training course includes exactly 123.80 lab hours. A separate mandatory lab charge is $7.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$925.40",
+      "$123.80",
+      "$2,072.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 123.80 × $7.00 = $866.60. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 866.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-05",
+    "kind": "calculation",
+    "term": "$1,024.00",
+    "definition": "A training course includes exactly 128.00 lab hours. A separate mandatory lab charge is $8.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$1,100.80",
+      "$128.00",
+      "$2,464.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 128.00 × $8.00 = $1,024.00. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 1024,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-06",
+    "kind": "calculation",
+    "term": "$552.80",
+    "definition": "A training course includes exactly 138.20 lab hours. A separate mandatory lab charge is $4.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$572.00",
+      "$138.20",
+      "$1,280.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 138.20 × $4.00 = $552.80. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 552.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-07",
+    "kind": "calculation",
+    "term": "$712.00",
+    "definition": "A training course includes exactly 142.40 lab hours. A separate mandatory lab charge is $5.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$742.00",
+      "$142.40",
+      "$1,660.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 142.40 × $5.00 = $712.00. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 712,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-08",
+    "kind": "calculation",
+    "term": "$879.60",
+    "definition": "A training course includes exactly 146.60 lab hours. A separate mandatory lab charge is $6.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$922.80",
+      "$146.60",
+      "$2,064.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 146.60 × $6.00 = $879.60. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 879.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-09",
+    "kind": "calculation",
+    "term": "$1,055.60",
+    "definition": "A training course includes exactly 150.80 lab hours. A separate mandatory lab charge is $7.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$1,114.40",
+      "$150.80",
+      "$2,492.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 150.80 × $7.00 = $1,055.60. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 1055.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-10",
+    "kind": "calculation",
+    "term": "$1,240.00",
+    "definition": "A training course includes exactly 155.00 lab hours. A separate mandatory lab charge is $8.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$1,316.80",
+      "$155.00",
+      "$2,944.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 155.00 × $8.00 = $1,240.00. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 1240,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-11",
+    "kind": "calculation",
+    "term": "$660.80",
+    "definition": "A training course includes exactly 165.20 lab hours. A separate mandatory lab charge is $4.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$680.00",
+      "$165.20",
+      "$1,520.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 165.20 × $4.00 = $660.80. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 660.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-12",
+    "kind": "calculation",
+    "term": "$847.00",
+    "definition": "A training course includes exactly 169.40 lab hours. A separate mandatory lab charge is $5.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$877.00",
+      "$169.40",
+      "$1,960.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 169.40 × $5.00 = $847.00. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 847,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-13",
+    "kind": "calculation",
+    "term": "$1,041.60",
+    "definition": "A training course includes exactly 173.60 lab hours. A separate mandatory lab charge is $6.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$1,084.80",
+      "$173.60",
+      "$2,424.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 173.60 × $6.00 = $1,041.60. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 1041.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-14",
+    "kind": "calculation",
+    "term": "$1,244.60",
+    "definition": "A training course includes exactly 177.80 lab hours. A separate mandatory lab charge is $7.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$1,303.40",
+      "$177.80",
+      "$2,912.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 177.80 × $7.00 = $1,244.60. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 1244.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-15",
+    "kind": "calculation",
+    "term": "$1,456.00",
+    "definition": "A training course includes exactly 182.00 lab hours. A separate mandatory lab charge is $8.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$1,532.80",
+      "$182.00",
+      "$3,424.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 182.00 × $8.00 = $1,456.00. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 1456,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-16",
+    "kind": "calculation",
+    "term": "$768.80",
+    "definition": "A training course includes exactly 192.20 lab hours. A separate mandatory lab charge is $4.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$788.00",
+      "$192.20",
+      "$1,760.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 192.20 × $4.00 = $768.80. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 768.8,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-17",
+    "kind": "calculation",
+    "term": "$982.00",
+    "definition": "A training course includes exactly 196.40 lab hours. A separate mandatory lab charge is $5.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$1,012.00",
+      "$196.40",
+      "$2,260.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 196.40 × $5.00 = $982.00. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 982,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-18",
+    "kind": "calculation",
+    "term": "$1,203.60",
+    "definition": "A training course includes exactly 200.60 lab hours. A separate mandatory lab charge is $6.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$1,246.80",
+      "$200.60",
+      "$2,784.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 200.60 × $6.00 = $1,203.60. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 1203.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-19",
+    "kind": "calculation",
+    "term": "$1,433.60",
+    "definition": "A training course includes exactly 204.80 lab hours. A separate mandatory lab charge is $7.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$1,492.40",
+      "$204.80",
+      "$3,332.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 204.80 × $7.00 = $1,433.60. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 1433.6,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-unit-tax-equilibrium-revenue-20",
+    "kind": "calculation",
+    "term": "$1,672.00",
+    "definition": "A training course includes exactly 209.00 lab hours. A separate mandatory lab charge is $8.00 per hour, with fractional hours billed proportionally. What total lab charge belongs in your college budget?",
+    "distractors": [
+      "$1,748.80",
+      "$209.00",
+      "$3,904.00"
+    ],
+    "explanation": "Multiply billable lab hours by the hourly charge: 209.00 × $8.00 = $1,672.00. This charge is additional to any tuition or other costs.",
+    "numericAnswer": {
+      "value": 1672,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-01",
+    "kind": "calculation",
+    "term": "$7,800.00",
+    "definition": "A U.S. student owes a foreign college €7,500. The exchange rate is $1.04 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$7,211.54",
+      "$300.00",
+      "$7,501.04"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €7,500 × $1.04/€ = $7,800.00.",
+    "numericAnswer": {
+      "value": 7800,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-02",
+    "kind": "calculation",
+    "term": "$8,321.25",
+    "definition": "A U.S. student owes a foreign college €7,925. The exchange rate is $1.05 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$7,547.62",
+      "$396.25",
+      "$7,926.05"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €7,925 × $1.05/€ = $8,321.25.",
+    "numericAnswer": {
+      "value": 8321.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-03",
+    "kind": "calculation",
+    "term": "$8,851.00",
+    "definition": "A U.S. student owes a foreign college €8,350. The exchange rate is $1.06 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$7,877.36",
+      "$501.00",
+      "$8,351.06"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €8,350 × $1.06/€ = $8,851.00.",
+    "numericAnswer": {
+      "value": 8851,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-04",
+    "kind": "calculation",
+    "term": "$9,389.25",
+    "definition": "A U.S. student owes a foreign college €8,775. The exchange rate is $1.07 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$8,200.93",
+      "$614.25",
+      "$8,776.07"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €8,775 × $1.07/€ = $9,389.25.",
+    "numericAnswer": {
+      "value": 9389.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-05",
+    "kind": "calculation",
+    "term": "$9,936.00",
+    "definition": "A U.S. student owes a foreign college €9,200. The exchange rate is $1.08 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$8,518.52",
+      "$736.00",
+      "$9,201.08"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €9,200 × $1.08/€ = $9,936.00.",
+    "numericAnswer": {
+      "value": 9936,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-06",
+    "kind": "calculation",
+    "term": "$10,491.25",
+    "definition": "A U.S. student owes a foreign college €9,625. The exchange rate is $1.09 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$8,830.28",
+      "$866.25",
+      "$9,626.09"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €9,625 × $1.09/€ = $10,491.25.",
+    "numericAnswer": {
+      "value": 10491.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-07",
+    "kind": "calculation",
+    "term": "$11,055.00",
+    "definition": "A U.S. student owes a foreign college €10,050. The exchange rate is $1.10 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$9,136.36",
+      "$1,005.00",
+      "$10,051.10"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €10,050 × $1.10/€ = $11,055.00.",
+    "numericAnswer": {
+      "value": 11055,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-08",
+    "kind": "calculation",
+    "term": "$11,627.25",
+    "definition": "A U.S. student owes a foreign college €10,475. The exchange rate is $1.11 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$9,436.94",
+      "$1,152.25",
+      "$10,476.11"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €10,475 × $1.11/€ = $11,627.25.",
+    "numericAnswer": {
+      "value": 11627.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-09",
+    "kind": "calculation",
+    "term": "$12,208.00",
+    "definition": "A U.S. student owes a foreign college €10,900. The exchange rate is $1.12 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$9,732.14",
+      "$1,308.00",
+      "$10,901.12"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €10,900 × $1.12/€ = $12,208.00.",
+    "numericAnswer": {
+      "value": 12208,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-10",
+    "kind": "calculation",
+    "term": "$12,797.25",
+    "definition": "A U.S. student owes a foreign college €11,325. The exchange rate is $1.13 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$10,022.12",
+      "$1,472.25",
+      "$11,326.13"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €11,325 × $1.13/€ = $12,797.25.",
+    "numericAnswer": {
+      "value": 12797.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-11",
+    "kind": "calculation",
+    "term": "$13,395.00",
+    "definition": "A U.S. student owes a foreign college €11,750. The exchange rate is $1.14 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$10,307.02",
+      "$1,645.00",
+      "$11,751.14"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €11,750 × $1.14/€ = $13,395.00.",
+    "numericAnswer": {
+      "value": 13395,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-12",
+    "kind": "calculation",
+    "term": "$14,001.25",
+    "definition": "A U.S. student owes a foreign college €12,175. The exchange rate is $1.15 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$10,586.96",
+      "$1,826.25",
+      "$12,176.15"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €12,175 × $1.15/€ = $14,001.25.",
+    "numericAnswer": {
+      "value": 14001.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-13",
+    "kind": "calculation",
+    "term": "$14,616.00",
+    "definition": "A U.S. student owes a foreign college €12,600. The exchange rate is $1.16 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$10,862.07",
+      "$2,016.00",
+      "$12,601.16"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €12,600 × $1.16/€ = $14,616.00.",
+    "numericAnswer": {
+      "value": 14616,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-14",
+    "kind": "calculation",
+    "term": "$15,239.25",
+    "definition": "A U.S. student owes a foreign college €13,025. The exchange rate is $1.17 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$11,132.48",
+      "$2,214.25",
+      "$13,026.17"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €13,025 × $1.17/€ = $15,239.25.",
+    "numericAnswer": {
+      "value": 15239.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-15",
+    "kind": "calculation",
+    "term": "$15,871.00",
+    "definition": "A U.S. student owes a foreign college €13,450. The exchange rate is $1.18 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$11,398.31",
+      "$2,421.00",
+      "$13,451.18"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €13,450 × $1.18/€ = $15,871.00.",
+    "numericAnswer": {
+      "value": 15871,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-16",
+    "kind": "calculation",
+    "term": "$16,511.25",
+    "definition": "A U.S. student owes a foreign college €13,875. The exchange rate is $1.19 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$11,659.66",
+      "$2,636.25",
+      "$13,876.19"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €13,875 × $1.19/€ = $16,511.25.",
+    "numericAnswer": {
+      "value": 16511.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-17",
+    "kind": "calculation",
+    "term": "$17,160.00",
+    "definition": "A U.S. student owes a foreign college €14,300. The exchange rate is $1.20 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$11,916.67",
+      "$2,860.00",
+      "$14,301.20"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €14,300 × $1.20/€ = $17,160.00.",
+    "numericAnswer": {
+      "value": 17160,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-18",
+    "kind": "calculation",
+    "term": "$17,817.25",
+    "definition": "A U.S. student owes a foreign college €14,725. The exchange rate is $1.21 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$12,169.42",
+      "$3,092.25",
+      "$14,726.21"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €14,725 × $1.21/€ = $17,817.25.",
+    "numericAnswer": {
+      "value": 17817.25,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-19",
+    "kind": "calculation",
+    "term": "$18,483.00",
+    "definition": "A U.S. student owes a foreign college €15,150. The exchange rate is $1.22 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$12,418.03",
+      "$3,333.00",
+      "$15,151.22"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €15,150 × $1.22/€ = $18,483.00.",
+    "numericAnswer": {
+      "value": 18483,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-foreign-invoice-conversion-20",
+    "kind": "calculation",
+    "term": "$19,157.25",
+    "definition": "A U.S. student owes a foreign college €15,575. The exchange rate is $1.23 per euro, with no fees. How many U.S. dollars are needed to pay the tuition invoice?",
+    "distractors": [
+      "$12,662.60",
+      "$3,582.25",
+      "$15,576.23"
+    ],
+    "explanation": "The quote is dollars per euro, so multiply: €15,575 × $1.23/€ = $19,157.25.",
+    "numericAnswer": {
+      "value": 19157.25,
+      "unit": "USD"
+    }
   }
 ]

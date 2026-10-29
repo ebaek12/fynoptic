@@ -1,7 +1,7 @@
 // Ported from js/flashcard_units_1_12.js (ESM data module) — content copied
 // verbatim, only the type annotation added. See src/types.ts for FlashcardUnit.
 import type { FlashcardUnit } from '../types';
-import expansion from './flashcard-expansion.json';
+import expansion from './flashcard-expansion.json' with { type: 'json' };
 
 export const BASE_FLASHCARD_UNITS: FlashcardUnit = {
   "Banking": [
@@ -2474,5 +2474,11 @@ export const BASE_FLASHCARD_UNITS: FlashcardUnit = {
   ]
 };
 
-// Existing unit names and terms stay intact because they identify saved progress.
-export const FLASHCARD_UNITS: FlashcardUnit = { ...BASE_FLASHCARD_UNITS, ...expansion };
+// Expand the original units instead of introducing additional unit names.
+const additions: FlashcardUnit = expansion;
+export const FLASHCARD_UNITS: FlashcardUnit = Object.fromEntries(
+  Object.entries(BASE_FLASHCARD_UNITS).map(([unit, cards]) => [
+    unit,
+    [...cards, ...(additions[unit] ?? [])],
+  ]),
+);

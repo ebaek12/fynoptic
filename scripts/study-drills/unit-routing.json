@@ -1,0 +1,2002 @@
+{
+  "cash-overtime-gross-pay": {
+    "category": "Personal Finance",
+    "topic": "Monetary Policy",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-paycheck-deductions": {
+    "category": "Personal Finance",
+    "topic": "Monetary Policy",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-biweekly-monthly-income": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-tiered-sales-commission": {
+    "category": "Personal Finance",
+    "topic": "Monetary Policy",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-irregular-income-average": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-cash-flow-timing-buffer": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-raise-net-increase": {
+    "category": "Personal Finance",
+    "topic": "Monetary Policy",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-gig-profit-tax-reserve": {
+    "category": "Personal Finance",
+    "topic": "Monetary Policy",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-effective-hourly-with-commute": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-zero-based-discretionary-budget": {
+    "category": "Personal Finance",
+    "topic": "Regulatory & Exchange Bodies",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-needs-share-room": {
+    "category": "Personal Finance",
+    "topic": "Regulatory & Exchange Bodies",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-irregular-bills-monthly-reserve": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-weekly-spending-monthly-equivalent": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-budget-overrun-percentage": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-required-flexible-spending-cut": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-proportional-shared-bills": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-weighted-price-increase-budget": {
+    "category": "Personal Finance",
+    "topic": "Regulatory & Exchange Bodies",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-subscription-break-even-use": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-goal-monthly-contribution": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-whole-months-to-goal": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-emergency-fund-essential-target": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-simple-interest-required-deposit": {
+    "category": "Personal Finance",
+    "topic": "Money Market Instruments",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-monthly-compound-savings": {
+    "category": "Personal Finance",
+    "topic": "Money Market Instruments",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-annuity-savings-deposit": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-step-up-savings-plan": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-inflating-savings-goal": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-fund-withdrawal-recovery": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-maintenance-fee-waiver-count": {
+    "category": "Personal Finance",
+    "topic": "Money Market Instruments",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-atm-two-fees-reimbursement": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-tiered-bank-interest": {
+    "category": "Personal Finance",
+    "topic": "Money Market Instruments",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-capped-overdraft-fees": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-bank-reconciliation-available-cash": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-cd-early-withdrawal-net": {
+    "category": "Personal Finance",
+    "topic": "Money Market Instruments",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-interest-fee-break-even-balance": {
+    "category": "Personal Finance",
+    "topic": "Money Market Instruments",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-transfer-fee-cap-comparison": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-net-bank-return-percentage": {
+    "category": "Personal Finance",
+    "topic": "Money Market Instruments",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-card-monthly-interest-model": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Credit Cards",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-card-average-daily-balance": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Credit Cards",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-card-minimum-payment-rule": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Credit Cards",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-zero-apr-transfer-payoff": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Credit Cards",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-two-card-balance-interest": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Credit Cards",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-tiered-rewards-after-annual-fee": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Credit Cards",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-card-statement-balance-rollforward": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Credit Cards",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-utilization-target-payment": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Building Your Credit History",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-balance-transfer-interest-savings": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Credit Cards",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-amortizing-loan-payment": {
+    "category": "Personal Finance",
+    "topic": "Fixed Income & Bonds",
+    "flashcardUnit": "Borrowing Basics",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-first-payment-principal": {
+    "category": "Personal Finance",
+    "topic": "Fixed Income & Bonds",
+    "flashcardUnit": "Borrowing Basics",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-scheduled-loan-total-financing-cost": {
+    "category": "Personal Finance",
+    "topic": "Fixed Income & Bonds",
+    "flashcardUnit": "Borrowing Basics",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-simple-loan-lump-sum-payoff": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Borrowing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-loan-net-proceeds-gross-up": {
+    "category": "Personal Finance",
+    "topic": "Money Market Instruments",
+    "flashcardUnit": "Borrowing Basics",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-debt-payment-capacity": {
+    "category": "Personal Finance",
+    "topic": "Fixed Income & Bonds",
+    "flashcardUnit": "Borrowing Basics",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-refinance-fee-recovery-months": {
+    "category": "Personal Finance",
+    "topic": "Fixed Income & Bonds",
+    "flashcardUnit": "Borrowing Basics",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-extra-principal-next-interest": {
+    "category": "Personal Finance",
+    "topic": "Fixed Income & Bonds",
+    "flashcardUnit": "Borrowing Basics",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-full-monthly-home-payment": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-home-cash-to-close-credit": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-home-price-cash-constraint": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-rent-concession-effective-monthly": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-roommate-prorated-utilities": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-home-loan-to-value": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Borrowing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-home-sale-net-cash": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-cash-out-refinance-proceeds": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-car-fuel-monthly-cost": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Buying a Car",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-auto-financed-amount-trade-equity": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Buying a Car",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-lease-full-period-monthly-cost": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Buying a Car",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-car-depreciation-resale-value": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Buying a Car",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-car-operating-cost-per-mile": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Buying a Car",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-ev-versus-gas-energy-savings": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Buying a Car",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-car-maintenance-distance-reserve": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Buying a Car",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-cash-car-ownership-cost": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Buying a Car",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-college-net-price-not-loans": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-college-tuition-flat-band": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-college-funding-gap": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-college-weekly-work-hours": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-four-year-rising-tuition-total": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-student-loan-in-school-interest": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-tuition-installment-after-deposit": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-textbook-resale-versus-rental": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-insurance-deductible-claim-payment": {
+    "category": "Personal Finance",
+    "topic": "Derivatives & Options",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-health-deductible-coinsurance": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-health-annual-out-of-pocket-cap": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-insurance-plan-total-cost-comparison": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-insurance-sequential-discounts": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-insurance-expected-annual-cash-cost": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-life-coverage-capital-needs": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "cash-disability-benefit-cap-wait": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-sale-price-sales-tax": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-successive-discount-equivalent": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-coupon-tax-order": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-unit-price-weight-conversion": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-reverse-taxed-sale-price": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-bundle-free-items-effective-cost": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-cashback-eligible-spending-cap": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Credit Cards",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-delivery-threshold-total": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-membership-purchases-break-even": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-annual-prepayment-savings": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-introductory-rate-year-cost": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-included-usage-overage": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-actual-use-cost": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-unlimited-plan-strict-break-even": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-prorated-cancellation-refund": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-minimum-seat-billing": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-pause-versus-reactivation": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-compounded-renewal-total": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-contribution-per-unit": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "invest-fixed-cost-break-even-units": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "invest-cash-versus-invoiced-sales": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "invest-runway-full-months": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "invest-early-payment-discount-annualized": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Borrowing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "invest-cash-conversion-cycle": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "invest-gross-margin-versus-markup": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "invest-merchant-processing-net-deposit": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "invest-working-capital-classification": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "invest-expense-ratio-dollar-cost": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-weighted-fund-expense-ratio": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-front-load-invested-shares": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-deferred-load-lesser-base": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-tiered-advisory-fee": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-fee-day-proration": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-multiyear-fee-drag": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-temporary-expense-waiver": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-fixed-and-percentage-fee-crossover": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-target-allocation-dollar-holding": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-rebalance-by-selling-overweight": {
+    "category": "Personal Finance",
+    "topic": "Equities & Stock Market Mechanics",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-rebalance-with-new-money-only": {
+    "category": "Personal Finance",
+    "topic": "Equities & Stock Market Mechanics",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-allocation-drift-after-returns": {
+    "category": "Personal Finance",
+    "topic": "Equities & Stock Market Mechanics",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-weighted-portfolio-period-return": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-fund-look-through-stock-exposure": {
+    "category": "Personal Finance",
+    "topic": "Equities & Stock Market Mechanics",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-withdrawal-and-target-allocation": {
+    "category": "Personal Finance",
+    "topic": "Equities & Stock Market Mechanics",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-whole-share-allocation-cash-remainder": {
+    "category": "Personal Finance",
+    "topic": "Equities & Stock Market Mechanics",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-two-asset-portfolio-volatility": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-holding-return-dividends-trading-costs": {
+    "category": "Personal Finance",
+    "topic": "Equities & Stock Market Mechanics",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-compound-annual-growth-rate": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-exact-inflation-adjusted-return": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-two-period-cumulative-return": {
+    "category": "Personal Finance",
+    "topic": "Equities & Stock Market Mechanics",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-drawdown-recovery-return": {
+    "category": "Personal Finance",
+    "topic": "Equities & Stock Market Mechanics",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-equal-dollar-purchase-average-cost": {
+    "category": "Personal Finance",
+    "topic": "Equities & Stock Market Mechanics",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-dividend-reinvestment-ending-value": {
+    "category": "Personal Finance",
+    "topic": "Equities & Stock Market Mechanics",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-foreign-investment-home-currency-return": {
+    "category": "Economics",
+    "topic": "International Economics & Trade",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-semiannual-coupon-payment": {
+    "category": "Personal Finance",
+    "topic": "Fixed Income & Bonds",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-bond-current-yield": {
+    "category": "Personal Finance",
+    "topic": "Fixed Income & Bonds",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-bond-clean-price-accrued-total": {
+    "category": "Personal Finance",
+    "topic": "Fixed Income & Bonds",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-maturity-final-cash-flow": {
+    "category": "Personal Finance",
+    "topic": "Fixed Income & Bonds",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-zero-coupon-present-value": {
+    "category": "Personal Finance",
+    "topic": "Fixed Income & Bonds",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-coupon-bond-discounted-price": {
+    "category": "Personal Finance",
+    "topic": "Fixed Income & Bonds",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-bond-sale-return-accrual": {
+    "category": "Personal Finance",
+    "topic": "Fixed Income & Bonds",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-bond-ladder-year-cash-flow": {
+    "category": "Personal Finance",
+    "topic": "Fixed Income & Bonds",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-capped-employer-match": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-tiered-employer-match": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-vested-retirement-balance": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-retirement-saving-gap-no-growth": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-monthly-retirement-annuity-future-value": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-required-yearly-retirement-contribution": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-future-retirement-spending-inflation": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-gross-withdrawal-for-net-cash": {
+    "category": "Economics",
+    "topic": "Fiscal Policy and Government",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-foreign-card-purchase-fee": {
+    "category": "Economics",
+    "topic": "International Economics & Trade",
+    "flashcardUnit": "Credit Cards",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-remittance-fixed-budget-net-recipient": {
+    "category": "Economics",
+    "topic": "International Economics & Trade",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-remittance-target-reverse-conversion": {
+    "category": "Economics",
+    "topic": "International Economics & Trade",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-remittance-fee-and-rate-comparison": {
+    "category": "Economics",
+    "topic": "International Economics & Trade",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-reward-card-annual-net-benefit": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Credit Cards",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-daily-card-interest-simple-period": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Credit Cards",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-installment-price-extra-percent": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Borrowing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-currency-roundtrip-spread-loss": {
+    "category": "Economics",
+    "topic": "International Economics & Trade",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-insurance-deductible-payout-limit": {
+    "category": "Personal Finance",
+    "topic": "Derivatives & Options",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-health-cost-sharing-out-of-pocket-cap": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-expected-uninsured-event-loss": {
+    "category": "Personal Finance",
+    "topic": "Derivatives & Options",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-warranty-break-even-probability": {
+    "category": "Personal Finance",
+    "topic": "Derivatives & Options",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-deductible-premium-expected-cost": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-emergency-fund-income-gap-duration": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-variable-rate-interest-payment-shock": {
+    "category": "Personal Finance",
+    "topic": "Monetary Policy",
+    "flashcardUnit": "Borrowing Basics",
+    "rewrittenPractice": true,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "invest-utilization-target-payment": {
+    "category": "Economics",
+    "topic": "Financial Markets & Instruments",
+    "flashcardUnit": "Building Your Credit History",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-course-economic-cost": {
+    "category": "Economics",
+    "topic": "Economic Theory and Thought",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-linear-ppf-unit-cost": {
+    "category": "Economics",
+    "topic": "Economic Theory and Thought",
+    "flashcardUnit": "Buying a Car",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-ppf-segment-sacrifice": {
+    "category": "Economics",
+    "topic": "Economic Theory and Thought",
+    "flashcardUnit": "Buying a Car",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-specialization-trade-gain": {
+    "category": "Economics",
+    "topic": "Economic Theory and Thought",
+    "flashcardUnit": "Buying a Car",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-best-forgone-alternative": {
+    "category": "Economics",
+    "topic": "Economic Theory and Thought",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-sunk-cost-continuation": {
+    "category": "Economics",
+    "topic": "Economic Theory and Thought",
+    "flashcardUnit": "Buying a Car",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-budget-feasible-units": {
+    "category": "Economics",
+    "topic": "Economic Theory and Thought",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-capital-forgone-interest": {
+    "category": "Economics",
+    "topic": "Economic Theory and Thought",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-marginal-product-labor": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-average-product-labor": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-marginal-cost-increment": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-average-total-cost": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-recover-fixed-cost": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-cobb-douglas-output": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-competitive-labor-hiring": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-scale-cost-elasticity": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-linear-market-clearing-price": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-demand-shift-quantity-effect": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-binding-ceiling-shortage": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-binding-floor-surplus": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-midpoint-demand-elasticity": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-cross-price-elasticity": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-income-elasticity-forecast": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-linear-consumer-surplus": {
+    "category": "Economics",
+    "topic": "Consumer & Producer Theory",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-linear-monopoly-output": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-monopoly-deadweight-loss": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-herfindahl-market-shares": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-four-firm-concentration": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-lerner-markup": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Borrowing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-symmetric-cournot-output": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Borrowing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-strategic-expected-profit": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-segmented-pricing-revenue": {
+    "category": "Economics",
+    "topic": "Market Structures & Costs",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-hypothetical-progressive-tax": {
+    "category": "Economics",
+    "topic": "Fiscal Policy and Government",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-effective-tax-after-credit": {
+    "category": "Economics",
+    "topic": "Fiscal Policy and Government",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-unit-tax-equilibrium-revenue": {
+    "category": "Economics",
+    "topic": "Fiscal Policy and Government",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-tax-incidence-consumer-share": {
+    "category": "Economics",
+    "topic": "Fiscal Policy and Government",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-simple-spending-multiplier": {
+    "category": "Economics",
+    "topic": "Fiscal Policy and Government",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-balanced-budget-output-effect": {
+    "category": "Economics",
+    "topic": "Fiscal Policy and Government",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-overall-budget-deficit": {
+    "category": "Economics",
+    "topic": "Fiscal Policy and Government",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-public-good-efficient-quantity": {
+    "category": "Economics",
+    "topic": "Fiscal Policy and Government",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-fixed-basket-price-index": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-price-index-inflation-rate": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-deflated-real-hourly-wage": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-two-year-compound-inflation": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-cost-of-living-salary-adjustment": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-price-index-rebasing": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-fixed-weight-inflation-contribution": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-exact-real-interest-rate": {
+    "category": "Economics",
+    "topic": "Banking and Monetary Policy",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-unemployment-labor-force-denominator": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Building Your Credit History",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-labor-force-participation": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Building Your Credit History",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-employment-population-ratio": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Building Your Credit History",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-new-jobseekers-unemployment-rate": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Building Your Credit History",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-broad-u6-underutilization": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Building Your Credit History",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-real-output-per-hour": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-worker-separation-rate": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Credit Cards",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-weekly-earnings-hours": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": false,
+    "variants": 20
+  },
+  "econ-drill-goods-services-net-exports": {
+    "category": "Economics",
+    "topic": "International Economics & Trade",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-foreign-invoice-conversion": {
+    "category": "Economics",
+    "topic": "International Economics & Trade",
+    "flashcardUnit": "Paying for College",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-reciprocal-currency-appreciation": {
+    "category": "Economics",
+    "topic": "International Economics & Trade",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-terms-of-trade-index": {
+    "category": "Economics",
+    "topic": "International Economics & Trade",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-small-country-tariff-revenue": {
+    "category": "Economics",
+    "topic": "International Economics & Trade",
+    "flashcardUnit": "Buying a Car",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-import-quota-rent": {
+    "category": "Economics",
+    "topic": "International Economics & Trade",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-effective-protection-value-added": {
+    "category": "Economics",
+    "topic": "International Economics & Trade",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-current-account-components": {
+    "category": "Economics",
+    "topic": "International Economics & Trade",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-expenditure-gdp": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Banking",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-real-gdp-growth": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-real-per-capita-growth": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Buying a Car",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-compound-output-projection": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-output-compound-annual-growth-rate": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-net-capital-accumulation": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Saving Goals and Future",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-solow-steady-state-capital": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Protecting Your Money and Identity",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-growth-accounting-tfp": {
+    "category": "Economics",
+    "topic": "Macroeconomic Theory",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-employment-weighted-mean-wage": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Making the Most of Your Income",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-median-household-spending": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-population-variance-output": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-sample-mean-standard-error": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-confidence-interval-upper-limit": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Financial Decisions",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-conditional-training-employment": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Building Your Credit History",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-linear-regression-consumption-prediction": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Spending & Saving Plan",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  },
+  "econ-drill-sample-covariance-growth": {
+    "category": "Economics",
+    "topic": "Quantitative & Data Skills",
+    "flashcardUnit": "Investing Basics",
+    "rewrittenPractice": false,
+    "rewrittenFlashcards": true,
+    "variants": 20
+  }
+}

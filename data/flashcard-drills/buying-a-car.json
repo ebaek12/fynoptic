@@ -2558,5 +2558,1925 @@
       "value": 5901.67,
       "unit": "USD"
     }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-01",
+    "kind": "calculation",
+    "term": "$3.50 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 24 identical trips, parking and tolls total $84.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip?",
+    "distractors": [
+      "$0.29 per trip",
+      "$84.00 per trip",
+      "$60.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $84.00 ÷ 24 = $3.50 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.5,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-02",
+    "kind": "calculation",
+    "term": "$3.52 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 25 identical trips, parking and tolls total $88.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip?",
+    "distractors": [
+      "$0.28 per trip",
+      "$88.00 per trip",
+      "$63.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $88.00 ÷ 25 = $3.52 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.52,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-03",
+    "kind": "calculation",
+    "term": "$3.54 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 26 identical trips, parking and tolls total $92.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.28 per trip",
+      "$92.00 per trip",
+      "$66.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $92.00 ÷ 26 = $3.54 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.54,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-04",
+    "kind": "calculation",
+    "term": "$3.56 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 27 identical trips, parking and tolls total $96.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.28 per trip",
+      "$96.00 per trip",
+      "$69.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $96.00 ÷ 27 = $3.56 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.56,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-05",
+    "kind": "calculation",
+    "term": "$3.57 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 28 identical trips, parking and tolls total $100.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.28 per trip",
+      "$100.00 per trip",
+      "$72.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $100.00 ÷ 28 = $3.57 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.57,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-06",
+    "kind": "calculation",
+    "term": "$3.59 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 29 identical trips, parking and tolls total $104.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.28 per trip",
+      "$104.00 per trip",
+      "$75.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $104.00 ÷ 29 = $3.59 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.59,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-07",
+    "kind": "calculation",
+    "term": "$3.60 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 30 identical trips, parking and tolls total $108.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip?",
+    "distractors": [
+      "$0.28 per trip",
+      "$108.00 per trip",
+      "$78.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $108.00 ÷ 30 = $3.60 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.6,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-08",
+    "kind": "calculation",
+    "term": "$3.61 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 31 identical trips, parking and tolls total $112.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.28 per trip",
+      "$112.00 per trip",
+      "$81.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $112.00 ÷ 31 = $3.61 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.61,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-09",
+    "kind": "calculation",
+    "term": "$3.63 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 32 identical trips, parking and tolls total $116.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.28 per trip",
+      "$116.00 per trip",
+      "$84.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $116.00 ÷ 32 = $3.63 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.63,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-10",
+    "kind": "calculation",
+    "term": "$3.64 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 33 identical trips, parking and tolls total $120.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.28 per trip",
+      "$120.00 per trip",
+      "$87.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $120.00 ÷ 33 = $3.64 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.64,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-11",
+    "kind": "calculation",
+    "term": "$3.65 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 34 identical trips, parking and tolls total $124.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.27 per trip",
+      "$124.00 per trip",
+      "$90.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $124.00 ÷ 34 = $3.65 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.65,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-12",
+    "kind": "calculation",
+    "term": "$3.66 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 35 identical trips, parking and tolls total $128.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.27 per trip",
+      "$128.00 per trip",
+      "$93.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $128.00 ÷ 35 = $3.66 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.66,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-13",
+    "kind": "calculation",
+    "term": "$3.67 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 36 identical trips, parking and tolls total $132.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.27 per trip",
+      "$132.00 per trip",
+      "$96.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $132.00 ÷ 36 = $3.67 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.67,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-14",
+    "kind": "calculation",
+    "term": "$3.68 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 37 identical trips, parking and tolls total $136.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.27 per trip",
+      "$136.00 per trip",
+      "$99.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $136.00 ÷ 37 = $3.68 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.68,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-15",
+    "kind": "calculation",
+    "term": "$3.68 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 38 identical trips, parking and tolls total $140.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.27 per trip",
+      "$140.00 per trip",
+      "$102.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $140.00 ÷ 38 = $3.68 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.68,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-16",
+    "kind": "calculation",
+    "term": "$3.69 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 39 identical trips, parking and tolls total $144.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.27 per trip",
+      "$144.00 per trip",
+      "$105.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $144.00 ÷ 39 = $3.69 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.69,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-17",
+    "kind": "calculation",
+    "term": "$3.70 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 40 identical trips, parking and tolls total $148.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip?",
+    "distractors": [
+      "$0.27 per trip",
+      "$148.00 per trip",
+      "$108.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $148.00 ÷ 40 = $3.70 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.7,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-18",
+    "kind": "calculation",
+    "term": "$3.71 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 41 identical trips, parking and tolls total $152.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.27 per trip",
+      "$152.00 per trip",
+      "$111.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $152.00 ÷ 41 = $3.71 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.71,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-19",
+    "kind": "calculation",
+    "term": "$3.71 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 42 identical trips, parking and tolls total $156.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.27 per trip",
+      "$156.00 per trip",
+      "$114.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $156.00 ÷ 42 = $3.71 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.71,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-linear-ppf-unit-cost-20",
+    "kind": "calculation",
+    "term": "$3.72 per trip",
+    "definition": "You are comparing the operating costs of a car. Across 43 identical trips, parking and tolls total $160.00. Excluding fuel, maintenance, and all other costs, what is average parking-and-toll cost per trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.27 per trip",
+      "$160.00 per trip",
+      "$117.00 per trip"
+    ],
+    "explanation": "Divide the included total by the number of trips: $160.00 ÷ 43 = $3.72 per trip. This does not represent the car's full ownership cost.",
+    "numericAnswer": {
+      "value": 3.72,
+      "unit": "USD per trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-01",
+    "kind": "calculation",
+    "term": "$4.50 per extra trip",
+    "definition": "Your car-use plan changes from 12 trips to 16 trips, raising the total budgeted parking cost from $142.00 to $160.00. What is the average additional parking cost per extra trip?",
+    "distractors": [
+      "$0.22 per extra trip",
+      "$18.00 per extra trip",
+      "$8.88 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($160.00 − $142.00) ÷ (16 − 12) = $4.50 per extra trip.",
+    "numericAnswer": {
+      "value": 4.5,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-02",
+    "kind": "calculation",
+    "term": "$4.00 per extra trip",
+    "definition": "Your car-use plan changes from 13 trips to 18 trips, raising the total budgeted parking cost from $147.00 to $167.00. What is the average additional parking cost per extra trip?",
+    "distractors": [
+      "$0.25 per extra trip",
+      "$20.00 per extra trip",
+      "$8.17 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($167.00 − $147.00) ÷ (18 − 13) = $4.00 per extra trip.",
+    "numericAnswer": {
+      "value": 4,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-03",
+    "kind": "calculation",
+    "term": "$3.67 per extra trip",
+    "definition": "Your car-use plan changes from 14 trips to 20 trips, raising the total budgeted parking cost from $152.00 to $174.00. What is the average additional parking cost per extra trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.27 per extra trip",
+      "$22.00 per extra trip",
+      "$7.60 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($174.00 − $152.00) ÷ (20 − 14) = $3.67 per extra trip.",
+    "numericAnswer": {
+      "value": 3.67,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-04",
+    "kind": "calculation",
+    "term": "$3.43 per extra trip",
+    "definition": "Your car-use plan changes from 15 trips to 22 trips, raising the total budgeted parking cost from $157.00 to $181.00. What is the average additional parking cost per extra trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.29 per extra trip",
+      "$24.00 per extra trip",
+      "$7.14 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($181.00 − $157.00) ÷ (22 − 15) = $3.43 per extra trip.",
+    "numericAnswer": {
+      "value": 3.43,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-05",
+    "kind": "calculation",
+    "term": "$6.50 per extra trip",
+    "definition": "Your car-use plan changes from 16 trips to 20 trips, raising the total budgeted parking cost from $162.00 to $188.00. What is the average additional parking cost per extra trip?",
+    "distractors": [
+      "$0.15 per extra trip",
+      "$26.00 per extra trip",
+      "$8.10 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($188.00 − $162.00) ÷ (20 − 16) = $6.50 per extra trip.",
+    "numericAnswer": {
+      "value": 6.5,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-06",
+    "kind": "calculation",
+    "term": "$5.60 per extra trip",
+    "definition": "Your car-use plan changes from 17 trips to 22 trips, raising the total budgeted parking cost from $167.00 to $195.00. What is the average additional parking cost per extra trip?",
+    "distractors": [
+      "$0.18 per extra trip",
+      "$28.00 per extra trip",
+      "$7.59 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($195.00 − $167.00) ÷ (22 − 17) = $5.60 per extra trip.",
+    "numericAnswer": {
+      "value": 5.6,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-07",
+    "kind": "calculation",
+    "term": "$5.00 per extra trip",
+    "definition": "Your car-use plan changes from 18 trips to 24 trips, raising the total budgeted parking cost from $172.00 to $202.00. What is the average additional parking cost per extra trip?",
+    "distractors": [
+      "$0.20 per extra trip",
+      "$30.00 per extra trip",
+      "$7.17 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($202.00 − $172.00) ÷ (24 − 18) = $5.00 per extra trip.",
+    "numericAnswer": {
+      "value": 5,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-08",
+    "kind": "calculation",
+    "term": "$4.57 per extra trip",
+    "definition": "Your car-use plan changes from 19 trips to 26 trips, raising the total budgeted parking cost from $177.00 to $209.00. What is the average additional parking cost per extra trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.22 per extra trip",
+      "$32.00 per extra trip",
+      "$6.81 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($209.00 − $177.00) ÷ (26 − 19) = $4.57 per extra trip.",
+    "numericAnswer": {
+      "value": 4.57,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-09",
+    "kind": "calculation",
+    "term": "$8.50 per extra trip",
+    "definition": "Your car-use plan changes from 20 trips to 24 trips, raising the total budgeted parking cost from $182.00 to $216.00. What is the average additional parking cost per extra trip?",
+    "distractors": [
+      "$0.12 per extra trip",
+      "$34.00 per extra trip",
+      "$7.58 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($216.00 − $182.00) ÷ (24 − 20) = $8.50 per extra trip.",
+    "numericAnswer": {
+      "value": 8.5,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-10",
+    "kind": "calculation",
+    "term": "$7.20 per extra trip",
+    "definition": "Your car-use plan changes from 21 trips to 26 trips, raising the total budgeted parking cost from $187.00 to $223.00. What is the average additional parking cost per extra trip?",
+    "distractors": [
+      "$0.14 per extra trip",
+      "$36.00 per extra trip",
+      "$7.19 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($223.00 − $187.00) ÷ (26 − 21) = $7.20 per extra trip.",
+    "numericAnswer": {
+      "value": 7.2,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-11",
+    "kind": "calculation",
+    "term": "$6.33 per extra trip",
+    "definition": "Your car-use plan changes from 22 trips to 28 trips, raising the total budgeted parking cost from $192.00 to $230.00. What is the average additional parking cost per extra trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.16 per extra trip",
+      "$38.00 per extra trip",
+      "$6.86 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($230.00 − $192.00) ÷ (28 − 22) = $6.33 per extra trip.",
+    "numericAnswer": {
+      "value": 6.33,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-12",
+    "kind": "calculation",
+    "term": "$5.71 per extra trip",
+    "definition": "Your car-use plan changes from 23 trips to 30 trips, raising the total budgeted parking cost from $197.00 to $237.00. What is the average additional parking cost per extra trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.18 per extra trip",
+      "$40.00 per extra trip",
+      "$6.57 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($237.00 − $197.00) ÷ (30 − 23) = $5.71 per extra trip.",
+    "numericAnswer": {
+      "value": 5.71,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-13",
+    "kind": "calculation",
+    "term": "$10.50 per extra trip",
+    "definition": "Your car-use plan changes from 24 trips to 28 trips, raising the total budgeted parking cost from $202.00 to $244.00. What is the average additional parking cost per extra trip?",
+    "distractors": [
+      "$0.10 per extra trip",
+      "$42.00 per extra trip",
+      "$7.21 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($244.00 − $202.00) ÷ (28 − 24) = $10.50 per extra trip.",
+    "numericAnswer": {
+      "value": 10.5,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-14",
+    "kind": "calculation",
+    "term": "$8.80 per extra trip",
+    "definition": "Your car-use plan changes from 25 trips to 30 trips, raising the total budgeted parking cost from $207.00 to $251.00. What is the average additional parking cost per extra trip?",
+    "distractors": [
+      "$0.11 per extra trip",
+      "$44.00 per extra trip",
+      "$6.90 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($251.00 − $207.00) ÷ (30 − 25) = $8.80 per extra trip.",
+    "numericAnswer": {
+      "value": 8.8,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-15",
+    "kind": "calculation",
+    "term": "$7.67 per extra trip",
+    "definition": "Your car-use plan changes from 26 trips to 32 trips, raising the total budgeted parking cost from $212.00 to $258.00. What is the average additional parking cost per extra trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.13 per extra trip",
+      "$46.00 per extra trip",
+      "$6.63 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($258.00 − $212.00) ÷ (32 − 26) = $7.67 per extra trip.",
+    "numericAnswer": {
+      "value": 7.67,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-16",
+    "kind": "calculation",
+    "term": "$6.86 per extra trip",
+    "definition": "Your car-use plan changes from 27 trips to 34 trips, raising the total budgeted parking cost from $217.00 to $265.00. What is the average additional parking cost per extra trip? Round to the nearest cent.",
+    "distractors": [
+      "$0.15 per extra trip",
+      "$48.00 per extra trip",
+      "$6.38 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($265.00 − $217.00) ÷ (34 − 27) = $6.86 per extra trip.",
+    "numericAnswer": {
+      "value": 6.86,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-17",
+    "kind": "calculation",
+    "term": "$12.50 per extra trip",
+    "definition": "Your car-use plan changes from 28 trips to 32 trips, raising the total budgeted parking cost from $222.00 to $272.00. What is the average additional parking cost per extra trip?",
+    "distractors": [
+      "$0.08 per extra trip",
+      "$50.00 per extra trip",
+      "$6.94 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($272.00 − $222.00) ÷ (32 − 28) = $12.50 per extra trip.",
+    "numericAnswer": {
+      "value": 12.5,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-18",
+    "kind": "calculation",
+    "term": "$10.40 per extra trip",
+    "definition": "Your car-use plan changes from 29 trips to 34 trips, raising the total budgeted parking cost from $227.00 to $279.00. What is the average additional parking cost per extra trip?",
+    "distractors": [
+      "$0.10 per extra trip",
+      "$52.00 per extra trip",
+      "$6.68 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($279.00 − $227.00) ÷ (34 − 29) = $10.40 per extra trip.",
+    "numericAnswer": {
+      "value": 10.4,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-19",
+    "kind": "calculation",
+    "term": "$9.00 per extra trip",
+    "definition": "Your car-use plan changes from 30 trips to 36 trips, raising the total budgeted parking cost from $232.00 to $286.00. What is the average additional parking cost per extra trip?",
+    "distractors": [
+      "$0.11 per extra trip",
+      "$54.00 per extra trip",
+      "$6.44 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($286.00 − $232.00) ÷ (36 − 30) = $9.00 per extra trip.",
+    "numericAnswer": {
+      "value": 9,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-ppf-segment-sacrifice-20",
+    "kind": "calculation",
+    "term": "$8.00 per extra trip",
+    "definition": "Your car-use plan changes from 31 trips to 38 trips, raising the total budgeted parking cost from $237.00 to $293.00. What is the average additional parking cost per extra trip?",
+    "distractors": [
+      "$0.13 per extra trip",
+      "$56.00 per extra trip",
+      "$6.24 per extra trip"
+    ],
+    "explanation": "Use changes rather than total averages: ($293.00 − $237.00) ÷ (38 − 31) = $8.00 per extra trip.",
+    "numericAnswer": {
+      "value": 8,
+      "unit": "USD per extra trip"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-01",
+    "kind": "calculation",
+    "term": "$10.00",
+    "definition": "Washing your car at home uses $4.00 of supplies and water each time. A self-service station charges $2.00 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 5 washes?",
+    "distractors": [
+      "$20.00",
+      "$2.00",
+      "$30.00"
+    ],
+    "explanation": "Savings per wash = $4.00 − $2.00. Multiply by 5 washes to obtain $10.00.",
+    "numericAnswer": {
+      "value": 10,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-02",
+    "kind": "calculation",
+    "term": "$15.00",
+    "definition": "Washing your car at home uses $5.00 of supplies and water each time. A self-service station charges $2.50 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 6 washes?",
+    "distractors": [
+      "$30.00",
+      "$2.50",
+      "$45.00"
+    ],
+    "explanation": "Savings per wash = $5.00 − $2.50. Multiply by 6 washes to obtain $15.00.",
+    "numericAnswer": {
+      "value": 15,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-03",
+    "kind": "calculation",
+    "term": "$28.00",
+    "definition": "Washing your car at home uses $6.00 of supplies and water each time. A self-service station charges $2.00 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 7 washes?",
+    "distractors": [
+      "$42.00",
+      "$14.00",
+      "$4.00"
+    ],
+    "explanation": "Savings per wash = $6.00 − $2.00. Multiply by 7 washes to obtain $28.00.",
+    "numericAnswer": {
+      "value": 28,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-04",
+    "kind": "calculation",
+    "term": "$12.00",
+    "definition": "Washing your car at home uses $4.00 of supplies and water each time. A self-service station charges $2.50 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 8 washes?",
+    "distractors": [
+      "$32.00",
+      "$20.00",
+      "$1.50"
+    ],
+    "explanation": "Savings per wash = $4.00 − $2.50. Multiply by 8 washes to obtain $12.00.",
+    "numericAnswer": {
+      "value": 12,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-05",
+    "kind": "calculation",
+    "term": "$27.00",
+    "definition": "Washing your car at home uses $5.00 of supplies and water each time. A self-service station charges $2.00 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 9 washes?",
+    "distractors": [
+      "$45.00",
+      "$18.00",
+      "$3.00"
+    ],
+    "explanation": "Savings per wash = $5.00 − $2.00. Multiply by 9 washes to obtain $27.00.",
+    "numericAnswer": {
+      "value": 27,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-06",
+    "kind": "calculation",
+    "term": "$35.00",
+    "definition": "Washing your car at home uses $6.00 of supplies and water each time. A self-service station charges $2.50 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 10 washes?",
+    "distractors": [
+      "$60.00",
+      "$25.00",
+      "$3.50"
+    ],
+    "explanation": "Savings per wash = $6.00 − $2.50. Multiply by 10 washes to obtain $35.00.",
+    "numericAnswer": {
+      "value": 35,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-07",
+    "kind": "calculation",
+    "term": "$22.00",
+    "definition": "Washing your car at home uses $4.00 of supplies and water each time. A self-service station charges $2.00 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 11 washes?",
+    "distractors": [
+      "$44.00",
+      "$2.00",
+      "$66.00"
+    ],
+    "explanation": "Savings per wash = $4.00 − $2.00. Multiply by 11 washes to obtain $22.00.",
+    "numericAnswer": {
+      "value": 22,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-08",
+    "kind": "calculation",
+    "term": "$30.00",
+    "definition": "Washing your car at home uses $5.00 of supplies and water each time. A self-service station charges $2.50 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 12 washes?",
+    "distractors": [
+      "$60.00",
+      "$2.50",
+      "$90.00"
+    ],
+    "explanation": "Savings per wash = $5.00 − $2.50. Multiply by 12 washes to obtain $30.00.",
+    "numericAnswer": {
+      "value": 30,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-09",
+    "kind": "calculation",
+    "term": "$52.00",
+    "definition": "Washing your car at home uses $6.00 of supplies and water each time. A self-service station charges $2.00 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 13 washes?",
+    "distractors": [
+      "$78.00",
+      "$26.00",
+      "$4.00"
+    ],
+    "explanation": "Savings per wash = $6.00 − $2.00. Multiply by 13 washes to obtain $52.00.",
+    "numericAnswer": {
+      "value": 52,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-10",
+    "kind": "calculation",
+    "term": "$21.00",
+    "definition": "Washing your car at home uses $4.00 of supplies and water each time. A self-service station charges $2.50 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 14 washes?",
+    "distractors": [
+      "$56.00",
+      "$35.00",
+      "$1.50"
+    ],
+    "explanation": "Savings per wash = $4.00 − $2.50. Multiply by 14 washes to obtain $21.00.",
+    "numericAnswer": {
+      "value": 21,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-11",
+    "kind": "calculation",
+    "term": "$45.00",
+    "definition": "Washing your car at home uses $5.00 of supplies and water each time. A self-service station charges $2.00 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 15 washes?",
+    "distractors": [
+      "$75.00",
+      "$30.00",
+      "$3.00"
+    ],
+    "explanation": "Savings per wash = $5.00 − $2.00. Multiply by 15 washes to obtain $45.00.",
+    "numericAnswer": {
+      "value": 45,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-12",
+    "kind": "calculation",
+    "term": "$56.00",
+    "definition": "Washing your car at home uses $6.00 of supplies and water each time. A self-service station charges $2.50 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 16 washes?",
+    "distractors": [
+      "$96.00",
+      "$40.00",
+      "$3.50"
+    ],
+    "explanation": "Savings per wash = $6.00 − $2.50. Multiply by 16 washes to obtain $56.00.",
+    "numericAnswer": {
+      "value": 56,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-13",
+    "kind": "calculation",
+    "term": "$34.00",
+    "definition": "Washing your car at home uses $4.00 of supplies and water each time. A self-service station charges $2.00 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 17 washes?",
+    "distractors": [
+      "$68.00",
+      "$2.00",
+      "$102.00"
+    ],
+    "explanation": "Savings per wash = $4.00 − $2.00. Multiply by 17 washes to obtain $34.00.",
+    "numericAnswer": {
+      "value": 34,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-14",
+    "kind": "calculation",
+    "term": "$45.00",
+    "definition": "Washing your car at home uses $5.00 of supplies and water each time. A self-service station charges $2.50 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 18 washes?",
+    "distractors": [
+      "$90.00",
+      "$2.50",
+      "$135.00"
+    ],
+    "explanation": "Savings per wash = $5.00 − $2.50. Multiply by 18 washes to obtain $45.00.",
+    "numericAnswer": {
+      "value": 45,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-15",
+    "kind": "calculation",
+    "term": "$76.00",
+    "definition": "Washing your car at home uses $6.00 of supplies and water each time. A self-service station charges $2.00 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 19 washes?",
+    "distractors": [
+      "$114.00",
+      "$38.00",
+      "$4.00"
+    ],
+    "explanation": "Savings per wash = $6.00 − $2.00. Multiply by 19 washes to obtain $76.00.",
+    "numericAnswer": {
+      "value": 76,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-16",
+    "kind": "calculation",
+    "term": "$30.00",
+    "definition": "Washing your car at home uses $4.00 of supplies and water each time. A self-service station charges $2.50 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 20 washes?",
+    "distractors": [
+      "$80.00",
+      "$50.00",
+      "$1.50"
+    ],
+    "explanation": "Savings per wash = $4.00 − $2.50. Multiply by 20 washes to obtain $30.00.",
+    "numericAnswer": {
+      "value": 30,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-17",
+    "kind": "calculation",
+    "term": "$63.00",
+    "definition": "Washing your car at home uses $5.00 of supplies and water each time. A self-service station charges $2.00 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 21 washes?",
+    "distractors": [
+      "$105.00",
+      "$42.00",
+      "$3.00"
+    ],
+    "explanation": "Savings per wash = $5.00 − $2.00. Multiply by 21 washes to obtain $63.00.",
+    "numericAnswer": {
+      "value": 63,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-18",
+    "kind": "calculation",
+    "term": "$77.00",
+    "definition": "Washing your car at home uses $6.00 of supplies and water each time. A self-service station charges $2.50 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 22 washes?",
+    "distractors": [
+      "$132.00",
+      "$55.00",
+      "$3.50"
+    ],
+    "explanation": "Savings per wash = $6.00 − $2.50. Multiply by 22 washes to obtain $77.00.",
+    "numericAnswer": {
+      "value": 77,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-19",
+    "kind": "calculation",
+    "term": "$46.00",
+    "definition": "Washing your car at home uses $4.00 of supplies and water each time. A self-service station charges $2.00 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 23 washes?",
+    "distractors": [
+      "$92.00",
+      "$2.00",
+      "$138.00"
+    ],
+    "explanation": "Savings per wash = $4.00 − $2.00. Multiply by 23 washes to obtain $46.00.",
+    "numericAnswer": {
+      "value": 46,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-specialization-trade-gain-20",
+    "kind": "calculation",
+    "term": "$60.00",
+    "definition": "Washing your car at home uses $5.00 of supplies and water each time. A self-service station charges $2.50 per wash, including all supplies. Ignoring time and travel costs, how much would the station save over 24 washes?",
+    "distractors": [
+      "$120.00",
+      "$2.50",
+      "$180.00"
+    ],
+    "explanation": "Savings per wash = $5.00 − $2.50. Multiply by 24 washes to obtain $60.00.",
+    "numericAnswer": {
+      "value": 60,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-01",
+    "kind": "calculation",
+    "term": "$1,300.00",
+    "definition": "A car restoration has already cost $1,800.00, which cannot be recovered. Finishing the restoration costs $900.00 and produces a sale worth $2,500.00. Selling the unfinished car now yields $300.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$1,600.00",
+      "-$200.00",
+      "-$500.00"
+    ],
+    "explanation": "Ignore the unrecoverable $1,800.00. Finishing rather than selling as-is changes net benefits by $2,500.00 − $900.00 − $300.00 = $1,300.00.",
+    "numericAnswer": {
+      "value": 1300,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-02",
+    "kind": "calculation",
+    "term": "$1,350.00",
+    "definition": "A car restoration has already cost $1,860.00, which cannot be recovered. Finishing the restoration costs $935.00 and produces a sale worth $2,595.00. Selling the unfinished car now yields $310.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$1,660.00",
+      "-$200.00",
+      "-$510.00"
+    ],
+    "explanation": "Ignore the unrecoverable $1,860.00. Finishing rather than selling as-is changes net benefits by $2,595.00 − $935.00 − $310.00 = $1,350.00.",
+    "numericAnswer": {
+      "value": 1350,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-03",
+    "kind": "calculation",
+    "term": "$1,400.00",
+    "definition": "A car restoration has already cost $1,920.00, which cannot be recovered. Finishing the restoration costs $970.00 and produces a sale worth $2,690.00. Selling the unfinished car now yields $320.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$1,720.00",
+      "-$200.00",
+      "-$520.00"
+    ],
+    "explanation": "Ignore the unrecoverable $1,920.00. Finishing rather than selling as-is changes net benefits by $2,690.00 − $970.00 − $320.00 = $1,400.00.",
+    "numericAnswer": {
+      "value": 1400,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-04",
+    "kind": "calculation",
+    "term": "$1,450.00",
+    "definition": "A car restoration has already cost $1,980.00, which cannot be recovered. Finishing the restoration costs $1,005.00 and produces a sale worth $2,785.00. Selling the unfinished car now yields $330.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$1,780.00",
+      "-$200.00",
+      "-$530.00"
+    ],
+    "explanation": "Ignore the unrecoverable $1,980.00. Finishing rather than selling as-is changes net benefits by $2,785.00 − $1,005.00 − $330.00 = $1,450.00.",
+    "numericAnswer": {
+      "value": 1450,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-05",
+    "kind": "calculation",
+    "term": "$1,500.00",
+    "definition": "A car restoration has already cost $2,040.00, which cannot be recovered. Finishing the restoration costs $1,040.00 and produces a sale worth $2,880.00. Selling the unfinished car now yields $340.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$1,840.00",
+      "-$200.00",
+      "-$540.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,040.00. Finishing rather than selling as-is changes net benefits by $2,880.00 − $1,040.00 − $340.00 = $1,500.00.",
+    "numericAnswer": {
+      "value": 1500,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-06",
+    "kind": "calculation",
+    "term": "$1,550.00",
+    "definition": "A car restoration has already cost $2,100.00, which cannot be recovered. Finishing the restoration costs $1,075.00 and produces a sale worth $2,975.00. Selling the unfinished car now yields $350.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$1,900.00",
+      "-$200.00",
+      "-$550.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,100.00. Finishing rather than selling as-is changes net benefits by $2,975.00 − $1,075.00 − $350.00 = $1,550.00.",
+    "numericAnswer": {
+      "value": 1550,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-07",
+    "kind": "calculation",
+    "term": "$1,600.00",
+    "definition": "A car restoration has already cost $2,160.00, which cannot be recovered. Finishing the restoration costs $1,110.00 and produces a sale worth $3,070.00. Selling the unfinished car now yields $360.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$1,960.00",
+      "-$200.00",
+      "-$560.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,160.00. Finishing rather than selling as-is changes net benefits by $3,070.00 − $1,110.00 − $360.00 = $1,600.00.",
+    "numericAnswer": {
+      "value": 1600,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-08",
+    "kind": "calculation",
+    "term": "$1,650.00",
+    "definition": "A car restoration has already cost $2,220.00, which cannot be recovered. Finishing the restoration costs $1,145.00 and produces a sale worth $3,165.00. Selling the unfinished car now yields $370.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$2,020.00",
+      "-$200.00",
+      "-$570.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,220.00. Finishing rather than selling as-is changes net benefits by $3,165.00 − $1,145.00 − $370.00 = $1,650.00.",
+    "numericAnswer": {
+      "value": 1650,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-09",
+    "kind": "calculation",
+    "term": "$1,700.00",
+    "definition": "A car restoration has already cost $2,280.00, which cannot be recovered. Finishing the restoration costs $1,180.00 and produces a sale worth $3,260.00. Selling the unfinished car now yields $380.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$2,080.00",
+      "-$200.00",
+      "-$580.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,280.00. Finishing rather than selling as-is changes net benefits by $3,260.00 − $1,180.00 − $380.00 = $1,700.00.",
+    "numericAnswer": {
+      "value": 1700,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-10",
+    "kind": "calculation",
+    "term": "$1,750.00",
+    "definition": "A car restoration has already cost $2,340.00, which cannot be recovered. Finishing the restoration costs $1,215.00 and produces a sale worth $3,355.00. Selling the unfinished car now yields $390.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$2,140.00",
+      "-$200.00",
+      "-$590.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,340.00. Finishing rather than selling as-is changes net benefits by $3,355.00 − $1,215.00 − $390.00 = $1,750.00.",
+    "numericAnswer": {
+      "value": 1750,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-11",
+    "kind": "calculation",
+    "term": "$1,800.00",
+    "definition": "A car restoration has already cost $2,400.00, which cannot be recovered. Finishing the restoration costs $1,250.00 and produces a sale worth $3,450.00. Selling the unfinished car now yields $400.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$2,200.00",
+      "-$200.00",
+      "-$600.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,400.00. Finishing rather than selling as-is changes net benefits by $3,450.00 − $1,250.00 − $400.00 = $1,800.00.",
+    "numericAnswer": {
+      "value": 1800,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-12",
+    "kind": "calculation",
+    "term": "$1,850.00",
+    "definition": "A car restoration has already cost $2,460.00, which cannot be recovered. Finishing the restoration costs $1,285.00 and produces a sale worth $3,545.00. Selling the unfinished car now yields $410.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$2,260.00",
+      "-$200.00",
+      "-$610.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,460.00. Finishing rather than selling as-is changes net benefits by $3,545.00 − $1,285.00 − $410.00 = $1,850.00.",
+    "numericAnswer": {
+      "value": 1850,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-13",
+    "kind": "calculation",
+    "term": "$1,900.00",
+    "definition": "A car restoration has already cost $2,520.00, which cannot be recovered. Finishing the restoration costs $1,320.00 and produces a sale worth $3,640.00. Selling the unfinished car now yields $420.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$2,320.00",
+      "-$200.00",
+      "-$620.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,520.00. Finishing rather than selling as-is changes net benefits by $3,640.00 − $1,320.00 − $420.00 = $1,900.00.",
+    "numericAnswer": {
+      "value": 1900,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-14",
+    "kind": "calculation",
+    "term": "$1,950.00",
+    "definition": "A car restoration has already cost $2,580.00, which cannot be recovered. Finishing the restoration costs $1,355.00 and produces a sale worth $3,735.00. Selling the unfinished car now yields $430.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$2,380.00",
+      "-$200.00",
+      "-$630.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,580.00. Finishing rather than selling as-is changes net benefits by $3,735.00 − $1,355.00 − $430.00 = $1,950.00.",
+    "numericAnswer": {
+      "value": 1950,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-15",
+    "kind": "calculation",
+    "term": "$2,000.00",
+    "definition": "A car restoration has already cost $2,640.00, which cannot be recovered. Finishing the restoration costs $1,390.00 and produces a sale worth $3,830.00. Selling the unfinished car now yields $440.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$2,440.00",
+      "-$200.00",
+      "-$640.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,640.00. Finishing rather than selling as-is changes net benefits by $3,830.00 − $1,390.00 − $440.00 = $2,000.00.",
+    "numericAnswer": {
+      "value": 2000,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-16",
+    "kind": "calculation",
+    "term": "$2,050.00",
+    "definition": "A car restoration has already cost $2,700.00, which cannot be recovered. Finishing the restoration costs $1,425.00 and produces a sale worth $3,925.00. Selling the unfinished car now yields $450.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$2,500.00",
+      "-$200.00",
+      "-$650.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,700.00. Finishing rather than selling as-is changes net benefits by $3,925.00 − $1,425.00 − $450.00 = $2,050.00.",
+    "numericAnswer": {
+      "value": 2050,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-17",
+    "kind": "calculation",
+    "term": "$2,100.00",
+    "definition": "A car restoration has already cost $2,760.00, which cannot be recovered. Finishing the restoration costs $1,460.00 and produces a sale worth $4,020.00. Selling the unfinished car now yields $460.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$2,560.00",
+      "-$200.00",
+      "-$660.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,760.00. Finishing rather than selling as-is changes net benefits by $4,020.00 − $1,460.00 − $460.00 = $2,100.00.",
+    "numericAnswer": {
+      "value": 2100,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-18",
+    "kind": "calculation",
+    "term": "$2,150.00",
+    "definition": "A car restoration has already cost $2,820.00, which cannot be recovered. Finishing the restoration costs $1,495.00 and produces a sale worth $4,115.00. Selling the unfinished car now yields $470.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$2,620.00",
+      "-$200.00",
+      "-$670.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,820.00. Finishing rather than selling as-is changes net benefits by $4,115.00 − $1,495.00 − $470.00 = $2,150.00.",
+    "numericAnswer": {
+      "value": 2150,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-19",
+    "kind": "calculation",
+    "term": "$2,200.00",
+    "definition": "A car restoration has already cost $2,880.00, which cannot be recovered. Finishing the restoration costs $1,530.00 and produces a sale worth $4,210.00. Selling the unfinished car now yields $480.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$2,680.00",
+      "-$200.00",
+      "-$680.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,880.00. Finishing rather than selling as-is changes net benefits by $4,210.00 − $1,530.00 − $480.00 = $2,200.00.",
+    "numericAnswer": {
+      "value": 2200,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-sunk-cost-continuation-20",
+    "kind": "calculation",
+    "term": "$2,250.00",
+    "definition": "A car restoration has already cost $2,940.00, which cannot be recovered. Finishing the restoration costs $1,565.00 and produces a sale worth $4,305.00. Selling the unfinished car now yields $490.00 as-is. What is the incremental net benefit of finishing instead of selling as-is?",
+    "distractors": [
+      "$2,740.00",
+      "-$200.00",
+      "-$690.00"
+    ],
+    "explanation": "Ignore the unrecoverable $2,940.00. Finishing rather than selling as-is changes net benefits by $4,305.00 − $1,565.00 − $490.00 = $2,250.00.",
+    "numericAnswer": {
+      "value": 2250,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-01",
+    "kind": "calculation",
+    "term": "$1,200.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $24,000.00 and the stated purchase-tax rate is 5.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$1,700.00",
+      "$500.00",
+      "$1,350.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $24,000.00 × 5/100 = $1,200.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 1200,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-02",
+    "kind": "calculation",
+    "term": "$1,464.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $24,400.00 and the stated purchase-tax rate is 6.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$2,094.00",
+      "$630.00",
+      "$1,680.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $24,400.00 × 6/100 = $1,464.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 1464,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-03",
+    "kind": "calculation",
+    "term": "$1,736.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $24,800.00 and the stated purchase-tax rate is 7.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$2,506.00",
+      "$770.00",
+      "$2,030.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $24,800.00 × 7/100 = $1,736.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 1736,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-04",
+    "kind": "calculation",
+    "term": "$2,016.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $25,200.00 and the stated purchase-tax rate is 8.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$2,936.00",
+      "$920.00",
+      "$2,400.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $25,200.00 × 8/100 = $2,016.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 2016,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-05",
+    "kind": "calculation",
+    "term": "$1,400.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $28,000.00 and the stated purchase-tax rate is 5.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$1,960.00",
+      "$560.00",
+      "$1,550.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $28,000.00 × 5/100 = $1,400.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 1400,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-06",
+    "kind": "calculation",
+    "term": "$1,704.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $28,400.00 and the stated purchase-tax rate is 6.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$2,406.00",
+      "$702.00",
+      "$1,920.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $28,400.00 × 6/100 = $1,704.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 1704,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-07",
+    "kind": "calculation",
+    "term": "$2,016.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $28,800.00 and the stated purchase-tax rate is 7.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$2,870.00",
+      "$854.00",
+      "$2,310.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $28,800.00 × 7/100 = $2,016.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 2016,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-08",
+    "kind": "calculation",
+    "term": "$2,336.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $29,200.00 and the stated purchase-tax rate is 8.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$3,352.00",
+      "$1,016.00",
+      "$2,720.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $29,200.00 × 8/100 = $2,336.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 2336,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-09",
+    "kind": "calculation",
+    "term": "$1,600.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $32,000.00 and the stated purchase-tax rate is 5.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$2,220.00",
+      "$620.00",
+      "$1,750.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $32,000.00 × 5/100 = $1,600.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 1600,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-10",
+    "kind": "calculation",
+    "term": "$1,944.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $32,400.00 and the stated purchase-tax rate is 6.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$2,718.00",
+      "$774.00",
+      "$2,160.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $32,400.00 × 6/100 = $1,944.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 1944,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-11",
+    "kind": "calculation",
+    "term": "$2,296.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $32,800.00 and the stated purchase-tax rate is 7.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$3,234.00",
+      "$938.00",
+      "$2,590.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $32,800.00 × 7/100 = $2,296.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 2296,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-12",
+    "kind": "calculation",
+    "term": "$2,656.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $33,200.00 and the stated purchase-tax rate is 8.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$3,768.00",
+      "$1,112.00",
+      "$3,040.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $33,200.00 × 8/100 = $2,656.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 2656,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-13",
+    "kind": "calculation",
+    "term": "$1,800.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $36,000.00 and the stated purchase-tax rate is 5.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$2,480.00",
+      "$680.00",
+      "$1,950.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $36,000.00 × 5/100 = $1,800.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 1800,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-14",
+    "kind": "calculation",
+    "term": "$2,184.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $36,400.00 and the stated purchase-tax rate is 6.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$3,030.00",
+      "$846.00",
+      "$2,400.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $36,400.00 × 6/100 = $2,184.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 2184,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-15",
+    "kind": "calculation",
+    "term": "$2,576.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $36,800.00 and the stated purchase-tax rate is 7.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$3,598.00",
+      "$1,022.00",
+      "$2,870.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $36,800.00 × 7/100 = $2,576.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 2576,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-16",
+    "kind": "calculation",
+    "term": "$2,976.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $37,200.00 and the stated purchase-tax rate is 8.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$4,184.00",
+      "$1,208.00",
+      "$3,360.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $37,200.00 × 8/100 = $2,976.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 2976,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-17",
+    "kind": "calculation",
+    "term": "$2,000.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $40,000.00 and the stated purchase-tax rate is 5.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$2,740.00",
+      "$740.00",
+      "$2,150.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $40,000.00 × 5/100 = $2,000.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 2000,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-18",
+    "kind": "calculation",
+    "term": "$2,424.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $40,400.00 and the stated purchase-tax rate is 6.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$3,342.00",
+      "$918.00",
+      "$2,640.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $40,400.00 × 6/100 = $2,424.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 2424,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-19",
+    "kind": "calculation",
+    "term": "$2,856.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $40,800.00 and the stated purchase-tax rate is 7.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$3,962.00",
+      "$1,106.00",
+      "$3,150.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $40,800.00 × 7/100 = $2,856.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 2856,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-small-country-tariff-revenue-20",
+    "kind": "calculation",
+    "term": "$3,296.00",
+    "definition": "For a hypothetical car purchase, the taxable price is $41,200.00 and the stated purchase-tax rate is 8.0%. No trade-in credit, exemption, or other taxable charge applies. How much tax is added?",
+    "distractors": [
+      "$4,600.00",
+      "$1,304.00",
+      "$3,680.00"
+    ],
+    "explanation": "Under the stated hypothetical terms, tax = $41,200.00 × 8/100 = $3,296.00. This is not a statement of a particular jurisdiction's tax rate.",
+    "numericAnswer": {
+      "value": 3296,
+      "unit": "USD"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-01",
+    "kind": "calculation",
+    "term": "2.68%",
+    "definition": "Your annual car operating costs rise 3.40%, while miles driven rise 0.70%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "2.70%",
+      "4.10%",
+      "4.86%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 3.4/100) ÷ (1 + 0.7/100) − 1] × 100 = 2.68%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 2.68,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-02",
+    "kind": "calculation",
+    "term": "2.77%",
+    "definition": "Your annual car operating costs rise 3.52%, while miles driven rise 0.73%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "2.79%",
+      "4.25%",
+      "4.82%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 3.52/100) ÷ (1 + 0.73/100) − 1] × 100 = 2.77%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 2.77,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-03",
+    "kind": "calculation",
+    "term": "2.86%",
+    "definition": "Your annual car operating costs rise 3.64%, while miles driven rise 0.76%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "2.88%",
+      "4.40%",
+      "4.79%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 3.6399999999999997/100) ÷ (1 + 0.76/100) − 1] × 100 = 2.86%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 2.86,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-04",
+    "kind": "calculation",
+    "term": "2.95%",
+    "definition": "Your annual car operating costs rise 3.76%, while miles driven rise 0.79%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "2.97%",
+      "4.55%",
+      "4.76%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 3.76/100) ÷ (1 + 0.7899999999999999/100) − 1] × 100 = 2.95%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 2.95,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-05",
+    "kind": "calculation",
+    "term": "3.04%",
+    "definition": "Your annual car operating costs rise 3.88%, while miles driven rise 0.82%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "3.06%",
+      "4.70%",
+      "4.73%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 3.88/100) ÷ (1 + 0.82/100) − 1] × 100 = 3.04%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 3.04,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-06",
+    "kind": "calculation",
+    "term": "3.12%",
+    "definition": "Your annual car operating costs rise 4.00%, while miles driven rise 0.85%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "3.15%",
+      "4.85%",
+      "4.71%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 4/100) ÷ (1 + 0.85/100) − 1] × 100 = 3.12%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 3.12,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-07",
+    "kind": "calculation",
+    "term": "3.21%",
+    "definition": "Your annual car operating costs rise 4.12%, while miles driven rise 0.88%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "3.24%",
+      "5.00%",
+      "4.68%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 4.12/100) ÷ (1 + 0.8799999999999999/100) − 1] × 100 = 3.21%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 3.21,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-08",
+    "kind": "calculation",
+    "term": "3.30%",
+    "definition": "Your annual car operating costs rise 4.24%, while miles driven rise 0.91%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "3.33%",
+      "5.15%",
+      "4.66%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 4.24/100) ÷ (1 + 0.9099999999999999/100) − 1] × 100 = 3.30%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 3.3,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-09",
+    "kind": "calculation",
+    "term": "3.39%",
+    "definition": "Your annual car operating costs rise 4.36%, while miles driven rise 0.94%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "3.42%",
+      "5.30%",
+      "4.64%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 4.359999999999999/100) ÷ (1 + 0.94/100) − 1] × 100 = 3.39%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 3.39,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-10",
+    "kind": "calculation",
+    "term": "3.48%",
+    "definition": "Your annual car operating costs rise 4.48%, while miles driven rise 0.97%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "3.51%",
+      "5.45%",
+      "4.62%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 4.48/100) ÷ (1 + 0.97/100) − 1] × 100 = 3.48%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 3.48,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-11",
+    "kind": "calculation",
+    "term": "3.56%",
+    "definition": "Your annual car operating costs rise 4.60%, while miles driven rise 1.00%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "3.60%",
+      "5.60%",
+      "4.60%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 4.6/100) ÷ (1 + 1/100) − 1] × 100 = 3.56%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 3.56,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-12",
+    "kind": "calculation",
+    "term": "3.65%",
+    "definition": "Your annual car operating costs rise 4.72%, while miles driven rise 1.03%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "3.69%",
+      "5.75%",
+      "4.58%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 4.72/100) ÷ (1 + 1.0299999999999998/100) − 1] × 100 = 3.65%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 3.65,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-13",
+    "kind": "calculation",
+    "term": "3.74%",
+    "definition": "Your annual car operating costs rise 4.84%, while miles driven rise 1.06%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "3.78%",
+      "5.90%",
+      "4.57%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 4.84/100) ÷ (1 + 1.06/100) − 1] × 100 = 3.74%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 3.74,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-14",
+    "kind": "calculation",
+    "term": "3.83%",
+    "definition": "Your annual car operating costs rise 4.96%, while miles driven rise 1.09%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "3.87%",
+      "6.05%",
+      "4.55%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 4.96/100) ÷ (1 + 1.0899999999999999/100) − 1] × 100 = 3.83%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 3.83,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-15",
+    "kind": "calculation",
+    "term": "3.92%",
+    "definition": "Your annual car operating costs rise 5.08%, while miles driven rise 1.12%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "3.96%",
+      "6.20%",
+      "4.54%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 5.08/100) ÷ (1 + 1.1199999999999999/100) − 1] × 100 = 3.92%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 3.92,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-16",
+    "kind": "calculation",
+    "term": "4.00%",
+    "definition": "Your annual car operating costs rise 5.20%, while miles driven rise 1.15%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "4.05%",
+      "6.35%",
+      "4.52%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 5.199999999999999/100) ÷ (1 + 1.15/100) − 1] × 100 = 4.00%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 4,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-17",
+    "kind": "calculation",
+    "term": "4.09%",
+    "definition": "Your annual car operating costs rise 5.32%, while miles driven rise 1.18%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "4.14%",
+      "6.50%",
+      "4.51%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 5.32/100) ÷ (1 + 1.18/100) − 1] × 100 = 4.09%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 4.09,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-18",
+    "kind": "calculation",
+    "term": "4.18%",
+    "definition": "Your annual car operating costs rise 5.44%, while miles driven rise 1.21%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "4.23%",
+      "6.65%",
+      "4.50%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 5.4399999999999995/100) ÷ (1 + 1.21/100) − 1] × 100 = 4.18%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 4.18,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-19",
+    "kind": "calculation",
+    "term": "4.27%",
+    "definition": "Your annual car operating costs rise 5.56%, while miles driven rise 1.24%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "4.32%",
+      "6.80%",
+      "4.48%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 5.5600000000000005/100) ÷ (1 + 1.24/100) − 1] × 100 = 4.27%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 4.27,
+      "unit": "%"
+    }
+  },
+  {
+    "id": "drill-econ-drill-real-per-capita-growth-20",
+    "kind": "calculation",
+    "term": "4.35%",
+    "definition": "Your annual car operating costs rise 5.68%, while miles driven rise 1.27%. Using only those changes, what is the exact percentage increase in operating cost per mile? Round to 2 decimal places.",
+    "distractors": [
+      "4.41%",
+      "6.95%",
+      "4.47%"
+    ],
+    "explanation": "Cost per mile changes by the cost factor divided by the mileage factor: [(1 + 5.68/100) ÷ (1 + 1.27/100) − 1] × 100 = 4.35%. Simply subtracting the two growth rates is only an approximation.",
+    "numericAnswer": {
+      "value": 4.35,
+      "unit": "%"
+    }
   }
 ]

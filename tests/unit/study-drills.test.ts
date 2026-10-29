@@ -8,6 +8,7 @@ import { buildDeck } from "../../src/hooks/useFlashcardDeck";
 import { parseDrillCards } from "../../src/lib/flashcard-catalog";
 import { checkCalculationAnswer } from "../../src/lib/flashcard-answer";
 import { parsePracticeBank } from "../../src/schemas";
+import taxonomy from "../../src/data/study-units.json";
 
 const units = Object.fromEntries(
   Object.entries(catalog).map(([unit, entry]) => [
@@ -31,6 +32,8 @@ const questions = banks.flatMap((bank) =>
     Object.values(topics).flatMap((levels) => Object.values(levels).flat()),
   ),
 );
+const familyById = new Map(manifest.families.map(family => [family.id, family]));
+const unitByCardId = new Map(Object.entries(units).flatMap(([unit, cards]) => cards.map(card => [card.id, unit])));
 
 describe("5,000-item drill expansion", () => {
   it("adds exactly 5,000 usable items to each mode across 250 distinct families", () => {
@@ -41,34 +44,36 @@ describe("5,000-item drill expansion", () => {
       250,
     );
     expect(questions).toHaveLength(5000);
-    expect(Object.keys(units)).toHaveLength(30);
+    expect(Object.keys(units)).toEqual(taxonomy.flashcards);
     const deck = buildDeck(Object.keys(units), units);
     expect(deck).toHaveLength(5000);
     expect(new Set(deck.map((card) => card.id)).size).toBe(5000);
     expect(new Set(deck.map((card) => card.definition)).size).toBe(5000);
-    const combined = { ...FLASHCARD_UNITS, ...units };
+    const combined = Object.fromEntries(taxonomy.flashcards.map(unit => [unit, [...FLASHCARD_UNITS[unit]!, ...units[unit]!]]));
     expect(buildDeck(Object.keys(combined), combined)).toHaveLength(6611);
-    expect(Object.keys(units).some((unit) => unit in FLASHCARD_UNITS)).toBe(
-      false,
-    );
+    expect(Object.keys(combined)).toEqual(taxonomy.flashcards);
     const counts = new Map<string, number>();
     for (const question of questions)
       counts.set(question.familyId!, (counts.get(question.familyId!) ?? 0) + 1);
     expect([...counts.values()]).toEqual(Array(250).fill(20));
   });
 
-  it("keeps practice answers and flashcard solutions consistent for all 5,000 exercises", () => {
+  it("keeps all 5,000 exercises usable in their respective original units", () => {
     const byId = new Map(questions.map((question) => [question.id, question]));
     const positions = [0, 0, 0, 0];
     for (const card of Object.values(units).flat()) {
       const question = byId.get(card.id!)!;
       expect(question, card.id).toBeDefined();
-      expect(card.definition).toBe(question.question);
-      expect(card.term).toBe(question.answer);
-      expect(card.explanation).toBe(question.explanation);
-      expect([card.term, ...card.distractors!].sort()).toEqual(
-        [...question.choices].sort(),
-      );
+      const family = familyById.get(question.familyId!)!;
+      expect(family).toBeDefined();
+      expect(unitByCardId.get(card.id)).toBe(family.flashcardUnit);
+      expect(taxonomy.practice[family.category as keyof typeof taxonomy.practice]).toContain(family.topic);
+      if (!family.rewrittenPractice && !family.rewrittenFlashcards) {
+        expect(card.definition).toBe(question.question);
+        expect(card.term).toBe(question.answer);
+        expect(card.explanation).toBe(question.explanation);
+        expect([card.term, ...card.distractors!].sort()).toEqual([...question.choices].sort());
+      }
       expect(
         checkCalculationAnswer(card.term, card.numericAnswer!),
         card.id,

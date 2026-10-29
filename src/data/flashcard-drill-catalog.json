@@ -1,122 +1,50 @@
 {
-  "Pay and Cash Flow Drills": {
-    "count": 180,
-    "path": "/data/flashcard-drills/pay-and-cash-flow-drills.json"
+  "Banking": {
+    "count": 400,
+    "path": "/data/flashcard-drills/banking.json"
   },
-  "Budget Planning Drills": {
-    "count": 180,
-    "path": "/data/flashcard-drills/budget-planning-drills.json"
+  "Financial Decisions": {
+    "count": 460,
+    "path": "/data/flashcard-drills/financial-decisions.json"
   },
-  "Savings Goal Drills": {
-    "count": 180,
-    "path": "/data/flashcard-drills/savings-goal-drills.json"
+  "Making the Most of Your Income": {
+    "count": 620,
+    "path": "/data/flashcard-drills/making-the-most-of-your-income.json"
   },
-  "Bank Account Cost Drills": {
-    "count": 180,
-    "path": "/data/flashcard-drills/bank-account-cost-drills.json"
+  "Spending & Saving Plan": {
+    "count": 580,
+    "path": "/data/flashcard-drills/spending-saving-plan.json"
   },
-  "Credit Card Math Drills": {
-    "count": 180,
-    "path": "/data/flashcard-drills/credit-card-math-drills.json"
+  "Saving Goals and Future": {
+    "count": 560,
+    "path": "/data/flashcard-drills/saving-goals-and-future.json"
   },
-  "Loan Payment Drills": {
+  "Building Your Credit History": {
     "count": 160,
-    "path": "/data/flashcard-drills/loan-payment-drills.json"
+    "path": "/data/flashcard-drills/building-your-credit-history.json"
   },
-  "Housing Cost Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/housing-cost-drills.json"
+  "Borrowing Basics": {
+    "count": 280,
+    "path": "/data/flashcard-drills/borrowing-basics.json"
   },
-  "Car Ownership Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/car-ownership-drills.json"
+  "Credit Cards": {
+    "count": 260,
+    "path": "/data/flashcard-drills/credit-cards.json"
   },
-  "College Cost Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/college-cost-drills.json"
+  "Protecting Your Money and Identity": {
+    "count": 300,
+    "path": "/data/flashcard-drills/protecting-your-money-and-identity.json"
   },
-  "Insurance Cost Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/insurance-cost-drills.json"
+  "Buying a Car": {
+    "count": 280,
+    "path": "/data/flashcard-drills/buying-a-car.json"
   },
-  "Shopping Price Drills": {
-    "count": 180,
-    "path": "/data/flashcard-drills/shopping-price-drills.json"
+  "Paying for College": {
+    "count": 340,
+    "path": "/data/flashcard-drills/paying-for-college.json"
   },
-  "Subscription Value Drills": {
-    "count": 180,
-    "path": "/data/flashcard-drills/subscription-value-drills.json"
-  },
-  "Small Business Cash Drills": {
-    "count": 180,
-    "path": "/data/flashcard-drills/small-business-cash-drills.json"
-  },
-  "Fund Fee Drills": {
-    "count": 180,
-    "path": "/data/flashcard-drills/fund-fee-drills.json"
-  },
-  "Portfolio Allocation Drills": {
-    "count": 180,
-    "path": "/data/flashcard-drills/portfolio-allocation-drills.json"
-  },
-  "Investment Return Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/investment-return-drills.json"
-  },
-  "Bond Cash Flow Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/bond-cash-flow-drills.json"
-  },
-  "Retirement Saving Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/retirement-saving-drills.json"
-  },
-  "Payment and Currency Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/payment-and-currency-drills.json"
-  },
-  "Consumer Risk Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/consumer-risk-drills.json"
-  },
-  "Opportunity Cost Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/opportunity-cost-drills.json"
-  },
-  "Production and Cost Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/production-and-cost-drills.json"
-  },
-  "Supply and Demand Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/supply-and-demand-drills.json"
-  },
-  "Market Structure Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/market-structure-drills.json"
-  },
-  "Public Finance Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/public-finance-drills.json"
-  },
-  "Inflation Measurement Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/inflation-measurement-drills.json"
-  },
-  "Labor Data Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/labor-data-drills.json"
-  },
-  "Trade Data Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/trade-data-drills.json"
-  },
-  "Economic Growth Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/economic-growth-drills.json"
-  },
-  "Statistics Drills": {
-    "count": 160,
-    "path": "/data/flashcard-drills/statistics-drills.json"
+  "Investing Basics": {
+    "count": 760,
+    "path": "/data/flashcard-drills/investing-basics.json"
   }
 }

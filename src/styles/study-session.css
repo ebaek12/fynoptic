@@ -543,6 +543,10 @@ html body .study-session #stage-qwrap {
   }
 }
 @media (max-width: 600px) {
+  .session-feedback p {
+    /* Long original unit names need room above the question on small phones. */
+    max-height: min(14svh, 7rem);
+  }
   html body .study-session {
     --session-edge: 12px;
   }

@@ -7,7 +7,7 @@ import {
   type Mode,
 } from "../../src/components/flashcards/FlashcardWizard";
 import { PracticeWizard } from "../../src/components/practice/PracticeWizard";
-import { FLASHCARD_UNITS } from "../../src/data/flashcard-units";
+import { FLASHCARD_COUNTS } from "../../src/lib/flashcard-catalog";
 import type { PracticeBank } from "../../src/types";
 
 vi.mock("../../src/lib/toast", () => ({ showToast: vi.fn() }));
@@ -57,7 +57,7 @@ it("starts a flashcard session from the mode screen with the exact retained sele
   expect(element("#flashcard-setup").dataset.step).toBe("1");
   click("#unit-list input");
   expect(element(".study-summary").textContent).toContain(
-    `${FLASHCARD_UNITS.Banking!.length} cards`,
+    `${FLASHCARD_COUNTS.Banking} cards`,
   );
   click("#confirm-units");
   expect(container.querySelector("#block-units")).toBeNull();

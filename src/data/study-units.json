@@ -1,0 +1,38 @@
+{
+  "flashcards": [
+    "Banking",
+    "Financial Decisions",
+    "Making the Most of Your Income",
+    "Spending & Saving Plan",
+    "Saving Goals and Future",
+    "Building Your Credit History",
+    "Borrowing Basics",
+    "Credit Cards",
+    "Protecting Your Money and Identity",
+    "Buying a Car",
+    "Paying for College",
+    "Investing Basics"
+  ],
+  "practice": {
+    "Personal Finance": [
+      "Money Market Instruments",
+      "Fixed Income & Bonds",
+      "Equities & Stock Market Mechanics",
+      "Derivatives & Options",
+      "Regulatory & Exchange Bodies",
+      "Monetary Policy"
+    ],
+    "Economics": [
+      "Macroeconomic Theory",
+      "Banking and Monetary Policy",
+      "International Economics & Trade",
+      "Fiscal Policy and Government",
+      "Economic Theory and Thought",
+      "Market Structures & Costs",
+      "Consumer & Producer Theory",
+      "Financial Markets & Instruments",
+      "Institutions & History",
+      "Quantitative & Data Skills"
+    ]
+  }
+}
