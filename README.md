@@ -90,7 +90,14 @@ appended to the original units so existing saved progress keeps its identifiers.
 Source references are recorded in `src/data/study-expansion-sources.json`.
 Content tests check counts, uniqueness, answer validity, and session coverage.
 The course catalog contains two complete courses and eleven clearly marked future
-courses. Course 2, **Subscriptions & Memberships** (`/coursetwo`), unlocks after
+courses. All 13 have dedicated outlines at `/courses/{slug}`, with distinct goals,
+module descriptions, practical exercises, and assessments, defined in
+`src/data/course-catalog.ts`. Outlines remain viewable while Courses 2–13 show
+"Locked until Course 1 is complete." Completing that prerequisite unlocks Course 2;
+the remaining courses show that their full lessons are still being prepared.
+The catalog and outline access panels use the same progress check.
+
+Course 2, **Subscriptions & Memberships** (`/coursetwo`), unlocks after
 all Course 1 lessons and exercises plus a passing final assessment. Its 60-minute
 path includes 24 substantial reading sections, six graded practical cases, twelve
 module knowledge checks, a diagnostic, and a 12-question final (80% to pass).

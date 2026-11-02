@@ -1,50 +1,15 @@
 ---
 import Base from '../layouts/Base.astro';
 import '../styles/courses.css';
-import { CourseTwoCard } from '../components/course/CourseTwoCard';
-
-const lockedCourses = [
-  ['Disputes & Refunds', 'How to request a refund'],
-  ['Money Skills for Students', 'Spending at school and online'],
-  ['AI Scams & Deepfakes', 'Fake voices, images, and messages'],
-  ['Privacy Permissions', 'What apps can access'],
-  ['Ad Transparency', 'Sponsored posts and targeted ads'],
-  ['Chargebacks', 'How to dispute a card charge'],
-  ['Banking Without Hidden Fees', 'Account terms, overdrafts, and payment apps'],
-  ['Credit & Borrowing', 'Interest, credit reports, and loan comparisons'],
-  ['Safer Online Shopping', 'Seller checks, delivery problems, and fake offers'],
-  ['Housing & Rental Costs', 'Leases, deposits, and the costs of moving'],
-  ['Investing Without the Hype', 'Risk, fees, and misleading investment claims'],
-];
+import { CourseCatalog } from '../components/course/CourseCatalog';
+import { COURSE_CATALOG } from '../data/course-catalog';
+const cards = COURSE_CATALOG.map(({ modules, headline, accent, outcome, skillsTitle, assessment, ...course }) => ({ ...course, moduleCount: modules.length }));
 ---
 <Base title="Courses | Fynoptic" description="Free lessons on misleading checkout pages, unwanted charges, and consumer rights." canonical="/courses">
   <section class="course-library page-heading container" aria-labelledby="courses-hero-title">
     <h1 id="courses-hero-title">Courses</h1>
     <p class="library-intro">Learn what to check before you buy, subscribe, or share your details.</p>
-    <div id="catalog" class="library-grid">
-      <article class="library-card library-card--available" data-course-id="dark-patterns">
-        <div class="library-card-top"><span>Course 01</span><span class="library-available">Available now</span></div>
-        <h2>Dark Patterns</h2>
-        <p class="library-subtitle">How to Spot Them</p>
-        <p class="library-description">Study misleading checkout pages and cancellation screens, then document an example yourself.</p>
-        <div class="library-card-bottom">
-          <p class="library-format">4 modules · Self-paced</p>
-          <a class="btn btn-primary" href="/courseone" data-track="cta_click" aria-label="Open course Dark Patterns: How to Spot Them">Open Course <span aria-hidden="true">→</span></a>
-        </div>
-      </article>
-      <CourseTwoCard client:load />
-      {lockedCourses.map(([title, subtitle], index) => (
-        <article class="library-card library-card--locked" aria-describedby={`course-lock-${index + 3}`}>
-          <div class="library-card-top"><span>Course {String(index + 3).padStart(2, '0')}</span><span>In development</span></div>
-          <h2>{title}</h2>
-          <p class="library-subtitle">{subtitle}</p>
-          <div class="library-card-bottom" id={`course-lock-${index + 3}`}>
-            <p class="library-lock">Coming soon</p>
-            <p class="library-lock-hint">This course is being prepared.</p>
-          </div>
-        </article>
-      ))}
-    </div>
+    <CourseCatalog courses={cards} client:load />
     <p class="library-footnote">Course progress saves on your device. <a href="/articles">Browse the articles</a> for more on each topic.</p>
   </section>
 </Base>

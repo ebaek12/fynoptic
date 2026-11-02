@@ -161,6 +161,8 @@ html body .course-heading { padding-top: 32px; padding-bottom: 40px; }
 .course-hero-description { max-width: 58ch; font-size: 17px; line-height: 1.75; color: var(--muted-fg); }
 .course-hero-facts { display: flex; flex-wrap: wrap; gap: 12px 22px; margin-top: 28px; font-size: 12px; color: var(--muted-fg); }
 .course-hero-facts span + span { border-left: 1px solid var(--db-rule); padding-left: 22px; }
+.course-heading-outline { display: inline-block; color: var(--db-optic); font-size: 13px; margin-top: 22px; text-underline-offset: 4px; }
+.course-heading-outline:hover { text-decoration: underline; }
 .course-outcome { position: relative; background: var(--course-tint); border: 1px solid var(--db-rule); border-radius: 12px; padding: 30px; overflow: hidden; }
 .course-outcome-mark { display: block; font-size: 56px; line-height: 1; font-weight: 400; letter-spacing: -.06em; color: var(--db-optic); margin-bottom: 28px; }
 .course-outcome > p:not(.course-eyebrow) { font-size: 19px; line-height: 1.55; margin: 14px 0 24px; max-width: 28ch; }

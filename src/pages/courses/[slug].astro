@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import CourseHeading from '../../components/course/CourseHeading.astro';
+import { CourseOutlineAccess } from '../../components/course/CourseOutlineAccess';
+import { COURSE_CATALOG, outlineHref } from '../../data/course-catalog';
+import '../../styles/course-one.css';
+import '../../styles/course-outlines.css';
+
+export function getStaticPaths() {
+  return COURSE_CATALOG.map(course => ({ params: { slug: course.id }, props: { course } }));
+}
+const { course } = Astro.props;
+const position = COURSE_CATALOG.findIndex(item => item.id === course.id);
+const previous = COURSE_CATALOG[position - 1];
+const next = COURSE_CATALOG[position + 1];
+---
+<Base title={`${course.title} — Course Outline | Fynoptic`} description={course.description} canonical={outlineHref(course)} bodyClass="course-page course-outline-page">
+  <CourseHeading number={String(course.number).padStart(2, '0')} title={course.headline} accent={course.accent} description={course.description} modules={course.modules.length} duration={course.duration} outcome={course.outcome} />
+  <div class="course-syllabus-layout">
+    <aside class="course-syllabus-access" aria-label="Course access">
+      <CourseOutlineAccess number={course.number} ready={course.ready} lessonHref={course.lessonHref} client:load />
+      <noscript><p class="course-save-note">{course.number === 1 ? 'Course 1 is the starting course.' : 'Locked until Course 1 is complete. Turn on JavaScript to check your saved progress.'}</p></noscript>
+      <a class="course-syllabus-jump" href="#course-syllabus">Explore the module outline ↓</a>
+    </aside>
+    <section class="course-detailed-syllabus" id="course-syllabus" aria-labelledby="syllabus-title">
+      <span class="course-eyebrow">{course.ready ? 'YOUR LEARNING PATH' : 'A LOOK AT THE PLANNED COURSE'}</span>
+      <h2 id="syllabus-title">{course.skillsTitle}</h2>
+      <p class="course-intro">{course.ready ? 'See what each module covers and how you’ll put the skill into practice.' : 'A focused sequence of lessons and practical cases. This outline previews the course; the full learning activities are being prepared.'}</p>
+      <ol class="course-module-outline">
+        {course.modules.map((module, index) => <li>
+          <div class="course-module-number" aria-hidden="true">{String(index + 1).padStart(2, '0')}</div>
+          <div class="course-module-detail">
+            <div class="course-module-meta"><span>MODULE {String(index + 1).padStart(2, '0')}</span>{module.minutes && <span>{course.ready ? 'About' : 'Planned'} {module.minutes} min</span>}</div>
+            <h3>{module.title}</h3>
+            <p>{module.description}</p>
+            <div class="course-outline-practice"><span>{course.ready ? 'PUT IT INTO PRACTICE' : 'PLANNED PRACTICE'}</span><p>{module.practice}</p></div>
+          </div>
+        </li>)}
+      </ol>
+      <section class="course-outline-finish" aria-labelledby="finish-title">
+        <span class="course-eyebrow">{course.ready ? 'BRING IT ALL TOGETHER' : 'PLANNED CAPSTONE & ASSESSMENT'}</span>
+        <h3 id="finish-title">{course.ready ? 'Show what you’ve learned.' : 'Put the method to work.'}</h3>
+        <p>{course.assessment}</p>
+        {!course.ready && <p class="course-outline-timing">Planned pacing: 3 minutes to find your starting point, 49 minutes across six modules, and 8 minutes for the final assessment.</p>}
+      </section>
+      <nav class="course-outline-browse" aria-label="Explore course outlines">
+        {previous ? <a href={outlineHref(previous)}><small>← PREVIOUS OUTLINE</small><span>{previous.title}</span></a> : <a href="/courses"><small>← THE CLASSROOM</small><span>All courses</span></a>}
+        {next ? <a href={outlineHref(next)}><small>NEXT OUTLINE →</small><span>{next.title}</span></a> : <a href="/courses"><small>THE CLASSROOM →</small><span>Back to all courses</span></a>}
+      </nav>
+    </section>
+  </div>
+</Base>

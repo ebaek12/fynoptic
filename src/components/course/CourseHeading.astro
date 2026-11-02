@@ -1,6 +1,6 @@
 ---
-interface Props { number: string; title: string; accent: string; description: string; modules: number; duration: string; outcome: string; }
-const { number, title, accent, description, modules, duration, outcome } = Astro.props;
+interface Props { number: string; title: string; accent: string; description: string; modules: number; duration: string; outcome: string; outlineHref?: string; }
+const { number, title, accent, description, modules, duration, outcome, outlineHref } = Astro.props;
 ---
 <header class="course-heading">
   <a href="/courses" class="course-back">← All courses</a>
@@ -10,6 +10,7 @@ const { number, title, accent, description, modules, duration, outcome } = Astro
       <h1>{title}<br /><span>{accent}</span></h1>
       <p class="course-hero-description">{description}</p>
       <div class="course-hero-facts"><span>{duration}</span><span>{modules} guided modules</span><span>Free · Self-paced</span></div>
+      {outlineHref && <a class="course-heading-outline" href={outlineHref}>View course outline →</a>}
     </div>
     <aside class="course-outcome" aria-label="Your learning goal">
       <span class="course-outcome-mark" aria-hidden="true">{number}</span>

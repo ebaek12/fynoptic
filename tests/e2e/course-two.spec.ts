@@ -41,7 +41,8 @@ test('course 2 checks prerequisites on direct URLs and the library accurately re
   await page.goto('/courses');
   await expect(page.locator('.library-card')).toHaveCount(13);
   await expect(page.locator('[data-course-id="subscriptions"]')).toContainText('Locked until Course 1 is complete');
-  await expect(page.getByText('Coming soon', { exact: true })).toHaveCount(11);
+  await expect(page.getByText('Locked until Course 1 is complete', { exact: true })).toHaveCount(12);
+  await expect(page.getByRole('link', { name: /^View course outline:/ })).toHaveCount(13);
   await page.evaluate(one => localStorage.setItem('ff_dp_state', JSON.stringify({ postQuiz: one.postQuiz, certificate: { issued: true } })), courseOne);
   await page.goto('/coursetwo#assessment');
   await expect(page.getByRole('heading', { name: 'First, finish Course 1.' })).toBeVisible();
