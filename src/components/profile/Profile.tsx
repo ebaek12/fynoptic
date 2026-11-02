@@ -5,6 +5,7 @@ import { getCourseProgress } from "@/lib/storage";
 import { showToast } from "@/lib/toast";
 import { useSubmitLock } from "@/hooks/useSubmitLock";
 import { ProfileSettings } from "./ProfileSettings";
+import { SubscriptionProfileProgress } from "../course/SubscriptionProfileProgress";
 
 const DP_STATE_LS = "ff_dp_state";
 const DP_STATE_COOKIE = "ff_dp_state_v2";
@@ -224,6 +225,7 @@ export function Profile() {
           <p className="account-note">
             Course progress is saved on this device.
           </p>
+          <SubscriptionProfileProgress />
         </aside>
       </div>
     </section>

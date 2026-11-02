@@ -156,15 +156,15 @@ export function CourseOne() {
               onVideoDone={() => { setSelected(id); actions.setModuleVideoDone(unit); }}
               onArticleDone={() => { setSelected(id); actions.setModuleArticleDone(unit); }}
               onDrillsChecked={actions.setDrillsChecked} />
-            {unit === 2 && <IdExercise locked={false} done={state.m2.idExercise} onComplete={() => { setSelected(id); actions.completeIdExercise(); }} />}
+            {unit === 2 && (state.m2.video && state.m2.article ? <IdExercise locked={false} done={state.m2.idExercise} onComplete={() => { setSelected(id); actions.completeIdExercise(); }} /> : <p className="course-locked-activity">Complete the video or notes and article to unlock pattern practice.</p>)}
           </>);
         })}
         {!locks['#module-4'].locked && section('#module-4', <>
           <Module unit={4} locked={false} articleDone={state.m4.article} mdPath={paths[4]} onArticleDone={() => { setSelected('#module-4'); actions.setModuleArticleDone(4); }} />
-          <RiskAudit locked={false} auditSubmitted={state.m4.auditSubmitted} auditId={state.m4.auditId} onSubmit={id => { setSelected('#module-4'); actions.completeAudit(id); }} />
+          {state.m4.article ? <RiskAudit locked={false} auditSubmitted={state.m4.auditSubmitted} auditId={state.m4.auditId} onSubmit={id => { setSelected('#module-4'); actions.completeAudit(id); }} /> : <p className="course-locked-activity">Complete the article to unlock your evidence record.</p>}
         </>)}
         {!locks['#post-quiz'].locked && section('#post-quiz', <PostQuiz state={state.postQuiz} locked={false} onAnswerChange={actions.setPostQuizAnswer} onSubmit={result => { setSelected('#post-quiz'); actions.submitPostQuiz(result); }} onRetake={actions.retakePostQuiz} />)}
-        {state.postQuiz.pass && section('#certificate', <Certificate postQuizScore={state.postQuiz.score} certificate={state.certificate} onIssue={actions.issueCertificate} />)}
+        {!locks['#certificate'].locked && state.postQuiz.pass && section('#certificate', <Certificate postQuizScore={state.postQuiz.score} certificate={state.certificate} onIssue={actions.issueCertificate} />)}
       </>}
     </div>
   </div>;

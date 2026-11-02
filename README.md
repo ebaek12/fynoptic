@@ -89,7 +89,25 @@ explanations. The 1,000 new flashcards are in `src/data/flashcard-expansion.json
 appended to the original units so existing saved progress keeps its identifiers.
 Source references are recorded in `src/data/study-expansion-sources.json`.
 Content tests check counts, uniqueness, answer validity, and session coverage.
-The course catalog has one available course and twelve clearly marked placeholders.
+The course catalog contains two complete courses and eleven clearly marked future
+courses. Course 2, **Subscriptions & Memberships** (`/coursetwo`), unlocks after
+all Course 1 lessons and exercises plus a passing final assessment. Its 60-minute
+path includes 24 substantial reading sections, six graded practical cases, twelve
+module knowledge checks, a diagnostic, and a 12-question final (80% to pass).
+Both courses share the classroom header and visual styles.
+
+Course 2 content and reviewed references live in `src/data/course-two.ts`.
+`src/lib/subscription-progress.ts` validates sequential progress and guards every
+transition; `ff_subscriptions_v1` stores answers and reading progress locally.
+Readings require visible-tab time and reaching the end; later modules and the
+certificate cannot be opened by changing the URL. Completed learners can print
+a certificate and download a workbook with their worked cases and a reusable
+subscription tracker. The library and profile reflect Course 2 progress.
+
+Progress is browser-local, consistent with Course 1. These learning gates prevent
+skipping through normal navigation, but are not a security boundary against a
+person deliberately editing browser storage or application code. Tamper-resistant
+credentials would require authenticated server-side progress and assessment.
 
 The next expansion adds 5,000 worked calculation drills and 5,000
 question-and-answer flashcards: 250 exercise families with 20 distinct input

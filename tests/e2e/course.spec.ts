@@ -98,6 +98,9 @@ test('prequiz saves choices, restores them on reload, and supports keyboard navi
 test('article failure is recoverable and never counts as reading the lesson', async ({ page }) => {
   await page.route('**/content/01-foundations.md', route => route.fulfill({ status: 503, body: 'Unavailable' }));
   await seed(page, { preQuiz: pre });
+  await expect(page.locator('#m1-mark-read')).toBeDisabled();
+  await page.getByText('Prefer to read? Open the video notes').click();
+  await page.getByRole('button', { name: 'I’ve read the video notes' }).click();
   await expect(page.getByText('This lesson couldn’t load.')).toBeVisible();
   await expect(page.locator('#m1-mark-read')).toBeDisabled();
   await page.unroute('**/content/01-foundations.md');
@@ -158,6 +161,8 @@ test('final quiz retries failed loading', async ({ page }) => {
 
 test('evidence records restore after reloading and require a pattern', async ({ page }) => {
   await seed(page, { ...lessons, m4: { article: false, auditSubmitted: false, auditId: null } });
+  await expect(page.locator('#audit-form')).toHaveCount(0);
+  await readLesson(page, 4);
   await audit(page);
   await page.reload();
   await expect(page.locator('#audit-output')).toContainText('Example Shop');

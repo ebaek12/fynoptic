@@ -277,11 +277,13 @@ html body .account-page {
   background: var(--surface-2);
   margin: 10px 0 24px;
 }
-.account-page .account-progress #progress-fill {
+.account-page .account-progress > div {
   height: 100%;
   background: var(--db-optic);
   border-radius: inherit;
 }
+.account-subscription-course { border-top: 1px solid var(--db-rule); margin-top: 28px; padding-top: 24px; }
+.account-subscription-course > p { color: var(--muted-fg); font-size: 14px; line-height: 1.7; }
 .account-learning .btn {
   width: 100%;
   margin-bottom: 16px;

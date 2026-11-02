@@ -182,7 +182,7 @@ function ArticleCard({
   const { html, endRef, scrolledToEnd, failed, retry } = useArticleGate(mdPath, locked);
 
   function handleMarkRead(): void {
-    if (!html || !scrolledToEnd || articleDone) {
+    if (locked || !html || !scrolledToEnd || articleDone) {
       showToast('Scroll to the end first.', 'error');
       return;
     }
@@ -194,7 +194,7 @@ function ArticleCard({
   return (
     <article className={content.articleWrapperClass}>
       {content.articleHeading && <h3>{content.articleHeading}</h3>}
-      {failed ? <div className="course-load-state" role="alert"><p>This lesson couldn’t load. Check your connection and try again.</p><button className="course-button" onClick={retry}>Try loading again</button></div> : html === null ? <p role="status">Loading lesson…</p> : <>
+      {locked ? <p className="course-muted">Complete the video or its text notes to open the reading.</p> : failed ? <div className="course-load-state" role="alert"><p>This lesson couldn’t load. Check your connection and try again.</p><button className="course-button" onClick={retry}>Try loading again</button></div> : html === null ? <p role="status">Loading lesson…</p> : <>
         <LessonBody id={content.mdMountId} html={html} />
         <div ref={endRef} className="course-article-end" aria-hidden="true" />
       </>}
@@ -203,8 +203,8 @@ function ArticleCard({
           id={content.markReadId}
           className="btn btn-ghost"
           type="button"
-          disabled={articleDone || !html || !scrolledToEnd}
-          aria-disabled={articleDone || !html || !scrolledToEnd}
+          disabled={locked || articleDone || !html || !scrolledToEnd}
+          aria-disabled={locked || articleDone || !html || !scrolledToEnd}
           onClick={handleMarkRead}
         >
           {articleDone ? "Article completed" : "Mark article as read"}
@@ -305,7 +305,7 @@ export function Module(props: ModuleProps) {
         </>
       )}
 
-      <ArticleCard articleDone={props.articleDone} unit={props.unit} content={content} mdPath={props.mdPath} locked={props.locked} onArticleDone={props.onArticleDone} />
+      <ArticleCard articleDone={props.articleDone} unit={props.unit} content={content} mdPath={props.mdPath} locked={props.locked || (props.unit !== 4 && !props.videoDone)} onArticleDone={props.onArticleDone} />
 
       {props.unit === 3 && <ScriptDrills onDrillsChecked={props.onDrillsChecked} />}
     </>

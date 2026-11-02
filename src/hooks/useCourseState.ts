@@ -149,9 +149,10 @@ function computeLocks(state: CourseState, steps: readonly StepStatus[], currentS
   const currentLabel = steps[currentStepIndex]?.label ?? '';
   const locks = {} as SectionLocks;
   for (const section of SECTION_ORDER) {
-    const complete = isSectionComplete(section, state);
+    const earlierComplete = SECTION_ORDER.slice(0, SECTION_ORDER.indexOf(section)).every(id => isSectionComplete(id, state));
+    const complete = earlierComplete && isSectionComplete(section, state);
     const current = section === currentSection;
-    const locked = !complete && !current;
+    const locked = !earlierComplete || (!complete && !current);
     locks[section] = {
       section,
       complete,
@@ -218,6 +219,13 @@ function applyCourseState(updater: (prev: CourseState) => CourseState): void {
   saveCourseState(updater(prev));
 }
 
+function moduleReady(state: CourseState, unit: 1 | 2 | 3 | 4): boolean {
+  return state.preQuiz.completed && ([1, 2, 3] as const).filter(previous => previous < unit).every(previous => isSectionComplete(`#module-${previous}`, state));
+}
+function finalReady(state: CourseState): boolean {
+  return moduleReady(state, 4) && isSectionComplete('#module-4', state);
+}
+
 export function useCourseState(): UseCourseStateResult {
   const [hydrated, setHydrated] = useState(false);
   const snapshot = useSyncExternalStore(progressStore.subscribe, progressStore.get, () => SERVER_PROGRESS_SNAPSHOT);
@@ -259,6 +267,7 @@ export function useCourseState(): UseCourseStateResult {
 
   const setModuleVideoDone = useCallback((unit: 1 | 2 | 3) => {
     applyCourseState((prev) => {
+      if (!moduleReady(prev, unit)) return prev;
       if (unit === 1) return { ...prev, m1: { ...prev.m1, video: true } };
       if (unit === 2) return { ...prev, m2: { ...prev.m2, video: true } };
       return { ...prev, m3: { ...prev.m3, video: true } };
@@ -267,6 +276,7 @@ export function useCourseState(): UseCourseStateResult {
 
   const setModuleArticleDone = useCallback((unit: 1 | 2 | 3 | 4) => {
     applyCourseState((prev) => {
+      if (!moduleReady(prev, unit) || (unit !== 4 && !prev[`m${unit}`].video)) return prev;
       if (unit === 1) return { ...prev, m1: { ...prev.m1, article: true } };
       if (unit === 2) return { ...prev, m2: { ...prev.m2, article: true } };
       if (unit === 3) return { ...prev, m3: { ...prev.m3, article: true } };
@@ -275,7 +285,7 @@ export function useCourseState(): UseCourseStateResult {
   }, []);
 
   const completeIdExercise = useCallback(() => {
-    applyCourseState((prev) => ({ ...prev, m2: { ...prev.m2, idExercise: true } }));
+    applyCourseState((prev) => moduleReady(prev, 2) && prev.m2.video && prev.m2.article ? ({ ...prev, m2: { ...prev.m2, idExercise: true } }) : prev);
   }, []);
 
   const setDrillsChecked = useCallback(() => {
@@ -283,12 +293,12 @@ export function useCourseState(): UseCourseStateResult {
   }, []);
 
   const completeAudit = useCallback((auditId: string) => {
-    applyCourseState((prev) => ({ ...prev, m4: { ...prev.m4, auditSubmitted: true, auditId } }));
+    applyCourseState((prev) => moduleReady(prev, 4) && prev.m4.article && auditId.trim() ? ({ ...prev, m4: { ...prev.m4, auditSubmitted: true, auditId } }) : prev);
   }, []);
 
   const setPostQuizAnswer = useCallback((idx: number, value: number) => {
     applyCourseState((prev) => {
-      if (prev.postQuiz.completed) return prev;
+      if (!finalReady(prev) || prev.postQuiz.completed) return prev;
       const answers = [...prev.postQuiz.answers];
       answers[idx] = value;
       return { ...prev, postQuiz: { ...prev.postQuiz, answers } };
@@ -296,7 +306,7 @@ export function useCourseState(): UseCourseStateResult {
   }, []);
 
   const submitPostQuiz = useCallback((result: PostQuizSubmission) => {
-    applyCourseState((prev) => ({ ...prev, postQuiz: { completed: true, ...result } }));
+    applyCourseState((prev) => finalReady(prev) && result.answers.length > 0 && result.answers.every(answer => answer !== null) ? ({ ...prev, postQuiz: { completed: true, ...result, pass: result.pass && result.score >= 80 } }) : prev);
   }, []);
 
   const retakePostQuiz = useCallback(() => {
@@ -309,6 +319,7 @@ export function useCourseState(): UseCourseStateResult {
 
   const issueCertificate = useCallback((): { id: string; date: string } => {
     const prev = progressStore.get().courseState;
+    if (!finalReady(prev) || !prev.postQuiz.completed || !prev.postQuiz.pass || prev.postQuiz.score < 80) return { id: '', date: '' };
     const id = prev.certificate.id || `FF-DP-${Date.now()}`;
     const date = prev.certificate.date || new Date().toISOString().slice(0, 10);
     applyCourseState((p) => ({ ...p, certificate: { issued: true, id, date } }));

@@ -101,6 +101,13 @@ export function Certificate({ postQuizScore, certificate: _certificate, onIssue 
         </div>
       </div>
 
+      <div className="course-completion-note">
+        <span className="course-eyebrow">YOUR NEXT CHAPTER IS UNLOCKED</span>
+        <h3>Subscriptions & Memberships</h3>
+        <p>Put your pattern-spotting skills to work in a complete, one-hour course on costs, trials, renewals, and cancellations.</p>
+        <a className="course-button" href="/coursetwo">Start Course 2 →</a>
+      </div>
+
       {/* Printable sheet */}
       <div id="certificate-sheet" className="certificate-sheet" aria-hidden="true">
         <div className="cert-header">

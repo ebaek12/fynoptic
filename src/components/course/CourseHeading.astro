@@ -1,0 +1,21 @@
+---
+interface Props { number: string; title: string; accent: string; description: string; modules: number; duration: string; outcome: string; }
+const { number, title, accent, description, modules, duration, outcome } = Astro.props;
+---
+<header class="course-heading">
+  <a href="/courses" class="course-back">← All courses</a>
+  <div class="course-hero-grid">
+    <div>
+      <p class="course-eyebrow">THE FYNOPTIC CLASSROOM <span aria-hidden="true">/</span> COURSE {number}</p>
+      <h1>{title}<br /><span>{accent}</span></h1>
+      <p class="course-hero-description">{description}</p>
+      <div class="course-hero-facts"><span>{duration}</span><span>{modules} guided modules</span><span>Free · Self-paced</span></div>
+    </div>
+    <aside class="course-outcome" aria-label="Your learning goal">
+      <span class="course-outcome-mark" aria-hidden="true">{number}</span>
+      <p class="course-eyebrow">LEAVE WITH A REAL SKILL</p>
+      <p>{outcome}</p>
+      <div class="course-outcome-footer"><span aria-hidden="true">✓</span> Learn it. Practice it. Make it yours.</div>
+    </aside>
+  </div>
+</header>

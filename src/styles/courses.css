@@ -27,6 +27,7 @@ html body .course-library {
 .library-card--available {
   border-color: var(--db-optic);
 }
+.library-preview { display: inline-block; margin-top: 16px; color: var(--db-optic); font-size: 13px; text-underline-offset: 4px; }
 .library-card-top {
   display: flex;
   align-items: center;
